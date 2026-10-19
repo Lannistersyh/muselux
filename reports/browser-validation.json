@@ -2,7 +2,7 @@
   "date": "2026-10-19",
   "scope": "24-product Style Edit update",
   "browserRunPerformed": false,
-  "reason": "Existing Edge inventory contained 10 user tabs. No new QA tab was opened under the user's maximum-eight-tab rule; existing user pages were not changed.",
+  "reason": "The user explicitly selected static checks and publication first after being informed that existing Edge tabs exceeded the maximum-eight-tab rule. No QA tab was opened and existing user pages were not changed.",
   "ownedTabsOpened": 0,
   "ownedTabsRemaining": 0,
   "historicalReport": "browser-validation-initial.json",
@@ -15,5 +15,6 @@
     "English detail content and page language",
     "JavaScript syntax and compressed runtime-data decode"
   ],
-  "staticReport": "static-validation.json"
+  "staticReport": "static-validation.json",
+  "userSelectedFlow": "Complete static checks and publish first"
 }

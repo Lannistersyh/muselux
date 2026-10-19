@@ -50,7 +50,7 @@ reports/        验收记录、页面清单、商品来源清单和预览截图
 
 ## 数据脚本与 80 KB 预算
 
-运行时搜索与筛选所需字段由普通 `<script src="assets/js/data.js">` 提供，没有 ES Modules，也没有 fetch 本地 JSON。完整故事、规格与来源已预渲染到 HTML；数据脚本只发送搜索字段，并编码成 gzip + Base64，用浏览器内置 `DecompressionStream` 在内存中解码。运行时 JavaScript 约 23.4 KiB，低于 80 KiB 预算。
+运行时搜索与筛选所需字段由普通 `<script src="assets/js/data.js">` 提供，没有 ES Modules，也没有 fetch 本地 JSON。完整故事、规格与来源已预渲染到 HTML；数据脚本只发送搜索字段，并编码成 gzip + Base64，用浏览器内置 `DecompressionStream` 在内存中解码。运行时 JavaScript 约 23.3 KiB，低于 80 KiB 预算。
 
 解码完成后得到 `window.MUSELUX_DATA`，`window.MUSELUX_READY` 是对应 Promise。Chrome / Edge 80+、Safari 16.4+ 支持所需的原生能力；目标为最新两个大版本。页面正文已经预渲染，数据只为搜索和筛选提供增强。所有外部来源链接都是普通阅读入口，首屏和站内交互不请求网络。
 
