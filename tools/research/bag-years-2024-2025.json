@@ -1,0 +1,788 @@
+{
+  "methodologyEn": "Each year contains four editorial hot selections and two collector or seasonal-capsule selections. Dated Lyst product signals and contemporaneous fashion coverage support the hot edit; it is not a universal annual sales ranking. Model-family heat can be represented by a precisely identified current variant, with its photograph, size, material and price evidence specified separately. Limited-edition labels require explicit brand evidence. Season-specific special capsules retain that narrower label, without an invented production count. Prices distinguish live U.S. retail, indexed retail references and reported historical launch figures. All descriptions and styling text are original English editorial writing.",
+  "years": [
+    {
+      "year": 2024,
+      "headlineEn": "Long lines, soft structure and collectible play",
+      "introEn": "Our 2024 edit moves from the elongated Le Teckel and tactile suede Arcadie to the relaxed Rodeo and geometric Puzzle Fold. Two special capsules add another register: Tyler, the Creator’s hand-drawn Louis Vuitton motifs and Fendi’s beaded tribute to Dragon-type Pokémon. Each selection has a dated reason for belonging to the year.",
+      "sources": [
+        {
+          "label": "Lyst Index Q1 2024",
+          "url": "https://www.lyst.com/data/the-lyst-index/q124/",
+          "publishedAt": "2024 (Q1 report)",
+          "sourceType": "primary-demand-report"
+        },
+        {
+          "label": "Lyst Index Q3 2024",
+          "url": "https://www.lyst.com/the-lyst-index/2024/q3/",
+          "publishedAt": "2024 (Q3 report)",
+          "sourceType": "primary-demand-report"
+        },
+        {
+          "label": "British Vogue: Loewe Puzzle bag",
+          "url": "https://www.vogue.co.uk/article/loewe-puzzle-bag",
+          "publishedAt": "2024-04-09",
+          "sourceType": "editorial"
+        },
+        {
+          "label": "LVMH: Spring 2024 men’s capsule",
+          "url": "https://www.lvmh.com/en/news-lvmh/louis-vuitton-and-pharrell-williams-tap-tyler-the-creator-for-spring-2024-mens-capsule-collection/",
+          "publishedAt": "2024-03-22",
+          "sourceType": "official-brand-announcement"
+        },
+        {
+          "label": "Fendi Japan: official launch report",
+          "url": "https://prtimes.jp/main/html/rd/p/000000371.000003876.html",
+          "publishedAt": "2024-01-09",
+          "sourceType": "official-brand-announcement"
+        }
+      ],
+      "entries": [
+        {
+          "id": "bag-2024-alaia-le-teckel-medium",
+          "year": 2024,
+          "selection": "hot",
+          "brand": "alaia",
+          "brandName": "Alaïa",
+          "name": "Le Teckel medium bag in calfskin — Black",
+          "nameZh": "阿莱亚 Le Teckel 中号腊肠包 黑色",
+          "reference": "AA1S06033I061999U",
+          "color": "Black",
+          "sizes": [
+            "Medium · 33 × 11 × 10 cm"
+          ],
+          "materials": [
+            "Smooth calfskin",
+            "Calfskin lining"
+          ],
+          "priceUSD": 3050,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "U.S. retail · checked 19 Oct 2026",
+          "priceSource": "https://www.maison-alaia.com/en-us/product/shoulder-bags/le-teckel-medium-bag-in-calfskin-AA1S06033I061999U.html",
+          "priceEvidence": "The live official U.S. page and product data both listed USD 3,050 on 2026-10-19.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.maison-alaia.com/en-us/product/shoulder-bags/le-teckel-medium-bag-in-calfskin-AA1S06033I061999U.html",
+          "image": "assets/img/bag-years/2024-alaia-le-teckel.jpg",
+          "imageSource": "https://www.maison-alaia.com/dw/image/v2/BKHJ_PRD/on/demandware.static/-/Sites-alaia-master/default/dw50ec4782/images/all-images/AA1S06033I061999/ZFTQoTLbRDC8yE73AIw9pQ_5649f8b5.jpeg?sw=750&sfrm=png&q=80",
+          "imageCredit": "© Alaïa",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the relevant rights holder; no reuse licence has been established.",
+          "imageWidth": 750,
+          "imageHeight": 1333,
+          "introEn": "Le Teckel makes an impression through proportion. Its low, elongated body sits beneath slim tubular handles, giving the familiar black shoulder bag an unexpectedly graphic outline. Smooth calfskin keeps the surface quiet enough for that shape to lead, while a double zipper and a removable interior mirror add useful detail. This medium black reference offers a particularly clear expression of the design: precise, compact and easy to imagine moving between a tailored daytime wardrobe and a more minimal evening look.",
+          "featuresEn": [
+            "Smooth calfskin exterior and calfskin lining.",
+            "Double zip closure with a removable mirror inside the pocket.",
+            "Medium dimensions: 33 cm long, 11 cm high and 10 cm deep."
+          ],
+          "stylingEn": "Pair the elongated silhouette with a cropped jacket and straight trousers, or let it trace a clean line against a simple column dress. Small earrings keep the proportions in focus.",
+          "selectionReasonEn": "Lyst’s Q3 2024 report identified the Teckel among the Alaïa bags sustaining significant worldwide demand. This selection follows that dated model-family signal; the photograph and price identify a specific black medium reference checked separately in 2026.",
+          "selectionSources": [
+            {
+              "label": "Lyst Index Q3 2024",
+              "url": "https://www.lyst.com/the-lyst-index/2024/q3/",
+              "publishedAt": "2024 (Q3 report)",
+              "evidence": "The Teckel and Le Coeur bags were named as significant drivers of worldwide demand."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Current reference for the pictured variant; confirm availability and price with the brand."
+        },
+        {
+          "id": "bag-2024-miu-miu-arcadie-suede",
+          "year": 2024,
+          "selection": "hot",
+          "brand": "miu-miu",
+          "brandName": "Miu Miu",
+          "name": "Arcadie suede bag — Cocoa Brown",
+          "nameZh": "缪缪 Arcadie 麂皮包 可可棕",
+          "reference": "5BB148_2CS4_F0324_V_OON",
+          "color": "Cocoa Brown",
+          "sizes": [
+            "27 × 12 × 9 cm"
+          ],
+          "materials": [
+            "Suede calfskin",
+            "Cotton lining"
+          ],
+          "priceUSD": 3900,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "U.S. retail · checked 19 Oct 2026",
+          "priceSource": "https://www.miumiu.com/us/en/p/arcadie-suede-bag/5BB148_2CS4_F0324_V_OON",
+          "priceEvidence": "Live official U.S. product JSON listed USD 3,900 and calfskin on 2026-10-19.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.miumiu.com/us/en/p/arcadie-suede-bag/5BB148_2CS4_F0324_V_OON",
+          "image": "assets/img/bag-years/2024-miu-miu-arcadie-suede.jpg",
+          "imageSource": "https://www.miumiu.com/content/dam/miumiubkg_products/5/5BB/5BB148/2CS4F0324/5BB148_2CS4_F0324_V_OON_SLF.jpg",
+          "imageCredit": "© Miu Miu",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the relevant rights holder; no reuse licence has been established.",
+          "imageWidth": 2400,
+          "imageHeight": 2400,
+          "introEn": "The suede Arcadie turns a compact rectangular handbag into a study in texture. Cocoa Brown gives the lightly padded calfskin a warm, tactile character, balanced by gold-tone fittings and leather handles. The zipped top and cotton-lined interior make its neat outline feel purposeful, and a detachable leather strap changes the carrying gesture without changing the silhouette. In this current reference, the familiar Miu Miu lettering stays discreet enough for the surface and the small, softly structured form to do the talking.",
+          "featuresEn": [
+            "Lightly padded suede calfskin with leather handles.",
+            "Detachable, adjustable leather shoulder strap and zipper closure.",
+            "Cotton lining with a zipped pocket; protective purse feet."
+          ],
+          "stylingEn": "Use the cocoa suede beside a pale shirt, dark denim and loafers for a relaxed daytime look. A simple wool coat gives its soft texture a sharper frame in cooler weather.",
+          "selectionReasonEn": "The suede Arcadie ranked fourth in Lyst’s Q3 2024 hottest-products list. That direct, dated product-family evidence anchors this edit, while the pictured Cocoa Brown size and its current U.S. retail price are specified independently.",
+          "selectionSources": [
+            {
+              "label": "Lyst Index Q3 2024",
+              "url": "https://www.lyst.com/the-lyst-index/2024/q3/",
+              "publishedAt": "2024 (Q3 report)",
+              "evidence": "Arcadie Suede Bag appeared at number four in the hottest-products list."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Current reference for the pictured variant; confirm availability and price with the brand."
+        },
+        {
+          "id": "bag-2024-balenciaga-rodeo-medium",
+          "year": 2024,
+          "selection": "hot",
+          "brand": "balenciaga",
+          "brandName": "Balenciaga",
+          "name": "Rodeo handbag medium — Black, aged-silver hardware",
+          "nameZh": "巴黎世家 Rodeo 中号手袋 黑色银扣",
+          "reference": "7897722AA4U1000",
+          "color": "Black with aged-silver hardware",
+          "sizes": [
+            "Medium · 35 × 23.5 × 11 cm"
+          ],
+          "materials": [
+            "Smooth calfskin",
+            "Nappa lambskin lining"
+          ],
+          "priceUSD": 4590,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-19 reference check; official snapshot crawled about two weeks earlier",
+          "priceLabelEn": "U.S. retail reference · official snapshot ~Oct 2026",
+          "priceSource": "https://www.balenciaga.com/en-us/rodeo-handbag-medium-black-7897722AA4U1000.html?dwvar_7897722AA4U1000_color=1000",
+          "priceEvidence": "Official U.S. indexed product snapshot displayed USD 4,590; retrieval reported a crawl about two weeks before 2026-10-19. This is a reference price, not a live checkout quote.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.balenciaga.com/en-us/rodeo-handbag-medium-black-7897722AA4U1000.html?dwvar_7897722AA4U1000_color=1000",
+          "image": "assets/img/bag-years/2024-balenciaga-rodeo.jpg",
+          "imageSource": "https://balenciaga.dam.kering.com/asset/1f1765a7-ed74-45b9-85bd-7bd8d6bb3246/Medium/7897722AA4U1000_F.jpg?v=5",
+          "imageCredit": "© Balenciaga",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the relevant rights holder; no reuse licence has been established.",
+          "imageWidth": 1100,
+          "imageHeight": 1100,
+          "introEn": "Rodeo has the vocabulary of a polished work bag with a more relaxed posture. Black smooth calfskin folds around the front pocket, while the turn lock and aged-silver fittings give the medium silhouette a restrained industrial edge. Its single handle, removable shoulder strap and cloche clés introduce several ways to change the mood. A lambskin-lined interior and useful pocket arrangement support the practical side of the design, making the visual contrast between formal hardware and softened leather especially compelling.",
+          "featuresEn": [
+            "Smooth calfskin exterior with nappa lambskin lining.",
+            "Turn-lock fastening, wide front pocket and removable shoulder strap.",
+            "Medium dimensions: 35 × 23.5 × 11 cm; four protective brass feet."
+          ],
+          "stylingEn": "Let the bag soften a crisp shirt and tailored trousers, or carry it beside a fluid trench and flat boots. Keep other hardware in cool metal tones for an easy visual connection.",
+          "selectionReasonEn": "Rodeo appeared at number six in Lyst’s Q1 2024 hottest-products list, giving this selection an early and directly documented 2024 demand signal. The medium black bag shown here is an exact current reference for that model family.",
+          "selectionSources": [
+            {
+              "label": "Lyst Index Q1 2024",
+              "url": "https://www.lyst.com/data/the-lyst-index/q124/",
+              "publishedAt": "2024 (Q1 report)",
+              "evidence": "Balenciaga Rodeo bag ranked sixth among hottest products; the brand summary also recorded its introduction."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": 2024,
+          "availabilityEn": "Reference product and official photograph retained; the quoted U.S. price comes from an indexed official snapshot. Confirm current availability."
+        },
+        {
+          "id": "bag-2024-loewe-puzzle-fold-medium",
+          "year": 2024,
+          "selection": "hot",
+          "brand": "loewe",
+          "brandName": "LOEWE",
+          "name": "Medium Puzzle Fold tote in shiny calfskin — Warm Desert",
+          "nameZh": "罗意威 Puzzle Fold 中号折叠托特 暖沙色",
+          "reference": "A657G50X01-2586",
+          "color": "Warm Desert",
+          "sizes": [
+            "Medium"
+          ],
+          "materials": [
+            "Shiny calfskin",
+            "Suede lining"
+          ],
+          "priceUSD": 2350,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-19 reference check; retailer snapshot crawled about five months earlier",
+          "priceLabelEn": "U.S. retail reference · retailer snapshot ~May 2026",
+          "priceSource": "https://editorialist.com/p/loewe-puzzle-fold-leather-tote-bag-30265053/?lid=34396514",
+          "priceEvidence": "The specific medium Warm Desert offer in the Editorialist page lists LOEWE as retailer and USD 2,350; page crawl reported about five months before check. The page header can group other sizes, so the medium offer, rather than its mini header or resale history, is the price evidence.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.loewe.com/usa/en/women/bags/totes/medium-puzzle-fold-tote-in-shiny-calfskin/A657G50X01-2586.html?cgid=w_totes&p=5",
+          "image": "assets/img/bag-years/2024-loewe-puzzle-fold.jpg",
+          "imageSource": "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw26920400/images_rd/A657G50X01/A657G50X01-2586/A657G50X01_2586_1F.jpg?q=100&sw=750",
+          "imageCredit": "© LOEWE",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the relevant rights holder; no reuse licence has been established.",
+          "imageWidth": 750,
+          "imageHeight": 1132,
+          "introEn": "The Puzzle Fold translates LOEWE’s interest in geometry into a simple, useful tote. Diagonal panels animate the Warm Desert calfskin, giving an otherwise clean surface a distinct sense of construction. The medium version is designed to collapse flat, an appealing detail for packing and storage, while long handles allow shoulder or hand carry. Its warm color offers an expressive alternative within a neutral wardrobe, and the open silhouette invites the kind of uncomplicated styling that makes a daily bag feel personal.",
+          "featuresEn": [
+            "Shiny calfskin with a suede-lined interior.",
+            "Geometric panel construction designed to fold completely flat.",
+            "Medium tote with shoulder or hand carry."
+          ],
+          "stylingEn": "Wear it with an ivory knit and wide trousers to echo the warm leather, or use it as the soft counterpoint to a dark coat. Its flat-folding structure also suits thoughtful travel packing.",
+          "selectionReasonEn": "British Vogue’s 9 April 2024 feature documented the Puzzle Fold’s celebrity adoption and the continuing retail appeal of the Puzzle family. It supplies contemporaneous editorial support for this 2024 selection, without implying an annual sales rank.",
+          "selectionSources": [
+            {
+              "label": "British Vogue: Loewe Puzzle bag",
+              "url": "https://www.vogue.co.uk/article/loewe-puzzle-bag",
+              "publishedAt": "2024-04-09",
+              "evidence": "The feature discussed the Puzzle Fold tote and named Jennifer Lawrence, Taylor Russell and Greta Lee as wearers."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": 2023,
+          "availabilityEn": "Archived official Warm Desert product reference; the original URL may no longer resolve. The retail figure is a separately labelled retailer snapshot, with no stock promise."
+        },
+        {
+          "id": "bag-2024-louis-vuitton-tyler-keepall25",
+          "year": 2024,
+          "selection": "limited",
+          "brand": "louis-vuitton",
+          "brandName": "Louis Vuitton",
+          "name": "Tyler, the Creator Keepall Bandoulière 25 — Chocolate Craggy Monogram",
+          "nameZh": "路易威登 Tyler 联名 Keepall 25 巧克力涂鸦老花",
+          "reference": "M24849",
+          "color": "Chocolate Craggy Monogram",
+          "sizes": [
+            "25 · 9.8 × 5.9 × 4.3 in"
+          ],
+          "materials": [
+            "Monogram coated canvas",
+            "Leather handles and trim"
+          ],
+          "priceUSD": 2600,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2024-03-21",
+          "priceLabelEn": "Reported 2024 retail · StockX catalogue record",
+          "priceSource": "https://stockx.com/louis-vuitton-by-tyler-the-creator-keepall-bandouliere-25-chocolate-craggy-monogram",
+          "priceEvidence": "StockX identifies M24849 and states a 21 March 2024 release at USD 2,600; Editorialist independently records the same historical release figure. Marketplace asking prices are excluded.",
+          "checkedAt": "2026-10-19",
+          "source": "https://uk.louisvuitton.com/eng-gb/products/keepall-bandouliere-25-bag-monogram-other-nvprod5240035v/M24849",
+          "image": "assets/img/bag-years/2024-lv-tyler-keepall25.jpg",
+          "imageSource": "https://images.stockx.com/images/Louis-Vuitton-by-Tyler-the-Creator-Keepall-Bandouliere-25-Chocolate-Craggy-Monogram-Product.jpg?bg=FFFFFF&dpr=1&fit=fill&h=857&q=60&trim=color&trimcolor=ffffff&updated_at=1738193358&w=1200",
+          "imageCredit": "Louis Vuitton product photograph via StockX",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the relevant rights holder; no reuse licence has been established.",
+          "imageWidth": 800,
+          "imageHeight": 857,
+          "introEn": "Tyler, the Creator’s Chocolate Craggy Monogram gives the compact Keepall a playful, deliberately irregular rhythm. Multicolored flowers interrupt the familiar brown canvas, while natural-toned handles and leather bands preserve the silhouette’s travel-bag character. The 25 format brings that language into an everyday scale, with a zipper and detachable shoulder strap supporting practical carry. It is a vivid record of the Spring 2024 collaboration: recognizable Louis Vuitton construction filtered through an artist’s hand-drawn marks and a palette that feels almost confectionery.",
+          "featuresEn": [
+            "Chocolate Monogram coated canvas with multicolored Craggy motifs.",
+            "Compact Keepall 25 with leather handles, zip closure and adjustable strap.",
+            "Reference M24849; documented retail release on 21 March 2024."
+          ],
+          "stylingEn": "Give the colorful canvas room to stand out against a plain knit, relaxed trousers and loafers. Pick one flower color for a small outfit accent instead of repeating the full palette.",
+          "selectionReasonEn": "LVMH identifies the collaboration specifically as Louis Vuitton’s Spring 2024 men’s capsule. The Keepall 25’s documented March 2024 retail release places this exact reference within that season. It is labelled a seasonal capsule; no production quantity is claimed.",
+          "selectionSources": [
+            {
+              "label": "LVMH: Spring 2024 men’s capsule",
+              "url": "https://www.lvmh.com/en/news-lvmh/louis-vuitton-and-pharrell-williams-tap-tyler-the-creator-for-spring-2024-mens-capsule-collection/",
+              "publishedAt": "2024-03-22",
+              "evidence": "Official parent-company announcement names a Spring 2024 capsule and explains the hand-drawn Craggy Monogram."
+            },
+            {
+              "label": "StockX release record",
+              "url": "https://stockx.com/louis-vuitton-by-tyler-the-creator-keepall-bandouliere-25-chocolate-craggy-monogram",
+              "publishedAt": null,
+              "evidence": "Reference M24849, release 21 March 2024, reported retail USD 2,600."
+            }
+          ],
+          "editionType": "seasonal-capsule",
+          "editionLabelEn": "Spring 2024 special capsule",
+          "editionEvidence": "LVMH’s dated official announcement calls it the Spring 2024 Men’s Capsule Collection and identifies the Craggy Monogram as its emblem. The evidence is a season-specific capsule, with no published unit count or sales-closing date.",
+          "editionSource": "https://www.lvmh.com/en/news-lvmh/louis-vuitton-and-pharrell-williams-tap-tyler-the-creator-for-spring-2024-mens-capsule-collection/",
+          "releaseYear": 2024,
+          "availabilityEn": "Archive selection from the Spring 2024 capsule. Original official product URL is now unavailable; price is reported launch retail, not a current resale offer."
+        },
+        {
+          "id": "bag-2024-fendi-frgmt-pokemon-beaded-baguette",
+          "year": 2024,
+          "selection": "limited",
+          "brand": "fendi",
+          "brandName": "Fendi",
+          "name": "FENDI x FRGMT x POKÉMON beaded Baguette — Multicolor",
+          "nameZh": "芬迪 藤原浩 宝可梦 联名串珠 Baguette 法棍包",
+          "reference": "8BR600AR1SF1N7O",
+          "color": "Multicolor",
+          "sizes": [
+            "Baguette · 10.6 × 5.9 × 2.4 in"
+          ],
+          "materials": [
+            "Glass microbeads",
+            "Polyester base"
+          ],
+          "priceUSD": 9400,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2024-01-04",
+          "priceLabelEn": "Reported 2024 retail · StockX catalogue record",
+          "priceSource": "https://stockx.com/fendi-x-frgmt-x-pokemon-beaded-bag-baguette-multicolor",
+          "priceEvidence": "The exact beaded Baguette reference is listed with Retail Price USD 9,400 and release date 4 January 2024 by StockX. GGRecon’s 4 January 2024 launch coverage also quoted USD 9,400 from Fendi U.S.; neither figure is a resale asking price.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.timeinternational.co.id/fendi-x-frgmt-x-pokemon-collaboration/",
+          "image": "assets/img/bag-years/2024-fendi-pokemon-baguette.jpg",
+          "imageSource": "https://www.timeinternational.co.id/wp-content/uploads/FENDI-x-FRGMT-x-POKEMON_Baguette-Embroidery-Dratini-Dragonair-Dragonite-min-scaled.jpg",
+          "imageCredit": "© Fendi / Pokémon; photograph published by Time International",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the relevant rights holder; no reuse licence has been established.",
+          "imageWidth": 2048,
+          "imageHeight": 2560,
+          "introEn": "This Baguette combines the graphic familiarity of Fendi’s FF pattern with the animated world of Dratini, Dragonair and Dragonite. Microbead embroidery and a fringed edge give the small horizontal silhouette a richly textured finish, while the recognizable clasp and handle preserve the bag’s identity. The result feels unusually joyful for an evening accessory: part character portrait, part surface craft. Its place in the 2024 Year of the Dragon collection gives the design a specific cultural moment beyond the collaboration names.",
+          "featuresEn": [
+            "FF microbead embroidery features Dratini, Dragonair and Dragonite.",
+            "Fringed Baguette silhouette with detachable handle and shoulder strap.",
+            "Exact multicolor beaded reference: 8BR600AR1SF1N7O."
+          ],
+          "stylingEn": "Let the embroidery become the focal point with a plain dark dress or a sharp suit. Simple shoes and a small metal earring keep the characters and beadwork visually clear.",
+          "selectionReasonEn": "Fendi Japan’s official launch announcement dates sales to 4 January 2024 and ties the collection to that year’s Dragon zodiac celebration. This is presented as a Year of the Dragon special capsule, with its original beaded Baguette retail price identified separately.",
+          "selectionSources": [
+            {
+              "label": "Fendi Japan official launch announcement",
+              "url": "https://prtimes.jp/main/html/rd/p/000000371.000003876.html",
+              "publishedAt": "2024-01-09",
+              "evidence": "Sales began 4 January 2024 in selected stores; the collection celebrates the 2024 Year of the Dragon."
+            },
+            {
+              "label": "Fendi Japan collection design announcement",
+              "url": "https://prtimes.jp/main/html/rd/p/000000367.000003876.html",
+              "publishedAt": null,
+              "evidence": "The special Baguette uses microbead FF embroidery, three Dragon-type Pokémon and fringe."
+            }
+          ],
+          "editionType": "seasonal-capsule",
+          "editionLabelEn": "Year of the Dragon 2024 special capsule",
+          "editionEvidence": "Fendi Japan explicitly links the special collection to the 2024 Year of the Dragon and confirms its 4 January 2024 launch. This is seasonal capsule evidence; no numbered production run or fixed sales end date was published in the cited announcement.",
+          "editionSource": "https://prtimes.jp/main/html/rd/p/000000371.000003876.html",
+          "releaseYear": 2024,
+          "availabilityEn": "Archive selection from the 2024 special capsule. The stated amount is reported U.S. launch retail; current boutique or resale availability is not implied."
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "headlineEn": "Compact favorites, a heritage revival and an anniversary",
+      "introEn": "The 2025 edit pairs two Lyst-recognized compact bags with the reissued Chloé Paddington and Prada’s softly gathered Dada. The collector selection returns to LOEWE’s Puzzle 10 anniversary: Confetti was a new celebratory design, while Plumeria revisited an earlier floral idea. Both carry explicit official limited-edition evidence.",
+      "sources": [
+        {
+          "label": "Lyst Index Q1 2025",
+          "url": "https://www.lyst.com/the-lyst-index/q1-25/",
+          "publishedAt": "2025 (Q1 report)",
+          "sourceType": "primary-demand-report"
+        },
+        {
+          "label": "British Vogue: Paddington revival",
+          "url": "https://www.vogue.co.uk/article/chloe-paddington-dua-lipa",
+          "publishedAt": "2025-11-11",
+          "sourceType": "editorial"
+        },
+        {
+          "label": "Vogue Italia: Prada belted bags",
+          "url": "https://www.vogue.it/article/borsa-prada-buckle-modelli-tendenza",
+          "publishedAt": "2025-11-19",
+          "sourceType": "editorial"
+        },
+        {
+          "label": "LOEWE: Puzzle 10 official collection",
+          "url": "https://www.loewe.com/int/en/pd/stories-collection/puzzle10-collection.html?country=CA",
+          "publishedAt": null,
+          "sourceType": "official-brand-collection"
+        },
+        {
+          "label": "LOEWE Japan: official launch report",
+          "url": "https://prtimes.jp/main/html/rd/p/000000133.000010711.html",
+          "publishedAt": "2025-05-30",
+          "sourceType": "official-brand-announcement"
+        },
+        {
+          "label": "Vogue: Puzzle tenth-anniversary launch",
+          "url": "https://www.vogue.com/article/loewe-puzzle-10-year-anniversary",
+          "publishedAt": "2025-05-29",
+          "sourceType": "editorial"
+        }
+      ],
+      "entries": [
+        {
+          "id": "bag-2025-saint-laurent-gaby-vanity",
+          "year": 2025,
+          "selection": "hot",
+          "brand": "saint-laurent",
+          "brandName": "Saint Laurent",
+          "name": "Gaby vanity in lambskin — Medium, Black",
+          "nameZh": "圣罗兰 Gaby 中号黑色羊皮化妆盒包",
+          "reference": "7667311EL071000",
+          "color": "Black",
+          "sizes": [
+            "Medium"
+          ],
+          "materials": [
+            "Lambskin",
+            "Leather lining"
+          ],
+          "priceUSD": 2300,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-19 reference check; official snapshot crawled about two months earlier",
+          "priceLabelEn": "U.S. retail reference · official snapshot ~Aug 2026",
+          "priceSource": "https://www.ysl.com/en-us/pr/gaby-vanity-in-lambskin-7667311EL071000.html?currentContextTags=&hasNativeHeader=true",
+          "priceEvidence": "Indexed official U.S. page identifies size Medium, black lambskin and USD 2,300; crawl recency was about two months before 2026-10-19. Live product-page access was unavailable.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.ysl.com/en-us/pr/gaby-vanity-in-lambskin-7667311EL071000.html?currentContextTags=&hasNativeHeader=true",
+          "image": "assets/img/bag-years/2025-saint-laurent-gaby.jpg",
+          "imageSource": "https://saint-laurent.dam.kering.com/asset/b0186b27-3136-4889-ad6c-887aac58c00e/eCom/7667311EL071000_A.jpg?v=4",
+          "imageCredit": "© Saint Laurent",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the relevant rights holder; no reuse licence has been established.",
+          "imageWidth": 2608,
+          "imageHeight": 3260,
+          "introEn": "Gaby gives the vanity-case silhouette a distinctly Saint Laurent finish. Black lambskin carries diamond quilting and the Cassandre emblem, with a small top handle emphasizing its compact, box-like proportions. A detachable chain strap offers a second carrying gesture, while the leather-lined interior gives the design continuity from outside to inside. The medium version shown here is appealing for its balance of recognizable detail and simple outline, making it easy to place beside either relaxed separates or a considered evening outfit.",
+          "featuresEn": [
+            "Black lambskin with diamond-quilted stitching and a Cassandre emblem.",
+            "Leather-lined interior.",
+            "Adjustable, detachable chain strap and top handle."
+          ],
+          "stylingEn": "Carry it by the handle with an oversized blazer and narrow trousers, or use the chain beside an understated evening dress. Keep the rest of the outfit quiet to emphasize its boxy shape.",
+          "selectionReasonEn": "Saint Laurent’s Gaby Vanity ranked fourth in Lyst’s Q1 2025 hottest-products list. This direct product-family signal supports its 2025 inclusion; the pictured medium black lambskin reference and its snapshot U.S. retail figure are identified separately.",
+          "selectionSources": [
+            {
+              "label": "Lyst Index Q1 2025",
+              "url": "https://www.lyst.com/the-lyst-index/q1-25/",
+              "publishedAt": "2025 (Q1 report)",
+              "evidence": "Saint Laurent Gaby Vanity Bag appeared at number four in the hottest-products list."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Pictured official medium reference retained. U.S. amount is an indexed official retail reference, with no current stock guarantee."
+        },
+        {
+          "id": "bag-2025-miu-miu-suede-pouch",
+          "year": 2025,
+          "selection": "hot",
+          "brand": "miu-miu",
+          "brandName": "Miu Miu",
+          "name": "Suede pouch — Cocoa Brown",
+          "nameZh": "缪缪 可可棕麂皮抽绳小包",
+          "reference": "5NF460_ACSS_F0324",
+          "color": "Cocoa Brown",
+          "sizes": [
+            "17 × 14 × 6 cm"
+          ],
+          "materials": [
+            "Suede lambskin",
+            "Light waterproof cotton lining"
+          ],
+          "priceUSD": 1290,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "U.S. retail · checked 19 Oct 2026",
+          "priceSource": "https://www.miumiu.com/us/en/p/suede-pouch/5NF460_ACSS_F0324",
+          "priceEvidence": "Live official U.S. product JSON listed USD 1,290 and main material lambskin on 2026-10-19.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.miumiu.com/us/en/p/suede-pouch/5NF460_ACSS_F0324",
+          "image": "assets/img/bag-years/2025-miu-miu-suede-pouch.jpg",
+          "imageSource": "https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/ACSSF0324/5NF460_ACSS_F0324_SLF.jpg",
+          "imageCredit": "© Miu Miu",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the relevant rights holder; no reuse licence has been established.",
+          "imageWidth": 2400,
+          "imageHeight": 2400,
+          "introEn": "Miu Miu’s Cocoa Brown suede pouch is a compact expression of the house’s informal mood. Its soft lambskin surface and gathered opening put texture and proportion ahead of heavy hardware, with an embossed logo adding a quiet signature. An adjustable leather strap makes the small format feel adaptable, and an internal pocket brings a little order to the simple interior. This reference works as a warm accent within a pared-back wardrobe, especially when its suede is allowed to contrast with crisp cotton or smooth wool.",
+          "featuresEn": [
+            "Soft suede lambskin exterior with an embossed lettering logo.",
+            "Adjustable leather shoulder strap and one internal pocket.",
+            "Light waterproof cotton lining; dimensions 17 × 14 × 6 cm."
+          ],
+          "stylingEn": "Wear the pouch over a crisp white shirt and dark trousers, or add it to a relaxed knit dress. Repeating the brown once in a belt or shoe will connect the look.",
+          "selectionReasonEn": "Miu Miu’s suede pouch was fifth in Lyst’s Q1 2025 hottest-products ranking. The yearbook uses that dated family-level demand signal, represented here by the precisely identified Cocoa Brown reference currently listed by the official U.S. store.",
+          "selectionSources": [
+            {
+              "label": "Lyst Index Q1 2025",
+              "url": "https://www.lyst.com/the-lyst-index/q1-25/",
+              "publishedAt": "2025 (Q1 report)",
+              "evidence": "Miu Miu Suede Pouch ranked fifth among the quarter’s hottest products."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Current reference for the pictured variant; confirm availability and price with the brand."
+        },
+        {
+          "id": "bag-2025-chloe-paddington-grained",
+          "year": 2025,
+          "selection": "hot",
+          "brand": "chloe",
+          "brandName": "Chloé",
+          "name": "Paddington bag in grained leather — Crafty Brown",
+          "nameZh": "蔻依 Paddington 帕丁顿锁头包 Crafty Brown",
+          "reference": "CH25WS802P7527M",
+          "color": "Crafty Brown",
+          "sizes": [
+            "36 × 18 × 18 cm"
+          ],
+          "materials": [
+            "Grained buffalo leather",
+            "Cotton lining",
+            "Suede calfskin pocket lining",
+            "Zamak padlock"
+          ],
+          "priceUSD": 2990,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "U.S. retail · checked 19 Oct 2026",
+          "priceSource": "https://www.chloe.com/en-us/p/bags/shoulder-bag/CH25WS802P7527M.html",
+          "priceEvidence": "Live official U.S. page and product data listed USD 2,990 for CH25WS802P7527M in Crafty Brown on 2026-10-19. This current amount is distinct from 2025 launch reporting.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.chloe.com/en-us/p/bags/shoulder-bag/CH25WS802P7527M.html",
+          "image": "assets/img/bag-years/2025-chloe-paddington.jpg",
+          "imageSource": "https://www.chloe.com/dw/image/v2/BLMX_PRD/on/demandware.static/-/Sites-chloe-master/default/dw9157fd9f/images/all-images/CH25WS802P7527M/zYkcH7OjTn-qQLij3f3h6w_288c4936.jpeg?sw=750&sfrm=png&q=80",
+          "imageCredit": "© Chloé",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the relevant rights holder; no reuse licence has been established.",
+          "imageWidth": 750,
+          "imageHeight": 1000,
+          "introEn": "The revived Paddington brings Chloé’s oversized padlock back into a softly slouched daily bag. In Crafty Brown grained buffalo leather, its substantial hardware and C-shaped buckles give the rounded silhouette a familiar, expressive character. The updated design is lighter than the original and uses a single zipper for easier access, while front, back and interior pockets support everyday organization. It is a particularly persuasive match for clothes with movement and texture, where the bag’s relaxed volume feels like part of the outfit rather than a rigid finishing touch.",
+          "featuresEn": [
+            "Grained buffalo leather with an oversized zamak padlock and C-shaped buckles.",
+            "Updated lighter design with a single zip closure.",
+            "36 × 18 × 18 cm; front and back flat pockets plus an inside zipped pocket."
+          ],
+          "stylingEn": "Pair it with flared denim, a fine knit and a short leather jacket, or carry it beside a fluid printed dress. Keep the clothing relaxed enough to match the bag’s rounded volume.",
+          "selectionReasonEn": "British Vogue’s 11 November 2025 coverage documented the Paddington revival and Dua Lipa carrying the reissued style. Its appearance in that year’s wardrobe reporting supports a 2025 editorial selection, with a current exact-reference price shown separately.",
+          "selectionSources": [
+            {
+              "label": "British Vogue: Paddington revival",
+              "url": "https://www.vogue.co.uk/article/chloe-paddington-dua-lipa",
+              "publishedAt": "2025-11-11",
+              "evidence": "The feature documented the reissued Paddington and contemporary wear by Dua Lipa, Alexa Chung and others."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": 2025,
+          "availabilityEn": "Current reference for the pictured variant; confirm availability and price with the brand."
+        },
+        {
+          "id": "bag-2025-prada-dada-small",
+          "year": 2025,
+          "selection": "hot",
+          "brand": "prada",
+          "brandName": "Prada",
+          "name": "Dada small nappa leather bag — Black",
+          "nameZh": "普拉达 Dada 小号黑色纳帕羊皮包",
+          "reference": "1BG586_2DX8_F0002_V_OOO",
+          "color": "Black",
+          "sizes": [
+            "Small · 25 × 18.5 × 11.5 cm"
+          ],
+          "materials": [
+            "Nappa lambskin",
+            "Nappa leather lining"
+          ],
+          "priceUSD": 3450,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-19 reference check; official U.S. catalog snapshot crawled about one month earlier",
+          "priceLabelEn": "U.S. retail reference · official snapshot ~Sep 2026",
+          "priceSource": "https://www.prada.com/us/en/womens/bags/totes/c/10068US/page/4",
+          "priceEvidence": "Official U.S. indexed catalog lists Dada small nappa leather bag at USD 3,450 in Black among its colors; crawl recency was about one month before check. Exact-reference global product details match 1BG586_2DX8_F0002_V_OOO. U.S. product URLs redirected to the home page when checked.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.prada.com/ww/en/p/prada-dada-small-nappa-leather-bag/1BG586_2DX8_F0002_V_OOO",
+          "image": "assets/img/bag-years/2025-prada-dada.jpg",
+          "imageSource": "https://www.prada.com/content/dam/pradabkg_products/1/1BG/1BG586/2DX8F0002/1BG586_2DX8_F0002_V_OOO_SLF.jpg",
+          "imageCredit": "© Prada",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the relevant rights holder; no reuse licence has been established.",
+          "imageWidth": 2400,
+          "imageHeight": 3000,
+          "introEn": "Dada uses a narrow belt to give soft black nappa leather a gently gathered outline. Long handles and small metal details keep the construction visually light, while the embossed Prada lettering stays close to the surface. The small format combines a magnetic closure with a leather-lined interior and center pocket, offering a considered balance between softness and order. Its appeal lies in the subtle way the belt changes the bag’s volume, making an otherwise minimal shape feel expressive without depending on a large logo.",
+          "featuresEn": [
+            "Nappa lambskin shaped by a narrow leather belt.",
+            "Magnetic closure and nappa leather lining with center pocket.",
+            "Small dimensions: 25 × 18.5 × 11.5 cm; handle drop 32 cm."
+          ],
+          "stylingEn": "Use its gathered shape with a crisp shirt and a simple midi skirt, or tuck it beside a wool jacket and straight jeans. A restrained palette lets the leather folds remain visible.",
+          "selectionReasonEn": "Vogue Italia’s 19 November 2025 shopping feature called out Dada within that season’s Prada bag edit, described its Fall/Winter 2025–2026 debut and supplied a retail link. Its inclusion reflects documented 2025 editorial attention rather than a quantitative demand rank.",
+          "selectionSources": [
+            {
+              "label": "Vogue Italia: Prada belted bags",
+              "url": "https://www.vogue.it/article/borsa-prada-buckle-modelli-tendenza",
+              "publishedAt": "2025-11-19",
+              "evidence": "Dada is discussed as a new Fall/Winter 2025–2026 bag and linked for purchase in the 2025 shopping feature."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": 2025,
+          "availabilityEn": "Official product photograph and exact-reference details retained. The U.S. amount is a catalog snapshot; current product URLs may redirect, so stock and a live checkout price require confirmation."
+        },
+        {
+          "id": "bag-2025-loewe-puzzle10-confetti",
+          "year": 2025,
+          "selection": "limited",
+          "brand": "loewe",
+          "brandName": "LOEWE",
+          "name": "Puzzle 10 Confetti bag in classic calfskin — Multicolor",
+          "nameZh": "罗意威 Puzzle 10 十周年彩屑限定包",
+          "reference": "A510S21XCD-9990",
+          "color": "Multicolor with dark blue base",
+          "sizes": [
+            "Small"
+          ],
+          "materials": [
+            "Classic calfskin",
+            "Hand-embroidered leather confetti"
+          ],
+          "priceUSD": 6800,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2025-05-29",
+          "priceLabelEn": "USD reference in Vogue’s May 2025 launch feature",
+          "priceSource": "https://www.vogue.com/article/loewe-puzzle-10-year-anniversary",
+          "priceEvidence": "Vogue’s 29 May 2025 launch feature lists Puzzle 10 Confetti at USD 6,800 from LOEWE. The official U.S. product page confirms the exact small multicolor limited original edition but does not expose a live price.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.loewe.com/usa/en/women/bags/puzzle/puzzle-10-confetti-bag-in-classic-calfskin/A510S21XCD-9990.html",
+          "image": "assets/img/bag-years/2025-loewe-puzzle10-confetti.jpg",
+          "imageSource": "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dwdf7d2aca/images_rd/A510S21XCD/A510S21XCD-9990/A510S21XCD_9990_1F.jpg?q=100&sw=750",
+          "imageCredit": "© LOEWE",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the relevant rights holder; no reuse licence has been established.",
+          "imageWidth": 750,
+          "imageHeight": 1132,
+          "introEn": "Confetti makes the Puzzle’s tenth anniversary feel like a celebration you can carry. Hand-embroidered pieces of leather cover the small calfskin bag with a densely colored surface, while its dark blue edges preserve the clarity of the geometric silhouette. The contrast is the pleasure: familiar folded lines underneath, a lively field of tiny details above. Created as the anniversary capsule’s new design, this edition offers an expressive view of LOEWE’s leather work and turns the Puzzle into a distinct occasion piece.",
+          "featuresEn": [
+            "Small Puzzle in classic calfskin with hand-embroidered leather confetti.",
+            "Officially described as a limited original edition for the tenth-anniversary capsule.",
+            "Exact multicolor reference A510S21XCD-9990."
+          ],
+          "stylingEn": "Give the surface space with a monochrome outfit in navy, cream or black. A clean jacket and simple shoes make the bag’s color and texture feel deliberate for an evening out.",
+          "selectionReasonEn": "LOEWE calls Confetti a limited original edition within the Puzzle tenth-anniversary capsule. LOEWE Japan confirms the collection went on sale on 29 May 2025, establishing a retail release year alongside the brand’s explicit edition status.",
+          "selectionSources": [
+            {
+              "label": "LOEWE official Confetti product page",
+              "url": "https://www.loewe.com/usa/en/women/bags/puzzle/puzzle-10-confetti-bag-in-classic-calfskin/A510S21XCD-9990.html",
+              "publishedAt": null,
+              "evidence": "The exact small product is explicitly described as a limited original edition."
+            },
+            {
+              "label": "LOEWE Japan official launch report",
+              "url": "https://prtimes.jp/main/html/rd/p/000000133.000010711.html",
+              "publishedAt": "2025-05-30",
+              "evidence": "Confirms selected-store retail launch on 29 May 2025."
+            }
+          ],
+          "editionType": "limited-edition",
+          "editionLabelEn": "Puzzle 10 limited original edition",
+          "editionEvidence": "The official product page explicitly states that this small Confetti bag is a limited original edition created for the Puzzle tenth-anniversary capsule; LOEWE’s collection page calls Puzzle 10 limited edition. No numbered quantity is stated.",
+          "editionSource": "https://www.loewe.com/usa/en/women/bags/puzzle/puzzle-10-confetti-bag-in-classic-calfskin/A510S21XCD-9990.html",
+          "releaseYear": 2025,
+          "availabilityEn": "2025 limited-edition archive selection. Product details and photograph remain accessible, but current inventory is not established; amount is reported U.S. launch retail.",
+          "priceNoteEn": "The retained launch-feature listing was reviewed on 19 October 2026; it is not a live stock or checkout quote."
+        },
+        {
+          "id": "bag-2025-loewe-puzzle10-plumeria",
+          "year": 2025,
+          "selection": "limited",
+          "brand": "loewe",
+          "brandName": "LOEWE",
+          "name": "Puzzle 10 Plumeria re-edition bag in classic calfskin — Tan/Blue",
+          "nameZh": "罗意威 Puzzle 10 十周年鸡蛋花复刻限定包",
+          "reference": "A510S21XAY-2906",
+          "color": "Tan/Blue",
+          "sizes": [
+            "Small"
+          ],
+          "materials": [
+            "Classic calfskin",
+            "Hand-applied calfskin flowers"
+          ],
+          "priceUSD": 6800,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2025-05-29",
+          "priceLabelEn": "USD reference in Vogue’s May 2025 launch feature",
+          "priceSource": "https://www.vogue.com/article/loewe-puzzle-10-year-anniversary",
+          "priceEvidence": "Vogue’s 29 May 2025 launch feature lists Puzzle 10 Plumeria re-edition at USD 6,800 from LOEWE. Its retained product card and photograph show the Tan/Blue floral variant. The indexed official product page confirms the exact reference and small size.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.loewe.com/jap/en/women/puzzle-10-plumeria-re-edition-bag-in-classic-calfskin/A510S21XAY-2906.html?__server_only=",
+          "image": "assets/img/bag-years/2025-loewe-puzzle10-plumeria.jpg",
+          "imageSource": "https://assets.vogue.com/photos/6835c8139e4f4de8f94b66a3/3:4/w_640,c_limit/Loewe%20Puzzle_Slides%205_0008_LOEWE_2025_10TH_YEAR_PUZZLE_ANNIVERSARY_NO_COLLAGE_WHITE_BACKGROUND_RGB_CROPPED_1280X1680_Plu.jpg",
+          "imageCredit": "LOEWE product photograph, as published by Vogue",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the relevant rights holder; no reuse licence has been established.",
+          "imageWidth": 640,
+          "imageHeight": 853,
+          "introEn": "Plumeria brings a floral surface to the Puzzle’s precise geometry. Tan calfskin is scattered with hand-applied leather flowers in blue, white and warm neutral tones, creating a three-dimensional rhythm across the small silhouette. The contrast between the flowers and the bag’s angular seams gives the design a particularly tactile character. Reissued for the Puzzle’s tenth anniversary, it revisits the Hawaii-inspired Fall/Winter 2019 Salone design and offers a quieter but equally distinctive counterpart to the capsule’s new Confetti edition.",
+          "featuresEn": [
+            "Small classic-calfskin Puzzle with hand-applied calfskin flowers.",
+            "Limited tenth-anniversary re-edition of the Hawaii-inspired FW19 Salone design.",
+            "Tan/Blue reference A510S21XAY-2906."
+          ],
+          "stylingEn": "Pair its tan ground with ecru linen, blue denim or a navy dress. Let one flower color reappear in the clothing, keeping other accessories simple so the applied leather petals remain the focus.",
+          "selectionReasonEn": "LOEWE identifies this exact Plumeria reference as a limited tenth-anniversary re-edition. The official collection launch report dates retail availability to 29 May 2025, distinguishing this 2025 issue from the Fall/Winter 2019 design it revisits.",
+          "selectionSources": [
+            {
+              "label": "LOEWE official indexed Plumeria product page",
+              "url": "https://www.loewe.com/jap/en/women/puzzle-10-plumeria-re-edition-bag-in-classic-calfskin/A510S21XAY-2906.html?__server_only=",
+              "publishedAt": null,
+              "evidence": "Small Tan/Blue classic-calfskin bag explicitly identified as a limited tenth-anniversary re-edition of FW19 Salone."
+            },
+            {
+              "label": "LOEWE Japan official launch report",
+              "url": "https://prtimes.jp/main/html/rd/p/000000133.000010711.html",
+              "publishedAt": "2025-05-30",
+              "evidence": "The Puzzle 10 collection began selected-store sales on 29 May 2025."
+            }
+          ],
+          "editionType": "limited-edition",
+          "editionLabelEn": "Puzzle 10 limited re-edition",
+          "editionEvidence": "LOEWE’s indexed product page explicitly describes this small Plumeria variant as a limited tenth-anniversary re-edition; the official Puzzle 10 collection page also states limited-edition status. No numbered quantity is stated.",
+          "editionSource": "https://www.loewe.com/int/en/pd/stories-collection/puzzle10-collection.html?country=CA",
+          "releaseYear": 2025,
+          "availabilityEn": "2025 limited re-edition archive selection. Original product URL no longer resolves reliably; exact variant photo and reported launch price are retained from Vogue, with no stock promise.",
+          "priceNoteEn": "The retained launch-feature listing was reviewed on 19 October 2026; it is not a live stock or checkout quote."
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Hot selections are an evidence-backed editorial edit, not a universal annual ranking. Lyst quarter labels identify the report period where a precise publication date is not displayed.",
+    "A current exact variant may illustrate a model family popular in an earlier year. The selection year does not imply that every pictured color, size or current SKU first launched in that year.",
+    "Rodeo, Gaby, Dada and Puzzle Fold prices use explicitly labelled indexed or retailer snapshots. Their crawl recency and reference-check date are retained; they are not live checkout quotes.",
+    "LV x Tyler Keepall 25, Fendi beaded Baguette and both Puzzle 10 prices are reported historical retail figures. Resale asks, currency conversions and inferred prices are excluded.",
+    "The 2024 capsule entries have official season or holiday context but no published production count or sales-closing date. They are labelled seasonal capsules, with no numbered scarcity claim.",
+    "Both 2025 limited selections belong to the same official Puzzle 10 collection and represent distinct photographed designs. Neither is described as numbered because the cited brand material provides no production quantity.",
+    "Some original product pages have been removed or redirect. Archive references, dated coverage and exact observed photograph sources remain in the record; inventory is not promised.",
+    "Downloaded product photographs are unchanged. Copyright remains with their respective rights holders; public access and attribution do not establish a reuse licence.",
+    "Static web access only. Browser tabs opened: 0; task-created tabs remaining: 0."
+  ]
+}

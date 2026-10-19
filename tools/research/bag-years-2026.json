@@ -1,0 +1,458 @@
+{
+  "methodologyEn": "A year-to-date editorial selection through 19 October 2026. Four hot bags combine one verified 2026 Lyst product-level demand signal with three explicitly dated 2026 editorial spotlights. The edit is not a global top-four sales ranking: Lyst combines multiple online signals and groups colors by style. Two special entries require official 2026 anniversary or seasonal capsule evidence. Each photograph is matched to its exact model and color; USD prices refer to that variant and carry a visible current-retail or snapshot label. Styling and visual analysis are original editorial prose. No exchange-rate conversions, resale asking prices, numbered-edition claims, or stock promises are used.",
+  "years": [
+    {
+      "year": 2026,
+      "headlineEn": "New shapes, familiar houses",
+      "introEn": "In 2026, familiar bags take on more expressive proportions: an expansive flap, a belted rectangle, an exposed opening and a soft crescent. Anniversary colour and an artist’s playful intervention round out this year-to-date edit, following the year’s fashion attention through 19 October.",
+      "yearToDate": true,
+      "cutoff": "2026-10-19",
+      "sources": [
+        {
+          "label": "The Lyst Index Q1 2026 — product ranking",
+          "url": "https://www.lyst.com/the-lyst-index/q1-26/",
+          "publishedAt": null,
+          "sourceType": "primary-demand-report"
+        },
+        {
+          "label": "The Lyst Index Q2 2026 — product ranking cross-check",
+          "url": "https://www.lyst.com/the-lyst-index/Q2-26/",
+          "publishedAt": null,
+          "sourceType": "primary-demand-report"
+        },
+        {
+          "label": "Who What Wear — Prada Bonnie",
+          "url": "https://www.whowhatwear.com/fashion/luxury/prada-bonnie-bag",
+          "publishedAt": "2026-05-16",
+          "sourceType": "dated-editorial"
+        },
+        {
+          "label": "Who What Wear — LOEWE Amazona 180",
+          "url": "https://www.whowhatwear.com/fashion/handbags/loewe-amazona-180-bag",
+          "publishedAt": "2026-03-24",
+          "sourceType": "dated-editorial"
+        },
+        {
+          "label": "Who What Wear — Dior Toujours Hobo",
+          "url": "https://www.whowhatwear.com/fashion/luxury/dior-toujours-bag-trend-2026",
+          "publishedAt": "2026-08-07",
+          "sourceType": "dated-editorial"
+        },
+        {
+          "label": "LVMH — Monogram anniversary",
+          "url": "https://www.lvmh.com/en/news-lvmh/louis-vuitton-celebrates-130-years-of-its-monogram-a-universal-symbol-of-creativity",
+          "publishedAt": "2026-01-19",
+          "sourceType": "official-release"
+        },
+        {
+          "label": "LOEWE — Fall Winter 2026 campaign",
+          "url": "https://www.loewe.com/usa/en/pd/stories-collection/fw26-collection-campaign.html",
+          "publishedAt": null,
+          "sourceType": "official-seasonal-campaign"
+        },
+        {
+          "label": "The Nod — pictured Green Asnières Speedy 20",
+          "url": "https://thenodmag.com/content/louis-vuitton-130-years-monogram-origine-speedy-bandouliere-20-covet",
+          "publishedAt": "2026-01-06",
+          "sourceType": "dated-editorial-image-source"
+        }
+      ],
+      "entries": [
+        {
+          "id": "bag-2026-chanel-maxi-flap-camel",
+          "year": 2026,
+          "selection": "hot",
+          "brand": "chanel",
+          "brandName": "CHANEL",
+          "name": "Maxi Flap Bag — Camel Grained Calfskin (Métiers d’art 2026)",
+          "nameZh": "香奈儿 2026 高级手工坊 驼色 Maxi 口盖包",
+          "reference": "AS6233-B24008-U8390",
+          "color": "Camel",
+          "sizes": [
+            "10.2 × 15.2 × 4.3 in (H × W × D)"
+          ],
+          "materials": [
+            "Grained calfskin",
+            "Silver-tone metal"
+          ],
+          "priceUSD": 9600,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "Official US suggested retail · checked 19 Oct 2026",
+          "priceSource": "https://www.chanel.com/us/fashion/p/AS6233B24008U8390/maxi-flap-bag-grained-calfskin-silver-tone-metal//",
+          "priceEvidence": "The official CHANEL US product page retrieved on 2026-10-19 (web source marked crawled today) displays $9,600. An older search snapshot, marked about one month old, still displays $9,300; the fresh official page controls this entry. This price is for reference AS6233-B24008-U8390, not another Maxi Flap size.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.chanel.com/us/fashion/p/AS6233B24008U8390/maxi-flap-bag-grained-calfskin-silver-tone-metal//",
+          "image": "assets/img/bag-years/2026-chanel-maxi-flap-camel.webp",
+          "imageSource": "https://www.bragmybag.com/wp-content/uploads/2026/06/Chanel-maxi-flap-bag-grained-calfskin-silver-metal-AS6233B24008U8390-768x767.webp",
+          "imageCredit": "© CHANEL, via Bragmybag",
+          "imageRightsNote": "CHANEL product photograph reproduced on Bragmybag’s exact-reference article, which credits Chanel.com. Downloaded unchanged from its observed web rendition. Copyright remains with the respective rights holders; no open reproduction license or reuse permission has been verified.",
+          "imageWidth": 768,
+          "imageHeight": 767,
+          "introEn": "The Maxi Flap makes its point through scale and surface. In camel grained calfskin, a broad, uninterrupted flap gives the familiar CC clasp room to act as a small punctuation mark. The generous horizontal shape brings a relaxed attitude to tailoring, while the warm leather softens a dark coat or navy suit. This Métiers d’art 2026 version bridges the house’s polished vocabulary and an everyday wardrobe: enough presence to anchor a simple outfit, with texture and proportion supplying most of the interest.",
+          "featuresEn": [
+            "Camel grained calfskin with silver-tone metal.",
+            "Official dimensions: 10.2 × 15.2 × 4.3 inches.",
+            "Reference AS6233-B24008-U8390 belongs to the Métiers d’art 2026 presentation."
+          ],
+          "stylingEn": "Wear it with a navy blazer, pale denim, and a white shirt. Keep jewelry spare so the warm leather, generous flap, and small silver clasp establish the outfit’s rhythm.",
+          "selectionReasonEn": "Demand-backed selection: the Maxi Flap placed sixth on Lyst’s Q1 2026 hottest-products list. Lyst groups colors by style, so the rank applies to the silhouette. This photographed camel Métiers d’art version represents its continuing 2026 presence.",
+          "selectionSources": [
+            {
+              "label": "The Lyst Index Q1 2026",
+              "url": "https://www.lyst.com/the-lyst-index/q1-26/",
+              "publishedAt": null,
+              "evidence": "Report period: January–March 2026. The hottest-products list places CHANEL Maxi Flap Bag at No. 6; Lyst says it groups colors for styles. No publication timestamp is shown on this report page."
+            },
+            {
+              "label": "CHANEL US — camel Maxi Flap Bag",
+              "url": "https://www.chanel.com/us/fashion/p/AS6233B24008U8390/maxi-flap-bag-grained-calfskin-silver-tone-metal//",
+              "publishedAt": null,
+              "evidence": "Official current page identifies the photographed camel reference as Métiers d’art 2026; price and variant checked 2026-10-19."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": 2026,
+          "availabilityEn": "Official 2026 collection reference; consult CHANEL for boutique availability."
+        },
+        {
+          "id": "bag-2026-prada-bonnie-medium-black",
+          "year": 2026,
+          "selection": "hot",
+          "brand": "prada",
+          "brandName": "Prada",
+          "name": "Bonnie Medium Leather Bag — Black",
+          "nameZh": "普拉达 Bonnie 中号黑色皮革手袋",
+          "reference": "1BA426_2CYR_F0002_V_MOM",
+          "color": "Black",
+          "sizes": [
+            "Medium · 32 × 15.5 × 12 cm (W × H × D)"
+          ],
+          "materials": [
+            "Calfskin",
+            "Re-Nylon and nappa leather lining"
+          ],
+          "priceUSD": 3550,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "Official US retail · checked 19 Oct 2026",
+          "priceSource": "https://www.prada.com/us/en/p/prada-bonnie-medium-leather-bag/1BA426_2CYR_F0002_V_MOM",
+          "priceEvidence": "Fresh official Prada US HTML retrieved on 2026-10-19 returns Product SKU 1BA426_2CYR_F0002_V_MOM and offer price 3550; the product page also displays $3,550. This is a current retail check, not the lower price in earlier 2026 editorial coverage.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.prada.com/us/en/p/prada-bonnie-medium-leather-bag/1BA426_2CYR_F0002_V_MOM",
+          "image": "assets/img/bag-years/2026-prada-bonnie-medium-black.jpg",
+          "imageSource": "https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA426/2CYRF0002/1BA426_2CYR_F0002_V_MOM_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1000.1000.jpg",
+          "imageCredit": "© Prada",
+          "imageRightsNote": "Official Prada product photograph, downloaded unchanged from an image rendition observed in the exact product page’s source. Copyrighted brand photography; no open reproduction license or reuse permission has been verified.",
+          "imageWidth": 1000,
+          "imageHeight": 1250,
+          "introEn": "The Bonnie’s long body and upright handles create two distinct rhythms: a low horizontal line at the hip, then a narrow arch above it. Glossy black calfskin makes those proportions look sharper, while the slim belt details and removable key ring add a little movement. The medium size has a compact, purposeful presence that can give shape to loose clothing. Its strongest styling role is to bring a clear silhouette to wide trousers, denim, or a softly structured jacket, letting the reflective leather catch light between matte fabrics.",
+          "featuresEn": [
+            "Black calfskin with a shiny finish and an enameled triangle logo.",
+            "Zipper closure; interior zipper pocket in a Re-Nylon and nappa-lined compartment.",
+            "Removable key ring and detachable, adjustable shoulder strap."
+          ],
+          "stylingEn": "Pair the black Bonnie with fluid grey trousers, a fine knit, and loafers. A narrow leather belt can echo its buckle details while the glossy finish supplies a subtle contrast in texture.",
+          "selectionReasonEn": "Editorial hotlist selection: Who What Wear’s May 16, 2026 feature documented the Bonnie’s visibility across Bella Hadid, Sarah Pidgeon, and Selena Gomez. The photographed medium black leather version represents that silhouette; this evidence establishes fashion attention during 2026.",
+          "selectionSources": [
+            {
+              "label": "Who What Wear — 2026 Bonnie spotlight",
+              "url": "https://www.whowhatwear.com/fashion/luxury/prada-bonnie-bag",
+              "publishedAt": "2026-05-16",
+              "evidence": "Dated feature discusses the Bonnie’s 2026 celebrity visibility and fresh spring colorways; its HTML datePublished and dateModified are both 2026-05-16."
+            },
+            {
+              "label": "Prada US — exact medium black variant",
+              "url": "https://www.prada.com/us/en/p/prada-bonnie-medium-leather-bag/1BA426_2CYR_F0002_V_MOM",
+              "publishedAt": null,
+              "evidence": "Current official US listing identifies the model, black calfskin, SKU, dimensions, and $3,550 price; checked 2026-10-19."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Current official product reference; stock and delivery may change."
+        },
+        {
+          "id": "bag-2026-loewe-amazona180-large-black",
+          "year": 2026,
+          "selection": "hot",
+          "brand": "loewe",
+          "brandName": "LOEWE",
+          "name": "Large Amazona 180 Bag in Soft Calfskin — Black",
+          "nameZh": "罗意威 Amazona 180 大号黑色柔软小牛皮手袋",
+          "reference": "A039ASRX02-1100",
+          "color": "Black",
+          "sizes": [
+            "Large · 34.5 × 27 × 14 cm (W × H × D)"
+          ],
+          "materials": [
+            "Soft calfskin"
+          ],
+          "priceUSD": 5400,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "Official US retail · checked 19 Oct 2026",
+          "priceSource": "https://www.loewe.com/usa/en/women/bags/amazona/large-amazona-180-bag-in-soft-calfskin/A039ASRX02-1100.html",
+          "priceEvidence": "Fresh official LOEWE USA product HTML retrieved 2026-10-19 contains the exact black reference, price 5400, and sales price formatted $5,400.00. The official USA Amazona collection listing also displays Large Amazona 180 soft calfskin at $5,400. The dated March article links this exact reference.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.loewe.com/usa/en/women/bags/amazona/large-amazona-180-bag-in-soft-calfskin/A039ASRX02-1100.html",
+          "image": "assets/img/bag-years/2026-loewe-amazona180-large-black.jpg",
+          "imageSource": "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dwe91bfcbe/images_rd/A039ASRX02/A039ASRX02-1100/A039ASRX02_1100_1F.jpg?sw=750&q=100",
+          "imageCredit": "© LOEWE",
+          "imageRightsNote": "Official LOEWE product photograph, downloaded unchanged from the exact variant’s observed 750-pixel source. Copyrighted brand photography; no open reproduction license or reuse permission has been verified.",
+          "imageWidth": 750,
+          "imageHeight": 1132,
+          "introEn": "The Amazona 180 turns an opening into the design’s main event. Its single rounded handle holds the upper frame while the front panel falls into a shallow curve, revealing the contrasting interior. In black, the effect is architectural and supple: long zipper pulls extend the outline and a small logo keeps the focus on construction. The large size works particularly well as the main accessory in an understated outfit. It introduces movement and asymmetry to clean tailoring, especially when the rest of the look stays narrow and quiet.",
+          "featuresEn": [
+            "Soft calfskin with a single toron top handle.",
+            "Designed for an open carry, with a concealed closure securing the main compartment.",
+            "Removable shoulder and crossbody straps."
+          ],
+          "stylingEn": "Use the large black version with a straight wool coat, a light shirt, and slim trousers. Carry it by the single handle to give the open silhouette and long pulls their full visual effect.",
+          "selectionReasonEn": "Editorial hotlist selection: Who What Wear’s March 24, 2026 feature named the Amazona 180 a spring It bag, pictured Bella Hadid with the large version, and linked this exact black reference. That dated coverage anchors its inclusion in the 2026 edit.",
+          "selectionSources": [
+            {
+              "label": "Who What Wear — Amazona 180 spring spotlight",
+              "url": "https://www.whowhatwear.com/fashion/handbags/loewe-amazona-180-bag",
+              "publishedAt": "2026-03-24",
+              "evidence": "The article’s original and modified timestamps are both 2026-03-24. It shows Bella Hadid carrying the large bag and its shop link targets A039ASRX02-1100."
+            },
+            {
+              "label": "LOEWE — Spring Summer 2026 campaign",
+              "url": "https://www.loewe.com/apc/en/pd/stories-collection/ss26-collection-campaign.html",
+              "publishedAt": null,
+              "evidence": "Official campaign presents the new Amazona 180 in the debut collection and identifies it with the house’s 180-year anniversary."
+            },
+            {
+              "label": "LOEWE USA — exact large black product",
+              "url": "https://www.loewe.com/usa/en/women/bags/amazona/large-amazona-180-bag-in-soft-calfskin/A039ASRX02-1100.html",
+              "publishedAt": null,
+              "evidence": "Official product page and its public HTML provide the exact variant, dimensions, materials, and current $5,400 US price."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": 2026,
+          "availabilityEn": "2026 debut style and current official reference; stock is not guaranteed."
+        },
+        {
+          "id": "bag-2026-dior-toujours-hobo-small-black",
+          "year": 2026,
+          "selection": "hot",
+          "brand": "dior",
+          "brandName": "Dior",
+          "name": "Small Dior Toujours Hobo Bag — Black Cannage Lambskin",
+          "nameZh": "迪奥 Toujours 小号黑色 Cannage 羊皮流浪包",
+          "reference": "M2867ODKZ_M900",
+          "color": "Black",
+          "sizes": [
+            "Small · 22.5 × 14 × 7.5 cm (L × H × W)"
+          ],
+          "materials": [
+            "Lambskin exterior",
+            "Lambskin lining",
+            "Pale gold-finish metal"
+          ],
+          "priceUSD": 3700,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-17",
+          "priceLabelEn": "Official US retail snapshot · approx. 17 Oct 2026",
+          "priceSource": "https://www.dior.com/en_us/fashion/products/M2867ODKZ_M900_TU",
+          "priceEvidence": "The official Dior US product page, read on 2026-10-19 and marked crawled two days earlier, displays $3,700.00 for M2867ODKZ_M900. Approximate snapshot date is 2026-10-17. A current official US discovery listing independently displays the same $3,700 figure. Direct fresh HTML access returned HTTP 403, so this is visibly labelled as a recent official snapshot.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.dior.com/en_us/fashion/products/M2867ODKZ_M900_TU",
+          "image": "assets/img/bag-years/2026-dior-toujours-hobo-small-black.jpg",
+          "imageSource": "https://assets.christiandior.com/is/image/diorprod/M2867ODKZM900_SBG_E01-1?%24r2x3_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1334",
+          "imageCredit": "© Dior",
+          "imageRightsNote": "Official Dior photograph observed on its Toujours editorial/product sources through image search. Exact M2867ODKZM900 asset downloaded unchanged. Copyrighted brand photography; no open reproduction license or reuse permission has been verified.",
+          "imageWidth": 1334,
+          "imageHeight": 2000,
+          "introEn": "The small Toujours Hobo translates Dior’s geometric Cannage pattern into a rounded silhouette. The curved opening and pale gold CD Lock bring the eye toward the handle, while black lambskin keeps the quilted surface readable without a strong color contrast. Its compact volume gives a straight skirt or slim trousers a deliberate curve. A crisp shirt allows the hardware to become a restrained focal point; a fine cardigan emphasizes the bag’s softer side. This is a particularly coherent choice when an outfit needs one clear, sculptural accessory.",
+          "featuresEn": [
+            "Black Cannage lambskin exterior and lambskin lining.",
+            "Magnetic double-flap closure with a pale gold-finish CD Lock clasp.",
+            "Adjustable, removable leather shoulder strap and an interior zip pocket."
+          ],
+          "stylingEn": "Style it with a crisp white shirt, a long charcoal skirt, and low pumps. Use the shoulder strap for daytime, then carry the curved handle to emphasize its sculptural outline.",
+          "selectionReasonEn": "Editorial hotlist selection: Who What Wear’s August 7, 2026 feature spotlighted Anderson’s new Toujours Hobo and documented wear by Monica Barbaro and Copenhagen Fashion Week attendees. The entry is for the small hobo shape featured in that coverage, photographed here in black.",
+          "selectionSources": [
+            {
+              "label": "Who What Wear — fall 2026 Toujours spotlight",
+              "url": "https://www.whowhatwear.com/fashion/luxury/dior-toujours-bag-trend-2026",
+              "publishedAt": "2026-08-07",
+              "evidence": "Original and modified timestamps both read 2026-08-07. The feature discusses Anderson’s Fall/Winter 2026 hobo reinterpretation and lists Small Dior Toujours Hobo at $3,700."
+            },
+            {
+              "label": "Dior US — small black Toujours Hobo",
+              "url": "https://www.dior.com/en_us/fashion/products/M2867ODKZ_M900_TU",
+              "publishedAt": null,
+              "evidence": "Official page identifies reference M2867ODKZ_M900, black Cannage lambskin, dimensions, and $3,700; recent snapshot checked 2026-10-19."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": 2026,
+          "availabilityEn": "Fall/Winter 2026 style; official product reference and recent price snapshot, with no stock guarantee."
+        },
+        {
+          "id": "bag-2026-lv-speedy20-monogram-origine-green",
+          "year": 2026,
+          "selection": "limited",
+          "brand": "louis-vuitton",
+          "brandName": "Louis Vuitton",
+          "name": "Speedy Bandoulière 20 — Monogram Origine, Green Asnières",
+          "nameZh": "路易威登 Speedy 20 Monogram Origine 阿涅尔绿 130 周年胶囊",
+          "reference": "M27530",
+          "color": "Green Asnières (Monogram Origine Vert Asnière)",
+          "sizes": [
+            "20.5 × 13.5 × 12 cm (L × H × W)"
+          ],
+          "materials": [
+            "Monogram Origine coated canvas",
+            "Cowhide-leather trim",
+            "Striped textile lining"
+          ],
+          "priceUSD": 2850,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "Official US retail · checked 19 Oct 2026",
+          "priceSource": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-20-autres-toiles-monogram-nvprod7270014v/M27530",
+          "priceEvidence": "The exact M27530 Green Asnières official Louis Vuitton US page, fetched through its observed color link on 2026-10-19 and marked crawled today, displays $2,850.00. Earlier image-search snapshots may show $2,770; the current official page controls the price.",
+          "checkedAt": "2026-10-19",
+          "source": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-20-autres-toiles-monogram-nvprod7270014v/M27530",
+          "image": "assets/img/bag-years/2026-lv-speedy20-monogram-origine-green.png",
+          "imageSource": "https://thenodmag.com/_next/image?url=https%3A%2F%2Fassets.thenodmag.com%2Fwebsite-assets%2Flouis_vuitton_speedy_bandouliere_20_pastel_green_The_Nod_d2aff3f811-lgrivfeyzjjkmlx-3x4.png&w=2048&q=95",
+          "imageCredit": "Louis Vuitton product image, via The Nod",
+          "imageRightsNote": "Exact Green Asnières Speedy 20 product photograph published in The Nod’s dated 2026-01-06 feature; downloaded unchanged from its observed image URL. The source reserves all rights and requires prior written consent for reuse. No reproduction permission or open license has been verified.",
+          "imageWidth": 750,
+          "imageHeight": 1000,
+          "introEn": "Pastel green gives the Speedy’s compact travel shape a fresh register. The pale Monogram has a tonal effect, while natural cowhide handles and trim supply a warmer outline. An anniversary address tag adds a focal point at one side, so the bag already has a considered accent without extra charms. This version is most effective when its light color interrupts a simple, darker outfit. Think of it as a small color study: green canvas, honeyed leather, and gold hardware, held together by the familiar rounded body.",
+          "featuresEn": [
+            "Monogram Origine Vert Asnière coated canvas with cowhide trim.",
+            "Removable anniversary address tag and an interior celebratory leather label.",
+            "Double zipper and padlock closure with a removable, adjustable strap."
+          ],
+          "stylingEn": "Let the green canvas brighten an espresso knit, cream trousers, and brown loafers. Carry it by the top handles, keeping other accessories simple so the anniversary tag remains the main accent.",
+          "selectionReasonEn": "Anniversary capsule selection: LVMH’s January 19, 2026 announcement placed Monogram Origine within Louis Vuitton’s 130th-anniversary program. The Green Asnières Speedy 20 was also pictured in a January 6, 2026 feature, providing dated evidence for the exact color and model.",
+          "selectionSources": [
+            {
+              "label": "LVMH — Monogram 130th-anniversary announcement",
+              "url": "https://www.lvmh.com/en/news-lvmh/louis-vuitton-celebrates-130-years-of-its-monogram-a-universal-symbol-of-creativity",
+              "publishedAt": "2026-01-19",
+              "evidence": "Official dated announcement says the anniversary opens in January 2026 and identifies Monogram Origine as one of three exclusive capsule collections."
+            },
+            {
+              "label": "The Nod — Green Asnières Speedy 20",
+              "url": "https://thenodmag.com/content/louis-vuitton-130-years-monogram-origine-speedy-bandouliere-20-covet",
+              "publishedAt": "2026-01-06",
+              "evidence": "Dated article explicitly captions Speedy Bandoulière 20 in Vert Asnière and supplies the exact product photograph."
+            },
+            {
+              "label": "Louis Vuitton US — M27530",
+              "url": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-20-autres-toiles-monogram-nvprod7270014v/M27530",
+              "publishedAt": null,
+              "evidence": "Exact official US product reference, Green Asnières color, anniversary details, and $2,850 price checked 2026-10-19."
+            }
+          ],
+          "editionType": "seasonal-capsule",
+          "editionLabelEn": "2026 Monogram 130th-anniversary capsule",
+          "editionEvidence": "LVMH’s official 2026-01-19 release calls Monogram Origine one of three exclusive anniversary capsule collections. The exact M27530 product page specifies an anniversary address tag and internal celebratory label. No numbered run, production quantity, or guaranteed scarcity is disclosed.",
+          "editionSource": "https://www.lvmh.com/en/news-lvmh/louis-vuitton-celebrates-130-years-of-its-monogram-a-universal-symbol-of-creativity",
+          "releaseYear": 2026,
+          "availabilityEn": "2026 anniversary capsule reference; consult Louis Vuitton for current availability.",
+          "editionNoteEn": "Monogram Origine is one of three exclusive capsules introduced for the Monogram’s 130th anniversary in January 2026. This reference carries an anniversary address tag and an internal celebratory label. The published brand source does not specify a fixed production quantity."
+        },
+        {
+          "id": "bag-2026-loewe-amazona180-lazy-crab",
+          "year": 2026,
+          "selection": "limited",
+          "brand": "loewe",
+          "brandName": "LOEWE",
+          "name": "Medium Amazona 180 Lazy Crab Bag — Black/Green Buffalino Leather",
+          "nameZh": "罗意威 Cosima von Bonin 联名 Amazona 180 中号螃蟹包 黑绿",
+          "reference": "A03918MX26-1104",
+          "color": "Black/Green",
+          "sizes": [
+            "Medium · 28 × 22.5 × 11 cm (W × H × D)"
+          ],
+          "materials": [
+            "Bi-color buffalino leather"
+          ],
+          "priceUSD": 5900,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "Official US retail · checked 19 Oct 2026",
+          "priceSource": "https://www.loewe.com/usa/en/women/bags/amazona/medium-amazona-180-lazy-crab-bag-in-buffalino-leather/A03918MX26-1104.html",
+          "priceEvidence": "Fresh official LOEWE USA HTML retrieved 2026-10-19 gives the exact Black/Green reference, price 5900, and formatted US retail $5,900.00. The official USA Amazona collection page also displays $5,900 for the buffalino Lazy Crab version.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.loewe.com/usa/en/women/bags/amazona/medium-amazona-180-lazy-crab-bag-in-buffalino-leather/A03918MX26-1104.html",
+          "image": "assets/img/bag-years/2026-loewe-amazona180-lazy-crab.jpg",
+          "imageSource": "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dwf47702b4/images_rd/A03918MX26/A03918MX26-1104/A03918MX26_1104_1F.jpg?sw=750&q=100",
+          "imageCredit": "© LOEWE",
+          "imageRightsNote": "Official LOEWE product photograph for the exact Cosima von Bonin collaboration reference, downloaded unchanged from its observed 750-pixel source. Copyrighted brand photography; no open reproduction license or reuse permission has been verified.",
+          "imageWidth": 750,
+          "imageHeight": 1132,
+          "introEn": "A reclining crab turns the Amazona 180’s exposed opening into a small stage. Black leather gives the creature a sculptural presence; the vivid green interior supplies a surprising flash behind it. The result balances a recognizable everyday bag with an object that invites a second look. Because the crab is removable, the composition can shift with the occasion. This is a strong choice for an outfit built from broad, calm areas of color: the accessory contributes its own movement, humor, and intricate outline without needing an equally busy print.",
+          "featuresEn": [
+            "Part of the LOEWE x Cosima von Bonin collection.",
+            "Bi-color leather crab detaches and can be used as a charm.",
+            "Single toron top handle plus removable shoulder and crossbody straps."
+          ],
+          "stylingEn": "Keep the clothing graphic and quiet: a black coat, a white T-shirt, and straight dark jeans. A single green accent elsewhere can pick up the lining while leaving the crab clearly legible.",
+          "selectionReasonEn": "Seasonal artist capsule selection: LOEWE’s Fall/Winter 2026 campaign explicitly announces Cosima von Bonin special editions, and the product page places this bag within the collaboration. Its official product metadata records an August 27, 2026 launch, before this yearbook’s cutoff.",
+          "selectionSources": [
+            {
+              "label": "LOEWE — Fall Winter 2026 campaign",
+              "url": "https://www.loewe.com/usa/en/pd/stories-collection/fw26-collection-campaign.html",
+              "publishedAt": null,
+              "evidence": "Official Fall/Winter 2026 campaign explicitly describes special editions of its bags interpreting Cosima von Bonin’s artistic language."
+            },
+            {
+              "label": "LOEWE USA — exact Lazy Crab product",
+              "url": "https://www.loewe.com/usa/en/women/bags/amazona/medium-amazona-180-lazy-crab-bag-in-buffalino-leather/A03918MX26-1104.html",
+              "publishedAt": null,
+              "evidence": "Official product identifies the LOEWE x Cosima von Bonin collection. Public HTML fields read FW26 Women’s Winter Drop 1 and last launch date 2026-08-27; exact variant and price checked 2026-10-19."
+            },
+            {
+              "label": "Fall Winter 2026 campaign publication record",
+              "url": "https://www.adsoftheworld.com/campaigns/fall-winter-2026",
+              "publishedAt": "2026-08-24",
+              "evidence": "Campaign submission credits LOEWE’s creative team and records publication on 2026-08-24, independently dating the season’s special-edition campaign."
+            }
+          ],
+          "editionType": "seasonal-capsule",
+          "editionLabelEn": "Fall/Winter 2026 artist special edition",
+          "editionEvidence": "LOEWE’s official Fall/Winter 2026 campaign explicitly calls the Cosima von Bonin interpretations special editions; the exact product page names the LOEWE x Cosima von Bonin collection. Public product metadata identifies FW26 Winter Drop 1 and launch date 2026-08-27. This is a season-bound artist capsule, with no claimed numbered run or disclosed edition size.",
+          "editionSource": "https://www.loewe.com/usa/en/pd/stories-collection/fw26-collection-campaign.html",
+          "releaseYear": 2026,
+          "availabilityEn": "Fall/Winter 2026 artist capsule; current official reference, with no stock guarantee.",
+          "editionNoteEn": "Part of LOEWE’s Fall/Winter 2026 special editions with artist Cosima von Bonin, this Lazy Crab interpretation launched on 27 August 2026. It belongs to the seasonal artist capsule; the published source does not disclose an edition size."
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Coverage stops on 2026-10-19. This is not a completed 2026 yearbook or a global top-four sales ranking.",
+    "Only the CHANEL Maxi Flap has a verified 2026 Lyst product rank among the hot selections. Prada, LOEWE, and Dior are explicitly dated editorial selections; the Q2 2026 Lyst hottest-products list contains no handbags.",
+    "Both special selections are official 2026 anniversary or seasonal capsules. Neither has a verified numbered run or a disclosed production quantity.",
+    "Dior’s USD price is a recent official US snapshot, approximately 2026-10-17, checked on 2026-10-19; its visible price label preserves that qualification.",
+    "All photographs remain copyrighted. No open reproduction license or reuse permission has been verified. The CHANEL image is via Bragmybag and the Louis Vuitton image is via The Nod; the other four come directly from official brand image sources.",
+    "Static access to some CHANEL, Dior, and Louis Vuitton endpoints returned HTTP 403. Primary product facts and prices were read through available official-page web retrieval; blocked endpoints were not bypassed. Browser tabs opened: 0; remaining agent-owned tabs: 0."
+  ]
+}

@@ -1,20 +1,21 @@
 {
   "date": "2026-10-19",
-  "scope": "24-product Style Edit update",
+  "scope": "2022–2026 Bag Yearbook update: 30 annual entries",
   "browserRunPerformed": false,
-  "reason": "The user explicitly selected static checks and publication first after being informed that existing Edge tabs exceeded the maximum-eight-tab rule. No QA tab was opened and existing user pages were not changed.",
+  "reason": "The user selected static checks and publication first under the existing eight-tab budget. This update uses static validation and DOM-only interaction checks; no browser tab was opened.",
   "ownedTabsOpened": 0,
   "ownedTabsRemaining": 0,
   "historicalReport": "browser-validation-initial.json",
   "historicalScope": "The earlier 66-page version passed 132 Chromium checks at 375 and 1440 pixels. Those checks do not establish a fresh visual result for the current 90-page version.",
   "currentChecks": [
-    "90 HTML pages: local paths and anchors",
-    "24 local photographs: actual file type, dimensions and image credit",
-    "four photographed products in every category",
-    "USD values, exact references and source/snapshot notes",
-    "English detail content and page language",
-    "JavaScript syntax and compressed runtime-data decode"
+    "121 HTML pages: local paths, anchors and metadata",
+    "54 photographed records: actual image format, dimensions and credits",
+    "2022–2026: four hot picks plus two accurately labelled editions per year",
+    "30 annual USD amounts, dated price context and source evidence",
+    "29 DOM-only interaction assertions against generated HTML and shipping JavaScript",
+    "JavaScript syntax, compressed-data decoding and CSS delimiter checks"
   ],
   "staticReport": "static-validation.json",
-  "userSelectedFlow": "Complete static checks and publish first"
+  "userSelectedFlow": "Static checks and publication first; limited editions plus labelled seasonal capsules accepted",
+  "domInteractionReport": "yearbook-dom-validation.json"
 }

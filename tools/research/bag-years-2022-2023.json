@@ -1,0 +1,875 @@
+{
+  "methodologyEn": "Each year contains four editorial hot picks and two dated special-capsule picks. Hot selections use evidence from that year's Lyst reporting or dated original fashion coverage; these are curated choices rather than a universal sales ranking. Where the evidence concerns a model family, the photograph may show a precisely identified current variant. Every USD amount is tied to that pictured size/material and visibly labelled as a current official reference, official snapshot or reported historical retail. Seasonal capsule means a documented release collection, not a numbered production run; no scarcity quantity is inferred from a collaboration. All photographs are actual product images downloaded unchanged, with source and rights notes.",
+  "years": [
+    {
+      "year": 2022,
+      "headlineEn": "Small shapes, expressive surfaces",
+      "introEn": "Compact shoulder bags captured the year's taste for nostalgic proportions, bold hardware and richly worked surfaces. These four evidence-led hot picks move from Prada's spare nylon to Diesel's graphic plaque and Miu Miu's gathered leather. Two archive capsules show a more playful direction through Studio Ghibli characters and adidas x Gucci's exuberant shared emblems.",
+      "sources": [
+        {
+          "label": "The Lyst Index · Q2 2022",
+          "url": "https://www.lyst.com/the-lyst-index/q2-22/",
+          "publishedAt": "2022-Q2",
+          "sourceType": "primary-demand-report"
+        },
+        {
+          "label": "Lyst · Year in Fashion 2022",
+          "url": "https://www.lyst.com/data/year-in-fashion-2022/",
+          "publishedAt": "2022-11",
+          "sourceType": "primary-demand-report"
+        },
+        {
+          "label": "Vogue Business · 2022 Lyst year-end reporting",
+          "url": "https://www.vogue.com/article/from-miu-miu-to-birkenstock-the-hottest-brands-and-products-of-2022",
+          "publishedAt": "2022-11-29",
+          "sourceType": "dated-fashion-reporting"
+        },
+        {
+          "label": "Prada Group · Miu Wander",
+          "url": "https://www.pradagroup.com/en/news-media/press-releases-documents/2022/22-05-06-miu-miu-wanderlust.html",
+          "publishedAt": "2022-05-05",
+          "sourceType": "official-launch"
+        },
+        {
+          "label": "LOEWE · Spirited Away archive",
+          "url": "https://www.loewe.com/usa/en/stories-collection/spirited-away-campaign.html",
+          "publishedAt": null,
+          "sourceType": "official-collection-archive"
+        },
+        {
+          "label": "Vogue · Spirited Away launch",
+          "url": "https://www.vogue.com/article/loewe-spirited-away-capsule",
+          "publishedAt": "2022-01-05",
+          "sourceType": "dated-launch-reporting"
+        },
+        {
+          "label": "Gucci Stories · adidas x Gucci",
+          "url": "https://www.gucci.com/us/en/st/stories/article/adidas-x-gucci",
+          "publishedAt": null,
+          "sourceType": "official-collection-archive"
+        },
+        {
+          "label": "adidas News · collection release",
+          "url": "https://news.adidas.com/originals/adidas-x-gucci-is-here/s/73828335-7f0b-4f46-8d9a-ba0af35277c5",
+          "publishedAt": "2022-06-07",
+          "sourceType": "official-launch"
+        },
+        {
+          "label": "Esquire · adidas x Gucci launch edit",
+          "url": "https://www.esquire.com/style/mens-fashion/g40219709/gucci-adidas-collection-2022/",
+          "publishedAt": "2022-06-07",
+          "sourceType": "dated-shopping-reporting"
+        }
+      ],
+      "entries": [
+        {
+          "id": "bag-2022-prada-re-edition-2000",
+          "year": 2022,
+          "selection": "hot",
+          "brand": "prada",
+          "brandName": "Prada",
+          "name": "Re-Nylon Re-Edition 2000 mini-bag — black",
+          "nameZh": "普拉达 Re-Edition 2000 黑色再生尼龙迷你包",
+          "reference": "1NE515_RDH0_F0002",
+          "color": "Black",
+          "sizes": [
+            "One size; 22 W × 17 H × 6 D cm"
+          ],
+          "materials": [
+            "Recycled polyamide (Re-Nylon)"
+          ],
+          "priceUSD": 1320,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "Official U.S. retail reference · checked 19 Oct 2026",
+          "priceSource": "https://www.prada.com/us/en/p/re-nylon-prada-re-edition-2000-mini-bag/1NE515_RDH0_F0002",
+          "priceEvidence": "The U.S. product page and public HTML were retrieved on 2026-10-19 and list USD 1,320 for 1NE515_RDH0_F0002. This is a present-day reference, not a 2022 price.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.prada.com/us/en/p/re-nylon-prada-re-edition-2000-mini-bag/1NE515_RDH0_F0002",
+          "image": "assets/img/bag-years/2022-prada-re-edition-2000.jpg",
+          "imageSource": "https://www.prada.com/content/dam/pradabkg_products/1/1NE/1NE515/RDH0F0002/1NE515_RDH0_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.600.600.jpg",
+          "imageCredit": "© Prada · official product photograph",
+          "imageRightsNote": "Downloaded unchanged from the brand's publicly accessible product-image service. Copyright remains with the rights holder; public access is not a licence, and no reuse permission is claimed.",
+          "imageWidth": 600,
+          "imageHeight": 750,
+          "introEn": "A close-fitting shoulder shape gives this little black bag its easy rhythm. The curved top line softens a compact rectangular base, while the nylon surface keeps the visual weight low. A small enamel triangle and hanging tag provide just enough detail against the dark fabric. In an outfit, it works like a quiet punctuation mark: recognisable, compact and easy to repeat. The appeal lies in the balance between a sporty material and a silhouette that still feels deliberate beside tailoring or an evening slip dress.",
+          "featuresEn": [
+            "Re-Nylon body with a woven tape handle",
+            "Top zipper and enamelled metal triangle emblem",
+            "Logo-print Re-Nylon lining"
+          ],
+          "stylingEn": "Wear it close to the shoulder with a white tank, straight jeans and a slim belt. For evening, let the same compact shape sit beside a fluid black dress and small silver earrings.",
+          "selectionReasonEn": "Lyst named the Re-Nylon Re-Edition 2000 its Bag of the Year for 2022 and reported a 131% summer rise in searches. The black official reference shown here represents that documented model family; its present-day price is dated separately.",
+          "selectionSources": [
+            {
+              "label": "Lyst · Year in Fashion 2022",
+              "url": "https://www.lyst.com/data/year-in-fashion-2022/",
+              "publishedAt": "2022-11",
+              "evidence": "Bag of the Year; searches for the style rose 131% over summer 2022."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Current official reference; stock and delivery are not promised."
+        },
+        {
+          "id": "bag-2022-diesel-1dr",
+          "year": 2022,
+          "selection": "hot",
+          "brand": "diesel",
+          "brandName": "Diesel",
+          "name": "1DR shoulder bag in nappa leather — black",
+          "nameZh": "迪赛 1DR 黑色纳帕皮革腋下包",
+          "reference": "X08396PR818T8013",
+          "color": "Black",
+          "sizes": [
+            "UNI / one size"
+          ],
+          "materials": [
+            "100% cow leather; nappa finish"
+          ],
+          "priceUSD": 575,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "Official U.S. retail reference · checked 19 Oct 2026",
+          "priceSource": "https://diesel.com/en-us/shoulder-bags/1dr-black/X08396PR818T8013.html",
+          "priceEvidence": "Official U.S. HTML retrieved 2026-10-19 includes a Product Offer in USD at 575.00 for X08396PR818T8013, matching the black nappa photograph.",
+          "checkedAt": "2026-10-19",
+          "source": "https://diesel.com/en-us/shoulder-bags/1dr-black/X08396PR818T8013.html",
+          "image": "assets/img/bag-years/2022-diesel-1dr.jpg",
+          "imageSource": "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw4fdf6fc8/images/large/X08396_PR818_T8013_F.jpg",
+          "imageCredit": "© Diesel · official product photograph",
+          "imageRightsNote": "Downloaded unchanged from the brand's publicly accessible product-image service. Copyright remains with the rights holder; public access is not a licence, and no reuse permission is claimed.",
+          "imageWidth": 2000,
+          "imageHeight": 3000,
+          "introEn": "The 1DR turns a compact shoulder bag into a bold graphic object. Its oversized Oval D plaque stretches across the flap, making the fastening area feel almost architectural against smooth black leather. Rounded lower corners keep that statement from becoming severe, and the short handle echoes the broad curve of the emblem. This version suits a wardrobe built from simple shapes because it supplies the focal point on its own. The effect is direct and playful, with enough polish to move beyond an exclusively denim-led outfit.",
+          "featuresEn": [
+            "Nappa-finish cow-leather body with an enamelled Oval D plaque",
+            "Magnetic flap with an internal slip pocket and flat compartment",
+            "Detachable, adjustable strap for crossbody wear"
+          ],
+          "stylingEn": "Give the logo room with a fitted T-shirt, wide jeans and pointed boots. A plain column skirt and cropped jacket create a sharper alternative while preserving the bag's graphic impact.",
+          "selectionReasonEn": "Diesel's 1DR ranked first among women's products in Lyst's Q2 2022 Index, which reported demand rising 317% in June. That is platform-specific evidence of heat, not a universal sales ranking; this entry pictures the continuing black leather version.",
+          "selectionSources": [
+            {
+              "label": "The Lyst Index · Q2 2022",
+              "url": "https://www.lyst.com/the-lyst-index/q2-22/",
+              "publishedAt": "2022-Q2",
+              "evidence": "1DR was the quarter's first-ranked women's product; demand rose 317% in June."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Current official reference; stock and delivery are not promised."
+        },
+        {
+          "id": "bag-2022-balenciaga-le-cagole-small",
+          "year": 2022,
+          "selection": "hot",
+          "brand": "balenciaga",
+          "brandName": "Balenciaga",
+          "name": "Le Cagole Shoulder Bag Small — black Arena lambskin",
+          "nameZh": "巴黎世家 Le Cagole 黑色小号机车腋下包",
+          "reference": "6713071VG9Y1000",
+          "color": "Black with aged-silver hardware",
+          "sizes": [
+            "Small"
+          ],
+          "materials": [
+            "Arena lambskin",
+            "Cotton canvas lining"
+          ],
+          "priceUSD": 2950,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "U.S. retail reference · official snapshot, crawled 19 Oct 2026",
+          "priceSource": "https://www.balenciaga.com/en-us/le-cagole-shoulder-bag-small-black-6713071VG9Y1000.html",
+          "priceEvidence": "The official U.S. text snapshot retrieved on 2026-10-19, marked crawled today, lists USD 2,950 for 6713071VG9Y1000 and delivery dates in October 2026. Direct raw-page retrieval returned 403, so this is an official snapshot reference rather than an independently confirmed live offer.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.balenciaga.com/en-us/le-cagole-shoulder-bag-small-black-6713071VG9Y1000.html",
+          "image": "assets/img/bag-years/2022-balenciaga-le-cagole-small.jpg",
+          "imageSource": "https://balenciaga.dam.kering.com/m/7f64b97646ec477a/Medium-6713071VG9Y1000_F.jpg?v=12",
+          "imageCredit": "© Balenciaga · official product photograph",
+          "imageRightsNote": "Downloaded unchanged from the brand's publicly accessible product-image service. Copyright remains with the rights holder; public access is not a licence, and no reuse permission is claimed.",
+          "imageWidth": 1100,
+          "imageHeight": 1100,
+          "introEn": "Le Cagole builds its character through an accumulation of small gestures. Textured black leather, knotted zipper pulls and aged silver hardware sit around a soft crescent shape, while the heart mirror adds a deliberately sweet interruption. The result has movement even when the bag is still: straps, laces and curves pull the eye across its surface. It brings a lived-in mood to clean clothing and can also hold its own among stronger textures. The small size keeps that decorative density concentrated and visually energetic.",
+          "featuresEn": [
+            "Arena lambskin with aged-silver hardware",
+            "Adjustable strap with a braided leather shoulder pad",
+            "Removable heart mirror and zipped pockets"
+          ],
+          "stylingEn": "Pair it with a grey knit, dark straight jeans and a long coat for a relaxed balance. Keep jewellery restrained so the mirror, knots and hardware can supply the detail.",
+          "selectionReasonEn": "Lyst placed the Le Cagole Small shoulder bag fourth among women's products in Q2 2022. Its inclusion supports a dated editorial hot pick for the Small family; the photograph and USD reference identify the specific black Arena-lambskin version.",
+          "selectionSources": [
+            {
+              "label": "The Lyst Index · Q2 2022",
+              "url": "https://www.lyst.com/the-lyst-index/q2-22/",
+              "publishedAt": "2022-Q2",
+              "evidence": "Le Cagole Small shoulder bag ranked fourth in the women's products list."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Current official reference; stock and delivery are not promised."
+        },
+        {
+          "id": "bag-2022-miu-miu-wander",
+          "year": 2022,
+          "selection": "hot",
+          "brand": "miu-miu",
+          "brandName": "Miu Miu",
+          "name": "Wander matelassé nappa leather hobo bag — black",
+          "nameZh": "缪缪 Wander 黑色褶皱纳帕皮革流浪包",
+          "reference": "5BC125_AN88_F0002_V_OOY",
+          "color": "Black with gold-tone hardware",
+          "sizes": [
+            "One size; 20 W × 17 H × 6 D cm"
+          ],
+          "materials": [
+            "Nappa lambskin",
+            "Cotton satin lining"
+          ],
+          "priceUSD": 2950,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "Official U.S. retail reference · checked 19 Oct 2026",
+          "priceSource": "https://www.miumiu.com/us/en/p/wander-matelasse-nappa-leather-hobo-bag/5BC125_AN88_F0002_V_OOY",
+          "priceEvidence": "The official U.S. page and raw HTML retrieved on 2026-10-19 list USD 2,950 for 5BC125_AN88_F0002_V_OOY. This reference is the pictured 20 cm black bag, not the original 2022 launch price.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.miumiu.com/us/en/p/wander-matelasse-nappa-leather-hobo-bag/5BC125_AN88_F0002_V_OOY",
+          "image": "assets/img/bag-years/2022-miu-miu-wander.jpg",
+          "imageSource": "https://www.miumiu.com/content/dam/miumiubkg_products/5/5BC/5BC125/AN88F0002/5BC125_AN88_F0002_V_OOY_SLF.jpg",
+          "imageCredit": "© Miu Miu · official product photograph",
+          "imageRightsNote": "Downloaded unchanged from the brand's publicly accessible product-image service. Copyright remains with the rights holder; public access is not a licence, and no reuse permission is claimed.",
+          "imageWidth": 2400,
+          "imageHeight": 2400,
+          "introEn": "Wander compresses a generous hobo curve into a small, rounded form. The gathered matelassé leather gives the black surface a rippling depth, and the padded-looking handle continues that texture around the opening. Gold lettering provides a warm point of focus without interrupting the softness. Its proportions make it feel more intimate than a conventional day bag, yet the dark colour prevents the sweetness from becoming overly precious. It is an appealing counterweight to crisp shirting, lean trousers and other pieces with a clear, straight line.",
+          "featuresEn": [
+            "Matelassé nappa lambskin with gold-tone hardware",
+            "Top zipper and a 110 cm leather shoulder strap",
+            "Cotton satin lining; 20 × 17 × 6 cm body"
+          ],
+          "stylingEn": "Use its rounded texture against an oversized cotton shirt and tailored shorts. In cooler weather, add it to a fine-gauge knit, narrow skirt and loafers for a softly nostalgic finish.",
+          "selectionReasonEn": "Lyst's 2022 review singled out the Wander among Miu Miu's defining products. Vogue Business's 29 November 2022 report added a 102% rise in Wander searches over the preceding three months, giving this choice evidence from the year itself.",
+          "selectionSources": [
+            {
+              "label": "Lyst · Year in Fashion 2022",
+              "url": "https://www.lyst.com/data/year-in-fashion-2022/",
+              "publishedAt": "2022-11",
+              "evidence": "The annual report identified Wander as a defining Miu Miu bag of 2022."
+            },
+            {
+              "label": "Vogue Business · 2022 year-end Lyst report",
+              "url": "https://www.vogue.com/article/from-miu-miu-to-birkenstock-the-hottest-brands-and-products-of-2022",
+              "publishedAt": "2022-11-29",
+              "evidence": "Reported Wander searches rising 102% over the preceding three months."
+            },
+            {
+              "label": "Prada Group · Miu Wander campaign",
+              "url": "https://www.pradagroup.com/en/news-media/press-releases-documents/2022/22-05-06-miu-miu-wanderlust.html",
+              "publishedAt": "2022-05-05",
+              "evidence": "Official May 2022 campaign announcement identifies the Miu Wander."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": 2022,
+          "availabilityEn": "Current official reference; stock and delivery are not promised."
+        },
+        {
+          "id": "bag-2022-loewe-spirited-away-susuwatari-mini-puzzle",
+          "year": 2022,
+          "selection": "limited",
+          "brand": "loewe",
+          "brandName": "LOEWE",
+          "name": "LOEWE x Spirited Away Susuwatari Mini Puzzle — mint green",
+          "nameZh": "罗意威 千与千寻煤炭精灵薄荷绿迷你 Puzzle 拼图包",
+          "reference": "Archive reference not available",
+          "color": "Mint green with black Susuwatari motifs; original colour name unconfirmed",
+          "sizes": [
+            "Mini"
+          ],
+          "materials": [
+            "Leather"
+          ],
+          "priceUSD": 2400,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2022-02-15",
+          "priceLabelEn": "Reported 2022 retail · secondary coverage and retailer archive",
+          "priceSource": "https://raider-review.com/2022/02/15/dissecting-loewes-recent-merchandise-collaboration-with-spirited-away/",
+          "priceEvidence": "A 15 February 2022 U.S. school newspaper article explicitly priced the mint-blue Susuwatari Mini Puzzle at USD 2,400. Dealmoon's retained Mytheresa product listing independently shows USD 2,400 with the same pictured green Mini; that search snapshot was marked crawled five months before the 2026-10-19 check. An official U.S. release-price page could not be recovered. This is reported retail, with weaker source quality than the official current references.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.loewe.com/usa/en/stories-collection/spirited-away-campaign.html",
+          "image": "assets/img/bag-years/2022-loewe-spirited-away.jpg",
+          "imageSource": "https://imgcache.dealmoon.com/thumbimg.dealmoon.com/dealmoon/7ef/bfe/f3b/e533e029d40671883a26c7b.jpg_600_0_3_348d.jpg",
+          "imageCredit": "LOEWE product photograph via Mytheresa listing retained by Dealmoon",
+          "imageRightsNote": "Downloaded unchanged from Dealmoon's retained Mytheresa product listing. The source does not supply a reuse licence or establish the photographer's identity; copyright remains with the applicable rights holder and no permission is claimed.",
+          "imageWidth": 600,
+          "imageHeight": 679,
+          "introEn": "Tiny soot sprites make the Puzzle's angular panels feel unexpectedly animated. Against mint-green leather, their dark silhouettes and bright eyes read like little interruptions in a carefully drawn geometric composition. The compact handle and long strap retain the model's recognisable outline, allowing the character work to carry the change in mood. This is a collector's piece with a light touch: the base colour remains easy to place in a wardrobe, while the scattered figures reward a closer look and keep the design from feeling solemn.",
+          "featuresEn": [
+            "Susuwatari characters from Spirited Away decorate the pictured green leather",
+            "Mini Puzzle body with a top handle and shoulder strap",
+            "Part of LOEWE's January 2022 Studio Ghibli capsule"
+          ],
+          "stylingEn": "Let the mint colour sit against ivory denim, a pale knit and flat sandals. A simple navy coat also gives the small black characters a clean frame without echoing the illustration elsewhere.",
+          "selectionReasonEn": "LOEWE's official archive calls Spirited Away a capsule collection; dated launch coverage places its release on 7 January 2022. This entry records that specific seasonal character edition. No numbered run or production quantity has been established for this bag.",
+          "selectionSources": [
+            {
+              "label": "LOEWE · Spirited Away archive",
+              "url": "https://www.loewe.com/usa/en/stories-collection/spirited-away-campaign.html",
+              "publishedAt": null,
+              "evidence": "The brand identifies a capsule spanning bags, clothing and accessories, with character leather marquetry."
+            },
+            {
+              "label": "Vogue · Spirited Away launch",
+              "url": "https://www.vogue.com/article/loewe-spirited-away-capsule",
+              "publishedAt": "2022-01-05",
+              "evidence": "Announces the capsule's 7 January 2022 launch."
+            },
+            {
+              "label": "Dealmoon · retained Mytheresa product listing",
+              "url": "https://www.dealmoon.com/en/product/loewe-x-spirited-away-susuwatari-puzzle-mini-leather-shoulder-bag/5129728",
+              "publishedAt": null,
+              "evidence": "Retains the exact mint-green Susuwatari Mini Puzzle photograph and a USD 2,400 retail listing."
+            }
+          ],
+          "editionType": "seasonal-capsule",
+          "editionLabelEn": "January 2022 · LOEWE x Spirited Away capsule",
+          "editionEvidence": "LOEWE's official collection archive explicitly describes the Spirited Away release as a capsule. Vogue's 5 January 2022 launch report dates availability to 7 January. This is a dated seasonal capsule designation; no bag-specific production limit or numbering is published.",
+          "editionSource": "https://www.loewe.com/usa/en/stories-collection/spirited-away-campaign.html",
+          "releaseYear": 2022,
+          "availabilityEn": "Archive capsule from January 2022; no current retail stock is implied.",
+          "referenceEvidence": "Not stated in the retained retailer listing",
+          "priceNoteEn": "This reference is supported by contemporary reporting and a retained retailer listing; an official U.S. release price has not been independently confirmed."
+        },
+        {
+          "id": "bag-2022-gucci-adidas-large-duffle",
+          "year": 2022,
+          "selection": "limited",
+          "brand": "gucci",
+          "brandName": "Gucci",
+          "name": "adidas x Gucci Large Duffle Bag — blue/red printed leather",
+          "nameZh": "古驰 阿迪达斯蓝红印花皮革大号旅行包",
+          "reference": "702422 UVGAT 4170",
+          "color": "Blue/red/cream print with gold-tone hardware",
+          "sizes": [
+            "Large"
+          ],
+          "materials": [
+            "Printed leather"
+          ],
+          "priceUSD": 4200,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2022-06-07",
+          "priceLabelEn": "Reported 2022 retail · Esquire launch-article snapshot",
+          "priceSource": "https://www.esquire.com/style/mens-fashion/g40219709/gucci-adidas-collection-2022/",
+          "priceEvidence": "Esquire's 7 June 2022 launch shopping article retains a USD 4,200 product card linked to Gucci SKU 702422UVGAT4170 and the matching blue/red photograph, observed in public HTML on 2026-10-19. Treat as a retained editorial retail reference. StockX's undated retail database reports USD 3,980 for this SKU, so the exact original U.S. price is not independently reconciled.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.gucci.com/us/en/st/stories/article/adidas-x-gucci",
+          "image": "assets/img/bag-years/2022-gucci-adidas-large-duffle.png",
+          "imageSource": "https://vader-prod.s3.amazonaws.com/1654628077-screen-shot-2022-06-07-at-2-53-23-pm-1654628024.png",
+          "imageCredit": "© Gucci / adidas · product photograph retained in Esquire's 2022 launch edit",
+          "imageRightsNote": "Downloaded unchanged from the image file embedded in Esquire's dated product card. The publisher's file retains the brand product photograph on a pink background; no open licence or republication permission is stated or claimed.",
+          "imageWidth": 1424,
+          "imageHeight": 1416,
+          "introEn": "A repeating Trefoil and Interlocking G pattern gives this duffle the exuberance of a vintage sporting poster. Blue, red and cream create a strong rhythm across the broad body, with matching printed handles making the pattern feel continuous. The familiar rounded travel-bag shape anchors all that surface activity. It brings a theatrical note to luggage and can make even plain travel clothes feel considered. The appeal is in the scale: the collaboration's shared symbols become a complete visual environment rather than a discreet finishing detail.",
+          "featuresEn": [
+            "Blue/red printed leather in the Large Duffle format",
+            "Two top handles, a top zipper and an attached Web shoulder strap",
+            "Archival product link identifies SKU 702422 UVGAT 4170"
+          ],
+          "stylingEn": "Keep a travel outfit simple with navy trousers, a cream knit and white trainers. Let the large pattern provide the colour, using a plain coat or jacket to frame it.",
+          "selectionReasonEn": "Gucci identifies adidas x Gucci as a capsule, and adidas's official release dates the first collection to 7 June 2022. This pictured duffle belongs to that launch edit; the designation records a seasonal collaboration rather than a numbered production claim.",
+          "selectionSources": [
+            {
+              "label": "Gucci Stories · adidas x Gucci",
+              "url": "https://www.gucci.com/us/en/st/stories/article/adidas-x-gucci",
+              "publishedAt": null,
+              "evidence": "Official campaign title explicitly identifies a capsule collection."
+            },
+            {
+              "label": "adidas News · adidas x Gucci is here",
+              "url": "https://news.adidas.com/originals/adidas-x-gucci-is-here/s/73828335-7f0b-4f46-8d9a-ba0af35277c5",
+              "publishedAt": "2022-06-07",
+              "evidence": "Official first-collection release date; bags and the shared emblems are included."
+            },
+            {
+              "label": "Esquire · launch shopping edit",
+              "url": "https://www.esquire.com/style/mens-fashion/g40219709/gucci-adidas-collection-2022/",
+              "publishedAt": "2022-06-07",
+              "evidence": "Retains the pictured Large Duffle and the original Gucci SKU link."
+            },
+            {
+              "label": "StockX · archival model record",
+              "url": "https://stockx.com/gucci-x-adidas-large-duffle-bag-blue-red",
+              "publishedAt": null,
+              "evidence": "Identifies blue/red leather and SKU 702422 UVGAT 4170; used for model identification, not a resale ask."
+            }
+          ],
+          "editionType": "seasonal-capsule",
+          "editionLabelEn": "June 2022 · adidas x Gucci launch capsule",
+          "editionEvidence": "Gucci's official campaign page calls the collection a capsule, while adidas's official 7 June 2022 release announces the first collection and its launch distribution. No numbered run, production quantity or bag-specific sales deadline is claimed.",
+          "editionSource": "https://news.adidas.com/originals/adidas-x-gucci-is-here/s/73828335-7f0b-4f46-8d9a-ba0af35277c5",
+          "releaseYear": 2022,
+          "availabilityEn": "Archive selection from the June 2022 launch capsule; no current retail stock is implied.",
+          "priceNoteEn": "Esquire’s launch listing gives US$4,200. A separate undated retail catalogue reports US$3,980; the original MSRP is not independently reconciled."
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "headlineEn": "Texture, proportion and character",
+      "introEn": "The year's hot picks bring together open raffia, broad leather totes and compact matelassé satchels. Lyst's dated reports support the strength of LOEWE's raffia bags, The Row's Margaux and Miu Miu's Arcadie, while contemporary Vogue coverage documents the Andiamo's early reception. The two special capsules add character through Calcifer's flame colours and Kusama's Painted Dots.",
+      "sources": [
+        {
+          "label": "The Lyst Index · Q2 2023",
+          "url": "https://www.lyst.com/the-lyst-index/q2-23/",
+          "publishedAt": "2023-Q2",
+          "sourceType": "primary-demand-report"
+        },
+        {
+          "label": "The Lyst Index · Q3 2023",
+          "url": "https://www.lyst.com/the-lyst-index/q3-23/",
+          "publishedAt": "2023-Q3",
+          "sourceType": "primary-demand-report"
+        },
+        {
+          "label": "The Lyst Index · Q4 2023",
+          "url": "https://www.lyst.com/the-lyst-index/q4-23/",
+          "publishedAt": "2023-Q4",
+          "sourceType": "primary-demand-report"
+        },
+        {
+          "label": "Vogue · Andiamo launch reception",
+          "url": "https://www.vogue.in/fashion/content/bottega-veneta-just-launched-a-new-handbag-and-it-cant-stay-in-stock",
+          "publishedAt": "2023-03-13",
+          "sourceType": "dated-fashion-reporting"
+        },
+        {
+          "label": "LOEWE · Howl's Moving Castle archive",
+          "url": "https://www.loewe.com/int/en/stories-collection/loewe-howls-moving-castle.html",
+          "publishedAt": null,
+          "sourceType": "official-collection-archive"
+        },
+        {
+          "label": "Selfridges Press · Howl's Moving Castle launch",
+          "url": "https://selfridgespress.com/2023/02/16/loewe-x-howls-moving-castle-at-selfridges/",
+          "publishedAt": "2023-02-16",
+          "sourceType": "official-retailer-launch"
+        },
+        {
+          "label": "PurseBlog · exact Calcifer Mini Puzzle launch price",
+          "url": "https://www.purseblog.com/loewe/loewe-x-howls-moving-castle/",
+          "publishedAt": "2023-02-02",
+          "sourceType": "dated-shopping-reporting"
+        },
+        {
+          "label": "Louis Vuitton Japan · first-drop press release",
+          "url": "https://prtimes.jp/main/html/rd/p/000000610.000060591.html",
+          "publishedAt": "2022-12-28",
+          "sourceType": "official-launch"
+        },
+        {
+          "label": "Fashionista · Kusama launch price and photograph",
+          "url": "https://fashionista.com/2023/01/louis-vuitton-yayoi-kusama-collaboration-collection-prices-2023",
+          "publishedAt": "2023-01-06",
+          "sourceType": "dated-shopping-reporting"
+        }
+      ],
+      "entries": [
+        {
+          "id": "bag-2023-loewe-font-tote",
+          "year": 2023,
+          "selection": "hot",
+          "brand": "loewe",
+          "brandName": "LOEWE",
+          "name": "Medium LOEWE Font tote in raffia — natural",
+          "nameZh": "罗意威 Font 原色拉菲草中号字母托特包",
+          "reference": "A685B61X05-2123",
+          "color": "Natural with black LOEWE lettering",
+          "sizes": [
+            "Medium; 30 W × 25.5 H × 15 D cm"
+          ],
+          "materials": [
+            "Raffia",
+            "Internal calfskin pocket"
+          ],
+          "priceUSD": 1850,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "Official U.S. price reference · checked 19 Oct 2026",
+          "priceSource": "https://www.loewe.com/usa/en/women/natural-fibres/medium-loewe-font-tote-in-raffia/A685B61X05-2123.html",
+          "priceEvidence": "Official U.S. HTML retrieved on 2026-10-19 includes Product/Offer structured data in USD at 1,850 for A685B61X05-2123, plus the same Natural image and Medium dimensions. The rendered text excerpt omitted the price; the amount is from the page's public structured data.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.loewe.com/usa/en/women/natural-fibres/medium-loewe-font-tote-in-raffia/A685B61X05-2123.html",
+          "image": "assets/img/bag-years/2023-loewe-font-tote.jpg",
+          "imageSource": "https://www.loewe.com/on/demandware.static/-/Sites-Loewe_master/default/dw378124a4/images_rd/A685B61X05/A685B61X05-2123/A685B61X05_2123_1F.jpg",
+          "imageCredit": "© LOEWE · official product photograph",
+          "imageRightsNote": "Downloaded unchanged from the brand's publicly accessible product-image service. Copyright remains with the rights holder; public access is not a licence, and no reuse permission is claimed.",
+          "imageWidth": 1848,
+          "imageHeight": 2790,
+          "introEn": "The Font tote makes a strong composition from a simple cuboid outline. Its open woven surface gives the natural colour a changing texture, while the black lettering sits low across the front like a clear graphic signature. Broad handles continue the weave upward, keeping the silhouette visually coherent. This medium reference balances a beach-bag mood with a more upright shape that also looks comfortable in a city wardrobe. Its most useful design quality is that contrast between relaxed fibre and a deliberately ordered, almost typographic face.",
+          "featuresEn": [
+            "Raffia leaves handwoven by artisans in Madagascar; bag made in Spain",
+            "Detachable, adjustable strap and an internal calfskin pocket",
+            "Unlined Medium body measuring 30 × 25.5 × 15 cm"
+          ],
+          "stylingEn": "Use the natural weave with white poplin, loose linen trousers and leather sandals. In the city, a dark cotton dress lets the lettering and basket texture remain the main visual accents.",
+          "selectionReasonEn": "Lyst's Q2 2023 Index ranked a LOEWE raffia tote fourth among all products and described sustained demand for its basket bags. This current Medium Font reference represents that documented raffia-tote family; it is not asserted to be the exact ranked colour or size.",
+          "selectionSources": [
+            {
+              "label": "The Lyst Index · Q2 2023",
+              "url": "https://www.lyst.com/the-lyst-index/q2-23/",
+              "publishedAt": "2023-Q2",
+              "evidence": "LOEWE raffia tote ranked fourth; the report describes basket-bag demand and Paula's Ibiza seasonal updates."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Current official reference; stock and delivery are not promised."
+        },
+        {
+          "id": "bag-2023-the-row-margaux-15",
+          "year": 2023,
+          "selection": "hot",
+          "brand": "the-row",
+          "brandName": "The Row",
+          "name": "Soft Margaux 15 Bag — black grained calfskin",
+          "nameZh": "The Row Margaux 15 黑色粒面小牛皮托特包",
+          "reference": "W1255L133BLPL",
+          "color": "Black with palladium-plated hardware",
+          "sizes": [
+            "15; 15 W × 11 H × 9 D in"
+          ],
+          "materials": [
+            "100% calfskin leather",
+            "100% cotton herringbone lining"
+          ],
+          "priceUSD": 4700,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "Official U.S. listed price · checked 19 Oct 2026; sold out",
+          "priceSource": "https://www.therow.com/products/soft-margaux-15-black",
+          "priceEvidence": "The official page's U.S./USD public HTML retrieved on 2026-10-19 lists USD 4,700, SKU W1255L133BLPL and Sold Out. The listed reference is not a stock or purchase promise.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.therow.com/products/soft-margaux-15-black",
+          "image": "assets/img/bag-years/2023-the-row-margaux-15.jpg",
+          "imageSource": "https://www.therow.com/cdn/shop/products/W1255L133BLPLF_a7456523-a46a-4be1-a7f0-349b38bd9f4f_800x.jpg?v=1744226478",
+          "imageCredit": "© The Row · official product photograph",
+          "imageRightsNote": "Downloaded unchanged from the brand's publicly accessible product-image service. Copyright remains with the rights holder; public access is not a licence, and no reuse permission is claimed.",
+          "imageWidth": 800,
+          "imageHeight": 1200,
+          "introEn": "Margaux 15 draws attention through proportion and restraint. Its broad base and gently arched handles create an assured outline, while the grained black leather gives the surface interest without a loud emblem. Small buckled side panels interrupt the width just enough to make the shape feel adjustable and alive. It reads as a deliberate everyday object rather than an occasional flourish. Against tailored clothes, the softened structure prevents stiffness; with casual clothing, the same controlled outline provides a useful sense of finish and composure.",
+          "featuresEn": [
+            "Grained calfskin body with belted side gussets",
+            "Palladium-plated hardware and cotton herringbone lining",
+            "Two interior card slots and one zipped pocket"
+          ],
+          "stylingEn": "Carry it with a long wool coat, a fine knit and relaxed tailored trousers. Keep shoes and jewellery quiet so the bag's scale and grained surface can define the outfit.",
+          "selectionReasonEn": "The Row's Margaux was the first-ranked product in Lyst's Q4 2023 Index. Lyst reported searches up 63% that quarter and 198% year on year. This black grained 15 is a precisely identified current reference within the ranked Margaux family.",
+          "selectionSources": [
+            {
+              "label": "The Lyst Index · Q4 2023",
+              "url": "https://www.lyst.com/the-lyst-index/q4-23/",
+              "publishedAt": "2023-Q4",
+              "evidence": "Margaux ranked first; searches rose 63% quarter on quarter and 198% year on year."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "The official U.S. reference was marked Sold Out when checked on 19 October 2026."
+        },
+        {
+          "id": "bag-2023-bottega-andiamo-small",
+          "year": 2023,
+          "selection": "hot",
+          "brand": "bottega-veneta",
+          "brandName": "Bottega Veneta",
+          "name": "Small Andiamo — black Intrecciato leather, silver-finish hardware",
+          "nameZh": "葆蝶家 Andiamo 黑色小号编织皮革手袋 银色绳结",
+          "reference": "766014VCPP11249",
+          "color": "Black with silver-finish hardware",
+          "sizes": [
+            "Small; 25 W × 20 H × 10 D cm"
+          ],
+          "materials": [
+            "Lambskin leather",
+            "Lambskin-bonded Intrecciato lining"
+          ],
+          "priceUSD": 4900,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "U.S. retail reference · official snapshot, crawled 19 Oct 2026",
+          "priceSource": "https://www.bottegaveneta.com/en-us/small-andiamo-black-766014VCPP11249.html",
+          "priceEvidence": "The official U.S. snapshot retrieved 2026-10-19, marked crawled today, lists USD 4,900 for 766014VCPP11249, Black with silver-finish hardware, lambskin and 25 × 20 × 10 cm dimensions. Direct raw retrieval returned 403. This current lambskin/silver reference is distinct from the original calfskin/gold-finish launch variants.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.bottegaveneta.com/en-us/small-andiamo-black-766014VCPP11249.html",
+          "image": "assets/img/bag-years/2023-bottega-andiamo-small.jpg",
+          "imageSource": "https://bottega-veneta.dam.kering.com/asset/e5ce16e3-bcb7-4c39-a337-b2197c34c6ba/Medium/766014VCPP11249_A.jpg?v=2",
+          "imageCredit": "© Bottega Veneta · official product photograph",
+          "imageRightsNote": "Downloaded unchanged from the brand's publicly accessible product-image service. Copyright remains with the rights holder; public access is not a licence, and no reuse permission is claimed.",
+          "imageWidth": 849,
+          "imageHeight": 1000,
+          "introEn": "Andiamo gives a familiar woven tote a distinct point of focus. The Intrecciato surface spreads evenly across the body, then gathers the eye toward a knot at the base of the handle. In this current black reference, silver-finish hardware supplies a cool highlight against the leather. The small top handle and sliding long strap create different visual attitudes, from neat hand carry to an easier crossbody line. Its appeal is a balance of repeated texture and one sculptural detail, making the bag feel considered without requiring conspicuous lettering.",
+          "featuresEn": [
+            "Small Intrecciato lambskin body with a sliding crossbody strap",
+            "Magnetic closure and a compartmented interior with one zipped and two open pockets",
+            "Silver-finish hardware; 25 × 20 × 10 cm body"
+          ],
+          "stylingEn": "Pair the small size with a crisp shirt, straight wool trousers and low leather shoes. A soft trench works well with the woven surface and keeps the knot detail visible near the hand.",
+          "selectionReasonEn": "On 13 March 2023, Vogue described the newly launched Andiamo as a bag that could not stay in stock and documented editors wearing it. That dated editorial evidence supports this family-level pick; the pictured lambskin and silver variant is a current reference.",
+          "selectionSources": [
+            {
+              "label": "Vogue · Andiamo launch coverage",
+              "url": "https://www.vogue.in/fashion/content/bottega-veneta-just-launched-a-new-handbag-and-it-cant-stay-in-stock",
+              "publishedAt": "2023-03-13",
+              "evidence": "Dated launch coverage describes demand and identifies the spring/summer 2023 debut; original variants used calfskin and gold-finish hardware."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": 2023,
+          "availabilityEn": "Current official reference; stock and delivery are not promised."
+        },
+        {
+          "id": "bag-2023-miu-miu-arcadie",
+          "year": 2023,
+          "selection": "hot",
+          "brand": "miu-miu",
+          "brandName": "Miu Miu",
+          "name": "Arcadie matelassé nappa leather bag — black",
+          "nameZh": "缪缪 Arcadie 黑色纳帕皮革褶皱波士顿包",
+          "reference": "5BB142_AN88_F0002_V_OON",
+          "color": "Black with gold-tone hardware",
+          "sizes": [
+            "One size; 22 W × 10.5 H × 7.5 D cm"
+          ],
+          "materials": [
+            "Nappa lambskin",
+            "Cotton satin lining"
+          ],
+          "priceUSD": 3500,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "Official U.S. retail reference · checked 19 Oct 2026",
+          "priceSource": "https://www.miumiu.com/us/en/p/arcadie-matelasse-nappa-leather-bag/5BB142_AN88_F0002_V_OON",
+          "priceEvidence": "The official U.S. page and HTML retrieved on 2026-10-19 show USD 3,500 for 5BB142_AN88_F0002_V_OON, matching the black 22 cm photographed bag.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.miumiu.com/us/en/p/arcadie-matelasse-nappa-leather-bag/5BB142_AN88_F0002_V_OON",
+          "image": "assets/img/bag-years/2023-miu-miu-arcadie.jpg",
+          "imageSource": "https://www.miumiu.com/content/dam/miumiubkg_products/5/5BB/5BB142/AN88F0002/5BB142_AN88_F0002_V_OON_SLF.jpg",
+          "imageCredit": "© Miu Miu · official product photograph",
+          "imageRightsNote": "Downloaded unchanged from the brand's publicly accessible product-image service. Copyright remains with the rights holder; public access is not a licence, and no reuse permission is claimed.",
+          "imageWidth": 2400,
+          "imageHeight": 2400,
+          "introEn": "Arcadie borrows the orderly outline of a small satchel, then loosens it through rippling matelassé leather. The twin handles and long horizontal body provide structure, while the gathered surface brings softness and a slightly nostalgic mood. Gold lettering and zipper hardware warm the black colour, and the hanging mirror case adds a small moving accent. It feels especially effective beside clothing with clean boundaries: a pressed shirt, a plain skirt or a straight jacket. Those calm surfaces allow the bag's dense texture to become the point of interest.",
+          "featuresEn": [
+            "Matelassé nappa lambskin with a removable leather mirror case",
+            "Leather top handles plus an adjustable, detachable shoulder strap",
+            "Zipped closure, cotton satin lining and protective purse feet"
+          ],
+          "stylingEn": "Use its horizontal shape with a short jacket and a long straight skirt. A pale knit or simple cotton shirt keeps the folds and gold details distinct without adding competing decoration.",
+          "selectionReasonEn": "Lyst's Q3 2023 Index specifically cited global demand for the Arcadie among the products driving Miu Miu's momentum. This is direct evidence for the family in 2023, while the photographed black 22 cm model and its current USD price are identified separately.",
+          "selectionSources": [
+            {
+              "label": "The Lyst Index · Q3 2023",
+              "url": "https://www.lyst.com/the-lyst-index/q3-23/",
+              "publishedAt": "2023-Q3",
+              "evidence": "The report explicitly attributes Miu Miu's momentum partly to global demand for the Arcadie bag."
+            },
+            {
+              "label": "The Lyst Index · Q2 2023",
+              "url": "https://www.lyst.com/the-lyst-index/q2-23/",
+              "publishedAt": "2023-Q2",
+              "evidence": "Brand activity records the Arcadie campaign with Gigi Hadid."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": 2023,
+          "availabilityEn": "Current official reference; stock and delivery are not promised."
+        },
+        {
+          "id": "bag-2023-loewe-calcifer-mini-puzzle",
+          "year": 2023,
+          "selection": "limited",
+          "brand": "loewe",
+          "brandName": "LOEWE",
+          "name": "LOEWE x Howl's Moving Castle Calcifer Mini Puzzle — black satin calfskin and crystals",
+          "nameZh": "罗意威 哈尔的移动城堡卡西法黑色水晶迷你 Puzzle 拼图包",
+          "reference": "A510U95X64-1100",
+          "color": "Black with red/yellow Calcifer and crystals",
+          "sizes": [
+            "Mini"
+          ],
+          "materials": [
+            "Satin calfskin",
+            "Crystal decoration"
+          ],
+          "priceUSD": 2700,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2023-02-02",
+          "priceLabelEn": "Reported launch retail · 2 Feb 2023, PurseBlog",
+          "priceSource": "https://www.purseblog.com/loewe/loewe-x-howls-moving-castle/",
+          "priceEvidence": "PurseBlog's 2 February 2023 launch report prices the black satin-calfskin Calcifer Mini Puzzle with crystal detail at USD 2,700 and links to LOEWE A510U95X64-1100. The archived brand product URL now returns 404. The current photograph is a separately credited FASHIONPHILE specimen; its resale ask is not used.",
+          "checkedAt": "2026-10-19",
+          "source": "https://www.loewe.com/int/en/stories-collection/loewe-howls-moving-castle.html",
+          "image": "assets/img/bag-years/2023-loewe-calcifer-mini-puzzle.jpg",
+          "imageSource": "https://www.fashionphile.com/cdn/shop/files/ec45e2928dba7097078815c5fb383b26.jpg?v=1779465493",
+          "imageCredit": "© FASHIONPHILE · photograph of a pre-owned LOEWE Calcifer Mini Puzzle",
+          "imageRightsNote": "Downloaded unchanged from FASHIONPHILE's product photograph for item 1887602. The image documents an actual resale specimen; no open licence, brand affiliation or republication permission is claimed.",
+          "imageWidth": 1500,
+          "imageHeight": 1500,
+          "introEn": "Calcifer creates a small burst of colour inside the Puzzle's dark geometry. His flame-shaped figure sits near one lower corner, with red and yellow crystals carrying the movement upward across the black leather. The rest of the bag remains visually quiet, so the character appears as a vivid interruption rather than an all-over print. This balance makes the piece easy to appreciate both as an illustrated object and as a compact bag. The angular seams supply a composed framework for a character whose whole presence suggests motion.",
+          "featuresEn": [
+            "Black satin-calfskin Mini Puzzle with Calcifer character decoration",
+            "Crystal details add red and yellow highlights",
+            "Archived LOEWE link identifies A510U95X64-1100"
+          ],
+          "stylingEn": "Set the flame colours against charcoal wool, dark denim or an ivory shirt. Keep other accessories simple; a small red shoe or lip colour can echo the illustration without turning it into a theme.",
+          "selectionReasonEn": "LOEWE's official archive identifies Howl's Moving Castle as its third and final Studio Ghibli collaboration and a capsule. Selfridges' official launch release dates the worldwide collection to 2 February 2023. This records that seasonal edition without inventing a production quantity.",
+          "selectionSources": [
+            {
+              "label": "LOEWE · Howl's Moving Castle archive",
+              "url": "https://www.loewe.com/int/en/stories-collection/loewe-howls-moving-castle.html",
+              "publishedAt": null,
+              "evidence": "Official archive identifies the third and final Studio Ghibli collaboration and a craft-led capsule."
+            },
+            {
+              "label": "Selfridges Press · collection launch",
+              "url": "https://selfridgespress.com/2023/02/16/loewe-x-howls-moving-castle-at-selfridges/",
+              "publishedAt": "2023-02-16",
+              "evidence": "Official retail press release states the worldwide 2 February 2023 launch."
+            },
+            {
+              "label": "PurseBlog · exact Mini Puzzle launch reference",
+              "url": "https://www.purseblog.com/loewe/loewe-x-howls-moving-castle/",
+              "publishedAt": "2023-02-02",
+              "evidence": "Identifies the black crystal Mini and USD 2,700 launch retail."
+            },
+            {
+              "label": "FASHIONPHILE · photographed specimen",
+              "url": "https://www.fashionphile.com/products/loewe-x-howls-moving-castle-satin-calfskin-crystal-mini-calcifer-puzzle-black-1887602",
+              "publishedAt": null,
+              "evidence": "Title and 7-inch base identify the photographed Mini; its generic description and year metadata contain inconsistencies."
+            }
+          ],
+          "editionType": "seasonal-capsule",
+          "editionLabelEn": "February 2023 · LOEWE x Howl's Moving Castle capsule",
+          "editionEvidence": "LOEWE's official archive calls this a capsule and the final Studio Ghibli collaboration. Selfridges' official press archive gives the global launch as 2 February 2023. No numbered run or bag-specific production cap is published.",
+          "editionSource": "https://www.loewe.com/int/en/stories-collection/loewe-howls-moving-castle.html",
+          "releaseYear": 2023,
+          "availabilityEn": "Archive capsule from February 2023. Photograph shows a resale specimen; no present retail stock is implied.",
+          "referenceEvidence": "A510U95X64-1100 (archived LOEWE product link)"
+        },
+        {
+          "id": "bag-2023-lv-yayoi-kusama-neverfull",
+          "year": 2023,
+          "selection": "limited",
+          "brand": "louis-vuitton",
+          "brandName": "Louis Vuitton",
+          "name": "LV x YK Neverfull MM — Monogram Painted Dots",
+          "nameZh": "路易威登 草间弥生彩色彩绘波点 Neverfull MM 中号托特包",
+          "reference": "Archive reference not available",
+          "color": "Brown Monogram with multicoloured Painted Dots and pale leather trim",
+          "sizes": [
+            "MM"
+          ],
+          "materials": [
+            "Monogram coated canvas",
+            "Leather trim"
+          ],
+          "priceUSD": 2980,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2023-01-06",
+          "priceLabelEn": "Reported launch retail · 6 Jan 2023, Fashionista",
+          "priceSource": "https://fashionista.com/2023/01/louis-vuitton-yayoi-kusama-collaboration-collection-prices-2023",
+          "priceEvidence": "Fashionista's 6 January 2023 launch article captions this exact Monogram Painted Dots Neverfull MM product photograph at USD 2,980. The dated page was inspected on 2026-10-19; its text snapshot was marked crawled today. This is reported historical retail, not a current Louis Vuitton offer.",
+          "checkedAt": "2026-10-19",
+          "source": "https://prtimes.jp/main/html/rd/p/000000610.000060591.html",
+          "image": "assets/img/bag-years/2023-lv-yayoi-kusama-neverfull.jpg",
+          "imageSource": "https://fashionista.com/.image/MTk0Nzg5MzkxOTMwMDQxNTA2/louis-vuitton-x-yayoi-kusama-neverfull-mm-in-monogram-canvas-with-painted-dots-print.jpg?profile=w2560&x=50&y=50",
+          "imageCredit": "© Louis Vuitton · courtesy product photograph published by Fashionista",
+          "imageRightsNote": "Downloaded unchanged from the product image credited courtesy of Louis Vuitton in Fashionista's 6 January 2023 launch article. No open licence or republication permission is stated or claimed.",
+          "imageWidth": 2560,
+          "imageHeight": 2560,
+          "introEn": "Kusama's Painted Dots give the Neverfull a second rhythm over its familiar Monogram. Red, green, blue, yellow and white marks break the orderly brown field into a looser, more playful composition, while the pale leather handles keep the silhouette clearly legible. The interest comes from that meeting of two visual systems: a repeated house pattern and dots with an irregular painted edge. On a broad tote, the colours have room to spread, making the bag feel like a moving surface rather than a small decorated accessory.",
+          "featuresEn": [
+            "Multicoloured Painted Dots layered over brown Monogram canvas",
+            "Neverfull MM tote with two long leather handles",
+            "Pictured variant belongs to the January 2023 artist-collection drop"
+          ],
+          "stylingEn": "Wear it with a plain trench, a white shirt and dark jeans to give the dots space. Choose one colour from the bag for a small accessory instead of repeating a full multicolour palette.",
+          "selectionReasonEn": "Louis Vuitton Japan's dated release records the first 2023 Kusama collection drop and its January pop-up. Launch coverage identifies this Painted Dots Neverfull in the January release. The entry is a dated artist capsule selection; no bag production cap has been established.",
+          "selectionSources": [
+            {
+              "label": "Louis Vuitton Japan · first-drop press archive",
+              "url": "https://prtimes.jp/main/html/rd/p/000000610.000060591.html",
+              "publishedAt": "2022-12-28",
+              "evidence": "Official announcement of the 2023 first drop and the 2–22 January Harajuku pop-up."
+            },
+            {
+              "label": "Fashionista · January 2023 launch report",
+              "url": "https://fashionista.com/2023/01/louis-vuitton-yayoi-kusama-collaboration-collection-prices-2023",
+              "publishedAt": "2023-01-06",
+              "evidence": "Documents January/March collection drops and captions the exact pictured Neverfull MM at USD 2,980."
+            }
+          ],
+          "editionType": "seasonal-capsule",
+          "editionLabelEn": "January 2023 · Louis Vuitton x Yayoi Kusama artist capsule",
+          "editionEvidence": "Louis Vuitton Japan's official 28 December 2022 press release announces the first collection drop in January 2023. Launch coverage records January and March 2023 drops. This is a dated artist-capsule designation, with no numbered run or production cap claimed. The 2–22 January dates apply to the Harajuku pop-up, not a bag-specific sales deadline.",
+          "editionSource": "https://prtimes.jp/main/html/rd/p/000000610.000060591.html",
+          "releaseYear": 2023,
+          "availabilityEn": "Archive artist-capsule selection from January 2023; the historical price does not imply current availability.",
+          "referenceEvidence": "Not stated in the retained launch article"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Hot picks are editorial selections supported by dated demand or coverage, not a global unit-sales ranking. Lyst groups colours for styles; model-family evidence does not prove that the exact current photographed variant was the most demanded colour or size in the selected year.",
+    "The current black/silver-finish lambskin Andiamo is a reference variant. The 2023 Vogue launch report describes earlier calfskin/gold-finish versions; those materials and hardware are not attributed to the current photograph.",
+    "Balenciaga and Bottega Veneta prices come from official U.S. text snapshots marked crawled on the check date; direct raw-page retrieval was blocked. The user-facing price labels identify those snapshots.",
+    "The LOEWE Font price comes from public Product/Offer structured data on the official U.S. page. The rendered text extract omitted the amount; this distinction is stated in its visible price label.",
+    "The mint Susuwatari Mini Puzzle's USD 2,400 price has weaker evidence: a contemporaneous U.S. school newspaper report plus a retained Mytheresa listing on Dealmoon. No official U.S. release-price page was recovered, and the original colour name and SKU remain unconfirmed.",
+    "The adidas x Gucci duffle's USD 4,200 is retained in Esquire's dated 2022 launch article. StockX's undated retail database lists USD 3,980 for the same SKU; the discrepancy is unresolved and the figure is labelled as an editorial historical reference.",
+    "FASHIONPHILE's Calcifer specimen title and seven-inch base identify a Mini, but its generic description says Small and its year field says 2022. Release year is taken from LOEWE's capsule archive and the 2023 launch record; the photograph was visually checked against the black crystal Mini described by the launch report.",
+    "All four special selections are dated seasonal capsules, not verified numbered editions. No bag-specific production cap is supplied. Louis Vuitton's January pop-up dates describe the event rather than a bag sales deadline.",
+    "Archive prices are historical references, and current listed prices do not guarantee stock. Photographs are retained unchanged from the credited sources; public accessibility does not establish a reuse licence or clear publication rights."
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "passed": true,
+  "engine": "LinkeDOM; actual generated HTML and shipping JavaScript",
+  "scope": "DOM interaction checks only; no browser, layout, viewport or screenshot test",
+  "ownedTabsOpened": 0,
+  "checks": [
+    {
+      "name": "Without scripts, all five edits remain readable",
+      "passed": true,
+      "detail": 5
+    },
+    {
+      "name": "Default year is 2026",
+      "passed": true,
+      "detail": [
+        "2026"
+      ]
+    },
+    {
+      "name": "Only 2022 is selected",
+      "passed": true,
+      "detail": [
+        "2022"
+      ]
+    },
+    {
+      "name": "2022 contains four hot picks and two editions",
+      "passed": true,
+      "detail": {
+        "hot": 4,
+        "editions": 2
+      }
+    },
+    {
+      "name": "2022 updates its shareable hash",
+      "passed": true,
+      "detail": "#year-2022"
+    },
+    {
+      "name": "2022 has a single accessible pressed button",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "name": "Only 2023 is selected",
+      "passed": true,
+      "detail": [
+        "2023"
+      ]
+    },
+    {
+      "name": "2023 contains four hot picks and two editions",
+      "passed": true,
+      "detail": {
+        "hot": 4,
+        "editions": 2
+      }
+    },
+    {
+      "name": "2023 updates its shareable hash",
+      "passed": true,
+      "detail": "#year-2023"
+    },
+    {
+      "name": "2023 has a single accessible pressed button",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "name": "Only 2024 is selected",
+      "passed": true,
+      "detail": [
+        "2024"
+      ]
+    },
+    {
+      "name": "2024 contains four hot picks and two editions",
+      "passed": true,
+      "detail": {
+        "hot": 4,
+        "editions": 2
+      }
+    },
+    {
+      "name": "2024 updates its shareable hash",
+      "passed": true,
+      "detail": "#year-2024"
+    },
+    {
+      "name": "2024 has a single accessible pressed button",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "name": "Only 2025 is selected",
+      "passed": true,
+      "detail": [
+        "2025"
+      ]
+    },
+    {
+      "name": "2025 contains four hot picks and two editions",
+      "passed": true,
+      "detail": {
+        "hot": 4,
+        "editions": 2
+      }
+    },
+    {
+      "name": "2025 updates its shareable hash",
+      "passed": true,
+      "detail": "#year-2025"
+    },
+    {
+      "name": "2025 has a single accessible pressed button",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "name": "Only 2026 is selected",
+      "passed": true,
+      "detail": [
+        "2026"
+      ]
+    },
+    {
+      "name": "2026 contains four hot picks and two editions",
+      "passed": true,
+      "detail": {
+        "hot": 4,
+        "editions": 2
+      }
+    },
+    {
+      "name": "2026 updates its shareable hash",
+      "passed": true,
+      "detail": "#year-2026"
+    },
+    {
+      "name": "2026 has a single accessible pressed button",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "name": "ArrowRight selects 2025",
+      "passed": true,
+      "detail": "2025"
+    },
+    {
+      "name": "End selects 2022",
+      "passed": true,
+      "detail": "2022"
+    },
+    {
+      "name": "Home selects 2026",
+      "passed": true,
+      "detail": "2026"
+    },
+    {
+      "name": "Hash navigation selects 2023",
+      "passed": true,
+      "detail": "2023"
+    },
+    {
+      "name": "Direct year link opens 2022",
+      "passed": true,
+      "detail": "2022"
+    },
+    {
+      "name": "Search data contains thirty annual entries",
+      "passed": true,
+      "detail": {
+        "annual": 30,
+        "total": 82
+      }
+    },
+    {
+      "name": "Every annual search result has photograph, year and USD label",
+      "passed": true,
+      "detail": {
+        "results": 30
+      }
+    }
+  ],
+  "engineVersion": "0.18.13"
+}

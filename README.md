@@ -17,26 +17,28 @@
 
 - 15 个品牌：Hermès、Chanel、Louis Vuitton、Dior、Gucci、Prada、Bottega Veneta、Celine、Cartier、Tiffany & Co.、Bvlgari、Van Cleef & Arpels、Rolex、Omega、Fendi。
 - **The Style Edit：24 款实物图商品，六类各 4 款**。每款包含英文介绍、三条设计细节、搭配建议、具体型号与材质尺寸、税前美元参考价及官方商品/图片来源。首页支持按品类切换，各品类页优先显示这四款。
+- **The Bag Yearbook：2022–2026，每年 4 款热门精选 + 2 款限量/限定款，共 30 条年度记录。** 包含实物图、英文设计与搭配介绍、当年入选依据、发行信息和有来源的美元价格。首页与包袋页提供入口，独立页面 `bags-by-year.html` 支持五年份切换和年份直达链接。
 - 另保留 28 个经典设计词条，共 **52 个单品页**；鞋履与墨镜作为生活配件扩展收录于首饰品类。未核实具体美元型号的经典词条直接提示向美国官方渠道询价，不做汇率猜算。
 - 12 篇原创杂志文章，每篇正文至少 800 个中文字；正文不依赖在线加载。
 - 6 个品类页：包包、项链、首饰、腕表、丝巾、香水。
-- 首页、品牌索引、搜索、关于与 404，共 **90 页**。
-- 24 张本地保存的品牌官方实物照片（约 2.03 MiB），另有 42 个原创 SVG。照片逐款署名并保留原图来源，未声称获得开放图片许可；没有复制第三方文章。
+- 年度包袋另有 30 个英文详情页；全站共 **82 个单品/年度详情页、121 页 HTML**。
+- The Style Edit 的 24 张本地实物照片约 2.03 MiB，年度包袋照片另存于 `assets/img/bag-years/`；另有 42 个原创 SVG。照片逐款署名并保留原图来源，未声称获得开放图片许可；没有复制第三方文章。
 
 ## 目录
 
 ```
 index.html / about.html / brands.html / search.html / 404.html
+bags-by-year.html 2022–2026 包袋年份页
 brand/          品牌页
 cat/            六品类聚合页
 item/           单品词典
 mag/            杂志长文
 assets/css/     唯一主样式 main.css
 assets/js/      data.js、render.js、main.js
-assets/img/     原创概念插画；products/ 为实物照片
+assets/img/     原创概念插画；products/ 与 bag-years/ 为实物照片
 assets/fonts/   本地字体和对应 OFL 许可证
 tools/          可选的内容维护脚本与可编辑数据
-tools/research/ 24 款商品的官方来源、价格证据与图片权利记录
+tools/research/ 实物商品与年度包袋的来源、价格证据与图片权利记录
 reports/        验收记录、页面清单、商品来源清单和预览截图
 ```
 
@@ -50,13 +52,13 @@ reports/        验收记录、页面清单、商品来源清单和预览截图
 
 ## 数据脚本与 80 KB 预算
 
-运行时搜索与筛选所需字段由普通 `<script src="assets/js/data.js">` 提供，没有 ES Modules，也没有 fetch 本地 JSON。完整故事、规格与来源已预渲染到 HTML；数据脚本只发送搜索字段，并编码成 gzip + Base64，用浏览器内置 `DecompressionStream` 在内存中解码。运行时 JavaScript 约 23.3 KiB，低于 80 KiB 预算。
+运行时搜索与筛选所需字段由普通 `<script src="assets/js/data.js">` 提供，没有 ES Modules，也没有 fetch 本地 JSON。完整故事、规格与来源已预渲染到 HTML；数据脚本只发送搜索字段，并编码成 gzip + Base64，用浏览器内置 `DecompressionStream` 在内存中解码。运行时 JavaScript 总体积由校验器控制在 80 KiB 以内，当前体积见 `reports/static-validation.json`。
 
 解码完成后得到 `window.MUSELUX_DATA`，`window.MUSELUX_READY` 是对应 Promise。Chrome / Edge 80+、Safari 16.4+ 支持所需的原生能力；目标为最新两个大版本。页面正文已经预渲染，数据只为搜索和筛选提供增强。所有外部来源链接都是普通阅读入口，首屏和站内交互不请求网络。
 
 ## 图片与字体替换
 
-SVG 表达的是概念、轮廓与阅读气氛，不代表产品实际外观，不能用于真伪判断。The Style Edit 的 24 张照片下载自所列品牌的官方商品图片，未经过生成式改绘；颜色、型号与图源一同记录于 `tools/research/` 和 `reports/product-sources.json`。照片版权归品牌或相应权利人；公开可见和署名本身不等于开放许可，本站不宣称品牌授权或合作。后续替换请保留来源和权利依据。
+SVG 表达的是概念、轮廓与阅读气氛，不代表产品实际外观，不能用于真伪判断。The Style Edit 的 24 张照片下载自所列品牌的官方商品图片，未经过生成式改绘；颜色、型号与图源一同记录于 `tools/research/` 和 `reports/product-sources.json`。年度包袋照片的来源与权利记录另见 `reports/bag-yearbook-sources.json`。照片版权归品牌或相应权利人；公开可见和署名本身不等于开放许可，本站不宣称品牌授权或合作。后续替换请保留来源和权利依据。
 
 替换图片后保留宽高信息与描述性 alt；如改变文件名，请同步修改内容数据或生成模板。插画源脚本在 `tools/draw_assets.py`。
 
@@ -70,13 +72,19 @@ The Style Edit 的价格均为 **USD、未含税、图中具体型号的美国�
 
 更新这批商品记录时，先修改 `tools/research/*.json`，运行 `python3 tools/apply_style_edit.py` 合并到 `content.json`，再运行生成与校验脚本。合并器可重复运行，不访问网络、不重新下载图片、不换算货币；原始采集限制仍保留在研究文件中。
 
+年度包袋由 `tools/research/bag-years-*.json` 维护，运行 `python3 tools/apply_bag_yearbook.py` 合并。每年四款热门是依据当年 Lyst 季度需求信号与有日期的时尚报道形成的编辑精选，来源排名保留其原始时期，不是统一的全球年度销量榜。具体照片可能展示该热门包型的后续配色或材质版本，详情明确记录图中型号；限量/限定照片对应所述特别版本。
+
+限量类型分别标注编号版、明确限量版和季节限定系列。季节限定不等于品牌公布固定生产数量。美元价格明确区分当前美国零售参考、发布期价格、报道价格和未公开报价；没有将转售挂牌价写成原始零售价。2026 年收录截止日为 2026-10-19。
+
+`reports/bag-yearbook-sources.json` 保存 30 条年度记录的入选来源、价格依据与版本证明。新增品牌的款式可收录于年度页；原有 15 个品牌历史档案继续保留在品牌索引中。
+
 固定免责声明：MuseLux 是个人兴趣驱动的非商业内容项目，所有品牌名称与产品名称的权利归其权利人所有；价格信息仅为整理时的公开参考，请以品牌官方渠道为准。
 
 订阅框仅演示输入校验与行内确认，不保存邮箱，也不发送邮件。不存在购物车、下单、支付或账号功能。
 
 ## 检查与预览
 
-可运行 `python3 tools/validate.py` 检查全部页面、链接、锚点、图片、内容长度和运行时 JS 体积。浏览器验收使用 Chromium；本机没有把 Safari 和 Edge 都执行一遍，兼容性依据所使用的标准 API 与样式回退。完整结果见 `reports/自检报告.md`。
+可运行 `python3 tools/validate.py` 检查全部页面、链接、锚点、图片、内容长度和运行时 JS 体积。初版浏览器验收使用 Chromium；年度包袋更新按照用户选择执行静态检查，并用临时 LinkeDOM 对实际生成的 HTML 和运行脚本做了 29 项 DOM 交互检查，覆盖五年份切换、直达链接、键盘操作和年度搜索结果。没有新增浏览器标签或声称完成本轮手机视口视觉复测。完整结果见 `reports/自检报告.md`。
 
 如希望用 HTTP 预览，可在本目录运行 `python3 -m http.server 4173`，访问 `http://localhost:4173/`；这只是可选维护方式。
 

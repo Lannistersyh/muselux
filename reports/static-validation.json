@@ -1,11 +1,44 @@
 {
   "passed": true,
-  "pages": 90,
+  "pages": 121,
   "brands": 15,
   "items": 52,
+  "annualBagEntries": 30,
+  "annualSelectionCounts": {
+    "2022": {
+      "hot": 4,
+      "limited": 2
+    },
+    "2023": {
+      "hot": 4,
+      "limited": 2
+    },
+    "2024": {
+      "hot": 4,
+      "limited": 2
+    },
+    "2025": {
+      "hot": 4,
+      "limited": 2
+    },
+    "2026": {
+      "hot": 4,
+      "limited": 2
+    }
+  },
+  "annualEditionTypes": {
+    "seasonal-capsule": 8,
+    "limited-edition": 2
+  },
+  "annualPriceBasis": {
+    "current-retail": 18,
+    "reported-retail": 12
+  },
+  "annualSnapshotReferences": 8,
+  "searchableItemPages": 82,
   "articles": 12,
   "categories": 6,
-  "photographedProducts": 24,
+  "photographedProducts": 54,
   "productsPerCategory": {
     "bags": 4,
     "scarves": 4,
@@ -15,9 +48,10 @@
     "fragrance": 4
   },
   "currency": "USD",
-  "snapshotPrices": 8,
+  "coreSnapshotPrices": 8,
+  "unlistedAnnualPrices": 0,
   "svgAssets": 42,
-  "runtimeJavaScriptBytes": 23890,
+  "runtimeJavaScriptBytes": 32058,
   "articleChineseCharacters": {
     "mag-01": 972,
     "mag-02": 915,
