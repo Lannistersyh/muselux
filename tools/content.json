@@ -1,0 +1,1786 @@
+{
+  "categories": [
+    {
+      "id": "bags",
+      "nameZh": "包包",
+      "nameEn": "BAGS",
+      "blurb": "从马鞍工坊，到日常相伴",
+      "note": "读懂轮廓、皮革与一只包的来处。"
+    },
+    {
+      "id": "necklace",
+      "nameZh": "项链",
+      "nameEn": "NECKLACES",
+      "blurb": "锁骨之间的一点心意",
+      "note": "一条细链，也有自己的设计语言。"
+    },
+    {
+      "id": "jewelry",
+      "nameZh": "首饰",
+      "nameEn": "JEWELRY",
+      "blurb": "把小小的光，戴在身上",
+      "note": "从金属到宝石，认识贴近日常的光。"
+    },
+    {
+      "id": "watches",
+      "nameZh": "腕表",
+      "nameEn": "WATCHES",
+      "blurb": "让时间，有自己的形状",
+      "note": "在机芯之外，读见时间的审美。"
+    },
+    {
+      "id": "scarves",
+      "nameZh": "丝巾",
+      "nameEn": "SCARVES",
+      "blurb": "一方丝绸，无限种表情",
+      "note": "系起一个结，打开颜色与图案的故事。"
+    },
+    {
+      "id": "fragrance",
+      "nameZh": "香水",
+      "nameEn": "FRAGRANCE",
+      "blurb": "为记忆，留一点气息",
+      "note": "从第一张试香纸，慢慢找到自己的气味。"
+    }
+  ],
+  "brands": [
+    {
+      "id": "hermes",
+      "name": "Hermès",
+      "nameZh": "爱马仕",
+      "country": "法国",
+      "founded": 1837,
+      "categories": [
+        "bags",
+        "scarves",
+        "watches"
+      ],
+      "tagline": "从一针马鞍缝线，读懂时间",
+      "intro": "认识爱马仕，可以先暂时放下橙色盒子，看看一副马具。蒂埃利·爱马仕在巴黎开设工坊时，面对的是骑乘与旅行的实际需求：皮革要结实，缝线要可靠，形状也要顺手。这种从用途出发的思路，后来走进包袋、丝巾与日常物件。我们熟悉的双提手、搭带和手工卷边，都是这段历史的不同回声。读它的作品，除了款名与颜色，也值得看看材料怎样弯折、线迹怎样收尾。品牌的吸引力，常常就在这些安静的细节里。",
+      "timeline": [
+        {
+          "year": 1837,
+          "event": "蒂埃利·爱马仕在巴黎开设马具工坊"
+        },
+        {
+          "year": 1867,
+          "event": "马具工艺在巴黎世界博览会获奖"
+        },
+        {
+          "year": 1880,
+          "event": "工坊迁至圣奥诺雷市郊路二十四号"
+        },
+        {
+          "year": 1922,
+          "event": "将拉链系统引入品牌皮具"
+        },
+        {
+          "year": 1937,
+          "event": "推出第一方印花丝巾"
+        },
+        {
+          "year": 1984,
+          "event": "Birkin 手袋诞生"
+        }
+      ],
+      "signatures": [
+        "马鞍针法",
+        "搭带与转锁",
+        "Carré 丝巾",
+        "手工卷边"
+      ],
+      "source": "https://www.hermes.com/uk/en/content/235056-six-generations-of-artisans/",
+      "classicItems": [
+        "birkin",
+        "kelly",
+        "carre90"
+      ]
+    },
+    {
+      "id": "chanel",
+      "name": "Chanel",
+      "nameZh": "香奈儿",
+      "country": "法国",
+      "founded": 1910,
+      "categories": [
+        "bags",
+        "jewelry",
+        "fragrance",
+        "watches"
+      ],
+      "tagline": "把自由，缝进日常的轮廓",
+      "intro": "一只可以解放双手的肩包，一瓶不直接模仿单朵花的香水，一块轻盈的斜纹软呢：香奈儿的故事，常常从改变穿戴方式开始。嘉柏丽尔·香奈儿最初经营女帽，随后把对身体活动的关注带进服装与配饰。菱格纹、链条与山茶花成为熟悉的符号，却不必同时出现，才能让人认出这种语言。读经典翻盖包时，可以先比较包扣、肩链与比例；看珠宝时，则试着观察弧线怎样贴近手指。与其把所有作品归为一种气质，不如看看它怎样在不同年代重新表达轻松与独立。",
+      "timeline": [
+        {
+          "year": 1910,
+          "event": "康朋街女帽店开门"
+        },
+        {
+          "year": 1921,
+          "event": "Ernest Beaux 创作的 N°5 香水问世"
+        },
+        {
+          "year": 1926,
+          "event": "小黑裙成为品牌服装语言之一"
+        },
+        {
+          "year": 1932,
+          "event": "推出 Bijoux de Diamants 钻石珠宝展"
+        },
+        {
+          "year": 1955,
+          "event": "二月推出 2.55 肩背手袋"
+        },
+        {
+          "year": 1987,
+          "event": "Première 腕表问世"
+        }
+      ],
+      "signatures": [
+        "菱格纹",
+        "链条肩带",
+        "山茶花",
+        "Coco Crush"
+      ],
+      "source": "https://www.chanel.com/us/about-chanel/the-house-of-chanel/",
+      "classicItems": [
+        "chanel-255",
+        "classic-flap",
+        "boy",
+        "coco-crush",
+        "no5"
+      ]
+    },
+    {
+      "id": "louis-vuitton",
+      "name": "Louis Vuitton",
+      "nameZh": "路易威登",
+      "country": "法国",
+      "founded": 1854,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "旅行的形状，也可以很日常",
+      "intro": "如果把路易威登的故事摊开，起点是一只旅行硬箱。十九世纪的出行方式不断变化，箱子需要经得住搬运，也需要更方便堆叠。品牌从木工结构、帆布覆面与锁具出发，慢慢写出一套与移动有关的设计语言。棋盘格和字母花纹让人一眼认出它，但图案之外，提手的位置、包底的宽度与收纳方式同样值得留意。Speedy 把旅行袋的容量缩进城市生活，其他作品则继续回应不同的出行节奏。理解这段历史，日常手袋就不再只是一个标志，而是一件关于如何带着生活出门的物品。",
+      "timeline": [
+        {
+          "year": 1854,
+          "event": "路易·威登在巴黎开设首店"
+        },
+        {
+          "year": 1859,
+          "event": "在阿涅尔建立工坊"
+        },
+        {
+          "year": 1885,
+          "event": "首家海外门店在伦敦开业"
+        },
+        {
+          "year": 1888,
+          "event": "Damier 棋盘格帆布推出"
+        },
+        {
+          "year": 1896,
+          "event": "Georges Vuitton 创作 Monogram 图案"
+        },
+        {
+          "year": 1930,
+          "event": "Speedy 的前身 Express 出现"
+        }
+      ],
+      "signatures": [
+        "Monogram 帆布",
+        "Damier 棋盘格",
+        "旅行硬箱",
+        "Toron 提手"
+      ],
+      "source": "https://uk.louisvuitton.com/eng-gb/magazine/articles/heritage",
+      "classicItems": [
+        "speedy"
+      ]
+    },
+    {
+      "id": "dior",
+      "name": "Dior",
+      "nameZh": "迪奥",
+      "country": "法国",
+      "founded": 1946,
+      "categories": [
+        "bags",
+        "fragrance"
+      ],
+      "tagline": "从高定沙龙，走来的建筑感",
+      "intro": "迪奥让人想到的，往往先是一道腰线，再是一只端正的小手袋。克里斯汀·迪奥在蒙田大道建立时装屋，首场发布所呈现的轮廓，后来被称为 New Look。品牌把服装里的结构与装饰感，继续带进包袋与香水。Lady Dior 的藤格纹、弧形提手和字母吊饰，看似轻巧，却能让人联想到沙龙座椅与建筑的秩序。认识它，可以从正面看轮廓，再从侧面看体积，最后留意不同皮革怎样改变光泽。比起只记住某一季颜色，这些细节更能解释，为什么同一种形状可以有那么多不同表情。",
+      "timeline": [
+        {
+          "year": 1946,
+          "event": "克里斯汀·迪奥建立巴黎时装屋"
+        },
+        {
+          "year": 1947,
+          "event": "首场高级定制发布获称 New Look"
+        },
+        {
+          "year": 1947,
+          "event": "Miss Dior 香水推出"
+        },
+        {
+          "year": 1957,
+          "event": "Yves Saint Laurent 接任设计工作"
+        },
+        {
+          "year": 1995,
+          "event": "戴安娜王妃获赠后来闻名的手袋"
+        },
+        {
+          "year": 2016,
+          "event": "Dior Lady Art 项目开启艺术合作"
+        }
+      ],
+      "signatures": [
+        "Cannage 藤格纹",
+        "字母吊饰",
+        "蒙田大道",
+        "New Look"
+      ],
+      "source": "https://www.dior.com/en_si/fashion/bags/iconic-lady-dior",
+      "classicItems": [
+        "lady-dior"
+      ]
+    },
+    {
+      "id": "gucci",
+      "name": "Gucci",
+      "nameZh": "古驰",
+      "country": "意大利",
+      "founded": 1921,
+      "categories": [
+        "bags",
+        "scarves",
+        "jewelry"
+      ],
+      "tagline": "在马衔扣与竹节间，读意式想象",
+      "intro": "古驰的设计语言像一本有颜色的旅行笔记：马衔扣、竹节提手、织带与花卉图案，来自不同年代，也会在新作品里相遇。品牌由古驰奥·古驰在佛罗伦萨创立，早期皮具与旅行用品的背景，让实用结构始终藏在装饰背后。Jackie 的弧形袋身看起来随意，扣件却有清楚的节奏；Flora 图案则把一块丝绸变成可以随身带走的花园。阅读这个品牌，不必一次记全所有符号。选一个自己喜欢的细节，看看它从哪里来，又怎样在不同材质上改变性格，已经是一条很有趣的入门路线。",
+      "timeline": [
+        {
+          "year": 1921,
+          "event": "古驰奥·古驰在佛罗伦萨开店"
+        },
+        {
+          "year": 1947,
+          "event": "竹节提手手袋问世"
+        },
+        {
+          "year": 1953,
+          "event": "纽约门店开业，马衔扣乐福鞋推出"
+        },
+        {
+          "year": 1961,
+          "event": "Jackie 手袋的经典前身诞生"
+        },
+        {
+          "year": 1966,
+          "event": "Flora 花卉图案诞生"
+        },
+        {
+          "year": 1981,
+          "event": "品牌在佛罗伦萨举行首场时装秀"
+        }
+      ],
+      "signatures": [
+        "Horsebit 马衔扣",
+        "竹节提手",
+        "织带",
+        "Flora 花卉"
+      ],
+      "source": "https://www.gucci.com/ca/en/nst/history-of-gucci",
+      "classicItems": [
+        "jackie",
+        "horsebit-loafer"
+      ]
+    },
+    {
+      "id": "prada",
+      "name": "Prada",
+      "nameZh": "普拉达",
+      "country": "意大利",
+      "founded": 1913,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "把理性，做成可以触摸的美",
+      "intro": "普拉达的魅力，常常在看似矛盾的地方：轻巧的尼龙与端正的皮包，利落的几何轮廓与不那么讨好的颜色。品牌起点是米兰拱廊中的皮具店，后来在缪西娅·普拉达的创作中，把功能性材料带入时装讨论。Galleria 的分层结构与 Saffiano 纹理，呈现了另一种日常秩序。认识它，可以先问一个实际问题：东西放进去以后，好不好拿？再看看提手、拉链和包底怎样把答案组织起来。这里的美感不总是立刻温柔，却能在反复使用与细看之后，让人发现比例、触感和观念之间细密的联系。",
+      "timeline": [
+        {
+          "year": 1913,
+          "event": "Mario Prada 在米兰开设皮具店"
+        },
+        {
+          "year": 1919,
+          "event": "成为意大利王室供应商"
+        },
+        {
+          "year": 1977,
+          "event": "Miuccia Prada 与 Patrizio Bertelli 开始合作"
+        },
+        {
+          "year": 1988,
+          "event": "首个女装成衣系列发布"
+        },
+        {
+          "year": 1993,
+          "event": "Miu Miu 品牌创立"
+        },
+        {
+          "year": 2001,
+          "event": "纽约 Epicenter 空间开幕"
+        }
+      ],
+      "signatures": [
+        "Saffiano 十字纹",
+        "三角形铭牌",
+        "尼龙",
+        "分层结构"
+      ],
+      "source": "https://www.pradagroup.com/en/group/history.html",
+      "classicItems": [
+        "galleria"
+      ]
+    },
+    {
+      "id": "bottega-veneta",
+      "name": "Bottega Veneta",
+      "nameZh": "葆蝶家",
+      "country": "意大利",
+      "founded": 1966,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "当编织本身，成为署名",
+      "intro": "不先看标志，也能认出一只包吗？葆蝶家的答案藏在交错的皮条里。品牌诞生于意大利维琴察，以柔软皮具和编织工艺建立自己的语言。Intrecciato 不只是表面图案，也会影响袋身的柔韧程度、转角的光影与手指触碰时的节奏。Jodie 的结与弧线，把这套语言变得更贴近身体。看一件作品时，可以留意皮条宽窄、交织方向和边缘处理，再想想自己更喜欢挺括还是松弛的形状。它提醒我们，辨识度不一定来自一个醒目的名字，有时也来自材料被认真组织之后，独有的触感与比例。",
+      "timeline": [
+        {
+          "year": 1966,
+          "event": "品牌在意大利维琴察创立"
+        },
+        {
+          "year": 1975,
+          "event": "Intrecciato 编织成为品牌标识"
+        },
+        {
+          "year": 1980,
+          "event": "编织手拿包出现在电影《美国舞男》"
+        },
+        {
+          "year": 2001,
+          "event": "品牌加入今天的开云集团"
+        },
+        {
+          "year": 2019,
+          "event": "Bartolomeo Rongone 获任首席执行官"
+        },
+        {
+          "year": 2025,
+          "event": "Louise Trotter 出任创意总监"
+        }
+      ],
+      "signatures": [
+        "Intrecciato 编织",
+        "柔软袋身",
+        "结饰",
+        "低调铭记"
+      ],
+      "source": "https://www.kering.com/en/houses/fashion-and-leather-goods/bottega-veneta/",
+      "classicItems": [
+        "jodie"
+      ]
+    },
+    {
+      "id": "celine",
+      "name": "Celine",
+      "nameZh": "思琳",
+      "country": "法国",
+      "founded": 1945,
+      "categories": [
+        "bags",
+        "jewelry"
+      ],
+      "tagline": "用清楚的线条，留下余地",
+      "intro": "思琳的起点不是一只手袋，而是巴黎的儿童鞋履店。品牌逐渐扩展至成衣与皮具，也在不同创作时期呈现出鲜明的变化。Classic Box 的平整翻盖与金属扣，是不少读者认识极简皮具的入口；凯旋门链条符号则提供另一种辨识线索。阅读它，适合把注意力放在轮廓、肩带长度与开合方式上：没有很多装饰时，比例就成了主角。旧款与新系列的名称、刻印和供应情况会随年代变化，不能混为一谈。与其为一个抽象的风格标签着迷，不如看看某个具体形状，是否真的与你日常的衣着和步伐相处得来。",
+      "timeline": [
+        {
+          "year": 1945,
+          "event": "Céline Vipiana 在巴黎创立品牌"
+        },
+        {
+          "year": "1960s",
+          "event": "业务逐步扩展至成人鞋履与皮具"
+        },
+        {
+          "year": 1973,
+          "event": "Triomphe 凯旋门符号诞生"
+        },
+        {
+          "year": 1996,
+          "event": "品牌纳入 LVMH 集团"
+        },
+        {
+          "year": 2008,
+          "event": "Phoebe Philo 加入品牌"
+        },
+        {
+          "year": 2018,
+          "event": "Hedi Slimane 开启新的创作时期"
+        }
+      ],
+      "signatures": [
+        "Triomphe 凯旋门扣",
+        "Box 轮廓",
+        "利落线条",
+        "肩带比例"
+      ],
+      "source": "https://www.lvmh.com/en/our-maisons/fashion-leather-good/celine/",
+      "classicItems": [
+        "classic-box",
+        "triomphe-sunglasses"
+      ]
+    },
+    {
+      "id": "cartier",
+      "name": "Cartier",
+      "nameZh": "卡地亚",
+      "country": "法国",
+      "founded": 1847,
+      "categories": [
+        "necklace",
+        "jewelry",
+        "watches"
+      ],
+      "tagline": "让一颗螺钉，也能诉说感情",
+      "intro": "卡地亚的作品里，有螺钉、钉子、三色圆环，也有猎豹与方形表盘。它们的形状不同，却都能把一个清楚的设计念头变成长期使用的语言。品牌从巴黎珠宝工坊起步，在腕表与首饰之间留下许多互相呼应的线条。LOVE 看的是节奏和闭合方式，Trinity 看的是圆环如何相依，Tank 则让两条平行表耳成为记忆点。初次认识卡地亚，不必先追逐宝石大小；先试着从比例、边缘和佩戴动作出发。一个日常物件怎样被重新看见，又怎样贴近身体，这些问题比单独的价格标签更能打开它的故事。",
+      "timeline": [
+        {
+          "year": 1847,
+          "event": "Louis-François Cartier 接手巴黎珠宝工坊"
+        },
+        {
+          "year": 1899,
+          "event": "巴黎门店迁至和平街十三号"
+        },
+        {
+          "year": 1904,
+          "event": "为飞行家 Santos-Dumont 创作腕表"
+        },
+        {
+          "year": 1917,
+          "event": "Tank 腕表的设计诞生"
+        },
+        {
+          "year": 1924,
+          "event": "Trinity 三色圆环问世"
+        },
+        {
+          "year": 1969,
+          "event": "LOVE 手镯在纽约诞生"
+        }
+      ],
+      "signatures": [
+        "螺钉纹",
+        "三色圆环",
+        "猎豹",
+        "平行表耳"
+      ],
+      "source": "https://www.cartier.com/en-us/our-style.html",
+      "classicItems": [
+        "love",
+        "juste-un-clou",
+        "trinity",
+        "tank"
+      ]
+    },
+    {
+      "id": "tiffany",
+      "name": "Tiffany & Co.",
+      "nameZh": "蒂芙尼",
+      "country": "美国",
+      "founded": 1837,
+      "categories": [
+        "necklace",
+        "jewelry"
+      ],
+      "tagline": "从纽约街角，到一抹蓝色记忆",
+      "intro": "蒂芙尼的故事，从纽约一家商店开始，后来把银器、钻石与设计师珠宝带进很多人的生活记忆。蓝色礼盒是熟悉的开场，但盒子打开之后，真正值得看的是作品与身体的关系：一条细链的长度，一枚戒托的高度，或是一段字母形状留下的空隙。T 系列用清楚的几何线条表达城市感，Keys 则把钥匙变成可以佩戴的想象。认识这个品牌，既可以沿着珠宝工艺阅读，也可以从设计师的个人语言入手。同样的材质，在不同线条里会产生不同情绪；找到与你相处自然的那一种，比记住礼盒颜色更有意思。",
+      "timeline": [
+        {
+          "year": 1837,
+          "event": "Charles Lewis Tiffany 等人在纽约开店"
+        },
+        {
+          "year": 1845,
+          "event": "首本 Blue Book 目录发行"
+        },
+        {
+          "year": 1851,
+          "event": "采用九二五银标准"
+        },
+        {
+          "year": 1886,
+          "event": "Tiffany Setting 六爪镶嵌戒托推出"
+        },
+        {
+          "year": 1974,
+          "event": "Elsa Peretti 加入设计师阵容"
+        },
+        {
+          "year": 2014,
+          "event": "Tiffany T 系列推出"
+        }
+      ],
+      "signatures": [
+        "T 字线条",
+        "Keys 钥匙",
+        "六爪镶嵌",
+        "设计师银饰"
+      ],
+      "source": "https://www.tiffany.com/world-of-tiffany/heritage/the-world-of-tiffany-timeline.html",
+      "classicItems": [
+        "tiffany-t",
+        "tiffany-keys"
+      ]
+    },
+    {
+      "id": "bulgari",
+      "name": "Bvlgari",
+      "nameZh": "宝格丽",
+      "country": "意大利",
+      "founded": 1884,
+      "categories": [
+        "necklace",
+        "jewelry",
+        "watches"
+      ],
+      "tagline": "把罗马的弧线，戴在身上",
+      "intro": "宝格丽的名字，用古典拉丁字母写出罗马的气息；作品则用色彩、体积与弧线继续这段城市对话。创办人索帝里欧·宝格丽来自希腊银匠传统，在罗马展开事业，品牌随后把彩色宝石与建筑般的结构变成鲜明语言。Serpenti 的灵蛇绕着手腕转弯，B.zero1 则把圆形与螺旋组织成小小的空间。看这些作品，除了正面轮廓，也值得看看侧面和空隙，光线常常在那里改变方向。它的表达可以很饱满，也可以缩小成一枚日常戒指。读懂体积与身体的关系，往往比简单判断夸张或低调更有收获。",
+      "timeline": [
+        {
+          "year": 1884,
+          "event": "Sotirio Bulgari 在罗马建立品牌"
+        },
+        {
+          "year": 1905,
+          "event": "Via Condotti 门店开业"
+        },
+        {
+          "year": 1948,
+          "event": "Serpenti 蛇形珠宝腕表诞生"
+        },
+        {
+          "year": "1970s",
+          "event": "品牌拓展国际门店网络"
+        },
+        {
+          "year": 1999,
+          "event": "B.zero1 系列推出"
+        },
+        {
+          "year": 2016,
+          "event": "品牌支持的西班牙阶梯修复完成"
+        }
+      ],
+      "signatures": [
+        "Serpenti 灵蛇",
+        "Tubogas 管状结构",
+        "彩色宝石",
+        "B.zero1 螺旋"
+      ],
+      "source": "https://www.bulgari.com/en-int/the-maison/about-bvlgari/bvlgari-history.html",
+      "classicItems": [
+        "serpenti",
+        "bzero1"
+      ]
+    },
+    {
+      "id": "van-cleef-arpels",
+      "name": "Van Cleef & Arpels",
+      "nameZh": "梵克雅宝",
+      "country": "法国",
+      "founded": 1906,
+      "categories": [
+        "necklace",
+        "jewelry",
+        "watches"
+      ],
+      "tagline": "把幸运与自然，写成细小诗句",
+      "intro": "梵克雅宝在巴黎芳登广场展开故事，花朵、蝴蝶、舞者与四叶草，后来成为许多人认识它的入口。品牌对自然的兴趣不只体现在图案上，也体现在珠宝怎样弯曲、怎样在身体移动时改变光线。Alhambra 的圆珠边框像一圈轻轻收起的句号，不同宝石又让同一轮廓拥有不同表情。阅读这类作品，适合放慢一点：看看边缘如何衔接，比较吊坠的大小，再留意链条落在领口的具体位置。浪漫可以很轻，但背后的工艺并不轻。认识材料与佩戴方式之后，那一点关于幸运的想象，也会变得更具体、更亲近。",
+      "timeline": [
+        {
+          "year": 1906,
+          "event": "巴黎芳登广场首店开业"
+        },
+        {
+          "year": 1925,
+          "event": "在巴黎装饰艺术博览会获大奖"
+        },
+        {
+          "year": 1933,
+          "event": "取得 Mystery Set 隐密式镶嵌专利"
+        },
+        {
+          "year": 1939,
+          "event": "品牌拓展至纽约"
+        },
+        {
+          "year": 1968,
+          "event": "首条 Alhambra 长项链诞生"
+        },
+        {
+          "year": 1996,
+          "event": "芳登广场沙龙完成翻新"
+        }
+      ],
+      "signatures": [
+        "Alhambra 四叶草",
+        "圆珠边饰",
+        "隐密式镶嵌",
+        "自然与舞蹈"
+      ],
+      "source": "https://www.vancleefarpels.com/hk/en/the-maison/timeline.html",
+      "classicItems": [
+        "alhambra"
+      ]
+    },
+    {
+      "id": "rolex",
+      "name": "Rolex",
+      "nameZh": "劳力士",
+      "country": "瑞士",
+      "founded": 1905,
+      "categories": [
+        "watches"
+      ],
+      "tagline": "把可靠，慢慢做成一种风格",
+      "intro": "劳力士的故事，和腕表怎样从装饰走向可靠工具有关。汉斯·威尔斯多夫在伦敦创业，后来将公司迁至日内瓦，持续围绕精度、防水表壳与自动上链展开工作。蚝式结构与恒动摆陀，是理解品牌的两条线索；潜航者则让清楚的读时、可旋转表圈与坚实轮廓走到一起。认识它时，可以先看功能怎样影响外形，再看不同年代如何调整比例与细节。同一个系列名下，材质、尺寸与机芯并不完全相同。腕表的魅力固然包含历史，但真正戴上手以后，表耳贴不贴合、重量是否舒服，同样是值得认真回答的问题。",
+      "timeline": [
+        {
+          "year": 1905,
+          "event": "Hans Wilsdorf 在伦敦创立钟表公司"
+        },
+        {
+          "year": 1908,
+          "event": "注册 Rolex 名称"
+        },
+        {
+          "year": 1919,
+          "event": "公司迁至日内瓦"
+        },
+        {
+          "year": 1926,
+          "event": "推出 Oyster 蚝式表壳"
+        },
+        {
+          "year": 1931,
+          "event": "推出恒动摆陀自动上链机制"
+        },
+        {
+          "year": 1953,
+          "event": "Submariner 潜航者诞生"
+        }
+      ],
+      "signatures": [
+        "Oyster 蚝式",
+        "Perpetual 恒动",
+        "单向表圈",
+        "清晰夜光时标"
+      ],
+      "source": "https://www.rolex.com/about-rolex/history/1926-1945",
+      "classicItems": [
+        "submariner"
+      ]
+    },
+    {
+      "id": "omega",
+      "name": "Omega",
+      "nameZh": "欧米茄",
+      "country": "瑞士",
+      "founded": 1848,
+      "categories": [
+        "watches"
+      ],
+      "tagline": "从精密计时，走向更远的地方",
+      "intro": "欧米茄的历史，从路易·勃兰特的制表事业开始，随后与标准化机芯、体育计时和太空探索产生联系。品牌名字来自一枚重要机芯，而不是一开始就写在门口的招牌。Speedmaster 的测速刻度与计时小盘，原本回应的是计时需要，后来又因登月故事获得新的情感。阅读它，可以把传奇和具体型号分开：不是所有超霸都使用相同机芯，也不是所有版本都承担过同一种任务。先认识计时按钮、表盘布局与手动上链的动作，再回头看历史，会更容易理解，一件精密工具为何能成为很多人长期的日常陪伴。",
+      "timeline": [
+        {
+          "year": 1848,
+          "event": "Louis Brandt 在瑞士开启制表事业"
+        },
+        {
+          "year": 1894,
+          "event": "十九令 Omega 机芯面世"
+        },
+        {
+          "year": 1932,
+          "event": "担任洛杉矶奥运会计时"
+        },
+        {
+          "year": 1948,
+          "event": "Seamaster 海马系列推出"
+        },
+        {
+          "year": 1957,
+          "event": "Speedmaster 超霸系列推出"
+        },
+        {
+          "year": 1969,
+          "event": "Speedmaster 随阿波罗十一号登月"
+        }
+      ],
+      "signatures": [
+        "测速刻度",
+        "计时小盘",
+        "同轴擒纵",
+        "登月历史"
+      ],
+      "source": "https://press.omegawatches.com/our-past-present-and-future/",
+      "classicItems": [
+        "speedmaster"
+      ]
+    },
+    {
+      "id": "fendi",
+      "name": "Fendi",
+      "nameZh": "芬迪",
+      "country": "意大利",
+      "founded": 1925,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "一只腋下包，装下一段城市生活",
+      "intro": "芬迪的故事发生在罗马，从皮具店与工坊，走向大胆的材料实验与配饰设计。Baguette 像一根夹在手臂下的法棍面包，用短肩带和横向轮廓改变了手袋与身体相处的方式。品牌的双字母图案很醒目，但同样值得读的是，刺绣、织物与皮革怎样让同一种小包呈现完全不同的情绪。认识它，可以先比较尺寸与肩带落点，再看看自己喜欢的是图案、工艺还是轻巧的姿态。小包并不必然适合所有日常，不过当容量恰好与生活相合时，一件配饰也能成为一段关于城市、衣着和个人记忆的小故事。",
+      "timeline": [
+        {
+          "year": 1925,
+          "event": "Adele 与 Edoardo Fendi 在罗马建立品牌"
+        },
+        {
+          "year": 1965,
+          "event": "Karl Lagerfeld 开始与品牌合作"
+        },
+        {
+          "year": 1992,
+          "event": "Silvia Venturini Fendi 参与艺术指导"
+        },
+        {
+          "year": 1997,
+          "event": "Baguette 手袋推出"
+        },
+        {
+          "year": 2001,
+          "event": "LVMH 成为品牌大股东"
+        },
+        {
+          "year": 2015,
+          "event": "总部迁入意大利文明宫"
+        }
+      ],
+      "signatures": [
+        "Baguette 轮廓",
+        "FF 图案",
+        "材料实验",
+        "罗马工坊"
+      ],
+      "source": "https://www.fendi.com/gb-en/cm/inside-fendi/about-fendi/the-history-of-fendi",
+      "classicItems": [
+        "baguette"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "birkin",
+      "brand": "hermes",
+      "category": "bags",
+      "name": "Birkin",
+      "nameZh": "铂金包",
+      "born": 1984,
+      "designer": "Jean-Louis Dumas，与 Jane Birkin 的交流",
+      "sizes": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "materials": [
+        "Togo",
+        "Clemence",
+        "Epsom"
+      ],
+      "priceRange": "约 ¥8万—18万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "一次飞机偶遇，长成日常的传奇。",
+      "story": "一段巴黎至伦敦航班上的交流，让 Jean-Louis Dumas 为 Jane Birkin 构思出兼顾容量与日常使用的包。双提手、翻盖、搭带与转锁构成清楚的结构；不同皮革又会改变挺括程度。它并非为了展柜而生，最初的念头恰恰是怎样装下真实生活。",
+      "facts": [
+        "双提手，没有常规肩带配置",
+        "金色与钯金色五金是常见选择"
+      ],
+      "relatedArticles": [
+        "mag-01",
+        "mag-02",
+        "mag-06"
+      ]
+    },
+    {
+      "id": "kelly",
+      "brand": "hermes",
+      "category": "bags",
+      "name": "Kelly",
+      "nameZh": "凯莉包",
+      "born": "1930s",
+      "designer": "Robert Dumas",
+      "sizes": [
+        "25",
+        "28",
+        "32",
+        "35"
+      ],
+      "materials": [
+        "Epsom",
+        "Togo",
+        "Box 小牛皮"
+      ],
+      "priceRange": "约 ¥8万—18万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "一只单提手包的端正与从容。",
+      "story": "这款包由 Robert Dumas 在二十世纪三十年代设计，1956 年 Grace Kelly 手持它的照片传遍世界。单提手、梯形轮廓与搭带转锁是理解它的起点，Sellier 与 Retourné 的缝合结构又会带来不同的边缘与气质。",
+      "facts": [
+        "单提手，可搭配肩带",
+        "外缝与内缝款的轮廓观感不同"
+      ],
+      "relatedArticles": [
+        "mag-02",
+        "mag-06"
+      ]
+    },
+    {
+      "id": "chanel-255",
+      "brand": "chanel",
+      "category": "bags",
+      "name": "2.55",
+      "nameZh": "二点五五手袋",
+      "born": 1955,
+      "designer": "Gabrielle Chanel",
+      "sizes": [
+        "小号",
+        "常规",
+        "大号"
+      ],
+      "materials": [
+        "小牛皮",
+        "小羊皮",
+        "斜纹软呢"
+      ],
+      "priceRange": "约 ¥7万—11万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "用一条肩链，把双手还给生活。",
+      "story": "名字来自推出的年月：1955 年二月。肩链让手袋可以背上肩头，长方形转锁与菱格纹形成熟悉轮廓。今天的复刻版本延续早期设计语言，但具体结构、皮革和尺寸要按型号辨认。",
+      "facts": [
+        "Mademoiselle 长方形锁扣是重要线索",
+        "不要把所有翻盖包都称为 2.55"
+      ],
+      "relatedArticles": [
+        "mag-01",
+        "mag-06"
+      ]
+    },
+    {
+      "id": "classic-flap",
+      "brand": "chanel",
+      "category": "bags",
+      "name": "Classic Flap",
+      "nameZh": "经典翻盖包",
+      "born": "1980s",
+      "designer": "Karl Lagerfeld 时期的经典演绎",
+      "sizes": [
+        "小号",
+        "中号",
+        "大号"
+      ],
+      "materials": [
+        "颗粒小牛皮",
+        "小羊皮",
+        "织物"
+      ],
+      "priceRange": "约 ¥7万—12万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "菱格纹与双字母扣，组成熟悉的一页。",
+      "story": "经典翻盖包延续香奈儿肩背包的思路，在 Karl Lagerfeld 时期逐步形成今天熟悉的语言。双字母转扣与穿皮链条是常见特征；小羊皮的柔和光泽和颗粒皮的触感，让同一种轮廓有不同表情。",
+      "facts": [
+        "常见双字母转扣与穿皮链",
+        "Classic 与 2.55 是不同设计线索"
+      ],
+      "relatedArticles": [
+        "mag-01",
+        "mag-06"
+      ]
+    },
+    {
+      "id": "boy",
+      "brand": "chanel",
+      "category": "bags",
+      "name": "Boy",
+      "nameZh": "男孩手袋",
+      "born": 2011,
+      "designer": "Karl Lagerfeld",
+      "sizes": [
+        "小号",
+        "常规",
+        "大号"
+      ],
+      "materials": [
+        "小牛皮",
+        "小羊皮",
+        "织物"
+      ],
+      "priceRange": "约 ¥4万—7万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "用一道硬朗边框，写出另一种香奈儿。",
+      "story": "Boy 手袋把宽边框、链条与几何扣件放在同一轮廓里，气质比常见经典翻盖包更利落。选择时可以把它放回日常衣着里，看看链条重量、开口宽度和肩背落点是否合适。",
+      "facts": [
+        "边框式绗缝和几何扣件是看点",
+        "链条重量需要实际试背"
+      ],
+      "relatedArticles": [
+        "mag-01"
+      ]
+    },
+    {
+      "id": "speedy",
+      "brand": "louis-vuitton",
+      "category": "bags",
+      "name": "Speedy",
+      "nameZh": "波士顿手袋",
+      "born": 1930,
+      "designer": "Gaston-Louis Vuitton",
+      "sizes": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "materials": [
+        "Monogram 涂层帆布",
+        "Damier 帆布",
+        "皮革"
+      ],
+      "priceRange": "约 ¥1万—3万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "把旅行的容量，缩进城市的步伐。",
+      "story": "Speedy 的前身名为 Express，诞生于人们迷恋速度与新式旅行的年代。圆弧袋身与双提手保留旅行袋的亲切感。Bandoulière 版本加入肩带，选购或阅读时要把普通手提版与肩带版分清。",
+      "facts": [
+        "涂层帆布与全皮版本不是同一种材质",
+        "Bandoulière 指带肩带的款式线索"
+      ],
+      "relatedArticles": [
+        "mag-01",
+        "mag-08"
+      ]
+    },
+    {
+      "id": "lady-dior",
+      "brand": "dior",
+      "category": "bags",
+      "name": "Lady Dior",
+      "nameZh": "戴妃包",
+      "born": "1994—1995",
+      "designer": "Dior 设计工坊",
+      "sizes": [
+        "迷你",
+        "小号",
+        "中号"
+      ],
+      "materials": [
+        "小羊皮",
+        "小牛皮",
+        "刺绣织物"
+      ],
+      "priceRange": "约 ¥3万—6万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "把沙龙里的藤格，轻轻提在手上。",
+      "story": "这款包在九十年代中期成形，1995 年戴安娜王妃获赠并多次使用，成为命名与传播的重要一章。品牌不同时期资料对初创年份有 1994 与 1995 的表述。Cannage 藤格纹、双圆弧提手和字母吊饰，比单一年份更能帮助理解设计。",
+      "facts": [
+        "Cannage 藤格纹是核心辨识元素",
+        "不同尺寸的开口方式可能不同"
+      ],
+      "relatedArticles": [
+        "mag-01",
+        "mag-11"
+      ]
+    },
+    {
+      "id": "jackie",
+      "brand": "gucci",
+      "category": "bags",
+      "name": "Jackie 1961",
+      "nameZh": "杰姬手袋",
+      "born": 1961,
+      "designer": "Gucci 设计工坊",
+      "sizes": [
+        "迷你",
+        "小号",
+        "中号"
+      ],
+      "materials": [
+        "光滑皮革",
+        "GG 帆布",
+        "粒面皮革"
+      ],
+      "priceRange": "约 ¥2万—4万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "在一条弧线里，找到松弛的分寸。",
+      "story": "Jackie 的前身来自六十年代，弯月般的袋身与肩背姿态构成记忆点。不同年代重释了扣件和肩带，因此阅读复刻款时，应看具体年份与型号，不能只凭名称假定所有结构相同。",
+      "facts": [
+        "弧形袋身与扣件是阅读重点",
+        "历代版本扣件存在变化"
+      ],
+      "relatedArticles": [
+        "mag-01",
+        "mag-08"
+      ]
+    },
+    {
+      "id": "galleria",
+      "brand": "prada",
+      "category": "bags",
+      "name": "Galleria",
+      "nameZh": "杀手包",
+      "born": 2007,
+      "designer": "Prada 设计工坊",
+      "sizes": [
+        "迷你",
+        "小号",
+        "中号",
+        "大号"
+      ],
+      "materials": [
+        "Saffiano 小牛皮",
+        "特别材质款"
+      ],
+      "priceRange": "约 ¥2万—4万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "把井井有条，做成一只日常手袋。",
+      "story": "Galleria 以米兰品牌首店所在的拱廊命名。双提手、分区收纳与端正轮廓构成它的日常性。常见 Saffiano 十字纹是表面处理形成的纹理，不能简单等同于所有天然粒面皮革。",
+      "facts": [
+        "常见拉链隔层形成分区",
+        "Saffiano 是处理后的十字纹表面"
+      ],
+      "relatedArticles": [
+        "mag-01",
+        "mag-06"
+      ]
+    },
+    {
+      "id": "jodie",
+      "brand": "bottega-veneta",
+      "category": "bags",
+      "name": "Jodie",
+      "nameZh": "结饰编织包",
+      "born": 2020,
+      "designer": "Daniel Lee 时期",
+      "sizes": [
+        "Mini",
+        "Teen",
+        "Small"
+      ],
+      "materials": [
+        "羊皮",
+        "小牛皮",
+        "季节材质"
+      ],
+      "priceRange": "约 ¥1万—4万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "把一个结，藏进柔软的编织里。",
+      "story": "Jodie 将 Intrecciato 编织、弧形袋身与提手结饰连接起来。它贴近身体的方式，来自软结构与短提手的共同作用；不同尺寸的容纳能力和肩背空间差别明显，不能只看正面照片。",
+      "facts": [
+        "提手上的结饰是记忆点",
+        "编织宽窄与材质会随版本变化"
+      ],
+      "relatedArticles": [
+        "mag-01",
+        "mag-06"
+      ]
+    },
+    {
+      "id": "classic-box",
+      "brand": "celine",
+      "category": "bags",
+      "name": "Classic Box",
+      "nameZh": "经典方盒包",
+      "born": 2011,
+      "designer": "Phoebe Philo 时期",
+      "sizes": [
+        "Small",
+        "Medium"
+      ],
+      "materials": [
+        "光滑小牛皮",
+        "Box 类皮革"
+      ],
+      "priceRange": "约 ¥1万—4万（含中古参考）（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "减去装饰，让比例慢慢说话。",
+      "story": "平整翻盖、方正袋身和金属扣件，让 Classic Box 成为极简皮具的熟悉名字。如今阅读它，常会进入中古与历史款语境。供应、状态与年份各不相同，肩带长度、边角和皮面划痕都值得细看。",
+      "facts": [
+        "光滑皮面会留下使用痕迹",
+        "历史款常见于中古市场，非供应承诺"
+      ],
+      "relatedArticles": [
+        "mag-01",
+        "mag-08"
+      ]
+    },
+    {
+      "id": "baguette",
+      "brand": "fendi",
+      "category": "bags",
+      "name": "Baguette",
+      "nameZh": "法棍包",
+      "born": 1997,
+      "designer": "Silvia Venturini Fendi",
+      "sizes": [
+        "Mini",
+        "常规",
+        "大号"
+      ],
+      "materials": [
+        "皮革",
+        "刺绣织物",
+        "丹宁"
+      ],
+      "priceRange": "约 ¥1万—4万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "把一段城市生活，夹在手臂下。",
+      "story": "Baguette 的名字来自法棍面包夹在手臂下的姿态。短肩带、横向包身与翻盖扣件构成容易记住的比例。它的趣味也在材料：同一轮廓换成刺绣或丹宁，就像换了一种日常语气。",
+      "facts": [
+        "名字描述了腋下携带的姿态",
+        "容量与肩带长度需分版本观察"
+      ],
+      "relatedArticles": [
+        "mag-01",
+        "mag-08"
+      ]
+    },
+    {
+      "id": "love",
+      "brand": "cartier",
+      "category": "jewelry",
+      "name": "LOVE",
+      "nameZh": "螺钉手镯",
+      "born": 1969,
+      "designer": "Aldo Cipullo",
+      "sizes": [
+        "按腕围选择，多种规格"
+      ],
+      "materials": [
+        "18K 黄金",
+        "18K 玫瑰金",
+        "18K 白色金"
+      ],
+      "priceRange": "约 ¥3万—10万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "把一颗螺钉，写成亲密的记号。",
+      "story": "LOVE 在纽约诞生，把工业螺钉与椭圆轮廓带进珠宝。系列包含不同宽度与开合方式，经典螺钉开合款的佩戴动作，和可直接开合的款式并不相同。先确认型号，才能理解它与你的生活是否合拍。",
+      "facts": [
+        "螺钉纹与椭圆轮廓是核心",
+        "不同开合结构不可一概而论"
+      ],
+      "relatedArticles": [
+        "mag-03",
+        "mag-05"
+      ]
+    },
+    {
+      "id": "juste-un-clou",
+      "brand": "cartier",
+      "category": "jewelry",
+      "name": "Juste un Clou",
+      "nameZh": "钉子系列",
+      "born": "1970s",
+      "designer": "Aldo Cipullo",
+      "sizes": [
+        "小号",
+        "常规，按腕围选"
+      ],
+      "materials": [
+        "18K 黄金",
+        "18K 玫瑰金",
+        "18K 白色金"
+      ],
+      "priceRange": "约 ¥2万—8万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "一根日常钉子，也有自己的弧线。",
+      "story": "Aldo Cipullo 在七十年代的纽约，把普通钉子转化为首饰语言。钉头、弧线与尖端的关系，让工业物件拥有贴近手腕的节奏。现代系列继续延展这一想法，戒指与手镯则有不同的佩戴结构。",
+      "facts": [
+        "钉头与尖端构成可辨认的线条",
+        "开合须按对应型号操作"
+      ],
+      "relatedArticles": [
+        "mag-03",
+        "mag-05"
+      ]
+    },
+    {
+      "id": "trinity",
+      "brand": "cartier",
+      "category": "jewelry",
+      "name": "Trinity",
+      "nameZh": "三色环戒指",
+      "born": 1924,
+      "designer": "Louis Cartier",
+      "sizes": [
+        "多种戒围与环宽"
+      ],
+      "materials": [
+        "18K 黄金",
+        "18K 玫瑰金",
+        "18K 白色金"
+      ],
+      "priceRange": "约 ¥1万—4万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "三道相依的圆，留下流动的空间。",
+      "story": "Trinity 用三枚互相交织的圆环表达联结。滚动的结构与不同金色，让戒指在手指上形成轻微变化。它既是一个清楚的几何想法，也是理解珠宝如何随身体移动的好例子。",
+      "facts": [
+        "经典款由三枚互扣圆环组成",
+        "活动环结构的试戴感受很重要"
+      ],
+      "relatedArticles": [
+        "mag-03",
+        "mag-05"
+      ]
+    },
+    {
+      "id": "tiffany-t",
+      "brand": "tiffany",
+      "category": "necklace",
+      "name": "Tiffany T",
+      "nameZh": "蒂芙尼 T 系列",
+      "born": 2014,
+      "designer": "Francesca Amfitheatrof 时期",
+      "sizes": [
+        "吊坠",
+        "手镯",
+        "戒指，多种尺寸"
+      ],
+      "materials": [
+        "18K 金",
+        "部分镶钻款"
+      ],
+      "priceRange": "约 ¥0.8万—4万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "用一道字母线条，画出纽约的清爽。",
+      "story": "Tiffany T 把字母 T 转化为清晰的几何轮廓。吊坠、手镯与戒指各有不同的开口和弧度，系列名不能代替具体款式说明。看项链时，先观察吊坠大小与链长，再想象它落在自己的领口。",
+      "facts": [
+        "不同子系列的几何构成不同",
+        "T Smile 与 T 其他款式需区分"
+      ],
+      "relatedArticles": [
+        "mag-03",
+        "mag-11"
+      ]
+    },
+    {
+      "id": "tiffany-keys",
+      "brand": "tiffany",
+      "category": "necklace",
+      "name": "Tiffany Keys",
+      "nameZh": "钥匙项链",
+      "born": 2009,
+      "designer": "Tiffany 设计工坊",
+      "sizes": [
+        "多种吊坠与链长"
+      ],
+      "materials": [
+        "18K 金",
+        "银",
+        "铂金及镶钻款"
+      ],
+      "priceRange": "约 ¥0.3万—5万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "一把钥匙，打开自己的想象。",
+      "story": "Keys 把钥匙的轮廓变成可佩戴的吊坠。花形、心形与几何钥匙头，分别写出不同气质。阅读价格时要确认是否包含链条，因为吊坠与项链的组合方式，可能因具体型号而不同。",
+      "facts": [
+        "钥匙头图案是主要差异",
+        "吊坠与链条可能分别计价"
+      ],
+      "relatedArticles": [
+        "mag-03",
+        "mag-11"
+      ]
+    },
+    {
+      "id": "serpenti",
+      "brand": "bulgari",
+      "category": "necklace",
+      "name": "Serpenti",
+      "nameZh": "灵蛇系列",
+      "born": 1948,
+      "designer": "Bvlgari 设计工坊",
+      "sizes": [
+        "吊坠",
+        "项链",
+        "手镯",
+        "珠宝腕表"
+      ],
+      "materials": [
+        "18K 金",
+        "钻石",
+        "彩色宝石"
+      ],
+      "priceRange": "约 ¥2万—20万及以上（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "让灵蛇的转弯，成为身体的线条。",
+      "story": "Serpenti 从蛇形珠宝腕表展开，在不同年代延展至项链与手镯。鳞片、蛇首和缠绕结构不一定同时出现。它首先是一套变化丰富的设计语言，不能把整个系列视为同一种尺寸或同一种材质。",
+      "facts": [
+        "蛇首和鳞片有多种抽象程度",
+        "Tubogas 结构与其他蛇形设计不同"
+      ],
+      "relatedArticles": [
+        "mag-03",
+        "mag-05"
+      ]
+    },
+    {
+      "id": "bzero1",
+      "brand": "bulgari",
+      "category": "jewelry",
+      "name": "B.zero1",
+      "nameZh": "零一系列",
+      "born": 1999,
+      "designer": "Bvlgari 设计工坊",
+      "sizes": [
+        "一环至多环，多种戒围"
+      ],
+      "materials": [
+        "18K 金",
+        "陶瓷与金组合",
+        "镶钻款"
+      ],
+      "priceRange": "约 ¥0.8万—5万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "把罗马的圆形，缩成指间建筑。",
+      "story": "B.zero1 从罗马圆形建筑与 Tubogas 的结构获得灵感，用螺旋和上下边框组织体积。环数影响视觉宽度，也会改变试戴感觉；同一戒围不能完全代表不同宽度款式的舒适程度。",
+      "facts": [
+        "侧面螺旋与双边框构成轮廓",
+        "环数与实际戒指宽度相关"
+      ],
+      "relatedArticles": [
+        "mag-03",
+        "mag-05"
+      ]
+    },
+    {
+      "id": "alhambra",
+      "brand": "van-cleef-arpels",
+      "category": "necklace",
+      "name": "Alhambra",
+      "nameZh": "四叶草系列",
+      "born": 1968,
+      "designer": "Van Cleef & Arpels 设计工坊",
+      "sizes": [
+        "Sweet",
+        "Vintage",
+        "Magic，多种形式"
+      ],
+      "materials": [
+        "18K 金",
+        "珍珠母贝",
+        "玉髓及其他宝石"
+      ],
+      "priceRange": "约 ¥1万—8万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "把幸运，轻轻放在锁骨旁。",
+      "story": "Alhambra 最初以长项链形式出现。四叶形轮廓与圆珠边饰，后来延展为吊坠、耳饰和手链。珍珠母贝的柔光、玉髓的通透与纯金的光泽，让同一形状有很不相同的表情。",
+      "facts": [
+        "不同子系列的尺寸不能混用",
+        "珍珠母贝款须避免不合适的清洗方式"
+      ],
+      "relatedArticles": [
+        "mag-03",
+        "mag-10"
+      ]
+    },
+    {
+      "id": "coco-crush",
+      "brand": "chanel",
+      "category": "jewelry",
+      "name": "Coco Crush",
+      "nameZh": "菱格纹珠宝",
+      "born": 2015,
+      "designer": "Chanel 珠宝创作工坊",
+      "sizes": [
+        "Mini",
+        "Small",
+        "Large，多种戒围"
+      ],
+      "materials": [
+        "18K 黄金",
+        "18K 白色金",
+        "BEIGE 米色金"
+      ],
+      "priceRange": "约 ¥1万—5万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "把包上的菱格，转成指间的光。",
+      "story": "Coco Crush 用刻纹将菱格语言转入金属表面。弧形戒身让线条随着光线变化，单戴与叠戴会产生不同节奏。品牌米色金是特定合金色调，不应简单视为所有玫瑰金的另一个名字。",
+      "facts": [
+        "菱格刻纹是主要辨识点",
+        "不同环宽需要分别试戴"
+      ],
+      "relatedArticles": [
+        "mag-03",
+        "mag-05"
+      ]
+    },
+    {
+      "id": "submariner",
+      "brand": "rolex",
+      "category": "watches",
+      "name": "Submariner",
+      "nameZh": "潜航者",
+      "born": 1953,
+      "designer": "Rolex 制表工坊",
+      "sizes": [
+        "现行常见 41 mm；历史款有差异"
+      ],
+      "materials": [
+        "蚝式钢",
+        "金钢组合",
+        "贵金属"
+      ],
+      "priceRange": "约 ¥7万—35万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "从潜水工具，读见清晰的力量。",
+      "story": "潜航者以潜水用途为起点，清楚时标与旋转表圈形成工具表的语言。现代与历史版本在直径、防水规格和机芯上各有差别。系列名只是入口，具体参考编号才决定一枚表的参数。",
+      "facts": [
+        "日期与无日期款布局不同",
+        "防水能力需结合密封状态与检测"
+      ],
+      "relatedArticles": [
+        "mag-09"
+      ]
+    },
+    {
+      "id": "speedmaster",
+      "brand": "omega",
+      "category": "watches",
+      "name": "Speedmaster",
+      "nameZh": "超霸",
+      "born": 1957,
+      "designer": "Omega 制表工坊",
+      "sizes": [
+        "Moonwatch 常见 42 mm；另有其他款"
+      ],
+      "materials": [
+        "精钢",
+        "贵金属",
+        "不同表镜材质"
+      ],
+      "priceRange": "约 ¥4万—12万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "一枚计时表，陪人走过更远的路。",
+      "story": "超霸诞生时是一枚计时工具，后来与载人航天产生紧密联系。Moonwatch 的历史很动人，不过整个 Speedmaster 家族包含多种机芯和布局。把计时功能、上链方式与具体型号一起看，故事才会落在真实物件上。",
+      "facts": [
+        "测速刻度与计时小盘是线索",
+        "并非所有超霸都为手动上链"
+      ],
+      "relatedArticles": [
+        "mag-09"
+      ]
+    },
+    {
+      "id": "tank",
+      "brand": "cartier",
+      "category": "watches",
+      "name": "Tank",
+      "nameZh": "坦克腕表",
+      "born": 1917,
+      "designer": "Louis Cartier",
+      "sizes": [
+        "Must",
+        "Louis Cartier 等多条设计线"
+      ],
+      "materials": [
+        "精钢",
+        "18K 金",
+        "皮革表带"
+      ],
+      "priceRange": "约 ¥2万—15万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "让两条平行线，定义时间的形状。",
+      "story": "Tank 以平行表耳和几何表盘形成熟悉轮廓。不同支线改变了线条、厚度与机芯，不宜把石英款与机械款混成同一规格。它也提醒我们，腕表尺寸不只是直径，长宽与贴腕程度同样重要。",
+      "facts": [
+        "罗马数字和轨道式刻度为常见语言",
+        "Tank Must 与 Tank Louis Cartier 需区分"
+      ],
+      "relatedArticles": [
+        "mag-09",
+        "mag-11"
+      ]
+    },
+    {
+      "id": "carre90",
+      "brand": "hermes",
+      "category": "scarves",
+      "name": "Carré 90",
+      "nameZh": "九十厘米方巾",
+      "born": 1937,
+      "designer": "不同图案由不同艺术家设计",
+      "sizes": [
+        "约 90 × 90 cm"
+      ],
+      "materials": [
+        "真丝斜纹绸；依具体款式"
+      ],
+      "priceRange": "约 ¥0.4万—0.7万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "一方丝绸，也是一幅可以带走的画。",
+      "story": "爱马仕第一方丝巾诞生于 1937 年。方巾以图案、配色与卷边形成自己的阅读方式；折叠之后，只露出画面的一小段，又会产生新的表情。尺寸为名义规格，手工处理可能带来细微差异。",
+      "facts": [
+        "手工卷边是值得细看的部分",
+        "同一图案可有不同配色版本"
+      ],
+      "relatedArticles": [
+        "mag-07",
+        "mag-10"
+      ]
+    },
+    {
+      "id": "no5",
+      "brand": "chanel",
+      "category": "fragrance",
+      "name": "N°5",
+      "nameZh": "五号香水",
+      "born": 1921,
+      "designer": "Ernest Beaux；EDP 由 Jacques Polge 于 1986 年演绎",
+      "sizes": [
+        "35 ml",
+        "50 ml",
+        "100 ml 等，依版本"
+      ],
+      "materials": [
+        "醛香花束",
+        "玫瑰与茉莉等香调"
+      ],
+      "priceRange": "约 ¥0.8千—2.5千（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "一束不必说出花名的气味。",
+      "story": "N°5 以抽象花束与醛香留下记忆。1921 年是香水故事的起点，今天常见的 Eau de Parfum 则有 1986 年的创作背景。不同浓度与演绎版本应分别试闻，不能把相同名字理解成完全相同的气味。",
+      "facts": [
+        "EDP、EDT 与 L’Eau 是不同演绎",
+        "香调描述不等于完整配方公开"
+      ],
+      "relatedArticles": [
+        "mag-12"
+      ]
+    },
+    {
+      "id": "horsebit-loafer",
+      "brand": "gucci",
+      "category": "jewelry",
+      "name": "Horsebit 1953 Loafer",
+      "nameZh": "马衔扣乐福鞋",
+      "born": 1953,
+      "designer": "Gucci 设计工坊",
+      "sizes": [
+        "男女款分别选码",
+        "依实际脚型试穿"
+      ],
+      "materials": [
+        "皮革",
+        "不同鞋底与季节材质"
+      ],
+      "priceRange": "约 ¥0.6万—1万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "把马术的一点线索，走进城市生活。",
+      "story": "Gucci 于 1953 年推出马衔扣乐福鞋，把双环与横杆的马术符号放在鞋面。低鞋面和一脚蹬结构，让装饰与穿着动作紧密相连。看经典鞋履，除了正面，也值得看后跟、鞋底和脚背贴合度。",
+      "facts": [
+        "鞋面的双环与横杆来自马术语言",
+        "尺码之外还应留意脚背与后跟贴合"
+      ],
+      "relatedArticles": [
+        "mag-01",
+        "mag-11"
+      ],
+      "subtype": "lifestyle",
+      "source": "https://www.gucci.com/us/en/st/stories/article/70-years-of-horsebit-loafer"
+    },
+    {
+      "id": "triomphe-sunglasses",
+      "brand": "celine",
+      "category": "jewelry",
+      "name": "Triomphe 01 Sunglasses",
+      "nameZh": "凯旋门椭圆墨镜",
+      "born": "当代系列，首发年份未统一公开",
+      "designer": "Celine 眼镜设计团队",
+      "sizes": [
+        "多种颜色与适配版本",
+        "具体镜框尺寸依型号"
+      ],
+      "materials": [
+        "醋酸纤维镜框",
+        "不同色调镜片"
+      ],
+      "priceRange": "约 ¥0.3万—0.6万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "oneLiner": "用一副椭圆轮廓，为日常留一点表情。",
+      "story": "Triomphe 01 把椭圆镜框与镜腿上的凯旋门符号放在一起。不同配色和适配版本，会改变与脸部的贴合方式。认识墨镜时，镜框造型之外，也要核对镜片说明、鼻托位置与镜腿受力，舒适度需要实际试戴。",
+      "facts": [
+        "椭圆镜框与镜腿符号是主要设计线索",
+        "镜片颜色深浅不代替防护规格说明"
+      ],
+      "relatedArticles": [
+        "mag-11"
+      ],
+      "subtype": "lifestyle",
+      "source": "https://www.celine.com/en-us/women/sunglasses/oval/triomphe-01-sunglasses-in-acetate-4S194CPLB.38MN.U.html"
+    }
+  ],
+  "articles": [
+    {
+      "id": "mag-01",
+      "category": "bags",
+      "title": "第一只包，怎么选｜把心动放回真实生活",
+      "date": "2026-10-19",
+      "readMins": 7,
+      "cover": "assets/img/mag-01.svg",
+      "excerpt": "想买一只会常用很多年的包，而不是只在柜子里发光的那种？先想清楚预算、场景与转手预期，答案往往会慢慢浮出来。",
+      "body": "<h2>先写下，你真正的一天</h2><p>早上带电脑挤地铁，中午拿着门禁卡去吃饭，晚上还要顺路买一点东西。这些看起来与时装无关的小事，恰恰决定了一只包是否适合你。先列出每天必须携带的五件物品，再看它们能否顺利进出包口，比盯着镜子里的正面轮廓更有帮助。</p><p>别急着用通勤包或约会包给自己分类。试着记一周：双手是否经常需要腾空？会不会在雨天走路？包通常放在椅子上还是办公桌旁？把动作写具体，你会发现，喜欢一种气质与喜欢一种使用方式，原来可以同时成立。</p><h2>预算，要给生活留余地</h2><p>把预算写成一个可以轻松承担的范围，并给后续清洁、维修与可能的配件留一点空间。一个标价刚好触顶的选择，未必是最舒服的选择。这里谈的是日常物件的取舍，不需要把价格变成对自己的奖励资格，也不需要为了某个名字勉强改变生活。</p><p>去看实物以前，可以先选三只不同结构的候选：一只软袋、一只挺括翻盖包、一只带拉链的手提包。它们不必来自同一品牌。比较之后，你会更清楚，自己愿意为什么付出预算，是材料触感、工艺细节，还是某种难以替代的使用便利。</p><h2>容量之外，看看开口与重量</h2><p>同样能放下一部手机，狭窄翻盖与宽拉链的取物体验却可能不同。试背时，把常用物品装进去，再重复拿钥匙、找卡片与关包的动作。空包轻并不代表装满之后也轻松；细肩带、短提手和较重五金，也会改变肩颈与手腕的感受。</p><p>如果一只包必须时时小心翼翼，先问问自己是否享受这样的照顾。光滑皮面的痕迹、浅色内衬的染色风险，都可以是被接受的材料特性，但接受最好发生在了解之后。把实际负担也放进心动里，选择反而会更笃定。</p><h2>把所谓保值，改写成转手预期</h2><p>一只包未来能卖多少，取决于型号、状态、附件、交易渠道和市场变化。公开挂价也不等于真正成交价。与其套用一个看似精确的保值率，不如问：如果几年后不再使用，我能接受怎样的折价？如果无法顺利转手，我是否仍愿意留下它？</p><p>不要用未经核实的涨幅替今天的超预算找理由。经典系列也会经历风格变化，使用成本更包含你投入的时间。品牌故事可以增加理解，不能为未来价格作保证。把转手当作可能发生的下一站，而不是买入时已经兑现的承诺。</p><h2>带着三条问题去试背</h2><p>第一，拿取是否顺手；第二，装好以后是否舒服；第三，和衣柜里最常穿的三套衣服是否自然相处。拍照时保留正面、侧面与肩背落点，不必急着寻找让包显得最好看的角度。隔几天再看照片，往往比现场的兴奋更能帮你认识自己。</p><p>如果两个选择难分高下，可以暂缓决定，继续使用手边的包，并留意真正让你不方便的地方。一个清楚的问题，比十份热门榜单更接近日常答案。先把这份清单收好，下次试背就从容一点。你最想解决的，是容量、重量，还是那一点终于找到自己的感觉？</p>",
+      "sources": [
+        "https://uk.louisvuitton.com/eng-gb/magazine/articles/heritage",
+        "https://www.hermes.com/uk/en/content/235056-six-generations-of-artisans/"
+      ]
+    },
+    {
+      "id": "mag-02",
+      "category": "bags",
+      "title": "Birkin 与 Kelly｜两种结构，两种日常节奏",
+      "date": "2026-10-19",
+      "readMins": 7,
+      "cover": "assets/img/mag-02.svg",
+      "excerpt": "远看都有翻盖与搭带，为什么背起来却很不一样？从提手开始，一起把两只经典包的区别讲清楚。",
+      "body": "<h2>一句话，先看提手</h2><p>想快速分辨，可以先记住一个入口：Birkin 常见双提手，Kelly 是单提手，并可搭配肩带。这个区别比颜色和五金更接近结构本身。两者都有搭带与转锁，但手如何接近包口、包怎样垂在身体旁边，会因为提手配置而产生不同节奏。</p><p>这当然不是一份鉴定口诀。特殊版本、尺寸与年份，都可能改变细节；我们在这里做的是设计阅读。先把基本结构看懂，再回到具体作品，才不会将一个熟悉名字误当作所有版本的共同说明书。</p><h2>两段来处，不必互相比输赢</h2><p>爱马仕的官方故事里，Birkin 来自 Jean-Louis Dumas 与 Jane Birkin 在航班上的交流，手袋于一九八四年诞生。它与日常容量有关，也与真实的出行需要有关。双提手与较宽的袋身，让这种实用的起点保留在今天可以看见的轮廓中。</p><p>Kelly 则来自 Robert Dumas 在二十世纪三十年代的设计，后来因为 Grace Kelly 的使用而广为人知。一九五六年的照片成为这段故事的重要节点。它不是为了与另一只包竞争而出现，而是在自己的时代里，逐渐形成了清楚的辨识方式。</p><h2>端正与松弛，怎样落在边缘上</h2><p>谈 Kelly，常会遇到 Sellier 与 Retourné 两个词。它们指向不同的缝合结构，通常会带来更清楚的边缘或更柔和的袋身观感。不过最终的挺括程度还受皮革、尺寸和使用状态影响，不能只凭一个词，就断言所有包都会呈现同样的形状。</p><p>Birkin 的袋口也有自己的秩序。翻盖、搭带、提手和侧面体积共同影响使用动作。阅读照片时，可以把目光从正面移到侧面：同一种皮革在较大袋身上如何垂落，提手受力后又怎样改变姿态？这些问题往往比气质标签更有意思。</p><h2>尺寸数字，不是容量的全部</h2><p>常见的数字名称可以帮助理解名义尺寸，却不能代替实际装物。长钱包、折叠伞或平板电脑，可能因为包口形状与内部分区而放不顺。把每天携带的东西带去试背，再实际开合一次，才知道优雅的姿态是否适合自己忙碌的一天。</p><p>肩带尤其值得单独观察。Kelly 的肩带配置与长度会因款式而不同，能搭肩带也不必然代表适合所有人的斜挎需求。Birkin 的常规设计没有同样的肩背逻辑，如果你经常需要双手拿东西，试背时就该认真感受手提的重量。</p><h2>金色还是银色，留给衣柜回答</h2><p>金色与钯金色五金，是人们熟悉的常见选择。与其直接把它们等同于温柔或冷淡，不如看看你常戴的首饰、外套拉链与鞋履细节。颜色并没有统一答案，有时混搭也很自然。最值得留意的是，那个细节是否让整个人看起来更像自己。</p><p>如果只想给两只包留一句区别，可以这样记：一只从双提手打开日常容量，另一只以单提手组织端正轮廓。结构为理解提供起点，真正的偏爱还要交给身体与生活。下次再看见它们，先看看侧面和开口吧。哪一种动作，会更适合你的日常步伐？</p>",
+      "sources": [
+        "https://www.hermes.com/uk/en/content/235056-six-generations-of-artisans/"
+      ]
+    },
+    {
+      "id": "mag-03",
+      "category": "jewelry",
+      "title": "珠宝的五种语言｜从螺钉到一片四叶草",
+      "date": "2026-10-19",
+      "readMins": 7,
+      "cover": "assets/img/mag-03.svg",
+      "excerpt": "为什么有些珠宝不看名字，也能一眼认出？把图案当作语言，螺钉、猎豹、四叶草、灵蛇与钥匙，各有自己的讲述方式。",
+      "body": "<h2>螺钉，把日常物件重新看一遍</h2><p>卡地亚 LOVE 在一九六九年的纽约诞生，把螺钉纹与椭圆形状转成珠宝。它有意思的地方，不只是一套关于亲密的解释，也在于工业物件怎样获得新的比例。平日里负责固定的细节，放在手腕上，变成了连续、清楚而可以反复阅读的节奏。</p><p>看这一系列，可以先观察宽度、边缘与开合动作。现代款式并非全部使用相同结构，螺钉纹也不能单独承担鉴定任务。设计符号帮助我们认路，具体材质、尺寸与型号，仍要回到对应作品。把这两层分清，阅读会更轻松。</p><h2>猎豹，在具象与抽象之间走动</h2><p>卡地亚的猎豹既可以是有眼神的动物，也可以只留下斑点与灵活曲线。这个题材的魅力，在于它允许设计在具象与抽象之间移动。有的作品让人先看见姿态，有的则让人先注意色彩和轮廓，然后才慢慢认出那一点动物性的线索。</p><p>喜欢动物珠宝，未必就适合体积很大的造型。可以试着把图案与尺寸分开：一枚小戒指或一段局部纹理，也能表达相近的兴趣。问问自己真正被吸引的是故事、色彩还是形状，会比直接追逐某一种完整形象更有帮助。</p><h2>四叶草，把幸运做成边框</h2><p>梵克雅宝于一九六八年推出首条 Alhambra 长项链。四叶形轮廓与细小圆珠边饰，构成延续至今的设计线索。不同子系列在比例与尺寸上各有变化，珍珠母贝、玉髓或金属表面，又会改变同一种形状与光线相处的方式。</p><p>选择这种图案时，值得同时看正面与边缘。吊坠是否贴合领口，链条会不会翻转，耳饰在移动时如何反光，都是设计落到身体上的问题。幸运的想象可以保留，关于佩戴的判断却可以很具体；两者并不会互相抵消。</p><h2>灵蛇，让身体成为线条的延伸</h2><p>宝格丽的 Serpenti 从蛇形珠宝腕表的历史展开，后来继续进入项链、戒指与手镯。它可以有清楚的蛇首，也可以只保留缠绕与鳞片的节奏。Tubogas 管状结构又提供另一种触感，不能把所有带蛇形的作品都视为同一种工艺。</p><p>阅读灵蛇主题，侧面很值得看。弯曲的线如何离开又贴近身体，开口的位置怎样安排，金属的体积会不会压住手指活动？这些细节决定了它是远看动人，还是戴起来也自然。喜欢一个故事以后，再多花一点时间理解结构。</p><h2>钥匙，给个人记忆留一扇门</h2><p>蒂芙尼 Keys 把钥匙的形状变成吊坠，花形、心形或几何钥匙头，让一个熟悉物件出现不同语气。它的意义并没有唯一标准：可以是新的开始，也可以只是一种你喜欢的线条。佩戴者自己的记忆，常常会给符号增加新的解释。</p><p>五种语言看完，不必立刻找出哪一种最能代表你。先从衣柜与日常动作出发，看看哪种比例愿意一直戴着，再让故事慢慢生长。符号值得认识，却不必替你作决定。你更喜欢能一眼读懂的图案，还是需要靠近一点，才会发现的小小线索？</p>",
+      "sources": [
+        "https://www.cartier.com/en-us/jewelry/cartier-jewelry/timeless-creations/iconic-designs/",
+        "https://www.vancleefarpels.com/hk/en/the-maison/timeline.html",
+        "https://www.bulgari.com/en-int/the-maison/about-bvlgari/bvlgari-history.html",
+        "https://www.tiffany.com/world-of-tiffany/heritage.html"
+      ]
+    },
+    {
+      "id": "mag-04",
+      "category": "necklace",
+      "title": "珍珠入门课｜先读光泽，再记名字",
+      "date": "2026-10-19",
+      "readMins": 7,
+      "cover": "assets/img/mag-04.svg",
+      "excerpt": "一排白色珠子，为什么近看各有表情？从 Akoya、南洋与大溪地开始，认识一颗珍珠怎样与光线相遇。",
+      "body": "<h2>先分清，天然与养殖说的是什么</h2><p>天然珍珠与养殖珍珠，区别在形成过程是否有人为介入。养殖不等于塑料仿珠，也不意味着每颗都长得一样；它仍在软体动物体内形成珍珠层。日常市场里常见的 Akoya、南洋和大溪地，通常指不同类型的海水养殖珍珠，而不是三档简单的品质排名。</p><p>如果只记品牌或产地，很容易忽略一颗珠子本身的差异。先看光泽、表面、形状与搭配，再核对检测信息和销售描述，会更接近真实判断。颜色漂亮不等于未经处理，名称熟悉也不自动证明来源，具体说明始终比一句笼统标签更有用。</p><h2>Akoya，看见清楚而细腻的反光</h2><p>Akoya 常与经典白色珠串联系在一起，颜色与伴色却不只有一种。认识它时，可以先观察表面的反光是否清楚，再把珠子轻轻转动，看看明暗怎样流动。不要单凭拍摄灯光判断光泽，柔光箱、手机曝光和后期处理，都可能让不同珠子在照片里变得相似。</p><p>想象它放在自己的领口，而不是单独躺在展示盘里。小一点的珠径可能更适合日常衬衫，大一点也未必只能留给正式场合。尺寸没有统一答案，珠串长度、领型和你习惯的穿着，往往比一条固定的年龄规则更能帮助选择。</p><h2>南洋与大溪地，不是只按颜色分</h2><p>南洋养殖珍珠常见白色、银色与金色等色调；大溪地养殖珍珠则以较深的体色和丰富伴色受到关注。不过黑珍珠不等于纯黑色，金色也不是产地证明。类型与养殖贝种、产区和形成条件有关，不能仅凭肉眼颜色就完成可靠归类。</p><p>看深色珠子时，可以把它放在明暗不同但颜色中性的背景前，观察绿色、紫色或其他伴色如何变化。看浅色珠子也一样，纸白背景未必总能表达真实观感。比较的重点是你喜欢怎样的光，而不是把某种颜色直接变成高低排序。</p><h2>圆之外，也有值得喜欢的形状</h2><p>正圆、近圆、水滴和巴洛克形状，各有佩戴时的趣味。一串完全追求一致性的珠链，与一对有意保留差异的耳饰，评价的出发点并不相同。选择前先弄清作品想呈现什么，再看珠子之间的关系，会比单独数一颗珠子的瑕疵更完整。</p><p>珍珠表面可能保留生长痕迹。痕迹是否明显、出现在哪里、会不会影响日常佩戴，需要结合具体作品判断。没有必要用想象中的绝对完美作为唯一目标，也不要因为听见天然两个字，就忽略结构、镶嵌与穿线是否可靠。</p><h2>让光泽留得久一点</h2><p>珍珠需要温柔的日常照顾。佩戴后用柔软干净的布轻拭，避免让香水、化妆品和不合适的清洁剂长时间接触。不要把超声波或蒸汽清洗当作通用方案；珠串的线也需要定期检查，尤其在频繁佩戴、打结松动或出现异常时。</p><p>不戴时单独放好，减少与较硬首饰互相摩擦。先完成香水与护肤，再戴珠饰，是一个容易坚持的小习惯。认识材料以后，养护就不需要变成紧张的仪式。下一次看珍珠，先别急着问贵不贵，试着问一句：你最喜欢它在什么光线下的表情？</p>",
+      "sources": [
+        "https://www.gia.edu/pearl-description",
+        "https://www.gia.edu/pearl-care-cleaning"
+      ]
+    },
+    {
+      "id": "mag-05",
+      "category": "jewelry",
+      "title": "一枚戒指的金属课｜K 金、铂金与玫瑰金",
+      "date": "2026-10-19",
+      "readMins": 7,
+      "cover": "assets/img/mag-05.svg",
+      "excerpt": "颜色相近，名字却不一样；同样写着金，佩戴感受也有差别。先从成分、色调与日常使用，读懂一枚戒指的底色。",
+      "body": "<h2>K 数，先说的是含金比例</h2><p>K 金中的 K，描述金在合金中的比例。十八 K 金的理论含金量为百分之七十五，其余部分由其他金属组成。合金并不是让一件首饰变得不真实，而是为了组织硬度、色调与加工表现。读标识时，可以把纯度、重量和设计工艺分开理解，它们回答的是不同问题。</p><p>同样标为十八 K，作品也可能有不同颜色与表面处理。不要把含金比例直接换算成佩戴舒适度，更不能只用克重解释一件设计首饰的全部价格。线条、结构、镶嵌和制作方式，也都参与了它最终呈现的样子。</p><h2>白色金与铂金，需要分开读</h2><p>白色 K 金是金合金的一类，铂金则以铂为主要成分，两者不是同一种材料。日常口语里的白金有时会产生歧义，看标签时更适合直接核对材质名称与纯度标记。颜色相似并不代表密度、维护方式或表面处理完全相同，不能只凭一张照片确定成分。</p><p>一枚戒指戴起来是否有存在感，也不只由材料决定。戒臂宽度、截面形状与中空结构，都会影响重量和手指之间的接触。试戴时伸直、弯曲手指，再轻轻握拳，感受侧面有没有硌到邻指，比想象某种金属一定更舒服来得可靠。</p><h2>玫瑰金，是合金里的色彩关系</h2><p>玫瑰金通常通过合金配比呈现偏暖色调，其中铜的比例会影响颜色。不同品牌和配方，色调并不完全一致，所以不要把所有粉色金属想成同一个标准色。品牌自己的命名，也需要与材质说明一起看，不能用一个好听名字代替成分信息。</p><p>选颜色时，可以在自然光下，把戒指放在常戴的手表和项链旁边。肤色没有必须服从的规则，有人喜欢融入皮肤的柔和，也有人喜欢清楚对比。先认出自己期待的效果，再看实物怎样回应，通常比依赖冷暖肤色口诀更容易找到喜欢的答案。</p><h2>划痕，是材料与使用共同写下的</h2><p>贵金属首饰也会留下痕迹，硬度和耐磨并不是同一个简单概念。日常接触桌面、门把与其他戒指，可能形成细小划痕；复杂镶嵌或活动结构，又有自己的维护需要。购买前了解售后清洁与修复方式，会比期待一种永远不变的表面更贴近真实使用。</p><p>如果你喜欢叠戴，试着让两枚戒指一起活动，看看边缘会不会互相碰撞。并非所有造型都适合长期紧挨着佩戴，尤其在镶石位置突出时。把搭配当成结构问题来观察，既保留好看的想法，也能避免忽略日常动作。</p><h2>把材质，放回你想怎样佩戴</h2><p>最后可以给自己三条判断：是否喜欢这份色调，是否习惯这个重量，是否愿意按作品要求维护。需要频繁洗手、运动或做家务时，首饰如何取下和存放，也值得提前安排。金属知识的作用，是让你更了解物件，而不是为每个人排出一个统一的优劣榜。</p><p>阅读产品页时，把材质、纯度、尺寸与表面处理记在一起，遇到含糊名称就进一步确认。这样再看金色与白色，注意力会慢慢从颜色本身，转向线条与身体的关系。先把这堂小课收好吧。你喜欢一枚戒指几乎被忘记的轻盈，还是始终能感觉到的分量？</p>",
+      "sources": [
+        "https://www.cartier.com/en-us/jewelry/cartier-jewelry/timeless-creations/iconic-designs/",
+        "https://www.tiffany.com/care-and-repair/"
+      ]
+    },
+    {
+      "id": "mag-06",
+      "category": "bags",
+      "title": "皮革的四种表情｜从 Togo 到柔软小羊皮",
+      "date": "2026-10-19",
+      "readMins": 7,
+      "cover": "assets/img/mag-06.svg",
+      "excerpt": "有的包挺括，有的包会随着使用慢慢垂下来。别急着给皮革排座次，我们从纹理、手感与结构之间的关系看起。",
+      "body": "<h2>先摸一摸，再记住名称</h2><p>看皮革，最容易先记住一串专有名词，却忘了自己真正喜欢什么触感。把一只包拿在手里，轻轻感受表面纹理，再看袋身如何转弯，信息往往更直接。品牌命名、皮种、鞣制和表面处理属于不同层次，一个名字也不能完整交代全部工艺与使用状态。</p><p>同一种皮革用在不同尺寸、内衬和缝合结构上，会呈现不同挺度。使用年限、存放方式与装载习惯，也会改变观感。所以我们谈下面几种材料时，描述的是常见倾向，不是一套只凭名字就能预测所有包袋表现的公式。</p><h2>Togo，把自然纹理留在表面</h2><p>Togo 是爱马仕皮革语汇里常见的名字，通常与有颗粒感的小牛皮联系在一起。它的趣味在纹理与柔韧之间：表面不追求镜面般平整，光线落下会被细小起伏打散。选实物时，可以比较不同部位的粒面和整体垂感，不必期待每只都长得完全一致。</p><p>颗粒纹理并不等于不会留下痕迹，也不代表可以忽略雨水和摩擦。判断是否适合日常，还是要看看颜色、边角与包型。深色与浅色的使用体验可能不同，实际拿取、放置和携带的方式，也会影响你对同一种材料的感受。</p><h2>Clemence，看柔软如何组织体积</h2><p>Clemence 常见较柔和的袋身观感，粒面与 Togo 相比也可能呈现不同节奏。与其只在照片里猜哪种更软，不如同时看空包和装物后的侧面，观察底部、转角和上沿。材料与包型怎样合作，比单独的手感形容更能解释一只包的姿态。</p><p>如果你喜欢松弛轮廓，也可以想一想，自己是否接受它随着使用改变形状。柔软不自动等于不耐用，挺括也不自动等于更高级；两者回答的是不同的审美与使用期待。把偏好讲清楚，选择就不需要依赖流行的一句话结论。</p><h2>Epsom，让压纹与结构相遇</h2><p>Epsom 的规则纹理与常见挺括观感，适合用来理解表面处理如何参与设计。它与自然粒面的视觉节奏不同，边缘和几何形状往往显得更清楚。不过一只包最终有多立体，仍取决于尺寸、缝合与内部构造，不宜只用材料名称判断。</p><p>看压纹皮革时，可以留意转角处纹理怎样延续，包口弯折时又如何变化。也别把耐刮当成绝对承诺：边角磨损、受热变形或不合适的清洁，都可能影响任何皮具。了解特点，是为了更自在地使用，而不是把喜欢的物品变成一场紧张考试。</p><h2>小羊皮，让光线变得柔和</h2><p>小羊皮的吸引力常在细腻触感和柔和光泽，但不同品牌的处理方式差异很大，不能把所有小羊皮都理解成同一标准。与深色粗纹理相比，浅色光滑表面可能更容易让人注意到细小痕迹；你是否介意这种变化，比材料排名更值得先想。</p><p>试着把包放进真实一天：会不会经常擦过牛仔裤、会不会放在粗糙桌面？若愿意接受材料慢慢留下记忆，柔软也可以很日常。先把这份小图鉴收好，下次试背时，留一点时间给手指和侧面。你喜欢的是清楚的轮廓，还是被使用以后才出现的松弛？</p>",
+      "sources": [
+        "https://assets-finance.hermes.com/s3fs-public/node/pdf_file/2026-03/1774022582/260320_hermes_urd2025_en.pdf",
+        "https://www.hermes.com/uk/en/content/235056-six-generations-of-artisans/"
+      ]
+    },
+    {
+      "id": "mag-07",
+      "category": "scarves",
+      "title": "一方丝巾的十种日常｜从第一个结开始",
+      "date": "2026-10-19",
+      "readMins": 7,
+      "cover": "assets/img/mag-07.svg",
+      "excerpt": "抽屉里那方漂亮丝巾，一直舍不得戴？以约九十厘米方巾为例，从容易完成的小动作开始，让图案真正走进生活。",
+      "body": "<h2>先折成一条，认识图案的变化</h2><p>九十厘米方巾可以被看成一幅画，也可以被折成只露出一条颜色的线。先在干净平面上摊开，观察四角、边框与中心，再从不同方向试着折成长条。相同图案只要换一个起点，露出的颜色就会很不一样，不必一次追求复杂造型。</p><p>下面的十种是日常搭配思路，松紧与长度请按自己的身体和活动调整。不要系得过紧，也别让垂落的丝巾接近运动器械或车轮。第一次练习，先选容易复原的结，轻轻整理就好，丝绸不需要被反复用力拉扯。</p><h2>把颜色留在领口</h2><p><strong>一，基础单结。</strong>把方巾折成长条，绕过颈后，在胸前松松打一个结。让两端长度略有差异，会比刻意完全对称更自然。搭配素色圆领上衣时，可以先让边框露出来，用一小段图案给日常增加一点层次。</p><p><strong>二，短领巾。</strong>折成较窄长条，松松绕颈后在侧面收结，确认转头与吞咽都舒服。<strong>三，三角披搭。</strong>对角折叠，把三角部分留在胸前，两角绕后再回前轻结。领口比较空的时候，这两种方式会呈现很不同的面积感。</p><h2>让头发与肩膀，也有一点变化</h2><p><strong>四，低马尾结饰。</strong>先用日常发圈固定头发，再把折好的丝巾绕在发圈外，减少让丝巾独自承重。两端自然垂下，走动时就会露出图案。选择浅色上衣时，也可以观察丝巾与领口是否过于拥挤，再调整尾端长度。</p><p><strong>五，发带。</strong>把长条放在发际后方，在颈后松结，别勒得太紧。<strong>六，肩头小披巾。</strong>对角折叠后披在肩上，前端自然交叠，适合安静坐着的场景；走动前确认不会滑落，必要时换成更稳妥的结法。</p><h2>把一小片图案，放在随身物件旁</h2><p><strong>七，包柄单结。</strong>在提手一侧松松系结，让图案形成小小垂坠。先确认提手没有可能勾丝的毛刺或尖角，也留意深浅色材料长期接触的影响。丝巾只是装饰，不应承担提重物或修补破损提手的任务。</p><p><strong>八，提手缠绕。</strong>沿单个提手轻轻绕行，两端各留一个小结，别为了完全覆盖而过度拉紧。<strong>九，腰间点缀。</strong>把长条穿过宽松裤耳后在侧面系结，作为色彩点缀使用，真正需要固定衣物时仍保留合适腰带。</p><h2>最后一种，留给不急着出门的你</h2><p><strong>十，衬衫领内细线。</strong>将方巾折成窄长条，沿后领放好，在前方轻轻交叠或松结，让领口只露出一小段边框。穿上外套再看一次整体效果，有时图案少露一点，反而更能让人注意到颜色与衣服之间的关系。</p><p>使用后让丝巾舒展，按洗护标签整理和清洁，避免把未干的丝绸紧密收起。每次只练一种方式，慢慢记住自己喜欢的松紧与露色位置，抽屉里的那幅画就会逐渐变得亲近。先挑最容易的一种试试吧。你想把第一抹颜色，留在领口、头发，还是每天拿起的包上？</p>",
+      "sources": [
+        "https://www.hermes.com/uk/en/content/235056-six-generations-of-artisans/"
+      ]
+    },
+    {
+      "id": "mag-08",
+      "category": "bags",
+      "title": "二手与 Vintage 入门｜先看状态，再谈故事",
+      "date": "2026-10-19",
+      "readMins": 7,
+      "cover": "assets/img/mag-08.svg",
+      "excerpt": "喜欢一只已经停产的包，是很具体的心动。让这种心动多一点从容，可以先建立一份关于来源、状态与售后的小清单。",
+      "body": "<h2>旧，不自动等于 Vintage</h2><p>二手描述的是流通过程，Vintage 则常带有年代与风格语境，两者在日常用语里会交叠，却没有一个适用于所有交易的统一门槛。看见好听的名称时，先回到可核对的信息：具体型号、推定年份、材质、尺寸和状态，往往比一个标签更有价值。</p><p>停产也不自动代表稀少，更不能直接推导出价格会上升。市场里的某个款式可能有多种尺寸和材质，看起来相近，实际并非同一件作品。先明确自己寻找的是某个结构、颜色还是特定时期，比较时才不会被不同条件混在一起的报价带偏。</p><h2>让照片，回答具体的问题</h2><p>除了漂亮的正面图，向卖方了解四角、提手内侧、包底、内衬、五金和开口的近照。最好能看到自然光下的色差与局部痕迹，也了解是否存在异味、黏连、粉化或结构变形。照片的意义，是提供观察入口，而不是让滤镜替一件旧物完成解释。</p><p>使用痕迹与后期修复需要分别说明。补色、换皮、重新封边或替换零件，都可能影响你期待的触感与后续维护。它们不必然让物件失去使用价值，但应该进入描述和价格比较。如果信息含糊，先把问题问清楚，再决定是否继续。</p><h2>附件，能补充来处却不能独自证明</h2><p>盒子、防尘袋、票据与维修记录，可以提供背景，却不能单独保证真伪。刻印、字体或一处走线，也不能成为人人都能套用的万能鉴定法。年代、市场和型号之间存在变化，把某张网络对照图当作最终答案，容易忽略作品本身的复杂性。</p><p>需要真伪判断时，应了解提供鉴别服务者的方法、责任与适用范围，并保存交易沟通记录。本文帮助整理阅读与交易问题，不提供远程鉴定结论。面对重要决定，让可追溯信息与有明确责任的服务参与，比追求一句快速的放心更有用。</p><h2>比较价格，要让条件尽量相近</h2><p>把候选放在同一张清单上，分别记录尺寸、材质、年份依据、状态、附件和退换条件。只看同名包的最低价格，很容易把完全不同的物件混在一起。公开挂价也不等于成交价，所谓市场行情应当保留来源与时间，而不是一个永远有效的数字。</p><p>还要给清洁、可能维修和运输留出预算。便宜一点的物件，如果需要你难以接受的修复，未必更接近理想。反过来，有清楚说明的使用痕迹，也可能恰好适合日常。重点不是找到绝对无痕的旧物，而是让状态与你的预期一致。</p><h2>交付与售后，也写进心动里</h2><p>在付款之前，了解交付方式、检查期限、退换条件和争议处理流程，保存对应页面与沟通内容。收到物件后，在约定期限内核对说明，记录明显差异。具体交易适用的规则因渠道与地区不同，需要以实际条款为准，不能把网络经验当作自动适用的承诺。</p><p>如果一只包让你不断替缺失的信息找理由，不妨慢一点。喜欢旧物的人，可以享受寻找，也可以耐心等到状态与来源都更合适的那一件。把这份清单留给下次心动吧。你最想遇到的，是某个已经停产的轮廓，还是一段与你刚好有共鸣的年代？</p>",
+      "sources": [
+        "https://uk.louisvuitton.com/eng-gb/magazine/articles/heritage"
+      ]
+    },
+    {
+      "id": "mag-09",
+      "category": "watches",
+      "title": "腕表入门的三个问题｜你想怎样与时间相处",
+      "date": "2026-10-19",
+      "readMins": 7,
+      "cover": "assets/img/mag-09.svg",
+      "excerpt": "机械、石英与智能，哪个适合自己？先别急着选阵营，把注意力放回每天抬起手腕的那个动作。",
+      "body": "<h2>第一问，你喜欢怎样的使用节奏</h2><p>有人喜欢每天给机械表上链，有人希望拿起就走，还有人需要通知与运动记录。三种期待都很真实，不必用谁更懂表来替它们排序。先想清楚腕表在你生活里承担什么：读时、配饰、机械兴趣，还是连接手机，答案通常会自然缩小选择范围。</p><p>机械表依靠发条储能，并通过机械结构调节走时；石英表借助电子电路与石英振荡计时；智能腕表则还承担计算与连接功能。这些是理解原理的起点，具体精度、供能方式和使用功能，仍要回到实际型号，不能只凭类别作绝对判断。</p><h2>第二问，你愿意怎样照顾它</h2><p>手动上链与自动上链属于机械表的不同使用方式，自动上链也不意味着永远不用关注动力。停走后可能需要重新调整时间，而带复杂日历的作品还可能有特定操作要求。先读对应说明书，再按正确方式使用，是认识一枚表最踏实的开场。</p><p>石英表可能需要更换电池，也有其他供能设计；智能腕表的充电间隔与使用负载有关。维护不是谁高级谁麻烦的简单对照，而是不同结构需要不同照顾。购买前了解检修渠道、费用范围和日常操作，会比只比较表盘颜色更接近长期体验。</p><h2>第三问，你的手腕喜欢什么形状</h2><p>表径并不完整描述一枚表的佩戴效果。表耳之间的长度、厚度、表带弧度和重量，都会影响贴合感。同样写着一个数字，圆形工具表与长方形正装表也可能完全不同。试戴时从侧面看，再穿上常用外套，感受袖口会不会卡住。</p><p>腕围也不需要决定一种唯一风格。你可以喜欢小巧，也可以喜欢清楚的存在感，只要它不妨碍日常动作。把表带调到合适松紧以后，抬手、弯腕、坐下打字，看看它在真实姿势里怎样停留，比在镜前只站一分钟更能说明问题。</p><h2>把经典故事，放回具体型号</h2><p>劳力士潜航者于一九五三年诞生，欧米茄超霸于一九五七年推出，Tank 的设计则可追溯至一九一七年。这些年份能帮助我们理解一条设计线从哪里来，却不能代替今天某个型号的规格。系列会演进，同一名字之下也可能有不同机芯与材质。</p><p>超霸与登月的联系很动人，但不是所有超霸都拥有相同任务经历，也不是所有款式都使用相同上链方式。读品牌故事时，留一点空间给型号、参考编号和说明书，传奇就能与真实物件相连，而不会只剩一句动人的广告。</p><h2>防水，是会随状态变化的能力</h2><p>看到防水标识，也要了解适用条件与密封状态。表冠是否正确闭合、密封件是否老化、是否经过检测，都会影响日常使用；热水与蒸汽也不应直接按常温测试数字理解。不要把标称数值当作所有水下活动都适用的通行证，具体做法以对应说明与检测为准。</p><p>如果这是第一枚腕表，先选你愿意经常戴、也愿意了解的那一枚。把试戴感受、使用节奏和维护安排写在一起，就已经走过最有价值的入门一步。下次看表，别只盯着表盘，把手腕转过来看看侧面吧。你想记录时间，还是也想享受与时间相处的那一点仪式？</p>",
+      "sources": [
+        "https://www.rolex.com/about-rolex/history/1926-1945",
+        "https://press.omegawatches.com/our-past-present-and-future/",
+        "https://www.cartier.com/en-us/our-style.html"
+      ]
+    },
+    {
+      "id": "mag-10",
+      "category": "jewelry",
+      "title": "日常保养小课｜让喜欢的物件，陪得久一点",
+      "date": "2026-10-19",
+      "readMins": 7,
+      "cover": "assets/img/mag-10.svg",
+      "excerpt": "包包收起来之前，珍珠摘下来以后，顺手多做一个小动作就好。把养护变成轻松习惯，比临时寻找万能清洁法更有用。",
+      "body": "<h2>先识别材料，再决定怎么照顾</h2><p>同样是一条项链，可能同时包含金属、宝石、珍珠母贝、胶合部位与活动扣件。清洁方式要照顾其中更敏感的部分，不能看到写着金就整件使用同一种方法。开始之前先看材料说明与洗护要求，遇到不确定的组合，询问对应品牌售后会更具体。</p><p>新的物件也值得留一份简单记录：名称、材质、购入时间与维护说明。不是为了把日常变成管理任务，而是当你真的需要维修时，不必重新猜测。一个清楚的档案，往往比收藏很多未经验证的清洁偏方更有帮助。</p><h2>皮具，把潮湿与热源分开处理</h2><p>包袋使用后先检查是否有水分或明显污渍，再按材质要求处理。轻微沾水时避免用热风猛吹，也不要立即把潮湿物件密封起来。让它在合适的通风环境里自然缓和，通常比急着用力擦拭更符合温柔照顾的思路；严重水渍则应让专业服务评估。</p><p>收纳前轻轻整理形状，避免长期压在重物下。填充物要干净、柔软，别为了撑出完全笔直的轮廓而塞得太满。防尘袋可以减少摩擦与落尘，却不能代替环境管理，偶尔取出检查，比关上柜门以后就忘记它更踏实。</p><h2>珍珠，佩戴以后轻轻擦一遍</h2><p>珍珠的日常照顾可以从柔软干净的布开始，佩戴后轻拭表面，减少汗液与化妆品残留。先完成护肤、香水与发型整理，再佩戴珠饰，是一个容易记住的顺序。运动、洗浴或接触清洁剂之前，也适合把它取下妥善放好。</p><p>不要把超声波或蒸汽清洁当作珠宝通用选项，珍珠尤其需要避开。珠串也要留意线的松紧与磨损，若出现异常及时检查。清洁以后如果涉及水分，应按适当方式放平晾干，避免潮湿的线在悬挂状态下承受不必要的拉力。</p><h2>K 金首饰，结构比名字更具体</h2><p>一件没有镶石的简单金属首饰，与带复杂镶嵌或活动结构的作品，适合的清洁方式可能不同。不要直接套用牙膏、酒精或家用清洁剂等网络方案。先按品牌说明操作，若没有明确说明，使用干净软布做轻度日常整理，并咨询合适的维护渠道。</p><p>取下戒指时，也可以顺便看一眼镶爪、扣件与连接处有没有明显变化。活动异常、宝石松动或结构变形，适合停止佩戴并寻求检查，而不是继续用力矫正。保养的重点，是让问题在较早阶段被看见，并不需要每天拿着放大镜紧张巡查。</p><h2>丝巾与香水，也需要合适的位置</h2><p>丝巾按洗护标签清洁与熨烫，收起前确认干燥，减少与尖锐配件接触。香水则适合避免长时间日晒与明显温度变化，瓶盖与喷头按原设计使用。把物件放在顺手而合适的位置，往往比购买很多附加用品更能让好习惯持续。</p><p>养护不等于让物件永远没有使用痕迹。你可以接受皮革慢慢变软，也可以珍惜金属上细细的划痕，同时认真处理真正影响结构的问题。把这份小课留在抽屉边，每次只做一个顺手动作。你最愿意坚持的，会是回家擦一遍珍珠，还是收包前那几秒钟的整理？</p>",
+      "sources": [
+        "https://www.gia.edu/pearl-care-cleaning",
+        "https://www.tiffany.com/care-and-repair/"
+      ]
+    },
+    {
+      "id": "mag-11",
+      "category": "necklace",
+      "title": "礼物的三档预算｜让心意，落在具体日常里",
+      "date": "2026-10-19",
+      "readMins": 7,
+      "cover": "assets/img/mag-11.svg",
+      "excerpt": "节日快到了，却还没想好送什么？预算只是边界，真正的起点，是对方每天如何穿衣、出门和生活。",
+      "body": "<h2>先回想，对方真正使用什么</h2><p>送礼以前，可以先观察一些很小的线索：对方常戴金色还是银色，出门喜欢轻便还是有分量的配件，是否习惯香味，衣柜里有没有常用丝巾。一个与日常相合的小东西，常常比一个需要对方改变习惯的大东西，更容易留下温暖的记忆。</p><p>下面的预算是整理选择思路的范围，不是任何品牌的实时售价表，也不代表某个具体型号一定能在该范围内购得。涉及单品参考区间时，仅供参考，请以品牌专柜或官方渠道为准。先把心意与预算放稳，再慢慢寻找合适作品。</p><h2>一千元以内，让关心更轻一点</h2><p>这一档可以把视线从大件名品移开，考虑一本设计或工艺书、一份与兴趣有关的小物，或一段提前认真安排的相处时间。若选择香氛，也先确认对方是否喜欢并适合使用气味产品；不熟悉偏好时，让对方参与试闻，比盲选一瓶大容量更体贴。</p><p>包装不必复杂，一张写清楚为什么想到对方的卡片，已经能给礼物增加具体温度。比起写适合所有人的祝福，提起你注意到的某个习惯、某次聊天或共同记忆，会让这件小东西拥有无法被价格代替的来处。</p><h2>一千至五千，把质感放在触手可及处</h2><p>这一档可以观察部分丝质小配件、银饰或香氛的具体型号，但供应与价格会随地区、时间变化，需要实际核实。送丝巾先想颜色是否与衣柜相合；送项链要了解链长偏好；送香水则更适合建立在共同试闻或明确心愿之上。</p><p>如果拿不准尺寸，不必把惊喜当作不能沟通的理由。可以用轻松的方式一起看几种轮廓，再由你完成最后的选择。了解退换条件、是否能调整尺寸与预计交付时间，也属于礼物的一部分；它们让收到以后真正使用的过程更顺畅。</p><h2>五千元以上，给试戴留一点时间</h2><p>预算提高以后，未必需要让礼物体积更大。可以考虑对方明确喜欢的珠宝、腕表或包袋，再按照具体型号核对材料、尺寸与使用方式。这一档尤其适合共同试戴：戒指的环宽、手镯的开合、腕表的贴合，都很难只凭你对对方的了解来替代。</p><p>经典设计可以提供故事，却不能保证人人都喜欢。与其希望某个广为人知的符号自动表达全部心意，不如把选择原因说清楚。你想到的是对方每天上班的样子，还是某个即将开始的新阶段？答案越具体，礼物越容易与真实生活建立联系。</p><h2>把可以继续的照顾，一起送出去</h2><p>留下必要的购买凭证与维护说明，了解适用的售后安排，再用对方舒服的方式交付。别让对方为了证明喜欢而立刻佩戴，也不必在礼物里附上必须珍惜的压力。好的心意允许对方有自己的使用方式，甚至可以坦然说出不合适并一起调整。</p><p>最后，把预算看作帮助选择的边界，把观察看作心意的来源。小小的物件也能装下很长的关心，前提是它与你想到的那个人有关。先把这份清单收好，下次节日前从一个具体问题开始吧：最近的日常里，对方最常提到的需要，是什么？</p>",
+      "sources": [
+        "https://www.tiffany.com/world-of-tiffany/heritage.html",
+        "https://www.hermes.com/uk/en/content/235056-six-generations-of-artisans/"
+      ]
+    },
+    {
+      "id": "mag-12",
+      "category": "fragrance",
+      "title": "从 N°5 说起｜慢慢找到自己的气味",
+      "date": "2026-10-19",
+      "readMins": 7,
+      "cover": "assets/img/mag-12.svg",
+      "excerpt": "闻过很多名字，还是不知道自己喜欢什么？从一张试香纸开始，把花束、浓度与留在皮肤上的变化，慢慢分开认识。",
+      "body": "<h2>经典的起点，也是一种新问题</h2><p>一九二一年，Ernest Beaux 为香奈儿创作 N°5。它常被放进关于抽象花束的讨论：气味不必直接告诉你这是一朵什么花，而可以把多种线索组织成一个新的整体。玫瑰、茉莉与醛香的关系，也让很多人第一次意识到，香水并不只是在模仿自然。</p><p>不过第一次闻经典，不需要立刻喜欢。你可能先注意到明亮，也可能觉得陌生；这些反应都可以成为认识自己的起点。与其寻找正确感受，不如把当时联想到的场景写下来。香水知识可以帮你整理经验，却不应该替鼻子宣布答案。</p><h2>同一个名字，可能有不同演绎</h2><p>看到 Eau de Parfum、Eau de Toilette 或其他名称时，不要只把它们想成同一气味的简单加水版本。不同作品可能调整配方与表现方式，留香和扩散也会受具体配方、用量与环境影响。浓度标识提供线索，不能直接排出适合所有人的强弱次序。</p><p>N°5 的故事可以帮助理解这一点：一九二一年是最初创作的起点，常见的 Eau de Parfum 则有 Jacques Polge 在一九八六年的演绎背景。相近名字放在一起试闻，留意哪里相似、哪里改变，会比先认定某一种一定最经典更有趣。</p><h2>先用试香纸，给鼻子留一点空间</h2><p>一次先闻少量候选，在纸上记好名称、版本和时间。刚喷出的感觉会继续变化，不必在第一秒就作决定；隔一会儿再回到同一张纸，看看最初的印象是否还在。不同香水同时混在手腕上，也容易让经验变得模糊，少一点反而更方便比较。</p><p>描述不必专业，可以写像干净衬衫、像木抽屉、像午后花店，也可以写没有想象中甜。这样的词来自你自己的生活，比勉强背下一串香调更容易记住。等经验多一点，再用花香、木质或柑橘这些词整理，就会知道它们究竟指向什么感受。</p><h2>上皮肤以后，再看一天的变化</h2><p>如果产品说明允许且你适合使用，可以在小范围试闻，观察自己与气味相处是否舒服。皮肤、衣物与试香纸带来的感受可能不同，环境和用量也会影响体验。不要为了验证留香而一次喷太多，真正需要知道的，是在你平常的使用方式里，它怎样存在。</p><p>也留意身边的共享空间。通勤车厢、办公室与亲密用餐时，浓重香味可能影响别人；用量与场合一起考虑，会让香水更自然地进入生活。好闻不需要变成一个必须被所有人注意到的声明，有时只有靠近自己才闻到，也已经足够。</p><h2>把喜欢，留给反复相处之后</h2><p>试闻以后可以暂时不买，带着记录隔几天再看。你可能发现当场最惊艳的气味并不想天天使用，也可能反复惦记一开始很安静的那一款。若有合适的试用规格与正规渠道，可以先用实际日常验证，再决定是否需要更大的容量。</p><p>存放时避免长期日晒与明显温度变化，保留包装上的必要信息。香水可以是一种记忆，也可以只是今天让自己舒服的一点气息，不必被名字与经典地位催促。先从一张试香纸开始吧。你想找到的，是让人记住你的味道，还是让自己想起某一段生活的味道？</p>",
+      "sources": [
+        "https://www.chanel.com/us/fragrance/p/125430/n5-eau-de-parfum-spray/"
+      ]
+    }
+  ]
+}

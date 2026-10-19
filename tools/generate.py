@@ -1,0 +1,157 @@
+"""Rebuild static pages and the offline data script. Python standard library only."""
+from pathlib import Path
+import json, html, re, gzip, base64
+from urllib.parse import urlsplit
+ROOT=Path(__file__).resolve().parents[1]
+SITE=json.loads((ROOT/'tools/site.json').read_text()) if (ROOT/'tools/site.json').exists() else {}
+SITE_URL=SITE.get('url','').rstrip('/')+'/' if SITE.get('url') else ''
+D=json.loads((ROOT/'tools/content.json').read_text())
+C={x['id']:x for x in D['categories']}
+B={x['id']:x for x in D['brands']}
+I={x['id']:x for x in D['items']}
+A={x['id']:x for x in D['articles']}
+DISCLAIMER='MuseLux 是个人兴趣驱动的非商业内容项目，所有品牌名称与产品名称的权利归其权利人所有；价格信息仅为整理时的公开参考，请以品牌官方渠道为准。'
+ABOUT='MuseLux 是一个关于奢侈品的品味网站——把百年工坊的故事，讲成日常的向往。'
+e=html.escape
+def icon(name):
+    paths={
+      'arrow':'<path d="M4 12h16m-6-6 6 6-6 6"/>',
+      'search':'<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/>',
+      'bags':'<path d="M5 8h14l1 12H4L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/>',
+      'necklace':'<path d="M4 4c0 12 16 12 16 0M10 16l2-3 2 3-2 4-2-4Z"/>',
+      'jewelry':'<circle cx="12" cy="14" r="6"/><path d="m8 8 1-5h6l1 5M9 3l3 5 3-5"/>',
+      'watches':'<rect x="6" y="6" width="12" height="12" rx="4"/><path d="M9 6V2h6v4M9 18v4h6v-4m-3-13v5l3 2"/>',
+      'scarves':'<path d="m5 3 14 3-4 6 3 8-6-2-4 3 1-10-4-8Z"/><path d="m5 3 7 8 7-5m-7 5 3 1"/>',
+      'fragrance':'<rect x="5" y="8" width="14" height="13" rx="2"/><path d="M8 8V4h8v4M8 4V2h8v2m-7 9h6v4H9z"/>',
+      'up':'<path d="M12 20V4m-6 6 6-6 6 6"/>',
+      'menu':'<path d="M3 7h18M3 12h18M3 17h18"/>',
+      'close':'<path d="m6 6 12 12M6 18 18 6"/>',
+    }
+    return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+paths[name]+'</svg>'
+
+LOGO='''<svg class="logo" viewBox="0 0 210 78" role="img" aria-label="MuseLux，品味、工艺、传奇"><path d="M7 42Q60 14 119 37" fill="none" stroke="currentColor" stroke-width=".7"/><text x="12" y="39" font-family="Snell Roundhand,Apple Chancery,cursive" font-style="italic" font-size="35">muse</text><text x="111" y="44" font-family="Georgia,serif" font-size="30" letter-spacing="4">LUX</text><path d="M111 52q45-6 83-2l-65 3 59 2" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="197" cy="38" r="3" fill="#c98a8e"/><text x="33" y="70" font-family="PingFang SC,sans-serif" font-size="8" letter-spacing="4">品味 · 工艺 · 传奇</text></svg>'''
+
+def card(x,kind='article',prefix='',big=False):
+    if kind=='article':
+        cat=C[x['category']]
+        return f'''<article class="story-card reveal{' feature-large' if big else ''}"><a class="card-image" href="{prefix}mag/{x['id']}.html" tabindex="-1" aria-hidden="true"><img src="{prefix}{x['cover']}" width="720" height="480" loading="lazy" alt="{e(x['title'].split('｜')[0])}的原创图鉴插画"></a><div class="card-body"><div class="card-kicker"><a class="tag" href="{prefix}cat/{cat['id']}.html">{cat['nameZh']}</a><span class="eyebrow">THE JOURNAL</span></div><h3><a href="{prefix}mag/{x['id']}.html">{e(x['title'])}</a></h3><p class="card-excerpt">{e(x['excerpt'])}</p><div class="card-meta"><time datetime="{x['date']}">2026.10.19</time><span>约 {x['readMins']} 分钟</span><span class="card-arrow">↗</span></div></div></article>'''
+    b=B[x['brand']]
+    return f'''<article class="item-card reveal"><a href="{prefix}item/{x['id']}.html"><div class="item-image"><img src="{prefix}assets/img/{x['id']}.svg" width="720" height="480" loading="lazy" alt="{e(b['name']+' '+x['name']+' '+x['nameZh'])}的概念插画，非实物图"></div><div class="item-body"><span class="eyebrow">{e(b['name'])}</span><h3>{e(x['name'])}<span>{e(x['nameZh'])}</span></h3><p>{e(x['oneLiner'])}</p><span class="text-link">打开词条 <span>↗</span></span></div></a></article>'''
+
+def brandcard(b,prefix=''):
+    return f'''<a class="brand-card reveal" href="{prefix}brand/{b['id']}.html"><span class="eyebrow">{e(b['country'])} · EST. {b['founded']}</span><h3>{e(b['name'])}</h3><span class="brand-zh">{b['nameZh']}</span><p>{b['tagline']}</p><span class="brand-card-bottom">{len(b['classicItems'])} 个经典词条 <span>↗</span></span></a>'''
+
+def crumbs(parts,prefix):
+    return '<nav class="breadcrumbs" aria-label="面包屑"><a href="'+prefix+'index.html">首页</a>'+''.join(' <span>/</span> '+(f'<a href="{url}">{e(label)}</a>' if url else f'<span aria-current="page">{e(label)}</span>') for label,url in parts)+'</nav>'
+
+def headsection(kicker,title,desc,count=''):
+    return f'<div class="page-heading"><div><p class="eyebrow">{kicker}</p><h1>{e(title)}</h1><p>{e(desc)}</p></div><span class="heading-number">{count}</span></div>'
+
+def sectionhead(kicker,title,link=None):
+    return f'<div class="section-head"><div><p class="eyebrow">{kicker}</p><h2>{title}</h2></div>'+ (f'<a class="text-link" href="{link[1]}">{link[0]} <span>↗</span></a>' if link else '')+'</div>'
+
+pages=[]
+def page(path,title,desc,content,pagekind='generic',pageid='',article=None):
+    prefix='../' if '/' in path else ''
+    current=pagekind
+    canonical=SITE_URL+('' if path=='index.html' else path) if SITE_URL else ''
+    hosting_meta=f'<link rel="canonical" href="{e(canonical)}"><meta property="og:url" content="{e(canonical)}">' if canonical else ''
+    fallback_base=''
+    if pagekind=='404' and SITE_URL:
+        fallback_base='<script>(function(){if(location.protocol!=="file:"&&location.hostname==='+json.dumps(urlsplit(SITE_URL).hostname)+'){var b=document.createElement("base");b.href='+json.dumps(SITE_URL)+';document.head.appendChild(b)}})();</script><meta name="robots" content="noindex">'
+    nav=''.join(f'<a class="{"active" if pageid==c["id"] else ""}" href="{prefix}cat/{c["id"]}.html">{c["nameZh"]}</a>' for c in D['categories'])
+    structured={'@context':'https://schema.org','@type':'Organization','name':'MuseLux','description':ABOUT}
+    if article:
+        structured={'@context':'https://schema.org','@type':'Article','headline':article['title'],'datePublished':article['date'],'dateModified':article['date'],'inLanguage':'zh-CN','author':{'@type':'Organization','name':'MuseLux 编辑部'},'publisher':{'@type':'Organization','name':'MuseLux'},'description':article['excerpt']}
+    if canonical:
+        structured['url']=canonical
+    footer=f'''<footer class="site-footer"><div class="container footer-grid"><div><a class="footer-logo" href="{prefix}index.html">{LOGO}</a><p>{ABOUT}</p><span class="eyebrow">A LITTLE KNOWLEDGE. A LONG AFFECTION.</span></div><div><h2>慢慢探索</h2><div class="footer-links">{''.join(f'<a href="{prefix}cat/{c["id"]}.html">{c["nameZh"]}</a>' for c in D['categories'])}<a href="{prefix}brands.html">品牌索引</a><a href="{prefix}search.html">站内搜索</a><a href="{prefix}about.html">关于本站</a><a href="{prefix}about.html#sources">资料与来源</a></div></div><div><h2>一份小小的说明</h2><p>{DISCLAIMER}</p><p>图像均为原创概念插画，不代表产品实际外观。<br>在这里，先了解，再慢慢喜欢。</p></div></div><div class="container footer-bottom"><span>© 2026 MUSELUX · AN INDEPENDENT JOURNAL</span><span>用好奇心，收藏日常的美。</span></div></footer>'''
+    out=f'''<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#faf8f5"><title>{e(title)}｜MuseLux</title><meta name="description" content="{e(desc[:110])}"><meta property="og:title" content="{e(title)}｜MuseLux"><meta property="og:description" content="{e(desc[:110])}"><meta property="og:type" content="{'article' if article else 'website'}"><meta property="og:image" content="{e(SITE_URL+'assets/img/hero.svg') if SITE_URL else prefix+'assets/img/hero.svg'}">{hosting_meta}{fallback_base}<link rel="icon" href="{prefix}assets/img/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="{prefix}assets/css/main.css"><script type="application/ld+json">{json.dumps(structured,ensure_ascii=False)}</script><script src="{prefix}assets/js/data.js" defer></script><script src="{prefix}assets/js/render.js" defer></script><script src="{prefix}assets/js/main.js" defer></script></head>
+<body data-page="{pagekind}" data-id="{pageid}" data-root="{prefix}"><a class="skip-link" href="#main">跳至正文</a><div class="topline"><div class="container"><span>AN INDEPENDENT JOURNAL OF BEAUTIFUL THINGS</span><span>VOL. 01 — OCTOBER 2026</span></div></div><header class="site-header"><div class="container header-inner"><a class="logo-link" href="{prefix}index.html">{LOGO}</a><nav id="main-nav" class="main-nav" aria-label="主导航">{nav}<a class="nav-brand {'active' if current in ['brands','brand'] else ''}" href="{prefix}brands.html">品牌图鉴</a><a class="nav-about" href="{prefix}about.html">关于</a></nav><div class="header-actions"><a class="search-link" href="{prefix}search.html" aria-label="搜索品牌、单品与文章">{icon('search')}</a><button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="打开导航菜单">{icon('menu')}</button></div></div><div class="reading-progress" aria-hidden="true"></div></header><main id="main">{content}</main>{footer}<button class="back-top" aria-label="返回顶部" type="button">{icon('up')}</button><noscript><p class="noscript-note">全部文章可直接阅读；搜索、筛选与订阅演示需要启用 JavaScript。</p></noscript></body></html>'''
+    (ROOT/path).write_text(out)
+    pages.append(path)
+
+def home():
+    cats=''.join(f'<a class="hero-pill" href="cat/{c["id"]}.html">{c["nameZh"]}</a>' for c in D['categories'])
+    band=''.join(f'<a class="category-tile reveal" href="cat/{c["id"]}.html">{icon(c["id"])}<span class="eyebrow">{c["nameEn"]}</span><h3>{c["nameZh"]}</h3><p>{c["blurb"]}</p><span class="tiny-arrow">↗</span></a>' for c in D['categories'])
+    wall=''.join(f'<a href="brand/{b["id"]}.html"><span>{e(b["name"])}</span><small>{b["founded"]} · {b["country"]}</small></a>' for b in D['brands'])
+    content=f'''<section class="hero"><img class="hero-art" src="assets/img/hero.svg" width="1500" height="800" alt="暖沙色空间中，包袋、丝绸与珠宝的原创概念静物插画" fetchpriority="high"><div class="container hero-inner"><div class="hero-copy"><p class="eyebrow rose-text"><span class="little-rule"></span> THE EVERYDAY ICONS · 经典入门</p><h1>让经典，<br>走进日常<span class="rose-dot">。</span></h1><p class="hero-description">一只包的来处，一枚戒指的心意。<br>把百年工坊的故事，讲成日常的向往。</p><a class="button button-dark" href="mag/mag-01.html">翻开第一篇 {icon('arrow')}</a><span class="hero-reading">慢慢了解，慢慢喜欢。</span></div><span class="hero-side-label">FORM / CRAFT / EVERYDAY</span><div class="hero-bottom"><div class="hero-pills">{cats}</div><span class="hero-caption">MUSELUX ORIGINAL ILLUSTRATION · 概念插画</span></div></div></section>
+<section class="container section features">{sectionhead('THE EDITOR’S LETTER','本周专题',('全部文章','search.html?type=article'))}<div class="feature-grid">{card(A['mag-02'],big=True)}{card(A['mag-03'])}{card(A['mag-06'])}</div></section>
+<section class="category-section"><div class="container">{sectionhead('SIX WAYS TO WANDER','从一份好奇开始')}<div class="category-grid">{band}</div></div></section>
+<section class="container section brand-section">{sectionhead('THE HOUSES & THEIR STORIES','品牌图鉴',('浏览 15 个品牌','brands.html'))}<p class="section-intro">每一个名字背后，都有一间值得走近的工坊。</p><div class="brand-wall" aria-label="品牌横向列表，可横向滚动">{wall}</div><div class="scroll-hint">向右探索更多品牌 <span>⟶</span></div></section>
+<section class="container section latest" id="journal">{sectionhead('NOTES ON BEAUTIFUL THINGS','慢读日常',('搜索文章','search.html?type=article'))}<div class="article-grid">{''.join(card(x) for x in D['articles'])}</div></section>
+<section class="dictionary-section"><div class="container">{sectionhead('A SMALL DICTIONARY OF ICONS','编辑精选 · 经典词典',('全部单品','search.html?type=item'))}<p class="section-intro">先记住一个细节，再打开一段故事。</p><div class="item-rail">{''.join(card(I[k],'item') for k in ['birkin','alhambra','tank','classic-flap','jodie','no5'])}</div></div></section>
+<section class="newsletter-section" id="newsletter"><div class="container newsletter-inner"><div><p class="eyebrow">LET’S KEEP A LITTLE INSPIRATION</p><h2>一封信，每月一封<span class="rose-dot">。</span></h2><p>把值得慢读的故事，留给一个有空的午后。</p></div><form class="newsletter-form"><label class="sr-only" for="newsletter-email">你的邮箱地址</label><div class="newsletter-input"><input id="newsletter-email" name="email" type="email" required placeholder="你的邮箱地址" autocomplete="email" maxlength="254"><button type="submit" aria-label="提交订阅演示">{icon('arrow')}</button></div><p class="newsletter-status" aria-live="polite">本地订阅演示 · 不保存邮箱，不发送邮件</p></form></div></section>'''
+    page('index.html','品味 · 工艺 · 传奇',ABOUT,content,'home')
+
+def otherpages():
+    letters=''.join(f'<button type="button" data-letter="{x}" aria-pressed="false">{x}</button>' for x in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')
+    opts=''.join(f'<option value="{c["id"]}">{c["nameZh"]}</option>' for c in D['categories'])
+    content=f'''<div class="container">{crumbs([('品牌图鉴',None)],'')}{headsection('AN ATLAS OF THE HOUSES','品牌图鉴','从一间工坊开始，读懂一个名字的来处。','15')}<div class="filter-toolbar"><label>按品类 <select id="brand-category"><option value="all">全部品类</option>{opts}</select></label><label class="brand-query-label">查找品牌 <input id="brand-query" type="search" placeholder="品牌中文或外文名" aria-label="查找品牌"></label><span id="brand-count" aria-live="polite">15 个品牌</span></div><div class="alphabet" aria-label="品牌首字母筛选"><button type="button" data-letter="all" aria-pressed="true" class="selected">全部</button>{letters}</div><div id="brand-results" class="brand-grid">{''.join(brandcard(b) for b in sorted(D['brands'],key=lambda b:b['name']))}</div></div>'''
+    page('brands.html','品牌图鉴', '十五个经典品牌的来处、时间线、工艺符号与经典单品。',content,'brands')
+    content=f'''<div class="container">{crumbs([('站内搜索',None)],'')}{headsection('FOLLOW YOUR CURIOSITY','寻找一点灵感','一个名字、一种材质，或一份尚未说清的好奇。')}<form id="search-form" class="large-search" role="search"><label class="sr-only" for="search-query">搜索品牌、单品与文章</label><input id="search-query" name="q" type="search" placeholder="试试 Birkin、铂金、珍珠……" autocomplete="off" maxlength="100"><button class="button button-dark" type="submit">搜索 {icon('search')}</button></form><div class="popular-search"><span>从这里开始</span><a href="search.html?q=Birkin">Birkin</a><a href="search.html?q=四叶草">四叶草</a><a href="search.html?q=皮革">皮革</a><a href="search.html?q=礼物">礼物</a></div><div class="filter-toolbar search-filter"><div class="filter-chips" id="search-types"><button data-type="all" type="button" aria-pressed="true" class="selected">全部</button><button data-type="brand" type="button" aria-pressed="false">品牌</button><button data-type="item" type="button" aria-pressed="false">单品</button><button data-type="article" type="button" aria-pressed="false">文章</button></div><label>品类 <select id="search-category"><option value="all">全部</option>{opts}</select></label></div><p id="search-count" class="results-count" aria-live="polite">准备好，开始探索。</p><div id="search-results" class="search-results"></div><nav id="pagination" class="pagination" aria-label="搜索结果分页"></nav></div>'''
+    page('search.html','站内搜索','搜索品牌、经典单品与杂志文章，中英文均可检索。',content,'search')
+    sources=[]
+    for b in D['brands']:
+        sources.append((b['name']+' · 品牌与历史',b['source']))
+    sources += [('GIA · 珍珠类型','https://www.gia.edu/pearl-description'),('GIA · 珍珠养护','https://www.gia.edu/pearl-care-cleaning'),('Chanel · N°5 创作背景','https://www.chanel.com/us/fragrance/p/125430/n5-eau-de-parfum-spray/'),('Cartier · 经典珠宝设计','https://www.cartier.com/en-us/jewelry/cartier-jewelry/timeless-creations/iconic-designs/'),('Tiffany · 养护服务','https://www.tiffany.com/care-and-repair/')]
+    content=f'''<div class="container">{crumbs([('关于本站',None)],'')}<section class="about-opening"><p class="eyebrow">A JOURNAL, AN INVITATION</p><h1>好东西的故事，<br>值得慢慢讲<span class="rose-dot">。</span></h1><p>{ABOUT}</p><span class="about-mark">muse / a source of inspiration</span></section><div class="about-columns"><div class="about-statement"><span class="eyebrow">OUR POINT OF VIEW</span><h2>先了解，<br>再慢慢喜欢。</h2></div><article class="prose"><h2>为什么做这本小图鉴</h2><p>让我们好奇的，是一条缝线为什么这样走，一只手袋为什么长成这个轮廓，一枚小小的戒指又怎样装下一段时代的想法。价格与热度之外，材料、工艺和人的生活，也值得有一页自己的位置。</p><p>这里借鉴生活美学杂志的阅读节奏，以原创文字与概念插画，整理品牌、作品与日常知识。你可以从一个熟悉名字开始，也可以只是因为喜欢一条弧线，翻开下一页。</p><h2>我们怎样整理内容</h2><p>品牌历史尽量依据官方档案、品牌故事与公开年表；材料知识参考专业机构资料，并在文章后提供阅读入口。历史表述存在差异时保留必要说明，不把设计辨识线索当作真伪鉴定。</p><p>价格区间是帮助理解量级的编辑参考，涵盖的材质、尺寸与地区可能不同，不是实时报价或供应承诺。所有价格仅供参考，请以品牌专柜/官方渠道为准；不提供收益保证或转售承诺。</p><h2>关于插画与权利</h2><p>全站图像均由本项目用 SVG 绘制，表现概念、轮廓与气氛，不代表产品实际外观，不承担鉴定用途。品牌名称与产品名称的权利归各权利人所有。本站为独立的非商业内容项目，与所介绍品牌不存在授权或合作关系。</p><h2>让阅读保持轻松</h2><p>这里可以搜索、筛选和慢慢阅读。订阅区域是本地交互演示，不保存邮箱，也不真实发送邮件。离线时正文、插画与全部站内功能仍可使用；资料外链需要联网。</p><blockquote>我们相信，了解一只包背后的工时与一间工坊的历史，会让拥有或仰望都变得更有滋味。</blockquote></article></div><section id="sources" class="sources-section">{sectionhead('READING & REFERENCES','继续阅读 · 资料来源')}<p class="section-intro">整理于 2026 年 10 月 19 日。外部页面由相应品牌或机构维护；编辑建议与原始历史资料分开理解。</p><div class="source-grid">{''.join(f'<a href="{e(url)}" target="_blank" rel="noopener">{e(label)} <span>↗</span></a>' for label,url in sources)}</div></section></div>'''
+    page('about.html','关于 MuseLux','了解 MuseLux 的内容标准、图片来源与非商业定位。',content,'about')
+    content='''<section class="not-found container"><p class="eyebrow">A LITTLE DETOUR · 404</p><svg viewBox="0 0 300 210" width="300" height="210" role="img" aria-label="一只忘记带上故事的空手袋"><path d="M75 78h150l16 109H59L75 78Z" fill="#eee3d8" stroke="#a58b74" stroke-width="1.2"/><path d="M112 78V58a38 38 0 0 1 76 0v20" stroke="#a58b74" fill="none" stroke-width="2"/><path d="M90 103h120M150 103v31" stroke="#a58b74" fill="none"/><rect x="139" y="125" width="22" height="13" fill="#b08d57"/><path d="M238 33l8-13m-1 32 17-4M50 55 38 45" stroke="#c98a8e" stroke-width="1.5"/></svg><h1>这一页，暂时出门了。</h1><p>像一只找不到的梦中情包，<br>或许换个方向，就会遇见新的心动。</p><a class="button button-dark" href="index.html">回到首页 <span>⟶</span></a><a class="text-link" href="search.html">或者，找一点新灵感 ↗</a></section>'''
+    page('404.html','这一页，暂时出门了','页面未找到，回到 MuseLux 继续探索。',content,'404')
+
+def detailpages():
+    for c in D['categories']:
+        articles=[a for a in D['articles'] if a['category']==c['id']]
+        items=[i for i in D['items'] if i['category']==c['id']]
+        extra='<p class="category-extension">也留一点目光给鞋履与墨镜，让日常造型更完整。生活配件一并收录在下方词典。</p>' if c['id']=='jewelry' else ''
+        content=f'''<div class="container">{crumbs([(c['nameZh'],None)],'../')}{headsection(c['nameEn']+' / THE CATEGORY',c['nameZh'],c['note'],str(len(items)+len(articles)).zfill(2))}<div class="category-summary"><span>{len(articles)} 篇慢读文章</span><span>{len(items)} 个经典词条</span><span>一种好奇，无限种入口</span></div>{extra}<section class="category-editorials">{sectionhead('STORIES TO BEGIN WITH','从这里读起')}<div class="article-grid">{''.join(card(a,prefix='../') for a in articles)}</div></section><section class="section">{sectionhead('THE CLASSICS, EXPLAINED','经典单品词典')}<div class="article-grid">{''.join(card(i,'item','../') for i in items)}</div></section><section class="related-brand-strip"><h2>继续走近这些品牌</h2>{''.join(f'<a href="../brand/{b["id"]}.html">{e(b["name"])} ↗</a>' for b in D['brands'] if c['id'] in b['categories'])}</section></div>'''
+        page('cat/'+c['id']+'.html',c['nameZh']+'图鉴',c['note'],content,'category',c['id'])
+    for b in D['brands']:
+        classics=[I[k] for k in b['classicItems']]
+        related=[a for a in D['articles'] if a['category'] in b['categories']][:3]
+        content=f'''<div class="container">{crumbs([('品牌图鉴','../brands.html'),(b['name'],None)],'../')}<section class="brand-opening"><div><p class="eyebrow">THE HOUSE / {e(b['country'])} / EST. {b['founded']}</p><h1>{e(b['name'])}</h1><p class="brand-subtitle">{b['nameZh']} <span>—</span> {b['tagline']}</p></div><span class="brand-year">{b['founded']}</span></section><div class="brand-intro"><p>{e(b['intro'])}</p><div class="signature-box"><span class="eyebrow">A LANGUAGE OF ITS OWN</span><h2>一眼识得的细节</h2><div>{''.join(f'<span>{e(s)}</span>' for s in b['signatures'])}</div></div></div><section class="timeline-section">{sectionhead('A FEW CHAPTERS IN TIME','时间留下的几个节点')}<ol class="timeline">{''.join(f'<li><span>{t["year"]}</span><p>{e(t["event"])}</p></li>' for t in b['timeline'])}</ol><a class="source-link" href="{e(b['source'])}" target="_blank" rel="noopener">历史资料 · {e(b['name'])} 官方公开页面 ↗</a></section><section class="section">{sectionhead('ICONS OF THE HOUSE','经典，不止一个名字')}<div class="item-rail">{''.join(card(i,'item','../') for i in classics)}</div></section><section class="section">{sectionhead('KEEP READING','关于它，继续慢读')}<div class="article-grid">{''.join(card(a,prefix='../') for a in related)}</div></section></div>'''
+        page('brand/'+b['id']+'.html',b['name']+' '+b['nameZh'],b['tagline']+'。阅读品牌历史、工艺辨识元素与经典单品。',content,'brand',b['id'])
+    for x in D['items']:
+        b=B[x['brand']];c=C[x['category']]
+        itemSource=x.get('source',b['source'])
+        specs=[('品牌',b['name']+' · '+b['nameZh']),('诞生',str(x['born'])),('创作背景',x['designer']),('常见尺寸 / 形式',' / '.join(x['sizes'])),('常见材质 / 香调',' / '.join(x['materials']))]
+        detailNote={'bags':'看包不只看正面：也看看侧面体积、开口宽度与提手落点。尺寸名称是认识作品的起点，实际容量、触感与重量仍需结合具体款式。','necklace':'佩戴时，链长、吊坠比例与领口会共同改变观感。不同子系列与材质的养护方式各有要求，别只凭系列名想象所有细节。','jewelry':'留意环宽、开合结构与日常动作。不同子系列、戒围与镶嵌会影响佩戴感觉，具体刻印也会因时期和型号而变化。','watches':'参考编号决定具体机芯、材质与规格。阅读时把系列历史和具体型号分开；日常操作、防水与维护请依对应说明。','scarves':'同一图案有不同配色与尺寸，折叠后露出的部分也会改变表情。轻轻检查卷边，清洁与熨烫按具体洗护标签进行。','fragrance':'容量、浓度与演绎版本需要分别确认。香调是帮助描述气味的语言，不代表完整配方；先试闻，再观察与自己日常的相处。'}[x['category']]
+        if x.get('subtype')=='lifestyle':
+            detailNote='鞋履请留意尺码、脚背、后跟与鞋底；墨镜请留意镜框贴合、镜片说明与鼻托位置。不同适配版本的体验有差异，实际试穿或试戴比单独尺寸数字更具体。'
+        content=f'''<div class="container">{crumbs([(c['nameZh'],'../cat/'+c['id']+'.html'),(x['name'],None)],'../')}<section class="item-opening"><div class="item-visual"><img src="../assets/img/{x['id']}.svg" width="720" height="480" alt="{e(x['name']+' '+x['nameZh'])}的原创概念插画，非产品实物图"><span>ORIGINAL CONCEPT ILLUSTRATION · 非实物图</span></div><div class="item-heading"><a class="eyebrow rose-text" href="../brand/{b['id']}.html">{e(b['name'])} ↗</a><h1>{e(x['name'])}</h1><p class="item-zh">{x['nameZh']}</p><p class="item-definition">{x['oneLiner']}</p><a class="text-link" href="#item-story">读一读它的故事 ↓</a></div></section><div class="item-detail-grid"><article class="prose" id="item-story"><h2>它的故事</h2><p>{e(x['story'])}</p><h2>值得细看的地方</h2><ul>{''.join('<li>'+e(f)+'</li>' for f in x['facts'])}</ul><p>{detailNote}</p><h2>常见尺寸与材质</h2><p>{e('、'.join(x['sizes']))}；{e('、'.join(x['materials']))}。以上为常见形式与历史材质线索，不构成当前供应承诺。尺寸、材质、内衬、刻印与五金配置均以具体型号为准。</p><h2>参考价，读的是量级</h2><p class="price-range">{e(x['priceRange'])}</p><p>不同地区、尺寸、材质、年份和状态可能带来明显差异。本站不提供实时报价、交易或转售收益保证。</p><blockquote><span class="eyebrow">ONE LITTLE DETAIL</span><br>{e(x['facts'][0])}。一个细节，就是继续了解它的入口。</blockquote><p class="source-note">本页介绍设计语言，不提供真伪鉴定。<a href="{e(itemSource)}" target="_blank" rel="noopener">继续阅读品牌公开资料 ↗</a></p></article><aside class="spec-panel"><p class="eyebrow">THE QUICK NOTES</p><h2>单品速写</h2><dl>{''.join(f'<div><dt>{label}</dt><dd>{e(value)}</dd></div>' for label,value in specs)}</dl><a class="text-link" href="../brand/{b['id']}.html">走近 {e(b['name'])} ↗</a></aside></div><section class="section">{sectionhead('THE STORY CONTINUES','把好奇，再延伸一点')}<div class="article-grid">{''.join(card(A[k],prefix='../') for k in x['relatedArticles'][:3])}</div></section></div>'''
+        page('item/'+x['id']+'.html',x['name']+' '+x['nameZh'],x['oneLiner']+'了解来处、辨识细节、常见尺寸与材质。',content,'item',x['id'])
+    for x in D['articles']:
+        c=C[x['category']]
+        body=x['body']
+        headings=re.findall(r'<h2>(.*?)</h2>',body)
+        n=[0]
+        def heading(m):
+            n[0]+=1
+            return f'<h2 id="chapter-{n[0]}">{m[1]}</h2>'
+        body=re.sub(r'<h2>(.*?)</h2>',heading,body)
+        related=[a for a in D['articles'] if a['id']!=x['id'] and a['category']==x['category']]
+        related=(related+[a for a in D['articles'] if a['id']!=x['id'] and a not in related])[:3]
+        prev=D['articles'][(D['articles'].index(x)-1)%len(D['articles'])]
+        nxt=D['articles'][(D['articles'].index(x)+1)%len(D['articles'])]
+        content=f'''<div class="container">{crumbs([(c['nameZh'],'../cat/'+c['id']+'.html'),('慢读文章',None)],'../')}<header class="article-heading"><a class="tag" href="../cat/{c['id']}.html">{c['nameZh']}</a><p class="eyebrow">THE MUSELUX JOURNAL / VOL. 01</p><h1>{e(x['title'])}</h1><p>{e(x['excerpt'])}</p><div class="article-byline"><span class="author-monogram">m.</span><span>MuseLux 编辑部</span><time datetime="{x['date']}">2026.10.19</time><span>约 {x['readMins']} 分钟</span></div></header><figure class="article-cover"><img src="../{x['cover']}" width="1200" height="800" alt="{e(x['title'].split('｜')[0])}的原创概念插画"><figcaption>插画 / MUSELUX · 图像表达设计概念，不代表产品实物。</figcaption></figure><div class="reading-layout"><aside class="toc"><span class="eyebrow">IN THIS STORY</span><h2>这篇慢慢读</h2><nav aria-label="文章目录">{''.join(f'<a href="#chapter-{i+1}"><span>{i+1:02}</span>{e(h)}</a>' for i,h in enumerate(headings))}</nav><a class="toc-category" href="../cat/{c['id']}.html">探索更多{c['nameZh']}故事 ↗</a></aside><article class="prose article-body">{body}<div class="article-sources"><p class="eyebrow">READING NOTES</p><h2>资料与延伸阅读</h2><p>历史与材料资料见以下官方公开页面；搭配与选择建议为本站编辑整理。</p>{''.join(f'<a href="{e(url)}" target="_blank" rel="noopener">{e(__import__("urllib.parse",fromlist=["urlsplit"]).urlsplit(url).netloc)} · 延伸阅读 ↗</a>' for url in x['sources'])}<p>涉及价格时，仅供参考，请以品牌专柜/官方渠道为准。</p></div><nav class="article-pagination" aria-label="前后文章"><a href="{prev['id']}.html"><span>← 上一篇</span>{e(prev['title'].split('｜')[0])}</a><a href="{nxt['id']}.html"><span>下一篇 →</span>{e(nxt['title'].split('｜')[0])}</a></nav></article></div><section class="section">{sectionhead('ONE MORE BEAUTIFUL THING','还想慢慢读')}<div class="article-grid">{''.join(card(a,prefix='../') for a in related)}</div></section></div>'''
+        page('mag/'+x['id']+'.html',x['title'],x['excerpt'],content,'article',x['id'],x)
+
+def data_script():
+    raw=json.dumps(D,ensure_ascii=False,separators=(',',':')).encode()
+    packed=base64.b64encode(gzip.compress(raw,compresslevel=9,mtime=0)).decode()
+    # DecompressionStream is available in the target browsers. No fetch, imports,
+    # server or local-file CORS access is used. Pages are fully pre-rendered too.
+    script='''/* Canonical editable data: tools/content.json. Rebuild: python3 tools/generate.py. */
+window.MUSELUX_READY=(async function(){var b=atob("'''+packed+'''"),a=Uint8Array.from(b,function(c){return c.charCodeAt(0)}),s=new Blob([a]).stream().pipeThrough(new DecompressionStream("gzip"));window.MUSELUX_DATA=JSON.parse(await new Response(s).text());return window.MUSELUX_DATA})();
+'''
+    (ROOT/'assets/js/data.js').write_text(script)
+
+if __name__=='__main__':
+    data_script();home();otherpages();detailpages()
+    if SITE_URL:
+        sitemap='<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+e(SITE_URL+('' if p=='index.html' else p))+'</loc></url>' for p in pages if p not in ['404.html','search.html'])+'</urlset>'
+        (ROOT/'sitemap.xml').write_text(sitemap+'\n')
+    (ROOT/'reports/page-manifest.json').write_text(json.dumps(pages,ensure_ascii=False,indent=2)+'\n')
+    print('Generated',len(pages),'pages; data.js', (ROOT/'assets/js/data.js').stat().st_size,'bytes')

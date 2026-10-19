@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "pages": 66,
+  "brands": 15,
+  "items": 28,
+  "articles": 12,
+  "categories": 6,
+  "svgAssets": 42,
+  "runtimeJavaScriptBytes": 56603,
+  "articleChineseCharacters": {
+    "mag-01": 972,
+    "mag-02": 915,
+    "mag-03": 937,
+    "mag-04": 977,
+    "mag-05": 999,
+    "mag-06": 964,
+    "mag-07": 882,
+    "mag-08": 991,
+    "mag-09": 1008,
+    "mag-10": 980,
+    "mag-11": 990,
+    "mag-12": 977
+  },
+  "issues": []
+}
