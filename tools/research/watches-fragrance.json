@@ -1,0 +1,383 @@
+{
+  "categoryNotes": {
+    "watches": "A watch can carry an outfit through its proportions alone. Explore four precise references, from the compact Tank rectangle to the curved Cape Cod frame, with the selected materials, movement and U.S. price attached to each.",
+    "fragrance": "Build a fragrance wardrobe by mood, from white flowers and floral amber to dry woods and citrus. These four bottles identify the exact concentration and size, with original editorial guidance and a U.S. retail reference."
+  },
+  "products": [
+    {
+      "id": "cartier-tank-must-small-wsta0135",
+      "brand": "cartier",
+      "category": "watches",
+      "name": "Tank Must de Cartier, Small, Steel and Black Calfskin",
+      "nameZh": "卡地亚 Tank Must 小号精钢黑色小牛皮腕表 WSTA0135",
+      "parentItem": "tank",
+      "reference": "WSTA0135",
+      "color": "Silvered dial / black strap",
+      "sizes": [
+        "29.5 × 22 mm case",
+        "6.6 mm thickness"
+      ],
+      "materials": [
+        "Steel case and buckle",
+        "Grained calfskin strap",
+        "Blued-steel hands",
+        "Synthetic spinel crown stone"
+      ],
+      "priceUSD": 3750,
+      "priceStatus": "live",
+      "priceEvidence": "Live official U.S. product HTML: Product JSON-LD SKU CRWSTA0135 has offers.price 3750.00 and priceCurrency USD. The product description specifies the small steel watch with black grained calfskin strap.",
+      "source": "https://www.cartier.com/en-us/watches/collections/tank/tank-must-de-cartier-watch-CRWSTA0135.html",
+      "image": "assets/img/products/watches-cartier-tank-crwsta0135.jpg",
+      "imageWidth": 750,
+      "imageHeight": 750,
+      "introEn": "The small Tank Must gives a tailored wardrobe a quiet point of focus. Its narrow steel frame, silvered dial and blue hands create enough contrast to read as jewelry without needing a large case. On this reference, black grained calfskin keeps the silhouette crisp and familiar. The appeal is in proportion: a compact rectangle that sits comfortably within the visual language of a shirt cuff, a fine knit or a simple evening sleeve. Choose it for its line and restraint.",
+      "featuresEn": [
+        "Small rectangular steel case measuring 29.5 × 22 mm.",
+        "High Autonomy quartz movement with blued-steel sword hands.",
+        "Black grained calfskin strap secured by a steel pin buckle."
+      ],
+      "stylingEn": "Wear it with a white shirt and charcoal trousers, leaving the wrist free of bulky bracelets. A close, comfortable strap fit helps the small case look deliberate with relaxed clothing.",
+      "born": 1917,
+      "designer": "Louis Cartier (Tank family)",
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "imageSource": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw69a3a317/images/large/401b3628e15a551bbd56c247eb73da86.png?sw=750&sh=750&sm=fit&sfrm=png",
+      "imageCredit": "© Cartier, official product imagery",
+      "imageRightsNote": "Official product image supplied on the brand’s public product page. No open reuse license or redistribution grant was identified; copyright remains with the rights holder.",
+      "imageMime": "image/jpeg",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "productLimitations": [],
+      "introWordCount": 80,
+      "stylingWordCount": 30
+    },
+    {
+      "id": "cartier-santos-medium-wssa0029",
+      "brand": "cartier",
+      "category": "watches",
+      "name": "Santos de Cartier, Medium, Steel, Silvered Opaline Dial",
+      "nameZh": "卡地亚 Santos 中号精钢银色乳白表盘腕表 WSSA0029",
+      "parentItem": null,
+      "reference": "WSSA0029",
+      "color": "Silvered opaline dial / steel bracelet",
+      "sizes": [
+        "35.1 mm case width"
+      ],
+      "materials": [
+        "Steel case and bracelet",
+        "Calfskin alternative strap",
+        "Sapphire crystal",
+        "Synthetic spinel crown stone"
+      ],
+      "priceUSD": 8400,
+      "priceStatus": "live",
+      "priceEvidence": "Live official U.S. product HTML: Product JSON-LD SKU CRWSSA0029 lists offers.price 8400.00, priceCurrency USD. Product text identifies the medium automatic steel watch, 35.1 mm case width, with metal bracelet and second calfskin bracelet.",
+      "source": "https://www.cartier.com/en-us/watches/collections/santos-de-cartier/santos-de-cartier-watch-CRWSSA0029.html",
+      "image": "assets/img/products/watches-cartier-santos-crwssa0029.jpg",
+      "imageWidth": 750,
+      "imageHeight": 750,
+      "introEn": "The medium Santos makes a strong case for a watch as part of the outfit. Visible screws and a square bezel give the steel bracelet an architectural rhythm, while the pale Roman numeral dial brings a dressier counterpoint. This reference keeps the case width to 35.1 mm and pairs an automatic movement with interchangeable bracelet options. It feels visually assured beside tailoring, but the brushed metal also works with denim. The interest comes from the balance of hard edges and rounded corners.",
+      "featuresEn": [
+        "Automatic manufacture movement, caliber 1847 MC.",
+        "35.1 mm steel case with a silvered opaline dial and sapphire crystal.",
+        "SmartLink steel bracelet plus a calfskin alternative, using QuickSwitch."
+      ],
+      "stylingEn": "Pair the steel bracelet with an open collar and straight jeans, or let it peek from a blazer cuff. Keep nearby jewelry simple so the bezel and bracelet remain legible.",
+      "born": 1904,
+      "designer": "Louis Cartier (Santos family)",
+      "productLimitations": [
+        "The source gives case thickness as 8.83 mm in descriptive text and 8.82 mm in its technical panel; thickness is omitted here rather than choosing between conflicting fields."
+      ],
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "imageSource": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwf0220830/images/large/b66edd509d8d5796a5828ef84e9d3586.png?sw=750&sh=750&sm=fit&sfrm=png",
+      "imageCredit": "© Cartier, official product imagery",
+      "imageRightsNote": "Official product image supplied on the brand’s public product page. No open reuse license or redistribution grant was identified; copyright remains with the rights holder.",
+      "imageMime": "image/jpeg",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "introWordCount": 82,
+      "stylingWordCount": 30
+    },
+    {
+      "id": "hermes-cape-cod-41-etoupe-w044350ww00",
+      "brand": "hermes",
+      "category": "watches",
+      "name": "Cape Cod Watch, 41 mm, Steel and Étoupe Swift Calfskin",
+      "nameZh": "爱马仕 Cape Cod 41毫米精钢大象灰 Swift 小牛皮腕表 W044350WW00",
+      "parentItem": null,
+      "reference": "W044350WW00",
+      "color": "Opaline silvered dial / étoupe strap",
+      "sizes": [
+        "41 mm lug-to-lug height",
+        "33 mm case width"
+      ],
+      "materials": [
+        "Steel case and pin buckle",
+        "Swift calfskin strap",
+        "Anti-glare sapphire crystal"
+      ],
+      "priceUSD": 4150,
+      "priceStatus": "official-snapshot",
+      "priceEvidence": "Official U.S. product page returned by Web open displays $4,150 with Extra Large and Étoupe selected, reference W044350WW00; its details give 41 mm lug-to-lug height and 33 mm width.",
+      "sourceSnapshotNote": "Official U.S. page snapshot accessed on 2026-10-19; the retrieval source reported “Crawled: last week”. Direct static HTML access returned HTTP 403. Price has not been confirmed at checkout.",
+      "source": "https://www.hermes.com/us/en/product/cape-cod-watch-41mm-W044350WW00/",
+      "image": "assets/img/products/watches-hermes-cape-cod-w044350ww00.jpg",
+      "imageWidth": 800,
+      "imageHeight": 800,
+      "introEn": "Cape Cod softens a rectangular watch with curved steel outlines and gently drawn numerals. The étoupe strap makes the contrast especially easy to place in a wardrobe of stone, cream and brown. This 41 mm version uses an opaline silvered dial, a date window and a single leather strap, giving the design a more expansive presence than its smaller relatives. Henri d’Origny’s original family dates to 1991; here, the pleasure is still the unusual frame and the warmth of visible leather grain.",
+      "featuresEn": [
+        "Steel case measures 41 mm from lug to lug and 33 mm across.",
+        "Swiss quartz movement displays hours, minutes, seconds and date.",
+        "Étoupe Swift calfskin single-tour strap with a steel pin buckle."
+      ],
+      "stylingEn": "Try it beside a camel overshirt or an oatmeal knit, where the taupe strap can echo the clothing. Follow Hermès’ instruction to keep the leather watch away from water.",
+      "born": 1991,
+      "designer": "Henri d’Origny",
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "imageSource": "https://assets.hermes.com/is/image/hermesproduct/cape-cod-watch-41mm--044350WW00-front-1-300-0-800-800_g.jpg",
+      "imageCredit": "© Hermès, official product imagery",
+      "imageRightsNote": "Official product image supplied on the brand’s public product page. No open reuse license or redistribution grant was identified; copyright remains with the rights holder.",
+      "imageMime": "image/jpeg",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "productLimitations": [],
+      "introWordCount": 82,
+      "stylingWordCount": 29
+    },
+    {
+      "id": "hermes-heure-h-medium-etoupe-w404223ww00",
+      "brand": "hermes",
+      "category": "watches",
+      "name": "Heure H Watch, Medium, 30 mm, Steel and Étoupe Swift Calfskin",
+      "nameZh": "爱马仕 Heure H H字腕表中号30毫米大象灰小牛皮 W404223WW00",
+      "parentItem": null,
+      "reference": "W404223WW00",
+      "color": "Opaline silvered dial / étoupe strap",
+      "sizes": [
+        "30 mm lug-to-lug height",
+        "26 mm case width"
+      ],
+      "materials": [
+        "Steel case and pin buckle",
+        "Swift calfskin strap",
+        "Anti-glare sapphire crystal"
+      ],
+      "priceUSD": 4000,
+      "priceStatus": "official-snapshot",
+      "priceEvidence": "Official U.S. product page returned by Web open displays $4,000 with Medium and Étoupe selected, reference W404223WW00; it specifies a steel case, quartz movement and Swift calfskin strap.",
+      "sourceSnapshotNote": "Official U.S. page snapshot accessed on 2026-10-19; the retrieval source reported “Crawled: last week”. Price has not been confirmed through live raw HTML or checkout.",
+      "source": "https://www.hermes.com/us/en/product/heure-h-watch-medium-model-30mm-W404223WW00/",
+      "image": "assets/img/products/watches-hermes-heure-h-w404223ww00.jpg",
+      "imageWidth": 800,
+      "imageHeight": 800,
+      "introEn": "Heure H turns an initial into a wearable frame. The case carries the graphic idea, leaving the silvered dial and two hands to do very little else. In steel with an étoupe Swift calfskin strap, this medium version feels more like a considered accessory than an oversized statement. Philippe Mouquet designed the family in 1996, and the letter remains its clearest signature. Look closely at the open ends of the H: they give the otherwise simple rectangle a distinctly playful outline.",
+      "featuresEn": [
+        "Medium steel case: 30 mm lug-to-lug height and 26 mm width.",
+        "Swiss quartz movement displays hours and minutes.",
+        "Opaline silvered dial with a rhodium-plated raised frame."
+      ],
+      "stylingEn": "Use it as a small graphic accent with a cream blouse, a sleeveless dress or a fine cardigan. The neutral leather is easy to repeat in a belt or shoes.",
+      "born": 1996,
+      "designer": "Philippe Mouquet",
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "imageSource": "https://assets.hermes.com/is/image/hermesproduct/heure-h-watch-medium-model-30mm--404223WW00-front-wm-1-0-0-800-800_g.jpg",
+      "imageCredit": "© Hermès, official product imagery",
+      "imageRightsNote": "Official product image supplied on the brand’s public product page. No open reuse license or redistribution grant was identified; copyright remains with the rights holder.",
+      "imageMime": "image/jpeg",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "productLimitations": [],
+      "introWordCount": 81,
+      "stylingWordCount": 30
+    },
+    {
+      "id": "dior-jadore-edp-100ml-c099800246",
+      "brand": "dior",
+      "category": "fragrance",
+      "name": "J’adore Eau de Parfum, 100 ml / 3.4 oz",
+      "nameZh": "迪奥真我香水浓香水100毫升 J’adore EDP",
+      "parentItem": null,
+      "reference": "C099800246",
+      "color": "Golden fragrance / clear amphora bottle",
+      "sizes": [
+        "100 ml / 3.4 oz"
+      ],
+      "materials": [
+        "Eau de Parfum",
+        "Ylang-ylang, Damascus rose and jasmine notes"
+      ],
+      "priceUSD": 185,
+      "priceStatus": "live",
+      "priceEvidence": "Live Dior U.S. HTML ProductGroup JSON-LD has variant SKU C099800246, size 100_00_ml, offers.price 185 and priceCurrency USD. The visible selected size is 3.4 oz at $185.00.",
+      "source": "https://www.dior.com/en_us/beauty/products/j%E2%80%99adore-eau-de-parfum-Y0998031.html",
+      "image": "assets/img/products/fragrance-dior-jadore-edp-100ml.jpg",
+      "imageWidth": 1800,
+      "imageHeight": 1200,
+      "introEn": "J’adore suits a fragrance wardrobe built around flowers rather than a single signature note. The Eau de Parfum brings ylang-ylang, rose and two jasmine varieties into one bouquet, while its rounded amphora bottle supplies the visual drama. This is the 100 ml spray, with the tall gold-toned neck shown in the current official photograph. Consider it alongside silk, a fluid dress or a beautifully cut shirt: clothing that lets a floral scent become part of the overall mood.",
+      "featuresEn": [
+        "Eau de Parfum spray in the 100 ml / 3.4 oz size.",
+        "Declared floral notes include ylang-ylang and Damascus rose.",
+        "The composition pairs jasmine grandiflorum with jasmine sambac."
+      ],
+      "stylingEn": "Sample the Eau de Parfum on skin before choosing a full bottle, then revisit it later in the day. Let the bouquet complement an occasion without assuming a fixed wear time.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "imageSource": "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dwe7f532f9/Y0998031/Y0998031_C099800246_E01_ZHC.jpg?sw=1800",
+      "imageCredit": "© Dior, official product imagery",
+      "imageRightsNote": "Official product image supplied on the brand’s public product page. No open reuse license or redistribution grant was identified; copyright remains with the rights holder.",
+      "imageMime": "image/jpeg",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "productLimitations": [
+        "Named notes and accords describe the brand’s scent profile, not the complete formula; projection and wear time were not tested."
+      ],
+      "introWordCount": 78,
+      "stylingWordCount": 31
+    },
+    {
+      "id": "gucci-bloom-edp-100ml-488830",
+      "brand": "gucci",
+      "category": "fragrance",
+      "name": "Gucci Bloom Eau de Parfum, 100 ml",
+      "nameZh": "古驰繁花香水浓香水100毫升 Gucci Bloom EDP",
+      "parentItem": null,
+      "reference": "488830 99999 0099",
+      "color": "Powder-pink lacquered bottle",
+      "sizes": [
+        "100 ml"
+      ],
+      "materials": [
+        "Eau de Parfum",
+        "Tuberose, jasmine and Rangoon creeper notes"
+      ],
+      "priceUSD": 168,
+      "priceStatus": "live",
+      "priceEvidence": "Live Gucci U.S. product HTML and Product JSON-LD identify SKU 488830999990099, 100ml eau de parfum, offers.price 168.0 and priceCurrency usd. The visible product price is $168.",
+      "source": "https://www.gucci.com/us/en/pr/beauty/fragrances/fragrances-for-women/gucci-bloom-100ml-eau-de-parfum-p-488830999990099",
+      "image": "assets/img/products/fragrance-gucci-bloom-100ml.jpg",
+      "imageWidth": 490,
+      "imageHeight": 490,
+      "introEn": "Gucci Bloom offers a useful starting point for someone drawn to white flowers. Alberto Morillas built the Eau de Parfum around tuberose, jasmine and Rangoon creeper, while the powder-pink bottle makes a softer visual statement than a cut-crystal flacon. This 100 ml edition keeps the presentation simple: straight sides, a plain cap and a framed label. In a personal collection, it can occupy the floral corner without demanding that the rest of the wardrobe become romantic or ornate.",
+      "featuresEn": [
+        "100 ml Eau de Parfum, style 488830 99999 0099.",
+        "Perfumer Alberto Morillas is credited by Gucci.",
+        "Named notes center on tuberose, jasmine and Rangoon creeper."
+      ],
+      "stylingEn": "Try it with a cotton shirt, a simple dress or clean denim. Test a small amount first so you can judge how its floral character develops on your own skin.",
+      "born": "Contemporary collection",
+      "designer": "Alberto Morillas",
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "imageSource": "https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1545327905/488830_99999_0099_001_100_0000_Light-gucci-bloom-100ml-eau-de-parfum.jpg",
+      "imageCredit": "© Gucci, official product imagery",
+      "imageRightsNote": "Official product image supplied on the brand’s public product page. No open reuse license or redistribution grant was identified; copyright remains with the rights holder.",
+      "imageMime": "image/jpeg",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "productLimitations": [
+        "Named notes and accords describe the brand’s scent profile, not the complete formula; projection and wear time were not tested."
+      ],
+      "introWordCount": 78,
+      "stylingWordCount": 30
+    },
+    {
+      "id": "prada-paradoxe-edp-90ml-1a1351",
+      "brand": "prada",
+      "category": "fragrance",
+      "name": "Prada Paradoxe Eau de Parfum, 90 ml",
+      "nameZh": "普拉达我本莫测香水浓香水90毫升 Prada Paradoxe EDP",
+      "parentItem": null,
+      "reference": "1A1351_2HDZ_F0Z99_P_ML090",
+      "color": "Pink fragrance / triangular clear bottle",
+      "sizes": [
+        "90 ml"
+      ],
+      "materials": [
+        "Eau de Parfum",
+        "Neroli, amber and white musk accords"
+      ],
+      "priceUSD": 185,
+      "priceStatus": "live",
+      "priceEvidence": "Live Prada United States product page displays $185 for Paradoxe EDP 90 ml, code 1A1351_2HDZ_F0Z99_P_ML090. Its Product JSON-LD gives the same SKU and offers.price 185; the page is the U.S. storefront.",
+      "source": "https://www.prada.com/us/en/p/paradoxe-edp-90-ml/1A1351_2HDZ_F0Z99_P_ML090",
+      "image": "assets/img/products/fragrance-prada-paradoxe-90ml.jpg",
+      "imageWidth": 600,
+      "imageHeight": 750,
+      "introEn": "Paradoxe translates Prada’s triangular emblem into a bottle that rests on its side, with pink liquid and a firm black cap setting up an appealing contrast. The Eau de Parfum follows a floral amber direction: citrus and pear notes lead toward neroli and jasmine, with amber, vanilla and musk in the base. This is the 90 ml bottle shown by Prada’s U.S. store. Its visual character makes sense beside clean tailoring, a structured bag or a sharply chosen piece of color.",
+      "featuresEn": [
+        "90 ml Eau de Parfum, code 1A1351_2HDZ_F0Z99_P_ML090.",
+        "The heart includes neroli, orange blossom and jasmine sambac.",
+        "The base lists amber, benzoin, vanilla and white musk accords."
+      ],
+      "stylingEn": "Make it part of a personal dressing ritual with crisp separates or a simple black dress. Compare it on skin with your other fragrances before deciding on the larger bottle.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "imageSource": "https://www.prada.com/content/dam/pradabkg_products/1/1A1/1A1351/2HDZF0Z99/1A1351_2HDZ_F0Z99_P_ML090_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.600.600.jpg",
+      "imageCredit": "© Prada, official product imagery",
+      "imageRightsNote": "Official product image supplied on the brand’s public product page. No open reuse license or redistribution grant was identified; copyright remains with the rights holder.",
+      "imageMime": "image/jpeg",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "productLimitations": [
+        "Named notes and accords describe the brand’s scent profile, not the complete formula; projection and wear time were not tested."
+      ],
+      "introWordCount": 81,
+      "stylingWordCount": 30
+    },
+    {
+      "id": "hermes-terre-edt-338oz-v107188v0",
+      "brand": "hermes",
+      "category": "fragrance",
+      "name": "Terre d’Hermès Eau de Toilette, 3.38 fl oz",
+      "nameZh": "爱马仕大地淡香水3.38盎司 Terre d’Hermès EDT",
+      "parentItem": null,
+      "reference": "V107188V0",
+      "color": "Amber fragrance / clear bottle with black cap",
+      "sizes": [
+        "3.38 fl oz"
+      ],
+      "materials": [
+        "Eau de Toilette",
+        "Grapefruit, cedar and flint notes"
+      ],
+      "priceUSD": 145,
+      "priceStatus": "official-snapshot",
+      "priceEvidence": "Official Hermès U.S. product page returned by Web open displays $145, 3.38 fl.oz selected, and reference V107188V0. The page identifies the concentration as Eau de toilette.",
+      "sourceSnapshotNote": "Official U.S. page snapshot accessed on 2026-10-19; the retrieval source reported “Crawled: today”. Price has not been confirmed through live raw HTML or checkout.",
+      "source": "https://www.hermes.com/us/en/product/terre-d-hermes-eau-de-toilette-V107188V0/",
+      "image": "assets/img/products/fragrance-hermes-terre-edt-v107188v0.jpg",
+      "imageWidth": 800,
+      "imageHeight": 800,
+      "introEn": "Terre d’Hermès brings a drier direction to a fragrance collection. The original Eau de Toilette, created by Jean-Claude Ellena in 2006, places grapefruit beside cedar and a flinty mineral note. Its clear rectangular bottle, dark cap and orange detail have a directness that suits the scent’s stated woody character. This entry follows the 3.38 fl oz U.S. bottle. Think of it as a companion to textured fabrics and simple shapes, especially when a floral composition is not the mood you want.",
+      "featuresEn": [
+        "Eau de Toilette in the selected 3.38 fl oz size.",
+        "Jean-Claude Ellena created the fragrance in 2006.",
+        "Hermès names grapefruit, cedar and flint as its main notes."
+      ],
+      "stylingEn": "Try it with a linen shirt, a wool jacket or understated weekend layers. Give a skin sample time to develop before judging its balance; individual wear varies.",
+      "born": 2006,
+      "designer": "Jean-Claude Ellena (fragrance); Philippe Mouquet (bottle)",
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "imageSource": "https://assets.hermes.com/is/image/hermesproduct/terre-d-hermes-eau-de-toilette--107188V0-worn-2-0-0-800-800_g.jpg",
+      "imageCredit": "© Hermès, official product imagery",
+      "imageRightsNote": "Official product image supplied on the brand’s public product page. No open reuse license or redistribution grant was identified; copyright remains with the rights holder.",
+      "imageMime": "image/jpeg",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "productLimitations": [
+        "Named notes and accords describe the brand’s scent profile, not the complete formula; projection and wear time were not tested."
+      ],
+      "introWordCount": 81,
+      "stylingWordCount": 27
+    }
+  ],
+  "verificationLimitations": [
+    "Checked on 2026-10-19. Cartier, Dior, Gucci and Prada prices were read from live official U.S. product HTML; three Hermès prices rely on official-page snapshots with the crawl recency stated per item. No prices were converted from another currency.",
+    "The live Cartier product prices supersede older official collection/search snapshots: WSTA0135 is $3,750 in live JSON-LD versus $3,600 in cached collection text; WSSA0029 is $8,400 live versus $7,750 in cached collection text.",
+    "Chanel N°5 Eau de Parfum 3.4 fl oz was considered at an official U.S. page price of $190 but omitted because exact official photo URLs could not be obtained through the allowed static route. U.S. and Singapore HTML requests returned HTTP 403; no browser or access-control workaround was used.",
+    "All eight images were downloaded from observed official product-page image URLs and visually inspected against their named references. They are existing brand photographs, with no AI recreation or appearance editing. The two Cartier endpoints returned JPEG bytes despite PNG URLs; local file extensions correctly use .jpg.",
+    "These are retail references before tax, not checkout quotes, inventory guarantees or resale estimates. Perfume impressions and styling are editorial suggestions; no wear-time, durability or accuracy tests were performed.",
+    "Public availability of an image does not establish a reuse license. Rights-holder attribution and the absence of an identified open license are recorded for every product; no permission to redistribute is asserted.",
+    "Browser tabs opened: 0. No CDP, Playwright or CUA was used."
+  ]
+}

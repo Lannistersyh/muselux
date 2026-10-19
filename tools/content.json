@@ -5,42 +5,48 @@
       "nameZh": "包包",
       "nameEn": "BAGS",
       "blurb": "从马鞍工坊，到日常相伴",
-      "note": "读懂轮廓、皮革与一只包的来处。"
+      "note": "读懂轮廓、皮革与一只包的来处。",
+      "editIntro": "Four distinct approaches to the everyday handbag: sculpted quilting, a slim canvas shoulder bag, a compact leather tote and an archival jacquard silhouette. Compare the exact photographed variants, their proportions and their U.S. retail references."
     },
     {
       "id": "necklace",
       "nameZh": "项链",
       "nameEn": "NECKLACES",
       "blurb": "锁骨之间的一点心意",
-      "note": "一条细链，也有自己的设计语言。"
+      "note": "一条细链，也有自己的设计语言。",
+      "editIntro": "A neckline changes the way a pendant is read. Explore four distinct approaches to the line, circle and small sculptural volume, with exact material references and U.S. retail prices beside the official product imagery."
     },
     {
       "id": "jewelry",
       "nameZh": "首饰",
       "nameEn": "JEWELRY",
       "blurb": "把小小的光，戴在身上",
-      "note": "从金属到宝石，认识贴近日常的光。"
+      "note": "从金属到宝石，认识贴近日常的光。",
+      "editIntro": "Look closely at the shapes that meet the hand and wrist: interlocking circles, repeating links, a coiled outline and quilted gold. These selected variants make proportion and surface easy to compare."
     },
     {
       "id": "watches",
       "nameZh": "腕表",
       "nameEn": "WATCHES",
       "blurb": "让时间，有自己的形状",
-      "note": "在机芯之外，读见时间的审美。"
+      "note": "在机芯之外，读见时间的审美。",
+      "editIntro": "A watch can carry an outfit through its proportions alone. Explore four precise references, from the compact Tank rectangle to the curved Cape Cod frame, with the selected materials, movement and U.S. price attached to each."
     },
     {
       "id": "scarves",
       "nameZh": "丝巾",
       "nameEn": "SCARVES",
       "blurb": "一方丝绸，无限种表情",
-      "note": "系起一个结，打开颜色与图案的故事。"
+      "note": "系起一个结，打开颜色与图案的故事。",
+      "editIntro": "From an illustrated silk square to a slender printed ribbon, these scarves show how scale changes the way a pattern is worn. Explore four photographed designs, with materials, dimensions and styling ideas for each exact variant."
     },
     {
       "id": "fragrance",
       "nameZh": "香水",
       "nameEn": "FRAGRANCE",
       "blurb": "为记忆，留一点气息",
-      "note": "从第一张试香纸，慢慢找到自己的气味。"
+      "note": "从第一张试香纸，慢慢找到自己的气味。",
+      "editIntro": "Build a fragrance wardrobe by mood, from white flowers and floral amber to dry woods and citrus. These four bottles identify the exact concentration and size, with original editorial guidance and a U.S. retail reference."
     }
   ],
   "brands": [
@@ -53,7 +59,8 @@
       "categories": [
         "bags",
         "scarves",
-        "watches"
+        "watches",
+        "fragrance"
       ],
       "tagline": "从一针马鞍缝线，读懂时间",
       "intro": "认识爱马仕，可以先暂时放下橙色盒子，看看一副马具。蒂埃利·爱马仕在巴黎开设工坊时，面对的是骑乘与旅行的实际需求：皮革要结实，缝线要可靠，形状也要顺手。这种从用途出发的思路，后来走进包袋、丝巾与日常物件。我们熟悉的双提手、搭带和手工卷边，都是这段历史的不同回声。读它的作品，除了款名与颜色，也值得看看材料怎样弯折、线迹怎样收尾。品牌的吸引力，常常就在这些安静的细节里。",
@@ -91,6 +98,10 @@
       ],
       "source": "https://www.hermes.com/uk/en/content/235056-six-generations-of-artisans/",
       "classicItems": [
+        "hermes-terre-edt-338oz-v107188v0",
+        "hermes-heure-h-medium-etoupe-w404223ww00",
+        "hermes-cape-cod-41-etoupe-w044350ww00",
+        "hermes-please-hold-line-90-blue-us",
         "birkin",
         "kelly",
         "carre90"
@@ -106,7 +117,8 @@
         "bags",
         "jewelry",
         "fragrance",
-        "watches"
+        "watches",
+        "necklace"
       ],
       "tagline": "把自由，缝进日常的轮廓",
       "intro": "一只可以解放双手的肩包，一瓶不直接模仿单朵花的香水，一块轻盈的斜纹软呢：香奈儿的故事，常常从改变穿戴方式开始。嘉柏丽尔·香奈儿最初经营女帽，随后把对身体活动的关注带进服装与配饰。菱格纹、链条与山茶花成为熟悉的符号，却不必同时出现，才能让人认出这种语言。读经典翻盖包时，可以先比较包扣、肩链与比例；看珠宝时，则试着观察弧线怎样贴近手指。与其把所有作品归为一种气质，不如看看它怎样在不同年代重新表达轻松与独立。",
@@ -144,6 +156,8 @@
       ],
       "source": "https://www.chanel.com/us/about-chanel/the-house-of-chanel/",
       "classicItems": [
+        "chanel-coco-crush-ring-mini-beige-gold-j11785",
+        "chanel-coco-crush-necklace-small-beige-gold-j12306",
         "chanel-255",
         "classic-flap",
         "boy",
@@ -207,7 +221,8 @@
       "founded": 1946,
       "categories": [
         "bags",
-        "fragrance"
+        "fragrance",
+        "scarves"
       ],
       "tagline": "从高定沙龙，走来的建筑感",
       "intro": "迪奥让人想到的，往往先是一道腰线，再是一只端正的小手袋。克里斯汀·迪奥在蒙田大道建立时装屋，首场发布所呈现的轮廓，后来被称为 New Look。品牌把服装里的结构与装饰感，继续带进包袋与香水。Lady Dior 的藤格纹、弧形提手和字母吊饰，看似轻巧，却能让人联想到沙龙座椅与建筑的秩序。认识它，可以从正面看轮廓，再从侧面看体积，最后留意不同皮革怎样改变光泽。比起只记住某一季颜色，这些细节更能解释，为什么同一种形状可以有那么多不同表情。",
@@ -245,6 +260,9 @@
       ],
       "source": "https://www.dior.com/en_si/fashion/bags/iconic-lady-dior",
       "classicItems": [
+        "dior-jadore-edp-100ml-c099800246",
+        "dior-oblique-mitzah-navy-us",
+        "dior-small-lady-dior-black-us",
         "lady-dior"
       ]
     },
@@ -257,7 +275,8 @@
       "categories": [
         "bags",
         "scarves",
-        "jewelry"
+        "jewelry",
+        "fragrance"
       ],
       "tagline": "在马衔扣与竹节间，读意式想象",
       "intro": "古驰的设计语言像一本有颜色的旅行笔记：马衔扣、竹节提手、织带与花卉图案，来自不同年代，也会在新作品里相遇。品牌由古驰奥·古驰在佛罗伦萨创立，早期皮具与旅行用品的背景，让实用结构始终藏在装饰背后。Jackie 的弧形袋身看起来随意，扣件却有清楚的节奏；Flora 图案则把一块丝绸变成可以随身带走的花园。阅读这个品牌，不必一次记全所有符号。选一个自己喜欢的细节，看看它从哪里来，又怎样在不同材质上改变性格，已经是一条很有趣的入门路线。",
@@ -295,6 +314,9 @@
       ],
       "source": "https://www.gucci.com/ca/en/nst/history-of-gucci",
       "classicItems": [
+        "gucci-bloom-edp-100ml-488830",
+        "gucci-flora-silk-carre-pink-us",
+        "gucci-jackie-small-black-gg-us",
         "jackie",
         "horsebit-loafer"
       ]
@@ -306,7 +328,9 @@
       "country": "意大利",
       "founded": 1913,
       "categories": [
-        "bags"
+        "bags",
+        "scarves",
+        "fragrance"
       ],
       "tagline": "把理性，做成可以触摸的美",
       "intro": "普拉达的魅力，常常在看似矛盾的地方：轻巧的尼龙与端正的皮包，利落的几何轮廓与不那么讨好的颜色。品牌起点是米兰拱廊中的皮具店，后来在缪西娅·普拉达的创作中，把功能性材料带入时装讨论。Galleria 的分层结构与 Saffiano 纹理，呈现了另一种日常秩序。认识它，可以先问一个实际问题：东西放进去以后，好不好拿？再看看提手、拉链和包底怎样把答案组织起来。这里的美感不总是立刻温柔，却能在反复使用与细看之后，让人发现比例、触感和观念之间细密的联系。",
@@ -344,6 +368,9 @@
       ],
       "source": "https://www.pradagroup.com/en/group/history.html",
       "classicItems": [
+        "prada-paradoxe-edp-90ml-1a1351",
+        "prada-triangle-silk-scarf-55-alabaster-us",
+        "prada-galleria-small-black-leather-us",
         "galleria"
       ]
     },
@@ -492,6 +519,10 @@
       ],
       "source": "https://www.cartier.com/en-us/our-style.html",
       "classicItems": [
+        "cartier-santos-medium-wssa0029",
+        "cartier-tank-must-small-wsta0135",
+        "cartier-trinity-classic-ring-size53-b4234253",
+        "cartier-love-pendant-yellow-gold-b7014200",
         "love",
         "juste-un-clou",
         "trinity",
@@ -544,6 +575,8 @@
       ],
       "source": "https://www.tiffany.com/world-of-tiffany/heritage/the-world-of-tiffany-timeline.html",
       "classicItems": [
+        "tiffany-hardwear-small-link-medium-silver-60153085",
+        "tiffany-t-smile-small-yellow-gold-60011679",
         "tiffany-t",
         "tiffany-keys"
       ]
@@ -595,6 +628,8 @@
       ],
       "source": "https://www.bulgari.com/en-int/the-maison/about-bvlgari/bvlgari-history.html",
       "classicItems": [
+        "bulgari-serpenti-viper-ring-rose-gold-45-46-362140",
+        "bulgari-bzero1-necklace-white-gold-352815",
         "serpenti",
         "bzero1"
       ]
@@ -790,6 +825,7 @@
       ],
       "source": "https://www.fendi.com/gb-en/cm/inside-fendi/about-fendi/the-history-of-fendi",
       "classicItems": [
+        "fendi-baguette-tobacco-ff-us",
         "baguette"
       ]
     }
@@ -814,7 +850,7 @@
         "Clemence",
         "Epsom"
       ],
-      "priceRange": "约 ¥8万—18万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "一次飞机偶遇，长成日常的传奇。",
       "story": "一段巴黎至伦敦航班上的交流，让 Jean-Louis Dumas 为 Jane Birkin 构思出兼顾容量与日常使用的包。双提手、翻盖、搭带与转锁构成清楚的结构；不同皮革又会改变挺括程度。它并非为了展柜而生，最初的念头恰恰是怎样装下真实生活。",
       "facts": [
@@ -846,7 +882,7 @@
         "Togo",
         "Box 小牛皮"
       ],
-      "priceRange": "约 ¥8万—18万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "一只单提手包的端正与从容。",
       "story": "这款包由 Robert Dumas 在二十世纪三十年代设计，1956 年 Grace Kelly 手持它的照片传遍世界。单提手、梯形轮廓与搭带转锁是理解它的起点，Sellier 与 Retourné 的缝合结构又会带来不同的边缘与气质。",
       "facts": [
@@ -876,7 +912,7 @@
         "小羊皮",
         "斜纹软呢"
       ],
-      "priceRange": "约 ¥7万—11万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "用一条肩链，把双手还给生活。",
       "story": "名字来自推出的年月：1955 年二月。肩链让手袋可以背上肩头，长方形转锁与菱格纹形成熟悉轮廓。今天的复刻版本延续早期设计语言，但具体结构、皮革和尺寸要按型号辨认。",
       "facts": [
@@ -906,7 +942,7 @@
         "小羊皮",
         "织物"
       ],
-      "priceRange": "约 ¥7万—12万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "菱格纹与双字母扣，组成熟悉的一页。",
       "story": "经典翻盖包延续香奈儿肩背包的思路，在 Karl Lagerfeld 时期逐步形成今天熟悉的语言。双字母转扣与穿皮链条是常见特征；小羊皮的柔和光泽和颗粒皮的触感，让同一种轮廓有不同表情。",
       "facts": [
@@ -936,7 +972,7 @@
         "小羊皮",
         "织物"
       ],
-      "priceRange": "约 ¥4万—7万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "用一道硬朗边框，写出另一种香奈儿。",
       "story": "Boy 手袋把宽边框、链条与几何扣件放在同一轮廓里，气质比常见经典翻盖包更利落。选择时可以把它放回日常衣着里，看看链条重量、开口宽度和肩背落点是否合适。",
       "facts": [
@@ -966,7 +1002,7 @@
         "Damier 帆布",
         "皮革"
       ],
-      "priceRange": "约 ¥1万—3万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "把旅行的容量，缩进城市的步伐。",
       "story": "Speedy 的前身名为 Express，诞生于人们迷恋速度与新式旅行的年代。圆弧袋身与双提手保留旅行袋的亲切感。Bandoulière 版本加入肩带，选购或阅读时要把普通手提版与肩带版分清。",
       "facts": [
@@ -996,7 +1032,7 @@
         "小牛皮",
         "刺绣织物"
       ],
-      "priceRange": "约 ¥3万—6万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "把沙龙里的藤格，轻轻提在手上。",
       "story": "这款包在九十年代中期成形，1995 年戴安娜王妃获赠并多次使用，成为命名与传播的重要一章。品牌不同时期资料对初创年份有 1994 与 1995 的表述。Cannage 藤格纹、双圆弧提手和字母吊饰，比单一年份更能帮助理解设计。",
       "facts": [
@@ -1026,7 +1062,7 @@
         "GG 帆布",
         "粒面皮革"
       ],
-      "priceRange": "约 ¥2万—4万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "在一条弧线里，找到松弛的分寸。",
       "story": "Jackie 的前身来自六十年代，弯月般的袋身与肩背姿态构成记忆点。不同年代重释了扣件和肩带，因此阅读复刻款时，应看具体年份与型号，不能只凭名称假定所有结构相同。",
       "facts": [
@@ -1056,7 +1092,7 @@
         "Saffiano 小牛皮",
         "特别材质款"
       ],
-      "priceRange": "约 ¥2万—4万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "把井井有条，做成一只日常手袋。",
       "story": "Galleria 以米兰品牌首店所在的拱廊命名。双提手、分区收纳与端正轮廓构成它的日常性。常见 Saffiano 十字纹是表面处理形成的纹理，不能简单等同于所有天然粒面皮革。",
       "facts": [
@@ -1086,7 +1122,7 @@
         "小牛皮",
         "季节材质"
       ],
-      "priceRange": "约 ¥1万—4万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "把一个结，藏进柔软的编织里。",
       "story": "Jodie 将 Intrecciato 编织、弧形袋身与提手结饰连接起来。它贴近身体的方式，来自软结构与短提手的共同作用；不同尺寸的容纳能力和肩背空间差别明显，不能只看正面照片。",
       "facts": [
@@ -1114,7 +1150,7 @@
         "光滑小牛皮",
         "Box 类皮革"
       ],
-      "priceRange": "约 ¥1万—4万（含中古参考）（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "减去装饰，让比例慢慢说话。",
       "story": "平整翻盖、方正袋身和金属扣件，让 Classic Box 成为极简皮具的熟悉名字。如今阅读它，常会进入中古与历史款语境。供应、状态与年份各不相同，肩带长度、边角和皮面划痕都值得细看。",
       "facts": [
@@ -1144,7 +1180,7 @@
         "刺绣织物",
         "丹宁"
       ],
-      "priceRange": "约 ¥1万—4万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "把一段城市生活，夹在手臂下。",
       "story": "Baguette 的名字来自法棍面包夹在手臂下的姿态。短肩带、横向包身与翻盖扣件构成容易记住的比例。它的趣味也在材料：同一轮廓换成刺绣或丹宁，就像换了一种日常语气。",
       "facts": [
@@ -1172,7 +1208,7 @@
         "18K 玫瑰金",
         "18K 白色金"
       ],
-      "priceRange": "约 ¥3万—10万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "把一颗螺钉，写成亲密的记号。",
       "story": "LOVE 在纽约诞生，把工业螺钉与椭圆轮廓带进珠宝。系列包含不同宽度与开合方式，经典螺钉开合款的佩戴动作，和可直接开合的款式并不相同。先确认型号，才能理解它与你的生活是否合拍。",
       "facts": [
@@ -1201,7 +1237,7 @@
         "18K 玫瑰金",
         "18K 白色金"
       ],
-      "priceRange": "约 ¥2万—8万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "一根日常钉子，也有自己的弧线。",
       "story": "Aldo Cipullo 在七十年代的纽约，把普通钉子转化为首饰语言。钉头、弧线与尖端的关系，让工业物件拥有贴近手腕的节奏。现代系列继续延展这一想法，戒指与手镯则有不同的佩戴结构。",
       "facts": [
@@ -1229,7 +1265,7 @@
         "18K 玫瑰金",
         "18K 白色金"
       ],
-      "priceRange": "约 ¥1万—4万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "三道相依的圆，留下流动的空间。",
       "story": "Trinity 用三枚互相交织的圆环表达联结。滚动的结构与不同金色，让戒指在手指上形成轻微变化。它既是一个清楚的几何想法，也是理解珠宝如何随身体移动的好例子。",
       "facts": [
@@ -1258,7 +1294,7 @@
         "18K 金",
         "部分镶钻款"
       ],
-      "priceRange": "约 ¥0.8万—4万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "用一道字母线条，画出纽约的清爽。",
       "story": "Tiffany T 把字母 T 转化为清晰的几何轮廓。吊坠、手镯与戒指各有不同的开口和弧度，系列名不能代替具体款式说明。看项链时，先观察吊坠大小与链长，再想象它落在自己的领口。",
       "facts": [
@@ -1286,7 +1322,7 @@
         "银",
         "铂金及镶钻款"
       ],
-      "priceRange": "约 ¥0.3万—5万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "一把钥匙，打开自己的想象。",
       "story": "Keys 把钥匙的轮廓变成可佩戴的吊坠。花形、心形与几何钥匙头，分别写出不同气质。阅读价格时要确认是否包含链条，因为吊坠与项链的组合方式，可能因具体型号而不同。",
       "facts": [
@@ -1317,7 +1353,7 @@
         "钻石",
         "彩色宝石"
       ],
-      "priceRange": "约 ¥2万—20万及以上（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "让灵蛇的转弯，成为身体的线条。",
       "story": "Serpenti 从蛇形珠宝腕表展开，在不同年代延展至项链与手镯。鳞片、蛇首和缠绕结构不一定同时出现。它首先是一套变化丰富的设计语言，不能把整个系列视为同一种尺寸或同一种材质。",
       "facts": [
@@ -1345,7 +1381,7 @@
         "陶瓷与金组合",
         "镶钻款"
       ],
-      "priceRange": "约 ¥0.8万—5万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "把罗马的圆形，缩成指间建筑。",
       "story": "B.zero1 从罗马圆形建筑与 Tubogas 的结构获得灵感，用螺旋和上下边框组织体积。环数影响视觉宽度，也会改变试戴感觉；同一戒围不能完全代表不同宽度款式的舒适程度。",
       "facts": [
@@ -1375,7 +1411,7 @@
         "珍珠母贝",
         "玉髓及其他宝石"
       ],
-      "priceRange": "约 ¥1万—8万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "把幸运，轻轻放在锁骨旁。",
       "story": "Alhambra 最初以长项链形式出现。四叶形轮廓与圆珠边饰，后来延展为吊坠、耳饰和手链。珍珠母贝的柔光、玉髓的通透与纯金的光泽，让同一形状有很不相同的表情。",
       "facts": [
@@ -1405,7 +1441,7 @@
         "18K 白色金",
         "BEIGE 米色金"
       ],
-      "priceRange": "约 ¥1万—5万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "把包上的菱格，转成指间的光。",
       "story": "Coco Crush 用刻纹将菱格语言转入金属表面。弧形戒身让线条随着光线变化，单戴与叠戴会产生不同节奏。品牌米色金是特定合金色调，不应简单视为所有玫瑰金的另一个名字。",
       "facts": [
@@ -1433,7 +1469,7 @@
         "金钢组合",
         "贵金属"
       ],
-      "priceRange": "约 ¥7万—35万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "从潜水工具，读见清晰的力量。",
       "story": "潜航者以潜水用途为起点，清楚时标与旋转表圈形成工具表的语言。现代与历史版本在直径、防水规格和机芯上各有差别。系列名只是入口，具体参考编号才决定一枚表的参数。",
       "facts": [
@@ -1460,7 +1496,7 @@
         "贵金属",
         "不同表镜材质"
       ],
-      "priceRange": "约 ¥4万—12万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "一枚计时表，陪人走过更远的路。",
       "story": "超霸诞生时是一枚计时工具，后来与载人航天产生紧密联系。Moonwatch 的历史很动人，不过整个 Speedmaster 家族包含多种机芯和布局。把计时功能、上链方式与具体型号一起看，故事才会落在真实物件上。",
       "facts": [
@@ -1488,7 +1524,7 @@
         "18K 金",
         "皮革表带"
       ],
-      "priceRange": "约 ¥2万—15万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "让两条平行线，定义时间的形状。",
       "story": "Tank 以平行表耳和几何表盘形成熟悉轮廓。不同支线改变了线条、厚度与机芯，不宜把石英款与机械款混成同一规格。它也提醒我们，腕表尺寸不只是直径，长宽与贴腕程度同样重要。",
       "facts": [
@@ -1514,7 +1550,7 @@
       "materials": [
         "真丝斜纹绸；依具体款式"
       ],
-      "priceRange": "约 ¥0.4万—0.7万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "一方丝绸，也是一幅可以带走的画。",
       "story": "爱马仕第一方丝巾诞生于 1937 年。方巾以图案、配色与卷边形成自己的阅读方式；折叠之后，只露出画面的一小段，又会产生新的表情。尺寸为名义规格，手工处理可能带来细微差异。",
       "facts": [
@@ -1543,7 +1579,7 @@
         "醛香花束",
         "玫瑰与茉莉等香调"
       ],
-      "priceRange": "约 ¥0.8千—2.5千（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "一束不必说出花名的气味。",
       "story": "N°5 以抽象花束与醛香留下记忆。1921 年是香水故事的起点，今天常见的 Eau de Parfum 则有 1986 年的创作背景。不同浓度与演绎版本应分别试闻，不能把相同名字理解成完全相同的气味。",
       "facts": [
@@ -1570,7 +1606,7 @@
         "皮革",
         "不同鞋底与季节材质"
       ],
-      "priceRange": "约 ¥0.6万—1万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "把马术的一点线索，走进城市生活。",
       "story": "Gucci 于 1953 年推出马衔扣乐福鞋，把双环与横杆的马术符号放在鞋面。低鞋面和一脚蹬结构，让装饰与穿着动作紧密相连。看经典鞋履，除了正面，也值得看后跟、鞋底和脚背贴合度。",
       "facts": [
@@ -1600,7 +1636,7 @@
         "醋酸纤维镜框",
         "不同色调镜片"
       ],
-      "priceRange": "约 ¥0.3万—0.6万（仅供参考，请以品牌专柜/官方渠道为准）",
+      "priceRange": "U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。",
       "oneLiner": "用一副椭圆轮廓，为日常留一点表情。",
       "story": "Triomphe 01 把椭圆镜框与镜腿上的凯旋门符号放在一起。不同配色和适配版本，会改变与脸部的贴合方式。认识墨镜时，镜框造型之外，也要核对镜片说明、鼻托位置与镜腿受力，舒适度需要实际试戴。",
       "facts": [
@@ -1612,6 +1648,1397 @@
       ],
       "subtype": "lifestyle",
       "source": "https://www.celine.com/en-us/women/sunglasses/oval/triomphe-01-sunglasses-in-acetate-4S194CPLB.38MN.U.html"
+    },
+    {
+      "id": "dior-small-lady-dior-black-us",
+      "brand": "dior",
+      "category": "bags",
+      "name": "Small Lady Dior Bag — Black Cannage Lambskin",
+      "nameZh": "迪奥小号戴妃包 黑色羊皮",
+      "parentItem": "lady-dior",
+      "reference": "M0618ONGE_M900",
+      "color": "Black with pale gold-finish hardware",
+      "sizes": [
+        "Small: 20 × 17 × 8 cm (L × H × W)",
+        "Leather strap: 108–118 cm"
+      ],
+      "materials": [
+        "Lambskin",
+        "Goatskin and lambskin lining",
+        "Pale gold-finish metal charms"
+      ],
+      "priceUSD": 6200,
+      "priceLabel": "U.S. retail reference, before tax; official page snapshot",
+      "checkedAt": "2026-10-19",
+      "priceEvidence": "The exact U.S. product page, retrieved through the web page reader and labeled crawled today, displayed $6,200.00 beside reference M0618ONGE_M900.",
+      "priceStatus": "official-snapshot",
+      "source": "https://www.dior.com/en_us/fashion/products/M0618ONGE_M900",
+      "image": "assets/img/products/bags-dior-lady-dior-small-black.jpg",
+      "imageSource": "https://assets.christiandior.com/is/image/diorprod/M0618ONGEM900_E01?%24r4x5_default%24=&bfc=on&crop=479%2C510%2C1003%2C1298&hei=2000&qlt=80&scale=0.7&wid=1600",
+      "imageCredit": "© Dior, official product imagery",
+      "imageRightsNote": "Official photograph linked from the product page. No reproduction license accompanied the source or is asserted here; attribution does not itself grant permission.",
+      "imageWidth": 1600,
+      "imageHeight": 2000,
+      "introEn": "The small Lady Dior uses a compact, upright shape to give soft lambskin an architectural presence. Black Cannage quilting creates depth across the body, while pale gold-finish letter charms bring movement to the otherwise disciplined outline. This version includes both a thin leather shoulder strap and a removable chain, offering different ways to carry the same silhouette. It suits someone who enjoys a handbag as a deliberate finishing detail: neat in the hand, expressive beside a simple coat, and distinctive without relying on a large printed logo.",
+      "featuresEn": [
+        "Cannage-stitched lambskin with D.I.O.R. charms",
+        "Adjustable, detachable leather strap plus removable chain",
+        "Interior zip pocket; made in Italy"
+      ],
+      "stylingEn": "Carry it by the handles with a straight coat and tailored trousers for a clear, compact outline. For dinner, use the chain and let the quilting provide texture against a plain black dress.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "verificationLimitations": [
+        "Price and specifications were read from the official page through the web page reader; the local HTML request returned an access screen.",
+        "The displayed retail reference is not a stock or checkout guarantee."
+      ],
+      "sourceSnapshotNote": "Official product-page reader labeled the source snapshot crawled today when checked on 2026-10-19. Direct local HTML access was restricted; the price was not verified at checkout.",
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "The small Lady Dior uses a compact, upright shape to give soft lambskin an architectural presence.",
+      "story": "The small Lady Dior uses a compact, upright shape to give soft lambskin an architectural presence. Black Cannage quilting creates depth across the body, while pale gold-finish letter charms bring movement to the otherwise disciplined outline. This version includes both a thin leather shoulder strap and a removable chain, offering different ways to carry the same silhouette. It suits someone who enjoys a handbag as a deliberate finishing detail: neat in the hand, expressive beside a simple coat, and distinctive without relying on a large printed logo.",
+      "facts": [
+        "Cannage-stitched lambskin with D.I.O.R. charms",
+        "Adjustable, detachable leather strap plus removable chain",
+        "Interior zip pocket; made in Italy"
+      ],
+      "priceContextEn": "Official page snapshot · reported crawled the same day; reviewed 19 October 2026",
+      "priceRange": "US$6,200, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-01",
+        "mag-02",
+        "mag-06"
+      ]
+    },
+    {
+      "id": "gucci-jackie-small-black-gg-us",
+      "brand": "gucci",
+      "category": "bags",
+      "name": "Gucci Jackie Small Shoulder Bag — Black GG Canvas",
+      "nameZh": "古驰杰姬小号黑色GG帆布肩包",
+      "parentItem": "jackie",
+      "reference": "867156 FAFV4 1000",
+      "color": "Black GG canvas with black leather trim",
+      "sizes": [
+        "8.5 W × 4.5 H × 0.8 D inches",
+        "Handle drop: 7.1 inches; 17.7 inches with extender"
+      ],
+      "materials": [
+        "GG canvas",
+        "Soft grainy leather trim",
+        "Fabric lining with Diamante motif",
+        "Palladium-toned hardware"
+      ],
+      "priceUSD": 1490,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceEvidence": "Directly retrieved official U.S. HTML contained the selected style 867156 FAFV4 1000 and a product price value of 1490, formatted $1,490.",
+      "priceStatus": "live",
+      "source": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/gucci-jackie-small-shoulder-bag-p-867156FAFV41000",
+      "image": "assets/img/products/bags-gucci-jackie-small-black.jpg",
+      "imageSource": "https://media.gucci.com/style/DarkGray_Center_0_0_980x980/1776876339/867156_FAFV4_1000_001_075_0040_Light-gucci-jackie-small-shoulder-bag.jpg",
+      "imageCredit": "© Gucci, official product imagery",
+      "imageRightsNote": "The official product page carries a Guccio Gucci S.p.A. all-rights-reserved notice. No reproduction license was found or is asserted; the observed web-sized product photograph is credited to Gucci.",
+      "imageWidth": 980,
+      "imageHeight": 980,
+      "introEn": "This small Jackie translates the family’s curved outline into a slim canvas bag with an easy, close-to-the-body profile. The black GG pattern is quiet at a distance, leaving the bright piston fastening as the main focal point. Leather edging gives the canvas a defined border, and the extender changes the reach of the strap. Its narrow proportions encourage a compact edit of essentials. Choose it for the balance between an archival-looking clasp and a light, pared-back shape that works with everyday clothes.",
+      "featuresEn": [
+        "Black GG canvas with grainy leather trim",
+        "Palladium-toned piston with magnetic closure",
+        "Adjustable leather strap, extender and interior zip pocket"
+      ],
+      "stylingEn": "Wear the short strap with a fine knit and straight jeans so the curved shape stays visible at the shoulder. Add the extender over a blazer when a longer carry feels more relaxed.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "verificationLimitations": [
+        "The selected style is the Spring Summer 2026 small canvas design, rather than a price for every Jackie size or material."
+      ],
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "This small Jackie translates the family’s curved outline into a slim canvas bag with an easy, close-to-the-body profile.",
+      "story": "This small Jackie translates the family’s curved outline into a slim canvas bag with an easy, close-to-the-body profile. The black GG pattern is quiet at a distance, leaving the bright piston fastening as the main focal point. Leather edging gives the canvas a defined border, and the extender changes the reach of the strap. Its narrow proportions encourage a compact edit of essentials. Choose it for the balance between an archival-looking clasp and a light, pared-back shape that works with everyday clothes.",
+      "facts": [
+        "Black GG canvas with grainy leather trim",
+        "Palladium-toned piston with magnetic closure",
+        "Adjustable leather strap, extender and interior zip pocket"
+      ],
+      "priceContextEn": "Official U.S. product page · checked 19 October 2026",
+      "priceRange": "US$1,490, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-01",
+        "mag-02",
+        "mag-06"
+      ]
+    },
+    {
+      "id": "prada-galleria-small-black-leather-us",
+      "brand": "prada",
+      "category": "bags",
+      "name": "Prada Galleria Small Leather Bag — Black",
+      "nameZh": "普拉达Galleria小号黑色皮革手袋",
+      "parentItem": "galleria",
+      "reference": "1BA896_2CYS_F0002_V_YO0",
+      "color": "Black",
+      "sizes": [
+        "TU / Small: 24.5 W × 16.5 H × 11 D cm",
+        "Shoulder strap: 110–120 cm"
+      ],
+      "materials": [
+        "Calfskin",
+        "Nappa lining",
+        "Metal hardware"
+      ],
+      "priceUSD": 5100,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceEvidence": "Direct official U.S. HTML for 1BA896_2CYS_F0002_V_YO0 contained Display and Offer values of 5100, both formatted $5,100.00; the page displayed $5,100.",
+      "priceStatus": "live",
+      "source": "https://www.prada.com/us/en/p/small-prada-galleria-leather-bag/1BA896_2CYS_F0002_V_YO0",
+      "image": "assets/img/products/bags-prada-galleria-small-black.jpg",
+      "imageSource": "https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA896/2CYSF0002/1BA896_2CYS_F0002_V_YO0_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1000.1000.jpg",
+      "imageCredit": "© Prada, official product imagery",
+      "imageRightsNote": "Official product photograph from an observed responsive-image rendition on the exact product page. No reproduction license was supplied with the image or is asserted here.",
+      "imageWidth": 1000,
+      "imageHeight": 1250,
+      "introEn": "The small Galleria brings the proportions of a structured tote into a compact leather format. Two rounded handles frame the opening, with a triangular Prada signature and hanging keyring giving the front its familiar punctuation. Black calfskin keeps the focus on the bag’s edges and construction. External zip pockets and an optional shoulder strap add practical choices without changing that orderly appearance. This variant is especially appealing when you want a handbag to look composed beside tailoring while still feeling appropriate with a simple shirt and denim.",
+      "featuresEn": [
+        "Calfskin body with leather triangle and metal lettering",
+        "Detachable, adjustable shoulder strap and removable keyring",
+        "External zip pockets, nappa lining and leather purse feet"
+      ],
+      "stylingEn": "Set it beside a pale shirt, dark trousers and loafers for a concise weekday outfit. Keep other hardware discreet so the triangle and small keyring provide the main points of shine.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "verificationLimitations": [
+        "This is the small calfskin version, reference 2CYS; its $5,100 price should not be applied to the separate Saffiano variants."
+      ],
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "The small Galleria brings the proportions of a structured tote into a compact leather format.",
+      "story": "The small Galleria brings the proportions of a structured tote into a compact leather format. Two rounded handles frame the opening, with a triangular Prada signature and hanging keyring giving the front its familiar punctuation. Black calfskin keeps the focus on the bag’s edges and construction. External zip pockets and an optional shoulder strap add practical choices without changing that orderly appearance. This variant is especially appealing when you want a handbag to look composed beside tailoring while still feeling appropriate with a simple shirt and denim.",
+      "facts": [
+        "Calfskin body with leather triangle and metal lettering",
+        "Detachable, adjustable shoulder strap and removable keyring",
+        "External zip pockets, nappa lining and leather purse feet"
+      ],
+      "priceContextEn": "Official U.S. product page · checked 19 October 2026",
+      "priceRange": "US$5,100, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-01",
+        "mag-02",
+        "mag-06"
+      ]
+    },
+    {
+      "id": "fendi-baguette-tobacco-ff-us",
+      "brand": "fendi",
+      "category": "bags",
+      "name": "Baguette® — Tobacco Brown FF Jacquard Fabric Bag",
+      "nameZh": "芬迪法棍包 烟草棕FF提花",
+      "parentItem": "baguette",
+      "reference": "8BR600AFPMF1GL7",
+      "color": "Tobacco brown with dark brown leather and gold-finish hardware",
+      "sizes": [
+        "Medium: 27 W × 15 H × 6 D cm",
+        "Shoulder strap: 100 cm; drop: 46 cm"
+      ],
+      "materials": [
+        "FF jacquard fabric",
+        "Calfskin handle and shoulder strap",
+        "Jacquard fabric lining",
+        "Gold-finish metalware"
+      ],
+      "priceUSD": 3900,
+      "priceLabel": "U.S. retail reference, before tax; official cached page",
+      "checkedAt": "2026-10-19",
+      "priceEvidence": "The exact official U.S. product page showed $3,900.00 for code 8BR600AFPMF1GL7 in the web reader. That reader labeled its snapshot crawled two weeks earlier; direct local HTML was restricted.",
+      "priceStatus": "official-snapshot",
+      "source": "https://www.fendi.com/us-en/woman/bags/baguette-tobacco-brown-ff-jacquard-fabric-bag-8br600afpmf1gl7",
+      "image": "assets/img/products/bags-fendi-baguette-tobacco.jpg",
+      "imageSource": "https://static.fendi.com/dam/is/image/fendi/8BR600AFPMF1GL7_01?hash=f5d810bdfdc88ed909fcca74453a1d60-19ade6dca62&hei=1000&wid=1000",
+      "imageCredit": "© Fendi, official product imagery",
+      "imageRightsNote": "Official product photograph linked by the exact Fendi product page. No reproduction license was supplied with the source or is asserted here; the photo remains attributed to Fendi.",
+      "imageWidth": 1120,
+      "imageHeight": 1120,
+      "introEn": "The Baguette’s horizontal shape is built around the pleasure of carrying a bag close under the arm. This medium version combines tobacco-brown FF jacquard with dark leather and a gold-finish clasp, creating a warm, graphic surface that reads clearly even in a restrained outfit. The detachable handle and longer strap offer several carrying options. Its appeal lies in the relationship between proportion and pattern: a compact flap silhouette, a generous repeat of the monogram and enough softness to keep the result easy to wear.",
+      "featuresEn": [
+        "Tobacco FF jacquard with gold-finish FF clasp",
+        "Front flap, magnetic fastening and interior zip pocket",
+        "Detachable calfskin handle and shoulder strap"
+      ],
+      "stylingEn": "Let the warm monogram sit against cream knitwear and dark denim, or carry it with a chocolate jacket for a tonal approach. Use the shorter handle to emphasize the original underarm proportions.",
+      "born": "1997 (Baguette family)",
+      "designer": "House design studio",
+      "verificationLimitations": [
+        "The official price snapshot was labeled crawled two weeks before checking; it has not been represented as a live price.",
+        "No availability or delivery estimate is carried over from the cached page."
+      ],
+      "sourceSnapshotNote": "Official product-page reader labeled the source snapshot crawled two weeks earlier when checked on 2026-10-19. Direct local HTML access was restricted; the price was not verified at checkout.",
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "The Baguette’s horizontal shape is built around the pleasure of carrying a bag close under the arm.",
+      "story": "The Baguette’s horizontal shape is built around the pleasure of carrying a bag close under the arm. This medium version combines tobacco-brown FF jacquard with dark leather and a gold-finish clasp, creating a warm, graphic surface that reads clearly even in a restrained outfit. The detachable handle and longer strap offer several carrying options. Its appeal lies in the relationship between proportion and pattern: a compact flap silhouette, a generous repeat of the monogram and enough softness to keep the result easy to wear.",
+      "facts": [
+        "Tobacco FF jacquard with gold-finish FF clasp",
+        "Front flap, magnetic fastening and interior zip pocket",
+        "Detachable calfskin handle and shoulder strap"
+      ],
+      "priceContextEn": "Official page snapshot · reported crawled 2 weeks earlier; reviewed 19 October 2026",
+      "priceRange": "US$3,900, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-01",
+        "mag-02",
+        "mag-06"
+      ]
+    },
+    {
+      "id": "hermes-please-hold-line-90-blue-us",
+      "brand": "hermes",
+      "category": "scarves",
+      "name": "Please Hold The Line Scarf 90 — Bleu Ciel / Encre / Violet",
+      "nameZh": "爱马仕Please Hold The Line九十方巾 蓝紫",
+      "parentItem": "carre90",
+      "reference": "H004187S 09",
+      "color": "Bleu Ciel / Encre / Violet",
+      "sizes": [
+        "Scarf 90: 34.8 × 34.8 inches; hand-rolled dimensions may vary"
+      ],
+      "materials": [
+        "100% silk twill"
+      ],
+      "priceUSD": 660,
+      "priceLabel": "U.S. retail reference, before tax; official page snapshot",
+      "checkedAt": "2026-10-19",
+      "priceEvidence": "The official U.S. page-reader snapshot, labeled crawled yesterday, displayed Price $660 beside the selected Bleu Ciel / Encre / Violet color and reference H004187S 09.",
+      "priceStatus": "official-snapshot",
+      "source": "https://www.hermes.com/us/en/product/please-hold-the-line-scarf-90-H004187Sv09/",
+      "image": "assets/img/products/scarves-hermes-please-hold-line-blue.jpg",
+      "imageSource": "https://assets.hermes.com/is/image/hermesproduct/please-hold-the-line-scarf-90--004187S%2009-flat-wm-1-0-0-800-800_g.jpg",
+      "imageCredit": "© Hermès, official product imagery",
+      "imageRightsNote": "Official flat-view product photograph linked from the exact Hermès U.S. page. No reproduction license accompanied the image or is asserted here.",
+      "imageWidth": 800,
+      "imageHeight": 800,
+      "introEn": "Please Hold The Line turns the silk square into a dense field of playful drawing. Sky blue gives this colorway an airy foundation, while inky and violet lines keep the illustrated world legible when the scarf is open. Once folded, those details become changing bands of color and texture rather than one fixed picture. The hand-rolled edge gives the square a softly defined finish. It is a good choice for someone who enjoys examining a design up close, then discovering a different arrangement with each knot.",
+      "featuresEn": [
+        "Silk twill with hand-rolled edges",
+        "Designed by Dimitri Rybaltchenko",
+        "Made in France; official colorway 09"
+      ],
+      "stylingEn": "Fold it on the diagonal and knot it loosely inside a navy jacket to show the blue and violet together. Leave one wider corner visible when you want the illustration to remain part of the outfit.",
+      "born": "Contemporary collection",
+      "designer": "Dimitri Rybaltchenko",
+      "verificationLimitations": [
+        "The official page-reader snapshot was from the prior day; a direct local product-page request was restricted.",
+        "The U.S. page states 34.8-inch dimensions for the named 90 format and notes variation from hand rolling."
+      ],
+      "sourceSnapshotNote": "Official product-page reader labeled the source snapshot crawled yesterday when checked on 2026-10-19. Direct local HTML access was restricted; the price was not verified at checkout.",
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "Please Hold The Line turns the silk square into a dense field of playful drawing.",
+      "story": "Please Hold The Line turns the silk square into a dense field of playful drawing. Sky blue gives this colorway an airy foundation, while inky and violet lines keep the illustrated world legible when the scarf is open. Once folded, those details become changing bands of color and texture rather than one fixed picture. The hand-rolled edge gives the square a softly defined finish. It is a good choice for someone who enjoys examining a design up close, then discovering a different arrangement with each knot.",
+      "facts": [
+        "Silk twill with hand-rolled edges",
+        "Designed by Dimitri Rybaltchenko",
+        "Made in France; official colorway 09"
+      ],
+      "priceContextEn": "Official page snapshot · reported crawled the previous day; reviewed 19 October 2026",
+      "priceRange": "US$660, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-07"
+      ]
+    },
+    {
+      "id": "dior-oblique-mitzah-navy-us",
+      "brand": "dior",
+      "category": "scarves",
+      "name": "Dior Oblique Mitzah Scarf — Navy Blue Silk Twill",
+      "nameZh": "迪奥Oblique海军蓝Mitzah丝巾",
+      "parentItem": null,
+      "reference": "15DOB106I600_C541",
+      "color": "Navy blue",
+      "sizes": [
+        "105 × 6 cm (L × W) / 41.5 × 2.5 inches"
+      ],
+      "materials": [
+        "100% silk twill"
+      ],
+      "priceUSD": 250,
+      "priceLabel": "U.S. retail reference, before tax; official page snapshot",
+      "checkedAt": "2026-10-19",
+      "priceEvidence": "The exact official U.S. page retrieved through the web page reader and labeled crawled today displayed $250.00 for reference 15DOB106I600_C541.",
+      "priceStatus": "official-snapshot",
+      "source": "https://www.dior.com/en_us/fashion/products/15DOB106I600_C541",
+      "image": "assets/img/products/scarves-dior-oblique-mitzah-navy.jpg",
+      "imageSource": "https://assets.christiandior.com/is/image/diorprod/15DOB106I600C541_SBG_E01?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
+      "imageCredit": "© Dior, official product imagery",
+      "imageRightsNote": "Official product-only photograph linked from the exact Dior product page. No reproduction license was supplied with the source or is asserted here.",
+      "imageWidth": 1600,
+      "imageHeight": 2000,
+      "introEn": "The navy Dior Oblique Mitzah is a narrow silk ribbon designed to bring pattern into a small area. One side carries the repeating Oblique motif, while the reverse introduces a contrasting Christian Dior signature band. Pointed ends give a tied knot a precise finish. Its long, slender format makes it especially useful when a full square would feel too voluminous. Worn at the neck or tied to a bag, it creates a small change in rhythm while keeping the rest of an outfit uncomplicated.",
+      "featuresEn": [
+        "Navy Dior Oblique print with pointed ends",
+        "Contrasting signature jacquard band on the reverse",
+        "100% silk twill; made in Italy"
+      ],
+      "stylingEn": "Tie a small side knot with an open-neck shirt and let both printed faces show. Alternatively, make one loose bow around a bag handle, leaving the pointed ends clear of the fastening.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "verificationLimitations": [
+        "The product page was available through the web page reader; the direct local HTML request returned an access screen.",
+        "The Oblique motif date is not used as the launch date of this exact Mitzah variant."
+      ],
+      "sourceSnapshotNote": "Official product-page reader labeled the source snapshot crawled today when checked on 2026-10-19. Direct local HTML access was restricted; the price was not verified at checkout.",
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "The navy Dior Oblique Mitzah is a narrow silk ribbon designed to bring pattern into a small area.",
+      "story": "The navy Dior Oblique Mitzah is a narrow silk ribbon designed to bring pattern into a small area. One side carries the repeating Oblique motif, while the reverse introduces a contrasting Christian Dior signature band. Pointed ends give a tied knot a precise finish. Its long, slender format makes it especially useful when a full square would feel too voluminous. Worn at the neck or tied to a bag, it creates a small change in rhythm while keeping the rest of an outfit uncomplicated.",
+      "facts": [
+        "Navy Dior Oblique print with pointed ends",
+        "Contrasting signature jacquard band on the reverse",
+        "100% silk twill; made in Italy"
+      ],
+      "priceContextEn": "Official page snapshot · reported crawled the same day; reviewed 19 October 2026",
+      "priceRange": "US$250, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-07"
+      ]
+    },
+    {
+      "id": "gucci-flora-silk-carre-pink-us",
+      "brand": "gucci",
+      "category": "scarves",
+      "name": "Printed Flora Silk Twill Carré — Pink Borders",
+      "nameZh": "古驰Flora花卉粉边真丝方巾",
+      "parentItem": null,
+      "reference": "602585 3G001 9772",
+      "color": "GG Flora print with pink borders",
+      "sizes": [
+        "35.5 W × 35.5 L inches; hand-sewn dimensions may vary"
+      ],
+      "materials": [
+        "100% silk; organic silk twill"
+      ],
+      "priceUSD": 540,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceEvidence": "Direct official U.S. HTML contained the exact style 602585 3G001 9772 with product price value 540, formatted $540; the visible product page agreed.",
+      "priceStatus": "live",
+      "source": "https://www.gucci.com/us/en/pr/women/accessories-for-women/silks-and-scarves-for-women/square-scarves-for-women/printed-flora-silk-twill-carre-p-6025853G0019772",
+      "image": "assets/img/products/scarves-gucci-flora-pink.jpg",
+      "imageSource": "https://media.gucci.com/style/DarkGray_Center_0_0_980x980/1778665367/602585_3G001_9772_001_090_0000_Light-printed-flora-silk-twill-carre.jpg",
+      "imageCredit": "© Gucci, official product imagery",
+      "imageRightsNote": "The official product page carries a Guccio Gucci S.p.A. all-rights-reserved notice. No reproduction license was found or is asserted; this observed web-sized image is credited to Gucci.",
+      "imageWidth": 980,
+      "imageHeight": 980,
+      "introEn": "This Flora carré layers bright flowers over a GG ground and frames the composition with a broad pink border. The contrast gives it two distinct moods: richly illustrated when opened out, softer and more tonal when folded into a narrow band. Organic silk twill provides the base for the print, and the square format leaves room for several tying approaches. It is a lively option for a restrained wardrobe, offering enough colors to echo a lipstick, a knit or a small detail elsewhere in the outfit.",
+      "featuresEn": [
+        "Flora botanical print layered over the GG pattern",
+        "Pink border and hand-sewn hem",
+        "100% silk; made in Italy"
+      ],
+      "stylingEn": "Wear it as a triangular neck scarf with an ivory shirt, keeping the pink border near the face. Pick one small color from the flowers for an earring or lip shade instead of repeating the whole palette.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "verificationLimitations": [
+        "Vittorio Accornero is credited with the historic Flora motif by the source; authorship of this exact modern layout is not individually attributed."
+      ],
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "This Flora carré layers bright flowers over a GG ground and frames the composition with a broad pink border.",
+      "story": "This Flora carré layers bright flowers over a GG ground and frames the composition with a broad pink border. The contrast gives it two distinct moods: richly illustrated when opened out, softer and more tonal when folded into a narrow band. Organic silk twill provides the base for the print, and the square format leaves room for several tying approaches. It is a lively option for a restrained wardrobe, offering enough colors to echo a lipstick, a knit or a small detail elsewhere in the outfit.",
+      "facts": [
+        "Flora botanical print layered over the GG pattern",
+        "Pink border and hand-sewn hem",
+        "100% silk; made in Italy"
+      ],
+      "priceContextEn": "Official U.S. product page · checked 19 October 2026",
+      "priceRange": "US$540, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-07"
+      ]
+    },
+    {
+      "id": "prada-triangle-silk-scarf-55-alabaster-us",
+      "brand": "prada",
+      "category": "scarves",
+      "name": "Printed Silk Twill Scarf 55 — Alabaster White/White",
+      "nameZh": "普拉达三角印花55真丝方巾 浅色",
+      "parentItem": null,
+      "reference": "1FF004_2DTP_F0V4C",
+      "color": "Alabaster White/White (official color name)",
+      "sizes": [
+        "TU / 55 × 55 cm"
+      ],
+      "materials": [
+        "Silk twill"
+      ],
+      "priceUSD": 350,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceEvidence": "Direct official U.S. HTML for selected reference 1FF004_2DTP_F0V4C contained Display and Offer values of 350, formatted $350.00; the page displayed $350.",
+      "priceStatus": "live",
+      "source": "https://www.prada.com/us/en/p/printed-silk-twill-scarf-55/1FF004_2DTP_F0V4C",
+      "image": "assets/img/products/scarves-prada-triangle-alabaster.jpg",
+      "imageSource": "https://www.prada.com/content/dam/pradabkg_products/1/1FF/1FF004/2DTPF0V4C/1FF004_2DTP_F0V4C_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1000.1000.jpg",
+      "imageCredit": "© Prada, official product imagery",
+      "imageRightsNote": "Official responsive-image rendition observed on the exact product page, downloaded unchanged. No reproduction license was supplied with the source or is asserted here.",
+      "imageWidth": 1000,
+      "imageHeight": 1250,
+      "introEn": "Prada’s triangle becomes an all-over geometric rhythm on this compact silk twill square. A quiet, pale color combination makes the repeated shapes feel crisp without turning the scarf into a strong block of color. The printed signature sits near an edge, ready to appear or disappear depending on the fold. At 55 centimeters, it introduces less fabric than a larger carré, making it a useful choice for a tidy neck knot or a small accent at the wrist with a simple everyday outfit.",
+      "featuresEn": [
+        "Repeating triangle print with Prada signature",
+        "Compact 55 × 55 cm square",
+        "Silk twill; official color reference F0V4C"
+      ],
+      "stylingEn": "Roll it into a narrow band and tie it with a small knot above a crewneck knit. The pale geometric print also works beside a white shirt and a clean, unpatterned jacket.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "verificationLimitations": [
+        "The official color name is retained verbatim; the supplied official photograph appears softly pink and white on screen.",
+        "The product page included a sold-out-online message; the price is a retail reference and does not imply current stock."
+      ],
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "Prada’s triangle becomes an all-over geometric rhythm on this compact silk twill square.",
+      "story": "Prada’s triangle becomes an all-over geometric rhythm on this compact silk twill square. A quiet, pale color combination makes the repeated shapes feel crisp without turning the scarf into a strong block of color. The printed signature sits near an edge, ready to appear or disappear depending on the fold. At 55 centimeters, it introduces less fabric than a larger carré, making it a useful choice for a tidy neck knot or a small accent at the wrist with a simple everyday outfit.",
+      "facts": [
+        "Repeating triangle print with Prada signature",
+        "Compact 55 × 55 cm square",
+        "Silk twill; official color reference F0V4C"
+      ],
+      "priceContextEn": "Official U.S. product page · checked 19 October 2026",
+      "priceRange": "US$350, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-07"
+      ]
+    },
+    {
+      "id": "cartier-love-pendant-yellow-gold-b7014200",
+      "brand": "cartier",
+      "category": "necklace",
+      "name": "LOVE pendant — yellow gold",
+      "nameZh": "卡地亚 LOVE 黄金圆环吊坠项链",
+      "parentItem": "love",
+      "reference": "B7014200",
+      "color": "Yellow gold",
+      "sizes": [
+        "42 cm chain",
+        "23.5 mm outer pendant diameter"
+      ],
+      "materials": [
+        "18K yellow gold (750/1000)"
+      ],
+      "priceUSD": 4300,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceStatus": "live",
+      "priceEvidence": "Live official U.S. HTML JSON-LD identifies CRB7014200 and an Offer of USD 4300.00. The product description lists the 42 cm chain and 23.5 mm outer diameter.",
+      "sourceSnapshotNote": "Direct official HTML retrieved on the check date; this is a point-in-time retail reference.",
+      "source": "https://www.cartier.com/en-us/CRB7014200.html",
+      "image": "assets/img/products/necklace-cartier-love-yellow-gold-b7014200.jpg",
+      "imageSource": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw9f9c9983/images/large/52bad625fa985e66ba501b6180e5e56a.png?sw=750&sh=750&sm=fit&sfrm=png",
+      "imageCredit": "© Cartier, official product imagery",
+      "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand.",
+      "imageWidth": 750,
+      "imageHeight": 750,
+      "introEn": "A circle can be as expressive as a stone. This LOVE pendant makes its impression through the space at its center and the measured rhythm around its edge. From a distance, it reads as a clear golden outline; closer inspection reveals the screws that give the collection its familiar character. That shift in scale is its appeal. The pendant invites a second look while leaving plenty of room for the person wearing it, a useful starting point for a jewelry wardrobe built around strong, simple shapes.",
+      "featuresEn": [
+        "18K yellow gold with the LOVE screw motif.",
+        "A circular pendant with a 23.5 mm outer diameter.",
+        "Supplied on a 42 cm chain."
+      ],
+      "stylingEn": "Frame the circle with an open shirt collar or a plain scoop neckline. Keep other neckwear restrained, then repeat the warm metal with a small pair of hoops or a simple ring.",
+      "born": 1969,
+      "designer": "House design studio",
+      "imageAlt": "Cartier yellow-gold LOVE circular screw-motif pendant on a fine chain.",
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "A circle can be as expressive as a stone.",
+      "story": "A circle can be as expressive as a stone. This LOVE pendant makes its impression through the space at its center and the measured rhythm around its edge. From a distance, it reads as a clear golden outline; closer inspection reveals the screws that give the collection its familiar character. That shift in scale is its appeal. The pendant invites a second look while leaving plenty of room for the person wearing it, a useful starting point for a jewelry wardrobe built around strong, simple shapes.",
+      "facts": [
+        "18K yellow gold with the LOVE screw motif.",
+        "A circular pendant with a 23.5 mm outer diameter.",
+        "Supplied on a 42 cm chain."
+      ],
+      "priceContextEn": "Official U.S. product page · checked 19 October 2026",
+      "priceRange": "US$4,300, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-04",
+        "mag-11"
+      ]
+    },
+    {
+      "id": "tiffany-t-smile-small-yellow-gold-60011679",
+      "brand": "tiffany",
+      "category": "necklace",
+      "name": "Tiffany T Smile Pendant in Yellow Gold, Small",
+      "nameZh": "蒂芙尼 T Smile 小号黄金微笑项链",
+      "parentItem": "tiffany-t",
+      "reference": "60011679",
+      "color": "Yellow gold",
+      "sizes": [
+        "Small pendant",
+        "16–18 in adjustable chain (40.64–45.72 cm)"
+      ],
+      "materials": [
+        "18K yellow gold"
+      ],
+      "priceUSD": 1400,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceStatus": "live",
+      "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $1,400 with Yellow Gold and Small selected, and lists an adjustable 16–18 inch chain.",
+      "sourceSnapshotNote": "Official U.S. page retrieved through web.open on the check date; direct curl HTML was blocked.",
+      "source": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-t-18k-yellow-gold-necklaces-pendants-60011679.html",
+      "image": "assets/img/products/necklace-tiffany-t-smile-small-yellow-gold-60011679.webp",
+      "imageSource": "https://media.tiffany.com/is/image/tco/60011679_PDT_MAIN1X1?fmt=webp&hei=2000&wid=2000",
+      "imageCredit": "© Tiffany & Co., official product imagery",
+      "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand.",
+      "imageWidth": 2000,
+      "imageHeight": 2000,
+      "introEn": "The Smile pendant treats a small gesture as the whole composition. Its gently lifted curve leaves the neckline visually open, with the T-shaped ends supplying just enough definition to hold the eye. There is no central stone competing with the line, so the effect depends on proportion and placement. Think of it as a fine piece of punctuation: it can finish a simple outfit, establish the first line of a necklace arrangement, or sit quietly beside the textures you already like to wear.",
+      "featuresEn": [
+        "A small curved motif with T-shaped ends.",
+        "18K yellow gold without gemstones in this variant.",
+        "An adjustable 16–18 inch chain."
+      ],
+      "stylingEn": "Wear it above the edge of a simple crewneck or against an open neckline. If adding another pendant, choose a visibly longer chain so the two outlines have space to read.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "imageAlt": "Small Tiffany T Smile pendant in yellow gold, with a curved bar and T-shaped tips.",
+      "referenceEvidence": "60011679; manufacturer SKUs 35189459 / 63843202",
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "The Smile pendant treats a small gesture as the whole composition.",
+      "story": "The Smile pendant treats a small gesture as the whole composition. Its gently lifted curve leaves the neckline visually open, with the T-shaped ends supplying just enough definition to hold the eye. There is no central stone competing with the line, so the effect depends on proportion and placement. Think of it as a fine piece of punctuation: it can finish a simple outfit, establish the first line of a necklace arrangement, or sit quietly beside the textures you already like to wear.",
+      "facts": [
+        "A small curved motif with T-shaped ends.",
+        "18K yellow gold without gemstones in this variant.",
+        "An adjustable 16–18 inch chain."
+      ],
+      "priceContextEn": "Official U.S. product page · checked 19 October 2026",
+      "priceRange": "US$1,400, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-04",
+        "mag-11"
+      ]
+    },
+    {
+      "id": "bulgari-bzero1-necklace-white-gold-352815",
+      "brand": "bulgari",
+      "category": "necklace",
+      "name": "B.zero1 Necklace — white gold",
+      "nameZh": "宝格丽 B.zero1 白色黄金弹簧项链",
+      "parentItem": "bzero1",
+      "reference": "352815",
+      "color": "White gold",
+      "sizes": [
+        "Small round pendant; height approximately 1.5 cm",
+        "Chain positions: 38 cm / 41.5 cm / 45 cm"
+      ],
+      "materials": [
+        "18K white gold"
+      ],
+      "priceUSD": 4750,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceStatus": "live",
+      "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $4,750.00 excluding taxes for reference 352815 in white gold. Technical dimensions are corroborated by the official same-reference international page.",
+      "sourceSnapshotNote": "U.S. product page retrieved through web.open on the check date; direct curl HTML was blocked. Same-reference dimensional evidence is from an official page snapshot labelled 3 months ago.",
+      "source": "https://www.bulgari.com/en-us/product/352815",
+      "specificationSources": [
+        "https://www.bulgari.com/en-int/jewellery/necklaces/b-zero1-necklace-white-gold-352815"
+      ],
+      "image": "assets/img/products/necklace-bulgari-bzero1-white-gold-352815.png",
+      "imageSource": "https://media.bulgari.com/image/upload/c_fill%2Ch_851%2Cw_1090/q_auto/f_auto/457517.png",
+      "imageCredit": "© Bvlgari, official product imagery",
+      "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand.",
+      "imageWidth": 1090,
+      "imageHeight": 851,
+      "introEn": "B.zero1 rewards a view from the side. Suspended on a fine chain, its compact round pendant carries a sense of depth that changes as it turns. The white-gold version makes those edges and shadows the central event, with the lettering around the rim adding a graphic border. It is a useful study in how a necklace can feel architectural without becoming large. Give it a quiet background and let the small volume do the work, especially when the rest of an outfit favors clean lines.",
+      "featuresEn": [
+        "A small round pendant in 18K white gold.",
+        "The B.zero1 layered profile and BVLGARI lettering frame an open center.",
+        "Approximately 1.5 cm pendant height; chain positions at 38, 41.5 and 45 cm."
+      ],
+      "stylingEn": "Set the pendant against a smooth dark knit to make the white metal legible. Try the available chain positions with your neckline before adding any other necklace or collar detail.",
+      "born": 1999,
+      "designer": "House design studio",
+      "imageAlt": "Bvlgari B.zero1 white-gold round pendant, showing the layered profile and engraved rim.",
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "B.zero1 rewards a view from the side.",
+      "story": "B.zero1 rewards a view from the side. Suspended on a fine chain, its compact round pendant carries a sense of depth that changes as it turns. The white-gold version makes those edges and shadows the central event, with the lettering around the rim adding a graphic border. It is a useful study in how a necklace can feel architectural without becoming large. Give it a quiet background and let the small volume do the work, especially when the rest of an outfit favors clean lines.",
+      "facts": [
+        "A small round pendant in 18K white gold.",
+        "The B.zero1 layered profile and BVLGARI lettering frame an open center.",
+        "Approximately 1.5 cm pendant height; chain positions at 38, 41.5 and 45 cm."
+      ],
+      "priceContextEn": "Official U.S. product page · checked 19 October 2026",
+      "priceRange": "US$4,750, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-04",
+        "mag-11"
+      ]
+    },
+    {
+      "id": "chanel-coco-crush-necklace-small-beige-gold-j12306",
+      "brand": "chanel",
+      "category": "necklace",
+      "name": "Coco Crush necklace, small version, 18K BEIGE GOLD",
+      "nameZh": "香奈儿 Coco Crush 小号米色金项链",
+      "parentItem": "coco-crush",
+      "reference": "J12306",
+      "color": "BEIGE GOLD",
+      "sizes": [
+        "Small version",
+        "Adjustable chain with four extension loops"
+      ],
+      "materials": [
+        "18K BEIGE GOLD"
+      ],
+      "priceUSD": 3000,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceStatus": "live",
+      "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $3,000 for J12306, small version, in 18K BEIGE GOLD.",
+      "sourceSnapshotNote": "Official U.S. page retrieved through web.open on the check date; direct curl HTML was blocked. The readable page describes four extension loops without a numeric chain length.",
+      "source": "https://www.chanel.com/us/fine-jewelry/p/J12306/coco-crush-necklace/",
+      "image": "assets/img/products/necklace-chanel-coco-crush-small-beige-gold-j12306.jpg",
+      "imageSource": "https://www.chanel.com/videos/player/v1/jit/6057940565001/807a3c10-e019-4b66-8745-8752d19e67bd/main/1920x1080/12s500ms/match/image.jpg",
+      "imageCredit": "© CHANEL, official product imagery",
+      "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand. This JPEG is the official static product-video poster linked from the exact product page.",
+      "imageWidth": 1080,
+      "imageHeight": 1080,
+      "introEn": "Coco Crush translates the visual softness of quilting into a small, sculptural pendant. Across its rounded surface, crossing lines create a pattern that feels familiar without needing a large emblem. The BEIGE GOLD tone adds another point of interest: compare it with the metals already in your wardrobe and notice the difference in color. This is a necklace to approach through texture and proportion. A quiet neckline gives the compact form room to show how much character can live within a small amount of space.",
+      "featuresEn": [
+        "A small quilted-motif pendant in 18K BEIGE GOLD.",
+        "Crossing incisions and a rounded profile define the surface.",
+        "The snap-hook clasp works with four extension loops."
+      ],
+      "stylingEn": "Try it with a soft ivory blouse or a plain black knit. Keep nearby hardware simple, and choose the chain position that leaves the quilted pendant clear of the fabric edge.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "imageAlt": "Chanel small Coco Crush necklace in BEIGE GOLD, with a rounded quilted pendant.",
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "Coco Crush translates the visual softness of quilting into a small, sculptural pendant.",
+      "story": "Coco Crush translates the visual softness of quilting into a small, sculptural pendant. Across its rounded surface, crossing lines create a pattern that feels familiar without needing a large emblem. The BEIGE GOLD tone adds another point of interest: compare it with the metals already in your wardrobe and notice the difference in color. This is a necklace to approach through texture and proportion. A quiet neckline gives the compact form room to show how much character can live within a small amount of space.",
+      "facts": [
+        "A small quilted-motif pendant in 18K BEIGE GOLD.",
+        "Crossing incisions and a rounded profile define the surface.",
+        "The snap-hook clasp works with four extension loops."
+      ],
+      "priceContextEn": "Official U.S. product page · checked 19 October 2026",
+      "priceRange": "US$3,000, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-04",
+        "mag-11"
+      ]
+    },
+    {
+      "id": "cartier-trinity-classic-ring-size53-b4234253",
+      "brand": "cartier",
+      "category": "jewelry",
+      "name": "Trinity ring, classic model — size 53",
+      "nameZh": "卡地亚 Trinity 经典三色金戒指 53号",
+      "parentItem": "trinity",
+      "reference": "B4234253 (family B4234200)",
+      "color": "White, rose and yellow gold",
+      "sizes": [
+        "Cartier ring size 53"
+      ],
+      "materials": [
+        "18K white gold (750/1000)",
+        "18K rose gold (750/1000)",
+        "18K yellow gold (750/1000)"
+      ],
+      "priceUSD": 2350,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceStatus": "live",
+      "priceEvidence": "Live official U.S. HTML JSON-LD identifies exact selected SKU CRB4234253 and an Offer of USD 2350.00. The page names the classic model and the three 18K gold colors.",
+      "sourceSnapshotNote": "Direct official HTML retrieved on the check date. The page quotes band width for size 52, so that measurement is not assigned to the selected size 53.",
+      "source": "https://www.cartier.com/en-us/jewelry/rings/trinity/trinity-ring-classic-model-CRB4234253.html",
+      "image": "assets/img/products/jewelry-cartier-trinity-classic-53-b4234253.jpg",
+      "imageSource": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw3dd0fb78/images/large/238dc62dc9b25322aedd24454d6959f6.png?sw=750&sh=750&sm=fit&sfrm=png",
+      "imageCredit": "© Cartier, official product imagery",
+      "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand.",
+      "imageWidth": 750,
+      "imageHeight": 750,
+      "introEn": "Trinity makes color and movement inseparable. Three rings share one space, so the composition changes as their positions shift; each gold tone appears, disappears and returns. That quality makes the ring interesting beyond its familiar silhouette. Look at it from above, then from the side, and notice how the gaps contribute as much as the metal. For someone building a mixed-metal wardrobe, it also offers a thoughtful point of connection between pieces that might otherwise feel unrelated, without requiring every accessory to match.",
+      "featuresEn": [
+        "Three intertwined, moving rings.",
+        "18K white, rose and yellow gold in one design.",
+        "Classic model; selected U.S. reference B4234253 is size 53."
+      ],
+      "stylingEn": "Let Trinity connect a yellow-gold necklace with a white-metal watch. Give the neighboring fingers some space, and try its moving structure in person to find the fit you prefer.",
+      "born": 1924,
+      "designer": "Louis Cartier",
+      "imageAlt": "Cartier Trinity classic ring with intertwined white-gold, yellow-gold and rose-gold bands.",
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "Trinity makes color and movement inseparable.",
+      "story": "Trinity makes color and movement inseparable. Three rings share one space, so the composition changes as their positions shift; each gold tone appears, disappears and returns. That quality makes the ring interesting beyond its familiar silhouette. Look at it from above, then from the side, and notice how the gaps contribute as much as the metal. For someone building a mixed-metal wardrobe, it also offers a thoughtful point of connection between pieces that might otherwise feel unrelated, without requiring every accessory to match.",
+      "facts": [
+        "Three intertwined, moving rings.",
+        "18K white, rose and yellow gold in one design.",
+        "Classic model; selected U.S. reference B4234253 is size 53."
+      ],
+      "priceContextEn": "Official U.S. product page · checked 19 October 2026",
+      "priceRange": "US$2,350, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-03",
+        "mag-05",
+        "mag-10"
+      ]
+    },
+    {
+      "id": "tiffany-hardwear-small-link-medium-silver-60153085",
+      "brand": "tiffany",
+      "category": "jewelry",
+      "name": "Tiffany HardWear Small Link Bracelet in Sterling Silver, Medium",
+      "nameZh": "蒂芙尼 HardWear 小号链节纯银手链 中号腕围",
+      "parentItem": null,
+      "reference": "60153085",
+      "color": "Silver",
+      "sizes": [
+        "Small link scale",
+        "Medium wrist size",
+        "7.5 in long",
+        "Listed wrist circumference: 5.76–6.25 in (14.6–15.9 cm)"
+      ],
+      "materials": [
+        "Sterling silver"
+      ],
+      "priceUSD": 1600,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceStatus": "live",
+      "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $1,600 with Sterling Silver and Medium selected. It specifies small links and 7.5 inch overall length.",
+      "sourceSnapshotNote": "Official U.S. page retrieved through web.open on the check date. Overall bracelet length and the brand’s suggested wrist circumference are recorded separately.",
+      "source": "https://www.tiffany.com/jewelry/bracelets/tiffany-hardwear-sterling-silver-bracelets-60153085.html",
+      "image": "assets/img/products/jewelry-tiffany-hardwear-small-link-medium-silver-60153085.webp",
+      "imageSource": "https://media.tiffany.com/is/image/tco/60153085_BLT_MAIN1X1?fmt=webp&hei=2000&wid=2000",
+      "imageCredit": "© Tiffany & Co., official product imagery",
+      "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand.",
+      "imageWidth": 2000,
+      "imageHeight": 2000,
+      "introEn": "A chain bracelet becomes especially engaging when its individual links have a clear identity. HardWear uses that repetition to create a steady rhythm around the wrist, with the open spaces keeping the pattern readable. In silver, the changing reflections can feel as graphic as the shape itself. The small-link scale is a good place to study the design: notice where each link meets the next and how the closure joins the sequence. It brings a deliberate detail to clothes that otherwise rely on simple, familiar proportions.",
+      "featuresEn": [
+        "Sterling silver with the HardWear gauge-link pattern.",
+        "Small link scale; medium wrist size.",
+        "7.5 inch overall length, with a listed wrist range of 5.76–6.25 inches."
+      ],
+      "stylingEn": "Roll a shirt cuff just above the bracelet so the link rhythm stays visible. Pair it with a plain ring, or leave that wrist as the only silver accent in the outfit.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "imageAlt": "Tiffany HardWear small gauge-link bracelet in sterling silver, medium wrist size.",
+      "referenceEvidence": "60153085; manufacturer SKUs 38086855 / 60964858 / 75055579",
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "A chain bracelet becomes especially engaging when its individual links have a clear identity.",
+      "story": "A chain bracelet becomes especially engaging when its individual links have a clear identity. HardWear uses that repetition to create a steady rhythm around the wrist, with the open spaces keeping the pattern readable. In silver, the changing reflections can feel as graphic as the shape itself. The small-link scale is a good place to study the design: notice where each link meets the next and how the closure joins the sequence. It brings a deliberate detail to clothes that otherwise rely on simple, familiar proportions.",
+      "facts": [
+        "Sterling silver with the HardWear gauge-link pattern.",
+        "Small link scale; medium wrist size.",
+        "7.5 inch overall length, with a listed wrist range of 5.76–6.25 inches."
+      ],
+      "priceContextEn": "Official U.S. product page · checked 19 October 2026",
+      "priceRange": "US$1,600, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-03",
+        "mag-05",
+        "mag-10"
+      ]
+    },
+    {
+      "id": "bulgari-serpenti-viper-ring-rose-gold-45-46-362140",
+      "brand": "bulgari",
+      "category": "jewelry",
+      "name": "Serpenti Viper Ring — rose gold, size 45–46",
+      "nameZh": "宝格丽 Serpenti Viper 玫瑰金单圈灵蛇戒指 45–46号",
+      "parentItem": "serpenti",
+      "reference": "362140",
+      "color": "Pink / rose gold",
+      "sizes": [
+        "45–46"
+      ],
+      "materials": [
+        "18K rose gold"
+      ],
+      "priceUSD": 2790,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceStatus": "official-snapshot",
+      "priceEvidence": "Official U.S. product page returned by web.open shows $2,790.00 excluding taxes for ref. 362140 in size 45–46. The response is labelled Crawled: 3 months ago and states that price may vary with size.",
+      "sourceSnapshotNote": "Official U.S. page snapshot labelled “Crawled: 3 months ago”; retrieved 2026-10-19. No more precise crawl date was provided. A fresh transaction-time price was not verified.",
+      "source": "https://www.bulgari.com/en-us/product/362140",
+      "image": "assets/img/products/jewelry-bulgari-serpenti-viper-rose-gold-45-46-362140.png",
+      "imageSource": "https://media.bulgari.com/image/upload/c_fill%2Ch_1090%2Cw_727/q_auto/f_auto/1715396.png",
+      "imageCredit": "© Bvlgari, official product imagery",
+      "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand. The official on-model image demonstrates the selected design; the model’s worn ring circumference cannot be determined from a photograph.",
+      "imageWidth": 727,
+      "imageHeight": 1090,
+      "introEn": "Serpenti Viper gives a familiar animal motif a disciplined, geometric rhythm. The ring curves around the finger while its repeated sections let light break into a sequence of small planes. In this plain rose-gold version, the shape carries the expression. It is an interesting choice for a jewelry wardrobe that favors one recognizable detail at a time: turn the hand, change the angle, and the outline becomes the focus. Consider the ring as a compact sculptural element when balancing the volume of sleeves, cuffs and other accessories.",
+      "featuresEn": [
+        "A one-coil Serpenti Viper design in 18K rose gold.",
+        "Selected reference 362140 corresponds to size 45–46.",
+        "The official page states that this reference is not resizable."
+      ],
+      "stylingEn": "Let the coil stand alone on one finger, with a plain cuff or a clean sleeve nearby. Compare the rose tone with your usual metals before deciding how much to repeat it.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "imageAlt": "Official Bvlgari model wearing a plain rose-gold Serpenti Viper one-coil ring.",
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "Serpenti Viper gives a familiar animal motif a disciplined, geometric rhythm.",
+      "story": "Serpenti Viper gives a familiar animal motif a disciplined, geometric rhythm. The ring curves around the finger while its repeated sections let light break into a sequence of small planes. In this plain rose-gold version, the shape carries the expression. It is an interesting choice for a jewelry wardrobe that favors one recognizable detail at a time: turn the hand, change the angle, and the outline becomes the focus. Consider the ring as a compact sculptural element when balancing the volume of sleeves, cuffs and other accessories.",
+      "facts": [
+        "A one-coil Serpenti Viper design in 18K rose gold.",
+        "Selected reference 362140 corresponds to size 45–46.",
+        "The official page states that this reference is not resizable."
+      ],
+      "priceContextEn": "Official page snapshot · reported crawled 3 months earlier; reviewed 19 October 2026",
+      "priceRange": "US$2,790, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-03",
+        "mag-05",
+        "mag-10"
+      ]
+    },
+    {
+      "id": "chanel-coco-crush-ring-mini-beige-gold-j11785",
+      "brand": "chanel",
+      "category": "jewelry",
+      "name": "Coco Crush ring, mini version, 18K BEIGE GOLD",
+      "nameZh": "香奈儿 Coco Crush 迷你款米色金戒指",
+      "parentItem": "coco-crush",
+      "reference": "J11785",
+      "color": "BEIGE GOLD",
+      "sizes": [
+        "Mini band profile; choose finger size with the brand"
+      ],
+      "materials": [
+        "18K BEIGE GOLD"
+      ],
+      "priceUSD": 1900,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceStatus": "live",
+      "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $1,900 for J11785, mini version, in 18K BEIGE GOLD. It does not expose a selected finger circumference.",
+      "sourceSnapshotNote": "Official U.S. page retrieved through web.open on the check date. Price is attached to the mini material/model reference; no circumference-specific variant was available in the readable page.",
+      "source": "https://www.chanel.com/us/fine-jewelry/p/J11785/coco-crush-ring/",
+      "image": "assets/img/products/jewelry-chanel-coco-crush-mini-beige-gold-j11785.jpg",
+      "imageSource": "https://www.chanel.com/videos/player/v1/static/6057940565001/f7b00180-1b5b-4fad-94d2-7825cd8bd580/f1d12d3f-5e27-4a34-b8d0-a23fb1b64872/1920x1080/match/image.jpg",
+      "imageCredit": "© CHANEL, official product imagery",
+      "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand. This JPEG is the official static product-video poster linked from the exact product page.",
+      "imageWidth": 1080,
+      "imageHeight": 1080,
+      "introEn": "The mini Coco Crush ring offers a close reading of the collection’s surface. Its crossing lines divide the band into small curved sections, letting a familiar textile reference become a piece of jewelry with its own presence. BEIGE GOLD keeps the color conversation subtle, especially beside pale fabrics or other warm metals. A narrow band can still carry a strong idea; here, the interest comes from the way the pattern continues around the finger. Try it alone first, then consider what another ring would add to that rhythm.",
+      "featuresEn": [
+        "The mini version in 18K BEIGE GOLD.",
+        "A quilted motif formed by crossing incisions.",
+        "A rounded profile and scalloped edges are collection design details."
+      ],
+      "stylingEn": "Start with one ring and let the quilted surface show against a simple cuff. For a layered look, compare band scales in person and leave enough room for comfortable finger movement.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "imageAlt": "Chanel mini Coco Crush ring in BEIGE GOLD with crossing quilted incisions.",
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "The mini Coco Crush ring offers a close reading of the collection’s surface.",
+      "story": "The mini Coco Crush ring offers a close reading of the collection’s surface. Its crossing lines divide the band into small curved sections, letting a familiar textile reference become a piece of jewelry with its own presence. BEIGE GOLD keeps the color conversation subtle, especially beside pale fabrics or other warm metals. A narrow band can still carry a strong idea; here, the interest comes from the way the pattern continues around the finger. Try it alone first, then consider what another ring would add to that rhythm.",
+      "facts": [
+        "The mini version in 18K BEIGE GOLD.",
+        "A quilted motif formed by crossing incisions.",
+        "A rounded profile and scalloped edges are collection design details."
+      ],
+      "priceContextEn": "Official U.S. product page · checked 19 October 2026",
+      "priceRange": "US$1,900, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-03",
+        "mag-05",
+        "mag-10"
+      ]
+    },
+    {
+      "id": "cartier-tank-must-small-wsta0135",
+      "brand": "cartier",
+      "category": "watches",
+      "name": "Tank Must de Cartier, Small, Steel and Black Calfskin",
+      "nameZh": "卡地亚 Tank Must 小号精钢黑色小牛皮腕表 WSTA0135",
+      "parentItem": "tank",
+      "reference": "WSTA0135",
+      "color": "Silvered dial / black strap",
+      "sizes": [
+        "29.5 × 22 mm case",
+        "6.6 mm thickness"
+      ],
+      "materials": [
+        "Steel case and buckle",
+        "Grained calfskin strap",
+        "Blued-steel hands",
+        "Synthetic spinel crown stone"
+      ],
+      "priceUSD": 3750,
+      "priceStatus": "live",
+      "priceEvidence": "Live official U.S. product HTML: Product JSON-LD SKU CRWSTA0135 has offers.price 3750.00 and priceCurrency USD. The product description specifies the small steel watch with black grained calfskin strap.",
+      "source": "https://www.cartier.com/en-us/watches/collections/tank/tank-must-de-cartier-watch-CRWSTA0135.html",
+      "image": "assets/img/products/watches-cartier-tank-crwsta0135.jpg",
+      "imageWidth": 750,
+      "imageHeight": 750,
+      "introEn": "The small Tank Must gives a tailored wardrobe a quiet point of focus. Its narrow steel frame, silvered dial and blue hands create enough contrast to read as jewelry without needing a large case. On this reference, black grained calfskin keeps the silhouette crisp and familiar. The appeal is in proportion: a compact rectangle that sits comfortably within the visual language of a shirt cuff, a fine knit or a simple evening sleeve. Choose it for its line and restraint.",
+      "featuresEn": [
+        "Small rectangular steel case measuring 29.5 × 22 mm.",
+        "High Autonomy quartz movement with blued-steel sword hands.",
+        "Black grained calfskin strap secured by a steel pin buckle."
+      ],
+      "stylingEn": "Wear it with a white shirt and charcoal trousers, leaving the wrist free of bulky bracelets. A close, comfortable strap fit helps the small case look deliberate with relaxed clothing.",
+      "born": 1917,
+      "designer": "Louis Cartier (Tank family)",
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "imageSource": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw69a3a317/images/large/401b3628e15a551bbd56c247eb73da86.png?sw=750&sh=750&sm=fit&sfrm=png",
+      "imageCredit": "© Cartier, official product imagery",
+      "imageRightsNote": "Official product image supplied on the brand’s public product page. No open reuse license or redistribution grant was identified; copyright remains with the rights holder.",
+      "imageMime": "image/jpeg",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "productLimitations": [],
+      "introWordCount": 80,
+      "stylingWordCount": 30,
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "The small Tank Must gives a tailored wardrobe a quiet point of focus.",
+      "story": "The small Tank Must gives a tailored wardrobe a quiet point of focus. Its narrow steel frame, silvered dial and blue hands create enough contrast to read as jewelry without needing a large case. On this reference, black grained calfskin keeps the silhouette crisp and familiar. The appeal is in proportion: a compact rectangle that sits comfortably within the visual language of a shirt cuff, a fine knit or a simple evening sleeve. Choose it for its line and restraint.",
+      "facts": [
+        "Small rectangular steel case measuring 29.5 × 22 mm.",
+        "High Autonomy quartz movement with blued-steel sword hands.",
+        "Black grained calfskin strap secured by a steel pin buckle."
+      ],
+      "priceContextEn": "Official U.S. product page · checked 19 October 2026",
+      "priceRange": "US$3,750, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-09"
+      ]
+    },
+    {
+      "id": "cartier-santos-medium-wssa0029",
+      "brand": "cartier",
+      "category": "watches",
+      "name": "Santos de Cartier, Medium, Steel, Silvered Opaline Dial",
+      "nameZh": "卡地亚 Santos 中号精钢银色乳白表盘腕表 WSSA0029",
+      "parentItem": null,
+      "reference": "WSSA0029",
+      "color": "Silvered opaline dial / steel bracelet",
+      "sizes": [
+        "35.1 mm case width"
+      ],
+      "materials": [
+        "Steel case and bracelet",
+        "Calfskin alternative strap",
+        "Sapphire crystal",
+        "Synthetic spinel crown stone"
+      ],
+      "priceUSD": 8400,
+      "priceStatus": "live",
+      "priceEvidence": "Live official U.S. product HTML: Product JSON-LD SKU CRWSSA0029 lists offers.price 8400.00, priceCurrency USD. Product text identifies the medium automatic steel watch, 35.1 mm case width, with metal bracelet and second calfskin bracelet.",
+      "source": "https://www.cartier.com/en-us/watches/collections/santos-de-cartier/santos-de-cartier-watch-CRWSSA0029.html",
+      "image": "assets/img/products/watches-cartier-santos-crwssa0029.jpg",
+      "imageWidth": 750,
+      "imageHeight": 750,
+      "introEn": "The medium Santos makes a strong case for a watch as part of the outfit. Visible screws and a square bezel give the steel bracelet an architectural rhythm, while the pale Roman numeral dial brings a dressier counterpoint. This reference keeps the case width to 35.1 mm and pairs an automatic movement with interchangeable bracelet options. It feels visually assured beside tailoring, but the brushed metal also works with denim. The interest comes from the balance of hard edges and rounded corners.",
+      "featuresEn": [
+        "Automatic manufacture movement, caliber 1847 MC.",
+        "35.1 mm steel case with a silvered opaline dial and sapphire crystal.",
+        "SmartLink steel bracelet plus a calfskin alternative, using QuickSwitch."
+      ],
+      "stylingEn": "Pair the steel bracelet with an open collar and straight jeans, or let it peek from a blazer cuff. Keep nearby jewelry simple so the bezel and bracelet remain legible.",
+      "born": 1904,
+      "designer": "Louis Cartier (Santos family)",
+      "productLimitations": [
+        "The source gives case thickness as 8.83 mm in descriptive text and 8.82 mm in its technical panel; thickness is omitted here rather than choosing between conflicting fields."
+      ],
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "imageSource": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwf0220830/images/large/b66edd509d8d5796a5828ef84e9d3586.png?sw=750&sh=750&sm=fit&sfrm=png",
+      "imageCredit": "© Cartier, official product imagery",
+      "imageRightsNote": "Official product image supplied on the brand’s public product page. No open reuse license or redistribution grant was identified; copyright remains with the rights holder.",
+      "imageMime": "image/jpeg",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "introWordCount": 82,
+      "stylingWordCount": 30,
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "The medium Santos makes a strong case for a watch as part of the outfit.",
+      "story": "The medium Santos makes a strong case for a watch as part of the outfit. Visible screws and a square bezel give the steel bracelet an architectural rhythm, while the pale Roman numeral dial brings a dressier counterpoint. This reference keeps the case width to 35.1 mm and pairs an automatic movement with interchangeable bracelet options. It feels visually assured beside tailoring, but the brushed metal also works with denim. The interest comes from the balance of hard edges and rounded corners.",
+      "facts": [
+        "Automatic manufacture movement, caliber 1847 MC.",
+        "35.1 mm steel case with a silvered opaline dial and sapphire crystal.",
+        "SmartLink steel bracelet plus a calfskin alternative, using QuickSwitch."
+      ],
+      "priceContextEn": "Official U.S. product page · checked 19 October 2026",
+      "priceRange": "US$8,400, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-09"
+      ]
+    },
+    {
+      "id": "hermes-cape-cod-41-etoupe-w044350ww00",
+      "brand": "hermes",
+      "category": "watches",
+      "name": "Cape Cod Watch, 41 mm, Steel and Étoupe Swift Calfskin",
+      "nameZh": "爱马仕 Cape Cod 41毫米精钢大象灰 Swift 小牛皮腕表 W044350WW00",
+      "parentItem": null,
+      "reference": "W044350WW00",
+      "color": "Opaline silvered dial / étoupe strap",
+      "sizes": [
+        "41 mm lug-to-lug height",
+        "33 mm case width"
+      ],
+      "materials": [
+        "Steel case and pin buckle",
+        "Swift calfskin strap",
+        "Anti-glare sapphire crystal"
+      ],
+      "priceUSD": 4150,
+      "priceStatus": "official-snapshot",
+      "priceEvidence": "Official U.S. product page returned by Web open displays $4,150 with Extra Large and Étoupe selected, reference W044350WW00; its details give 41 mm lug-to-lug height and 33 mm width.",
+      "sourceSnapshotNote": "Official U.S. page snapshot accessed on 2026-10-19; the retrieval source reported “Crawled: last week”. Direct static HTML access returned HTTP 403. Price has not been confirmed at checkout.",
+      "source": "https://www.hermes.com/us/en/product/cape-cod-watch-41mm-W044350WW00/",
+      "image": "assets/img/products/watches-hermes-cape-cod-w044350ww00.jpg",
+      "imageWidth": 800,
+      "imageHeight": 800,
+      "introEn": "Cape Cod softens a rectangular watch with curved steel outlines and gently drawn numerals. The étoupe strap makes the contrast especially easy to place in a wardrobe of stone, cream and brown. This 41 mm version uses an opaline silvered dial, a date window and a single leather strap, giving the design a more expansive presence than its smaller relatives. Henri d’Origny’s original family dates to 1991; here, the pleasure is still the unusual frame and the warmth of visible leather grain.",
+      "featuresEn": [
+        "Steel case measures 41 mm from lug to lug and 33 mm across.",
+        "Swiss quartz movement displays hours, minutes, seconds and date.",
+        "Étoupe Swift calfskin single-tour strap with a steel pin buckle."
+      ],
+      "stylingEn": "Try it beside a camel overshirt or an oatmeal knit, where the taupe strap can echo the clothing. Follow Hermès’ instruction to keep the leather watch away from water.",
+      "born": 1991,
+      "designer": "Henri d’Origny",
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "imageSource": "https://assets.hermes.com/is/image/hermesproduct/cape-cod-watch-41mm--044350WW00-front-1-300-0-800-800_g.jpg",
+      "imageCredit": "© Hermès, official product imagery",
+      "imageRightsNote": "Official product image supplied on the brand’s public product page. No open reuse license or redistribution grant was identified; copyright remains with the rights holder.",
+      "imageMime": "image/jpeg",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "productLimitations": [],
+      "introWordCount": 82,
+      "stylingWordCount": 29,
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "Cape Cod softens a rectangular watch with curved steel outlines and gently drawn numerals.",
+      "story": "Cape Cod softens a rectangular watch with curved steel outlines and gently drawn numerals. The étoupe strap makes the contrast especially easy to place in a wardrobe of stone, cream and brown. This 41 mm version uses an opaline silvered dial, a date window and a single leather strap, giving the design a more expansive presence than its smaller relatives. Henri d’Origny’s original family dates to 1991; here, the pleasure is still the unusual frame and the warmth of visible leather grain.",
+      "facts": [
+        "Steel case measures 41 mm from lug to lug and 33 mm across.",
+        "Swiss quartz movement displays hours, minutes, seconds and date.",
+        "Étoupe Swift calfskin single-tour strap with a steel pin buckle."
+      ],
+      "priceContextEn": "Official page snapshot · reported crawled the previous week; reviewed 19 October 2026",
+      "priceRange": "US$4,150, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-09"
+      ]
+    },
+    {
+      "id": "hermes-heure-h-medium-etoupe-w404223ww00",
+      "brand": "hermes",
+      "category": "watches",
+      "name": "Heure H Watch, Medium, 30 mm, Steel and Étoupe Swift Calfskin",
+      "nameZh": "爱马仕 Heure H H字腕表中号30毫米大象灰小牛皮 W404223WW00",
+      "parentItem": null,
+      "reference": "W404223WW00",
+      "color": "Opaline silvered dial / étoupe strap",
+      "sizes": [
+        "30 mm lug-to-lug height",
+        "26 mm case width"
+      ],
+      "materials": [
+        "Steel case and pin buckle",
+        "Swift calfskin strap",
+        "Anti-glare sapphire crystal"
+      ],
+      "priceUSD": 4000,
+      "priceStatus": "official-snapshot",
+      "priceEvidence": "Official U.S. product page returned by Web open displays $4,000 with Medium and Étoupe selected, reference W404223WW00; it specifies a steel case, quartz movement and Swift calfskin strap.",
+      "sourceSnapshotNote": "Official U.S. page snapshot accessed on 2026-10-19; the retrieval source reported “Crawled: last week”. Price has not been confirmed through live raw HTML or checkout.",
+      "source": "https://www.hermes.com/us/en/product/heure-h-watch-medium-model-30mm-W404223WW00/",
+      "image": "assets/img/products/watches-hermes-heure-h-w404223ww00.jpg",
+      "imageWidth": 800,
+      "imageHeight": 800,
+      "introEn": "Heure H turns an initial into a wearable frame. The case carries the graphic idea, leaving the silvered dial and two hands to do very little else. In steel with an étoupe Swift calfskin strap, this medium version feels more like a considered accessory than an oversized statement. Philippe Mouquet designed the family in 1996, and the letter remains its clearest signature. Look closely at the open ends of the H: they give the otherwise simple rectangle a distinctly playful outline.",
+      "featuresEn": [
+        "Medium steel case: 30 mm lug-to-lug height and 26 mm width.",
+        "Swiss quartz movement displays hours and minutes.",
+        "Opaline silvered dial with a rhodium-plated raised frame."
+      ],
+      "stylingEn": "Use it as a small graphic accent with a cream blouse, a sleeveless dress or a fine cardigan. The neutral leather is easy to repeat in a belt or shoes.",
+      "born": 1996,
+      "designer": "Philippe Mouquet",
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "imageSource": "https://assets.hermes.com/is/image/hermesproduct/heure-h-watch-medium-model-30mm--404223WW00-front-wm-1-0-0-800-800_g.jpg",
+      "imageCredit": "© Hermès, official product imagery",
+      "imageRightsNote": "Official product image supplied on the brand’s public product page. No open reuse license or redistribution grant was identified; copyright remains with the rights holder.",
+      "imageMime": "image/jpeg",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "productLimitations": [],
+      "introWordCount": 81,
+      "stylingWordCount": 30,
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "Heure H turns an initial into a wearable frame.",
+      "story": "Heure H turns an initial into a wearable frame. The case carries the graphic idea, leaving the silvered dial and two hands to do very little else. In steel with an étoupe Swift calfskin strap, this medium version feels more like a considered accessory than an oversized statement. Philippe Mouquet designed the family in 1996, and the letter remains its clearest signature. Look closely at the open ends of the H: they give the otherwise simple rectangle a distinctly playful outline.",
+      "facts": [
+        "Medium steel case: 30 mm lug-to-lug height and 26 mm width.",
+        "Swiss quartz movement displays hours and minutes.",
+        "Opaline silvered dial with a rhodium-plated raised frame."
+      ],
+      "priceContextEn": "Official page snapshot · reported crawled the previous week; reviewed 19 October 2026",
+      "priceRange": "US$4,000, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-09"
+      ]
+    },
+    {
+      "id": "dior-jadore-edp-100ml-c099800246",
+      "brand": "dior",
+      "category": "fragrance",
+      "name": "J’adore Eau de Parfum, 100 ml / 3.4 oz",
+      "nameZh": "迪奥真我香水浓香水100毫升 J’adore EDP",
+      "parentItem": null,
+      "reference": "C099800246",
+      "color": "Golden fragrance / clear amphora bottle",
+      "sizes": [
+        "100 ml / 3.4 oz"
+      ],
+      "materials": [
+        "Eau de Parfum",
+        "Ylang-ylang, Damascus rose and jasmine notes"
+      ],
+      "priceUSD": 185,
+      "priceStatus": "live",
+      "priceEvidence": "Live Dior U.S. HTML ProductGroup JSON-LD has variant SKU C099800246, size 100_00_ml, offers.price 185 and priceCurrency USD. The visible selected size is 3.4 oz at $185.00.",
+      "source": "https://www.dior.com/en_us/beauty/products/j%E2%80%99adore-eau-de-parfum-Y0998031.html",
+      "image": "assets/img/products/fragrance-dior-jadore-edp-100ml.jpg",
+      "imageWidth": 1800,
+      "imageHeight": 1200,
+      "introEn": "J’adore suits a fragrance wardrobe built around flowers rather than a single signature note. The Eau de Parfum brings ylang-ylang, rose and two jasmine varieties into one bouquet, while its rounded amphora bottle supplies the visual drama. This is the 100 ml spray, with the tall gold-toned neck shown in the current official photograph. Consider it alongside silk, a fluid dress or a beautifully cut shirt: clothing that lets a floral scent become part of the overall mood.",
+      "featuresEn": [
+        "Eau de Parfum spray in the 100 ml / 3.4 oz size.",
+        "Declared floral notes include ylang-ylang and Damascus rose.",
+        "The composition pairs jasmine grandiflorum with jasmine sambac."
+      ],
+      "stylingEn": "Sample the Eau de Parfum on skin before choosing a full bottle, then revisit it later in the day. Let the bouquet complement an occasion without assuming a fixed wear time.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "imageSource": "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dwe7f532f9/Y0998031/Y0998031_C099800246_E01_ZHC.jpg?sw=1800",
+      "imageCredit": "© Dior, official product imagery",
+      "imageRightsNote": "Official product image supplied on the brand’s public product page. No open reuse license or redistribution grant was identified; copyright remains with the rights holder.",
+      "imageMime": "image/jpeg",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "productLimitations": [
+        "Named notes and accords describe the brand’s scent profile, not the complete formula; projection and wear time were not tested."
+      ],
+      "introWordCount": 78,
+      "stylingWordCount": 31,
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "J’adore suits a fragrance wardrobe built around flowers rather than a single signature note.",
+      "story": "J’adore suits a fragrance wardrobe built around flowers rather than a single signature note. The Eau de Parfum brings ylang-ylang, rose and two jasmine varieties into one bouquet, while its rounded amphora bottle supplies the visual drama. This is the 100 ml spray, with the tall gold-toned neck shown in the current official photograph. Consider it alongside silk, a fluid dress or a beautifully cut shirt: clothing that lets a floral scent become part of the overall mood.",
+      "facts": [
+        "Eau de Parfum spray in the 100 ml / 3.4 oz size.",
+        "Declared floral notes include ylang-ylang and Damascus rose.",
+        "The composition pairs jasmine grandiflorum with jasmine sambac."
+      ],
+      "priceContextEn": "Official U.S. product page · checked 19 October 2026",
+      "priceRange": "US$185, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-12"
+      ]
+    },
+    {
+      "id": "gucci-bloom-edp-100ml-488830",
+      "brand": "gucci",
+      "category": "fragrance",
+      "name": "Gucci Bloom Eau de Parfum, 100 ml",
+      "nameZh": "古驰繁花香水浓香水100毫升 Gucci Bloom EDP",
+      "parentItem": null,
+      "reference": "488830 99999 0099",
+      "color": "Powder-pink lacquered bottle",
+      "sizes": [
+        "100 ml"
+      ],
+      "materials": [
+        "Eau de Parfum",
+        "Tuberose, jasmine and Rangoon creeper notes"
+      ],
+      "priceUSD": 168,
+      "priceStatus": "live",
+      "priceEvidence": "Live Gucci U.S. product HTML and Product JSON-LD identify SKU 488830999990099, 100ml eau de parfum, offers.price 168.0 and priceCurrency usd. The visible product price is $168.",
+      "source": "https://www.gucci.com/us/en/pr/beauty/fragrances/fragrances-for-women/gucci-bloom-100ml-eau-de-parfum-p-488830999990099",
+      "image": "assets/img/products/fragrance-gucci-bloom-100ml.jpg",
+      "imageWidth": 490,
+      "imageHeight": 490,
+      "introEn": "Gucci Bloom offers a useful starting point for someone drawn to white flowers. Alberto Morillas built the Eau de Parfum around tuberose, jasmine and Rangoon creeper, while the powder-pink bottle makes a softer visual statement than a cut-crystal flacon. This 100 ml edition keeps the presentation simple: straight sides, a plain cap and a framed label. In a personal collection, it can occupy the floral corner without demanding that the rest of the wardrobe become romantic or ornate.",
+      "featuresEn": [
+        "100 ml Eau de Parfum, style 488830 99999 0099.",
+        "Perfumer Alberto Morillas is credited by Gucci.",
+        "Named notes center on tuberose, jasmine and Rangoon creeper."
+      ],
+      "stylingEn": "Try it with a cotton shirt, a simple dress or clean denim. Test a small amount first so you can judge how its floral character develops on your own skin.",
+      "born": "Contemporary collection",
+      "designer": "Alberto Morillas",
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "imageSource": "https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1545327905/488830_99999_0099_001_100_0000_Light-gucci-bloom-100ml-eau-de-parfum.jpg",
+      "imageCredit": "© Gucci, official product imagery",
+      "imageRightsNote": "Official product image supplied on the brand’s public product page. No open reuse license or redistribution grant was identified; copyright remains with the rights holder.",
+      "imageMime": "image/jpeg",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "productLimitations": [
+        "Named notes and accords describe the brand’s scent profile, not the complete formula; projection and wear time were not tested."
+      ],
+      "introWordCount": 78,
+      "stylingWordCount": 30,
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "Gucci Bloom offers a useful starting point for someone drawn to white flowers.",
+      "story": "Gucci Bloom offers a useful starting point for someone drawn to white flowers. Alberto Morillas built the Eau de Parfum around tuberose, jasmine and Rangoon creeper, while the powder-pink bottle makes a softer visual statement than a cut-crystal flacon. This 100 ml edition keeps the presentation simple: straight sides, a plain cap and a framed label. In a personal collection, it can occupy the floral corner without demanding that the rest of the wardrobe become romantic or ornate.",
+      "facts": [
+        "100 ml Eau de Parfum, style 488830 99999 0099.",
+        "Perfumer Alberto Morillas is credited by Gucci.",
+        "Named notes center on tuberose, jasmine and Rangoon creeper."
+      ],
+      "priceContextEn": "Official U.S. product page · checked 19 October 2026",
+      "priceRange": "US$168, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-12"
+      ]
+    },
+    {
+      "id": "prada-paradoxe-edp-90ml-1a1351",
+      "brand": "prada",
+      "category": "fragrance",
+      "name": "Prada Paradoxe Eau de Parfum, 90 ml",
+      "nameZh": "普拉达我本莫测香水浓香水90毫升 Prada Paradoxe EDP",
+      "parentItem": null,
+      "reference": "1A1351_2HDZ_F0Z99_P_ML090",
+      "color": "Pink fragrance / triangular clear bottle",
+      "sizes": [
+        "90 ml"
+      ],
+      "materials": [
+        "Eau de Parfum",
+        "Neroli, amber and white musk accords"
+      ],
+      "priceUSD": 185,
+      "priceStatus": "live",
+      "priceEvidence": "Live Prada United States product page displays $185 for Paradoxe EDP 90 ml, code 1A1351_2HDZ_F0Z99_P_ML090. Its Product JSON-LD gives the same SKU and offers.price 185; the page is the U.S. storefront.",
+      "source": "https://www.prada.com/us/en/p/paradoxe-edp-90-ml/1A1351_2HDZ_F0Z99_P_ML090",
+      "image": "assets/img/products/fragrance-prada-paradoxe-90ml.jpg",
+      "imageWidth": 600,
+      "imageHeight": 750,
+      "introEn": "Paradoxe translates Prada’s triangular emblem into a bottle that rests on its side, with pink liquid and a firm black cap setting up an appealing contrast. The Eau de Parfum follows a floral amber direction: citrus and pear notes lead toward neroli and jasmine, with amber, vanilla and musk in the base. This is the 90 ml bottle shown by Prada’s U.S. store. Its visual character makes sense beside clean tailoring, a structured bag or a sharply chosen piece of color.",
+      "featuresEn": [
+        "90 ml Eau de Parfum, code 1A1351_2HDZ_F0Z99_P_ML090.",
+        "The heart includes neroli, orange blossom and jasmine sambac.",
+        "The base lists amber, benzoin, vanilla and white musk accords."
+      ],
+      "stylingEn": "Make it part of a personal dressing ritual with crisp separates or a simple black dress. Compare it on skin with your other fragrances before deciding on the larger bottle.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "imageSource": "https://www.prada.com/content/dam/pradabkg_products/1/1A1/1A1351/2HDZF0Z99/1A1351_2HDZ_F0Z99_P_ML090_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.600.600.jpg",
+      "imageCredit": "© Prada, official product imagery",
+      "imageRightsNote": "Official product image supplied on the brand’s public product page. No open reuse license or redistribution grant was identified; copyright remains with the rights holder.",
+      "imageMime": "image/jpeg",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "productLimitations": [
+        "Named notes and accords describe the brand’s scent profile, not the complete formula; projection and wear time were not tested."
+      ],
+      "introWordCount": 81,
+      "stylingWordCount": 30,
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "Paradoxe translates Prada’s triangular emblem into a bottle that rests on its side, with pink liquid and a firm black cap setting up an appealing contrast.",
+      "story": "Paradoxe translates Prada’s triangular emblem into a bottle that rests on its side, with pink liquid and a firm black cap setting up an appealing contrast. The Eau de Parfum follows a floral amber direction: citrus and pear notes lead toward neroli and jasmine, with amber, vanilla and musk in the base. This is the 90 ml bottle shown by Prada’s U.S. store. Its visual character makes sense beside clean tailoring, a structured bag or a sharply chosen piece of color.",
+      "facts": [
+        "90 ml Eau de Parfum, code 1A1351_2HDZ_F0Z99_P_ML090.",
+        "The heart includes neroli, orange blossom and jasmine sambac.",
+        "The base lists amber, benzoin, vanilla and white musk accords."
+      ],
+      "priceContextEn": "Official U.S. product page · checked 19 October 2026",
+      "priceRange": "US$185, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-12"
+      ]
+    },
+    {
+      "id": "hermes-terre-edt-338oz-v107188v0",
+      "brand": "hermes",
+      "category": "fragrance",
+      "name": "Terre d’Hermès Eau de Toilette, 3.38 fl oz",
+      "nameZh": "爱马仕大地淡香水3.38盎司 Terre d’Hermès EDT",
+      "parentItem": null,
+      "reference": "V107188V0",
+      "color": "Amber fragrance / clear bottle with black cap",
+      "sizes": [
+        "3.38 fl oz"
+      ],
+      "materials": [
+        "Eau de Toilette",
+        "Grapefruit, cedar and flint notes"
+      ],
+      "priceUSD": 145,
+      "priceStatus": "official-snapshot",
+      "priceEvidence": "Official Hermès U.S. product page returned by Web open displays $145, 3.38 fl.oz selected, and reference V107188V0. The page identifies the concentration as Eau de toilette.",
+      "sourceSnapshotNote": "Official U.S. page snapshot accessed on 2026-10-19; the retrieval source reported “Crawled: today”. Price has not been confirmed through live raw HTML or checkout.",
+      "source": "https://www.hermes.com/us/en/product/terre-d-hermes-eau-de-toilette-V107188V0/",
+      "image": "assets/img/products/fragrance-hermes-terre-edt-v107188v0.jpg",
+      "imageWidth": 800,
+      "imageHeight": 800,
+      "introEn": "Terre d’Hermès brings a drier direction to a fragrance collection. The original Eau de Toilette, created by Jean-Claude Ellena in 2006, places grapefruit beside cedar and a flinty mineral note. Its clear rectangular bottle, dark cap and orange detail have a directness that suits the scent’s stated woody character. This entry follows the 3.38 fl oz U.S. bottle. Think of it as a companion to textured fabrics and simple shapes, especially when a floral composition is not the mood you want.",
+      "featuresEn": [
+        "Eau de Toilette in the selected 3.38 fl oz size.",
+        "Jean-Claude Ellena created the fragrance in 2006.",
+        "Hermès names grapefruit, cedar and flint as its main notes."
+      ],
+      "stylingEn": "Try it with a linen shirt, a wool jacket or understated weekend layers. Give a skin sample time to develop before judging its balance; individual wear varies.",
+      "born": 2006,
+      "designer": "Jean-Claude Ellena (fragrance); Philippe Mouquet (bottle)",
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "imageSource": "https://assets.hermes.com/is/image/hermesproduct/terre-d-hermes-eau-de-toilette--107188V0-worn-2-0-0-800-800_g.jpg",
+      "imageCredit": "© Hermès, official product imagery",
+      "imageRightsNote": "Official product image supplied on the brand’s public product page. No open reuse license or redistribution grant was identified; copyright remains with the rights holder.",
+      "imageMime": "image/jpeg",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "productLimitations": [
+        "Named notes and accords describe the brand’s scent profile, not the complete formula; projection and wear time were not tested."
+      ],
+      "introWordCount": 81,
+      "stylingWordCount": 27,
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "Terre d’Hermès brings a drier direction to a fragrance collection.",
+      "story": "Terre d’Hermès brings a drier direction to a fragrance collection. The original Eau de Toilette, created by Jean-Claude Ellena in 2006, places grapefruit beside cedar and a flinty mineral note. Its clear rectangular bottle, dark cap and orange detail have a directness that suits the scent’s stated woody character. This entry follows the 3.38 fl oz U.S. bottle. Think of it as a companion to textured fabrics and simple shapes, especially when a floral composition is not the mood you want.",
+      "facts": [
+        "Eau de Toilette in the selected 3.38 fl oz size.",
+        "Jean-Claude Ellena created the fragrance in 2006.",
+        "Hermès names grapefruit, cedar and flint as its main notes."
+      ],
+      "priceContextEn": "Official page snapshot · reported crawled the same day; reviewed 19 October 2026",
+      "priceRange": "US$145, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-12"
+      ]
     }
   ],
   "articles": [
@@ -1763,7 +3190,7 @@
       "readMins": 7,
       "cover": "assets/img/mag-11.svg",
       "excerpt": "节日快到了，却还没想好送什么？预算只是边界，真正的起点，是对方每天如何穿衣、出门和生活。",
-      "body": "<h2>先回想，对方真正使用什么</h2><p>送礼以前，可以先观察一些很小的线索：对方常戴金色还是银色，出门喜欢轻便还是有分量的配件，是否习惯香味，衣柜里有没有常用丝巾。一个与日常相合的小东西，常常比一个需要对方改变习惯的大东西，更容易留下温暖的记忆。</p><p>下面的预算是整理选择思路的范围，不是任何品牌的实时售价表，也不代表某个具体型号一定能在该范围内购得。涉及单品参考区间时，仅供参考，请以品牌专柜或官方渠道为准。先把心意与预算放稳，再慢慢寻找合适作品。</p><h2>一千元以内，让关心更轻一点</h2><p>这一档可以把视线从大件名品移开，考虑一本设计或工艺书、一份与兴趣有关的小物，或一段提前认真安排的相处时间。若选择香氛，也先确认对方是否喜欢并适合使用气味产品；不熟悉偏好时，让对方参与试闻，比盲选一瓶大容量更体贴。</p><p>包装不必复杂，一张写清楚为什么想到对方的卡片，已经能给礼物增加具体温度。比起写适合所有人的祝福，提起你注意到的某个习惯、某次聊天或共同记忆，会让这件小东西拥有无法被价格代替的来处。</p><h2>一千至五千，把质感放在触手可及处</h2><p>这一档可以观察部分丝质小配件、银饰或香氛的具体型号，但供应与价格会随地区、时间变化，需要实际核实。送丝巾先想颜色是否与衣柜相合；送项链要了解链长偏好；送香水则更适合建立在共同试闻或明确心愿之上。</p><p>如果拿不准尺寸，不必把惊喜当作不能沟通的理由。可以用轻松的方式一起看几种轮廓，再由你完成最后的选择。了解退换条件、是否能调整尺寸与预计交付时间，也属于礼物的一部分；它们让收到以后真正使用的过程更顺畅。</p><h2>五千元以上，给试戴留一点时间</h2><p>预算提高以后，未必需要让礼物体积更大。可以考虑对方明确喜欢的珠宝、腕表或包袋，再按照具体型号核对材料、尺寸与使用方式。这一档尤其适合共同试戴：戒指的环宽、手镯的开合、腕表的贴合，都很难只凭你对对方的了解来替代。</p><p>经典设计可以提供故事，却不能保证人人都喜欢。与其希望某个广为人知的符号自动表达全部心意，不如把选择原因说清楚。你想到的是对方每天上班的样子，还是某个即将开始的新阶段？答案越具体，礼物越容易与真实生活建立联系。</p><h2>把可以继续的照顾，一起送出去</h2><p>留下必要的购买凭证与维护说明，了解适用的售后安排，再用对方舒服的方式交付。别让对方为了证明喜欢而立刻佩戴，也不必在礼物里附上必须珍惜的压力。好的心意允许对方有自己的使用方式，甚至可以坦然说出不合适并一起调整。</p><p>最后，把预算看作帮助选择的边界，把观察看作心意的来源。小小的物件也能装下很长的关心，前提是它与你想到的那个人有关。先把这份清单收好，下次节日前从一个具体问题开始吧：最近的日常里，对方最常提到的需要，是什么？</p>",
+      "body": "<h2>先回想，对方真正使用什么</h2><p>送礼以前，可以先观察一些很小的线索：对方常戴金色还是银色，出门喜欢轻便还是有分量的配件，是否习惯香味，衣柜里有没有常用丝巾。一个与日常相合的小东西，常常比一个需要对方改变习惯的大东西，更容易留下温暖的记忆。</p><p>下面的预算是整理选择思路的范围，不是任何品牌的实时售价表，也不代表某个具体型号一定能在该范围内购得。涉及单品参考区间时，仅供参考，请以品牌专柜或官方渠道为准。先把心意与预算放稳，再慢慢寻找合适作品。</p><h2>US$250 以内，让关心更轻一点</h2><p>这一档可以把视线从大件名品移开，考虑一本设计或工艺书、一份与兴趣有关的小物，或一段提前认真安排的相处时间。若选择香氛，也先确认对方是否喜欢并适合使用气味产品；不熟悉偏好时，让对方参与试闻，比盲选一瓶大容量更体贴。</p><p>包装不必复杂，一张写清楚为什么想到对方的卡片，已经能给礼物增加具体温度。比起写适合所有人的祝福，提起你注意到的某个习惯、某次聊天或共同记忆，会让这件小东西拥有无法被价格代替的来处。</p><h2>US$250–1,000，把质感放在触手可及处</h2><p>这一档可以观察部分丝质小配件、银饰或香氛的具体型号，但供应与价格会随地区、时间变化，需要实际核实。送丝巾先想颜色是否与衣柜相合；送项链要了解链长偏好；送香水则更适合建立在共同试闻或明确心愿之上。</p><p>如果拿不准尺寸，不必把惊喜当作不能沟通的理由。可以用轻松的方式一起看几种轮廓，再由你完成最后的选择。了解退换条件、是否能调整尺寸与预计交付时间，也属于礼物的一部分；它们让收到以后真正使用的过程更顺畅。</p><h2>US$1,000 以上，给试戴留一点时间</h2><p>预算提高以后，未必需要让礼物体积更大。可以考虑对方明确喜欢的珠宝、腕表或包袋，再按照具体型号核对材料、尺寸与使用方式。这一档尤其适合共同试戴：戒指的环宽、手镯的开合、腕表的贴合，都很难只凭你对对方的了解来替代。</p><p>经典设计可以提供故事，却不能保证人人都喜欢。与其希望某个广为人知的符号自动表达全部心意，不如把选择原因说清楚。你想到的是对方每天上班的样子，还是某个即将开始的新阶段？答案越具体，礼物越容易与真实生活建立联系。</p><h2>把可以继续的照顾，一起送出去</h2><p>留下必要的购买凭证与维护说明，了解适用的售后安排，再用对方舒服的方式交付。别让对方为了证明喜欢而立刻佩戴，也不必在礼物里附上必须珍惜的压力。好的心意允许对方有自己的使用方式，甚至可以坦然说出不合适并一起调整。</p><p>最后，把预算看作帮助选择的边界，把观察看作心意的来源。小小的物件也能装下很长的关心，前提是它与你想到的那个人有关。先把这份清单收好，下次节日前从一个具体问题开始吧：最近的日常里，对方最常提到的需要，是什么？</p>",
       "sources": [
         "https://www.tiffany.com/world-of-tiffany/heritage.html",
         "https://www.hermes.com/uk/en/content/235056-six-generations-of-artisans/"
@@ -1782,5 +3209,33 @@
         "https://www.chanel.com/us/fragrance/p/125430/n5-eau-de-parfum-spray/"
       ]
     }
-  ]
+  ],
+  "styleEdit": {
+    "checkedAt": "2026-10-19",
+    "currency": "USD",
+    "products": 24,
+    "perCategory": 4,
+    "limitations": [
+      "U.S. retail references were checked on 2026-10-19 for the exact photographed variants; they are not checkout quotes and may change.",
+      "Four Gucci and Prada prices were verified in directly retrieved official HTML. The Dior page-reader results were labeled crawled today. Hermès was labeled crawled yesterday, and Fendi two weeks earlier; these differences are recorded per product.",
+      "All eight images were downloaded unchanged from observed official image URLs, checked for JPEG magic and dimensions, and visually inspected for the recorded SKU/color.",
+      "Official brand photographs remain copyrighted. Credits and source links are retained; no stock-photo, Creative Commons or other reproduction license is claimed.",
+      "Louis Vuitton candidates were not included because their observed product-image URLs returned access screens in the local request. No retries or browser escalation were used.",
+      "Browser tabs opened for this subtask: 0.",
+      "Prices are U.S. retail references before tax, checked or retrieved on 2026-10-19, and are not purchase quotes or availability guarantees. No currency conversions were used.",
+      "The Bvlgari Serpenti Viper price is from an official snapshot labelled crawled 3 months ago; a fresh transaction-time price was not verified.",
+      "The Chanel U.S. pages verify material and small/mini model scales but do not expose a numeric necklace length or a selected ring circumference. Those values have not been invented.",
+      "Bvlgari B.zero1 chain positions and pendant height come from a same-reference official international page, separate from the U.S. price source.",
+      "All eight files are official product media. The two Chanel JPEGs are static product-video posters and the Serpenti Viper image is an official on-model photograph. Product appearances were not edited.",
+      "No image reuse license or brand affiliation is claimed. Public product-page access and credit do not themselves grant publication rights. Rights clearance for a public site remains unresolved.",
+      "Van Cleef & Arpels was considered, but its readable U.S. product page did not expose the selected product price, so no VCA price was invented.",
+      "Checked on 2026-10-19. Cartier, Dior, Gucci and Prada prices were read from live official U.S. product HTML; three Hermès prices rely on official-page snapshots with the crawl recency stated per item. No prices were converted from another currency.",
+      "The live Cartier product prices supersede older official collection/search snapshots: WSTA0135 is $3,750 in live JSON-LD versus $3,600 in cached collection text; WSSA0029 is $8,400 live versus $7,750 in cached collection text.",
+      "Chanel N°5 Eau de Parfum 3.4 fl oz was considered at an official U.S. page price of $190 but omitted because exact official photo URLs could not be obtained through the allowed static route. U.S. and Singapore HTML requests returned HTTP 403; no browser or access-control workaround was used.",
+      "All eight images were downloaded from observed official product-page image URLs and visually inspected against their named references. They are existing brand photographs, with no AI recreation or appearance editing. The two Cartier endpoints returned JPEG bytes despite PNG URLs; local file extensions correctly use .jpg.",
+      "These are retail references before tax, not checkout quotes, inventory guarantees or resale estimates. Perfume impressions and styling are editorial suggestions; no wear-time, durability or accuracy tests were performed.",
+      "Public availability of an image does not establish a reuse license. Rights-holder attribution and the absence of an identified open license are recorded for every product; no permission to redistribute is asserted.",
+      "Browser tabs opened: 0. No CDP, Playwright or CUA was used."
+    ]
+  }
 }

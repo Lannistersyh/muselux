@@ -1,0 +1,355 @@
+{
+  "categoryNotes": {
+    "necklace": "A neckline changes the way a pendant is read. Explore four distinct approaches to the line, circle and small sculptural volume, with exact material references and U.S. retail prices beside the official product imagery.",
+    "jewelry": "Look closely at the shapes that meet the hand and wrist: interlocking circles, repeating links, a coiled outline and quilted gold. These selected variants make proportion and surface easy to compare."
+  },
+  "products": [
+    {
+      "id": "cartier-love-pendant-yellow-gold-b7014200",
+      "brand": "cartier",
+      "category": "necklace",
+      "name": "LOVE pendant — yellow gold",
+      "nameZh": "卡地亚 LOVE 黄金圆环吊坠项链",
+      "parentItem": "love",
+      "reference": "B7014200",
+      "color": "Yellow gold",
+      "sizes": [
+        "42 cm chain",
+        "23.5 mm outer pendant diameter"
+      ],
+      "materials": [
+        "18K yellow gold (750/1000)"
+      ],
+      "priceUSD": 4300,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceStatus": "live",
+      "priceEvidence": "Live official U.S. HTML JSON-LD identifies CRB7014200 and an Offer of USD 4300.00. The product description lists the 42 cm chain and 23.5 mm outer diameter.",
+      "sourceSnapshotNote": "Direct official HTML retrieved on the check date; this is a point-in-time retail reference.",
+      "source": "https://www.cartier.com/en-us/CRB7014200.html",
+      "image": "assets/img/products/necklace-cartier-love-yellow-gold-b7014200.jpg",
+      "imageSource": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw9f9c9983/images/large/52bad625fa985e66ba501b6180e5e56a.png?sw=750&sh=750&sm=fit&sfrm=png",
+      "imageCredit": "© Cartier, official product imagery",
+      "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand.",
+      "imageWidth": 750,
+      "imageHeight": 750,
+      "introEn": "A circle can be as expressive as a stone. This LOVE pendant makes its impression through the space at its center and the measured rhythm around its edge. From a distance, it reads as a clear golden outline; closer inspection reveals the screws that give the collection its familiar character. That shift in scale is its appeal. The pendant invites a second look while leaving plenty of room for the person wearing it, a useful starting point for a jewelry wardrobe built around strong, simple shapes.",
+      "featuresEn": [
+        "18K yellow gold with the LOVE screw motif.",
+        "A circular pendant with a 23.5 mm outer diameter.",
+        "Supplied on a 42 cm chain."
+      ],
+      "stylingEn": "Frame the circle with an open shirt collar or a plain scoop neckline. Keep other neckwear restrained, then repeat the warm metal with a small pair of hoops or a simple ring.",
+      "born": 1969,
+      "designer": "House design studio",
+      "imageAlt": "Cartier yellow-gold LOVE circular screw-motif pendant on a fine chain."
+    },
+    {
+      "id": "tiffany-t-smile-small-yellow-gold-60011679",
+      "brand": "tiffany",
+      "category": "necklace",
+      "name": "Tiffany T Smile Pendant in Yellow Gold, Small",
+      "nameZh": "蒂芙尼 T Smile 小号黄金微笑项链",
+      "parentItem": "tiffany-t",
+      "reference": "60011679",
+      "color": "Yellow gold",
+      "sizes": [
+        "Small pendant",
+        "16–18 in adjustable chain (40.64–45.72 cm)"
+      ],
+      "materials": [
+        "18K yellow gold"
+      ],
+      "priceUSD": 1400,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceStatus": "live",
+      "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $1,400 with Yellow Gold and Small selected, and lists an adjustable 16–18 inch chain.",
+      "sourceSnapshotNote": "Official U.S. page retrieved through web.open on the check date; direct curl HTML was blocked.",
+      "source": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-t-18k-yellow-gold-necklaces-pendants-60011679.html",
+      "image": "assets/img/products/necklace-tiffany-t-smile-small-yellow-gold-60011679.webp",
+      "imageSource": "https://media.tiffany.com/is/image/tco/60011679_PDT_MAIN1X1?fmt=webp&hei=2000&wid=2000",
+      "imageCredit": "© Tiffany & Co., official product imagery",
+      "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand.",
+      "imageWidth": 2000,
+      "imageHeight": 2000,
+      "introEn": "The Smile pendant treats a small gesture as the whole composition. Its gently lifted curve leaves the neckline visually open, with the T-shaped ends supplying just enough definition to hold the eye. There is no central stone competing with the line, so the effect depends on proportion and placement. Think of it as a fine piece of punctuation: it can finish a simple outfit, establish the first line of a necklace arrangement, or sit quietly beside the textures you already like to wear.",
+      "featuresEn": [
+        "A small curved motif with T-shaped ends.",
+        "18K yellow gold without gemstones in this variant.",
+        "An adjustable 16–18 inch chain."
+      ],
+      "stylingEn": "Wear it above the edge of a simple crewneck or against an open neckline. If adding another pendant, choose a visibly longer chain so the two outlines have space to read.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "imageAlt": "Small Tiffany T Smile pendant in yellow gold, with a curved bar and T-shaped tips.",
+      "referenceEvidence": "60011679; manufacturer SKUs 35189459 / 63843202"
+    },
+    {
+      "id": "bulgari-bzero1-necklace-white-gold-352815",
+      "brand": "bulgari",
+      "category": "necklace",
+      "name": "B.zero1 Necklace — white gold",
+      "nameZh": "宝格丽 B.zero1 白色黄金弹簧项链",
+      "parentItem": "bzero1",
+      "reference": "352815",
+      "color": "White gold",
+      "sizes": [
+        "Small round pendant; height approximately 1.5 cm",
+        "Chain positions: 38 cm / 41.5 cm / 45 cm"
+      ],
+      "materials": [
+        "18K white gold"
+      ],
+      "priceUSD": 4750,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceStatus": "live",
+      "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $4,750.00 excluding taxes for reference 352815 in white gold. Technical dimensions are corroborated by the official same-reference international page.",
+      "sourceSnapshotNote": "U.S. product page retrieved through web.open on the check date; direct curl HTML was blocked. Same-reference dimensional evidence is from an official page snapshot labelled 3 months ago.",
+      "source": "https://www.bulgari.com/en-us/product/352815",
+      "specificationSources": [
+        "https://www.bulgari.com/en-int/jewellery/necklaces/b-zero1-necklace-white-gold-352815"
+      ],
+      "image": "assets/img/products/necklace-bulgari-bzero1-white-gold-352815.png",
+      "imageSource": "https://media.bulgari.com/image/upload/c_fill%2Ch_851%2Cw_1090/q_auto/f_auto/457517.png",
+      "imageCredit": "© Bvlgari, official product imagery",
+      "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand.",
+      "imageWidth": 1090,
+      "imageHeight": 851,
+      "introEn": "B.zero1 rewards a view from the side. Suspended on a fine chain, its compact round pendant carries a sense of depth that changes as it turns. The white-gold version makes those edges and shadows the central event, with the lettering around the rim adding a graphic border. It is a useful study in how a necklace can feel architectural without becoming large. Give it a quiet background and let the small volume do the work, especially when the rest of an outfit favors clean lines.",
+      "featuresEn": [
+        "A small round pendant in 18K white gold.",
+        "The B.zero1 layered profile and BVLGARI lettering frame an open center.",
+        "Approximately 1.5 cm pendant height; chain positions at 38, 41.5 and 45 cm."
+      ],
+      "stylingEn": "Set the pendant against a smooth dark knit to make the white metal legible. Try the available chain positions with your neckline before adding any other necklace or collar detail.",
+      "born": 1999,
+      "designer": "House design studio",
+      "imageAlt": "Bvlgari B.zero1 white-gold round pendant, showing the layered profile and engraved rim."
+    },
+    {
+      "id": "chanel-coco-crush-necklace-small-beige-gold-j12306",
+      "brand": "chanel",
+      "category": "necklace",
+      "name": "Coco Crush necklace, small version, 18K BEIGE GOLD",
+      "nameZh": "香奈儿 Coco Crush 小号米色金项链",
+      "parentItem": "coco-crush",
+      "reference": "J12306",
+      "color": "BEIGE GOLD",
+      "sizes": [
+        "Small version",
+        "Adjustable chain with four extension loops"
+      ],
+      "materials": [
+        "18K BEIGE GOLD"
+      ],
+      "priceUSD": 3000,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceStatus": "live",
+      "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $3,000 for J12306, small version, in 18K BEIGE GOLD.",
+      "sourceSnapshotNote": "Official U.S. page retrieved through web.open on the check date; direct curl HTML was blocked. The readable page describes four extension loops without a numeric chain length.",
+      "source": "https://www.chanel.com/us/fine-jewelry/p/J12306/coco-crush-necklace/",
+      "image": "assets/img/products/necklace-chanel-coco-crush-small-beige-gold-j12306.jpg",
+      "imageSource": "https://www.chanel.com/videos/player/v1/jit/6057940565001/807a3c10-e019-4b66-8745-8752d19e67bd/main/1920x1080/12s500ms/match/image.jpg",
+      "imageCredit": "© CHANEL, official product imagery",
+      "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand. This JPEG is the official static product-video poster linked from the exact product page.",
+      "imageWidth": 1080,
+      "imageHeight": 1080,
+      "introEn": "Coco Crush translates the visual softness of quilting into a small, sculptural pendant. Across its rounded surface, crossing lines create a pattern that feels familiar without needing a large emblem. The BEIGE GOLD tone adds another point of interest: compare it with the metals already in your wardrobe and notice the difference in color. This is a necklace to approach through texture and proportion. A quiet neckline gives the compact form room to show how much character can live within a small amount of space.",
+      "featuresEn": [
+        "A small quilted-motif pendant in 18K BEIGE GOLD.",
+        "Crossing incisions and a rounded profile define the surface.",
+        "The snap-hook clasp works with four extension loops."
+      ],
+      "stylingEn": "Try it with a soft ivory blouse or a plain black knit. Keep nearby hardware simple, and choose the chain position that leaves the quilted pendant clear of the fabric edge.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "imageAlt": "Chanel small Coco Crush necklace in BEIGE GOLD, with a rounded quilted pendant."
+    },
+    {
+      "id": "cartier-trinity-classic-ring-size53-b4234253",
+      "brand": "cartier",
+      "category": "jewelry",
+      "name": "Trinity ring, classic model — size 53",
+      "nameZh": "卡地亚 Trinity 经典三色金戒指 53号",
+      "parentItem": "trinity",
+      "reference": "B4234253 (family B4234200)",
+      "color": "White, rose and yellow gold",
+      "sizes": [
+        "Cartier ring size 53"
+      ],
+      "materials": [
+        "18K white gold (750/1000)",
+        "18K rose gold (750/1000)",
+        "18K yellow gold (750/1000)"
+      ],
+      "priceUSD": 2350,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceStatus": "live",
+      "priceEvidence": "Live official U.S. HTML JSON-LD identifies exact selected SKU CRB4234253 and an Offer of USD 2350.00. The page names the classic model and the three 18K gold colors.",
+      "sourceSnapshotNote": "Direct official HTML retrieved on the check date. The page quotes band width for size 52, so that measurement is not assigned to the selected size 53.",
+      "source": "https://www.cartier.com/en-us/jewelry/rings/trinity/trinity-ring-classic-model-CRB4234253.html",
+      "image": "assets/img/products/jewelry-cartier-trinity-classic-53-b4234253.jpg",
+      "imageSource": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw3dd0fb78/images/large/238dc62dc9b25322aedd24454d6959f6.png?sw=750&sh=750&sm=fit&sfrm=png",
+      "imageCredit": "© Cartier, official product imagery",
+      "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand.",
+      "imageWidth": 750,
+      "imageHeight": 750,
+      "introEn": "Trinity makes color and movement inseparable. Three rings share one space, so the composition changes as their positions shift; each gold tone appears, disappears and returns. That quality makes the ring interesting beyond its familiar silhouette. Look at it from above, then from the side, and notice how the gaps contribute as much as the metal. For someone building a mixed-metal wardrobe, it also offers a thoughtful point of connection between pieces that might otherwise feel unrelated, without requiring every accessory to match.",
+      "featuresEn": [
+        "Three intertwined, moving rings.",
+        "18K white, rose and yellow gold in one design.",
+        "Classic model; selected U.S. reference B4234253 is size 53."
+      ],
+      "stylingEn": "Let Trinity connect a yellow-gold necklace with a white-metal watch. Give the neighboring fingers some space, and try its moving structure in person to find the fit you prefer.",
+      "born": 1924,
+      "designer": "Louis Cartier",
+      "imageAlt": "Cartier Trinity classic ring with intertwined white-gold, yellow-gold and rose-gold bands."
+    },
+    {
+      "id": "tiffany-hardwear-small-link-medium-silver-60153085",
+      "brand": "tiffany",
+      "category": "jewelry",
+      "name": "Tiffany HardWear Small Link Bracelet in Sterling Silver, Medium",
+      "nameZh": "蒂芙尼 HardWear 小号链节纯银手链 中号腕围",
+      "parentItem": null,
+      "reference": "60153085",
+      "color": "Silver",
+      "sizes": [
+        "Small link scale",
+        "Medium wrist size",
+        "7.5 in long",
+        "Listed wrist circumference: 5.76–6.25 in (14.6–15.9 cm)"
+      ],
+      "materials": [
+        "Sterling silver"
+      ],
+      "priceUSD": 1600,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceStatus": "live",
+      "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $1,600 with Sterling Silver and Medium selected. It specifies small links and 7.5 inch overall length.",
+      "sourceSnapshotNote": "Official U.S. page retrieved through web.open on the check date. Overall bracelet length and the brand’s suggested wrist circumference are recorded separately.",
+      "source": "https://www.tiffany.com/jewelry/bracelets/tiffany-hardwear-sterling-silver-bracelets-60153085.html",
+      "image": "assets/img/products/jewelry-tiffany-hardwear-small-link-medium-silver-60153085.webp",
+      "imageSource": "https://media.tiffany.com/is/image/tco/60153085_BLT_MAIN1X1?fmt=webp&hei=2000&wid=2000",
+      "imageCredit": "© Tiffany & Co., official product imagery",
+      "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand.",
+      "imageWidth": 2000,
+      "imageHeight": 2000,
+      "introEn": "A chain bracelet becomes especially engaging when its individual links have a clear identity. HardWear uses that repetition to create a steady rhythm around the wrist, with the open spaces keeping the pattern readable. In silver, the changing reflections can feel as graphic as the shape itself. The small-link scale is a good place to study the design: notice where each link meets the next and how the closure joins the sequence. It brings a deliberate detail to clothes that otherwise rely on simple, familiar proportions.",
+      "featuresEn": [
+        "Sterling silver with the HardWear gauge-link pattern.",
+        "Small link scale; medium wrist size.",
+        "7.5 inch overall length, with a listed wrist range of 5.76–6.25 inches."
+      ],
+      "stylingEn": "Roll a shirt cuff just above the bracelet so the link rhythm stays visible. Pair it with a plain ring, or leave that wrist as the only silver accent in the outfit.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "imageAlt": "Tiffany HardWear small gauge-link bracelet in sterling silver, medium wrist size.",
+      "referenceEvidence": "60153085; manufacturer SKUs 38086855 / 60964858 / 75055579"
+    },
+    {
+      "id": "bulgari-serpenti-viper-ring-rose-gold-45-46-362140",
+      "brand": "bulgari",
+      "category": "jewelry",
+      "name": "Serpenti Viper Ring — rose gold, size 45–46",
+      "nameZh": "宝格丽 Serpenti Viper 玫瑰金单圈灵蛇戒指 45–46号",
+      "parentItem": "serpenti",
+      "reference": "362140",
+      "color": "Pink / rose gold",
+      "sizes": [
+        "45–46"
+      ],
+      "materials": [
+        "18K rose gold"
+      ],
+      "priceUSD": 2790,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceStatus": "official-snapshot",
+      "priceEvidence": "Official U.S. product page returned by web.open shows $2,790.00 excluding taxes for ref. 362140 in size 45–46. The response is labelled Crawled: 3 months ago and states that price may vary with size.",
+      "sourceSnapshotNote": "Official U.S. page snapshot labelled “Crawled: 3 months ago”; retrieved 2026-10-19. No more precise crawl date was provided. A fresh transaction-time price was not verified.",
+      "source": "https://www.bulgari.com/en-us/product/362140",
+      "image": "assets/img/products/jewelry-bulgari-serpenti-viper-rose-gold-45-46-362140.png",
+      "imageSource": "https://media.bulgari.com/image/upload/c_fill%2Ch_1090%2Cw_727/q_auto/f_auto/1715396.png",
+      "imageCredit": "© Bvlgari, official product imagery",
+      "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand. The official on-model image demonstrates the selected design; the model’s worn ring circumference cannot be determined from a photograph.",
+      "imageWidth": 727,
+      "imageHeight": 1090,
+      "introEn": "Serpenti Viper gives a familiar animal motif a disciplined, geometric rhythm. The ring curves around the finger while its repeated sections let light break into a sequence of small planes. In this plain rose-gold version, the shape carries the expression. It is an interesting choice for a jewelry wardrobe that favors one recognizable detail at a time: turn the hand, change the angle, and the outline becomes the focus. Consider the ring as a compact sculptural element when balancing the volume of sleeves, cuffs and other accessories.",
+      "featuresEn": [
+        "A one-coil Serpenti Viper design in 18K rose gold.",
+        "Selected reference 362140 corresponds to size 45–46.",
+        "The official page states that this reference is not resizable."
+      ],
+      "stylingEn": "Let the coil stand alone on one finger, with a plain cuff or a clean sleeve nearby. Compare the rose tone with your usual metals before deciding how much to repeat it.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "imageAlt": "Official Bvlgari model wearing a plain rose-gold Serpenti Viper one-coil ring."
+    },
+    {
+      "id": "chanel-coco-crush-ring-mini-beige-gold-j11785",
+      "brand": "chanel",
+      "category": "jewelry",
+      "name": "Coco Crush ring, mini version, 18K BEIGE GOLD",
+      "nameZh": "香奈儿 Coco Crush 迷你款米色金戒指",
+      "parentItem": "coco-crush",
+      "reference": "J11785",
+      "color": "BEIGE GOLD",
+      "sizes": [
+        "Mini band profile; choose finger size with the brand"
+      ],
+      "materials": [
+        "18K BEIGE GOLD"
+      ],
+      "priceUSD": 1900,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceStatus": "live",
+      "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $1,900 for J11785, mini version, in 18K BEIGE GOLD. It does not expose a selected finger circumference.",
+      "sourceSnapshotNote": "Official U.S. page retrieved through web.open on the check date. Price is attached to the mini material/model reference; no circumference-specific variant was available in the readable page.",
+      "source": "https://www.chanel.com/us/fine-jewelry/p/J11785/coco-crush-ring/",
+      "image": "assets/img/products/jewelry-chanel-coco-crush-mini-beige-gold-j11785.jpg",
+      "imageSource": "https://www.chanel.com/videos/player/v1/static/6057940565001/f7b00180-1b5b-4fad-94d2-7825cd8bd580/f1d12d3f-5e27-4a34-b8d0-a23fb1b64872/1920x1080/match/image.jpg",
+      "imageCredit": "© CHANEL, official product imagery",
+      "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand. This JPEG is the official static product-video poster linked from the exact product page.",
+      "imageWidth": 1080,
+      "imageHeight": 1080,
+      "introEn": "The mini Coco Crush ring offers a close reading of the collection’s surface. Its crossing lines divide the band into small curved sections, letting a familiar textile reference become a piece of jewelry with its own presence. BEIGE GOLD keeps the color conversation subtle, especially beside pale fabrics or other warm metals. A narrow band can still carry a strong idea; here, the interest comes from the way the pattern continues around the finger. Try it alone first, then consider what another ring would add to that rhythm.",
+      "featuresEn": [
+        "The mini version in 18K BEIGE GOLD.",
+        "A quilted motif formed by crossing incisions.",
+        "A rounded profile and scalloped edges are collection design details."
+      ],
+      "stylingEn": "Start with one ring and let the quilted surface show against a simple cuff. For a layered look, compare band scales in person and leave enough room for comfortable finger movement.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "imageAlt": "Chanel mini Coco Crush ring in BEIGE GOLD with crossing quilted incisions."
+    }
+  ],
+  "limitations": [
+    "Prices are U.S. retail references before tax, checked or retrieved on 2026-10-19, and are not purchase quotes or availability guarantees. No currency conversions were used.",
+    "The Bvlgari Serpenti Viper price is from an official snapshot labelled crawled 3 months ago; a fresh transaction-time price was not verified.",
+    "The Chanel U.S. pages verify material and small/mini model scales but do not expose a numeric necklace length or a selected ring circumference. Those values have not been invented.",
+    "Bvlgari B.zero1 chain positions and pendant height come from a same-reference official international page, separate from the U.S. price source.",
+    "All eight files are official product media. The two Chanel JPEGs are static product-video posters and the Serpenti Viper image is an official on-model photograph. Product appearances were not edited.",
+    "No image reuse license or brand affiliation is claimed. Public product-page access and credit do not themselves grant publication rights. Rights clearance for a public site remains unresolved.",
+    "Van Cleef & Arpels was considered, but its readable U.S. product page did not expose the selected product price, so no VCA price was invented."
+  ],
+  "researchMeta": {
+    "checkedAt": "2026-10-19",
+    "browserTabsOpened": 0,
+    "browserTabsRemaining": 0,
+    "methods": [
+      "Official website search discovery",
+      "Official product pages through web.open",
+      "Public official HTML and media retrieved by curl",
+      "File magic, sips dimension checks, and visual SKU/material inspection"
+    ],
+    "graphflowNote": "No GraphFlow tools were available in this agent tool catalog."
+  }
+}

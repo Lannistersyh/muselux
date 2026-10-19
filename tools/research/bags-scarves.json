@@ -1,0 +1,359 @@
+{
+  "categoryNotes": {
+    "bags": "Four distinct approaches to the everyday handbag: sculpted quilting, a slim canvas shoulder bag, a compact leather tote and an archival jacquard silhouette. Compare the exact photographed variants, their proportions and their U.S. retail references.",
+    "scarves": "From an illustrated silk square to a slender printed ribbon, these scarves show how scale changes the way a pattern is worn. Explore four photographed designs, with materials, dimensions and styling ideas for each exact variant."
+  },
+  "products": [
+    {
+      "id": "dior-small-lady-dior-black-us",
+      "brand": "dior",
+      "category": "bags",
+      "name": "Small Lady Dior Bag — Black Cannage Lambskin",
+      "nameZh": "迪奥小号戴妃包 黑色羊皮",
+      "parentItem": "lady-dior",
+      "reference": "M0618ONGE_M900",
+      "color": "Black with pale gold-finish hardware",
+      "sizes": [
+        "Small: 20 × 17 × 8 cm (L × H × W)",
+        "Leather strap: 108–118 cm"
+      ],
+      "materials": [
+        "Lambskin",
+        "Goatskin and lambskin lining",
+        "Pale gold-finish metal charms"
+      ],
+      "priceUSD": 6200,
+      "priceLabel": "U.S. retail reference, before tax; official page snapshot",
+      "checkedAt": "2026-10-19",
+      "priceEvidence": "The exact U.S. product page, retrieved through the web page reader and labeled crawled today, displayed $6,200.00 beside reference M0618ONGE_M900.",
+      "priceStatus": "official-snapshot",
+      "source": "https://www.dior.com/en_us/fashion/products/M0618ONGE_M900",
+      "image": "assets/img/products/bags-dior-lady-dior-small-black.jpg",
+      "imageSource": "https://assets.christiandior.com/is/image/diorprod/M0618ONGEM900_E01?%24r4x5_default%24=&bfc=on&crop=479%2C510%2C1003%2C1298&hei=2000&qlt=80&scale=0.7&wid=1600",
+      "imageCredit": "© Dior, official product imagery",
+      "imageRightsNote": "Official photograph linked from the product page. No reproduction license accompanied the source or is asserted here; attribution does not itself grant permission.",
+      "imageWidth": 1600,
+      "imageHeight": 2000,
+      "introEn": "The small Lady Dior uses a compact, upright shape to give soft lambskin an architectural presence. Black Cannage quilting creates depth across the body, while pale gold-finish letter charms bring movement to the otherwise disciplined outline. This version includes both a thin leather shoulder strap and a removable chain, offering different ways to carry the same silhouette. It suits someone who enjoys a handbag as a deliberate finishing detail: neat in the hand, expressive beside a simple coat, and distinctive without relying on a large printed logo.",
+      "featuresEn": [
+        "Cannage-stitched lambskin with D.I.O.R. charms",
+        "Adjustable, detachable leather strap plus removable chain",
+        "Interior zip pocket; made in Italy"
+      ],
+      "stylingEn": "Carry it by the handles with a straight coat and tailored trousers for a clear, compact outline. For dinner, use the chain and let the quilting provide texture against a plain black dress.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "verificationLimitations": [
+        "Price and specifications were read from the official page through the web page reader; the local HTML request returned an access screen.",
+        "The displayed retail reference is not a stock or checkout guarantee."
+      ],
+      "sourceSnapshotNote": "Official product-page reader labeled the source snapshot crawled today when checked on 2026-10-19. Direct local HTML access was restricted; the price was not verified at checkout."
+    },
+    {
+      "id": "gucci-jackie-small-black-gg-us",
+      "brand": "gucci",
+      "category": "bags",
+      "name": "Gucci Jackie Small Shoulder Bag — Black GG Canvas",
+      "nameZh": "古驰杰姬小号黑色GG帆布肩包",
+      "parentItem": "jackie",
+      "reference": "867156 FAFV4 1000",
+      "color": "Black GG canvas with black leather trim",
+      "sizes": [
+        "8.5 W × 4.5 H × 0.8 D inches",
+        "Handle drop: 7.1 inches; 17.7 inches with extender"
+      ],
+      "materials": [
+        "GG canvas",
+        "Soft grainy leather trim",
+        "Fabric lining with Diamante motif",
+        "Palladium-toned hardware"
+      ],
+      "priceUSD": 1490,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceEvidence": "Directly retrieved official U.S. HTML contained the selected style 867156 FAFV4 1000 and a product price value of 1490, formatted $1,490.",
+      "priceStatus": "live",
+      "source": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/gucci-jackie-small-shoulder-bag-p-867156FAFV41000",
+      "image": "assets/img/products/bags-gucci-jackie-small-black.jpg",
+      "imageSource": "https://media.gucci.com/style/DarkGray_Center_0_0_980x980/1776876339/867156_FAFV4_1000_001_075_0040_Light-gucci-jackie-small-shoulder-bag.jpg",
+      "imageCredit": "© Gucci, official product imagery",
+      "imageRightsNote": "The official product page carries a Guccio Gucci S.p.A. all-rights-reserved notice. No reproduction license was found or is asserted; the observed web-sized product photograph is credited to Gucci.",
+      "imageWidth": 980,
+      "imageHeight": 980,
+      "introEn": "This small Jackie translates the family’s curved outline into a slim canvas bag with an easy, close-to-the-body profile. The black GG pattern is quiet at a distance, leaving the bright piston fastening as the main focal point. Leather edging gives the canvas a defined border, and the extender changes the reach of the strap. Its narrow proportions encourage a compact edit of essentials. Choose it for the balance between an archival-looking clasp and a light, pared-back shape that works with everyday clothes.",
+      "featuresEn": [
+        "Black GG canvas with grainy leather trim",
+        "Palladium-toned piston with magnetic closure",
+        "Adjustable leather strap, extender and interior zip pocket"
+      ],
+      "stylingEn": "Wear the short strap with a fine knit and straight jeans so the curved shape stays visible at the shoulder. Add the extender over a blazer when a longer carry feels more relaxed.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "verificationLimitations": [
+        "The selected style is the Spring Summer 2026 small canvas design, rather than a price for every Jackie size or material."
+      ]
+    },
+    {
+      "id": "prada-galleria-small-black-leather-us",
+      "brand": "prada",
+      "category": "bags",
+      "name": "Prada Galleria Small Leather Bag — Black",
+      "nameZh": "普拉达Galleria小号黑色皮革手袋",
+      "parentItem": "galleria",
+      "reference": "1BA896_2CYS_F0002_V_YO0",
+      "color": "Black",
+      "sizes": [
+        "TU / Small: 24.5 W × 16.5 H × 11 D cm",
+        "Shoulder strap: 110–120 cm"
+      ],
+      "materials": [
+        "Calfskin",
+        "Nappa lining",
+        "Metal hardware"
+      ],
+      "priceUSD": 5100,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceEvidence": "Direct official U.S. HTML for 1BA896_2CYS_F0002_V_YO0 contained Display and Offer values of 5100, both formatted $5,100.00; the page displayed $5,100.",
+      "priceStatus": "live",
+      "source": "https://www.prada.com/us/en/p/small-prada-galleria-leather-bag/1BA896_2CYS_F0002_V_YO0",
+      "image": "assets/img/products/bags-prada-galleria-small-black.jpg",
+      "imageSource": "https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA896/2CYSF0002/1BA896_2CYS_F0002_V_YO0_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1000.1000.jpg",
+      "imageCredit": "© Prada, official product imagery",
+      "imageRightsNote": "Official product photograph from an observed responsive-image rendition on the exact product page. No reproduction license was supplied with the image or is asserted here.",
+      "imageWidth": 1000,
+      "imageHeight": 1250,
+      "introEn": "The small Galleria brings the proportions of a structured tote into a compact leather format. Two rounded handles frame the opening, with a triangular Prada signature and hanging keyring giving the front its familiar punctuation. Black calfskin keeps the focus on the bag’s edges and construction. External zip pockets and an optional shoulder strap add practical choices without changing that orderly appearance. This variant is especially appealing when you want a handbag to look composed beside tailoring while still feeling appropriate with a simple shirt and denim.",
+      "featuresEn": [
+        "Calfskin body with leather triangle and metal lettering",
+        "Detachable, adjustable shoulder strap and removable keyring",
+        "External zip pockets, nappa lining and leather purse feet"
+      ],
+      "stylingEn": "Set it beside a pale shirt, dark trousers and loafers for a concise weekday outfit. Keep other hardware discreet so the triangle and small keyring provide the main points of shine.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "verificationLimitations": [
+        "This is the small calfskin version, reference 2CYS; its $5,100 price should not be applied to the separate Saffiano variants."
+      ]
+    },
+    {
+      "id": "fendi-baguette-tobacco-ff-us",
+      "brand": "fendi",
+      "category": "bags",
+      "name": "Baguette® — Tobacco Brown FF Jacquard Fabric Bag",
+      "nameZh": "芬迪法棍包 烟草棕FF提花",
+      "parentItem": "baguette",
+      "reference": "8BR600AFPMF1GL7",
+      "color": "Tobacco brown with dark brown leather and gold-finish hardware",
+      "sizes": [
+        "Medium: 27 W × 15 H × 6 D cm",
+        "Shoulder strap: 100 cm; drop: 46 cm"
+      ],
+      "materials": [
+        "FF jacquard fabric",
+        "Calfskin handle and shoulder strap",
+        "Jacquard fabric lining",
+        "Gold-finish metalware"
+      ],
+      "priceUSD": 3900,
+      "priceLabel": "U.S. retail reference, before tax; official cached page",
+      "checkedAt": "2026-10-19",
+      "priceEvidence": "The exact official U.S. product page showed $3,900.00 for code 8BR600AFPMF1GL7 in the web reader. That reader labeled its snapshot crawled two weeks earlier; direct local HTML was restricted.",
+      "priceStatus": "official-snapshot",
+      "source": "https://www.fendi.com/us-en/woman/bags/baguette-tobacco-brown-ff-jacquard-fabric-bag-8br600afpmf1gl7",
+      "image": "assets/img/products/bags-fendi-baguette-tobacco.jpg",
+      "imageSource": "https://static.fendi.com/dam/is/image/fendi/8BR600AFPMF1GL7_01?hash=f5d810bdfdc88ed909fcca74453a1d60-19ade6dca62&hei=1000&wid=1000",
+      "imageCredit": "© Fendi, official product imagery",
+      "imageRightsNote": "Official product photograph linked by the exact Fendi product page. No reproduction license was supplied with the source or is asserted here; the photo remains attributed to Fendi.",
+      "imageWidth": 1120,
+      "imageHeight": 1120,
+      "introEn": "The Baguette’s horizontal shape is built around the pleasure of carrying a bag close under the arm. This medium version combines tobacco-brown FF jacquard with dark leather and a gold-finish clasp, creating a warm, graphic surface that reads clearly even in a restrained outfit. The detachable handle and longer strap offer several carrying options. Its appeal lies in the relationship between proportion and pattern: a compact flap silhouette, a generous repeat of the monogram and enough softness to keep the result easy to wear.",
+      "featuresEn": [
+        "Tobacco FF jacquard with gold-finish FF clasp",
+        "Front flap, magnetic fastening and interior zip pocket",
+        "Detachable calfskin handle and shoulder strap"
+      ],
+      "stylingEn": "Let the warm monogram sit against cream knitwear and dark denim, or carry it with a chocolate jacket for a tonal approach. Use the shorter handle to emphasize the original underarm proportions.",
+      "born": "1997 (Baguette family)",
+      "designer": "House design studio",
+      "verificationLimitations": [
+        "The official price snapshot was labeled crawled two weeks before checking; it has not been represented as a live price.",
+        "No availability or delivery estimate is carried over from the cached page."
+      ],
+      "sourceSnapshotNote": "Official product-page reader labeled the source snapshot crawled two weeks earlier when checked on 2026-10-19. Direct local HTML access was restricted; the price was not verified at checkout."
+    },
+    {
+      "id": "hermes-please-hold-line-90-blue-us",
+      "brand": "hermes",
+      "category": "scarves",
+      "name": "Please Hold The Line Scarf 90 — Bleu Ciel / Encre / Violet",
+      "nameZh": "爱马仕Please Hold The Line九十方巾 蓝紫",
+      "parentItem": "carre90",
+      "reference": "H004187S 09",
+      "color": "Bleu Ciel / Encre / Violet",
+      "sizes": [
+        "Scarf 90: 34.8 × 34.8 inches; hand-rolled dimensions may vary"
+      ],
+      "materials": [
+        "100% silk twill"
+      ],
+      "priceUSD": 660,
+      "priceLabel": "U.S. retail reference, before tax; official page snapshot",
+      "checkedAt": "2026-10-19",
+      "priceEvidence": "The official U.S. page-reader snapshot, labeled crawled yesterday, displayed Price $660 beside the selected Bleu Ciel / Encre / Violet color and reference H004187S 09.",
+      "priceStatus": "official-snapshot",
+      "source": "https://www.hermes.com/us/en/product/please-hold-the-line-scarf-90-H004187Sv09/",
+      "image": "assets/img/products/scarves-hermes-please-hold-line-blue.jpg",
+      "imageSource": "https://assets.hermes.com/is/image/hermesproduct/please-hold-the-line-scarf-90--004187S%2009-flat-wm-1-0-0-800-800_g.jpg",
+      "imageCredit": "© Hermès, official product imagery",
+      "imageRightsNote": "Official flat-view product photograph linked from the exact Hermès U.S. page. No reproduction license accompanied the image or is asserted here.",
+      "imageWidth": 800,
+      "imageHeight": 800,
+      "introEn": "Please Hold The Line turns the silk square into a dense field of playful drawing. Sky blue gives this colorway an airy foundation, while inky and violet lines keep the illustrated world legible when the scarf is open. Once folded, those details become changing bands of color and texture rather than one fixed picture. The hand-rolled edge gives the square a softly defined finish. It is a good choice for someone who enjoys examining a design up close, then discovering a different arrangement with each knot.",
+      "featuresEn": [
+        "Silk twill with hand-rolled edges",
+        "Designed by Dimitri Rybaltchenko",
+        "Made in France; official colorway 09"
+      ],
+      "stylingEn": "Fold it on the diagonal and knot it loosely inside a navy jacket to show the blue and violet together. Leave one wider corner visible when you want the illustration to remain part of the outfit.",
+      "born": "Contemporary collection",
+      "designer": "Dimitri Rybaltchenko",
+      "verificationLimitations": [
+        "The official page-reader snapshot was from the prior day; a direct local product-page request was restricted.",
+        "The U.S. page states 34.8-inch dimensions for the named 90 format and notes variation from hand rolling."
+      ],
+      "sourceSnapshotNote": "Official product-page reader labeled the source snapshot crawled yesterday when checked on 2026-10-19. Direct local HTML access was restricted; the price was not verified at checkout."
+    },
+    {
+      "id": "dior-oblique-mitzah-navy-us",
+      "brand": "dior",
+      "category": "scarves",
+      "name": "Dior Oblique Mitzah Scarf — Navy Blue Silk Twill",
+      "nameZh": "迪奥Oblique海军蓝Mitzah丝巾",
+      "parentItem": null,
+      "reference": "15DOB106I600_C541",
+      "color": "Navy blue",
+      "sizes": [
+        "105 × 6 cm (L × W) / 41.5 × 2.5 inches"
+      ],
+      "materials": [
+        "100% silk twill"
+      ],
+      "priceUSD": 250,
+      "priceLabel": "U.S. retail reference, before tax; official page snapshot",
+      "checkedAt": "2026-10-19",
+      "priceEvidence": "The exact official U.S. page retrieved through the web page reader and labeled crawled today displayed $250.00 for reference 15DOB106I600_C541.",
+      "priceStatus": "official-snapshot",
+      "source": "https://www.dior.com/en_us/fashion/products/15DOB106I600_C541",
+      "image": "assets/img/products/scarves-dior-oblique-mitzah-navy.jpg",
+      "imageSource": "https://assets.christiandior.com/is/image/diorprod/15DOB106I600C541_SBG_E01?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
+      "imageCredit": "© Dior, official product imagery",
+      "imageRightsNote": "Official product-only photograph linked from the exact Dior product page. No reproduction license was supplied with the source or is asserted here.",
+      "imageWidth": 1600,
+      "imageHeight": 2000,
+      "introEn": "The navy Dior Oblique Mitzah is a narrow silk ribbon designed to bring pattern into a small area. One side carries the repeating Oblique motif, while the reverse introduces a contrasting Christian Dior signature band. Pointed ends give a tied knot a precise finish. Its long, slender format makes it especially useful when a full square would feel too voluminous. Worn at the neck or tied to a bag, it creates a small change in rhythm while keeping the rest of an outfit uncomplicated.",
+      "featuresEn": [
+        "Navy Dior Oblique print with pointed ends",
+        "Contrasting signature jacquard band on the reverse",
+        "100% silk twill; made in Italy"
+      ],
+      "stylingEn": "Tie a small side knot with an open-neck shirt and let both printed faces show. Alternatively, make one loose bow around a bag handle, leaving the pointed ends clear of the fastening.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "verificationLimitations": [
+        "The product page was available through the web page reader; the direct local HTML request returned an access screen.",
+        "The Oblique motif date is not used as the launch date of this exact Mitzah variant."
+      ],
+      "sourceSnapshotNote": "Official product-page reader labeled the source snapshot crawled today when checked on 2026-10-19. Direct local HTML access was restricted; the price was not verified at checkout."
+    },
+    {
+      "id": "gucci-flora-silk-carre-pink-us",
+      "brand": "gucci",
+      "category": "scarves",
+      "name": "Printed Flora Silk Twill Carré — Pink Borders",
+      "nameZh": "古驰Flora花卉粉边真丝方巾",
+      "parentItem": null,
+      "reference": "602585 3G001 9772",
+      "color": "GG Flora print with pink borders",
+      "sizes": [
+        "35.5 W × 35.5 L inches; hand-sewn dimensions may vary"
+      ],
+      "materials": [
+        "100% silk; organic silk twill"
+      ],
+      "priceUSD": 540,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceEvidence": "Direct official U.S. HTML contained the exact style 602585 3G001 9772 with product price value 540, formatted $540; the visible product page agreed.",
+      "priceStatus": "live",
+      "source": "https://www.gucci.com/us/en/pr/women/accessories-for-women/silks-and-scarves-for-women/square-scarves-for-women/printed-flora-silk-twill-carre-p-6025853G0019772",
+      "image": "assets/img/products/scarves-gucci-flora-pink.jpg",
+      "imageSource": "https://media.gucci.com/style/DarkGray_Center_0_0_980x980/1778665367/602585_3G001_9772_001_090_0000_Light-printed-flora-silk-twill-carre.jpg",
+      "imageCredit": "© Gucci, official product imagery",
+      "imageRightsNote": "The official product page carries a Guccio Gucci S.p.A. all-rights-reserved notice. No reproduction license was found or is asserted; this observed web-sized image is credited to Gucci.",
+      "imageWidth": 980,
+      "imageHeight": 980,
+      "introEn": "This Flora carré layers bright flowers over a GG ground and frames the composition with a broad pink border. The contrast gives it two distinct moods: richly illustrated when opened out, softer and more tonal when folded into a narrow band. Organic silk twill provides the base for the print, and the square format leaves room for several tying approaches. It is a lively option for a restrained wardrobe, offering enough colors to echo a lipstick, a knit or a small detail elsewhere in the outfit.",
+      "featuresEn": [
+        "Flora botanical print layered over the GG pattern",
+        "Pink border and hand-sewn hem",
+        "100% silk; made in Italy"
+      ],
+      "stylingEn": "Wear it as a triangular neck scarf with an ivory shirt, keeping the pink border near the face. Pick one small color from the flowers for an earring or lip shade instead of repeating the whole palette.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "verificationLimitations": [
+        "Vittorio Accornero is credited with the historic Flora motif by the source; authorship of this exact modern layout is not individually attributed."
+      ]
+    },
+    {
+      "id": "prada-triangle-silk-scarf-55-alabaster-us",
+      "brand": "prada",
+      "category": "scarves",
+      "name": "Printed Silk Twill Scarf 55 — Alabaster White/White",
+      "nameZh": "普拉达三角印花55真丝方巾 浅色",
+      "parentItem": null,
+      "reference": "1FF004_2DTP_F0V4C",
+      "color": "Alabaster White/White (official color name)",
+      "sizes": [
+        "TU / 55 × 55 cm"
+      ],
+      "materials": [
+        "Silk twill"
+      ],
+      "priceUSD": 350,
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-19",
+      "priceEvidence": "Direct official U.S. HTML for selected reference 1FF004_2DTP_F0V4C contained Display and Offer values of 350, formatted $350.00; the page displayed $350.",
+      "priceStatus": "live",
+      "source": "https://www.prada.com/us/en/p/printed-silk-twill-scarf-55/1FF004_2DTP_F0V4C",
+      "image": "assets/img/products/scarves-prada-triangle-alabaster.jpg",
+      "imageSource": "https://www.prada.com/content/dam/pradabkg_products/1/1FF/1FF004/2DTPF0V4C/1FF004_2DTP_F0V4C_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1000.1000.jpg",
+      "imageCredit": "© Prada, official product imagery",
+      "imageRightsNote": "Official responsive-image rendition observed on the exact product page, downloaded unchanged. No reproduction license was supplied with the source or is asserted here.",
+      "imageWidth": 1000,
+      "imageHeight": 1250,
+      "introEn": "Prada’s triangle becomes an all-over geometric rhythm on this compact silk twill square. A quiet, pale color combination makes the repeated shapes feel crisp without turning the scarf into a strong block of color. The printed signature sits near an edge, ready to appear or disappear depending on the fold. At 55 centimeters, it introduces less fabric than a larger carré, making it a useful choice for a tidy neck knot or a small accent at the wrist with a simple everyday outfit.",
+      "featuresEn": [
+        "Repeating triangle print with Prada signature",
+        "Compact 55 × 55 cm square",
+        "Silk twill; official color reference F0V4C"
+      ],
+      "stylingEn": "Roll it into a narrow band and tie it with a small knot above a crewneck knit. The pale geometric print also works beside a white shirt and a clean, unpatterned jacket.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "verificationLimitations": [
+        "The official color name is retained verbatim; the supplied official photograph appears softly pink and white on screen.",
+        "The product page included a sold-out-online message; the price is a retail reference and does not imply current stock."
+      ]
+    }
+  ],
+  "verificationLimitations": [
+    "U.S. retail references were checked on 2026-10-19 for the exact photographed variants; they are not checkout quotes and may change.",
+    "Four Gucci and Prada prices were verified in directly retrieved official HTML. The Dior page-reader results were labeled crawled today. Hermès was labeled crawled yesterday, and Fendi two weeks earlier; these differences are recorded per product.",
+    "All eight images were downloaded unchanged from observed official image URLs, checked for JPEG magic and dimensions, and visually inspected for the recorded SKU/color.",
+    "Official brand photographs remain copyrighted. Credits and source links are retained; no stock-photo, Creative Commons or other reproduction license is claimed.",
+    "Louis Vuitton candidates were not included because their observed product-image URLs returned access screens in the local request. No retries or browser escalation were used.",
+    "Browser tabs opened for this subtask: 0."
+  ]
+}

@@ -1,105 +1,19 @@
 {
   "date": "2026-10-19",
-  "browser": "Chromium via Playwright",
-  "pages": 66,
-  "viewports": [
-    375,
-    1440
+  "scope": "24-product Style Edit update",
+  "browserRunPerformed": false,
+  "reason": "Existing Edge inventory contained 10 user tabs. No new QA tab was opened under the user's maximum-eight-tab rule; existing user pages were not changed.",
+  "ownedTabsOpened": 0,
+  "ownedTabsRemaining": 0,
+  "historicalReport": "browser-validation-initial.json",
+  "historicalScope": "The earlier 66-page version passed 132 Chromium checks at 375 and 1440 pixels. Those checks do not establish a fresh visual result for the current 90-page version.",
+  "currentChecks": [
+    "90 HTML pages: local paths and anchors",
+    "24 local photographs: actual file type, dimensions and image credit",
+    "four photographed products in every category",
+    "USD values, exact references and source/snapshot notes",
+    "English detail content and page language",
+    "JavaScript syntax and compressed runtime-data decode"
   ],
-  "pageChecks": 132,
-  "protocol": "file:",
-  "offline": true,
-  "issues": [],
-  "pageErrors": [],
-  "consoleErrors": [],
-  "failedRequests": [],
-  "interactions": {
-    "steps": [
-      {
-        "name": "A–Z 字母 C 筛选",
-        "passed": true,
-        "detail": "3 个品牌"
-      },
-      {
-        "name": "字母与品类组合筛选",
-        "passed": true,
-        "detail": [
-          "Cartier"
-        ]
-      },
-      {
-        "name": "品牌重音字母归一化",
-        "passed": true,
-        "detail": [
-          "Hermès"
-        ]
-      },
-      {
-        "name": "文章筛选总数",
-        "passed": true,
-        "detail": "找到 12 条内容"
-      },
-      {
-        "name": "分页第二页四篇文章",
-        "passed": true,
-        "detail": [
-          "腕表入门的三个问题｜你想怎样与时间相处",
-          "日常保养小课｜让喜欢的物件，陪得久一点",
-          "礼物的三档预算｜让心意，落在具体日常里",
-          "从 N°5 说起｜慢慢找到自己的气味"
-        ]
-      },
-      {
-        "name": "搜索品类与类型交叉筛选",
-        "passed": true,
-        "detail": [
-          "腕表入门的三个问题｜你想怎样与时间相处"
-        ]
-      },
-      {
-        "name": "阅读进度条到达百分之百",
-        "passed": true,
-        "detail": "100%"
-      },
-      {
-        "name": "返回顶部",
-        "passed": true,
-        "detail": 0
-      },
-      {
-        "name": "菜单键盘焦点进入首个链接",
-        "passed": true,
-        "detail": "Tab"
-      },
-      {
-        "name": "菜单 Esc 关闭",
-        "passed": true,
-        "detail": "closed"
-      }
-    ],
-    "failures": []
-  },
-  "searchExamples": {
-    "birkin": [
-      "Birkin · 铂金包",
-      "Birkin 与 Kelly｜两种结构，两种日常节奏"
-    ],
-    "铂金": [
-      "Birkin · 铂金包",
-      "一枚戒指的金属课｜K 金、铂金与玫瑰金"
-    ]
-  },
-  "newsletter": "已收到，感谢！邮箱不会保存或发送。",
-  "externalRuntimeRequests": 0,
-  "homeContents": {
-    "categories": 6,
-    "brands": 15,
-    "latestArticles": 12
-  },
-  "fontFallback": {
-    "viewport": 375,
-    "scrollWidth": 375,
-    "systemFonts": true,
-    "textVisible": true
-  }
+  "staticReport": "static-validation.json"
 }

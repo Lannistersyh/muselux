@@ -1,0 +1,72 @@
+"""Merge the independently sourced product records into the editable site data.
+
+Idempotent; no network access, downloads or implicit currency conversions.
+"""
+from pathlib import Path
+from collections import Counter
+import json, re
+
+ROOT=Path(__file__).resolve().parents[1]
+DATA=ROOT/'tools/content.json'
+SOURCES=['bags-scarves.json','necklace-jewelry.json','watches-fragrance.json']
+
+def price_context(product):
+    if product['priceStatus']=='live':
+        return 'Official U.S. product page · checked 19 October 2026'
+    note=product.get('sourceSnapshotNote','').lower()
+    ages=[(r'(?:3|three) months?','3 months earlier'),(r'(?:2|two) weeks?','2 weeks earlier'),(r'(?:last|one|1) week','the previous week'),(r'yesterday|(?:one|1) day','the previous day'),(r'today|same day','the same day')]
+    for pattern,label in ages:
+        if re.search(pattern,note):
+            return 'Official page snapshot · reported crawled '+label+'; reviewed 19 October 2026'
+    return 'Official page snapshot · reviewed 19 October 2026; live price may differ'
+
+def main():
+    data=json.loads(DATA.read_text())
+    products=[];notes={};limitations=[]
+    for name in SOURCES:
+        source=json.loads((ROOT/'tools/research'/name).read_text())
+        products.extend(source['products'])
+        notes.update(source['categoryNotes'])
+        limitations.extend(source.get('limitations',source.get('verificationLimitations',[])))
+    categories={x['id'] for x in data['categories']}
+    assert Counter(x['category'] for x in products)==Counter({k:4 for k in categories}), 'Expected exactly four products per category'
+    assert len({x['id'] for x in products})==24, 'Duplicate product id'
+    brands={x['id']:x for x in data['brands']}
+    legacy=[x for x in data['items'] if not x.get('styleEdit')]
+    legacy_ids={x['id'] for x in legacy}
+    new_ids={x['id'] for x in products}
+    for brand in brands.values():
+        brand['classicItems']=[key for key in brand['classicItems'] if key not in new_ids]
+    for x in legacy:
+        # Previous regional ranges are removed, rather than converted using an
+        # unverified exchange rate or presented as a quote for a whole family.
+        x['priceRange']='U.S. pricing varies by reference, size and material. Check the official U.S. store for a current quote. 仅供参考，请以品牌官方渠道为准。'
+    for x in products:
+        assert x['brand'] in brands
+        assert not x.get('parentItem') or x['parentItem'] in legacy_ids
+        assert isinstance(x['priceUSD'],(int,float)) and x['priceUSD']>0
+        assert (ROOT/x['image']).is_file(), x['image']
+        assert x['priceStatus'] in ('live','official-snapshot')
+        x['styleEdit']=True
+        x['priceCurrency']='USD'
+        x['oneLiner']=re.split(r'(?<=[.!?])\s+',x['introEn'])[0]
+        x['story']=x['introEn']
+        x['facts']=x['featuresEn']
+        x['priceContextEn']=price_context(x)
+        x['priceRange']='US$'+f'{x["priceUSD"]:,.0f}'+', pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。'
+        x['relatedArticles']=[a['id'] for a in data['articles'] if a['category']==x['category']][:3]
+        brand=brands[x['brand']]
+        brand['classicItems'].insert(0,x['id'])
+        if x['category'] not in brand['categories']:brand['categories'].append(x['category'])
+    for c in data['categories']:c['editIntro']=notes[c['id']]
+    for a in data['articles']:
+        if a['id']=='mag-11':
+            a['body']=a['body'].replace('一千元以内','US$250 以内').replace('一千到五千','US$250–1,000').replace('一千至五千','US$250–1,000').replace('五千元以上','US$1,000 以上')
+    data['items']=legacy+products
+    data['styleEdit']={'checkedAt':'2026-10-19','currency':'USD','products':24,'perCategory':4,'limitations':limitations}
+    DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+    manifest=[{k:x[k] for k in ('id','brand','reference','source','image','imageSource','imageCredit','imageRightsNote','priceUSD','priceStatus','priceContextEn','checkedAt')} for x in products]
+    (ROOT/'reports/product-sources.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+    print('Merged 24 photographed products; 4 per category; all prices in USD.')
+
+if __name__=='__main__':main()
