@@ -353,7 +353,10 @@
           "editionNoteEn": "A collaboration capsule; no fixed production ceiling has been verified.",
           "priceNoteEn": "The USD figure is StockX’s reported original retail field for this exact reference. It is a catalogue reference, not a live brand checkout quote or the current resale asking price.",
           "imagePageURL": "https://stockx.com/fendi-x-frgmt-x-pokemon-metal-necklace-gold",
-          "imageAlt": "FENDI × FRGMT × POKÉMON Poké Ball necklace — gold-tone — photograph of the cited material and variant."
+          "imageAlt": "FENDI × FRGMT × POKÉMON Poké Ball necklace — gold-tone — photograph of the cited material and variant.",
+          "collaboratorBrands": [
+            "fragment-design"
+          ]
         },
         {
           "id": "necklace-2024-van-cleef-holiday-guilloche-rose-white-gold",
@@ -1166,7 +1169,10 @@
           "editionNoteEn": "A collaboration capsule; no fixed production ceiling has been verified.",
           "priceNoteEn": "The USD figure is StockX’s reported original retail field for this exact reference. It is a catalogue reference, not a live brand checkout quote or the current resale asking price.",
           "imagePageURL": "https://stockx.com/fendi-x-frgmt-metal-ring-gold",
-          "imageAlt": "FENDI × FRGMT × POKÉMON Dratini ring — gold-finished brass — photograph of the cited material and variant."
+          "imageAlt": "FENDI × FRGMT × POKÉMON Dratini ring — gold-finished brass — photograph of the cited material and variant.",
+          "collaboratorBrands": [
+            "fragment-design"
+          ]
         },
         {
           "id": "jewelry-2024-fendi-frgmt-pokemon-earrings-gold",
@@ -1225,7 +1231,10 @@
           "editionNoteEn": "A collaboration capsule; no fixed production ceiling has been verified.",
           "priceNoteEn": "The USD figure is StockX’s reported original retail field for this exact reference. It is a catalogue reference, not a live brand checkout quote or the current resale asking price.",
           "imagePageURL": "https://stockx.com/fendi-x-frgmt-x-pokemon-metal-earrings-gold",
-          "imageAlt": "FENDI × FRGMT × POKÉMON Dragonair hoop earrings — gold-tone — photograph of the cited material and variant."
+          "imageAlt": "FENDI × FRGMT × POKÉMON Dragonair hoop earrings — gold-tone — photograph of the cited material and variant.",
+          "collaboratorBrands": [
+            "fragment-design"
+          ]
         }
       ]
     },

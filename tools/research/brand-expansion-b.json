@@ -1,0 +1,317 @@
+{
+  "checkedAt": "2026-10-20",
+  "brands": [
+    {
+      "id": "alaia",
+      "name": "Alaïa",
+      "nameZh": "阿莱娅",
+      "country": "法国",
+      "founded": 1964,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "把身体的曲线，延伸到皮革的轮廓",
+      "intro": "阿莱娅的故事从突尼斯出生的阿瑟丁出发，他在巴黎把雕塑训练转化为贴近身体的剪裁。品牌的弹性针织、皮革、镂空与金属孔眼，都围绕轮廓和触感展开。细看一只包，可以先观察线条如何拉长，提手如何延续包身，再看装饰怎样参与结构。这样的阅读方式，把配饰与时装联系起来。巴黎工作室的私人定制传统，以及后来走入纽约和巴黎秀场的经历，让它形成兼具亲密感与舞台力量的风格。对比例的坚持，比醒目的标识更能说明它的个性。",
+      "timeline": [
+        {
+          "year": 1964,
+          "event": "阿瑟丁·阿莱娅在巴黎建立时装事业；母公司以这一年作为品牌起点。",
+          "source": "https://www.richemont.com/our-maisons/alaia/"
+        },
+        {
+          "year": 1982,
+          "event": "在纽约 Bergdorf Goodman 举行首场纽约时装秀。",
+          "source": "https://fondationazzedinealaia.org/en/chronologie/"
+        },
+        {
+          "year": 1983,
+          "event": "以 Alaïa 品牌发展时装屋，并在巴黎展示首场时装秀。",
+          "source": "https://fondationazzedinealaia.org/en/chronologie/"
+        },
+        {
+          "year": 1986,
+          "event": "春夏系列以贴身针织条带构成筒形连衣裙。",
+          "source": "https://fondationazzedinealaia.org/en/chronologie/"
+        },
+        {
+          "year": 1987,
+          "event": "购入巴黎玛莱区玻璃厂街建筑，逐步整合住所、工作室和精品店。",
+          "source": "https://fondationazzedinealaia.org/en/chronologie/"
+        },
+        {
+          "year": 2007,
+          "event": "与 Christoph von Weyhe、Carla Sozzani 成立协会，保存时装、设计与艺术收藏。",
+          "source": "https://fondationazzedinealaia.org/en/chronologie/"
+        }
+      ],
+      "signatures": [
+        "雕塑般的贴身剪裁",
+        "弹性针织",
+        "Vienne 镂空图案",
+        "皮革与金属孔眼"
+      ],
+      "source": "https://www.richemont.com/our-maisons/alaia/",
+      "classicItems": [],
+      "sources": [
+        {
+          "label": "Richemont · Alaïa 品牌与工艺",
+          "url": "https://www.richemont.com/our-maisons/alaia/"
+        },
+        {
+          "label": "Fondation Azzedine Alaïa · 官方年表",
+          "url": "https://fondationazzedinealaia.org/en/chronologie/"
+        }
+      ],
+      "foundingNote": "采用母公司当前品牌页的 1964 工作室起点。基金会年表把正式 Alaïa 品牌及巴黎首秀记为 1983；二者所指阶段不同。",
+      "historyNote": "本页沿用历峰集团当前品牌页的 1964 年，指巴黎工作室的事业起点；阿瑟丁·阿莱娅基金会年表另将正式 Alaïa 品牌及巴黎首秀记为 1983 年。两种日期分别对应工作室与品牌发展的不同阶段。"
+    },
+    {
+      "id": "saint-laurent",
+      "name": "Saint Laurent",
+      "nameZh": "圣罗兰",
+      "country": "法国",
+      "founded": 1961,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "左岸的自由，写进一枚交织字母",
+      "intro": "圣罗兰由伊夫·圣罗兰与皮埃尔·贝尔热在巴黎创立，随后以左岸成衣系列把高级时装的创造力带向日常衣橱。交织的三枚字母来自卡桑德尔的设计，至今仍是识别包袋的重要线索。阅读它的皮具，适合先看轮廓、肩背位置和金属标识之间的关系，再体会衣着与配饰共同形成的姿态。从电影服装到时装秀，品牌始终与城市文化交换灵感。黑色的沉静、线条的明确和装饰的分寸，让一只日常包也能延续左岸的自由气息，在简洁与戏剧感之间找到平衡。",
+      "timeline": [
+        {
+          "year": 1961,
+          "event": "伊夫·圣罗兰与皮埃尔·贝尔热创立时装屋，卡桑德尔设计 YSL 交织标识。",
+          "source": "https://www.ysl.com/en-us/collections/heritage"
+        },
+        {
+          "year": 1962,
+          "event": "一月展示时装屋首个系列，工作室首件作品为小黑裙。",
+          "source": "https://www.ysl.com/en-us/collections/heritage"
+        },
+        {
+          "year": 1966,
+          "event": "Saint Laurent Rive Gauche 精品店与成衣系列推出。",
+          "source": "https://www.ysl.com/en-us/collections/heritage"
+        },
+        {
+          "year": 1967,
+          "event": "为电影《白日美人》中的凯瑟琳·德纳芙设计服装。",
+          "source": "https://www.ysl.com/en-us/collections/heritage"
+        },
+        {
+          "year": 1971,
+          "event": "推出以四十年代为灵感的 Libération 高级定制系列。",
+          "source": "https://www.ysl.com/en-us/collections/heritage"
+        },
+        {
+          "year": 2012,
+          "event": "成衣标签采用 Saint Laurent 名称，呼应一九六六年的成衣标识。",
+          "source": "https://www.ysl.com/en-us/collections/heritage"
+        }
+      ],
+      "signatures": [
+        "Cassandre 交织字母",
+        "Rive Gauche 左岸精神",
+        "明确的轮廓线条",
+        "电影与时装的对话"
+      ],
+      "source": "https://www.ysl.com/en-us/collections/heritage",
+      "classicItems": [],
+      "sources": [
+        {
+          "label": "Saint Laurent · Heritage 官方年表",
+          "url": "https://www.ysl.com/en-us/collections/heritage"
+        }
+      ]
+    },
+    {
+      "id": "chloe",
+      "name": "Chloé",
+      "nameZh": "蔻依",
+      "country": "法国",
+      "founded": 1952,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "巴黎的轻盈，与一把醒目的挂锁",
+      "intro": "蔻依由出生于埃及亚历山大的加比·阿吉翁在巴黎创立，以柔和轮廓、优质面料与精细细节回应女性的日常生活。早期秀场设在左岸咖啡馆，衣服与城市的节奏自然相连。这种轻盈也进入皮具：柔软包身与醒目金属形成对照，让一只包既有触感，也有清楚的记忆点。二〇〇五年推出的帕丁顿包，以大挂锁和旅行箱般的气质成为重要代表。看它的包袋，可以沿着皮革褶皱、提手弧线和五金重量阅读，理解浪漫风格怎样落在可以随身携带的物件上。",
+      "timeline": [
+        {
+          "year": 1952,
+          "event": "加比·阿吉翁设计首个系列，蔻依的高级成衣故事开始。",
+          "source": "https://www.chloe.com/en-qa/maison/history.html"
+        },
+        {
+          "year": 1957,
+          "event": "在巴黎花神咖啡馆举行首场时装秀，展示翌年春夏系列。",
+          "source": "https://www.chloe.com/en-qa/maison/history.html"
+        },
+        {
+          "year": 1962,
+          "event": "官方年表记录丝质衬衫成为品牌衣橱的重要组成。",
+          "source": "https://www.chloe.com/en-qa/maison/history.html"
+        },
+        {
+          "year": 1965,
+          "event": "卡尔·拉格斐设计 Tertulia 连衣裙，以手绘图案诠释波希米亚风格。",
+          "source": "https://www.chloe.com/en-qa/maison/history.html"
+        },
+        {
+          "year": 1972,
+          "event": "首家精品店在巴黎巴克街与格里博瓦尔街交角开业。",
+          "source": "https://www.chloe.com/en-qa/maison/history.html"
+        },
+        {
+          "year": 2005,
+          "event": "春季推出 Paddington 包，以宽大比例与大挂锁形成鲜明识别。",
+          "source": "https://www.chloe.com/en-qa/maison/history.html"
+        }
+      ],
+      "signatures": [
+        "柔和而流动的轮廓",
+        "巴黎左岸咖啡馆传统",
+        "波希米亚浪漫",
+        "Paddington 挂锁"
+      ],
+      "source": "https://www.chloe.com/en-qa/maison/history.html",
+      "classicItems": [],
+      "sources": [
+        {
+          "label": "Chloé · Maison History 官方年表",
+          "url": "https://www.chloe.com/en-qa/maison/history.html"
+        }
+      ]
+    },
+    {
+      "id": "david-yurman",
+      "name": "David Yurman",
+      "nameZh": "大卫雅曼",
+      "country": "美国",
+      "founded": 1980,
+      "categories": [
+        "necklace",
+        "jewelry"
+      ],
+      "tagline": "让雕塑的扭转，成为手腕上的线条",
+      "intro": "大卫雅曼由雕塑家大卫与画家西比尔共同创立，把艺术合作延伸为可以佩戴的物件。品牌标志性的绳索纹，并非一层附加装饰，而是把金属线条扭转成形的结构语言。早期雕塑里的铜杆、对古代扭索项圈的观察，以及彩色宝石的运用，都进入了珠宝设计。欣赏一只手镯，可以从纹路的起伏、开口两端的宝石和金属之间的光影开始。银与钻石的组合，让珍贵材料呈现更轻松的日常气质；同一条扭转线索又能延续到项链与戒指，形成连续而清楚的家族面貌。",
+      "timeline": [
+        {
+          "year": 1980,
+          "event": "大卫与西比尔共同成立 David Yurman 公司。",
+          "source": "https://www.davidyurman.com/world-of-yurman/timeline.html"
+        },
+        {
+          "year": 1982,
+          "event": "标志性的 Cable 绳索纹手镯诞生，扭转金线并在两端镶嵌彩色宝石。",
+          "source": "https://www.davidyurman.com/world-of-yurman/timeline.html"
+        },
+        {
+          "year": 1987,
+          "event": "首次在瑞士巴塞尔的世界钟表珠宝展展示作品。",
+          "source": "https://www.davidyurman.com/world-of-yurman/timeline.html"
+        },
+        {
+          "year": 1997,
+          "event": "推出 Silver Ice 系列，将钻石与银材质结合。",
+          "source": "https://www.davidyurman.com/world-of-yurman/timeline.html"
+        },
+        {
+          "year": 1999,
+          "event": "首家精品店在纽约麦迪逊大道开业。",
+          "source": "https://www.davidyurman.com/world-of-yurman/timeline.html"
+        },
+        {
+          "year": 2001,
+          "event": "推出以彼得·林德伯格黑白人物摄影为特色的生活方式广告。",
+          "source": "https://www.davidyurman.com/world-of-yurman/timeline.html"
+        }
+      ],
+      "signatures": [
+        "Cable 绳索纹",
+        "雕塑式金属线条",
+        "彩色宝石端饰",
+        "银与钻石的组合"
+      ],
+      "source": "https://www.davidyurman.com/world-of-yurman/timeline.html",
+      "classicItems": [],
+      "sources": [
+        {
+          "label": "David Yurman · An Artist’s Story 官方年表",
+          "url": "https://www.davidyurman.com/world-of-yurman/timeline.html"
+        }
+      ]
+    },
+    {
+      "id": "swarovski",
+      "name": "Swarovski",
+      "nameZh": "施华洛世奇",
+      "country": "奥地利",
+      "founded": 1895,
+      "categories": [
+        "necklace",
+        "jewelry"
+      ],
+      "tagline": "从精密切面，到可以佩戴的光",
+      "intro": "施华洛世奇始于奥地利瓦腾斯，创办人丹尼尔把玻璃切磨经验与机械创新结合，让仿水晶的精密切面成为设计语言。它先为时装提供闪耀材料，再逐渐发展自己的首饰和摆件。欣赏这类作品，关键在于光线如何经过切面、色彩如何叠加，以及金属托架怎样衬托明亮的中心。天鹅标识与八角轮廓提供熟悉的视觉线索，夸张比例和丰富颜色则带来舞台感。从单颗吊坠到联名套组，同一种材料可以表现轻巧、华丽或俏皮的情绪，让光成为日常穿搭的一部分。",
+      "timeline": [
+        {
+          "year": 1895,
+          "event": "丹尼尔·施华洛世奇在奥地利创立水晶切磨事业。",
+          "source": "https://www.swarovski.com/en-GR/s-the-history-of-swarovski"
+        },
+        {
+          "year": 1899,
+          "event": "雪绒花成为公司的首个标识。",
+          "source": "https://www.swarovski.com/en-GR/s-the-history-of-swarovski"
+        },
+        {
+          "year": 1976,
+          "event": "由吊灯零件组合而成的小鼠摆件在因斯布鲁克冬奥会期间发售。",
+          "source": "https://www.swarovski.com/en_GB-GB/s-swarovski-milestones"
+        },
+        {
+          "year": 1977,
+          "event": "推出首个自有首饰系列。",
+          "source": "https://www.swarovski.com/en-GR/s-the-history-of-swarovski"
+        },
+        {
+          "year": 1989,
+          "event": "推出 Daniel Swarovski Paris 系列，并启用天鹅标识。",
+          "source": "https://www.swarovski.com/en-GR/s-the-history-of-swarovski"
+        },
+        {
+          "year": 1995,
+          "event": "为百年纪念在瓦腾斯开放 Swarovski Kristallwelten 水晶世界。",
+          "source": "https://www.swarovski.com/en_GB-GB/s-swarovski-milestones"
+        }
+      ],
+      "signatures": [
+        "精密切割仿水晶",
+        "天鹅标识",
+        "八角几何轮廓",
+        "鲜明色彩与光效"
+      ],
+      "source": "https://www.swarovski.com/en-GR/s-the-history-of-swarovski",
+      "classicItems": [],
+      "sources": [
+        {
+          "label": "Swarovski · Brand History and Origin",
+          "url": "https://www.swarovski.com/en-GR/s-the-history-of-swarovski"
+        },
+        {
+          "label": "Swarovski · Milestones 官方年表",
+          "url": "https://www.swarovski.com/en_GB-GB/s-swarovski-milestones"
+        }
+      ]
+    }
+  ],
+  "researchNotes": [
+    "所有历史事实采用品牌、母公司或创办人官方基金会来源；不采用第三方媒体历史转述。",
+    "经典单品关联交由主流程从现有全站单品自动生成，classicItems 暂留空。",
+    "Alaïa founded 采用母公司当前 1964 口径；正式品牌阶段另列 1983。",
+    "David Yurman 的中文品牌名采用其官方发布的中文新闻稿常用写法“大卫雅曼”，历史事实仍以官网年表为准。"
+  ],
+  "browserTabs": {
+    "opened": 0,
+    "remainingOwned": 0
+  }
+}

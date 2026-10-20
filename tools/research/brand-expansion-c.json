@@ -1,0 +1,414 @@
+{
+  "checkedAt": "2026-10-20",
+  "brands": [
+    {
+      "id": "fred",
+      "name": "FRED",
+      "nameZh": "斐登",
+      "country": "法国",
+      "founded": 1936,
+      "categories": [
+        "necklace"
+      ],
+      "tagline": "把海风与阳光戴在身上",
+      "intro": "斐登由弗雷德·萨穆尔在巴黎创立，明亮宝石与法国蔚蓝海岸的闲适气息，构成它的珠宝语言。航海钢索与贵金属扣环的相遇，让力量和轻盈可以同时出现；可替换的色彩与材质，又把佩戴变成一种自由组合。读懂这个品牌，可以先观察扣环的弧线、链条的走向，再看钻石如何捕捉光线。项链延续手链的运动感，既有贴近日常的简洁轮廓，也有以流苏、镶嵌和比例变化展开的华丽表达。它的辨识度，来自对海洋意象的不断转译。",
+      "timeline": [
+        {
+          "year": 1936,
+          "event": "弗雷德·萨穆尔在巴黎开设首间珠宝店，创立 FRED。",
+          "source": "https://www.fred.com/en-int/rings/1936-ring/4J0798.html"
+        },
+        {
+          "year": 1966,
+          "event": "Force 10 手链问世，以航海钢索与贵金属扣环组合形成标志性结构。",
+          "source": "https://www.lvmh.com/en/our-maisons/watches-jewelry/fred"
+        },
+        {
+          "year": 1995,
+          "event": "FRED 加入 LVMH 集团。",
+          "source": "https://urd.lvmh.com/en/urd-2023-va_vdef.pdf"
+        },
+        {
+          "year": 2016,
+          "event": "Chance Infinie 系列推出。",
+          "source": "https://www.lvmh.com/en/our-maisons/watches-jewelry/fred"
+        },
+        {
+          "year": 2022,
+          "event": "FRED Hero Cut 钻石切工诞生，以三十六个切面呼应创立年份。",
+          "source": "https://www.fred.com/au/actualities/force-10-high-end.html"
+        },
+        {
+          "year": 2026,
+          "event": "品牌九十周年之际推出十七件 Force 10 高级珠宝新作。",
+          "source": "https://www.fred.com/au/actualities/force-10-high-end.html"
+        }
+      ],
+      "signatures": [
+        "Force 10 航海扣环",
+        "钢索与贵金属搭配",
+        "可替换组合",
+        "明亮宝石与阳光意象"
+      ],
+      "source": "https://www.lvmh.com/en/our-maisons/watches-jewelry/fred",
+      "sources": [
+        {
+          "label": "LVMH｜FRED 品牌与系列历史",
+          "url": "https://www.lvmh.com/en/our-maisons/watches-jewelry/fred"
+        },
+        {
+          "label": "FRED｜1936 与巴黎首店",
+          "url": "https://www.fred.com/en-int/rings/1936-ring/4J0798.html"
+        },
+        {
+          "label": "LVMH｜2023 年注册文件，FRED 段落",
+          "url": "https://urd.lvmh.com/en/urd-2023-va_vdef.pdf"
+        },
+        {
+          "label": "FRED｜2026 Force 10 高级珠宝与 Hero Cut",
+          "url": "https://www.fred.com/au/actualities/force-10-high-end.html"
+        }
+      ],
+      "classicItems": []
+    },
+    {
+      "id": "boucheron",
+      "name": "Boucheron",
+      "nameZh": "宝诗龙",
+      "country": "法国",
+      "founded": 1858,
+      "categories": [
+        "jewelry"
+      ],
+      "tagline": "把巴黎建筑与织物写进金属",
+      "intro": "宝诗龙从巴黎皇家宫殿的珠宝店出发，将自由佩戴的想法写进百余年的设计。无扣项链以柔韧结构贴合颈部，芳登广场的石板路与家族织物背景，则转化成戒指上的细密纹样。观察它的首饰，可以先比较光面、刻纹与钻石铺面的不同反光，再留意几道金属环如何叠合成一个整体。蛇形意象、建筑线条与衣料质感在这里彼此呼应，使珠宝既有雕塑般的体积，又保留接近身体的节奏。看似熟悉的经典图案，常被重新组合出鲜明的当代轮廓。",
+      "timeline": [
+        {
+          "year": 1858,
+          "event": "弗雷德里克·宝诗龙在巴黎皇家宫殿开设珠宝店。",
+          "source": "https://www.boucheron.com/us/our-maison/the-freedom-to-create/a-history-of-firsts"
+        },
+        {
+          "year": 1879,
+          "event": "无扣的 Question Mark 问号项链诞生。",
+          "source": "https://www.boucheron.com/us/our-maison/the-freedom-to-create/a-history-of-firsts"
+        },
+        {
+          "year": 1893,
+          "event": "品牌进驻芳登广场二十六号。",
+          "source": "https://www.boucheron.com/us/our-maison/the-freedom-to-create/a-history-of-firsts"
+        },
+        {
+          "year": 1928,
+          "event": "帕蒂亚拉大君委托制作一批规模庞大的高级珠宝。",
+          "source": "https://www.boucheron.com/us/our-maison/the-freedom-to-create/a-history-of-firsts"
+        },
+        {
+          "year": 1947,
+          "event": "Reflet 腕表推出，采用隐藏式表扣结构。",
+          "source": "https://www.boucheron.com/us/our-maison/the-freedom-to-create/a-history-of-firsts"
+        },
+        {
+          "year": 1968,
+          "event": "Serpent Bohème 系列诞生。",
+          "source": "https://www.boucheron.com/ch_en/our-maison/the-sense-of-style/the-quatre-icon"
+        },
+        {
+          "year": 2004,
+          "event": "Quatre 戒指问世，将四种档案纹样组合为一个当代标志。",
+          "source": "https://www.boucheron.com/ch_en/our-maison/the-sense-of-style/the-quatre-icon"
+        }
+      ],
+      "signatures": [
+        "Quatre 四种纹样",
+        "Clou de Paris 巴黎饰纹",
+        "Serpent Bohème 水滴造型",
+        "Question Mark 无扣结构"
+      ],
+      "source": "https://www.boucheron.com/us/our-maison/the-freedom-to-create/a-history-of-firsts",
+      "sources": [
+        {
+          "label": "Boucheron｜A story of firsts",
+          "url": "https://www.boucheron.com/us/our-maison/the-freedom-to-create/a-history-of-firsts"
+        },
+        {
+          "label": "Boucheron｜Quatre 图案与系列历史",
+          "url": "https://www.boucheron.com/ch_en/our-maison/the-sense-of-style/the-quatre-icon"
+        }
+      ],
+      "classicItems": []
+    },
+    {
+      "id": "pomellato",
+      "name": "Pomellato",
+      "nameZh": "宝曼兰朵",
+      "country": "意大利",
+      "founded": 1967,
+      "categories": [
+        "jewelry"
+      ],
+      "tagline": "米兰金工里的饱满色彩",
+      "intro": "宝曼兰朵诞生于米兰，把珠宝融入日常着装的愿望，贯穿它的金工与宝石设计。饱满金属体积、柔和链节和大胆彩石是理解品牌的入口；宝石仿佛悬浮于指间，让光线与颜色先于镶座被看见。欣赏一件作品时，可以留意圆润表面的过渡、戒圈贴合手指的弧度，以及不同色调并置后的层次。它的首饰常像小型可佩戴雕塑，既能单独呈现，也适合叠戴组合。米兰的建筑感与轻松穿着的观念，在这些流动而有分量的线条里相遇。",
+      "timeline": [
+        {
+          "year": 1967,
+          "event": "皮诺·拉博里尼在米兰创立 Pomellato。",
+          "source": "https://www.kering.com/en/houses/jewelry/pomellato/"
+        },
+        {
+          "year": 1982,
+          "event": "赫尔穆特·牛顿为品牌拍摄首组广告。",
+          "source": "https://www.kering.com/en/houses/jewelry/pomellato/"
+        },
+        {
+          "year": 2001,
+          "event": "Nudo 系列诞生，以仿佛悬浮的彩色宝石重释单石戒指。",
+          "source": "https://www.pomellato.com/us_en/nudo-event"
+        },
+        {
+          "year": 2013,
+          "event": "Pomellato 加入开云集团。",
+          "source": "https://www.kering.com/en/houses/jewelry/pomellato/"
+        },
+        {
+          "year": 2018,
+          "event": "品牌实现黄金百分之百负责任采购。",
+          "source": "https://www.kering.com/en/houses/jewelry/pomellato/"
+        },
+        {
+          "year": 2020,
+          "event": "推出品牌首个高级珠宝系列。",
+          "source": "https://www.kering.com/en/houses/jewelry/pomellato/"
+        }
+      ],
+      "signatures": [
+        "饱满圆润的金属体积",
+        "Nudo 彩色宝石",
+        "不规则五十七切面",
+        "雕塑感链节"
+      ],
+      "source": "https://www.kering.com/en/houses/jewelry/pomellato/",
+      "sources": [
+        {
+          "label": "Kering｜Pomellato 品牌历史",
+          "url": "https://www.kering.com/en/houses/jewelry/pomellato/"
+        },
+        {
+          "label": "Pomellato｜Nudo 自 2001 年的设计",
+          "url": "https://www.pomellato.com/us_en/nudo-event"
+        }
+      ],
+      "classicItems": []
+    },
+    {
+      "id": "adidas",
+      "name": "adidas",
+      "nameZh": "阿迪达斯",
+      "country": "德国",
+      "founded": 1949,
+      "categories": [
+        "bags",
+        "necklace"
+      ],
+      "role": "collaborator",
+      "tagline": "三条纹从运动场走进时装",
+      "intro": "阿迪达斯从德国的运动制鞋事业发展而来，三条纹与三叶草把竞技功能转化为清晰的视觉记忆。球鞋、运动套装与街头音乐建立起它的文化联系，也为跨界设计提供了丰富档案。在本站，它以古驰联名合作品牌的身份出现：运动符号与双字母图案相遇，旅行包、链饰等配件因此具有不同于常规运动装备的材质和比例。理解这些单品，既要看双方标识如何组合，也要读清具体款式的制作品牌与系列归属。联名让熟悉的符号获得新的穿着语境。",
+      "timeline": [
+        {
+          "year": 1949,
+          "event": "阿迪·达斯勒在德国黑措根奥拉赫注册 adidas 公司。",
+          "source": "https://www.adidas-group.com/en/about/history"
+        },
+        {
+          "year": 1954,
+          "event": "德国足球队穿着可更换螺旋鞋钉的 adidas 球鞋赢得世界杯。",
+          "source": "https://www.adidas-group.com/en/about/history"
+        },
+        {
+          "year": 1967,
+          "event": "以贝肯鲍尔命名的运动套装推出，品牌扩展至服装。",
+          "source": "https://www.adidas-group.com/en/about/history"
+        },
+        {
+          "year": 1970,
+          "event": "Telstar 成为品牌首款世界杯官方比赛用球。",
+          "source": "https://www.adidas-group.com/en/about/history"
+        },
+        {
+          "year": 1972,
+          "event": "三叶草标识正式推出。",
+          "source": "https://www.adidas-group.com/en/about/history"
+        },
+        {
+          "year": 1986,
+          "event": "Run-D.M.C. 的音乐与穿着使 Superstar 更深入街头文化。",
+          "source": "https://www.adidas-group.com/en/about/history"
+        },
+        {
+          "year": 2022,
+          "event": "adidas x Gucci 系列于六月七日推出，覆盖包袋、珠宝与服装等品类。",
+          "source": "https://news.adidas.com/originals/adidas-x-gucci-is-here/s/73828335-7f0b-4f46-8d9a-ba0af35277c5"
+        }
+      ],
+      "signatures": [
+        "三条纹",
+        "三叶草标识",
+        "运动档案与街头文化",
+        "adidas x Gucci 联名图案"
+      ],
+      "source": "https://www.adidas-group.com/en/about/history",
+      "sources": [
+        {
+          "label": "adidas Group｜官方品牌历史",
+          "url": "https://www.adidas-group.com/en/about/history"
+        },
+        {
+          "label": "adidas｜2022 adidas x Gucci 发布",
+          "url": "https://news.adidas.com/originals/adidas-x-gucci-is-here/s/73828335-7f0b-4f46-8d9a-ba0af35277c5"
+        }
+      ],
+      "classicItems": []
+    },
+    {
+      "id": "versace",
+      "name": "Versace",
+      "nameZh": "范思哲",
+      "country": "意大利",
+      "founded": 1978,
+      "categories": [
+        "necklace",
+        "jewelry"
+      ],
+      "role": "collaborator",
+      "tagline": "把古典符号变成鲜明姿态",
+      "intro": "范思哲由詹尼·范思哲创立，鲜明的美杜莎标识、回纹边饰与巴洛克图案，把地中海的古典想象带入时装。它以强烈色彩、雕塑感金属配件和富有表现力的轮廓，形成易于辨认的视觉语言。在本站，品牌通过与芬迪合作的系列出现，两家设计团队交换各自的创意视角，让熟悉的符号进入对方的档案。看链饰与耳环时，可以从扣环、纹样和金属比例辨认这种对话；每件作品仍需按具体系列确认品牌归属。首饰也由此成为理解时装语汇的一条近路。",
+      "timeline": [
+        {
+          "year": 1978,
+          "event": "詹尼·范思哲创立 Versace。",
+          "source": "https://www.versace.com/us/en/about-us/company-profile.html"
+        },
+        {
+          "year": 1991,
+          "event": "品牌秋冬秀在米兰宫邸庭院举行，成为其超模时代的重要一幕。",
+          "source": "https://www.versace.com/gb/en/stories/news-projects/versace-salone-del-mobile-2024.html"
+        },
+        {
+          "year": 1997,
+          "event": "多娜泰拉·范思哲开始领导品牌艺术创作。",
+          "source": "https://www.capriholdings.com/news/news-details/2020/Versace-and-Luxottica-Group-Renew-License-Agreement/default.aspx"
+        },
+        {
+          "year": 2003,
+          "event": "Versace 与 Luxottica 开始眼镜合作关系。",
+          "source": "https://www.capriholdings.com/news/news-details/2020/Versace-and-Luxottica-Group-Renew-License-Agreement/default.aspx"
+        },
+        {
+          "year": 2022,
+          "event": "Fendace 合作系列推出，延续 Versace 与 Fendi 的创意交换。",
+          "source": "https://www.versace.com/ca/en/stories/versace-x-fendi--fendace-news/?year=2022"
+        },
+        {
+          "year": 2024,
+          "event": "Versace Home 在米兰以沉浸式展示回望宫邸与品牌文化。",
+          "source": "https://www.versace.com/gb/en/stories/news-projects/versace-salone-del-mobile-2024.html"
+        }
+      ],
+      "signatures": [
+        "Medusa 美杜莎",
+        "Greca 回纹",
+        "Barocco 巴洛克图案",
+        "Fendace 创意交换"
+      ],
+      "source": "https://www.versace.com/us/en/about-us/company-profile.html",
+      "sources": [
+        {
+          "label": "Versace｜官方品牌介绍",
+          "url": "https://www.versace.com/us/en/about-us/company-profile.html"
+        },
+        {
+          "label": "Versace｜宫邸历史与 1991 年时装秀",
+          "url": "https://www.versace.com/gb/en/stories/news-projects/versace-salone-del-mobile-2024.html"
+        },
+        {
+          "label": "Capri｜2020 官方公告回顾 1997 与 2003 年",
+          "url": "https://www.capriholdings.com/news/news-details/2020/Versace-and-Luxottica-Group-Renew-License-Agreement/default.aspx"
+        },
+        {
+          "label": "Versace｜2022 Fendace 档案",
+          "url": "https://www.versace.com/ca/en/stories/versace-x-fendi--fendace-news/?year=2022"
+        }
+      ],
+      "classicItems": []
+    },
+    {
+      "id": "fragment-design",
+      "name": "fragment design / FRGMT",
+      "nameZh": "藤原浩设计",
+      "country": "日本",
+      "founded": 2003,
+      "categories": [
+        "bags",
+        "necklace",
+        "jewelry"
+      ],
+      "role": "collaborator",
+      "tagline": "用细微改写连接不同文化",
+      "intro": "由藤原浩创立的设计品牌，以联名合作连接音乐、街头服饰、艺术与产品设计。极简图形和闪电标识像一枚识别印记，常在熟悉的经典款式上加入克制而醒目的变化。它与制表、运动及时装品牌的长期对话，强调不同文化之间的重新组合。在本站，品牌以芬迪与宝可梦合作系列的设计参与者身份出现，包袋和首饰仍按具体款式标注制作品牌。欣赏这些作品，可以留意图案的位置、字母的排列，以及角色形象如何改变原有轮廓的表情。细节是进入这套设计语言的起点。",
+      "timeline": [
+        {
+          "year": 2003,
+          "event": "藤原浩创立 fragment 设计品牌。",
+          "source": "https://magazine.tagheuer.com/en/2025/12/02/portrait-of-a-trendsetter-hiroshi-fujiwara-for-tag-heuer/"
+        },
+        {
+          "year": 2018,
+          "event": "与 TAG Heuer 合作推出 Carrera Heuer 02 腕表。",
+          "source": "https://magazine.tagheuer.com/en/2025/12/02/portrait-of-a-trendsetter-hiroshi-fujiwara-for-tag-heuer/"
+        },
+        {
+          "year": 2020,
+          "event": "与 TAG Heuer 的第二次合作采用 Formula 1 Heuer 02 腕表。",
+          "source": "https://magazine.tagheuer.com/en/2025/12/02/portrait-of-a-trendsetter-hiroshi-fujiwara-for-tag-heuer/"
+        },
+        {
+          "year": 2023,
+          "event": "与 Oakley 推出春夏联名眼镜及服装系列。",
+          "source": "https://japan.oakley.com/store_customer/FRGMT2023.php"
+        },
+        {
+          "year": 2024,
+          "event": "FENDI x FRGMT x POKÉMON 合作扩展至 Pokémon GO 虚拟穿搭。",
+          "source": "https://pokemongo.com/news/FENDIxFRGMTxPOKEMON?hl=en"
+        },
+        {
+          "year": 2025,
+          "event": "与 TAG Heuer 推出第三次联名，重新演绎 Carrera Glassbox 设计。",
+          "source": "https://magazine.tagheuer.com/en/2025/12/02/portrait-of-a-trendsetter-hiroshi-fujiwara-for-tag-heuer/"
+        }
+      ],
+      "signatures": [
+        "闪电标识",
+        "FRGMT 字母图形",
+        "极简重构",
+        "跨品牌设计合作"
+      ],
+      "source": "https://magazine.tagheuer.com/en/2025/12/02/portrait-of-a-trendsetter-hiroshi-fujiwara-for-tag-heuer/",
+      "sources": [
+        {
+          "label": "TAG Heuer｜藤原浩、2003 年创立与三次合作",
+          "url": "https://magazine.tagheuer.com/en/2025/12/02/portrait-of-a-trendsetter-hiroshi-fujiwara-for-tag-heuer/"
+        },
+        {
+          "label": "Oakley｜2023 联名与品牌创立年份",
+          "url": "https://japan.oakley.com/store_customer/FRGMT2023.php"
+        },
+        {
+          "label": "Pokémon GO｜2024 FENDI x FRGMT x POKÉMON 合作",
+          "url": "https://pokemongo.com/news/FENDIxFRGMTxPOKEMON?hl=en"
+        }
+      ],
+      "classicItems": []
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "checkedAt": "2026-10-20",
+  "brands": [
+    {
+      "id": "diesel",
+      "name": "Diesel",
+      "nameZh": "迪赛",
+      "country": "意大利",
+      "founded": 1978,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "从丹宁肌理到一枚醒目的金属标识",
+      "intro": "迪赛由伦佐·罗索于一九七八年创立，以丹宁工艺、鲜明个性和带有幽默感的视觉表达建立辨识度。它从牛仔服装延伸至配饰与生活方式领域，把水洗、做旧和材质实验带进日常衣橱。阅读这个品牌，可以先看面料表面的处理，再看五金与轮廓之间的张力。一枚醒目的椭圆标识、一段贴近肩部的提带，都能成为造型中心。站内收录的手袋提供了另一个观察入口：触感柔软的皮革与有分量的金属，在小体积里呈现直接而有活力的态度。",
+      "timeline": [
+        {
+          "year": 1978,
+          "event": "伦佐·罗索创立 Diesel。",
+          "source": "https://www.diesel.co.jp/ja/diesel-planet/history/",
+          "evidence": "日本官网品牌年表列出创立年份与创始人。"
+        },
+        {
+          "year": 1981,
+          "event": "开始向意大利以外的市场出口。",
+          "source": "https://www.diesel.co.jp/ja/diesel-planet/history/",
+          "evidence": "年表的一九八一年节点记录海外出口启动。"
+        },
+        {
+          "year": 1985,
+          "event": "伦佐·罗索取得品牌的完全控制权。",
+          "source": "https://www.diesel.co.jp/ja/diesel-planet/history/",
+          "evidence": "日本官网与 OTB 官方历史均确认这一节点。"
+        },
+        {
+          "year": 1991,
+          "event": "以全球营销策略展开广告企划。",
+          "source": "https://www.diesel.co.jp/ja/diesel-planet/history/",
+          "evidence": "年表的一九九一年节点记录全球广告展开。"
+        },
+        {
+          "year": 1995,
+          "event": "推出品牌官方网站 diesel.com。",
+          "source": "https://www.diesel.co.jp/ja/diesel-planet/history/",
+          "evidence": "日本官网将官方网站上线列为独立节点。"
+        },
+        {
+          "year": 1996,
+          "event": "在纽约、罗马和伦敦开设首批旗舰店。",
+          "source": "https://www.diesel.co.jp/ja/diesel-planet/history/",
+          "evidence": "年表明确列出三个首批旗舰店城市。"
+        }
+      ],
+      "signatures": [
+        "丹宁水洗",
+        "做旧肌理",
+        "Oval D 标识",
+        "金属与皮革对比"
+      ],
+      "source": "https://www.diesel.co.jp/ja/diesel-planet/history/",
+      "sources": [
+        {
+          "label": "Diesel 日本官网：品牌历史",
+          "url": "https://www.diesel.co.jp/ja/diesel-planet/history/"
+        },
+        {
+          "label": "Diesel：About Diesel",
+          "url": "https://diesel.com/en-us/diesel/about-diesel.html"
+        },
+        {
+          "label": "OTB：品牌发展历史",
+          "url": "https://www.otb.net/en/history"
+        }
+      ],
+      "classicItems": []
+    },
+    {
+      "id": "balenciaga",
+      "name": "Balenciaga",
+      "nameZh": "巴黎世家",
+      "country": "西班牙",
+      "founded": 1917,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "在结构、体量与日常轮廓之间",
+      "intro": "巴黎世家于一九一七年起步于西班牙，一九三七年在巴黎建立高级定制时装屋。创始人克里斯托瓦尔·巴伦西亚加以结构、比例与体量改变服装和身体的关系，袋形裙等作品留下清晰的轮廓语言。这份对造型的探索，也为理解品牌手袋提供了线索：弧线如何靠近身体，皮革怎样形成褶皱，五金又怎样改变视觉重心。浏览站内单品时，可以把注意力放在这些具体细节上，从机车气质的肩包读到宽松垂坠的提包，观察经典工艺与当代日常之间的持续对话。",
+      "timeline": [
+        {
+          "year": 1917,
+          "event": "克里斯托瓦尔·巴伦西亚加在西班牙圣塞瓦斯蒂安开设高级时装屋。",
+          "source": "https://www.balenciaga.com/en-us/crist%C3%B3bal-balenciaga",
+          "evidence": "品牌官网创始人年表列明城市与开业年份。"
+        },
+        {
+          "year": 1937,
+          "event": "在巴黎乔治五世大道十号开设时装屋，发表首个巴黎系列。",
+          "source": "https://www.balenciaga.com/en-us/crist%C3%B3bal-balenciaga",
+          "evidence": "官网年表同时记录巴黎地址与首个系列。"
+        },
+        {
+          "year": 1947,
+          "event": "推出首款香氛 Le Dix。",
+          "source": "https://www.kering.com/en/houses/fashion-and-leather-goods/balenciaga/",
+          "evidence": "开云品牌档案把首款香氛列于一九四七年。"
+        },
+        {
+          "year": 1957,
+          "event": "推出袋形裙，以简洁外形松开服装对身体的束缚。",
+          "source": "https://www.kering.com/en/houses/fashion-and-leather-goods/balenciaga/",
+          "evidence": "开云官方年表确认袋形裙的年份与设计意义。"
+        },
+        {
+          "year": 2001,
+          "event": "加入开云集团，同年推出 Le City 手袋。",
+          "source": "https://www.kering.com/en/houses/fashion-and-leather-goods/balenciaga/",
+          "evidence": "开云官方年表在同一节点记录集团归属与手袋上市。"
+        },
+        {
+          "year": 2021,
+          "event": "在离开高级定制五十三年后，重返高级定制领域。",
+          "source": "https://www.kering.com/en/houses/fashion-and-leather-goods/balenciaga/",
+          "evidence": "开云官方年表记载二〇二一年高级定制回归。"
+        }
+      ],
+      "signatures": [
+        "雕塑廓形",
+        "结构与体量",
+        "机车风五金",
+        "柔软垂坠皮革"
+      ],
+      "source": "https://www.kering.com/en/houses/fashion-and-leather-goods/balenciaga/",
+      "sources": [
+        {
+          "label": "Kering：Balenciaga 品牌档案",
+          "url": "https://www.kering.com/en/houses/fashion-and-leather-goods/balenciaga/"
+        },
+        {
+          "label": "Balenciaga：Cristóbal 历史档案",
+          "url": "https://www.balenciaga.com/en-us/crist%C3%B3bal-balenciaga"
+        }
+      ],
+      "classicItems": []
+    },
+    {
+      "id": "miu-miu",
+      "name": "Miu Miu",
+      "nameZh": "缪缪",
+      "country": "意大利",
+      "founded": 1993,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "以绗缝、复古比例与自由气息写日常",
+      "intro": "缪缪诞生于一九九三年，是缪西娅·普拉达探索独立审美与个人表达的另一片空间。品牌把天真、知性与自由的气息放在同一套衣橱里，也通过女性电影短片、俱乐部和特别项目扩展时装的叙事。它的包袋适合从材质和比例读起：绗缝皮革带来蓬松触感，弧形肩包顺着身体展开，复古手提轮廓则留下端整的线条。站内收录的不同年份款式，可供比较柔软纳帕皮与麂皮的表情，也能看见一个熟悉的包形如何随着颜色、纹理和携带方式呈现新的性格。",
+      "timeline": [
+        {
+          "year": 1993,
+          "event": "缪西娅·普拉达创立 Miu Miu，并在米兰开出首家精品店。",
+          "source": "https://www.pradagroup.com/content/dam/pradagroup/documents/investors/capital-markets-day/2021/Prada-Group-2021-CMD-Presentation.pdf",
+          "evidence": "Prada 集团二〇二一年资本市场日官方演示文稿 PDF 第四十七页，记录创立及米兰首店。"
+        },
+        {
+          "year": 2006,
+          "event": "开始在巴黎时装周发表系列。",
+          "source": "https://www.pradagroup.com/content/dam/pradagroup/documents/investors/capital-markets-day/2021/Prada-Group-2021-CMD-Presentation.pdf",
+          "evidence": "同页将二〇〇六年列为进入巴黎时装周的节点。"
+        },
+        {
+          "year": 2011,
+          "event": "推出由女性导演创作的 Women’s Tales 短片系列。",
+          "source": "https://www.pradagroup.com/content/dam/pradagroup/documents/investors/capital-markets-day/2021/Prada-Group-2021-CMD-Presentation.pdf",
+          "evidence": "同页确认 Women’s Tales 于二〇一一年启动；品牌官网电影档案列有首部作品。"
+        },
+        {
+          "year": 2012,
+          "event": "在伦敦举办首个 Miu Miu Club。",
+          "source": "https://www.pradagroup.com/content/dam/pradagroup/documents/investors/capital-markets-day/2021/Prada-Group-2021-CMD-Presentation.pdf",
+          "evidence": "同页将伦敦首个俱乐部活动标注于二〇一二年。"
+        },
+        {
+          "year": 2019,
+          "event": "推出 Miu Miu Select 特别项目。",
+          "source": "https://www.pradagroup.com/content/dam/pradagroup/documents/investors/capital-markets-day/2021/Prada-Group-2021-CMD-Presentation.pdf",
+          "evidence": "同页明确给出 Select 的首次推出年份。"
+        },
+        {
+          "year": 2020,
+          "event": "推出 Upcycled by Miu Miu 系列。",
+          "source": "https://www.pradagroup.com/content/dam/pradagroup/documents/investors/capital-markets-day/2021/Prada-Group-2021-CMD-Presentation.pdf",
+          "evidence": "同页记录 Upcycled 项目于二〇二〇年亮相。"
+        }
+      ],
+      "signatures": [
+        "Matelassé 绗缝",
+        "复古手提比例",
+        "弧形肩包",
+        "纳帕皮与麂皮"
+      ],
+      "source": "https://www.pradagroup.com/en/brands/miu-miu.html",
+      "sources": [
+        {
+          "label": "Prada Group：Miu Miu 品牌介绍",
+          "url": "https://www.pradagroup.com/en/brands/miu-miu.html"
+        },
+        {
+          "label": "Prada Group：2021 Capital Markets Day，第47页",
+          "url": "https://www.pradagroup.com/content/dam/pradagroup/documents/investors/capital-markets-day/2021/Prada-Group-2021-CMD-Presentation.pdf"
+        },
+        {
+          "label": "Miu Miu：品牌项目与电影档案",
+          "url": "https://www.miumiu.com/eu/en/miumiu-club.html"
+        }
+      ],
+      "classicItems": []
+    },
+    {
+      "id": "loewe",
+      "name": "LOEWE",
+      "nameZh": "罗意威",
+      "country": "西班牙",
+      "founded": 1846,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "让几何、皮革与想象力一起折叠",
+      "intro": "罗意威的历史始于一八四六年的马德里皮革工坊，细致的手艺始终贯穿品牌的发展。由四个字母构成的标识、富于几何感的拼接与柔软皮革，让实用物件也有了雕塑般的观看角度。品牌基金会与工艺奖把这份兴趣延伸到更广阔的创作领域。阅读站内包袋，可以沿着折线、接缝和提带寻找结构，也可以留意天然纤维、色彩和角色图案怎样改变熟悉的轮廓。从拼接小包到可折叠托特，再到带有俏皮细节的特别款，工艺与想象力在使用的动作里彼此相遇。",
+      "timeline": [
+        {
+          "year": 1846,
+          "event": "西班牙工匠在马德里洛沃街开设皮革工坊。",
+          "source": "https://www.loewe.com/eur/en/art-and-craft/our-history.html",
+          "evidence": "官网历史年表以工匠集体和马德里工坊为起点。"
+        },
+        {
+          "year": 1872,
+          "event": "恩里克·罗意威·罗斯伯格接掌工坊，品牌由此得名。",
+          "source": "https://www.loewe.com/eur/en/pd/stories/welcome-to-loewe.html",
+          "evidence": "官网品牌介绍明确说明名称起源于一八七二年的接掌与命名。"
+        },
+        {
+          "year": 1905,
+          "event": "成为西班牙王室的官方供应商。",
+          "source": "https://www.loewe.com/eur/en/art-and-craft/our-history.html",
+          "evidence": "官网年表记载阿方索十三世授予的王室供应资格。"
+        },
+        {
+          "year": 1970,
+          "event": "设计师 Vicente Vela 创作由四个 L 组成的 Anagram 标识。",
+          "source": "https://www.loewe.com/eur/en/art-and-craft/our-history.html",
+          "evidence": "官网将标识创作列于一九七〇年，并说明其皮革烙印灵感。"
+        },
+        {
+          "year": 1988,
+          "event": "成立 LOEWE 基金会，支持工艺、艺术、诗歌等领域。",
+          "source": "https://www.loewe.com/eur/en/art-and-craft/our-history.html",
+          "evidence": "官网年表记载基金会成立年份及文化支持使命。"
+        },
+        {
+          "year": 2015,
+          "event": "推出以立体几何结构著称的 Puzzle 手袋。",
+          "source": "https://www.loewe.com/eur/en/art-and-craft/our-history.html",
+          "evidence": "官网年表将 Puzzle 发布列于二〇一五年。"
+        },
+        {
+          "year": 2016,
+          "event": "设立 LOEWE FOUNDATION Craft Prize，关注当代工艺。",
+          "source": "https://www.loewe.com/eur/en/art-and-craft/our-history.html",
+          "evidence": "官网年表明确区分奖项设立年份与后续年度评选。"
+        }
+      ],
+      "signatures": [
+        "Anagram 标识",
+        "几何拼接",
+        "柔软皮革",
+        "工艺实验"
+      ],
+      "source": "https://www.loewe.com/eur/en/art-and-craft/our-history.html",
+      "sources": [
+        {
+          "label": "LOEWE：180年工艺历史",
+          "url": "https://www.loewe.com/eur/en/art-and-craft/our-history.html"
+        },
+        {
+          "label": "LOEWE：Welcome to LOEWE",
+          "url": "https://www.loewe.com/eur/en/pd/stories/welcome-to-loewe.html"
+        }
+      ],
+      "classicItems": []
+    },
+    {
+      "id": "the-row",
+      "name": "The Row",
+      "nameZh": "The Row",
+      "country": "美国",
+      "founded": 2005,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "把注意力留给皮革、比例与留白",
+      "intro": "奥尔森姐妹创立的美国品牌始终围绕面料、细节与精确剪裁展开设计，以简练形状构成安静而鲜明的识别方式。它的成衣与配饰共享对比例和品质的关注，也多次获得美国时装设计师协会的女装与配饰奖项。阅读这个品牌的手袋，适合放慢速度：看皮革颗粒如何接住光线，看提柄与包身之间的留白，再看侧边扣带怎样调整体积。站内收录的软身手提包提供了一个具体入口，让低调的外观、宽裕的容量与细腻的材料，在日常携带中形成有分寸的存在感。",
+      "timeline": [
+        {
+          "year": 2005,
+          "event": "Ashley Olsen 与 Mary-Kate Olsen 创立 The Row。",
+          "source": "https://www.therow.com/pages/about-us",
+          "evidence": "品牌现行 About Us 页面明确采用二〇〇五年作为成立年份。"
+        },
+        {
+          "year": 2012,
+          "event": "奥尔森姐妹凭 The Row 获得 CFDA 年度女装设计师奖。",
+          "source": "https://www.prnewswire.com/news-releases/2012-cfda-fashion-awards-presented-in-new-york-157165675.html",
+          "evidence": "CFDA 自行发布的获奖新闻稿明确列出姐妹二人与 The Row。"
+        },
+        {
+          "year": 2015,
+          "event": "再次获得 CFDA 年度女装设计师奖。",
+          "source": "https://cfda.com/news/year-in-review-the-cfdas-2015-award-winners/",
+          "evidence": "CFDA 官方年度获奖回顾确认该品牌及奖项。"
+        },
+        {
+          "year": 2018,
+          "event": "获得 CFDA 年度配饰设计师奖。",
+          "source": "https://cfda.com/news/the-2018-cfda-fashion-awards-winners/",
+          "evidence": "CFDA 官方获奖公告列出 The Row 为该奖项得主。"
+        },
+        {
+          "year": 2019,
+          "event": "连续第二年获得 CFDA 年度配饰设计师奖。",
+          "source": "https://www.prnewswire.com/news-releases/winners-announced-at-the-2019-cfda-fashion-awards-300861296.html",
+          "evidence": "CFDA 自行发布的二〇一九年获奖新闻稿确认该奖项。"
+        },
+        {
+          "year": 2025,
+          "event": "获得 CFDA 美国年度配饰设计师奖。",
+          "source": "https://cfda.com/annual-report-2025/",
+          "evidence": "CFDA 二〇二五年官方年报的十一月节点列明得主与奖项。"
+        }
+      ],
+      "signatures": [
+        "简练轮廓",
+        "精准剪裁",
+        "低调细节",
+        "材质触感"
+      ],
+      "source": "https://www.therow.com/pages/about-us",
+      "sources": [
+        {
+          "label": "The Row：About Us",
+          "url": "https://www.therow.com/pages/about-us"
+        },
+        {
+          "label": "CFDA：2012获奖新闻稿",
+          "url": "https://www.prnewswire.com/news-releases/2012-cfda-fashion-awards-presented-in-new-york-157165675.html"
+        },
+        {
+          "label": "CFDA：2015年度获奖回顾",
+          "url": "https://cfda.com/news/year-in-review-the-cfdas-2015-award-winners/"
+        },
+        {
+          "label": "CFDA：2018获奖名单",
+          "url": "https://cfda.com/news/the-2018-cfda-fashion-awards-winners/"
+        },
+        {
+          "label": "CFDA：2019获奖新闻稿",
+          "url": "https://www.prnewswire.com/news-releases/winners-announced-at-the-2019-cfda-fashion-awards-300861296.html"
+        },
+        {
+          "label": "CFDA：2025年度报告",
+          "url": "https://cfda.com/annual-report-2025/"
+        }
+      ],
+      "classicItems": []
+    }
+  ],
+  "researchNotes": [
+    {
+      "brand": "the-row",
+      "issue": "成立年份存在官方来源差异",
+      "resolution": "采用品牌现行 About Us 的2005年。CFDA 2021年十五周年回顾将起点写为2006年，已保留相反来源供审校，不混写两个起点。",
+      "primary": "https://www.therow.com/pages/about-us",
+      "alternative": "https://cfda.com/news/the-row-marks-15-years-of-understated-luxury/"
+    },
+    {
+      "brand": "the-row",
+      "issue": "中文名称",
+      "resolution": "未查到统一的品牌官方中文译名，nameZh保留 The Row，正文用奥尔森姐妹作说明。"
+    },
+    {
+      "brand": "balenciaga",
+      "issue": "国家字段按创立地填写",
+      "resolution": "1917年创于西班牙，1937年在巴黎建立时装屋；country按历史起源记为西班牙，简介同时交代巴黎阶段。"
+    },
+    {
+      "brand": "miu-miu",
+      "issue": "演示文稿核验",
+      "resolution": "已静态获取官方PDF，并从PDF第47页直接提取全部六个时间线节点；不是仅据搜索摘要录入。"
+    }
+  ],
+  "browserTabs": {
+    "opened": 0,
+    "remainingOwned": 0
+  }
+}

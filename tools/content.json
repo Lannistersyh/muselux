@@ -60,7 +60,8 @@
         "bags",
         "scarves",
         "watches",
-        "fragrance"
+        "fragrance",
+        "jewelry"
       ],
       "tagline": "从一针马鞍缝线，读懂时间",
       "intro": "认识爱马仕，可以先暂时放下橙色盒子，看看一副马具。蒂埃利·爱马仕在巴黎开设工坊时，面对的是骑乘与旅行的实际需求：皮革要结实，缝线要可靠，形状也要顺手。这种从用途出发的思路，后来走进包袋、丝巾与日常物件。我们熟悉的双提手、搭带和手工卷边，都是这段历史的不同回声。读它的作品，除了款名与颜色，也值得看看材料怎样弯折、线迹怎样收尾。品牌的吸引力，常常就在这些安静的细节里。",
@@ -172,7 +173,9 @@
       "country": "法国",
       "founded": 1854,
       "categories": [
-        "bags"
+        "bags",
+        "necklace",
+        "jewelry"
       ],
       "tagline": "旅行的形状，也可以很日常",
       "intro": "如果把路易威登的故事摊开，起点是一只旅行硬箱。十九世纪的出行方式不断变化，箱子需要经得住搬运，也需要更方便堆叠。品牌从木工结构、帆布覆面与锁具出发，慢慢写出一套与移动有关的设计语言。棋盘格和字母花纹让人一眼认出它，但图案之外，提手的位置、包底的宽度与收纳方式同样值得留意。Speedy 把旅行袋的容量缩进城市生活，其他作品则继续回应不同的出行节奏。理解这段历史，日常手袋就不再只是一个标志，而是一件关于如何带着生活出门的物品。",
@@ -276,7 +279,8 @@
         "bags",
         "scarves",
         "jewelry",
-        "fragrance"
+        "fragrance",
+        "necklace"
       ],
       "tagline": "在马衔扣与竹节间，读意式想象",
       "intro": "古驰的设计语言像一本有颜色的旅行笔记：马衔扣、竹节提手、织带与花卉图案，来自不同年代，也会在新作品里相遇。品牌由古驰奥·古驰在佛罗伦萨创立，早期皮具与旅行用品的背景，让实用结构始终藏在装饰背后。Jackie 的弧形袋身看起来随意，扣件却有清楚的节奏；Flora 图案则把一块丝绸变成可以随身带走的花园。阅读这个品牌，不必一次记全所有符号。选一个自己喜欢的细节，看看它从哪里来，又怎样在不同材质上改变性格，已经是一条很有趣的入门路线。",
@@ -787,7 +791,9 @@
       "country": "意大利",
       "founded": 1925,
       "categories": [
-        "bags"
+        "bags",
+        "necklace",
+        "jewelry"
       ],
       "tagline": "一只腋下包，装下一段城市生活",
       "intro": "芬迪的故事发生在罗马，从皮具店与工坊，走向大胆的材料实验与配饰设计。Baguette 像一根夹在手臂下的法棍面包，用短肩带和横向轮廓改变了手袋与身体相处的方式。品牌的双字母图案很醒目，但同样值得读的是，刺绣、织物与皮革怎样让同一种小包呈现完全不同的情绪。认识它，可以先比较尺寸与肩带落点，再看看自己喜欢的是图案、工艺还是轻巧的姿态。小包并不必然适合所有日常，不过当容量恰好与生活相合时，一件配饰也能成为一段关于城市、衣着和个人记忆的小故事。",
@@ -827,6 +833,1093 @@
       "classicItems": [
         "fendi-baguette-tobacco-ff-us",
         "baguette"
+      ]
+    },
+    {
+      "id": "diesel",
+      "name": "Diesel",
+      "nameZh": "迪赛",
+      "country": "意大利",
+      "founded": 1978,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "从丹宁肌理到一枚醒目的金属标识",
+      "intro": "迪赛由伦佐·罗索于一九七八年创立，以丹宁工艺、鲜明个性和带有幽默感的视觉表达建立辨识度。它从牛仔服装延伸至配饰与生活方式领域，把水洗、做旧和材质实验带进日常衣橱。阅读这个品牌，可以先看面料表面的处理，再看五金与轮廓之间的张力。一枚醒目的椭圆标识、一段贴近肩部的提带，都能成为造型中心。站内收录的手袋提供了另一个观察入口：触感柔软的皮革与有分量的金属，在小体积里呈现直接而有活力的态度。",
+      "timeline": [
+        {
+          "year": 1978,
+          "event": "伦佐·罗索创立 Diesel。",
+          "source": "https://www.diesel.co.jp/ja/diesel-planet/history/",
+          "evidence": "日本官网品牌年表列出创立年份与创始人。"
+        },
+        {
+          "year": 1981,
+          "event": "开始向意大利以外的市场出口。",
+          "source": "https://www.diesel.co.jp/ja/diesel-planet/history/",
+          "evidence": "年表的一九八一年节点记录海外出口启动。"
+        },
+        {
+          "year": 1985,
+          "event": "伦佐·罗索取得品牌的完全控制权。",
+          "source": "https://www.diesel.co.jp/ja/diesel-planet/history/",
+          "evidence": "日本官网与 OTB 官方历史均确认这一节点。"
+        },
+        {
+          "year": 1991,
+          "event": "以全球营销策略展开广告企划。",
+          "source": "https://www.diesel.co.jp/ja/diesel-planet/history/",
+          "evidence": "年表的一九九一年节点记录全球广告展开。"
+        },
+        {
+          "year": 1995,
+          "event": "推出品牌官方网站 diesel.com。",
+          "source": "https://www.diesel.co.jp/ja/diesel-planet/history/",
+          "evidence": "日本官网将官方网站上线列为独立节点。"
+        },
+        {
+          "year": 1996,
+          "event": "在纽约、罗马和伦敦开设首批旗舰店。",
+          "source": "https://www.diesel.co.jp/ja/diesel-planet/history/",
+          "evidence": "年表明确列出三个首批旗舰店城市。"
+        }
+      ],
+      "signatures": [
+        "丹宁水洗",
+        "做旧肌理",
+        "Oval D 标识",
+        "金属与皮革对比"
+      ],
+      "source": "https://www.diesel.co.jp/ja/diesel-planet/history/",
+      "sources": [
+        {
+          "label": "Diesel 日本官网：品牌历史",
+          "url": "https://www.diesel.co.jp/ja/diesel-planet/history/"
+        },
+        {
+          "label": "Diesel：About Diesel",
+          "url": "https://diesel.com/en-us/diesel/about-diesel.html"
+        },
+        {
+          "label": "OTB：品牌发展历史",
+          "url": "https://www.otb.net/en/history"
+        }
+      ],
+      "classicItems": []
+    },
+    {
+      "id": "balenciaga",
+      "name": "Balenciaga",
+      "nameZh": "巴黎世家",
+      "country": "西班牙",
+      "founded": 1917,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "在结构、体量与日常轮廓之间",
+      "intro": "巴黎世家于一九一七年起步于西班牙，一九三七年在巴黎建立高级定制时装屋。创始人克里斯托瓦尔·巴伦西亚加以结构、比例与体量改变服装和身体的关系，袋形裙等作品留下清晰的轮廓语言。这份对造型的探索，也为理解品牌手袋提供了线索：弧线如何靠近身体，皮革怎样形成褶皱，五金又怎样改变视觉重心。浏览站内单品时，可以把注意力放在这些具体细节上，从机车气质的肩包读到宽松垂坠的提包，观察经典工艺与当代日常之间的持续对话。",
+      "timeline": [
+        {
+          "year": 1917,
+          "event": "克里斯托瓦尔·巴伦西亚加在西班牙圣塞瓦斯蒂安开设高级时装屋。",
+          "source": "https://www.balenciaga.com/en-us/crist%C3%B3bal-balenciaga",
+          "evidence": "品牌官网创始人年表列明城市与开业年份。"
+        },
+        {
+          "year": 1937,
+          "event": "在巴黎乔治五世大道十号开设时装屋，发表首个巴黎系列。",
+          "source": "https://www.balenciaga.com/en-us/crist%C3%B3bal-balenciaga",
+          "evidence": "官网年表同时记录巴黎地址与首个系列。"
+        },
+        {
+          "year": 1947,
+          "event": "推出首款香氛 Le Dix。",
+          "source": "https://www.kering.com/en/houses/fashion-and-leather-goods/balenciaga/",
+          "evidence": "开云品牌档案把首款香氛列于一九四七年。"
+        },
+        {
+          "year": 1957,
+          "event": "推出袋形裙，以简洁外形松开服装对身体的束缚。",
+          "source": "https://www.kering.com/en/houses/fashion-and-leather-goods/balenciaga/",
+          "evidence": "开云官方年表确认袋形裙的年份与设计意义。"
+        },
+        {
+          "year": 2001,
+          "event": "加入开云集团，同年推出 Le City 手袋。",
+          "source": "https://www.kering.com/en/houses/fashion-and-leather-goods/balenciaga/",
+          "evidence": "开云官方年表在同一节点记录集团归属与手袋上市。"
+        },
+        {
+          "year": 2021,
+          "event": "在离开高级定制五十三年后，重返高级定制领域。",
+          "source": "https://www.kering.com/en/houses/fashion-and-leather-goods/balenciaga/",
+          "evidence": "开云官方年表记载二〇二一年高级定制回归。"
+        }
+      ],
+      "signatures": [
+        "雕塑廓形",
+        "结构与体量",
+        "机车风五金",
+        "柔软垂坠皮革"
+      ],
+      "source": "https://www.kering.com/en/houses/fashion-and-leather-goods/balenciaga/",
+      "sources": [
+        {
+          "label": "Kering：Balenciaga 品牌档案",
+          "url": "https://www.kering.com/en/houses/fashion-and-leather-goods/balenciaga/"
+        },
+        {
+          "label": "Balenciaga：Cristóbal 历史档案",
+          "url": "https://www.balenciaga.com/en-us/crist%C3%B3bal-balenciaga"
+        }
+      ],
+      "classicItems": []
+    },
+    {
+      "id": "miu-miu",
+      "name": "Miu Miu",
+      "nameZh": "缪缪",
+      "country": "意大利",
+      "founded": 1993,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "以绗缝、复古比例与自由气息写日常",
+      "intro": "缪缪诞生于一九九三年，是缪西娅·普拉达探索独立审美与个人表达的另一片空间。品牌把天真、知性与自由的气息放在同一套衣橱里，也通过女性电影短片、俱乐部和特别项目扩展时装的叙事。它的包袋适合从材质和比例读起：绗缝皮革带来蓬松触感，弧形肩包顺着身体展开，复古手提轮廓则留下端整的线条。站内收录的不同年份款式，可供比较柔软纳帕皮与麂皮的表情，也能看见一个熟悉的包形如何随着颜色、纹理和携带方式呈现新的性格。",
+      "timeline": [
+        {
+          "year": 1993,
+          "event": "缪西娅·普拉达创立 Miu Miu，并在米兰开出首家精品店。",
+          "source": "https://www.pradagroup.com/content/dam/pradagroup/documents/investors/capital-markets-day/2021/Prada-Group-2021-CMD-Presentation.pdf",
+          "evidence": "Prada 集团二〇二一年资本市场日官方演示文稿 PDF 第四十七页，记录创立及米兰首店。"
+        },
+        {
+          "year": 2006,
+          "event": "开始在巴黎时装周发表系列。",
+          "source": "https://www.pradagroup.com/content/dam/pradagroup/documents/investors/capital-markets-day/2021/Prada-Group-2021-CMD-Presentation.pdf",
+          "evidence": "同页将二〇〇六年列为进入巴黎时装周的节点。"
+        },
+        {
+          "year": 2011,
+          "event": "推出由女性导演创作的 Women’s Tales 短片系列。",
+          "source": "https://www.pradagroup.com/content/dam/pradagroup/documents/investors/capital-markets-day/2021/Prada-Group-2021-CMD-Presentation.pdf",
+          "evidence": "同页确认 Women’s Tales 于二〇一一年启动；品牌官网电影档案列有首部作品。"
+        },
+        {
+          "year": 2012,
+          "event": "在伦敦举办首个 Miu Miu Club。",
+          "source": "https://www.pradagroup.com/content/dam/pradagroup/documents/investors/capital-markets-day/2021/Prada-Group-2021-CMD-Presentation.pdf",
+          "evidence": "同页将伦敦首个俱乐部活动标注于二〇一二年。"
+        },
+        {
+          "year": 2019,
+          "event": "推出 Miu Miu Select 特别项目。",
+          "source": "https://www.pradagroup.com/content/dam/pradagroup/documents/investors/capital-markets-day/2021/Prada-Group-2021-CMD-Presentation.pdf",
+          "evidence": "同页明确给出 Select 的首次推出年份。"
+        },
+        {
+          "year": 2020,
+          "event": "推出 Upcycled by Miu Miu 系列。",
+          "source": "https://www.pradagroup.com/content/dam/pradagroup/documents/investors/capital-markets-day/2021/Prada-Group-2021-CMD-Presentation.pdf",
+          "evidence": "同页记录 Upcycled 项目于二〇二〇年亮相。"
+        }
+      ],
+      "signatures": [
+        "Matelassé 绗缝",
+        "复古手提比例",
+        "弧形肩包",
+        "纳帕皮与麂皮"
+      ],
+      "source": "https://www.pradagroup.com/en/brands/miu-miu.html",
+      "sources": [
+        {
+          "label": "Prada Group：Miu Miu 品牌介绍",
+          "url": "https://www.pradagroup.com/en/brands/miu-miu.html"
+        },
+        {
+          "label": "Prada Group：2021 Capital Markets Day，第47页",
+          "url": "https://www.pradagroup.com/content/dam/pradagroup/documents/investors/capital-markets-day/2021/Prada-Group-2021-CMD-Presentation.pdf"
+        },
+        {
+          "label": "Miu Miu：品牌项目与电影档案",
+          "url": "https://www.miumiu.com/eu/en/miumiu-club.html"
+        }
+      ],
+      "classicItems": []
+    },
+    {
+      "id": "loewe",
+      "name": "LOEWE",
+      "nameZh": "罗意威",
+      "country": "西班牙",
+      "founded": 1846,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "让几何、皮革与想象力一起折叠",
+      "intro": "罗意威的历史始于一八四六年的马德里皮革工坊，细致的手艺始终贯穿品牌的发展。由四个字母构成的标识、富于几何感的拼接与柔软皮革，让实用物件也有了雕塑般的观看角度。品牌基金会与工艺奖把这份兴趣延伸到更广阔的创作领域。阅读站内包袋，可以沿着折线、接缝和提带寻找结构，也可以留意天然纤维、色彩和角色图案怎样改变熟悉的轮廓。从拼接小包到可折叠托特，再到带有俏皮细节的特别款，工艺与想象力在使用的动作里彼此相遇。",
+      "timeline": [
+        {
+          "year": 1846,
+          "event": "西班牙工匠在马德里洛沃街开设皮革工坊。",
+          "source": "https://www.loewe.com/eur/en/art-and-craft/our-history.html",
+          "evidence": "官网历史年表以工匠集体和马德里工坊为起点。"
+        },
+        {
+          "year": 1872,
+          "event": "恩里克·罗意威·罗斯伯格接掌工坊，品牌由此得名。",
+          "source": "https://www.loewe.com/eur/en/pd/stories/welcome-to-loewe.html",
+          "evidence": "官网品牌介绍明确说明名称起源于一八七二年的接掌与命名。"
+        },
+        {
+          "year": 1905,
+          "event": "成为西班牙王室的官方供应商。",
+          "source": "https://www.loewe.com/eur/en/art-and-craft/our-history.html",
+          "evidence": "官网年表记载阿方索十三世授予的王室供应资格。"
+        },
+        {
+          "year": 1970,
+          "event": "设计师 Vicente Vela 创作由四个 L 组成的 Anagram 标识。",
+          "source": "https://www.loewe.com/eur/en/art-and-craft/our-history.html",
+          "evidence": "官网将标识创作列于一九七〇年，并说明其皮革烙印灵感。"
+        },
+        {
+          "year": 1988,
+          "event": "成立 LOEWE 基金会，支持工艺、艺术、诗歌等领域。",
+          "source": "https://www.loewe.com/eur/en/art-and-craft/our-history.html",
+          "evidence": "官网年表记载基金会成立年份及文化支持使命。"
+        },
+        {
+          "year": 2015,
+          "event": "推出以立体几何结构著称的 Puzzle 手袋。",
+          "source": "https://www.loewe.com/eur/en/art-and-craft/our-history.html",
+          "evidence": "官网年表将 Puzzle 发布列于二〇一五年。"
+        },
+        {
+          "year": 2016,
+          "event": "设立 LOEWE FOUNDATION Craft Prize，关注当代工艺。",
+          "source": "https://www.loewe.com/eur/en/art-and-craft/our-history.html",
+          "evidence": "官网年表明确区分奖项设立年份与后续年度评选。"
+        }
+      ],
+      "signatures": [
+        "Anagram 标识",
+        "几何拼接",
+        "柔软皮革",
+        "工艺实验"
+      ],
+      "source": "https://www.loewe.com/eur/en/art-and-craft/our-history.html",
+      "sources": [
+        {
+          "label": "LOEWE：180年工艺历史",
+          "url": "https://www.loewe.com/eur/en/art-and-craft/our-history.html"
+        },
+        {
+          "label": "LOEWE：Welcome to LOEWE",
+          "url": "https://www.loewe.com/eur/en/pd/stories/welcome-to-loewe.html"
+        }
+      ],
+      "classicItems": []
+    },
+    {
+      "id": "the-row",
+      "name": "The Row",
+      "nameZh": "The Row",
+      "country": "美国",
+      "founded": 2005,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "把注意力留给皮革、比例与留白",
+      "intro": "奥尔森姐妹创立的美国品牌始终围绕面料、细节与精确剪裁展开设计，以简练形状构成安静而鲜明的识别方式。它的成衣与配饰共享对比例和品质的关注，也多次获得美国时装设计师协会的女装与配饰奖项。阅读这个品牌的手袋，适合放慢速度：看皮革颗粒如何接住光线，看提柄与包身之间的留白，再看侧边扣带怎样调整体积。站内收录的软身手提包提供了一个具体入口，让低调的外观、宽裕的容量与细腻的材料，在日常携带中形成有分寸的存在感。",
+      "timeline": [
+        {
+          "year": 2005,
+          "event": "Ashley Olsen 与 Mary-Kate Olsen 创立 The Row。",
+          "source": "https://www.therow.com/pages/about-us",
+          "evidence": "品牌现行 About Us 页面明确采用二〇〇五年作为成立年份。"
+        },
+        {
+          "year": 2012,
+          "event": "奥尔森姐妹凭 The Row 获得 CFDA 年度女装设计师奖。",
+          "source": "https://www.prnewswire.com/news-releases/2012-cfda-fashion-awards-presented-in-new-york-157165675.html",
+          "evidence": "CFDA 自行发布的获奖新闻稿明确列出姐妹二人与 The Row。"
+        },
+        {
+          "year": 2015,
+          "event": "再次获得 CFDA 年度女装设计师奖。",
+          "source": "https://cfda.com/news/year-in-review-the-cfdas-2015-award-winners/",
+          "evidence": "CFDA 官方年度获奖回顾确认该品牌及奖项。"
+        },
+        {
+          "year": 2018,
+          "event": "获得 CFDA 年度配饰设计师奖。",
+          "source": "https://cfda.com/news/the-2018-cfda-fashion-awards-winners/",
+          "evidence": "CFDA 官方获奖公告列出 The Row 为该奖项得主。"
+        },
+        {
+          "year": 2019,
+          "event": "连续第二年获得 CFDA 年度配饰设计师奖。",
+          "source": "https://www.prnewswire.com/news-releases/winners-announced-at-the-2019-cfda-fashion-awards-300861296.html",
+          "evidence": "CFDA 自行发布的二〇一九年获奖新闻稿确认该奖项。"
+        },
+        {
+          "year": 2025,
+          "event": "获得 CFDA 美国年度配饰设计师奖。",
+          "source": "https://cfda.com/annual-report-2025/",
+          "evidence": "CFDA 二〇二五年官方年报的十一月节点列明得主与奖项。"
+        }
+      ],
+      "signatures": [
+        "简练轮廓",
+        "精准剪裁",
+        "低调细节",
+        "材质触感"
+      ],
+      "source": "https://www.therow.com/pages/about-us",
+      "sources": [
+        {
+          "label": "The Row：About Us",
+          "url": "https://www.therow.com/pages/about-us"
+        },
+        {
+          "label": "CFDA：2012获奖新闻稿",
+          "url": "https://www.prnewswire.com/news-releases/2012-cfda-fashion-awards-presented-in-new-york-157165675.html"
+        },
+        {
+          "label": "CFDA：2015年度获奖回顾",
+          "url": "https://cfda.com/news/year-in-review-the-cfdas-2015-award-winners/"
+        },
+        {
+          "label": "CFDA：2018获奖名单",
+          "url": "https://cfda.com/news/the-2018-cfda-fashion-awards-winners/"
+        },
+        {
+          "label": "CFDA：2019获奖新闻稿",
+          "url": "https://www.prnewswire.com/news-releases/winners-announced-at-the-2019-cfda-fashion-awards-300861296.html"
+        },
+        {
+          "label": "CFDA：2025年度报告",
+          "url": "https://cfda.com/annual-report-2025/"
+        }
+      ],
+      "classicItems": [],
+      "historyNote": "成立年份采用 The Row 现行官网所列的 2005 年；CFDA 的 2021 年回顾使用 2006 年，相关资料存在这一口径差异。"
+    },
+    {
+      "id": "alaia",
+      "name": "Alaïa",
+      "nameZh": "阿莱娅",
+      "country": "法国",
+      "founded": 1964,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "把身体的曲线，延伸到皮革的轮廓",
+      "intro": "阿莱娅的故事从突尼斯出生的阿瑟丁出发，他在巴黎把雕塑训练转化为贴近身体的剪裁。品牌的弹性针织、皮革、镂空与金属孔眼，都围绕轮廓和触感展开。细看一只包，可以先观察线条如何拉长，提手如何延续包身，再看装饰怎样参与结构。这样的阅读方式，把配饰与时装联系起来。巴黎工作室的私人定制传统，以及后来走入纽约和巴黎秀场的经历，让它形成兼具亲密感与舞台力量的风格。对比例的坚持，比醒目的标识更能说明它的个性。",
+      "timeline": [
+        {
+          "year": 1964,
+          "event": "阿瑟丁·阿莱娅在巴黎建立时装事业；母公司以这一年作为品牌起点。",
+          "source": "https://www.richemont.com/our-maisons/alaia/"
+        },
+        {
+          "year": 1982,
+          "event": "在纽约 Bergdorf Goodman 举行首场纽约时装秀。",
+          "source": "https://fondationazzedinealaia.org/en/chronologie/"
+        },
+        {
+          "year": 1983,
+          "event": "以 Alaïa 品牌发展时装屋，并在巴黎展示首场时装秀。",
+          "source": "https://fondationazzedinealaia.org/en/chronologie/"
+        },
+        {
+          "year": 1986,
+          "event": "春夏系列以贴身针织条带构成筒形连衣裙。",
+          "source": "https://fondationazzedinealaia.org/en/chronologie/"
+        },
+        {
+          "year": 1987,
+          "event": "购入巴黎玛莱区玻璃厂街建筑，逐步整合住所、工作室和精品店。",
+          "source": "https://fondationazzedinealaia.org/en/chronologie/"
+        },
+        {
+          "year": 2007,
+          "event": "与 Christoph von Weyhe、Carla Sozzani 成立协会，保存时装、设计与艺术收藏。",
+          "source": "https://fondationazzedinealaia.org/en/chronologie/"
+        }
+      ],
+      "signatures": [
+        "雕塑般的贴身剪裁",
+        "弹性针织",
+        "Vienne 镂空图案",
+        "皮革与金属孔眼"
+      ],
+      "source": "https://www.richemont.com/our-maisons/alaia/",
+      "classicItems": [],
+      "sources": [
+        {
+          "label": "Richemont · Alaïa 品牌与工艺",
+          "url": "https://www.richemont.com/our-maisons/alaia/"
+        },
+        {
+          "label": "Fondation Azzedine Alaïa · 官方年表",
+          "url": "https://fondationazzedinealaia.org/en/chronologie/"
+        }
+      ],
+      "foundingNote": "采用母公司当前品牌页的 1964 工作室起点。基金会年表把正式 Alaïa 品牌及巴黎首秀记为 1983；二者所指阶段不同。",
+      "historyNote": "本页沿用历峰集团当前品牌页的 1964 年，指巴黎工作室的事业起点；阿瑟丁·阿莱娅基金会年表另将正式 Alaïa 品牌及巴黎首秀记为 1983 年。两种日期分别对应工作室与品牌发展的不同阶段。"
+    },
+    {
+      "id": "saint-laurent",
+      "name": "Saint Laurent",
+      "nameZh": "圣罗兰",
+      "country": "法国",
+      "founded": 1961,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "左岸的自由，写进一枚交织字母",
+      "intro": "圣罗兰由伊夫·圣罗兰与皮埃尔·贝尔热在巴黎创立，随后以左岸成衣系列把高级时装的创造力带向日常衣橱。交织的三枚字母来自卡桑德尔的设计，至今仍是识别包袋的重要线索。阅读它的皮具，适合先看轮廓、肩背位置和金属标识之间的关系，再体会衣着与配饰共同形成的姿态。从电影服装到时装秀，品牌始终与城市文化交换灵感。黑色的沉静、线条的明确和装饰的分寸，让一只日常包也能延续左岸的自由气息，在简洁与戏剧感之间找到平衡。",
+      "timeline": [
+        {
+          "year": 1961,
+          "event": "伊夫·圣罗兰与皮埃尔·贝尔热创立时装屋，卡桑德尔设计 YSL 交织标识。",
+          "source": "https://www.ysl.com/en-us/collections/heritage"
+        },
+        {
+          "year": 1962,
+          "event": "一月展示时装屋首个系列，工作室首件作品为小黑裙。",
+          "source": "https://www.ysl.com/en-us/collections/heritage"
+        },
+        {
+          "year": 1966,
+          "event": "Saint Laurent Rive Gauche 精品店与成衣系列推出。",
+          "source": "https://www.ysl.com/en-us/collections/heritage"
+        },
+        {
+          "year": 1967,
+          "event": "为电影《白日美人》中的凯瑟琳·德纳芙设计服装。",
+          "source": "https://www.ysl.com/en-us/collections/heritage"
+        },
+        {
+          "year": 1971,
+          "event": "推出以四十年代为灵感的 Libération 高级定制系列。",
+          "source": "https://www.ysl.com/en-us/collections/heritage"
+        },
+        {
+          "year": 2012,
+          "event": "成衣标签采用 Saint Laurent 名称，呼应一九六六年的成衣标识。",
+          "source": "https://www.ysl.com/en-us/collections/heritage"
+        }
+      ],
+      "signatures": [
+        "Cassandre 交织字母",
+        "Rive Gauche 左岸精神",
+        "明确的轮廓线条",
+        "电影与时装的对话"
+      ],
+      "source": "https://www.ysl.com/en-us/collections/heritage",
+      "classicItems": [],
+      "sources": [
+        {
+          "label": "Saint Laurent · Heritage 官方年表",
+          "url": "https://www.ysl.com/en-us/collections/heritage"
+        }
+      ]
+    },
+    {
+      "id": "chloe",
+      "name": "Chloé",
+      "nameZh": "蔻依",
+      "country": "法国",
+      "founded": 1952,
+      "categories": [
+        "bags"
+      ],
+      "tagline": "巴黎的轻盈，与一把醒目的挂锁",
+      "intro": "蔻依由出生于埃及亚历山大的加比·阿吉翁在巴黎创立，以柔和轮廓、优质面料与精细细节回应女性的日常生活。早期秀场设在左岸咖啡馆，衣服与城市的节奏自然相连。这种轻盈也进入皮具：柔软包身与醒目金属形成对照，让一只包既有触感，也有清楚的记忆点。二〇〇五年推出的帕丁顿包，以大挂锁和旅行箱般的气质成为重要代表。看它的包袋，可以沿着皮革褶皱、提手弧线和五金重量阅读，理解浪漫风格怎样落在可以随身携带的物件上。",
+      "timeline": [
+        {
+          "year": 1952,
+          "event": "加比·阿吉翁设计首个系列，蔻依的高级成衣故事开始。",
+          "source": "https://www.chloe.com/en-qa/maison/history.html"
+        },
+        {
+          "year": 1957,
+          "event": "在巴黎花神咖啡馆举行首场时装秀，展示翌年春夏系列。",
+          "source": "https://www.chloe.com/en-qa/maison/history.html"
+        },
+        {
+          "year": 1962,
+          "event": "官方年表记录丝质衬衫成为品牌衣橱的重要组成。",
+          "source": "https://www.chloe.com/en-qa/maison/history.html"
+        },
+        {
+          "year": 1965,
+          "event": "卡尔·拉格斐设计 Tertulia 连衣裙，以手绘图案诠释波希米亚风格。",
+          "source": "https://www.chloe.com/en-qa/maison/history.html"
+        },
+        {
+          "year": 1972,
+          "event": "首家精品店在巴黎巴克街与格里博瓦尔街交角开业。",
+          "source": "https://www.chloe.com/en-qa/maison/history.html"
+        },
+        {
+          "year": 2005,
+          "event": "春季推出 Paddington 包，以宽大比例与大挂锁形成鲜明识别。",
+          "source": "https://www.chloe.com/en-qa/maison/history.html"
+        }
+      ],
+      "signatures": [
+        "柔和而流动的轮廓",
+        "巴黎左岸咖啡馆传统",
+        "波希米亚浪漫",
+        "Paddington 挂锁"
+      ],
+      "source": "https://www.chloe.com/en-qa/maison/history.html",
+      "classicItems": [],
+      "sources": [
+        {
+          "label": "Chloé · Maison History 官方年表",
+          "url": "https://www.chloe.com/en-qa/maison/history.html"
+        }
+      ]
+    },
+    {
+      "id": "david-yurman",
+      "name": "David Yurman",
+      "nameZh": "大卫雅曼",
+      "country": "美国",
+      "founded": 1980,
+      "categories": [
+        "necklace",
+        "jewelry"
+      ],
+      "tagline": "让雕塑的扭转，成为手腕上的线条",
+      "intro": "大卫雅曼由雕塑家大卫与画家西比尔共同创立，把艺术合作延伸为可以佩戴的物件。品牌标志性的绳索纹，并非一层附加装饰，而是把金属线条扭转成形的结构语言。早期雕塑里的铜杆、对古代扭索项圈的观察，以及彩色宝石的运用，都进入了珠宝设计。欣赏一只手镯，可以从纹路的起伏、开口两端的宝石和金属之间的光影开始。银与钻石的组合，让珍贵材料呈现更轻松的日常气质；同一条扭转线索又能延续到项链与戒指，形成连续而清楚的家族面貌。",
+      "timeline": [
+        {
+          "year": 1980,
+          "event": "大卫与西比尔共同成立 David Yurman 公司。",
+          "source": "https://www.davidyurman.com/world-of-yurman/timeline.html"
+        },
+        {
+          "year": 1982,
+          "event": "标志性的 Cable 绳索纹手镯诞生，扭转金线并在两端镶嵌彩色宝石。",
+          "source": "https://www.davidyurman.com/world-of-yurman/timeline.html"
+        },
+        {
+          "year": 1987,
+          "event": "首次在瑞士巴塞尔的世界钟表珠宝展展示作品。",
+          "source": "https://www.davidyurman.com/world-of-yurman/timeline.html"
+        },
+        {
+          "year": 1997,
+          "event": "推出 Silver Ice 系列，将钻石与银材质结合。",
+          "source": "https://www.davidyurman.com/world-of-yurman/timeline.html"
+        },
+        {
+          "year": 1999,
+          "event": "首家精品店在纽约麦迪逊大道开业。",
+          "source": "https://www.davidyurman.com/world-of-yurman/timeline.html"
+        },
+        {
+          "year": 2001,
+          "event": "推出以彼得·林德伯格黑白人物摄影为特色的生活方式广告。",
+          "source": "https://www.davidyurman.com/world-of-yurman/timeline.html"
+        }
+      ],
+      "signatures": [
+        "Cable 绳索纹",
+        "雕塑式金属线条",
+        "彩色宝石端饰",
+        "银与钻石的组合"
+      ],
+      "source": "https://www.davidyurman.com/world-of-yurman/timeline.html",
+      "classicItems": [],
+      "sources": [
+        {
+          "label": "David Yurman · An Artist’s Story 官方年表",
+          "url": "https://www.davidyurman.com/world-of-yurman/timeline.html"
+        }
+      ]
+    },
+    {
+      "id": "swarovski",
+      "name": "Swarovski",
+      "nameZh": "施华洛世奇",
+      "country": "奥地利",
+      "founded": 1895,
+      "categories": [
+        "necklace",
+        "jewelry"
+      ],
+      "tagline": "从精密切面，到可以佩戴的光",
+      "intro": "施华洛世奇始于奥地利瓦腾斯，创办人丹尼尔把玻璃切磨经验与机械创新结合，让仿水晶的精密切面成为设计语言。它先为时装提供闪耀材料，再逐渐发展自己的首饰和摆件。欣赏这类作品，关键在于光线如何经过切面、色彩如何叠加，以及金属托架怎样衬托明亮的中心。天鹅标识与八角轮廓提供熟悉的视觉线索，夸张比例和丰富颜色则带来舞台感。从单颗吊坠到联名套组，同一种材料可以表现轻巧、华丽或俏皮的情绪，让光成为日常穿搭的一部分。",
+      "timeline": [
+        {
+          "year": 1895,
+          "event": "丹尼尔·施华洛世奇在奥地利创立水晶切磨事业。",
+          "source": "https://www.swarovski.com/en-GR/s-the-history-of-swarovski"
+        },
+        {
+          "year": 1899,
+          "event": "雪绒花成为公司的首个标识。",
+          "source": "https://www.swarovski.com/en-GR/s-the-history-of-swarovski"
+        },
+        {
+          "year": 1976,
+          "event": "由吊灯零件组合而成的小鼠摆件在因斯布鲁克冬奥会期间发售。",
+          "source": "https://www.swarovski.com/en_GB-GB/s-swarovski-milestones"
+        },
+        {
+          "year": 1977,
+          "event": "推出首个自有首饰系列。",
+          "source": "https://www.swarovski.com/en-GR/s-the-history-of-swarovski"
+        },
+        {
+          "year": 1989,
+          "event": "推出 Daniel Swarovski Paris 系列，并启用天鹅标识。",
+          "source": "https://www.swarovski.com/en-GR/s-the-history-of-swarovski"
+        },
+        {
+          "year": 1995,
+          "event": "为百年纪念在瓦腾斯开放 Swarovski Kristallwelten 水晶世界。",
+          "source": "https://www.swarovski.com/en_GB-GB/s-swarovski-milestones"
+        }
+      ],
+      "signatures": [
+        "精密切割仿水晶",
+        "天鹅标识",
+        "八角几何轮廓",
+        "鲜明色彩与光效"
+      ],
+      "source": "https://www.swarovski.com/en-GR/s-the-history-of-swarovski",
+      "classicItems": [],
+      "sources": [
+        {
+          "label": "Swarovski · Brand History and Origin",
+          "url": "https://www.swarovski.com/en-GR/s-the-history-of-swarovski"
+        },
+        {
+          "label": "Swarovski · Milestones 官方年表",
+          "url": "https://www.swarovski.com/en_GB-GB/s-swarovski-milestones"
+        }
+      ]
+    },
+    {
+      "id": "fred",
+      "name": "FRED",
+      "nameZh": "斐登",
+      "country": "法国",
+      "founded": 1936,
+      "categories": [
+        "necklace"
+      ],
+      "tagline": "把海风与阳光戴在身上",
+      "intro": "斐登由弗雷德·萨穆尔在巴黎创立，明亮宝石与法国蔚蓝海岸的闲适气息，构成它的珠宝语言。航海钢索与贵金属扣环的相遇，让力量和轻盈可以同时出现；可替换的色彩与材质，又把佩戴变成一种自由组合。读懂这个品牌，可以先观察扣环的弧线、链条的走向，再看钻石如何捕捉光线。项链延续手链的运动感，既有贴近日常的简洁轮廓，也有以流苏、镶嵌和比例变化展开的华丽表达。它的辨识度，来自对海洋意象的不断转译。",
+      "timeline": [
+        {
+          "year": 1936,
+          "event": "弗雷德·萨穆尔在巴黎开设首间珠宝店，创立 FRED。",
+          "source": "https://www.fred.com/en-int/rings/1936-ring/4J0798.html"
+        },
+        {
+          "year": 1966,
+          "event": "Force 10 手链问世，以航海钢索与贵金属扣环组合形成标志性结构。",
+          "source": "https://www.lvmh.com/en/our-maisons/watches-jewelry/fred"
+        },
+        {
+          "year": 1995,
+          "event": "FRED 加入 LVMH 集团。",
+          "source": "https://urd.lvmh.com/en/urd-2023-va_vdef.pdf"
+        },
+        {
+          "year": 2016,
+          "event": "Chance Infinie 系列推出。",
+          "source": "https://www.lvmh.com/en/our-maisons/watches-jewelry/fred"
+        },
+        {
+          "year": 2022,
+          "event": "FRED Hero Cut 钻石切工诞生，以三十六个切面呼应创立年份。",
+          "source": "https://www.fred.com/au/actualities/force-10-high-end.html"
+        },
+        {
+          "year": 2026,
+          "event": "品牌九十周年之际推出十七件 Force 10 高级珠宝新作。",
+          "source": "https://www.fred.com/au/actualities/force-10-high-end.html"
+        }
+      ],
+      "signatures": [
+        "Force 10 航海扣环",
+        "钢索与贵金属搭配",
+        "可替换组合",
+        "明亮宝石与阳光意象"
+      ],
+      "source": "https://www.lvmh.com/en/our-maisons/watches-jewelry/fred",
+      "sources": [
+        {
+          "label": "LVMH｜FRED 品牌与系列历史",
+          "url": "https://www.lvmh.com/en/our-maisons/watches-jewelry/fred"
+        },
+        {
+          "label": "FRED｜1936 与巴黎首店",
+          "url": "https://www.fred.com/en-int/rings/1936-ring/4J0798.html"
+        },
+        {
+          "label": "LVMH｜2023 年注册文件，FRED 段落",
+          "url": "https://urd.lvmh.com/en/urd-2023-va_vdef.pdf"
+        },
+        {
+          "label": "FRED｜2026 Force 10 高级珠宝与 Hero Cut",
+          "url": "https://www.fred.com/au/actualities/force-10-high-end.html"
+        }
+      ],
+      "classicItems": []
+    },
+    {
+      "id": "boucheron",
+      "name": "Boucheron",
+      "nameZh": "宝诗龙",
+      "country": "法国",
+      "founded": 1858,
+      "categories": [
+        "jewelry"
+      ],
+      "tagline": "把巴黎建筑与织物写进金属",
+      "intro": "宝诗龙从巴黎皇家宫殿的珠宝店出发，将自由佩戴的想法写进百余年的设计。无扣项链以柔韧结构贴合颈部，芳登广场的石板路与家族织物背景，则转化成戒指上的细密纹样。观察它的首饰，可以先比较光面、刻纹与钻石铺面的不同反光，再留意几道金属环如何叠合成一个整体。蛇形意象、建筑线条与衣料质感在这里彼此呼应，使珠宝既有雕塑般的体积，又保留接近身体的节奏。看似熟悉的经典图案，常被重新组合出鲜明的当代轮廓。",
+      "timeline": [
+        {
+          "year": 1858,
+          "event": "弗雷德里克·宝诗龙在巴黎皇家宫殿开设珠宝店。",
+          "source": "https://www.boucheron.com/us/our-maison/the-freedom-to-create/a-history-of-firsts"
+        },
+        {
+          "year": 1879,
+          "event": "无扣的 Question Mark 问号项链诞生。",
+          "source": "https://www.boucheron.com/us/our-maison/the-freedom-to-create/a-history-of-firsts"
+        },
+        {
+          "year": 1893,
+          "event": "品牌进驻芳登广场二十六号。",
+          "source": "https://www.boucheron.com/us/our-maison/the-freedom-to-create/a-history-of-firsts"
+        },
+        {
+          "year": 1928,
+          "event": "帕蒂亚拉大君委托制作一批规模庞大的高级珠宝。",
+          "source": "https://www.boucheron.com/us/our-maison/the-freedom-to-create/a-history-of-firsts"
+        },
+        {
+          "year": 1947,
+          "event": "Reflet 腕表推出，采用隐藏式表扣结构。",
+          "source": "https://www.boucheron.com/us/our-maison/the-freedom-to-create/a-history-of-firsts"
+        },
+        {
+          "year": 1968,
+          "event": "Serpent Bohème 系列诞生。",
+          "source": "https://www.boucheron.com/ch_en/our-maison/the-sense-of-style/the-quatre-icon"
+        },
+        {
+          "year": 2004,
+          "event": "Quatre 戒指问世，将四种档案纹样组合为一个当代标志。",
+          "source": "https://www.boucheron.com/ch_en/our-maison/the-sense-of-style/the-quatre-icon"
+        }
+      ],
+      "signatures": [
+        "Quatre 四种纹样",
+        "Clou de Paris 巴黎饰纹",
+        "Serpent Bohème 水滴造型",
+        "Question Mark 无扣结构"
+      ],
+      "source": "https://www.boucheron.com/us/our-maison/the-freedom-to-create/a-history-of-firsts",
+      "sources": [
+        {
+          "label": "Boucheron｜A story of firsts",
+          "url": "https://www.boucheron.com/us/our-maison/the-freedom-to-create/a-history-of-firsts"
+        },
+        {
+          "label": "Boucheron｜Quatre 图案与系列历史",
+          "url": "https://www.boucheron.com/ch_en/our-maison/the-sense-of-style/the-quatre-icon"
+        }
+      ],
+      "classicItems": []
+    },
+    {
+      "id": "pomellato",
+      "name": "Pomellato",
+      "nameZh": "宝曼兰朵",
+      "country": "意大利",
+      "founded": 1967,
+      "categories": [
+        "jewelry"
+      ],
+      "tagline": "米兰金工里的饱满色彩",
+      "intro": "宝曼兰朵诞生于米兰，把珠宝融入日常着装的愿望，贯穿它的金工与宝石设计。饱满金属体积、柔和链节和大胆彩石是理解品牌的入口；宝石仿佛悬浮于指间，让光线与颜色先于镶座被看见。欣赏一件作品时，可以留意圆润表面的过渡、戒圈贴合手指的弧度，以及不同色调并置后的层次。它的首饰常像小型可佩戴雕塑，既能单独呈现，也适合叠戴组合。米兰的建筑感与轻松穿着的观念，在这些流动而有分量的线条里相遇。",
+      "timeline": [
+        {
+          "year": 1967,
+          "event": "皮诺·拉博里尼在米兰创立 Pomellato。",
+          "source": "https://www.kering.com/en/houses/jewelry/pomellato/"
+        },
+        {
+          "year": 1982,
+          "event": "赫尔穆特·牛顿为品牌拍摄首组广告。",
+          "source": "https://www.kering.com/en/houses/jewelry/pomellato/"
+        },
+        {
+          "year": 2001,
+          "event": "Nudo 系列诞生，以仿佛悬浮的彩色宝石重释单石戒指。",
+          "source": "https://www.pomellato.com/us_en/nudo-event"
+        },
+        {
+          "year": 2013,
+          "event": "Pomellato 加入开云集团。",
+          "source": "https://www.kering.com/en/houses/jewelry/pomellato/"
+        },
+        {
+          "year": 2018,
+          "event": "品牌实现黄金百分之百负责任采购。",
+          "source": "https://www.kering.com/en/houses/jewelry/pomellato/"
+        },
+        {
+          "year": 2020,
+          "event": "推出品牌首个高级珠宝系列。",
+          "source": "https://www.kering.com/en/houses/jewelry/pomellato/"
+        }
+      ],
+      "signatures": [
+        "饱满圆润的金属体积",
+        "Nudo 彩色宝石",
+        "不规则五十七切面",
+        "雕塑感链节"
+      ],
+      "source": "https://www.kering.com/en/houses/jewelry/pomellato/",
+      "sources": [
+        {
+          "label": "Kering｜Pomellato 品牌历史",
+          "url": "https://www.kering.com/en/houses/jewelry/pomellato/"
+        },
+        {
+          "label": "Pomellato｜Nudo 自 2001 年的设计",
+          "url": "https://www.pomellato.com/us_en/nudo-event"
+        }
+      ],
+      "classicItems": []
+    },
+    {
+      "id": "adidas",
+      "name": "adidas",
+      "nameZh": "阿迪达斯",
+      "country": "德国",
+      "founded": 1949,
+      "categories": [
+        "bags",
+        "necklace"
+      ],
+      "role": "collaborator",
+      "tagline": "三条纹从运动场走进时装",
+      "intro": "阿迪达斯从德国的运动制鞋事业发展而来，三条纹与三叶草把竞技功能转化为清晰的视觉记忆。球鞋、运动套装与街头音乐建立起它的文化联系，也为跨界设计提供了丰富档案。在本站，它以古驰联名合作品牌的身份出现：运动符号与双字母图案相遇，旅行包、链饰等配件因此具有不同于常规运动装备的材质和比例。理解这些单品，既要看双方标识如何组合，也要读清具体款式的制作品牌与系列归属。联名让熟悉的符号获得新的穿着语境。",
+      "timeline": [
+        {
+          "year": 1949,
+          "event": "阿迪·达斯勒在德国黑措根奥拉赫注册 adidas 公司。",
+          "source": "https://www.adidas-group.com/en/about/history"
+        },
+        {
+          "year": 1954,
+          "event": "德国足球队穿着可更换螺旋鞋钉的 adidas 球鞋赢得世界杯。",
+          "source": "https://www.adidas-group.com/en/about/history"
+        },
+        {
+          "year": 1967,
+          "event": "以贝肯鲍尔命名的运动套装推出，品牌扩展至服装。",
+          "source": "https://www.adidas-group.com/en/about/history"
+        },
+        {
+          "year": 1970,
+          "event": "Telstar 成为品牌首款世界杯官方比赛用球。",
+          "source": "https://www.adidas-group.com/en/about/history"
+        },
+        {
+          "year": 1972,
+          "event": "三叶草标识正式推出。",
+          "source": "https://www.adidas-group.com/en/about/history"
+        },
+        {
+          "year": 1986,
+          "event": "Run-D.M.C. 的音乐与穿着使 Superstar 更深入街头文化。",
+          "source": "https://www.adidas-group.com/en/about/history"
+        },
+        {
+          "year": 2022,
+          "event": "adidas x Gucci 系列于六月七日推出，覆盖包袋、珠宝与服装等品类。",
+          "source": "https://news.adidas.com/originals/adidas-x-gucci-is-here/s/73828335-7f0b-4f46-8d9a-ba0af35277c5"
+        }
+      ],
+      "signatures": [
+        "三条纹",
+        "三叶草标识",
+        "运动档案与街头文化",
+        "adidas x Gucci 联名图案"
+      ],
+      "source": "https://www.adidas-group.com/en/about/history",
+      "sources": [
+        {
+          "label": "adidas Group｜官方品牌历史",
+          "url": "https://www.adidas-group.com/en/about/history"
+        },
+        {
+          "label": "adidas｜2022 adidas x Gucci 发布",
+          "url": "https://news.adidas.com/originals/adidas-x-gucci-is-here/s/73828335-7f0b-4f46-8d9a-ba0af35277c5"
+        }
+      ],
+      "classicItems": []
+    },
+    {
+      "id": "versace",
+      "name": "Versace",
+      "nameZh": "范思哲",
+      "country": "意大利",
+      "founded": 1978,
+      "categories": [
+        "necklace",
+        "jewelry"
+      ],
+      "role": "collaborator",
+      "tagline": "把古典符号变成鲜明姿态",
+      "intro": "范思哲由詹尼·范思哲创立，鲜明的美杜莎标识、回纹边饰与巴洛克图案，把地中海的古典想象带入时装。它以强烈色彩、雕塑感金属配件和富有表现力的轮廓，形成易于辨认的视觉语言。在本站，品牌通过与芬迪合作的系列出现，两家设计团队交换各自的创意视角，让熟悉的符号进入对方的档案。看链饰与耳环时，可以从扣环、纹样和金属比例辨认这种对话；每件作品仍需按具体系列确认品牌归属。首饰也由此成为理解时装语汇的一条近路。",
+      "timeline": [
+        {
+          "year": 1978,
+          "event": "詹尼·范思哲创立 Versace。",
+          "source": "https://www.versace.com/us/en/about-us/company-profile.html"
+        },
+        {
+          "year": 1991,
+          "event": "品牌秋冬秀在米兰宫邸庭院举行，成为其超模时代的重要一幕。",
+          "source": "https://www.versace.com/gb/en/stories/news-projects/versace-salone-del-mobile-2024.html"
+        },
+        {
+          "year": 1997,
+          "event": "多娜泰拉·范思哲开始领导品牌艺术创作。",
+          "source": "https://www.capriholdings.com/news/news-details/2020/Versace-and-Luxottica-Group-Renew-License-Agreement/default.aspx"
+        },
+        {
+          "year": 2003,
+          "event": "Versace 与 Luxottica 开始眼镜合作关系。",
+          "source": "https://www.capriholdings.com/news/news-details/2020/Versace-and-Luxottica-Group-Renew-License-Agreement/default.aspx"
+        },
+        {
+          "year": 2022,
+          "event": "Fendace 合作系列推出，延续 Versace 与 Fendi 的创意交换。",
+          "source": "https://www.versace.com/ca/en/stories/versace-x-fendi--fendace-news/?year=2022"
+        },
+        {
+          "year": 2024,
+          "event": "Versace Home 在米兰以沉浸式展示回望宫邸与品牌文化。",
+          "source": "https://www.versace.com/gb/en/stories/news-projects/versace-salone-del-mobile-2024.html"
+        }
+      ],
+      "signatures": [
+        "Medusa 美杜莎",
+        "Greca 回纹",
+        "Barocco 巴洛克图案",
+        "Fendace 创意交换"
+      ],
+      "source": "https://www.versace.com/us/en/about-us/company-profile.html",
+      "sources": [
+        {
+          "label": "Versace｜官方品牌介绍",
+          "url": "https://www.versace.com/us/en/about-us/company-profile.html"
+        },
+        {
+          "label": "Versace｜宫邸历史与 1991 年时装秀",
+          "url": "https://www.versace.com/gb/en/stories/news-projects/versace-salone-del-mobile-2024.html"
+        },
+        {
+          "label": "Capri｜2020 官方公告回顾 1997 与 2003 年",
+          "url": "https://www.capriholdings.com/news/news-details/2020/Versace-and-Luxottica-Group-Renew-License-Agreement/default.aspx"
+        },
+        {
+          "label": "Versace｜2022 Fendace 档案",
+          "url": "https://www.versace.com/ca/en/stories/versace-x-fendi--fendace-news/?year=2022"
+        }
+      ],
+      "classicItems": []
+    },
+    {
+      "id": "fragment-design",
+      "name": "fragment design / FRGMT",
+      "nameZh": "藤原浩设计",
+      "country": "日本",
+      "founded": 2003,
+      "categories": [
+        "bags",
+        "necklace",
+        "jewelry"
+      ],
+      "role": "collaborator",
+      "tagline": "用细微改写连接不同文化",
+      "intro": "由藤原浩创立的设计品牌，以联名合作连接音乐、街头服饰、艺术与产品设计。极简图形和闪电标识像一枚识别印记，常在熟悉的经典款式上加入克制而醒目的变化。它与制表、运动及时装品牌的长期对话，强调不同文化之间的重新组合。在本站，品牌以芬迪与宝可梦合作系列的设计参与者身份出现，包袋和首饰仍按具体款式标注制作品牌。欣赏这些作品，可以留意图案的位置、字母的排列，以及角色形象如何改变原有轮廓的表情。细节是进入这套设计语言的起点。",
+      "timeline": [
+        {
+          "year": 2003,
+          "event": "藤原浩创立 fragment 设计品牌。",
+          "source": "https://magazine.tagheuer.com/en/2025/12/02/portrait-of-a-trendsetter-hiroshi-fujiwara-for-tag-heuer/"
+        },
+        {
+          "year": 2018,
+          "event": "与 TAG Heuer 合作推出 Carrera Heuer 02 腕表。",
+          "source": "https://magazine.tagheuer.com/en/2025/12/02/portrait-of-a-trendsetter-hiroshi-fujiwara-for-tag-heuer/"
+        },
+        {
+          "year": 2020,
+          "event": "与 TAG Heuer 的第二次合作采用 Formula 1 Heuer 02 腕表。",
+          "source": "https://magazine.tagheuer.com/en/2025/12/02/portrait-of-a-trendsetter-hiroshi-fujiwara-for-tag-heuer/"
+        },
+        {
+          "year": 2023,
+          "event": "与 Oakley 推出春夏联名眼镜及服装系列。",
+          "source": "https://japan.oakley.com/store_customer/FRGMT2023.php"
+        },
+        {
+          "year": 2024,
+          "event": "FENDI x FRGMT x POKÉMON 合作扩展至 Pokémon GO 虚拟穿搭。",
+          "source": "https://pokemongo.com/news/FENDIxFRGMTxPOKEMON?hl=en"
+        },
+        {
+          "year": 2025,
+          "event": "与 TAG Heuer 推出第三次联名，重新演绎 Carrera Glassbox 设计。",
+          "source": "https://magazine.tagheuer.com/en/2025/12/02/portrait-of-a-trendsetter-hiroshi-fujiwara-for-tag-heuer/"
+        }
+      ],
+      "signatures": [
+        "闪电标识",
+        "FRGMT 字母图形",
+        "极简重构",
+        "跨品牌设计合作"
+      ],
+      "source": "https://magazine.tagheuer.com/en/2025/12/02/portrait-of-a-trendsetter-hiroshi-fujiwara-for-tag-heuer/",
+      "sources": [
+        {
+          "label": "TAG Heuer｜藤原浩、2003 年创立与三次合作",
+          "url": "https://magazine.tagheuer.com/en/2025/12/02/portrait-of-a-trendsetter-hiroshi-fujiwara-for-tag-heuer/"
+        },
+        {
+          "label": "Oakley｜2023 联名与品牌创立年份",
+          "url": "https://japan.oakley.com/store_customer/FRGMT2023.php"
+        },
+        {
+          "label": "Pokémon GO｜2024 FENDI x FRGMT x POKÉMON 合作",
+          "url": "https://pokemongo.com/news/FENDIxFRGMTxPOKEMON?hl=en"
+        }
+      ],
+      "classicItems": [],
+      "aliases": [
+        "FRGMT",
+        "Fragment",
+        "藤原浩"
       ]
     }
   ],
@@ -3711,7 +4804,10 @@
           "priceNoteEn": "Esquire’s launch listing gives US$4,200. A separate undated retail catalogue reports US$3,980; the original MSRP is not independently reconciled.",
           "category": "bags",
           "annualEdit": true,
-          "oneLiner": "A repeating Trefoil and Interlocking G pattern gives this duffle the exuberance of a vintage sporting poster."
+          "oneLiner": "A repeating Trefoil and Interlocking G pattern gives this duffle the exuberance of a vintage sporting poster.",
+          "collaboratorBrands": [
+            "adidas"
+          ]
         }
       ],
       "yearToDate": false
@@ -4555,7 +5651,10 @@
           "availabilityEn": "Archive selection from the 2024 special capsule. The stated amount is reported U.S. launch retail; current boutique or resale availability is not implied.",
           "category": "bags",
           "annualEdit": true,
-          "oneLiner": "This Baguette combines the graphic familiarity of Fendi’s FF pattern with the animated world of Dratini, Dragonair and Dragonite."
+          "oneLiner": "This Baguette combines the graphic familiarity of Fendi’s FF pattern with the animated world of Dratini, Dragonair and Dragonite.",
+          "collaboratorBrands": [
+            "fragment-design"
+          ]
         }
       ],
       "yearToDate": false
@@ -5813,7 +6912,10 @@
           "annualEdit": true,
           "yearbookTitle": "The Necklace Yearbook",
           "yearbookPath": "necklaces-by-year.html",
-          "oneLiner": "An elongated chain rhythm gives this collaboration necklace a relaxed sporting attitude."
+          "oneLiner": "An elongated chain rhythm gives this collaboration necklace a relaxed sporting attitude.",
+          "collaboratorBrands": [
+            "adidas"
+          ]
         },
         {
           "id": "necklace-2022-fendace-chain-necklace",
@@ -5878,7 +6980,10 @@
           "annualEdit": true,
           "yearbookTitle": "The Necklace Yearbook",
           "yearbookPath": "necklaces-by-year.html",
-          "oneLiner": "Fendace combines a generous curb chain with a dense sequence of emblems and bright decorative stones."
+          "oneLiner": "Fendace combines a generous curb chain with a dense sequence of emblems and bright decorative stones.",
+          "collaboratorBrands": [
+            "versace"
+          ]
         }
       ],
       "yearToDate": false
@@ -6671,7 +7776,10 @@
           "annualEdit": true,
           "yearbookTitle": "The Necklace Yearbook",
           "yearbookPath": "necklaces-by-year.html",
-          "oneLiner": "A small Poké Ball changes the language of a gold-tone necklace."
+          "oneLiner": "A small Poké Ball changes the language of a gold-tone necklace.",
+          "collaboratorBrands": [
+            "fragment-design"
+          ]
         },
         {
           "id": "necklace-2024-van-cleef-holiday-guilloche-rose-white-gold",
@@ -8018,7 +9126,10 @@
           "annualEdit": true,
           "yearbookTitle": "The Jewelry Yearbook",
           "yearbookPath": "jewelry-by-year.html",
-          "oneLiner": "Open geometric sections turn the familiar hoop into a small architectural frame."
+          "oneLiner": "Open geometric sections turn the familiar hoop into a small architectural frame.",
+          "collaboratorBrands": [
+            "versace"
+          ]
         },
         {
           "id": "jewelry-2022-tiffany-arsham-lock-ensemble",
@@ -8875,7 +9986,10 @@
           "annualEdit": true,
           "yearbookTitle": "The Jewelry Yearbook",
           "yearbookPath": "jewelry-by-year.html",
-          "oneLiner": "Dratini curls around the finger as a polished gold-tone ring."
+          "oneLiner": "Dratini curls around the finger as a polished gold-tone ring.",
+          "collaboratorBrands": [
+            "fragment-design"
+          ]
         },
         {
           "id": "jewelry-2024-fendi-frgmt-pokemon-earrings-gold",
@@ -8938,7 +10052,10 @@
           "annualEdit": true,
           "yearbookTitle": "The Jewelry Yearbook",
           "yearbookPath": "jewelry-by-year.html",
-          "oneLiner": "Dragonair becomes a pair of sculptural gold-tone hoops in this Fendi collaboration."
+          "oneLiner": "Dragonair becomes a pair of sculptural gold-tone hoops in this Fendi collaboration.",
+          "collaboratorBrands": [
+            "fragment-design"
+          ]
         }
       ],
       "yearToDate": false

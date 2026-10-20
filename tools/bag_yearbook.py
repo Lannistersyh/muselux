@@ -87,8 +87,11 @@ def render_entry(x,year,page,brands,category='bags'):
     number=x['year']
     edition=x['selection']=='limited'
     group=x.get('editionLabelEn') if edition else 'Popular pick'
-    brand=brands.get(x['brand'])
-    brand_link=f'<a class="eyebrow rose-text" href="../brand/{brand["id"]}.html">{e(x["brandName"])} ↗</a>' if brand else f'<a class="eyebrow rose-text" href="{e(x["source"])}" target="_blank" rel="noopener">{e(x["brandName"])} ↗</a>'
+    brand=brands[x['brand']]
+    brand_link=f'<a class="eyebrow rose-text" href="../brand/{brand["id"]}.html">{e(brand["name"])} ↗</a>'
+    partners=[brands[brand_id] for brand_id in x.get('collaboratorBrands',[])]
+    if partners:
+        brand_link+='<p class="product-collaborators">In collaboration with '+', '.join(f'<a href="../brand/{b["id"]}.html">{e(b["name"])} ↗</a>' for b in partners)+'</p>'
     specs=[('Pictured reference',x['reference']),('Colour / finish',x['color']),('Size / format',' · '.join(x['sizes'])),('Materials',' · '.join(x['materials'])),('Yearbook selection',str(number)+(' · year to date' if number==2026 else ''))]
     if edition and x.get('releaseYear'):specs.append(('Edition release year',str(x['releaseYear'])))
     edition_note=f'''<section class="edition-note"><p class="eyebrow">THE EDITION</p><h2>{e(x['editionLabelEn'])}</h2><p>{e(x.get('editionNoteEn',x['editionEvidence']))}</p><a class="source-link" href="{e(x['editionSource'])}" target="_blank" rel="noopener">Edition source ↗</a></section>''' if edition else ''

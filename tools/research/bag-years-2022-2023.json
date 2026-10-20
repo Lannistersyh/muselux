@@ -431,7 +431,10 @@
           "editionSource": "https://news.adidas.com/originals/adidas-x-gucci-is-here/s/73828335-7f0b-4f46-8d9a-ba0af35277c5",
           "releaseYear": 2022,
           "availabilityEn": "Archive selection from the June 2022 launch capsule; no current retail stock is implied.",
-          "priceNoteEn": "Esquire’s launch listing gives US$4,200. A separate undated retail catalogue reports US$3,980; the original MSRP is not independently reconciled."
+          "priceNoteEn": "Esquire’s launch listing gives US$4,200. A separate undated retail catalogue reports US$3,980; the original MSRP is not independently reconciled.",
+          "collaboratorBrands": [
+            "adidas"
+          ]
         }
       ]
     },

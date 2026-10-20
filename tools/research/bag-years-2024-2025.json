@@ -378,7 +378,10 @@
           "editionEvidence": "Fendi Japan explicitly links the special collection to the 2024 Year of the Dragon and confirms its 4 January 2024 launch. This is seasonal capsule evidence; no numbered production run or fixed sales end date was published in the cited announcement.",
           "editionSource": "https://prtimes.jp/main/html/rd/p/000000371.000003876.html",
           "releaseYear": 2024,
-          "availabilityEn": "Archive selection from the 2024 special capsule. The stated amount is reported U.S. launch retail; current boutique or resale availability is not implied."
+          "availabilityEn": "Archive selection from the 2024 special capsule. The stated amount is reported U.S. launch retail; current boutique or resale availability is not implied.",
+          "collaboratorBrands": [
+            "fragment-design"
+          ]
         }
       ]
     },

@@ -6,9 +6,13 @@ import json,re,struct,html,xml.etree.ElementTree as ET
 from collections import Counter
 from datetime import date
 from bag_yearbook import BOOKS
+from brand_catalog import enrich, brand_ids
 
 ROOT=Path(__file__).resolve().parents[1]
 D=json.loads((ROOT/'tools/content.json').read_text())
+CATALOG=enrich(D)
+BRANDS={b['id']:b for b in D['brands']}
+PRODUCTS={x['id']:x for x in CATALOG}
 issues=[]
 def check(condition,message):
     if not condition: issues.append(message)
@@ -89,7 +93,37 @@ article_counts={}
 for b in D['brands']:
     check(150<=cjk(b['intro'])<=200,b['id']+': intro outside 150–200 CJK characters')
     check(len(b['timeline'])>=6,b['id']+': fewer than six timeline nodes')
-    check(len(b['classicItems'])>=1,b['id']+': no classic item')
+    check(b['itemCount']>=1,b['id']+': no linked catalog item')
+    check(len(b['itemIds'])==len(set(b['itemIds'])),b['id']+': duplicate catalog association')
+    for product_id in b['classicItems']:
+        check(product_id in PRODUCTS and PRODUCTS[product_id]['brand']==b['id'],b['id']+': incorrect classic association '+product_id)
+    target=(ROOT/'brand'/f'{b["id"]}.html').resolve()
+    doc=pages.get(target)
+    if doc:
+        linked={Path(urlsplit(ref).path).stem for ref in doc.refs if urlsplit(ref).path.startswith('../item/')}
+        check(linked==set(b['itemIds']),b['id']+': brand page omits or misattributes catalog products')
+        source=target.read_text()
+        check(f'本站收录 <strong>{b["itemCount"]}</strong> 项' in source,b['id']+': wrong catalog count')
+        for category in {PRODUCTS[k]['category'] for k in b['itemIds']}:
+            check(category in b['categories'],b['id']+': represented category absent')
+            check('catalog-'+category in doc.ids,b['id']+': category catalog section absent')
+        if b.get('role')=='collaborator':check('联名品牌' in source,b['id']+': collaboration role not labelled')
+    if b.get('sources'):
+        for t in b['timeline']:
+            check(urlsplit(t.get('source','')).scheme=='https',b['id']+': sourced history node missing citation')
+        check(all(urlsplit(s['url']).scheme=='https' for s in b['sources']),b['id']+': invalid heritage source URL')
+for x in CATALOG:
+    target=(ROOT/'item'/f'{x["id"]}.html').resolve()
+    doc=pages.get(target)
+    if doc:
+        for brand_id in brand_ids(x):
+            check('../brand/'+brand_id+'.html' in doc.refs,x['id']+': no internal link to '+brand_id)
+    check(len(brand_ids(x))==1+len(x.get('collaboratorBrands',[])),x['id']+': duplicate brand partner')
+for root_page in ('index.html','brands.html'):
+    doc=pages.get((ROOT/root_page).resolve())
+    if doc:
+        indexed={Path(urlsplit(ref).path).stem for ref in doc.refs if urlsplit(ref).path.startswith('brand/')}
+        check(indexed==set(BRANDS),root_page+': incomplete brand index')
 for x in D['items']:
     for field in ('brand','category','name','nameZh','born','designer','sizes','materials','priceRange','oneLiner','facts','story'):
         check(bool(x.get(field)),x['id']+': missing '+field)
@@ -207,6 +241,10 @@ check((ROOT/'README.md').exists(),'Missing README')
 check((ROOT/'assets/fonts/Oswald-LICENSE.txt').exists(),'Oswald license missing')
 check((ROOT/'assets/fonts/Raleway-LICENSE.txt').exists(),'Raleway license missing')
 summary=dict(passed=not issues,pages=len(pages),brands=len(D['brands']),items=len(D['items']),
+    primaryBrands=len({x['brand'] for x in CATALOG}),
+    collaborationBrands=sum(b.get('role')=='collaborator' for b in D['brands']),
+    catalogBrandAssociations=sum(b['itemCount'] for b in D['brands']),
+    productsWithBrandPage=len(CATALOG),
     annualBagEntries=sum(len(y['entries']) for y in annual_books['bags']),
     annualEntries=len(annual_entries),
     annualEntriesByCategory={c:sum(len(y['entries']) for y in years) for c,years in annual_books.items()},

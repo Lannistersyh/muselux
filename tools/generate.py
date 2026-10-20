@@ -1,16 +1,19 @@
 """Rebuild static pages and the offline data script. Python standard library only."""
 from pathlib import Path
-import json, html, re, gzip, base64, hashlib
+import json, html, re, gzip, base64, hashlib, unicodedata
 from urllib.parse import urlsplit
 import bag_yearbook
+import brand_catalog
 ROOT=Path(__file__).resolve().parents[1]
 SITE=json.loads((ROOT/'tools/site.json').read_text()) if (ROOT/'tools/site.json').exists() else {}
 SITE_URL=SITE.get('url','').rstrip('/')+'/' if SITE.get('url') else ''
 D=json.loads((ROOT/'tools/content.json').read_text())
+CATALOG=brand_catalog.enrich(D)
 C={x['id']:x for x in D['categories']}
 B={x['id']:x for x in D['brands']}
 I={x['id']:x for x in D['items']}
 A={x['id']:x for x in D['articles']}
+ALL_ITEMS={x['id']:x for x in CATALOG}
 DISCLAIMER='MuseLux 是个人兴趣驱动的非商业内容项目，所有品牌名称与产品名称的权利归其权利人所有；价格信息仅为整理时的公开参考，请以品牌官方渠道为准。'
 ABOUT='MuseLux 是一个关于奢侈品的品味网站——把百年工坊的故事，讲成日常的向往。'
 e=html.escape
@@ -38,6 +41,8 @@ def card(x,kind='article',prefix='',big=False):
         return f'''<article class="story-card reveal{' feature-large' if big else ''}"><a class="card-image" href="{prefix}mag/{x['id']}.html" tabindex="-1" aria-hidden="true"><img src="{prefix}{x['cover']}" width="720" height="480" loading="lazy" alt="{e(x.get('coverAlt') or x['title'].split('｜')[0]+'的原创专题插画')}"></a><div class="card-body"><div class="card-kicker"><a class="tag" href="{prefix}cat/{cat['id']}.html">{cat['nameZh']}</a><span class="eyebrow">THE JOURNAL</span></div><h3><a href="{prefix}mag/{x['id']}.html">{e(x['title'])}</a></h3><p class="card-excerpt">{e(x['excerpt'])}</p><div class="card-meta"><time datetime="{x['date']}">2026.10.19</time><span>约 {x['readMins']} 分钟</span><span class="card-arrow">↗</span></div></div></article>'''
     if x.get('styleEdit'):
         return stylecard(x,prefix)
+    if x.get('annualEdit'):
+        return bag_yearbook.card(x,prefix)
     b=B[x['brand']]
     return f'''<article class="item-card reveal"><a href="{prefix}item/{x['id']}.html"><div class="item-image"><img src="{prefix}assets/img/{x['id']}.svg" width="720" height="480" loading="lazy" alt="{e(b['name']+' '+x['name']+' '+x['nameZh'])}的概念插画，非实物图"></div><div class="item-body"><span class="eyebrow">{e(b['name'])}</span><h3>{e(x['name'])}<span>{e(x['nameZh'])}</span></h3><p>{e(x['oneLiner'])}</p><span class="text-link">打开词条 <span>↗</span></span></div></a></article>'''
 
@@ -76,7 +81,8 @@ def productpage(x):
     page('item/'+x['id']+'.html',b['name']+' '+x['name'],x['oneLiner'],content,'item',x['id'],product=x)
 
 def brandcard(b,prefix=''):
-    return f'''<a class="brand-card reveal" href="{prefix}brand/{b['id']}.html"><span class="eyebrow">{e(b['country'])} · EST. {b['founded']}</span><h3>{e(b['name'])}</h3><span class="brand-zh">{b['nameZh']}</span><p>{b['tagline']}</p><span class="brand-card-bottom">{len(b['classicItems'])} 个经典词条 <span>↗</span></span></a>'''
+    label='联名品牌 · ' if b.get('role')=='collaborator' else ''
+    return f'''<a class="brand-card reveal" href="{prefix}brand/{b['id']}.html"><span class="eyebrow">{e(b['country'])} · EST. {b['founded']}</span><h3>{e(b['name'])}</h3><span class="brand-zh">{b['nameZh']}</span><p>{b['tagline']}</p><span class="brand-card-bottom">{label}本站收录 {b['itemCount']} 项 <span>↗</span></span></a>'''
 
 def crumbs(parts,prefix):
     return '<nav class="breadcrumbs" aria-label="面包屑"><a href="'+prefix+'index.html">首页</a>'+''.join(' <span>/</span> '+(f'<a href="{url}">{e(label)}</a>' if url else f'<span aria-current="page">{e(label)}</span>') for label,url in parts)+'</nav>'
@@ -143,7 +149,7 @@ def home():
 <div class="container">{style_edit()}</div>
 <section class="container section features">{sectionhead('THE EDITOR’S LETTER','本周专题',('全部文章','search.html?type=article'))}<div class="feature-grid">{card(A['mag-02'],big=True)}{card(A['mag-03'])}{card(A['mag-06'])}</div></section>
 <section class="category-section"><div class="container">{sectionhead('SIX WAYS TO WANDER','从一份好奇开始')}<div class="category-grid">{band}</div></div></section>
-<section class="container section brand-section">{sectionhead('THE HOUSES & THEIR STORIES','品牌图鉴',('浏览 15 个品牌','brands.html'))}<p class="section-intro">每一个名字背后，都有一间值得走近的工坊。</p><div class="brand-wall" aria-label="品牌横向列表，可横向滚动">{wall}</div><div class="scroll-hint">向右探索更多品牌 <span>⟶</span></div></section>
+<section class="container section brand-section">{sectionhead('THE HOUSES & THEIR STORIES','品牌图鉴',(f'浏览 {len(B)} 个品牌','brands.html'))}<p class="section-intro">每一个名字背后，都有一间值得走近的工坊。</p><div class="brand-wall" aria-label="品牌横向列表，可横向滚动">{wall}</div><div class="scroll-hint">向右探索更多品牌 <span>⟶</span></div></section>
 <section class="container section latest" id="journal">{sectionhead('NOTES ON BEAUTIFUL THINGS','慢读日常',('搜索文章','search.html?type=article'))}<div class="article-grid">{''.join(card(x) for x in D['articles'])}</div></section>
 <section class="dictionary-section"><div class="container">{sectionhead('A SMALL DICTIONARY OF ICONS','编辑精选 · 经典词典',('全部单品','search.html?type=item'))}<p class="section-intro">先记住一个细节，再打开一段故事。</p><div class="item-rail">{''.join(card(I[k],'item') for k in ['birkin','alhambra','tank','classic-flap','jodie','no5'])}</div></div></section>
 <section class="newsletter-section" id="newsletter"><div class="container newsletter-inner"><div><p class="eyebrow">LET’S KEEP A LITTLE INSPIRATION</p><h2>一封信，每月一封<span class="rose-dot">。</span></h2><p>把值得慢读的故事，留给一个有空的午后。</p></div><form class="newsletter-form"><label class="sr-only" for="newsletter-email">你的邮箱地址</label><div class="newsletter-input"><input id="newsletter-email" name="email" type="email" required placeholder="你的邮箱地址" autocomplete="email" maxlength="254"><button type="submit" aria-label="提交订阅演示">{icon('arrow')}</button></div><p class="newsletter-status" aria-live="polite">本地订阅演示 · 不保存邮箱，不发送邮件</p></form></div></section>'''
@@ -152,8 +158,8 @@ def home():
 def otherpages():
     letters=''.join(f'<button type="button" data-letter="{x}" aria-pressed="false">{x}</button>' for x in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')
     opts=''.join(f'<option value="{c["id"]}">{c["nameZh"]}</option>' for c in D['categories'])
-    content=f'''<div class="container">{crumbs([('品牌图鉴',None)],'')}{headsection('AN ATLAS OF THE HOUSES','品牌图鉴','从一间工坊开始，读懂一个名字的来处。','15')}<div class="filter-toolbar"><label>按品类 <select id="brand-category"><option value="all">全部品类</option>{opts}</select></label><label class="brand-query-label">查找品牌 <input id="brand-query" type="search" placeholder="品牌中文或外文名" aria-label="查找品牌"></label><span id="brand-count" aria-live="polite">15 个品牌</span></div><div class="alphabet" aria-label="品牌首字母筛选"><button type="button" data-letter="all" aria-pressed="true" class="selected">全部</button>{letters}</div><div id="brand-results" class="brand-grid">{''.join(brandcard(b) for b in sorted(D['brands'],key=lambda b:b['name']))}</div></div>'''
-    page('brands.html','品牌图鉴', '十五个经典品牌的来处、时间线、工艺符号与经典单品。',content,'brands')
+    content=f'''<div class="container">{crumbs([('品牌图鉴',None)],'')}{headsection('AN ATLAS OF THE HOUSES','品牌图鉴','从一间工坊开始，读懂一个名字的来处。',str(len(B)))}<div class="filter-toolbar"><label>按品类 <select id="brand-category"><option value="all">全部品类</option>{opts}</select></label><label class="brand-query-label">查找品牌 <input id="brand-query" type="search" placeholder="品牌中文或外文名" aria-label="查找品牌"></label><span id="brand-count" aria-live="polite">{len(B)} 个品牌</span></div><div class="alphabet" aria-label="品牌首字母筛选"><button type="button" data-letter="all" aria-pressed="true" class="selected">全部</button>{letters}</div><div id="brand-results" class="brand-grid">{''.join(brandcard(b) for b in sorted(D['brands'],key=lambda b:unicodedata.normalize('NFKD',b['name']).casefold()))}</div></div>'''
+    page('brands.html','品牌图鉴', f'{len(B)} 个品牌的来处、历史与本站款式，覆盖全部单品及收录的联名品牌。',content,'brands')
     content=f'''<div class="container">{crumbs([('站内搜索',None)],'')}{headsection('FOLLOW YOUR CURIOSITY','寻找一点灵感','一个名字、一种材质，或一份尚未说清的好奇。')}<form id="search-form" class="large-search" role="search"><label class="sr-only" for="search-query">搜索品牌、单品与文章</label><input id="search-query" name="q" type="search" placeholder="试试 Birkin、铂金、珍珠……" autocomplete="off" maxlength="100"><button class="button button-dark" type="submit">搜索 {icon('search')}</button></form><div class="popular-search"><span>从这里开始</span><a href="search.html?q=Birkin">Birkin</a><a href="search.html?q=四叶草">四叶草</a><a href="search.html?q=皮革">皮革</a><a href="search.html?q=礼物">礼物</a></div><div class="filter-toolbar search-filter"><div class="filter-chips" id="search-types"><button data-type="all" type="button" aria-pressed="true" class="selected">全部</button><button data-type="brand" type="button" aria-pressed="false">品牌</button><button data-type="item" type="button" aria-pressed="false">单品</button><button data-type="article" type="button" aria-pressed="false">文章</button></div><label>品类 <select id="search-category"><option value="all">全部</option>{opts}</select></label></div><p id="search-count" class="results-count" aria-live="polite">准备好，开始探索。</p><div id="search-results" class="search-results"></div><nav id="pagination" class="pagination" aria-label="搜索结果分页"></nav></div>'''
     page('search.html','站内搜索','搜索品牌、经典单品与杂志文章，中英文均可检索。',content,'search')
     sources=[]
@@ -185,6 +191,49 @@ def otherpages():
     content='''<section class="not-found container"><p class="eyebrow">A LITTLE DETOUR · 404</p><svg viewBox="0 0 300 210" width="300" height="210" role="img" aria-label="一只忘记带上故事的空手袋"><path d="M75 78h150l16 109H59L75 78Z" fill="#eee3d8" stroke="#a58b74" stroke-width="1.2"/><path d="M112 78V58a38 38 0 0 1 76 0v20" stroke="#a58b74" fill="none" stroke-width="2"/><path d="M90 103h120M150 103v31" stroke="#a58b74" fill="none"/><rect x="139" y="125" width="22" height="13" fill="#b08d57"/><path d="M238 33l8-13m-1 32 17-4M50 55 38 45" stroke="#c98a8e" stroke-width="1.5"/></svg><h1>这一页，暂时出门了。</h1><p>像一只找不到的梦中情包，<br>或许换个方向，就会遇见新的心动。</p><a class="button button-dark" href="index.html">回到首页 <span>⟶</span></a><a class="text-link" href="search.html">或者，找一点新灵感 ↗</a></section>'''
     page('404.html','这一页，暂时出门了','页面未找到，回到 MuseLux 继续探索。',content,'404')
 
+def brandpage(b):
+    catalog=[ALL_ITEMS[k] for k in b['itemIds']]
+    counts=[(sum(bool(x.get('styleEdit')) for x in catalog),'款 The Style Edit 实物款式'),
+            (sum(bool(x.get('annualEdit')) for x in catalog),'条年度精选'),
+            (sum(not x.get('styleEdit') and not x.get('annualEdit') for x in catalog),'个经典设计词条')]
+    catalog_note='、'.join(f'{number} {label}' for number,label in counts if number)
+    related=[a for a in D['articles'] if a['category'] in b['categories']][:3]
+    groups=[]
+    for c in D['categories']:
+        items=[x for x in catalog if x['category']==c['id']]
+        if not items:continue
+        items.sort(key=lambda x:(bool(x.get('image')),x.get('year',0)),reverse=True)
+        groups.append(f'''<section class="brand-catalog-group" id="catalog-{c['id']}">
+<div class="brand-catalog-heading"><h3>{c['nameZh']} <span>{len(items):02}</span></h3>
+<a class="text-link" href="../cat/{c['id']}.html">探索{c['nameZh']}栏目 ↗</a></div>
+<div class="product-grid">{''.join(card(x,'item','../') for x in items)}</div></section>''')
+    categories=''.join(f'<a href="#catalog-{c["id"]}">{c["nameZh"]} ↗</a>' for c in D['categories'] if any(x['category']==c['id'] for x in catalog))
+    partner=b.get('role')=='collaborator'
+    main_names=list(dict.fromkeys(B[x['brand']]['name'] for x in catalog if x['brand']!=b['id']))
+    role_note=f'<p class="brand-role-note">联名品牌 · 本站收录与 {e("、".join(main_names))} 合作的款式，单品页分别链接参与品牌。</p>' if partner else ''
+    history_note=f'<p class="brand-history-note">{e(b["historyNote"])}</p>' if b.get('historyNote') else ''
+    sources=b.get('sources') or [{'label':b['name']+' · 官方品牌与历史','url':b['source']}]
+    source_links=''.join(f'<a class="source-link" href="{e(s["url"])}" target="_blank" rel="noopener">{e(s["label"])} ↗</a>' for s in sources)
+    timeline=[]
+    for t in b['timeline']:
+        citation=f' <a href="{e(t["source"])}" target="_blank" rel="noopener" aria-label="{t["year"]} 年资料来源">↗</a>' if t.get('source') else ''
+        timeline.append(f'<li><span>{t["year"]}</span><p>{e(t["event"])}{citation}</p></li>')
+    content=f'''<div class="container">{crumbs([('品牌图鉴','../brands.html'),(b['name'],None)],'../')}
+<section class="brand-opening"><div><p class="eyebrow">{'COLLABORATION PARTNER' if partner else 'THE HOUSE'} / {e(b['country'])} / EST. {b['founded']}</p>
+<h1>{e(b['name'])}</h1><p class="brand-subtitle">{e(b['nameZh'])} <span>—</span> {e(b['tagline'])}</p></div>
+<span class="brand-year">{b['founded']}</span></section>{role_note}
+<div class="brand-index-summary"><a href="#catalog">本站收录 <strong>{b['itemCount']}</strong> 项 ↓</a><nav aria-label="本站品牌款式品类">{categories}</nav></div>
+<div class="brand-intro"><p>{e(b['intro'])}</p><div class="signature-box"><span class="eyebrow">A LANGUAGE OF ITS OWN</span>
+<h2>一眼识得的细节</h2><div>{''.join(f'<span>{e(s)}</span>' for s in b['signatures'])}</div></div></div>
+<section class="timeline-section">{sectionhead('A FEW CHAPTERS IN TIME','时间留下的几个节点')}
+<ol class="timeline">{''.join(timeline)}</ol>{history_note}<div class="brand-history-sources">{source_links}</div></section>
+<section class="section brand-catalog" id="catalog">{sectionhead('IN THE MUSELUX CATALOG','本站收录 · 从款式继续认识它')}
+<p class="section-intro">{b['itemCount']} 项收录：{catalog_note}。{'年度卡片保留入选年份和美元价格口径。' if any(x.get('annualEdit') for x in catalog) else ''}</p>{''.join(groups)}</section>
+<section class="section">{sectionhead('KEEP READING','从相关品类，继续慢读')}
+<div class="article-grid">{''.join(card(a,prefix='../') for a in related)}</div></section></div>'''
+    page('brand/'+b['id']+'.html',b['name']+' '+b['nameZh'],b['tagline']+'。阅读品牌历史、设计细节与本站收录款式。',content,'brand',b['id'])
+
+
 def detailpages():
     for c in D['categories']:
         articles=[a for a in D['articles'] if a['category']==c['id']]
@@ -193,10 +242,7 @@ def detailpages():
         content=f'''<div class="container">{crumbs([(c['nameZh'],None)],'../')}{headsection(c['nameEn']+' / THE CATEGORY',c['nameZh'],c['note'],str(len(items)+len(articles)).zfill(2))}<div class="category-summary"><span>{len(articles)} 篇慢读文章</span><span>{len(items)} 个经典词条</span><span>一种好奇，无限种入口</span></div>{bag_yearbook.teaser(D,"../",c["id"]) if c["id"] in bag_yearbook.BOOKS else ""}{style_edit("../",c)}{extra}<section class="category-editorials">{sectionhead('STORIES TO BEGIN WITH','从这里读起')}<div class="article-grid">{''.join(card(a,prefix='../') for a in articles)}</div></section><section class="section">{sectionhead('THE ILLUSTRATED ARCHIVE','经典单品词典 · 概念插画')}<div class="article-grid">{''.join(card(i,'item','../') for i in items)}</div></section><section class="related-brand-strip"><h2>继续走近这些品牌</h2>{''.join(f'<a href="../brand/{b["id"]}.html">{e(b["name"])} ↗</a>' for b in D['brands'] if c['id'] in b['categories'])}</section></div>'''
         page('cat/'+c['id']+'.html',c['nameZh']+'图鉴',c['note'],content,'category',c['id'])
     for b in D['brands']:
-        classics=[I[k] for k in b['classicItems']]
-        related=[a for a in D['articles'] if a['category'] in b['categories']][:3]
-        content=f'''<div class="container">{crumbs([('品牌图鉴','../brands.html'),(b['name'],None)],'../')}<section class="brand-opening"><div><p class="eyebrow">THE HOUSE / {e(b['country'])} / EST. {b['founded']}</p><h1>{e(b['name'])}</h1><p class="brand-subtitle">{b['nameZh']} <span>—</span> {b['tagline']}</p></div><span class="brand-year">{b['founded']}</span></section><div class="brand-intro"><p>{e(b['intro'])}</p><div class="signature-box"><span class="eyebrow">A LANGUAGE OF ITS OWN</span><h2>一眼识得的细节</h2><div>{''.join(f'<span>{e(s)}</span>' for s in b['signatures'])}</div></div></div><section class="timeline-section">{sectionhead('A FEW CHAPTERS IN TIME','时间留下的几个节点')}<ol class="timeline">{''.join(f'<li><span>{t["year"]}</span><p>{e(t["event"])}</p></li>' for t in b['timeline'])}</ol><a class="source-link" href="{e(b['source'])}" target="_blank" rel="noopener">历史资料 · {e(b['name'])} 官方公开页面 ↗</a></section><section class="section">{sectionhead('ICONS OF THE HOUSE','经典，不止一个名字')}<div class="item-rail">{''.join(card(i,'item','../') for i in classics)}</div></section><section class="section">{sectionhead('KEEP READING','关于它，继续慢读')}<div class="article-grid">{''.join(card(a,prefix='../') for a in related)}</div></section></div>'''
-        page('brand/'+b['id']+'.html',b['name']+' '+b['nameZh'],b['tagline']+'。阅读品牌历史、工艺辨识元素与经典单品。',content,'brand',b['id'])
+        brandpage(b)
     for x in D['items']:
         if x.get('styleEdit'):
             productpage(x)
@@ -228,11 +274,11 @@ def detailpages():
 def data_script():
     # Long stories and research records already live in static HTML. Only ship
     # fields used by browser filtering/search, keeping mobile memory use small.
-    fields={'brands':('id','name','nameZh','country','founded','categories','tagline','classicItems'),'items':('id','brand','category','name','nameZh','oneLiner','reference','color','materials','styleEdit','priceUSD','priceStatus','image'),'articles':('id','category','title','excerpt','cover')}
+    fields={'brands':('id','name','nameZh','country','founded','categories','tagline','itemCount','role','aliases'),'items':('id','brand','category','name','nameZh','oneLiner','reference','color','materials','styleEdit','priceUSD','priceStatus','image','brandNames','collaboratorBrands'),'articles':('id','category','title','excerpt','cover')}
     runtime={'categories':D['categories']}
     for key,keys in fields.items():
         runtime[key]=[{k:x[k] for k in keys if k in x} for x in D[key]]
-    annual_fields=('id','brand','brandName','category','name','nameZh','oneLiner','reference','color','materials','annualEdit','year','selection','editionLabelEn','priceUSD','priceLabelEn','image')
+    annual_fields=('id','brand','brandName','category','name','nameZh','oneLiner','reference','color','materials','annualEdit','year','selection','editionLabelEn','priceUSD','priceLabelEn','image','brandNames','collaboratorBrands')
     for x in bag_yearbook.entries(D):
         row={k:x[k] for k in annual_fields if k in x}
         row['yearbookTitle']=bag_yearbook.BOOKS[x['category']]['title']

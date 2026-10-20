@@ -1,8 +1,12 @@
 {
   "passed": true,
-  "pages": 183,
-  "brands": 15,
+  "pages": 199,
+  "brands": 31,
   "items": 52,
+  "primaryBrands": 28,
+  "collaborationBrands": 3,
+  "catalogBrandAssociations": 150,
+  "productsWithBrandPage": 142,
   "annualBagEntries": 30,
   "annualEntries": 90,
   "annualEntriesByCategory": {
@@ -104,7 +108,7 @@
   "coreSnapshotPrices": 8,
   "unlistedAnnualPrices": 0,
   "svgAssets": 42,
-  "runtimeJavaScriptBytes": 42314,
+  "runtimeJavaScriptBytes": 44357,
   "articleChineseCharacters": {
     "mag-01": 972,
     "mag-02": 915,

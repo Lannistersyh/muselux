@@ -317,7 +317,10 @@
           ],
           "image": "assets/img/jewel-years/necklace-2022-adidas-gucci-gourmette.jpg",
           "imageWidth": 800,
-          "imageHeight": 572
+          "imageHeight": 572,
+          "collaboratorBrands": [
+            "adidas"
+          ]
         },
         {
           "id": "necklace-2022-fendace-chain-necklace",
@@ -378,7 +381,10 @@
           ],
           "image": "assets/img/jewel-years/necklace-2022-fendace-chain-necklace.jpg",
           "imageWidth": 800,
-          "imageHeight": 571
+          "imageHeight": 571,
+          "collaboratorBrands": [
+            "versace"
+          ]
         }
       ]
     },
@@ -1096,7 +1102,10 @@
           ],
           "image": "assets/img/jewel-years/jewelry-2022-fendace-hoop-earrings.jpg",
           "imageWidth": 800,
-          "imageHeight": 571
+          "imageHeight": 571,
+          "collaboratorBrands": [
+            "versace"
+          ]
         },
         {
           "id": "jewelry-2022-tiffany-arsham-lock-ensemble",
