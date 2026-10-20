@@ -1,44 +1,97 @@
 {
   "passed": true,
-  "pages": 121,
+  "pages": 183,
   "brands": 15,
   "items": 52,
   "annualBagEntries": 30,
+  "annualEntries": 90,
+  "annualEntriesByCategory": {
+    "bags": 30,
+    "necklace": 30,
+    "jewelry": 30
+  },
   "annualSelectionCounts": {
-    "2022": {
-      "hot": 4,
-      "limited": 2
+    "bags": {
+      "2022": {
+        "hot": 4,
+        "limited": 2
+      },
+      "2023": {
+        "hot": 4,
+        "limited": 2
+      },
+      "2024": {
+        "hot": 4,
+        "limited": 2
+      },
+      "2025": {
+        "hot": 4,
+        "limited": 2
+      },
+      "2026": {
+        "hot": 4,
+        "limited": 2
+      }
     },
-    "2023": {
-      "hot": 4,
-      "limited": 2
+    "necklace": {
+      "2022": {
+        "hot": 4,
+        "limited": 2
+      },
+      "2023": {
+        "hot": 4,
+        "limited": 2
+      },
+      "2024": {
+        "hot": 4,
+        "limited": 2
+      },
+      "2025": {
+        "hot": 4,
+        "limited": 2
+      },
+      "2026": {
+        "hot": 4,
+        "limited": 2
+      }
     },
-    "2024": {
-      "hot": 4,
-      "limited": 2
-    },
-    "2025": {
-      "hot": 4,
-      "limited": 2
-    },
-    "2026": {
-      "hot": 4,
-      "limited": 2
+    "jewelry": {
+      "2022": {
+        "hot": 4,
+        "limited": 2
+      },
+      "2023": {
+        "hot": 4,
+        "limited": 2
+      },
+      "2024": {
+        "hot": 4,
+        "limited": 2
+      },
+      "2025": {
+        "hot": 4,
+        "limited": 2
+      },
+      "2026": {
+        "hot": 4,
+        "limited": 2
+      }
     }
   },
   "annualEditionTypes": {
-    "seasonal-capsule": 8,
-    "limited-edition": 2
+    "seasonal-capsule": 27,
+    "limited-edition": 3
   },
   "annualPriceBasis": {
-    "current-retail": 18,
-    "reported-retail": 12
+    "current-retail": 44,
+    "reported-retail": 43,
+    "resale-ask": 3
   },
-  "annualSnapshotReferences": 8,
-  "searchableItemPages": 82,
+  "annualSnapshotReferences": 29,
+  "searchableItemPages": 142,
   "articles": 12,
   "categories": 6,
-  "photographedProducts": 54,
+  "photographedProducts": 114,
   "productsPerCategory": {
     "bags": 4,
     "scarves": 4,
@@ -51,7 +104,7 @@
   "coreSnapshotPrices": 8,
   "unlistedAnnualPrices": 0,
   "svgAssets": 42,
-  "runtimeJavaScriptBytes": 32058,
+  "runtimeJavaScriptBytes": 42146,
   "articleChineseCharacters": {
     "mag-01": 972,
     "mag-02": 915,

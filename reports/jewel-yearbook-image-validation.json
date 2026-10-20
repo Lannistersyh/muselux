@@ -1,0 +1,1154 @@
+{
+  "checkedAt": "2026-10-20",
+  "passed": true,
+  "scope": "Full pixel decoding and intrinsic dimensions for all 114 photographed records; all 60 new necklace/jewelry records additionally visually reviewed against product names, materials and source variants using contact sheets.",
+  "pixelDecodedRecords": 114,
+  "newPhotoRecords": 60,
+  "newPhotoFiles": 60,
+  "newDistinctImageBytes": 54,
+  "ownedTabsOpened": 0,
+  "coreRepair": "Replaced the truncated Cartier LOVE pendant JPEG with a complete official 750 × 750 WebP response, preserving the same source URL and original dated price evidence.",
+  "checks": [
+    {
+      "id": "dior-small-lady-dior-black-us",
+      "image": "assets/img/products/bags-dior-lady-dior-small-black.jpg",
+      "format": "JPEG",
+      "size": [
+        1600,
+        2000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "gucci-jackie-small-black-gg-us",
+      "image": "assets/img/products/bags-gucci-jackie-small-black.jpg",
+      "format": "JPEG",
+      "size": [
+        980,
+        980
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "prada-galleria-small-black-leather-us",
+      "image": "assets/img/products/bags-prada-galleria-small-black.jpg",
+      "format": "JPEG",
+      "size": [
+        1000,
+        1250
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "fendi-baguette-tobacco-ff-us",
+      "image": "assets/img/products/bags-fendi-baguette-tobacco.jpg",
+      "format": "JPEG",
+      "size": [
+        1120,
+        1120
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "hermes-please-hold-line-90-blue-us",
+      "image": "assets/img/products/scarves-hermes-please-hold-line-blue.jpg",
+      "format": "JPEG",
+      "size": [
+        800,
+        800
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "dior-oblique-mitzah-navy-us",
+      "image": "assets/img/products/scarves-dior-oblique-mitzah-navy.jpg",
+      "format": "JPEG",
+      "size": [
+        1600,
+        2000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "gucci-flora-silk-carre-pink-us",
+      "image": "assets/img/products/scarves-gucci-flora-pink.jpg",
+      "format": "JPEG",
+      "size": [
+        980,
+        980
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "prada-triangle-silk-scarf-55-alabaster-us",
+      "image": "assets/img/products/scarves-prada-triangle-alabaster.jpg",
+      "format": "JPEG",
+      "size": [
+        1000,
+        1250
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "cartier-love-pendant-yellow-gold-b7014200",
+      "image": "assets/img/products/necklace-cartier-love-yellow-gold-b7014200.webp",
+      "format": "WEBP",
+      "size": [
+        750,
+        750
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "tiffany-t-smile-small-yellow-gold-60011679",
+      "image": "assets/img/products/necklace-tiffany-t-smile-small-yellow-gold-60011679.webp",
+      "format": "WEBP",
+      "size": [
+        2000,
+        2000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bulgari-bzero1-necklace-white-gold-352815",
+      "image": "assets/img/products/necklace-bulgari-bzero1-white-gold-352815.png",
+      "format": "PNG",
+      "size": [
+        1090,
+        851
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "chanel-coco-crush-necklace-small-beige-gold-j12306",
+      "image": "assets/img/products/necklace-chanel-coco-crush-small-beige-gold-j12306.jpg",
+      "format": "JPEG",
+      "size": [
+        1080,
+        1080
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "cartier-trinity-classic-ring-size53-b4234253",
+      "image": "assets/img/products/jewelry-cartier-trinity-classic-53-b4234253.jpg",
+      "format": "JPEG",
+      "size": [
+        750,
+        750
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "tiffany-hardwear-small-link-medium-silver-60153085",
+      "image": "assets/img/products/jewelry-tiffany-hardwear-small-link-medium-silver-60153085.webp",
+      "format": "WEBP",
+      "size": [
+        2000,
+        2000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bulgari-serpenti-viper-ring-rose-gold-45-46-362140",
+      "image": "assets/img/products/jewelry-bulgari-serpenti-viper-rose-gold-45-46-362140.png",
+      "format": "PNG",
+      "size": [
+        727,
+        1090
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "chanel-coco-crush-ring-mini-beige-gold-j11785",
+      "image": "assets/img/products/jewelry-chanel-coco-crush-mini-beige-gold-j11785.jpg",
+      "format": "JPEG",
+      "size": [
+        1080,
+        1080
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "cartier-tank-must-small-wsta0135",
+      "image": "assets/img/products/watches-cartier-tank-crwsta0135.jpg",
+      "format": "JPEG",
+      "size": [
+        750,
+        750
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "cartier-santos-medium-wssa0029",
+      "image": "assets/img/products/watches-cartier-santos-crwssa0029.jpg",
+      "format": "JPEG",
+      "size": [
+        750,
+        750
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "hermes-cape-cod-41-etoupe-w044350ww00",
+      "image": "assets/img/products/watches-hermes-cape-cod-w044350ww00.jpg",
+      "format": "JPEG",
+      "size": [
+        800,
+        800
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "hermes-heure-h-medium-etoupe-w404223ww00",
+      "image": "assets/img/products/watches-hermes-heure-h-w404223ww00.jpg",
+      "format": "JPEG",
+      "size": [
+        800,
+        800
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "dior-jadore-edp-100ml-c099800246",
+      "image": "assets/img/products/fragrance-dior-jadore-edp-100ml.jpg",
+      "format": "JPEG",
+      "size": [
+        1800,
+        1200
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "gucci-bloom-edp-100ml-488830",
+      "image": "assets/img/products/fragrance-gucci-bloom-100ml.jpg",
+      "format": "JPEG",
+      "size": [
+        490,
+        490
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "prada-paradoxe-edp-90ml-1a1351",
+      "image": "assets/img/products/fragrance-prada-paradoxe-90ml.jpg",
+      "format": "JPEG",
+      "size": [
+        600,
+        750
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "hermes-terre-edt-338oz-v107188v0",
+      "image": "assets/img/products/fragrance-hermes-terre-edt-v107188v0.jpg",
+      "format": "JPEG",
+      "size": [
+        800,
+        800
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2022-prada-re-edition-2000",
+      "image": "assets/img/bag-years/2022-prada-re-edition-2000.jpg",
+      "format": "JPEG",
+      "size": [
+        600,
+        750
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2022-diesel-1dr",
+      "image": "assets/img/bag-years/2022-diesel-1dr.jpg",
+      "format": "JPEG",
+      "size": [
+        2000,
+        3000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2022-balenciaga-le-cagole-small",
+      "image": "assets/img/bag-years/2022-balenciaga-le-cagole-small.jpg",
+      "format": "JPEG",
+      "size": [
+        1100,
+        1100
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2022-miu-miu-wander",
+      "image": "assets/img/bag-years/2022-miu-miu-wander.jpg",
+      "format": "JPEG",
+      "size": [
+        2400,
+        2400
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2022-loewe-spirited-away-susuwatari-mini-puzzle",
+      "image": "assets/img/bag-years/2022-loewe-spirited-away.jpg",
+      "format": "JPEG",
+      "size": [
+        600,
+        679
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2022-gucci-adidas-large-duffle",
+      "image": "assets/img/bag-years/2022-gucci-adidas-large-duffle.png",
+      "format": "PNG",
+      "size": [
+        1424,
+        1416
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2023-loewe-font-tote",
+      "image": "assets/img/bag-years/2023-loewe-font-tote.jpg",
+      "format": "JPEG",
+      "size": [
+        1848,
+        2790
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2023-the-row-margaux-15",
+      "image": "assets/img/bag-years/2023-the-row-margaux-15.jpg",
+      "format": "JPEG",
+      "size": [
+        800,
+        1200
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2023-bottega-andiamo-small",
+      "image": "assets/img/bag-years/2023-bottega-andiamo-small.jpg",
+      "format": "JPEG",
+      "size": [
+        849,
+        1000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2023-miu-miu-arcadie",
+      "image": "assets/img/bag-years/2023-miu-miu-arcadie.jpg",
+      "format": "JPEG",
+      "size": [
+        2400,
+        2400
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2023-loewe-calcifer-mini-puzzle",
+      "image": "assets/img/bag-years/2023-loewe-calcifer-mini-puzzle.jpg",
+      "format": "JPEG",
+      "size": [
+        1500,
+        1500
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2023-lv-yayoi-kusama-neverfull",
+      "image": "assets/img/bag-years/2023-lv-yayoi-kusama-neverfull.jpg",
+      "format": "JPEG",
+      "size": [
+        2560,
+        2560
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2024-alaia-le-teckel-medium",
+      "image": "assets/img/bag-years/2024-alaia-le-teckel.jpg",
+      "format": "JPEG",
+      "size": [
+        750,
+        1333
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2024-miu-miu-arcadie-suede",
+      "image": "assets/img/bag-years/2024-miu-miu-arcadie-suede.jpg",
+      "format": "JPEG",
+      "size": [
+        2400,
+        2400
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2024-balenciaga-rodeo-medium",
+      "image": "assets/img/bag-years/2024-balenciaga-rodeo.jpg",
+      "format": "JPEG",
+      "size": [
+        1100,
+        1100
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2024-loewe-puzzle-fold-medium",
+      "image": "assets/img/bag-years/2024-loewe-puzzle-fold.jpg",
+      "format": "JPEG",
+      "size": [
+        750,
+        1132
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2024-louis-vuitton-tyler-keepall25",
+      "image": "assets/img/bag-years/2024-lv-tyler-keepall25.jpg",
+      "format": "JPEG",
+      "size": [
+        800,
+        857
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2024-fendi-frgmt-pokemon-beaded-baguette",
+      "image": "assets/img/bag-years/2024-fendi-pokemon-baguette.jpg",
+      "format": "JPEG",
+      "size": [
+        2048,
+        2560
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2025-saint-laurent-gaby-vanity",
+      "image": "assets/img/bag-years/2025-saint-laurent-gaby.jpg",
+      "format": "JPEG",
+      "size": [
+        2608,
+        3260
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2025-miu-miu-suede-pouch",
+      "image": "assets/img/bag-years/2025-miu-miu-suede-pouch.jpg",
+      "format": "JPEG",
+      "size": [
+        2400,
+        2400
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2025-chloe-paddington-grained",
+      "image": "assets/img/bag-years/2025-chloe-paddington.jpg",
+      "format": "JPEG",
+      "size": [
+        750,
+        1000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2025-prada-dada-small",
+      "image": "assets/img/bag-years/2025-prada-dada.jpg",
+      "format": "JPEG",
+      "size": [
+        2400,
+        3000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2025-loewe-puzzle10-confetti",
+      "image": "assets/img/bag-years/2025-loewe-puzzle10-confetti.jpg",
+      "format": "JPEG",
+      "size": [
+        750,
+        1132
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2025-loewe-puzzle10-plumeria",
+      "image": "assets/img/bag-years/2025-loewe-puzzle10-plumeria.jpg",
+      "format": "JPEG",
+      "size": [
+        640,
+        853
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2026-chanel-maxi-flap-camel",
+      "image": "assets/img/bag-years/2026-chanel-maxi-flap-camel.webp",
+      "format": "WEBP",
+      "size": [
+        768,
+        767
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2026-prada-bonnie-medium-black",
+      "image": "assets/img/bag-years/2026-prada-bonnie-medium-black.jpg",
+      "format": "JPEG",
+      "size": [
+        1000,
+        1250
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2026-loewe-amazona180-large-black",
+      "image": "assets/img/bag-years/2026-loewe-amazona180-large-black.jpg",
+      "format": "JPEG",
+      "size": [
+        750,
+        1132
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2026-dior-toujours-hobo-small-black",
+      "image": "assets/img/bag-years/2026-dior-toujours-hobo-small-black.jpg",
+      "format": "JPEG",
+      "size": [
+        1334,
+        2000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2026-lv-speedy20-monogram-origine-green",
+      "image": "assets/img/bag-years/2026-lv-speedy20-monogram-origine-green.png",
+      "format": "PNG",
+      "size": [
+        750,
+        1000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "bag-2026-loewe-amazona180-lazy-crab",
+      "image": "assets/img/bag-years/2026-loewe-amazona180-lazy-crab.jpg",
+      "format": "JPEG",
+      "size": [
+        750,
+        1132
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2022-cartier-love-pendant",
+      "image": "assets/img/jewel-years/necklace-2022-cartier-love-pendant.webp",
+      "format": "WEBP",
+      "size": [
+        750,
+        750
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2022-tiffany-hardwear-necklace",
+      "image": "assets/img/jewel-years/necklace-2022-tiffany-hardwear-necklace.webp",
+      "format": "WEBP",
+      "size": [
+        2000,
+        2000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2022-david-yurman-cable-linked",
+      "image": "assets/img/jewel-years/necklace-2022-david-yurman-cable-linked.jpg",
+      "format": "JPEG",
+      "size": [
+        3200,
+        4000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2022-vca-alhambra-mother-pearl",
+      "image": "assets/img/jewel-years/necklace-2022-vca-alhambra-mother-pearl.jpg",
+      "format": "JPEG",
+      "size": [
+        989,
+        1242
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2022-adidas-gucci-gourmette",
+      "image": "assets/img/jewel-years/necklace-2022-adidas-gucci-gourmette.jpg",
+      "format": "JPEG",
+      "size": [
+        800,
+        572
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2022-fendace-chain-necklace",
+      "image": "assets/img/jewel-years/necklace-2022-fendace-chain-necklace.jpg",
+      "format": "JPEG",
+      "size": [
+        800,
+        571
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2023-chanel-coco-crush-pendant",
+      "image": "assets/img/jewel-years/necklace-2023-chanel-coco-crush-pendant.jpg",
+      "format": "JPEG",
+      "size": [
+        1080,
+        1080
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2023-tiffany-t-smile",
+      "image": "assets/img/jewel-years/necklace-2023-tiffany-t-smile.webp",
+      "format": "WEBP",
+      "size": [
+        2000,
+        2000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2023-vca-alhambra-onyx",
+      "image": "assets/img/jewel-years/necklace-2023-vca-alhambra-onyx.jpg",
+      "format": "JPEG",
+      "size": [
+        1000,
+        1000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2023-tiffany-lock-rose-diamond",
+      "image": "assets/img/jewel-years/necklace-2023-tiffany-lock-rose-diamond.webp",
+      "format": "WEBP",
+      "size": [
+        2000,
+        2000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2023-tiffany-rose-lock-pendant",
+      "image": "assets/img/jewel-years/necklace-2023-tiffany-rose-lock-pendant.webp",
+      "format": "WEBP",
+      "size": [
+        2000,
+        2000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2023-tiffany-arsham-pokemon-pikachu",
+      "image": "assets/img/jewel-years/necklace-2023-tiffany-arsham-pokemon-pikachu.jpg",
+      "format": "JPEG",
+      "size": [
+        988,
+        988
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2024-tiffany-t-smile-small-yellow-gold-60011679",
+      "image": "assets/img/jewel-years/necklace-2024-tiffany-t-smile-small-yellow-gold-60011679.webp",
+      "format": "WEBP",
+      "size": [
+        2000,
+        2000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2024-bulgari-bzero1-necklace-white-gold-352815",
+      "image": "assets/img/jewel-years/necklace-2024-bulgari-bzero1-necklace-white-gold-352815.png",
+      "format": "PNG",
+      "size": [
+        1090,
+        851
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2024-chanel-coco-crush-necklace-small-beige-gold-j12306",
+      "image": "assets/img/jewel-years/necklace-2024-chanel-coco-crush-necklace-small-beige-gold-j12306.jpg",
+      "format": "JPEG",
+      "size": [
+        1080,
+        1080
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2024-van-cleef-vintage-alhambra-mother-of-pearl",
+      "image": "assets/img/jewel-years/necklace-2024-van-cleef-vintage-alhambra-mother-of-pearl.jpg",
+      "format": "JPEG",
+      "size": [
+        1003,
+        1003
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2024-fendi-frgmt-pokemon-pokeball-necklace",
+      "image": "assets/img/jewel-years/necklace-2024-fendi-frgmt-pokemon-pokeball-necklace.jpg",
+      "format": "JPEG",
+      "size": [
+        800,
+        571
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2024-van-cleef-holiday-guilloche-rose-white-gold",
+      "image": "assets/img/jewel-years/necklace-2024-van-cleef-holiday-guilloche-rose-white-gold.jpg",
+      "format": "JPEG",
+      "size": [
+        768,
+        768
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2025-chanel-coco-crush-necklace-small-beige-gold-j12306",
+      "image": "assets/img/jewel-years/necklace-2025-chanel-coco-crush-necklace-small-beige-gold-j12306.jpg",
+      "format": "JPEG",
+      "size": [
+        1080,
+        1080
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2025-tiffany-t-smile-small-yellow-gold-60011679",
+      "image": "assets/img/jewel-years/necklace-2025-tiffany-t-smile-small-yellow-gold-60011679.webp",
+      "format": "WEBP",
+      "size": [
+        2000,
+        2000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2025-gucci-trademark-heart-silver",
+      "image": "assets/img/jewel-years/necklace-2025-gucci-trademark-heart-silver.jpg",
+      "format": "JPEG",
+      "size": [
+        1200,
+        1500
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2025-bulgari-divas-dream-mother-of-pearl-diamonds",
+      "image": "assets/img/jewel-years/necklace-2025-bulgari-divas-dream-mother-of-pearl-diamonds.png",
+      "format": "PNG",
+      "size": [
+        1090,
+        851
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2025-louis-vuitton-murakami-superflat-necklace",
+      "image": "assets/img/jewel-years/necklace-2025-louis-vuitton-murakami-superflat-necklace.webp",
+      "format": "WEBP",
+      "size": [
+        1024,
+        954
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2025-swarovski-ariana-grande-heart-necklace",
+      "image": "assets/img/jewel-years/necklace-2025-swarovski-ariana-grande-heart-necklace.jpg",
+      "format": "JPEG",
+      "size": [
+        580,
+        580
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2026-bulgari-serpenti-viper-yellow-gold",
+      "image": "assets/img/jewel-years/necklace-2026-bulgari-serpenti-viper-yellow-gold.png",
+      "format": "PNG",
+      "size": [
+        1090,
+        851
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2026-fred-force10-rise-yellow-gold",
+      "image": "assets/img/jewel-years/necklace-2026-fred-force10-rise-yellow-gold.png",
+      "format": "PNG",
+      "size": [
+        1080,
+        1080
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2026-tiffany-hardwear-double-link-yellow-gold",
+      "image": "assets/img/jewel-years/necklace-2026-tiffany-hardwear-double-link-yellow-gold.webp",
+      "format": "WEBP",
+      "size": [
+        2000,
+        2000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2026-tiffany-hardwear-medium-yellow-gold",
+      "image": "assets/img/jewel-years/necklace-2026-tiffany-hardwear-medium-yellow-gold.webp",
+      "format": "WEBP",
+      "size": [
+        2000,
+        2000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2026-swarovski-ariana-dragonfly-pendant",
+      "image": "assets/img/jewel-years/necklace-2026-swarovski-ariana-dragonfly-pendant.jpg",
+      "format": "JPEG",
+      "size": [
+        375,
+        375
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "necklace-2026-swarovski-ariana-dragonfly-y",
+      "image": "assets/img/jewel-years/necklace-2026-swarovski-ariana-dragonfly-y.png",
+      "format": "PNG",
+      "size": [
+        375,
+        375
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2022-tiffany-hardwear-bracelet",
+      "image": "assets/img/jewel-years/jewelry-2022-tiffany-hardwear-bracelet.webp",
+      "format": "WEBP",
+      "size": [
+        2000,
+        2000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2022-david-yurman-classic-cable",
+      "image": "assets/img/jewel-years/jewelry-2022-david-yurman-classic-cable.jpg",
+      "format": "JPEG",
+      "size": [
+        3200,
+        4000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2022-cartier-love-classic-bracelet",
+      "image": "assets/img/jewel-years/jewelry-2022-cartier-love-classic-bracelet.png",
+      "format": "PNG",
+      "size": [
+        1000,
+        1000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2022-vca-alhambra-mother-pearl-bracelet",
+      "image": "assets/img/jewel-years/jewelry-2022-vca-alhambra-mother-pearl-bracelet.jpg",
+      "format": "JPEG",
+      "size": [
+        768,
+        768
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2022-fendace-hoop-earrings",
+      "image": "assets/img/jewel-years/jewelry-2022-fendace-hoop-earrings.jpg",
+      "format": "JPEG",
+      "size": [
+        800,
+        571
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2022-tiffany-arsham-lock-ensemble",
+      "image": "assets/img/jewel-years/jewelry-2022-tiffany-arsham-lock-ensemble.jpg",
+      "format": "JPEG",
+      "size": [
+        1280,
+        1280
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2023-chanel-coco-crush-ring",
+      "image": "assets/img/jewel-years/jewelry-2023-chanel-coco-crush-ring.jpg",
+      "format": "JPEG",
+      "size": [
+        1080,
+        1080
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2023-cartier-love-small-ring",
+      "image": "assets/img/jewel-years/jewelry-2023-cartier-love-small-ring.png",
+      "format": "PNG",
+      "size": [
+        1000,
+        1000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2023-cartier-juste-un-clou-small",
+      "image": "assets/img/jewel-years/jewelry-2023-cartier-juste-un-clou-small.jpg",
+      "format": "JPEG",
+      "size": [
+        1000,
+        1000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2023-tiffany-lock-rose-bangle",
+      "image": "assets/img/jewel-years/jewelry-2023-tiffany-lock-rose-bangle.webp",
+      "format": "WEBP",
+      "size": [
+        2000,
+        2000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2023-tiffany-rose-lock-bangle",
+      "image": "assets/img/jewel-years/jewelry-2023-tiffany-rose-lock-bangle.webp",
+      "format": "WEBP",
+      "size": [
+        2000,
+        2000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2023-lv-kusama-pumpkin-bracelet",
+      "image": "assets/img/jewel-years/jewelry-2023-lv-kusama-pumpkin-bracelet.jpg",
+      "format": "JPEG",
+      "size": [
+        800,
+        571
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2024-cartier-trinity-classic-ring-size53-b4234253",
+      "image": "assets/img/jewel-years/jewelry-2024-cartier-trinity-classic-ring-size53-b4234253.jpg",
+      "format": "JPEG",
+      "size": [
+        750,
+        750
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2024-tiffany-hardwear-small-link-medium-silver-60153085",
+      "image": "assets/img/jewel-years/jewelry-2024-tiffany-hardwear-small-link-medium-silver-60153085.webp",
+      "format": "WEBP",
+      "size": [
+        2000,
+        2000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2024-bulgari-serpenti-viper-ring-rose-gold-45-46-362140",
+      "image": "assets/img/jewel-years/jewelry-2024-bulgari-serpenti-viper-ring-rose-gold-45-46-362140.png",
+      "format": "PNG",
+      "size": [
+        727,
+        1090
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2024-chanel-coco-crush-ring-mini-beige-gold-j11785",
+      "image": "assets/img/jewel-years/jewelry-2024-chanel-coco-crush-ring-mini-beige-gold-j11785.jpg",
+      "format": "JPEG",
+      "size": [
+        1080,
+        1080
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2024-fendi-frgmt-ring-gold",
+      "image": "assets/img/jewel-years/jewelry-2024-fendi-frgmt-ring-gold.jpg",
+      "format": "JPEG",
+      "size": [
+        800,
+        571
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2024-fendi-frgmt-pokemon-earrings-gold",
+      "image": "assets/img/jewel-years/jewelry-2024-fendi-frgmt-pokemon-earrings-gold.jpg",
+      "format": "JPEG",
+      "size": [
+        800,
+        571
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2025-hermes-clic-clac-h-blanc-rose-gold",
+      "image": "assets/img/jewel-years/jewelry-2025-hermes-clic-clac-h-blanc-rose-gold.jpg",
+      "format": "JPEG",
+      "size": [
+        800,
+        800
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2025-david-yurman-classic-cable-blue-topaz-diamonds",
+      "image": "assets/img/jewel-years/jewelry-2025-david-yurman-classic-cable-blue-topaz-diamonds.jpg",
+      "format": "JPEG",
+      "size": [
+        3200,
+        4000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2025-van-cleef-vintage-alhambra-five-motifs-mother-of-pearl",
+      "image": "assets/img/jewel-years/jewelry-2025-van-cleef-vintage-alhambra-five-motifs-mother-of-pearl.jpg",
+      "format": "JPEG",
+      "size": [
+        1500,
+        1500
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2025-cartier-love-small-yellow-gold-size17",
+      "image": "assets/img/jewel-years/jewelry-2025-cartier-love-small-yellow-gold-size17.jpg",
+      "format": "JPEG",
+      "size": [
+        768,
+        768
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2025-louis-vuitton-murakami-superflat-earrings",
+      "image": "assets/img/jewel-years/jewelry-2025-louis-vuitton-murakami-superflat-earrings.jpg",
+      "format": "JPEG",
+      "size": [
+        1500,
+        1500
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2025-swarovski-ariana-grande-heart-bracelet",
+      "image": "assets/img/jewel-years/jewelry-2025-swarovski-ariana-grande-heart-bracelet.jpg",
+      "format": "JPEG",
+      "size": [
+        580,
+        580
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2026-boucheron-quatre-classique-xs",
+      "image": "assets/img/jewel-years/jewelry-2026-boucheron-quatre-classique-xs.webp",
+      "format": "WEBP",
+      "size": [
+        809,
+        809
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2026-pomellato-together-triple-band",
+      "image": "assets/img/jewel-years/jewelry-2026-pomellato-together-triple-band.jpg",
+      "format": "JPEG",
+      "size": [
+        3000,
+        3000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2026-tiffany-hardwear-medium-earrings-yellow-gold",
+      "image": "assets/img/jewel-years/jewelry-2026-tiffany-hardwear-medium-earrings-yellow-gold.webp",
+      "format": "WEBP",
+      "size": [
+        2000,
+        2000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2026-tiffany-hardwear-micro-yellow-gold",
+      "image": "assets/img/jewel-years/jewelry-2026-tiffany-hardwear-micro-yellow-gold.webp",
+      "format": "WEBP",
+      "size": [
+        2000,
+        2000
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2026-swarovski-ariana-dragonfly-bangle",
+      "image": "assets/img/jewel-years/jewelry-2026-swarovski-ariana-dragonfly-bangle.jpg",
+      "format": "JPEG",
+      "size": [
+        375,
+        375
+      ],
+      "matchesDimensions": true
+    },
+    {
+      "id": "jewelry-2026-swarovski-ariana-dragonfly-earrings",
+      "image": "assets/img/jewel-years/jewelry-2026-swarovski-ariana-dragonfly-earrings.jpg",
+      "format": "JPEG",
+      "size": [
+        375,
+        375
+      ],
+      "matchesDimensions": true
+    }
+  ],
+  "visuallyReviewedNewRecords": 60
+}

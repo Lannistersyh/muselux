@@ -18,27 +18,29 @@
 - 15 个品牌：Hermès、Chanel、Louis Vuitton、Dior、Gucci、Prada、Bottega Veneta、Celine、Cartier、Tiffany & Co.、Bvlgari、Van Cleef & Arpels、Rolex、Omega、Fendi。
 - **The Style Edit：24 款实物图商品，六类各 4 款**。每款包含英文介绍、三条设计细节、搭配建议、具体型号与材质尺寸、税前美元参考价及官方商品/图片来源。首页支持按品类切换，各品类页优先显示这四款。
 - **The Bag Yearbook：2022–2026，每年 4 款热门精选 + 2 款限量/限定款，共 30 条年度记录。** 包含实物图、英文设计与搭配介绍、当年入选依据、发行信息和有来源的美元价格。首页与包袋页提供入口，独立页面 `bags-by-year.html` 支持五年份切换和年份直达链接。
+- **The Necklace Yearbook / The Jewelry Yearbook：项链与首饰各 30 条年度记录，共新增 60 条。** 两个独立页面同样覆盖 2022–2026，每年各 4 款热门精选 + 2 款限量/限定联名；首饰以戒指、手链和耳饰为主。首页提供三类年鉴入口，品类页与站内搜索同步收录。
 - 另保留 28 个经典设计词条，共 **52 个单品页**；鞋履与墨镜作为生活配件扩展收录于首饰品类。未核实具体美元型号的经典词条直接提示向美国官方渠道询价，不做汇率猜算。
 - 12 篇原创杂志文章，每篇正文至少 800 个中文字；正文不依赖在线加载。
 - 6 个品类页：包包、项链、首饰、腕表、丝巾、香水。
-- 年度包袋另有 30 个英文详情页；全站共 **82 个单品/年度详情页、121 页 HTML**。
-- The Style Edit 的 24 张本地实物照片约 2.03 MiB，年度包袋照片另存于 `assets/img/bag-years/`；另有 42 个原创 SVG。照片逐款署名并保留原图来源，未声称获得开放图片许可；没有复制第三方文章。
+- 三类年度栏目共有 90 个英文详情页；全站共 **142 个单品/年度详情页、183 页 HTML**。
+- The Style Edit 的 24 张本地实物照片约 2.03 MiB，年度包袋照片另存于 `assets/img/bag-years/`，新增项链与首饰的 60 张实物照片保存于 `assets/img/jewel-years/`；另有 42 个原创 SVG。照片逐款署名并保留原图来源，未声称获得开放图片许可；没有复制第三方文章。
 
 ## 目录
 
 ```
 index.html / about.html / brands.html / search.html / 404.html
-bags-by-year.html 2022–2026 包袋年份页
+bags-by-year.html / necklaces-by-year.html / jewelry-by-year.html
+                2022–2026 包袋、项链与首饰年份页
 brand/          品牌页
 cat/            六品类聚合页
 item/           单品词典
 mag/            杂志长文
 assets/css/     唯一主样式 main.css
 assets/js/      data.js、render.js、main.js
-assets/img/     原创概念插画；products/ 与 bag-years/ 为实物照片
+assets/img/     原创概念插画；products/、bag-years/ 与 jewel-years/ 为实物照片
 assets/fonts/   本地字体和对应 OFL 许可证
 tools/          可选的内容维护脚本与可编辑数据
-tools/research/ 实物商品与年度包袋的来源、价格证据与图片权利记录
+tools/research/ 实物商品与三类年度选集的来源、价格证据与图片权利记录
 reports/        验收记录、页面清单、商品来源清单和预览截图
 ```
 
@@ -58,7 +60,7 @@ reports/        验收记录、页面清单、商品来源清单和预览截图
 
 ## 图片与字体替换
 
-SVG 表达的是概念、轮廓与阅读气氛，不代表产品实际外观，不能用于真伪判断。The Style Edit 的 24 张照片下载自所列品牌的官方商品图片，未经过生成式改绘；颜色、型号与图源一同记录于 `tools/research/` 和 `reports/product-sources.json`。年度包袋照片的来源与权利记录另见 `reports/bag-yearbook-sources.json`。照片版权归品牌或相应权利人；公开可见和署名本身不等于开放许可，本站不宣称品牌授权或合作。后续替换请保留来源和权利依据。
+SVG 表达的是概念、轮廓与阅读气氛，不代表产品实际外观，不能用于真伪判断。The Style Edit 的 24 张照片下载自所列品牌的官方商品图片，未经过生成式改绘；颜色、型号与图源一同记录于 `tools/research/` 和 `reports/product-sources.json`。年度照片的来源与权利记录分别见 `reports/bag-yearbook-sources.json` 和 `reports/jewel-yearbook-sources.json`。照片版权归品牌或相应权利人；公开可见和署名本身不等于开放许可，本站不宣称品牌授权或合作。后续替换请保留来源和权利依据。
 
 替换图片后保留宽高信息与描述性 alt；如改变文件名，请同步修改内容数据或生成模板。插画源脚本在 `tools/draw_assets.py`。
 
@@ -74,7 +76,9 @@ The Style Edit 的价格均为 **USD、未含税、图中具体型号的美国�
 
 年度包袋由 `tools/research/bag-years-*.json` 维护，运行 `python3 tools/apply_bag_yearbook.py` 合并。每年四款热门是依据当年 Lyst 季度需求信号与有日期的时尚报道形成的编辑精选，来源排名保留其原始时期，不是统一的全球年度销量榜。具体照片可能展示该热门包型的后续配色或材质版本，详情明确记录图中型号；限量/限定照片对应所述特别版本。
 
-限量类型分别标注编号版、明确限量版和季节限定系列。季节限定不等于品牌公布固定生产数量。美元价格明确区分当前美国零售参考、发布期价格、报道价格和未公开报价；没有将转售挂牌价写成原始零售价。2026 年收录截止日为 2026-10-19。
+限量类型分别标注编号版、明确限量版和季节限定系列。季节限定不等于品牌公布固定生产数量。美元价格明确区分当前美国零售参考、发布期价格、报道价格、注明日期的拍卖结果/二手挂牌和未公开报价；没有将转售挂牌价写成原始零售价。2026 年收录截止日为 2026-10-19。
+
+项链与首饰年度数据由 `tools/research/jewel-years-*.json` 维护，运行 `python3 tools/apply_jewel_yearbooks.py` 合并后，再运行生成器与校验器。合并过程保留原有核心商品、包袋年鉴及其他栏目，`reports/jewel-yearbook-sources.json` 汇总新增 60 条的来源与版本证据。当前美国商品参考价格可在 2026-10-20 复核；2026 年入选证据范围仍截至 2026-10-19，二者在详情页分别显示。
 
 `reports/bag-yearbook-sources.json` 保存 30 条年度记录的入选来源、价格依据与版本证明。新增品牌的款式可收录于年度页；原有 15 个品牌历史档案继续保留在品牌索引中。
 
@@ -84,7 +88,7 @@ The Style Edit 的价格均为 **USD、未含税、图中具体型号的美国�
 
 ## 检查与预览
 
-可运行 `python3 tools/validate.py` 检查全部页面、链接、锚点、图片、内容长度和运行时 JS 体积。初版浏览器验收使用 Chromium；年度包袋更新按照用户选择执行静态检查，并用临时 LinkeDOM 对实际生成的 HTML 和运行脚本做了 29 项 DOM 交互检查，覆盖五年份切换、直达链接、键盘操作和年度搜索结果。没有新增浏览器标签或声称完成本轮手机视口视觉复测。完整结果见 `reports/自检报告.md`。
+可运行 `python3 tools/validate.py` 检查全部页面、链接、锚点、图片、内容长度和运行时 JS 体积。初版浏览器验收使用 Chromium；年度包袋及项链/首饰更新按照用户选择执行静态检查；包袋首轮的 29 项 DOM 检查记录单独保留。当前三类年度页使用临时 LinkeDOM 加载实际生成的 HTML 和运行脚本，检查五年份切换、直达链接、键盘操作和分品类年度搜索，结果见 `reports/jewel-yearbook-dom-validation.json`。没有新增浏览器标签或声称完成本轮手机视口视觉复测。完整结果见 `reports/自检报告.md`。
 
 如希望用 HTTP 预览，可在本目录运行 `python3 -m http.server 4173`，访问 `http://localhost:4173/`；这只是可选维护方式。
 

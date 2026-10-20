@@ -116,14 +116,16 @@
     "brand": "cartier",
     "reference": "B7014200",
     "source": "https://www.cartier.com/en-us/CRB7014200.html",
-    "image": "assets/img/products/necklace-cartier-love-yellow-gold-b7014200.jpg",
+    "image": "assets/img/products/necklace-cartier-love-yellow-gold-b7014200.webp",
     "imageSource": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw9f9c9983/images/large/52bad625fa985e66ba501b6180e5e56a.png?sw=750&sh=750&sm=fit&sfrm=png",
     "imageCredit": "© Cartier, official product imagery",
     "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand.",
     "priceUSD": 4300,
     "priceStatus": "live",
     "priceContextEn": "Official U.S. product page · checked 19 October 2026",
-    "checkedAt": "2026-10-19"
+    "checkedAt": "2026-10-19",
+    "imageWidth": 750,
+    "imageHeight": 750
   },
   {
     "id": "tiffany-t-smile-small-yellow-gold-60011679",

@@ -1,0 +1,501 @@
+{
+  "checkedAt": "2026-10-20",
+  "passed": true,
+  "engine": "LinkeDOM 0.18.13; actual generated HTML and shipping JavaScript",
+  "scope": "DOM interactions only. No browser layout, phone viewport or screenshot test.",
+  "engineNotes": "The DOM harness supplies browser select.value assignment and focus tracking, which LinkeDOM does not implement.",
+  "ownedTabsOpened": 0,
+  "ownedTabsRemaining": 0,
+  "assertions": 111,
+  "checks": [
+    {
+      "name": "bags: five edits readable without scripts",
+      "passed": true
+    },
+    {
+      "name": "bags: default year 2026",
+      "passed": true
+    },
+    {
+      "name": "bags: correct category navigation",
+      "passed": true
+    },
+    {
+      "name": "bags: only 2022 visible",
+      "passed": true
+    },
+    {
+      "name": "bags: 2022 has four popular and two edition cards",
+      "passed": true
+    },
+    {
+      "name": "bags: 2022 shareable hash",
+      "passed": true,
+      "detail": "#year-2022"
+    },
+    {
+      "name": "bags: 2022 accessible pressed state",
+      "passed": true
+    },
+    {
+      "name": "bags: only 2023 visible",
+      "passed": true
+    },
+    {
+      "name": "bags: 2023 has four popular and two edition cards",
+      "passed": true
+    },
+    {
+      "name": "bags: 2023 shareable hash",
+      "passed": true,
+      "detail": "#year-2023"
+    },
+    {
+      "name": "bags: 2023 accessible pressed state",
+      "passed": true
+    },
+    {
+      "name": "bags: only 2024 visible",
+      "passed": true
+    },
+    {
+      "name": "bags: 2024 has four popular and two edition cards",
+      "passed": true
+    },
+    {
+      "name": "bags: 2024 shareable hash",
+      "passed": true,
+      "detail": "#year-2024"
+    },
+    {
+      "name": "bags: 2024 accessible pressed state",
+      "passed": true
+    },
+    {
+      "name": "bags: only 2025 visible",
+      "passed": true
+    },
+    {
+      "name": "bags: 2025 has four popular and two edition cards",
+      "passed": true
+    },
+    {
+      "name": "bags: 2025 shareable hash",
+      "passed": true,
+      "detail": "#year-2025"
+    },
+    {
+      "name": "bags: 2025 accessible pressed state",
+      "passed": true
+    },
+    {
+      "name": "bags: only 2026 visible",
+      "passed": true
+    },
+    {
+      "name": "bags: 2026 has four popular and two edition cards",
+      "passed": true
+    },
+    {
+      "name": "bags: 2026 shareable hash",
+      "passed": true,
+      "detail": "#year-2026"
+    },
+    {
+      "name": "bags: 2026 accessible pressed state",
+      "passed": true
+    },
+    {
+      "name": "bags: keyboard ArrowRight",
+      "passed": true,
+      "detail": "2025"
+    },
+    {
+      "name": "bags: keyboard End",
+      "passed": true,
+      "detail": "2022"
+    },
+    {
+      "name": "bags: keyboard Home",
+      "passed": true,
+      "detail": "2026"
+    },
+    {
+      "name": "bags: hash navigation",
+      "passed": true
+    },
+    {
+      "name": "bags: direct year link",
+      "passed": true
+    },
+    {
+      "name": "bags: correct page title",
+      "passed": true
+    },
+    {
+      "name": "necklace: five edits readable without scripts",
+      "passed": true
+    },
+    {
+      "name": "necklace: default year 2026",
+      "passed": true
+    },
+    {
+      "name": "necklace: correct category navigation",
+      "passed": true
+    },
+    {
+      "name": "necklace: only 2022 visible",
+      "passed": true
+    },
+    {
+      "name": "necklace: 2022 has four popular and two edition cards",
+      "passed": true
+    },
+    {
+      "name": "necklace: 2022 shareable hash",
+      "passed": true,
+      "detail": "#year-2022"
+    },
+    {
+      "name": "necklace: 2022 accessible pressed state",
+      "passed": true
+    },
+    {
+      "name": "necklace: only 2023 visible",
+      "passed": true
+    },
+    {
+      "name": "necklace: 2023 has four popular and two edition cards",
+      "passed": true
+    },
+    {
+      "name": "necklace: 2023 shareable hash",
+      "passed": true,
+      "detail": "#year-2023"
+    },
+    {
+      "name": "necklace: 2023 accessible pressed state",
+      "passed": true
+    },
+    {
+      "name": "necklace: only 2024 visible",
+      "passed": true
+    },
+    {
+      "name": "necklace: 2024 has four popular and two edition cards",
+      "passed": true
+    },
+    {
+      "name": "necklace: 2024 shareable hash",
+      "passed": true,
+      "detail": "#year-2024"
+    },
+    {
+      "name": "necklace: 2024 accessible pressed state",
+      "passed": true
+    },
+    {
+      "name": "necklace: only 2025 visible",
+      "passed": true
+    },
+    {
+      "name": "necklace: 2025 has four popular and two edition cards",
+      "passed": true
+    },
+    {
+      "name": "necklace: 2025 shareable hash",
+      "passed": true,
+      "detail": "#year-2025"
+    },
+    {
+      "name": "necklace: 2025 accessible pressed state",
+      "passed": true
+    },
+    {
+      "name": "necklace: only 2026 visible",
+      "passed": true
+    },
+    {
+      "name": "necklace: 2026 has four popular and two edition cards",
+      "passed": true
+    },
+    {
+      "name": "necklace: 2026 shareable hash",
+      "passed": true,
+      "detail": "#year-2026"
+    },
+    {
+      "name": "necklace: 2026 accessible pressed state",
+      "passed": true
+    },
+    {
+      "name": "necklace: keyboard ArrowRight",
+      "passed": true,
+      "detail": "2025"
+    },
+    {
+      "name": "necklace: keyboard End",
+      "passed": true,
+      "detail": "2022"
+    },
+    {
+      "name": "necklace: keyboard Home",
+      "passed": true,
+      "detail": "2026"
+    },
+    {
+      "name": "necklace: hash navigation",
+      "passed": true
+    },
+    {
+      "name": "necklace: direct year link",
+      "passed": true
+    },
+    {
+      "name": "necklace: correct page title",
+      "passed": true
+    },
+    {
+      "name": "jewelry: five edits readable without scripts",
+      "passed": true
+    },
+    {
+      "name": "jewelry: default year 2026",
+      "passed": true
+    },
+    {
+      "name": "jewelry: correct category navigation",
+      "passed": true
+    },
+    {
+      "name": "jewelry: only 2022 visible",
+      "passed": true
+    },
+    {
+      "name": "jewelry: 2022 has four popular and two edition cards",
+      "passed": true
+    },
+    {
+      "name": "jewelry: 2022 shareable hash",
+      "passed": true,
+      "detail": "#year-2022"
+    },
+    {
+      "name": "jewelry: 2022 accessible pressed state",
+      "passed": true
+    },
+    {
+      "name": "jewelry: only 2023 visible",
+      "passed": true
+    },
+    {
+      "name": "jewelry: 2023 has four popular and two edition cards",
+      "passed": true
+    },
+    {
+      "name": "jewelry: 2023 shareable hash",
+      "passed": true,
+      "detail": "#year-2023"
+    },
+    {
+      "name": "jewelry: 2023 accessible pressed state",
+      "passed": true
+    },
+    {
+      "name": "jewelry: only 2024 visible",
+      "passed": true
+    },
+    {
+      "name": "jewelry: 2024 has four popular and two edition cards",
+      "passed": true
+    },
+    {
+      "name": "jewelry: 2024 shareable hash",
+      "passed": true,
+      "detail": "#year-2024"
+    },
+    {
+      "name": "jewelry: 2024 accessible pressed state",
+      "passed": true
+    },
+    {
+      "name": "jewelry: only 2025 visible",
+      "passed": true
+    },
+    {
+      "name": "jewelry: 2025 has four popular and two edition cards",
+      "passed": true
+    },
+    {
+      "name": "jewelry: 2025 shareable hash",
+      "passed": true,
+      "detail": "#year-2025"
+    },
+    {
+      "name": "jewelry: 2025 accessible pressed state",
+      "passed": true
+    },
+    {
+      "name": "jewelry: only 2026 visible",
+      "passed": true
+    },
+    {
+      "name": "jewelry: 2026 has four popular and two edition cards",
+      "passed": true
+    },
+    {
+      "name": "jewelry: 2026 shareable hash",
+      "passed": true,
+      "detail": "#year-2026"
+    },
+    {
+      "name": "jewelry: 2026 accessible pressed state",
+      "passed": true
+    },
+    {
+      "name": "jewelry: keyboard ArrowRight",
+      "passed": true,
+      "detail": "2025"
+    },
+    {
+      "name": "jewelry: keyboard End",
+      "passed": true,
+      "detail": "2022"
+    },
+    {
+      "name": "jewelry: keyboard Home",
+      "passed": true,
+      "detail": "2026"
+    },
+    {
+      "name": "jewelry: hash navigation",
+      "passed": true
+    },
+    {
+      "name": "jewelry: direct year link",
+      "passed": true
+    },
+    {
+      "name": "jewelry: correct page title",
+      "passed": true
+    },
+    {
+      "name": "Home: three discoverable annual collections",
+      "passed": true
+    },
+    {
+      "name": "Data: 142 searchable item records, 90 annual",
+      "passed": true,
+      "detail": {
+        "items": 142,
+        "annual": 90
+      }
+    },
+    {
+      "name": "necklace: thirty runtime entries",
+      "passed": true,
+      "detail": 30
+    },
+    {
+      "name": "necklace: 2022 search returns six records",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "name": "necklace: 2022 search has photographs and correct USD yearbook labels",
+      "passed": true
+    },
+    {
+      "name": "necklace: 2023 search returns six records",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "name": "necklace: 2023 search has photographs and correct USD yearbook labels",
+      "passed": true
+    },
+    {
+      "name": "necklace: 2024 search returns six records",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "name": "necklace: 2024 search has photographs and correct USD yearbook labels",
+      "passed": true
+    },
+    {
+      "name": "necklace: 2025 search returns six records",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "name": "necklace: 2025 search has photographs and correct USD yearbook labels",
+      "passed": true
+    },
+    {
+      "name": "necklace: 2026 search returns six records",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "name": "necklace: 2026 search has photographs and correct USD yearbook labels",
+      "passed": true
+    },
+    {
+      "name": "jewelry: thirty runtime entries",
+      "passed": true,
+      "detail": 30
+    },
+    {
+      "name": "jewelry: 2022 search returns six records",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "name": "jewelry: 2022 search has photographs and correct USD yearbook labels",
+      "passed": true
+    },
+    {
+      "name": "jewelry: 2023 search returns six records",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "name": "jewelry: 2023 search has photographs and correct USD yearbook labels",
+      "passed": true
+    },
+    {
+      "name": "jewelry: 2024 search returns six records",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "name": "jewelry: 2024 search has photographs and correct USD yearbook labels",
+      "passed": true
+    },
+    {
+      "name": "jewelry: 2025 search returns six records",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "name": "jewelry: 2025 search has photographs and correct USD yearbook labels",
+      "passed": true
+    },
+    {
+      "name": "jewelry: 2026 search returns six records",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "name": "jewelry: 2026 search has photographs and correct USD yearbook labels",
+      "passed": true
+    }
+  ],
+  "testedSourceHashes": {
+    "data.js": "4f95e27d4605c31d77ad93947664d93c8056cbeeb2dd307f3343731e4fb235eb",
+    "render.js": "4f2675860d3715528bbaa04ebfb3f0a84417f2cc82c015cafc6ad4e14a42e4bd",
+    "main.js": "d51f015d6a31bdcccbbde8e0b8c6337141394a8da06392dde3b896737c8fd9da"
+  }
+}

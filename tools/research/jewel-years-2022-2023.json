@@ -1,0 +1,1573 @@
+{
+  "necklaceYears": [
+    {
+      "year": 2022,
+      "headlineEn": "Chains and familiar emblems",
+      "introEn": "A compact edit of recognizable fine-jewelry families meets the bolder mood of two fashion collaborations. Each photographed reference is identified separately from its annual evidence.",
+      "sources": [
+        {
+          "label": "FASHIONPHILE · 2022 resale report",
+          "url": "https://www.fashionphile.com/blogs/academy/2022-resale-report",
+          "publishedAt": "2022"
+        },
+        {
+          "label": "adidas · official2022 collection release",
+          "url": "https://news.adidas.com/originals/adidas-x-gucci-is-here/s/73828335-7f0b-4f46-8d9a-ba0af35277c5",
+          "publishedAt": "2022-06-07"
+        },
+        {
+          "label": "StockX · exact SS22 necklace archive",
+          "url": "https://stockx.com/gucci-x-adidas-gourmette-chain-necklace-silver",
+          "publishedAt": "2022-06-07"
+        },
+        {
+          "label": "Fendi Japan · official Fendace release",
+          "url": "https://prtimes.jp/main/html/rd/p/000000227.000003876.html",
+          "publishedAt": "2022-05-12"
+        },
+        {
+          "label": "StockX · exact SS22 necklace archive",
+          "url": "https://stockx.com/fendi-fendace-chain-necklace-brass-versace-gold",
+          "publishedAt": "2022-05-12"
+        }
+      ],
+      "entries": [
+        {
+          "brand": "cartier",
+          "category": "necklace",
+          "name": "LOVE pendant — yellow gold",
+          "nameZh": "卡地亚 LOVE 黄金圆环吊坠项链",
+          "reference": "B7014200",
+          "color": "Yellow gold",
+          "sizes": [
+            "42 cm chain",
+            "23.5 mm outer pendant diameter"
+          ],
+          "materials": [
+            "18K yellow gold (750/1000)"
+          ],
+          "priceUSD": 4300,
+          "checkedAt": "2026-10-19",
+          "priceEvidence": "Live official U.S. HTML JSON-LD identifies CRB7014200 and an Offer of USD 4300.00. The product description lists the 42 cm chain and 23.5 mm outer diameter.",
+          "source": "https://www.cartier.com/en-us/CRB7014200.html",
+          "image": "assets/img/jewel-years/necklace-2022-cartier-love-pendant.webp",
+          "imageSource": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw9f9c9983/images/large/52bad625fa985e66ba501b6180e5e56a.png?sw=750&sh=750&sm=fit&sfrm=png",
+          "imageCredit": "© Cartier, official product imagery",
+          "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand.",
+          "imageWidth": 750,
+          "imageHeight": 750,
+          "introEn": "A circle can be as expressive as a stone. This LOVE pendant makes its impression through the space at its center and the measured rhythm around its edge. From a distance, it reads as a clear golden outline; closer inspection reveals the screws that give the collection its familiar character. That shift in scale is its appeal. The pendant invites a second look while leaving plenty of room for the person wearing it, a useful starting point for a jewelry wardrobe built around strong, simple shapes.",
+          "featuresEn": [
+            "18K yellow gold with the LOVE screw motif.",
+            "A circular pendant with a 23.5 mm outer diameter.",
+            "Supplied on a 42 cm chain."
+          ],
+          "stylingEn": "Frame the circle with an open shirt collar or a plain scoop neckline. K eep other neckwear restrained, then repeat the warm metal with a small pair of hoops or a simple ring.",
+          "imageAlt": "Cartier yellow-gold LOVE circular screw-motif pendant on a fine chain.",
+          "id": "necklace-2022-cartier-love-pendant",
+          "year": 2022,
+          "selection": "hot",
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "Official U.S. retail reference · checked 19 Oct 2026",
+          "priceSource": "https://www.cartier.com/en-us/CRB7014200.html",
+          "selectionReasonEn": "FASHIONPHILE’s 2022 report highlights LOVE. This identified variant represents the established family; the evidence is platform-specific.",
+          "selectionSources": [
+            {
+              "label": "FASHIONPHILE · 2022 resale report",
+              "url": "https://www.fashionphile.com/blogs/academy/2022-resale-report",
+              "publishedAt": "2022",
+              "evidence": "Family evidence; reporting period is explained in the annual methodology."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Current official reference; stock and delivery are not promised.",
+          "brandName": "Cartier"
+        },
+        {
+          "id": "necklace-2022-tiffany-hardwear-necklace",
+          "category": "necklace",
+          "year": 2022,
+          "selection": "hot",
+          "brand": "tiffany",
+          "brandName": "Tiffany & Co.",
+          "name": "HardWear Small Link Necklace — sterling silver",
+          "nameZh": "蒂芙尼 HardWear 小号链节纯银项链",
+          "reference": "60153093 (manufacturer SKUs 38086936 / 60964874 / 75055536)",
+          "color": "Sterling silver",
+          "sizes": [
+            "Small link scale; product description 18 in length"
+          ],
+          "materials": [
+            "Sterling silver"
+          ],
+          "priceUSD": 3100,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "U.S. retail reference · checked 20 Oct 2026",
+          "priceSource": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-hardwear-sterling-silver-necklaces-pendants-1155175995.html",
+          "priceEvidence": "Official U.S. readable product page retrieved 20 Oct 2026, crawled today, lists USD 3100, sterling silver, small link scale. UI selected length 17.8; prose rounds to 18 in.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-hardwear-sterling-silver-necklaces-pendants-1155175995.html",
+          "imageSource": "https://media.tiffany.com/is/image/tco/60153093_NL_MAIN1X1?fmt=webp&hei=2000&wid=2000",
+          "imageCredit": "© Tiffany & Co. · product photograph",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the rights holder; public access is not a reuse licence and no permission is inferred.",
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Point-in-time reference; stock and delivery are not promised.",
+          "introEn": "Repeating gauge links give this silver necklace a measured, almost industrial rhythm. Each rounded section turns slightly against its neighbour, so the chain reads as a sequence of highlights and dark spaces rather than a flat line. The small link scale concentrates that idea close to the neckline without relying on a separate pendant. It is a useful way to add weight to a plain outfit while keeping the palette simple. Against a crisp white shirt or a dark crewneck, the linked outline becomes the main point of interest.",
+          "featuresEn": [
+            "Sterling-silver gauge links in the small scale.",
+            "Continuous linked silhouette without a central pendant.",
+            "Official description gives an 18-inch length; selector displays 17.8 in."
+          ],
+          "stylingEn": "Place the chain above an open shirt collar or over a smooth dark knit. Let its repeated links take the lead and use compact earrings nearby.",
+          "selectionReasonEn": "FASHIONPHILE’s 2022 report highlights HardWear. This identified variant represents the established family; the evidence is platform-specific.",
+          "selectionSources": [
+            {
+              "label": "FASHIONPHILE · 2022 resale report",
+              "url": "https://www.fashionphile.com/blogs/academy/2022-resale-report",
+              "publishedAt": "2022",
+              "evidence": "Family evidence; reporting period is explained in the annual methodology."
+            }
+          ],
+          "image": "assets/img/jewel-years/necklace-2022-tiffany-hardwear-necklace.webp",
+          "imageWidth": 2000,
+          "imageHeight": 2000
+        },
+        {
+          "id": "necklace-2022-david-yurman-cable-linked",
+          "category": "necklace",
+          "year": 2022,
+          "selection": "hot",
+          "brand": "david-yurman",
+          "brandName": "David Yurman",
+          "name": "Petite Cable Linked Necklace — silver and bonded yellow gold",
+          "nameZh": "大卫雅曼 Cable 双环银金项链",
+          "reference": "N18193 S417",
+          "color": "Silver and yellow gold",
+          "sizes": [
+            "Adjustable 15–17 in;15 mm links"
+          ],
+          "materials": [
+            "Sterling silver",
+            "14K bonded yellow gold"
+          ],
+          "priceUSD": 450,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "U.S. retail reference · checked 20 Oct 2026",
+          "priceSource": "https://www.davidyurman.com/womens/necklaces/petite-cable-linked-necklace-in-sterling-silver-with-14k-yellow-gold-15mm-N18193%2BS4.html",
+          "priceEvidence": "Official U.S. HTML retrieved 20 Oct 2026 lists USD 450, styleN18193 S417,15–17 in adjustable length and sterling silver with 14-karat bonded yellow gold.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.davidyurman.com/womens/necklaces/petite-cable-linked-necklace-in-sterling-silver-with-14k-yellow-gold-15mm-N18193%2BS4.html",
+          "imageSource": "https://media.davidyurman.com/productsv2/N18193/N18193-S4/N18193-S4.jpg",
+          "imageCredit": "© David Yurman · product photograph",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the rights holder; public access is not a reuse licence and no permission is inferred.",
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Point-in-time reference; stock and delivery are not promised.",
+          "introEn": "Two interlocking loops bring the Cable idea into a small, balanced composition. One has a rope-like silver surface, while the warmer companion provides a smooth counterpoint, making the meeting of textures as important as the meeting of metals. The fine chain leaves the linked motif clearly outlined. This is a relaxed approach to mixed-metal dressing: the pendant already establishes a relationship between silver and gold, so other accessories can echo either side. Its scale suits an everyday neckline that needs a clear detail without a large volume.",
+          "featuresEn": [
+            "Interlocking 15 mm links with a Cable-textured silver element.",
+            "Sterling silver with 14K bonded yellow gold.",
+            "Adjustable 15–17 in chain with lobster clasp."
+          ],
+          "stylingEn": "Wear the linked motif inside an open linen shirt and repeat one metal at the wrist. A plain knit lets the texture read clearly.",
+          "selectionReasonEn": "FASHIONPHILE’s 2022 report highlights Cable. This identified variant represents the established family; the evidence is platform-specific.",
+          "selectionSources": [
+            {
+              "label": "FASHIONPHILE · 2022 resale report",
+              "url": "https://www.fashionphile.com/blogs/academy/2022-resale-report",
+              "publishedAt": "2022",
+              "evidence": "Family evidence; reporting period is explained in the annual methodology."
+            }
+          ],
+          "image": "assets/img/jewel-years/necklace-2022-david-yurman-cable-linked.jpg",
+          "imageWidth": 3200,
+          "imageHeight": 4000
+        },
+        {
+          "id": "necklace-2022-vca-alhambra-mother-pearl",
+          "category": "necklace",
+          "year": 2022,
+          "selection": "hot",
+          "brand": "van-cleef-arpels",
+          "brandName": "Van Cleef & Arpels",
+          "name": "Vintage Alhambra Pendant — yellow gold / mother-of-pearl",
+          "nameZh": "梵克雅宝 Vintage Alhambra 黄金白贝母项链",
+          "reference": "VCARA45900; photographed resale itemN518871",
+          "color": "Yellow gold and white mother-of-pearl",
+          "sizes": [
+            "Photographed resale chain 16 in"
+          ],
+          "materials": [
+            "18K yellow gold",
+            "White mother-of-pearl"
+          ],
+          "priceUSD": 3000,
+          "priceCurrency": "USD",
+          "priceBasis": "resale-ask",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Resale asking price · checked 20 Oct 2026",
+          "priceSource": "https://www.grayandsons.com/n518871-vintage-alhambra-pendant-18k-yellow-g/",
+          "priceEvidence": "Gray&Sons exact photographed itemN518871 lists USD 3000, referenceVCARA45900, age 2022,16 in,18K yellow gold and white mother-of-pearl. Live raw Product offer also quotes 3000; retrieved 20 Oct 2026. This is the current resale asking price, not original 2022 retail.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.grayandsons.com/n518871-vintage-alhambra-pendant-18k-yellow-g/",
+          "imageSource": "https://cdn.grayandsons.com/s/vintage_alhambra_pendant_18k_yellow_gold_mother_of_pearl_n518871_0c8fb08c1c-w1242.jpg.auto",
+          "imageCredit": "Gray&Sons · photograph of the exact pre-owned Van Cleef & Arpels item",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the rights holder; public access is not a reuse licence and no permission is inferred.",
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Pre-owned listing reference; condition, availability and price can change.",
+          "priceNoteEn": "The amount belongs to the pictured pre-owned Gray&Sons example. It is not a brand retail price or a completed-sale result.",
+          "introEn": "A softly luminous mother-of-pearl centre gives the four-lobed Alhambra motif a gentle presence against its beaded yellow-gold frame. The chain attaches at two points, keeping the outline clear and allowing the small shape to sit as a defined element at the neckline. This photographed pre-owned example has a sixteen-inch chain, according to its seller. Its appeal is the meeting of a familiar contour and a natural surface that changes slightly with the light. It can finish an everyday shirt just as easily as a more open evening neckline.",
+          "featuresEn": [
+            "White mother-of-pearl quatrefoil in a beaded 18K yellow-gold frame.",
+            "Exact pictured resale referenceVCARA45900, itemN518871.",
+            "Seller lists a 16 in chain and a 2022 example."
+          ],
+          "stylingEn": "Set the pale motif against navy or charcoal to show the beaded outline. A small yellow-gold stud keeps the overall scale balanced.",
+          "selectionReasonEn": "FASHIONPHILE’s 2022 report highlights Alhambra. This identified variant represents the established family; the evidence is platform-specific.",
+          "selectionSources": [
+            {
+              "label": "FASHIONPHILE · 2022 resale report",
+              "url": "https://www.fashionphile.com/blogs/academy/2022-resale-report",
+              "publishedAt": "2022",
+              "evidence": "Family evidence; reporting period is explained in the annual methodology."
+            }
+          ],
+          "image": "assets/img/jewel-years/necklace-2022-vca-alhambra-mother-pearl.jpg",
+          "imageWidth": 989,
+          "imageHeight": 1242
+        },
+        {
+          "id": "necklace-2022-adidas-gucci-gourmette",
+          "category": "necklace",
+          "year": 2022,
+          "selection": "limited",
+          "brand": "gucci",
+          "brandName": "Gucci",
+          "name": "adidas x Gucci Gourmette Chain Necklace — silver",
+          "nameZh": "adidas x Gucci 限定联名银色 Gourmette 链节项链",
+          "reference": "710077 J8400 0728",
+          "color": "Silver with dark emblem accents",
+          "sizes": [
+            "Archive necklace; exact length not independently confirmed"
+          ],
+          "materials": [
+            "Sterling silver",
+            "Enamel"
+          ],
+          "priceUSD": 990,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Reported retail · SS22 catalogue; reviewed 20 Oct 2026",
+          "priceSource": "https://stockx.com/gucci-x-adidas-gourmette-chain-necklace-silver",
+          "priceEvidence": "StockX SS22 catalogue snapshot reviewed 20 Oct 2026 records Retail Price USD 990, style 710077 J8400 0728, release 7 Jun 2022. This is an undated reported catalogue retail field, not a current Gucci checkout offer or independently verified launch receipt.",
+          "checkedAt": "2026-10-20",
+          "source": "https://stockx.com/gucci-x-adidas-gourmette-chain-necklace-silver",
+          "imageSource": "https://images.stockx.com/images/Gucci-x-adidas-Gourmette-Chain-Necklace-Silver.jpg",
+          "imageCredit": "Gucci x adidas · catalogue product photograph via StockX",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the rights holder; public access is not a reuse licence and no permission is inferred.",
+          "editionType": "seasonal-capsule",
+          "editionLabelEn": "Seasonal collaboration · adidas x Gucci",
+          "editionEvidence": "adidas officially announced the joint collection’s 7 June 2022 release. The exact necklace appears in the SS22 catalogue; no production cap is documented.",
+          "editionSource": "https://news.adidas.com/originals/adidas-x-gucci-is-here/s/73828335-7f0b-4f46-8d9a-ba0af35277c5",
+          "releaseYear": 2022,
+          "availabilityEn": "Archive special edition; current availability and delivery are not promised.",
+          "introEn": "An elongated chain rhythm gives this collaboration necklace a relaxed sporting attitude. Broad curb links alternate with longer openings, drawing the eye toward a small rectangular plaque that places the two houses’ symbols side by side. The silver colour keeps the composition cool and graphic, while the dark emblem details make the plaque legible without adding another pendant. It works particularly well with simple casual clothes because the chain already supplies a complete motif. K eep the neckline clear and allow the links to form one continuous, visible line.",
+          "featuresEn": [
+            "Gourmette links with a shared adidas and Gucci plaque.",
+            "Silver-coloured body with dark emblem details.",
+            "Archive reference 710077 J8400 0728; catalogue release 7 June 2022."
+          ],
+          "stylingEn": "Wear the chain over a plain white T-shirt, with a dark blazer or track jacket. Repeat the silver tone once at the wrist and keep other neckwear minimal.",
+          "priceNoteEn": "This amount is StockX’s reported retail field. It is separate from marketplace asks and is not presented as an independently verified original launch receipt.",
+          "selectionReasonEn": "The 2022 collaboration places sporting emblems into Gucci’s jewellery vocabulary, making it a dated capsule selection rather than a numbered edition.",
+          "selectionSources": [
+            {
+              "label": "adidas · official2022 collection release",
+              "url": "https://news.adidas.com/originals/adidas-x-gucci-is-here/s/73828335-7f0b-4f46-8d9a-ba0af35277c5",
+              "publishedAt": "2022-06-07"
+            },
+            {
+              "label": "StockX · exact SS22 necklace archive",
+              "url": "https://stockx.com/gucci-x-adidas-gourmette-chain-necklace-silver",
+              "publishedAt": "2022-06-07",
+              "evidence": "Catalogue gives exact reference and release date."
+            }
+          ],
+          "image": "assets/img/jewel-years/necklace-2022-adidas-gucci-gourmette.jpg",
+          "imageWidth": 800,
+          "imageHeight": 572
+        },
+        {
+          "id": "necklace-2022-fendace-chain-necklace",
+          "category": "necklace",
+          "year": 2022,
+          "selection": "limited",
+          "brand": "fendi",
+          "brandName": "Fendi x Versace",
+          "name": "Fendace Chain Necklace — brass / Versace Gold",
+          "nameZh": "Fendace 限定联名金色双品牌链节项链",
+          "reference": "1005387-1A00727_4J160",
+          "color": "Brass / Versace Gold; contrasting silver-coloured links",
+          "sizes": [
+            "Archived necklace; numeric sizing not independently confirmed"
+          ],
+          "materials": [
+            "Brass metal",
+            "Decorative clear stones"
+          ],
+          "priceUSD": 2375,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Reported retail · SS22 catalogue; reviewed 20 Oct 2026",
+          "priceSource": "https://stockx.com/fendi-fendace-chain-necklace-brass-versace-gold",
+          "priceEvidence": "StockX U.S.-currency catalogue snapshot reviewed 20 Oct 2026 lists Retail Price USD 2375, exact style 1005387-1A00727_4J160 and 12 May 2022 release. The amount is an undated reported retail field, not current stock or a verified brand launch receipt.",
+          "checkedAt": "2026-10-20",
+          "source": "https://stockx.com/fendi-fendace-chain-necklace-brass-versace-gold",
+          "imageSource": "https://images.stockx.com/images/Fendi-Fendace-Chain-Necklace-Brass-Versace-Gold.jpg",
+          "imageCredit": "Fendi x Versace · catalogue product photograph via StockX",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the rights holder; public access is not a reuse licence and no permission is inferred.",
+          "editionType": "seasonal-capsule",
+          "editionLabelEn": "Seasonal collaboration · Fendace",
+          "editionEvidence": "Fendi Japan’s official 2022 announcement documents the Fendi/Versace design exchange and 12 May 2022 launch. This exact chain is catalogued as SS22; no numbered production run is claimed.",
+          "editionSource": "https://prtimes.jp/main/html/rd/p/000000227.000003876.html",
+          "releaseYear": 2022,
+          "availabilityEn": "Archive special edition; current availability and delivery are not promised.",
+          "introEn": "Fendace combines a generous curb chain with a dense sequence of emblems and bright decorative stones. Gold-coloured links dominate the outline, while cooler accents interrupt the surface and give the collar a deliberate two-tone rhythm. Medusa heads and Fendi lettering create several points of recognition instead of a single central badge. The result feels closer to a complete neckline composition than a discreet pendant. Let it sit against a plain surface so the curved links, round details and squared accent can be read as separate shapes within one strong frame.",
+          "featuresEn": [
+            "Brass chain with a predominantly gold-coloured finish.",
+            "Medusa emblems, Fendi lettering and clear decorative stones.",
+            "Exact SS22 archive style 1005387-1A00727_4J160."
+          ],
+          "stylingEn": "Frame the collar with a black strapless top or an open shirt. Choose compact earrings so the necklace can hold the visual centre.",
+          "priceNoteEn": "Reported catalogue retail reference only; no present-day boutique stock or checkout price was established.",
+          "selectionReasonEn": "A dated Fendace fashion-jewellery reference captures the two houses’2022 exchange through shared logos and bold links.",
+          "selectionSources": [
+            {
+              "label": "Fendi Japan · official Fendace release",
+              "url": "https://prtimes.jp/main/html/rd/p/000000227.000003876.html",
+              "publishedAt": "2022-05-12"
+            },
+            {
+              "label": "StockX · exact SS22 necklace archive",
+              "url": "https://stockx.com/fendi-fendace-chain-necklace-brass-versace-gold",
+              "publishedAt": "2022-05-12"
+            }
+          ],
+          "image": "assets/img/jewel-years/necklace-2022-fendace-chain-necklace.jpg",
+          "imageWidth": 800,
+          "imageHeight": 571
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "headlineEn": "New pendants, enduring outlines",
+      "introEn": "A year of new launches and familiar emblems brings subtle geometry to the neckline. Archive collaborations add character-led forms alongside the fine-jewelry selections.",
+      "sources": [
+        {
+          "label": "Time International · CHANEL Coco Crush 2023",
+          "url": "https://www.timeinternational.co.id/chanel-coco-crush-2023/",
+          "publishedAt": "2023-01"
+        },
+        {
+          "label": "Tiffany newsroom · This Is Tiffany2023",
+          "url": "https://press.tiffany.com/tiffany-co-debuts-this-is-tiffany-campaign-featuring-house-ambassadors-zoe-kravitz-jimin-of-bts-and-gal-gadot/",
+          "publishedAt": "2023-04-10"
+        },
+        {
+          "label": "Rebag ·2023 Clair Report, p.27",
+          "url": "https://staticfiles.rebag.com/rebag-fe/prod/img/clair-report-2023/Rebag-The-2023-Clair-Report.pdf",
+          "publishedAt": "2023"
+        },
+        {
+          "label": "Tiffany · official global Lock launch",
+          "url": "https://press.tiffany.com/tiffany-co-celebrates-the-global-launch-of-the-tiffany-lock-collection-with-a-new-campaign-starring-brand-ambassador-rose/",
+          "publishedAt": "2023-01-02"
+        },
+        {
+          "label": "Tiffany · official ROSÉ capsule announcement",
+          "url": "https://press.tiffany.com/tiffany-co-unveils-tiffany-lock-rose-edition-a-new-capsule-collection-inspired-by-global-superstar-and-house-ambassador-rose/",
+          "publishedAt": "2023-09-14"
+        },
+        {
+          "label": "Tiffany · official Pokémon capsule announcement",
+          "url": "https://press.tiffany.com/tiffany-co-debuts-its-next-creative-collaboration-with-contemporary-artist-daniel-arsham-in-partnership-with-the-pokemon-company-the-tiffany-arsham-studio-pokemon-capsule-collectio/",
+          "publishedAt": "2023-11"
+        },
+        {
+          "label": "Nintendo Supply · dated launch report",
+          "url": "https://nintendosupply.com/articles/tiffany-co-x-daniel-arsham-pokemon-pendant-line-priced-up-to-usd29-000",
+          "publishedAt": "2023-11-13"
+        }
+      ],
+      "entries": [
+        {
+          "brand": "chanel",
+          "category": "necklace",
+          "name": "Coco Crush necklace, small version, 18K BEIGE GOLD",
+          "nameZh": "香奈儿 Coco Crush 小号米色金项链",
+          "reference": "J12306",
+          "color": "BEIGE GOLD",
+          "sizes": [
+            "Small version",
+            "Adjustable chain with four extension loops"
+          ],
+          "materials": [
+            "18K BEIGE GOLD"
+          ],
+          "priceUSD": 3000,
+          "checkedAt": "2026-10-19",
+          "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $3,000 for J12306, small version, in 18K BEIGE GOLD.",
+          "source": "https://www.chanel.com/us/fine-jewelry/p/J12306/coco-crush-necklace/",
+          "image": "assets/img/jewel-years/necklace-2023-chanel-coco-crush-pendant.jpg",
+          "imageSource": "https://www.chanel.com/videos/player/v1/jit/6057940565001/807a3c10-e019-4b66-8745-8752d19e67bd/main/1920x1080/12s500ms/match/image.jpg",
+          "imageCredit": "© CHANEL, official product imagery",
+          "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand. This JPEG is the official static product-video poster linked from the exact product page.",
+          "imageWidth": 1080,
+          "imageHeight": 1080,
+          "introEn": "Coco Crush translates the visual softness of quilting into a small, sculptural pendant. Across its rounded surface, crossing lines create a pattern that feels familiar without needing a large emblem. The BEIGE GOLD tone adds another point of interest: compare it with the metals already in your wardrobe and notice the difference in color. This is a necklace to approach through texture and proportion. A quiet neckline gives the compact form room to show how much character can live within a small amount of space.",
+          "featuresEn": [
+            "A small quilted-motif pendant in 18K BEIGE GOLD.",
+            "Crossing incisions and a rounded profile define the surface.",
+            "The snap-hook clasp works with four extension loops."
+          ],
+          "stylingEn": "Try it with a soft ivory blouse or a plain black knit. K eep nearby hardware simple, and choose the chain position that leaves the quilted pendant clear of the fabric edge.",
+          "imageAlt": "Chanel small Coco Crush necklace in BEIGE GOLD, with a rounded quilted pendant.",
+          "id": "necklace-2023-chanel-coco-crush-pendant",
+          "year": 2023,
+          "selection": "hot",
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "Official U.S. retail reference · checked 19 Oct 2026",
+          "priceSource": "https://www.chanel.com/us/fine-jewelry/p/J12306/coco-crush-necklace/",
+          "selectionReasonEn": "CHANEL’s authorized retailer documented the new 2023 Coco Crush pendant launch and campaign. This small BEIGE GOLD reference represents that newly emphasized quilted-pendant direction.",
+          "selectionSources": [
+            {
+              "label": "Time International · CHANEL Coco Crush 2023",
+              "url": "https://www.timeinternational.co.id/chanel-coco-crush-2023/",
+              "publishedAt": "2023-01",
+              "evidence": "Official retailer campaign announcement describes new necklace and bracelet designs."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Current official reference; stock and delivery are not promised.",
+          "brandName": "CHANEL"
+        },
+        {
+          "brand": "tiffany",
+          "category": "necklace",
+          "name": "Tiffany T Smile Pendant in Yellow Gold, Small",
+          "nameZh": "蒂芙尼 T Smile 小号黄金微笑项链",
+          "reference": "60011679",
+          "color": "Yellow gold",
+          "sizes": [
+            "Small pendant",
+            "16–18 in adjustable chain (40.64–45.72 cm)"
+          ],
+          "materials": [
+            "18K yellow gold"
+          ],
+          "priceUSD": 1400,
+          "checkedAt": "2026-10-19",
+          "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $1,400 with Yellow Gold and Small selected, and lists an adjustable 16–18 inch chain.",
+          "source": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-t-18k-yellow-gold-necklaces-pendants-60011679.html",
+          "image": "assets/img/jewel-years/necklace-2023-tiffany-t-smile.webp",
+          "imageSource": "https://media.tiffany.com/is/image/tco/60011679_PDT_MAIN1X1?fmt=webp&hei=2000&wid=2000",
+          "imageCredit": "© Tiffany & Co., official product imagery",
+          "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand.",
+          "imageWidth": 2000,
+          "imageHeight": 2000,
+          "introEn": "The Smile pendant treats a small gesture as the whole composition. Its gently lifted curve leaves the neckline visually open, with the T-shaped ends supplying just enough definition to hold the eye. There is no central stone competing with the line, so the effect depends on proportion and placement. Think of it as a fine piece of punctuation: it can finish a simple outfit, establish the first line of a necklace arrangement, or sit quietly beside the textures you already like to wear.",
+          "featuresEn": [
+            "A small curved motif with T-shaped ends.",
+            "18K yellow gold without gemstones in this variant.",
+            "An adjustable 16–18 inch chain."
+          ],
+          "stylingEn": "Wear it above the edge of a simple crewneck or against an open neckline. If adding another pendant, choose a visibly longer chain so the two outlines have space to read.",
+          "imageAlt": "Small Tiffany T Smile pendant in yellow gold, with a curved bar and T-shaped tips.",
+          "referenceEvidence": "60011679; manufacturer SKUs 35189459 / 63843202",
+          "id": "necklace-2023-tiffany-t-smile",
+          "year": 2023,
+          "selection": "hot",
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "Official U.S. retail reference · checked 19 Oct 2026",
+          "priceSource": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-t-18k-yellow-gold-necklaces-pendants-60011679.html",
+          "selectionReasonEn": "The house’s April 2023 This Is Tiffany campaign foregrounded Tiffany T. This small yellow-gold Smile pendant is a precise continuing representative of the promoted family, not a claimed global sales winner.",
+          "selectionSources": [
+            {
+              "label": "Tiffany newsroom · This Is Tiffany2023",
+              "url": "https://press.tiffany.com/tiffany-co-debuts-this-is-tiffany-campaign-featuring-house-ambassadors-zoe-kravitz-jimin-of-bts-and-gal-gadot/",
+              "publishedAt": "2023-04-10",
+              "evidence": "Official 2023 campaign announcement highlights Tiffany T and HardWear."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Current official reference; stock and delivery are not promised.",
+          "brandName": "Tiffany & Co."
+        },
+        {
+          "id": "necklace-2023-vca-alhambra-onyx",
+          "category": "necklace",
+          "year": 2023,
+          "selection": "hot",
+          "brand": "van-cleef-arpels",
+          "brandName": "Van Cleef & Arpels",
+          "name": "Vintage Alhambra Pendant — yellow gold / black onyx",
+          "nameZh": "梵克雅宝 Vintage Alhambra 黄金黑玛瑙项链",
+          "reference": "VCARA45800 model family; photographed resale item0004152",
+          "color": "Yellow gold and black onyx",
+          "sizes": [
+            "Photographed resale chain 16 in"
+          ],
+          "materials": [
+            "18K yellow gold",
+            "Black onyx"
+          ],
+          "priceUSD": 2700,
+          "priceCurrency": "USD",
+          "priceBasis": "resale-ask",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Resale asking price · checked 20 Oct 2026",
+          "priceSource": "https://www.opulentjewelers.com/products/van-cleef-arpels-vintage-alhambra-onyx-pendant-necklace-18k-yellow-gold",
+          "priceEvidence": "Opulent Jewelers readable product page retrieved 20 Oct 2026, crawled today, lists USD 2700 for pictured pre-owned item 0004152,16 in,18K yellow gold and black onyx. This is the current resale ask, not 2023 retail; the page’s higher comparative amount and bank-wire incentive are not used.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.opulentjewelers.com/products/van-cleef-arpels-vintage-alhambra-onyx-pendant-necklace-18k-yellow-gold",
+          "imageSource": "https://www.opulentjewelers.com/cdn/shop/files/van-cleef-arpels-vintage-alhambra-onyx-pendant-necklace-18k-yellow-gold-0004152-1261159274_1000x.jpg?v=1791211118",
+          "imageCredit": "Opulent Jewelers · photograph of the exact pre-owned Van Cleef & Arpels item",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the rights holder; public access is not a reuse licence and no permission is inferred.",
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Pre-owned listing reference; condition, availability and price can change.",
+          "priceNoteEn": "US$2,700 is the displayed asking price for this pre-owned 16-inch example, not an original 2023 retail price or sale result.",
+          "introEn": "Black onyx makes the Alhambra outline unusually crisp. Its dark, flat centre acts almost like an ink shape, while the small gold beads around the edge introduce a warmer, more textured boundary. The fine yellow-gold chain keeps the emphasis on that compact contrast. This particular photograph belongs to a pre-owned sixteen-inch example, so the reference price follows the same item. Against a pale shirt the motif reads as a clear graphic accent; against black, the gold contour and chain become more prominent and the stone feels quieter.",
+          "featuresEn": [
+            "Black onyx quatrefoil with a beaded 18K yellow-gold border.",
+            "Exact photograph from pre-owned item 0004152.",
+            "Seller lists 16 in length; model familyVCARA45800."
+          ],
+          "stylingEn": "Wear the dark motif with a pale cotton shirt and a slim gold bracelet. For a quieter effect, place it against a black fine-knit top.",
+          "selectionReasonEn": "Rebag’s 2023 Clair Report lists a yellow-gold and onyx Vintage Alhambra pendant among its most-favorited jewellery styles. This same material/model family is represented by the identified resale example.",
+          "selectionSources": [
+            {
+              "label": "Rebag ·2023 Clair Report, p.27",
+              "url": "https://staticfiles.rebag.com/rebag-fe/prod/img/clair-report-2023/Rebag-The-2023-Clair-Report.pdf",
+              "publishedAt": "2023",
+              "evidence": "Most-favorited styles table names Vintage Alhambra Pendant Necklace 18K Yellow Gold and Onyx; platform-specific favorites, not global unit sales."
+            }
+          ],
+          "image": "assets/img/jewel-years/necklace-2023-vca-alhambra-onyx.jpg",
+          "imageWidth": 1000,
+          "imageHeight": 1000
+        },
+        {
+          "id": "necklace-2023-tiffany-lock-rose-diamond",
+          "category": "necklace",
+          "year": 2023,
+          "selection": "hot",
+          "brand": "tiffany",
+          "brandName": "Tiffany & Co.",
+          "name": "Lock Pendant — rose gold / diamonds, medium",
+          "nameZh": "蒂芙尼 Lock 中号玫瑰金钻石项链",
+          "reference": "72342143 (manufacturer SKUs72342151 /72791290 /74596819)",
+          "color": "Rose gold and white diamonds",
+          "sizes": [
+            "Medium motif;18 in chain"
+          ],
+          "materials": [
+            "18K rose gold",
+            "Round brilliant diamonds,0.33 ct total"
+          ],
+          "priceUSD": 8700,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "U.S. retail snapshot · captured about Sep 2026; reviewed 20 Oct 2026",
+          "priceSource": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-lock-18k-rose-gold-diamond-necklaces-pendants-72342143.html",
+          "priceEvidence": "Official U.S. page snapshot reviewed 20 Oct 2026, crawled about Sep 2026, lists USD 8700, medium rose-gold diamond pendant 72342143,18 in chain and 0.33 ct total. Direct checkout not independently tested.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-lock-18k-rose-gold-diamond-necklaces-pendants-72342143.html",
+          "imageSource": "https://media.tiffany.com/is/image/tco/72342143_PDT_MAIN1X1?fmt=webp&hei=2000&wid=2000",
+          "imageCredit": "© Tiffany & Co. · official product photograph",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the rights holder; public access is not a reuse licence and no permission is inferred.",
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Point-in-time reference; stock and delivery are not promised.",
+          "introEn": "The Lock pendant places a bright diamond-set arch above a smooth rose-gold curve, using a single open shape to organise the whole design. Elongated chain links repeat that geometry in a quieter rhythm on either side. The contrast is simple enough to work with a plain shirt, yet the change from polished metal to small stones gives it detail at close range. Worn at the end of its eighteen-inch chain, the medium motif can become a clear focal point. Leave a quiet area around it so the oval opening and stone-set upper line remain distinct.",
+          "featuresEn": [
+            "Medium Lock motif in 18K rose gold.",
+            "Round brilliant diamonds total 0.33 ct.",
+            "18 in chain with elongated links; exact family 72342143."
+          ],
+          "stylingEn": "Set the pendant within an open collar or over a plain fine-knit top. Echo the rose-gold colour once with small earrings.",
+          "selectionReasonEn": "Tiffany’s 2 January 2023 global Lock launch expanded the family into rose-gold pendants. This medium diamond reference represents that documented new pendant direction; its present-day price is dated separately.",
+          "selectionSources": [
+            {
+              "label": "Tiffany · official global Lock launch",
+              "url": "https://press.tiffany.com/tiffany-co-celebrates-the-global-launch-of-the-tiffany-lock-collection-with-a-new-campaign-starring-brand-ambassador-rose/",
+              "publishedAt": "2023-01-02",
+              "evidence": "Official release introduces rose-gold pendants, rings and earrings alongside the bangles."
+            }
+          ],
+          "image": "assets/img/jewel-years/necklace-2023-tiffany-lock-rose-diamond.webp",
+          "imageWidth": 2000,
+          "imageHeight": 2000
+        },
+        {
+          "id": "necklace-2023-tiffany-rose-lock-pendant",
+          "category": "necklace",
+          "year": 2023,
+          "selection": "limited",
+          "brand": "tiffany",
+          "brandName": "Tiffany & Co.",
+          "name": "Lock ROSÉ Edition Medium Pendant — rose gold / pink sapphires",
+          "nameZh": "蒂芙尼 Lock ROSÉ 限定系列中号粉色蓝宝石项链",
+          "reference": "73965950 (manufacturer SKU73965969)",
+          "color": "Rose gold and pink sapphires",
+          "sizes": [
+            "Medium motif;18 in chain"
+          ],
+          "materials": [
+            "18K rose gold",
+            "Pink sapphires,0.42 ct total"
+          ],
+          "priceUSD": 7200,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "U.S. retail snapshot · captured about Sep 2026; reviewed 20 Oct 2026",
+          "priceSource": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-lock-18k-rose-gold-pink-sapphire-necklaces-pendants-73965950.html",
+          "priceEvidence": "Official U.S. product snapshot reviewed 20 Oct 2026, crawled about Sep 2026, lists USD 7200 for medium rose-gold/pink-sapphire pendant 73965950;18 in length and 0.42 ct total sapphires. This is a retained current-era reference, not a 2023 price.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-lock-18k-rose-gold-pink-sapphire-necklaces-pendants-73965950.html",
+          "imageSource": "https://media.tiffany.com/is/image/tco/73965950_PDT_MAIN1X1?fmt=webp&hei=2000&wid=2000",
+          "imageCredit": "© Tiffany & Co. · product photograph",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the rights holder; public access is not a reuse licence and no permission is inferred.",
+          "editionType": "seasonal-capsule",
+          "editionLabelEn": "Collaboration capsule · ROSÉ2023",
+          "editionEvidence": "Tiffany’s 14 September 2023 press release names the ROSÉ capsule and medium sapphire pendant. It documents Tokyo 9 September, selected markets 15 September and worldwide clients 1 October 2023; no production number is given.",
+          "editionSource": "https://press.tiffany.com/tiffany-co-unveils-tiffany-lock-rose-edition-a-new-capsule-collection-inspired-by-global-superstar-and-house-ambassador-rose/",
+          "releaseYear": 2023,
+          "availabilityEn": "Archive special edition; current availability and delivery are not promised.",
+          "introEn": "A line of pink sapphires follows the upper arc of a rounded Lock pendant, adding colour exactly where the form begins to curve. The polished rose-gold lower half gives that sparkle a calm counterpart, and the open centre keeps the motif visually light. Elongated chain links echo the pendant’s proportions rather than competing with them. This version suits someone who wants a recognisable geometric shape with a softer colour accent. A plain neckline gives the contrast between the stone-set arch and smooth gold enough room to become the central detail.",
+          "featuresEn": [
+            "Medium Lock motif in 18K rose gold.",
+            "Pink sapphires total 0.42 ct on the official reference.",
+            "18 in chain; manufacturer reference 73965969."
+          ],
+          "stylingEn": "Wear it over a fine ivory knit or inside an open black shirt. Small rose-gold studs keep the pink arc in focus.",
+          "editionNoteEn": "ROSÉ is the capsule’s collaborator name. The documented capsule has no published numbered production cap.",
+          "selectionReasonEn": "The official 2023 ROSÉ capsule uses rose gold and pink sapphires in the Lock family; this is the identified medium pendant.",
+          "selectionSources": [
+            {
+              "label": "Tiffany · official ROSÉ capsule announcement",
+              "url": "https://press.tiffany.com/tiffany-co-unveils-tiffany-lock-rose-edition-a-new-capsule-collection-inspired-by-global-superstar-and-house-ambassador-rose/",
+              "publishedAt": "2023-09-14"
+            }
+          ],
+          "image": "assets/img/jewel-years/necklace-2023-tiffany-rose-lock-pendant.webp",
+          "imageWidth": 2000,
+          "imageHeight": 2000
+        },
+        {
+          "id": "necklace-2023-tiffany-arsham-pokemon-pikachu",
+          "category": "necklace",
+          "year": 2023,
+          "selection": "limited",
+          "brand": "tiffany",
+          "brandName": "Tiffany & Co.",
+          "name": "Tiffany x Arsham x Pokémon Pikachu Pendant — oxidized silver",
+          "nameZh": "蒂芙尼 x 阿尔沙姆 x 宝可梦氧化银皮卡丘项链",
+          "reference": "2023 Pikachu oxidized-silver capsule reference; SKU unconfirmed",
+          "color": "Oxidized silver and diamond accents",
+          "sizes": [
+            "Archive pendant on chain; precise length not independently confirmed"
+          ],
+          "materials": [
+            "Oxidized sterling silver",
+            "Diamond accents"
+          ],
+          "priceUSD": 1290,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2023-11-13",
+          "priceLabelEn": "Reported 2023 retail · individual silver pendant",
+          "priceSource": "https://nintendosupply.com/articles/tiffany-co-x-daniel-arsham-pokemon-pendant-line-priced-up-to-usd29-000",
+          "priceEvidence": "Nintendo Supply original reporting 13 Nov 2023 lists approximately USD 1290 for the oxidized-silver individual Pokémon pendants. Tiffany’s official collection archive identifies the pictured Pikachu silver/diamond variant. Original U.S. checkout was not recovered; amount is reported historical retail, not a current resale ask.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.tiffany.com/world-of-tiffany/collaborations/daniel-arsham-pokemon.html",
+          "imageSource": "https://media.tiffany.com/is/image/tco/2023-POKEMON_CS-PROD2",
+          "imageCredit": "© Tiffany & Co. · product photograph",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the rights holder; public access is not a reuse licence and no permission is inferred.",
+          "editionType": "seasonal-capsule",
+          "editionLabelEn": "Collaboration capsule · Pokémon 2023",
+          "editionEvidence": "Tiffany’s official 2023 press release identifies the Arsham/Pokémon capsule and individual oxidized-silver diamond pendants, available in December 2023. No total production number is stated.",
+          "editionSource": "https://press.tiffany.com/tiffany-co-debuts-its-next-creative-collaboration-with-contemporary-artist-daniel-arsham-in-partnership-with-the-pokemon-company-the-tiffany-arsham-studio-pokemon-capsule-collectio/",
+          "releaseYear": 2023,
+          "availabilityEn": "Archive special edition; current availability and delivery are not promised.",
+          "priceNoteEn": "The US$1,290 figure is reported historical retail for an individual oxidized-silver pendant. The gold Pikachu editions and six-character necklace have different prices.",
+          "introEn": "Pikachu’s familiar ears and lifted arms remain immediately recognisable, but the darkened silver surface and interrupted edges give the figure an unexpected archaeological mood. Small bright accents appear within the textured areas and on the face, creating a contrast between a playful character and an apparently weathered object. The fine chain leaves the sculpture itself in charge of the composition. It works best as a single conversational pendant against a quiet fabric. The interest lies in the changing surface, with polished highlights, darker recesses and the character’s rounded silhouette all visible at close range.",
+          "featuresEn": [
+            "Pikachu figure in oxidized sterling silver.",
+            "Diamond accents accompany the crystallized visual treatment.",
+            "Individual pendant from the dated 2023 three-way capsule."
+          ],
+          "stylingEn": "Place the dark silver figure against a light T-shirt or fine grey knit. K eep other neckwear sparse so the character remains readable.",
+          "editionNoteEn": "Classified as a dated collaboration capsule. No edition quantity is inferred from its application-based launch.",
+          "selectionReasonEn": "A verified 2023 artist-and-character capsule supplies a sculptural alternative to the year’s quieter fine-jewelry pendants.",
+          "selectionSources": [
+            {
+              "label": "Tiffany · official Pokémon capsule announcement",
+              "url": "https://press.tiffany.com/tiffany-co-debuts-its-next-creative-collaboration-with-contemporary-artist-daniel-arsham-in-partnership-with-the-pokemon-company-the-tiffany-arsham-studio-pokemon-capsule-collectio/",
+              "publishedAt": "2023-11"
+            },
+            {
+              "label": "Nintendo Supply · dated launch report",
+              "url": "https://nintendosupply.com/articles/tiffany-co-x-daniel-arsham-pokemon-pendant-line-priced-up-to-usd29-000",
+              "publishedAt": "2023-11-13"
+            }
+          ],
+          "image": "assets/img/jewel-years/necklace-2023-tiffany-arsham-pokemon-pikachu.jpg",
+          "imageWidth": 988,
+          "imageHeight": 988
+        }
+      ]
+    }
+  ],
+  "jewelryYears": [
+    {
+      "year": 2022,
+      "headlineEn": "The bracelet takes the lead",
+      "introEn": "Twisted silver, repeated links and distinctive gold outlines reflect a strong year for recognizable wristwear. The special editions range from fashion exchange to an artist-designed collectible ensemble.",
+      "sources": [
+        {
+          "label": "FASHIONPHILE · 2022 resale report",
+          "url": "https://www.fashionphile.com/blogs/academy/2022-resale-report",
+          "publishedAt": "2022"
+        },
+        {
+          "label": "Fendi Japan · official Fendace release",
+          "url": "https://prtimes.jp/main/html/rd/p/000000227.000003876.html",
+          "publishedAt": "2022-05-12"
+        },
+        {
+          "label": "StockX · exact SS22 hoop archive",
+          "url": "https://stockx.com/fendi-fendace-hoop-earrings-brass-versace-gold",
+          "publishedAt": "2022-05-12"
+        },
+        {
+          "label": "Tiffany · official Arsham Lock archive",
+          "url": "https://www.tiffany.com/world-of-tiffany/collaborations/daniel-arsham-lock.html",
+          "publishedAt": "2022"
+        },
+        {
+          "label": "Hypebeast · dated2022 launch and ensemble price",
+          "url": "https://hypebeast.com/2022/11/daniel-arsham-tiffany-co-lock-collection-collaboration-bangle-padlock-future-relics-release",
+          "publishedAt": "2022-11-17"
+        }
+      ],
+      "entries": [
+        {
+          "brand": "tiffany",
+          "category": "jewelry",
+          "name": "Tiffany HardWear Small Link Bracelet in Sterling Silver, Medium",
+          "nameZh": "蒂芙尼 HardWear 小号链节纯银手链 中号腕围",
+          "reference": "60153085",
+          "color": "Silver",
+          "sizes": [
+            "Small link scale",
+            "Medium wrist size",
+            "7.5 in long",
+            "Listed wrist circumference: 5.76–6.25 in (14.6–15.9 cm)"
+          ],
+          "materials": [
+            "Sterling silver"
+          ],
+          "priceUSD": 1600,
+          "checkedAt": "2026-10-19",
+          "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $1,600 with Sterling Silver and Medium selected. It specifies small links and 7.5 inch overall length.",
+          "source": "https://www.tiffany.com/jewelry/bracelets/tiffany-hardwear-sterling-silver-bracelets-60153085.html",
+          "image": "assets/img/jewel-years/jewelry-2022-tiffany-hardwear-bracelet.webp",
+          "imageSource": "https://media.tiffany.com/is/image/tco/60153085_BLT_MAIN1X1?fmt=webp&hei=2000&wid=2000",
+          "imageCredit": "© Tiffany & Co., official product imagery",
+          "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand.",
+          "imageWidth": 2000,
+          "imageHeight": 2000,
+          "introEn": "A chain bracelet becomes especially engaging when its individual links have a clear identity. HardWear uses that repetition to create a steady rhythm around the wrist, with the open spaces keeping the pattern readable. In silver, the changing reflections can feel as graphic as the shape itself. The small-link scale is a good place to study the design: notice where each link meets the next and how the closure joins the sequence. It brings a deliberate detail to clothes that otherwise rely on simple, familiar proportions.",
+          "featuresEn": [
+            "Sterling silver with the HardWear gauge-link pattern.",
+            "Small link scale; medium wrist size.",
+            "7.5 inch overall length, with a listed wrist range of 5.76–6.25 inches."
+          ],
+          "stylingEn": "Roll a shirt cuff just above the bracelet so the link rhythm stays visible. Pair it with a plain ring, or leave that wrist as the only silver accent in the outfit.",
+          "imageAlt": "Tiffany HardWear small gauge-link bracelet in sterling silver, medium wrist size.",
+          "referenceEvidence": "60153085; manufacturer SKUs 38086855 / 60964858 / 75055579",
+          "id": "jewelry-2022-tiffany-hardwear-bracelet",
+          "year": 2022,
+          "selection": "hot",
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "Official U.S. retail reference · checked 19 Oct 2026",
+          "priceSource": "https://www.tiffany.com/jewelry/bracelets/tiffany-hardwear-sterling-silver-bracelets-60153085.html",
+          "selectionReasonEn": "FASHIONPHILE’s 2022 report highlights HardWear. This identified variant represents the established family; the evidence is platform-specific.",
+          "selectionSources": [
+            {
+              "label": "FASHIONPHILE · 2022 resale report",
+              "url": "https://www.fashionphile.com/blogs/academy/2022-resale-report",
+              "publishedAt": "2022",
+              "evidence": "Family evidence; reporting period is explained in the annual methodology."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Current official reference; stock and delivery are not promised.",
+          "brandName": "Tiffany & Co."
+        },
+        {
+          "id": "jewelry-2022-david-yurman-classic-cable",
+          "category": "jewelry",
+          "year": 2022,
+          "selection": "hot",
+          "brand": "david-yurman",
+          "brandName": "David Yurman",
+          "name": "Classic Cable Bracelet — silver,14K gold domes,5 mm",
+          "nameZh": "大卫雅曼经典 Cable 银金圆顶手镯5毫米",
+          "reference": "B12381 S4BGG (UPC883932667950)",
+          "color": "Silver and yellow gold",
+          "sizes": [
+            "5 mm width; size L shown on official page"
+          ],
+          "materials": [
+            "Sterling silver",
+            "14K yellow gold"
+          ],
+          "priceUSD": 875,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "U.S. retail reference · checked 20 Oct 2026",
+          "priceSource": "https://www.davidyurman.com/womens/bracelets/classic-cable-bracelet-in-sterling-silver-with-14k-yellow-gold-and-gold-domes-5mm-883932667950.html",
+          "priceEvidence": "Official U.S. HTML retrieved 20 Oct 2026 lists USD 875 for 5 mm silver/14K gold-dome reference, size L.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.davidyurman.com/womens/bracelets/classic-cable-bracelet-in-sterling-silver-with-14k-yellow-gold-and-gold-domes-5mm-883932667950.html",
+          "imageSource": "https://media.davidyurman.com/productsv2/B12381/B12381-S4/B12381-S4BGG.jpg",
+          "imageCredit": "© David Yurman · product photograph",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the rights holder; public access is not a reuse licence and no permission is inferred.",
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Point-in-time reference; stock and delivery are not promised.",
+          "introEn": "A twisted silver body ends in two smooth gold domes, creating a simple conversation between texture and reflection. The open shape gives the bracelet a clear pause at the front, while the fine ridges around the wrist catch light as the hand moves. At five millimetres wide, it has enough presence to be visible beside a shirt cuff without requiring a large stack. The mixed-metal finish is especially useful when an outfit already includes both warm and cool hardware. Start with this single curve and judge the balance before adding another bracelet.",
+          "featuresEn": [
+            "Twisted sterling-silver Cable body.",
+            "14K yellow-gold domes at the open ends.",
+            "5 mm width; official page selects size L."
+          ],
+          "stylingEn": "Let the cuff peek from a soft cotton sleeve. Repeat the gold only once with a small ring, or use a plain silver watch for a cooler balance.",
+          "selectionReasonEn": "FASHIONPHILE’s 2022 report highlights Cable. This identified variant represents the established family; the evidence is platform-specific.",
+          "selectionSources": [
+            {
+              "label": "FASHIONPHILE · 2022 resale report",
+              "url": "https://www.fashionphile.com/blogs/academy/2022-resale-report",
+              "publishedAt": "2022",
+              "evidence": "Family evidence; reporting period is explained in the annual methodology."
+            }
+          ],
+          "image": "assets/img/jewel-years/jewelry-2022-david-yurman-classic-cable.jpg",
+          "imageWidth": 3200,
+          "imageHeight": 4000
+        },
+        {
+          "id": "jewelry-2022-cartier-love-classic-bracelet",
+          "category": "jewelry",
+          "year": 2022,
+          "selection": "hot",
+          "brand": "cartier",
+          "brandName": "Cartier",
+          "name": "LOVE Bracelet, classic model — yellow gold",
+          "nameZh": "卡地亚 LOVE 经典款黄金手镯",
+          "reference": "B6067517 model family",
+          "color": "Yellow gold",
+          "sizes": [
+            "Classic 6.1 mm profile; choose wrist size with Cartier"
+          ],
+          "materials": [
+            "18K yellow gold"
+          ],
+          "priceUSD": 7950,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Official U.S. retail snapshot · about Apr 2026; reviewed 20 Oct 2026",
+          "priceSource": "https://www.cartier.com/en-us/jewelry/bracelets/love/love-bracelet-classic-model-CRB6067518.html",
+          "priceEvidence": "Official U.S. search-index snapshot for classic LOVE pages, including CRB6067518 and CRB6067415, captured about Apr 2026 and reviewed 20 Oct 2026, shows yellow-gold classic model USD 7950 in its related-variant card. Direct U.S. raw retrieval returned 403, so live checkout and size-specific stock were not confirmed. Cartier Mexico official product/API supplies the same plain yellow-gold classic photograph and 6.1 mm/two-screw specification.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.cartier.mx/b6067517-pulsera-love-1/p",
+          "imageSource": "https://cartiermx.vteximg.com.br/arquivos/ids/180649/CRB6035517_1.png?v=637463330372500000",
+          "imageCredit": "© Cartier · official Mexico product photograph",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the rights holder; public access is not a reuse licence and no permission is inferred.",
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Point-in-time reference; stock and delivery are not promised.",
+          "priceNoteEn": "The U.S. amount is a retained official model reference. A fresh U.S. offer and selected wrist size were not independently verified.",
+          "introEn": "The classic LOVE bracelet builds its identity from an oval outline, flat gold surfaces and a repeated screw motif. The design is visually direct: there is no central stone or hanging element to interrupt the band, so proportion and reflection carry the whole composition. In yellow gold, the broad surface provides a warm line around the wrist that can remain visible beside a crisp sleeve. It is a piece to approach through fit as well as appearance. Try the chosen circumference with the brand before planning a stack around its relatively close outline.",
+          "featuresEn": [
+            "Plain 18K yellow-gold classic model.",
+            "6.1 mm profile with two functional screws and supplied screwdriver.",
+            "Official Mexico catalogue photo depicts the plain classic family."
+          ],
+          "stylingEn": "Let the band sit alone beside a cotton cuff, then repeat yellow gold with a modest ring. Compare wrist fit in person before adding neighbouring bracelets.",
+          "specificationSources": [
+            "https://www.cartier.mx/api/catalog_system/pub/products/search/B6067517"
+          ],
+          "selectionReasonEn": "FASHIONPHILE’s 2022 report highlights LOVE. This identified variant represents the established family; the evidence is platform-specific.",
+          "selectionSources": [
+            {
+              "label": "FASHIONPHILE · 2022 resale report",
+              "url": "https://www.fashionphile.com/blogs/academy/2022-resale-report",
+              "publishedAt": "2022",
+              "evidence": "Family evidence; reporting period is explained in the annual methodology."
+            }
+          ],
+          "image": "assets/img/jewel-years/jewelry-2022-cartier-love-classic-bracelet.png",
+          "imageWidth": 1000,
+          "imageHeight": 1000
+        },
+        {
+          "id": "jewelry-2022-vca-alhambra-mother-pearl-bracelet",
+          "category": "jewelry",
+          "year": 2022,
+          "selection": "hot",
+          "brand": "van-cleef-arpels",
+          "brandName": "Van Cleef & Arpels",
+          "name": "Vintage Alhambra Five-Motif Bracelet — yellow gold / mother-of-pearl",
+          "nameZh": "梵克雅宝 Vintage Alhambra 黄金白贝母五花手链",
+          "reference": "VCARA41800; photographed resale listingLU590324391352",
+          "color": "Yellow gold and white mother-of-pearl",
+          "sizes": [
+            "Photographed pre-owned example:7 in per seller description"
+          ],
+          "materials": [
+            "18K yellow gold",
+            "White mother-of-pearl"
+          ],
+          "priceUSD": 6429.82,
+          "priceCurrency": "USD",
+          "priceBasis": "resale-ask",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Displayed USD resale ask · reviewed 20 Oct 2026",
+          "priceSource": "https://www.1stdibs.com/jewelry/bracelets/charm-bracelets/van-cleef-arpels-gold-mother-pearl-vintage-alhambra-bracelet-vcara41800/id-j_24391352/",
+          "priceEvidence": "Exact 1stdibs listingLU590324391352 readable product snapshot retrieved 20 Oct 2026, crawled today, displays USD 6429.82 list price. Its seller describes 18K yellow gold, mother-of-pearl,7 in length,11.8g, excellent preowned condition and certificateNov 2023. This is a locale-sensitive marketplace resale display, not 2022 retail. No FX calculation performed for this archive.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.1stdibs.com/jewelry/bracelets/charm-bracelets/van-cleef-arpels-gold-mother-pearl-vintage-alhambra-bracelet-vcara41800/id-j_24391352/",
+          "imageSource": "https://a.1stdibscdn.com/van-cleef-arpels-gold-mother-of-pearl-vintage-alhambra-bracelet-vcara41800-for-sale/j_5903/j_243913521729684324436/j_24391352_1729684324758_bg_processed.jpg?width=768",
+          "imageCredit": "RichDiamonds via 1stdibs · photograph of the exact pre-owned Van Cleef & Arpels example",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the rights holder; public access is not a reuse licence and no permission is inferred.",
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Pre-owned listing reference; condition, availability and locale-sensitive displayed price can change.",
+          "priceNoteEn": "The source displayed US$6,429.82 for the pictured pre-owned 7-inch example. This marketplace display can change with locale and currency settings; it is not original 2022 retail or a completed-sale result.",
+          "introEn": "Five pale quatrefoils turn a fine yellow-gold chain into a repeating pattern around the wrist. Each mother-of-pearl centre catches light a little differently, while the beaded outlines give the motifs a consistent frame. The spaces between them matter as much as the shapes themselves, keeping the bracelet light rather than forming a solid cuff. This photograph shows the identified pre-owned example, measured by its seller at seven inches. Its soft contrast works well beside smooth fabrics, especially when other wristwear is restrained enough to leave the individual motifs visible.",
+          "featuresEn": [
+            "Five white mother-of-pearl motifs framed by 18K yellow gold.",
+            "Exact pictured pre-owned listing; seller describes 7 in length and excellent condition.",
+            "Certificate dated November 2023; annual selection refers to the established Alhambra family."
+          ],
+          "stylingEn": "Wear the bracelet against a plain sleeve or alone at a bare wrist. Small gold earrings can repeat the warm contour without adding another strong motif.",
+          "image": "assets/img/jewel-years/jewelry-2022-vca-alhambra-mother-pearl-bracelet.jpg",
+          "imageWidth": 768,
+          "imageHeight": 768,
+          "selectionReasonEn": "FASHIONPHILE’s 2022 report highlights Alhambra. This identified variant represents the established family; the evidence is platform-specific.",
+          "selectionSources": [
+            {
+              "label": "FASHIONPHILE · 2022 resale report",
+              "url": "https://www.fashionphile.com/blogs/academy/2022-resale-report",
+              "publishedAt": "2022",
+              "evidence": "Family evidence; reporting period is explained in the annual methodology."
+            }
+          ]
+        },
+        {
+          "id": "jewelry-2022-fendace-hoop-earrings",
+          "category": "jewelry",
+          "year": 2022,
+          "selection": "limited",
+          "brand": "fendi",
+          "brandName": "Fendi x Versace",
+          "name": "Fendace Hoop Earrings — brass / Versace Gold",
+          "nameZh": "Fendace 限定联名金色双品牌圈形耳环",
+          "reference": "1005395-1A00620_3J000",
+          "color": "Brass / Versace Gold",
+          "sizes": [
+            "Hoop pair; precise diameter not independently confirmed"
+          ],
+          "materials": [
+            "Brass metal"
+          ],
+          "priceUSD": 995,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Reported retail · SS22 catalogue; reviewed 20 Oct 2026",
+          "priceSource": "https://stockx.com/fendi-fendace-hoop-earrings-brass-versace-gold",
+          "priceEvidence": "StockX archive reviewed 20 Oct 2026 records Retail Price USD 995, style 1005395-1A00620_3J000, brass metal and 12 May 2022 release. This is its reported retail catalogue field, not a verified original transaction or current offer.",
+          "checkedAt": "2026-10-20",
+          "source": "https://stockx.com/fendi-fendace-hoop-earrings-brass-versace-gold",
+          "imageSource": "https://images.stockx.com/images/Fendi-Fendace-Hoop-Earrings-Brass-Versace-Gold.jpg",
+          "imageCredit": "Fendi x Versace · catalogue product photograph via StockX",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the rights holder; public access is not a reuse licence and no permission is inferred.",
+          "editionType": "seasonal-capsule",
+          "editionLabelEn": "Seasonal collaboration · Fendace",
+          "editionEvidence": "Fendi Japan’s official launch announcement identifies the 2022 Fendace design exchange. The exact hoop pair is archived with a 12 May 2022 release; no production quantity is asserted.",
+          "editionSource": "https://prtimes.jp/main/html/rd/p/000000227.000003876.html",
+          "releaseYear": 2022,
+          "availabilityEn": "Archive special edition; current availability and delivery are not promised.",
+          "introEn": "Open geometric sections turn the familiar hoop into a small architectural frame. Along the gold-coloured curve, squared Fendi forms meet circular Medusa details, while a tiny suspended head adds movement near the fastening. The negative spaces prevent the broad outline from reading as a solid wall of metal. These earrings bring an unmistakably decorative mood to a simple outfit, especially when the hair is swept away from the face. Their strongest effect comes from the full circular silhouette, so leave a little space around the neckline rather than repeating every emblem elsewhere.",
+          "featuresEn": [
+            "Gold-tone brass hoop pair.",
+            "Open geometric sections with Fendi and Medusa motifs.",
+            "Exact SS22 archive style 1005395-1A00620_3J000."
+          ],
+          "stylingEn": "Use a low bun and a plain black crewneck to reveal the complete hoop outline. A single simple ring is enough to echo the warm metal.",
+          "priceNoteEn": "Reported catalogue retail reference only; marketplace asks are separate and availability is unconfirmed.",
+          "selectionReasonEn": "The hoops translate Fendace’s 2022 shared-emblem idea into an open, moving fashion-jewellery design.",
+          "selectionSources": [
+            {
+              "label": "Fendi Japan · official Fendace release",
+              "url": "https://prtimes.jp/main/html/rd/p/000000227.000003876.html",
+              "publishedAt": "2022-05-12"
+            },
+            {
+              "label": "StockX · exact SS22 hoop archive",
+              "url": "https://stockx.com/fendi-fendace-hoop-earrings-brass-versace-gold",
+              "publishedAt": "2022-05-12"
+            }
+          ],
+          "image": "assets/img/jewel-years/jewelry-2022-fendace-hoop-earrings.jpg",
+          "imageWidth": 800,
+          "imageHeight": 571
+        },
+        {
+          "id": "jewelry-2022-tiffany-arsham-lock-ensemble",
+          "category": "jewelry",
+          "year": 2022,
+          "selection": "limited",
+          "brand": "tiffany",
+          "brandName": "Tiffany & Co.",
+          "name": "Tiffany x Arsham Lock Bangle + Bronze Eroded Padlock ensemble",
+          "nameZh": "蒂芙尼 x 阿尔沙姆 Lock 手镯与青铜挂锁雕塑套装",
+          "reference": "2022 Bronze Eroded Tiffany Padlock ensemble;99 works",
+          "color": "White-gold bangle with green stones; blue-patinated bronze sculpture",
+          "sizes": [
+            "Archive ensemble; bangle size requires individual confirmation"
+          ],
+          "materials": [
+            "18K white gold bangle",
+            "Diamonds and tsavorites",
+            "Patinated cast-bronze sculpture"
+          ],
+          "priceUSD": 59000,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2022-11-17",
+          "priceLabelEn": "Reported 2022 retail · full bangle-and-sculpture ensemble",
+          "priceSource": "https://hypebeast.com/2022/11/daniel-arsham-tiffany-co-lock-collection-collaboration-bangle-padlock-future-relics-release",
+          "priceEvidence": "Hypebeast launch reporting dated 17 Nov 2022 explicitly gives USD 59000 for the special-edition artwork with the bangle inside, releasing 1 Dec 2022. The price covers the full bangle-and-sculpture ensemble, not the standalone bangle.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.tiffany.com/world-of-tiffany/collaborations/daniel-arsham-lock.html",
+          "imageSource": "https://media.tiffany.com/is/image/tco/2022_LOCKXARSHAM-LP-FWMH-2-Mobile",
+          "imageCredit": "© Tiffany & Co. x Daniel Arsham · official ensemble photograph",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the rights holder; public access is not a reuse licence and no permission is inferred.",
+          "editionType": "limited-edition",
+          "editionLabelEn": "Limited edition · 99 ensemble works",
+          "editionEvidence": "Tiffany’s official archive specifies 99 bronze sculptures, each containing the exclusive diamond-and-tsavorite Lock bangle.2022 launch reporting dates retail availability to 1 December 2022.",
+          "editionSource": "https://www.tiffany.com/world-of-tiffany/collaborations/daniel-arsham-lock.html",
+          "releaseYear": 2022,
+          "availabilityEn": "Archive special edition; current availability and delivery are not promised.",
+          "priceNoteEn": "US$59,000 was reported for the complete artwork and bangle ensemble. A separate standalone bangle retail price was not established.",
+          "introEn": "A brightly set Lock bangle and an apparently eroded bronze padlock make a deliberately contrasting pair. The jewel offers clean white-gold surfaces, green stone accents and a precise curved outline; the sculpture surrounds that clarity with a rough, blue-patinated exterior. Seen together, they turn the act of opening a jewellery container into part of the work. This entry concerns the complete ensemble pictured, including the artwork and its exclusive bangle. It is as much a study in presentation and material contrast as a piece to wear at the wrist.",
+          "featuresEn": [
+            "Exclusive 18K white-gold Lock bangle set with diamonds and tsavorites.",
+            "Patinated bronze padlock sculpture houses the jewel.",
+            "Officially documented series of 99 sculpture-and-bangle works."
+          ],
+          "stylingEn": "When wearing the bangle, keep nearby wristwear simple so the green and white stones remain clear. Treat the sculpture as part of the complete collectible ensemble.",
+          "editionNoteEn": "The documented 99-work limit applies to the sculpture-and-bangle ensemble. The displayed price also covers that complete ensemble.",
+          "selectionReasonEn": "A documented 99-work artist edition pairs a wearable Lock bangle with an eroded-bronze sculpture; the scope and price refer to the entire ensemble.",
+          "selectionSources": [
+            {
+              "label": "Tiffany · official Arsham Lock archive",
+              "url": "https://www.tiffany.com/world-of-tiffany/collaborations/daniel-arsham-lock.html",
+              "publishedAt": "2022"
+            },
+            {
+              "label": "Hypebeast · dated2022 launch and ensemble price",
+              "url": "https://hypebeast.com/2022/11/daniel-arsham-tiffany-co-lock-collection-collaboration-bangle-padlock-future-relics-release",
+              "publishedAt": "2022-11-17"
+            }
+          ],
+          "image": "assets/img/jewel-years/jewelry-2022-tiffany-arsham-lock-ensemble.jpg",
+          "imageWidth": 1280,
+          "imageHeight": 1280
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "headlineEn": "Sculptural circles and a playful capsule",
+      "introEn": "Recognizable gold silhouettes meet new campaign energy, with selected rings and bracelets beside a dated artist collaboration. Each price belongs to the precise reference shown.",
+      "sources": [
+        {
+          "label": "Time International · CHANEL Coco Crush 2023",
+          "url": "https://www.timeinternational.co.id/chanel-coco-crush-2023/",
+          "publishedAt": "2023-01"
+        },
+        {
+          "label": "Fashion Gone Rogue · 2023 campaign",
+          "url": "https://www.fashiongonerogue.com/chanel-coco-crush-jewelry-2023/",
+          "publishedAt": "2023-01-10"
+        },
+        {
+          "label": "Rebag ·2023 Clair Report, p.27",
+          "url": "https://staticfiles.rebag.com/rebag-fe/prod/img/clair-report-2023/Rebag-The-2023-Clair-Report.pdf",
+          "publishedAt": "2023"
+        },
+        {
+          "label": "Tiffany · official global Lock launch",
+          "url": "https://press.tiffany.com/tiffany-co-celebrates-the-global-launch-of-the-tiffany-lock-collection-with-a-new-campaign-starring-brand-ambassador-rose/",
+          "publishedAt": "2023-01-02"
+        },
+        {
+          "label": "Tiffany · official ROSÉ capsule announcement",
+          "url": "https://press.tiffany.com/tiffany-co-unveils-tiffany-lock-rose-edition-a-new-capsule-collection-inspired-by-global-superstar-and-house-ambassador-rose/",
+          "publishedAt": "2023-09-14"
+        },
+        {
+          "label": "Louis Vuitton Japan · official second-drop announcement",
+          "url": "https://prtimes.jp/main/html/rd/p/000000695.000060591.html",
+          "publishedAt": "2023-03-17"
+        },
+        {
+          "label": "StockX · exact SS23 bracelet archive",
+          "url": "https://stockx.com/en-gb/louis-vuitton-lv-x-yk-pumpkin-charm-bracelet-multicolor",
+          "publishedAt": "2023-03-31"
+        }
+      ],
+      "entries": [
+        {
+          "brand": "chanel",
+          "category": "jewelry",
+          "name": "Coco Crush ring, mini version, 18K BEIGE GOLD",
+          "nameZh": "香奈儿 Coco Crush 迷你款米色金戒指",
+          "reference": "J11785",
+          "color": "BEIGE GOLD",
+          "sizes": [
+            "Mini band profile; choose finger size with the brand"
+          ],
+          "materials": [
+            "18K BEIGE GOLD"
+          ],
+          "priceUSD": 1900,
+          "checkedAt": "2026-10-19",
+          "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $1,900 for J11785, mini version, in 18K BEIGE GOLD. It does not expose a selected finger circumference.",
+          "source": "https://www.chanel.com/us/fine-jewelry/p/J11785/coco-crush-ring/",
+          "image": "assets/img/jewel-years/jewelry-2023-chanel-coco-crush-ring.jpg",
+          "imageSource": "https://www.chanel.com/videos/player/v1/static/6057940565001/f7b00180-1b5b-4fad-94d2-7825cd8bd580/f1d12d3f-5e27-4a34-b8d0-a23fb1b64872/1920x1080/match/image.jpg",
+          "imageCredit": "© CHANEL, official product imagery",
+          "imageRightsNote": "Official product imagery. The product page does not state a reuse license; no permission is inferred from public access. Copyright remains with the brand. This JPEG is the official static product-video poster linked from the exact product page.",
+          "imageWidth": 1080,
+          "imageHeight": 1080,
+          "introEn": "The mini Coco Crush ring offers a close reading of the collection’s surface. Its crossing lines divide the band into small curved sections, letting a familiar textile reference become a piece of jewelry with its own presence. BEIGE GOLD keeps the color conversation subtle, especially beside pale fabrics or other warm metals. A narrow band can still carry a strong idea; here, the interest comes from the way the pattern continues around the finger. Try it alone first, then consider what another ring would add to that rhythm.",
+          "featuresEn": [
+            "The mini version in 18K BEIGE GOLD.",
+            "A quilted motif formed by crossing incisions.",
+            "A rounded profile and scalloped edges are collection design details."
+          ],
+          "stylingEn": "Start with one ring and let the quilted surface show against a simple cuff. For a layered look, compare band scales in person and leave enough room for comfortable finger movement.",
+          "imageAlt": "Chanel mini Coco Crush ring in BEIGE GOLD with crossing quilted incisions.",
+          "id": "jewelry-2023-chanel-coco-crush-ring",
+          "year": 2023,
+          "selection": "hot",
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-19",
+          "priceLabelEn": "Official U.S. retail reference · checked 19 Oct 2026",
+          "priceSource": "https://www.chanel.com/us/fine-jewelry/p/J11785/coco-crush-ring/",
+          "selectionReasonEn": "The 2023 Coco Crush campaign brought renewed attention to the quilted family, including rings. This mini BEIGE GOLD band is the exact continuing reference pictured.",
+          "selectionSources": [
+            {
+              "label": "Time International · CHANEL Coco Crush 2023",
+              "url": "https://www.timeinternational.co.id/chanel-coco-crush-2023/",
+              "publishedAt": "2023-01",
+              "evidence": "Authorized retailer carries CHANEL’s 2023 campaign announcement."
+            },
+            {
+              "label": "Fashion Gone Rogue · 2023 campaign",
+              "url": "https://www.fashiongonerogue.com/chanel-coco-crush-jewelry-2023/",
+              "publishedAt": "2023-01-10",
+              "evidence": "Dated campaign reporting explicitly includes rings."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Current official reference; stock and delivery are not promised.",
+          "brandName": "CHANEL"
+        },
+        {
+          "id": "jewelry-2023-cartier-love-small-ring",
+          "category": "jewelry",
+          "year": 2023,
+          "selection": "hot",
+          "brand": "cartier",
+          "brandName": "Cartier",
+          "name": "LOVE Ring, small model — yellow gold",
+          "nameZh": "卡地亚 LOVE 小号黄金戒指",
+          "reference": "B4085000 model family",
+          "color": "Yellow gold",
+          "sizes": [
+            "Small profile;3.6 mm width quoted for size 52; choose circumference with Cartier"
+          ],
+          "materials": [
+            "18K yellow gold"
+          ],
+          "priceUSD": 1420,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Official U.S. retail snapshot · about Apr 2026; reviewed 20 Oct 2026",
+          "priceSource": "https://www.cartier.com/en-us/jewelry/wedding-bands/love/",
+          "priceEvidence": "Official U.S. LOVE wedding-band category snapshot captured about Apr 2026, reviewed 20 Oct 2026, lists yellow-gold small LOVE ring USD 1420. Direct U.S. product retrieval returned 403; a size-specific live checkout offer was not confirmed. Official Cartier Mexico product/API confirms modelB4085000, yellow gold and 3.6 mm width for size 52.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.cartier.mx/b4085000-alianza-love/p",
+          "imageSource": "https://cartiermx.vteximg.com.br/arquivos/ids/180857/CRB4085000_1.png?v=637463424701030000",
+          "imageCredit": "© Cartier · official Mexico product photograph",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the rights holder; public access is not a reuse licence and no permission is inferred.",
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Point-in-time reference; stock and delivery are not promised.",
+          "priceNoteEn": "The price refers to the yellow-gold small-model family. Choose and verify the finger circumference with Cartier; no current size-specific stock is implied.",
+          "introEn": "A narrow gold band carries a surprisingly strong graphic rhythm when its surface is punctuated by the LOVE screw motif. The small model reduces the height of the composition while preserving the collection’s flat planes and crisp circular details. Yellow gold brings warmth, but the design still feels controlled rather than decorative. It can function as a single everyday accent or as one quiet line among rings with different profiles. Give the band a little room at first so the pattern remains visible and its scale can be judged against the hand.",
+          "featuresEn": [
+            "Small-model LOVE band in 18K yellow gold.",
+            "Screw motifs repeat around the flat outer surface.",
+            "Official width 3.6 mm is specified for size 52; familyB4085000."
+          ],
+          "stylingEn": "Wear it alone on one finger with a simple shirt cuff. If stacking, compare profiles and fit rather than matching every detail.",
+          "selectionReasonEn": "Rebag’s 2023 Clair Report includes the yellow-gold LOVE wedding-band family among its most-favorited jewellery styles. This small-model reference illustrates that family without claiming an exact-SKU sales rank.",
+          "selectionSources": [
+            {
+              "label": "Rebag ·2023 Clair Report, p.27",
+              "url": "https://staticfiles.rebag.com/rebag-fe/prod/img/clair-report-2023/Rebag-The-2023-Clair-Report.pdf",
+              "publishedAt": "2023",
+              "evidence": "Most-favorited table names Love Wedding Band Ring 18K Yellow; the platform statistic is family-level."
+            }
+          ],
+          "specificationSources": [
+            "https://www.cartier.mx/api/catalog_system/pub/products/search/B4085000"
+          ],
+          "image": "assets/img/jewel-years/jewelry-2023-cartier-love-small-ring.png",
+          "imageWidth": 1000,
+          "imageHeight": 1000
+        },
+        {
+          "id": "jewelry-2023-cartier-juste-un-clou-small",
+          "category": "jewelry",
+          "year": 2023,
+          "selection": "hot",
+          "brand": "cartier",
+          "brandName": "Cartier",
+          "name": "Juste un Clou Bracelet, small model — yellow gold",
+          "nameZh": "卡地亚 Juste un Clou 小号黄金钉子手镯",
+          "reference": "B6062617 model family",
+          "color": "Yellow gold",
+          "sizes": [
+            "Small 2.5 mm profile; width specified for size 17; choose wrist size with Cartier"
+          ],
+          "materials": [
+            "18K yellow gold"
+          ],
+          "priceUSD": 4180,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Official U.S. retail snapshot · about Jan 2026; reviewed 20 Oct 2026",
+          "priceSource": "https://www.cartier.com/en-us/mothers-day-an-eternal-gift/juste-un-clou-bracelet-small-model-CRB6062616.html",
+          "priceEvidence": "Official U.S. product search-index snapshot marked crawled 9months before 20 Oct 2026 (approximately Jan 2026), refB6062617, lists USD 4180 for the plain small yellow-gold model. Direct page fetch returned 403. Official Cartier Mexico current product/API matches yellow gold,2.5 mm and the exact family image.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.cartier.mx/b6062617-pulsera-juste-un-clou-mp/p",
+          "imageSource": "https://cartiermx.vteximg.com.br/arquivos/ids/173934/B6062617_1.jpg?v=637275274526200000",
+          "imageCredit": "© Cartier · official Mexico product photograph",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the rights holder; public access is not a reuse licence and no permission is inferred.",
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Point-in-time reference; stock and delivery are not promised.",
+          "priceNoteEn": "Retained official model reference; fresh U.S. checkout price and wrist-size availability were not established.",
+          "introEn": "A single bent nail becomes an open, sweeping line around the wrist. The flat head and pointed end sit close enough to create tension, while the rounded gold body keeps the object visually smooth. In the small model, that contrast feels concentrated and easy to read beside a plain sleeve. The appeal lies in the familiar form being presented at a different scale and with a polished surface. It is a useful choice when an outfit needs one distinctive detail but would be overwhelmed by a broader cuff or multiple dangling charms.",
+          "featuresEn": [
+            "Plain 18K yellow-gold small model.",
+            "Nail-head and pointed-end silhouette.",
+            "2.5 mm width quoted for size 17; model familyB6062617."
+          ],
+          "stylingEn": "Let the nail shape remain visible next to a rolled white sleeve. Use a plain band on the hand to echo the gold without repeating the motif.",
+          "selectionReasonEn": "Rebag’s 2023 Clair Report names the small yellow-gold Juste un Clou bracelet among its most-favorited jewellery styles. The reference shown matches that material and model scale.",
+          "selectionSources": [
+            {
+              "label": "Rebag ·2023 Clair Report, p.27",
+              "url": "https://staticfiles.rebag.com/rebag-fe/prod/img/clair-report-2023/Rebag-The-2023-Clair-Report.pdf",
+              "publishedAt": "2023",
+              "evidence": "Table names Juste un Clou Bracelet 18K Yellow Gold Small; favorites on Rebag, not global sales."
+            }
+          ],
+          "specificationSources": [
+            "https://www.cartier.mx/api/catalog_system/pub/products/search/B6062617"
+          ],
+          "image": "assets/img/jewel-years/jewelry-2023-cartier-juste-un-clou-small.jpg",
+          "imageWidth": 1000,
+          "imageHeight": 1000
+        },
+        {
+          "id": "jewelry-2023-tiffany-lock-rose-bangle",
+          "category": "jewelry",
+          "year": 2023,
+          "selection": "hot",
+          "brand": "tiffany",
+          "brandName": "Tiffany & Co.",
+          "name": "Lock Bangle — rose gold, medium",
+          "nameZh": "蒂芙尼 Lock 玫瑰金手镯中号",
+          "reference": "70185520 family (manufacturer SKUs70185512 /70306875)",
+          "color": "Rose gold",
+          "sizes": [
+            "Medium; fits wrists up to 6.25 in"
+          ],
+          "materials": [
+            "18K rose gold"
+          ],
+          "priceUSD": 8300,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "U.S. retail reference · checked 20 Oct 2026",
+          "priceSource": "https://www.tiffany.com/jewelry/bracelets/tiffany-lock-18k-rose-gold-bracelets-1366351846.html",
+          "priceEvidence": "Official U.S. page retrieved 20 Oct 2026, crawled today, lists USD 8300, rose gold, medium, fits wrists up to 6.25 in and manufacturer SKUs 70185512/70306875. The picture is the exact plain rose-gold model; wrist circumference cannot be judged visually.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.tiffany.com/jewelry/bracelets/tiffany-lock-18k-rose-gold-bracelets-1366351846.html",
+          "imageSource": "https://media.tiffany.com/is/image/tco/70185520_BLT_MAIN1X1?fmt=webp&hei=2000&wid=2000",
+          "imageCredit": "© Tiffany & Co. · official product photograph",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the rights holder; public access is not a reuse licence and no permission is inferred.",
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Point-in-time reference; stock and delivery are not promised.",
+          "introEn": "Without gemstones, the Lock bangle depends entirely on the meeting of two rounded sections. The broader lower arc and slimmer upper curve form one continuous oval, with the hidden fastening keeping the outline visually uninterrupted. Rose gold adds a warm colour that can be read clearly beside white cotton or a pale knit. The design is restrained enough to wear alone but substantial enough to hold a place in a considered wrist arrangement. Begin by checking the medium fit, then decide whether another bracelet adds a useful change of scale or simply hides the shape.",
+          "featuresEn": [
+            "Plain 18K rose gold with a hidden closure.",
+            "Medium fits wrists up to 6.25 in.",
+            "Swivelling opening preserves the oval Lock silhouette."
+          ],
+          "stylingEn": "Wear it with a crisp shirt and one simple rose-gold ring. Allow a little space around the cuff so the full oval line can be seen.",
+          "selectionReasonEn": "The Lock family received its global launch and a ROSÉ-led campaign in January 2023. This plain rose-gold medium bangle represents that year’s documented campaign emphasis, rather than a claimed universal sales ranking.",
+          "selectionSources": [
+            {
+              "label": "Tiffany · official global Lock launch",
+              "url": "https://press.tiffany.com/tiffany-co-celebrates-the-global-launch-of-the-tiffany-lock-collection-with-a-new-campaign-starring-brand-ambassador-rose/",
+              "publishedAt": "2023-01-02",
+              "evidence": "Launch and campaign announcement documents the bangle family and its 2023 global expansion."
+            }
+          ],
+          "image": "assets/img/jewel-years/jewelry-2023-tiffany-lock-rose-bangle.webp",
+          "imageWidth": 2000,
+          "imageHeight": 2000
+        },
+        {
+          "id": "jewelry-2023-tiffany-rose-lock-bangle",
+          "category": "jewelry",
+          "year": 2023,
+          "selection": "limited",
+          "brand": "tiffany",
+          "brandName": "Tiffany & Co.",
+          "name": "Lock ROSÉ Edition Bangle — rose gold / pink sapphires, medium",
+          "nameZh": "蒂芙尼 Lock ROSÉ 限定系列粉色蓝宝石手镯中号",
+          "reference": "73965322 (manufacturer SKU73965330)",
+          "color": "Rose gold and pink sapphires",
+          "sizes": [
+            "Classic bangle; medium; fits wrists up to 6.25 in"
+          ],
+          "materials": [
+            "18K rose gold",
+            "Pink sapphires,1.61 ct total"
+          ],
+          "priceUSD": 18000,
+          "priceCurrency": "USD",
+          "priceBasis": "current-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "U.S. retail reference · checked 20 Oct 2026",
+          "priceSource": "https://www.tiffany.com/jewelry/bracelets/tiffany-lock-18k-rose-gold-pink-sapphire-bracelets-1366682306.html",
+          "priceEvidence": "Official U.S. product page retrieved 20 Oct 2026, crawled today, shows USD 18000 for the full classic rose-gold sapphire Lock bangle, medium,73965330,1.61 ct total; this is not the narrower USD 12400 version.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.tiffany.com/jewelry/bracelets/tiffany-lock-18k-rose-gold-pink-sapphire-bracelets-1366682306.html",
+          "imageSource": "https://media.tiffany.com/is/image/tco/73965322_BLT_MAIN1X1?fmt=webp&hei=2000&wid=2000",
+          "imageCredit": "© Tiffany & Co. · product photograph",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the rights holder; public access is not a reuse licence and no permission is inferred.",
+          "editionType": "seasonal-capsule",
+          "editionLabelEn": "Collaboration capsule · ROSÉ2023",
+          "editionEvidence": "Tiffany’s 14 September 2023 press release identifies a classic Lock bracelet in the ROSÉ capsule, followed by worldwide client availability 1 October 2023. The pictured full classic sapphire bangle is distinct from the narrow version.",
+          "editionSource": "https://press.tiffany.com/tiffany-co-unveils-tiffany-lock-rose-edition-a-new-capsule-collection-inspired-by-global-superstar-and-house-ambassador-rose/",
+          "releaseYear": 2023,
+          "availabilityEn": "Archive special edition; current availability and delivery are not promised.",
+          "introEn": "Pink sapphires trace one part of this rose-gold bangle, leaving the broader polished surfaces to define its overall outline. That asymmetry gives the bracelet two distinct readings: a clean oval from a distance and a precise line of colour when the wrist turns. The hidden closure preserves the rounded silhouette, while the warm metal softens the architectural character of the Lock form. Worn alone, the piece offers a concentrated accent without a dangling charm. Give the bracelet some room beside the sleeve so both the smooth gold and the pink stone-set section remain visible.",
+          "featuresEn": [
+            "Full classic Lock bangle in 18K rose gold with a hidden closure.",
+            "Pink sapphires total 1.61 ct for the specified medium reference.",
+            "Medium fits wrists up to 6.25 in; distinct from the narrow model."
+          ],
+          "stylingEn": "Wear it beside a plain three-quarter sleeve or a crisp shirt cuff. Use restrained rings to keep the pink line and oval silhouette visible.",
+          "editionNoteEn": "This is the classic sapphire bangle documented for the 2023 ROSÉ capsule. The narrow sapphire version is a separate reference.",
+          "selectionReasonEn": "The classic pink-sapphire bangle is one of the four formats in Tiffany’s documented 2023 ROSÉ collaboration capsule.",
+          "selectionSources": [
+            {
+              "label": "Tiffany · official ROSÉ capsule announcement",
+              "url": "https://press.tiffany.com/tiffany-co-unveils-tiffany-lock-rose-edition-a-new-capsule-collection-inspired-by-global-superstar-and-house-ambassador-rose/",
+              "publishedAt": "2023-09-14"
+            }
+          ],
+          "image": "assets/img/jewel-years/jewelry-2023-tiffany-rose-lock-bangle.webp",
+          "imageWidth": 2000,
+          "imageHeight": 2000
+        },
+        {
+          "id": "jewelry-2023-lv-kusama-pumpkin-bracelet",
+          "category": "jewelry",
+          "year": 2023,
+          "selection": "limited",
+          "brand": "louis-vuitton",
+          "brandName": "Louis Vuitton",
+          "name": "LV x Yayoi K usama Pumpkin Charm Bracelet — Monogram",
+          "nameZh": "路易威登 x 草间弥生限定南瓜吊饰手链",
+          "reference": "M1006E",
+          "color": "Brown Monogram, orange/pink pumpkin, gold-tone hardware",
+          "sizes": [
+            "Archive catalogue width 7.5; units not independently confirmed"
+          ],
+          "materials": [
+            "Monogram canvas",
+            "Gold-tone metal",
+            "Coloured decorative charm"
+          ],
+          "priceUSD": 555,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Reported retail · SS23 catalogue; reviewed 20 Oct 2026",
+          "priceSource": "https://stockx.com/en-gb/louis-vuitton-lv-x-yk-pumpkin-charm-bracelet-multicolor",
+          "priceEvidence": "StockX catalogue reviewed 20 Oct 2026 explicitly labels Retail Price US$555 even on its UK page, styleM1006E, Monogram canvas, release 31 Mar 2023. The amount is an undated reported retail field, not a current brand checkout or converted GBP offer.",
+          "checkedAt": "2026-10-20",
+          "source": "https://stockx.com/en-gb/louis-vuitton-lv-x-yk-pumpkin-charm-bracelet-multicolor",
+          "imageSource": "https://images.stockx.com/images/Louis-Vuitton-LV-x-YK-Pumpkin-Charm-Bracelet-Multicolor.jpg",
+          "imageCredit": "Louis Vuitton x Yayoi K usama · catalogue product photograph via StockX",
+          "imageRightsNote": "Product photograph downloaded unchanged from the cited public source. Copyright remains with the rights holder; public access is not a reuse licence and no permission is inferred.",
+          "editionType": "seasonal-capsule",
+          "editionLabelEn": "Artist capsule · Yayoi K usama 2023",
+          "editionEvidence": "Louis Vuitton Japan’s 17 March 2023 announcement dates the second global K usama drop to 31 March and names pumpkin motifs. The exact bracelet is catalogued with the same release date.",
+          "editionSource": "https://prtimes.jp/main/html/rd/p/000000695.000060591.html",
+          "releaseYear": 2023,
+          "availabilityEn": "Archive special edition; current availability and delivery are not promised.",
+          "introEn": "A slim Monogram loop becomes the quiet support for two small hanging forms: a bright pumpkin and the familiar LV initials. The warm brown canvas grounds the colour, while the gold-tone fastening and charm fittings supply a clean metallic edge. Unlike a broad cuff, the bracelet relies on movement and small changes in angle to reveal its details. It brings a playful note to an otherwise simple wrist arrangement. Allow a little space around the dangling shapes so the rounded pumpkin outline remains visible, especially when worn with a shirt or lightweight knit.",
+          "featuresEn": [
+            "Brown Monogram-canvas loop with gold-tone hardware.",
+            "Coloured pumpkin charm paired with LV initials.",
+            "Exact SS23 catalogue referenceM1006E, released 31 March 2023."
+          ],
+          "stylingEn": "Wear it with a white shirt and a small gold-tone ring. Leave adjacent bracelets off so the pumpkin charm can move freely.",
+          "priceNoteEn": "The reference is explicitly catalogued in U.S. dollars. The marketplace’s live asking price is a separate amount.",
+          "editionNoteEn": "Dated artist collaboration capsule; no numbered run or total production cap is claimed.",
+          "selectionReasonEn": "A pumpkin charm brings the second 2023 K usama collaboration’s visual language into a compact wrist accessory.",
+          "selectionSources": [
+            {
+              "label": "Louis Vuitton Japan · official second-drop announcement",
+              "url": "https://prtimes.jp/main/html/rd/p/000000695.000060591.html",
+              "publishedAt": "2023-03-17"
+            },
+            {
+              "label": "StockX · exact SS23 bracelet archive",
+              "url": "https://stockx.com/en-gb/louis-vuitton-lv-x-yk-pumpkin-charm-bracelet-multicolor",
+              "publishedAt": "2023-03-31"
+            }
+          ],
+          "image": "assets/img/jewel-years/jewelry-2023-lv-kusama-pumpkin-bracelet.jpg",
+          "imageWidth": 800,
+          "imageHeight": 571
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "The 2022 FASHIONPHILE comparison is 1 June 2020–31 May 2021 versus 1 June 2021–31 May 2022, not a complete-calendar 2022 global sales comparison. LOVE, HardWear, Cable and Alhambra are family-level evidence; exact pictured current or resale variants are identified separately.",
+    "The 2023 Rebag favorites table is platform-specific and does not establish worldwide unit sales. New official launches and campaigns supply the other editorial selections.",
+    "Three Van Cleef & Arpels entries use the pictured pre-owned item’s dated USD asking price rather than a reconstructed historical retail price. The 1stdibs bracelet price is a locale-sensitive USD display.",
+    "Tiffany x Arsham 2022 USD 59000 covers the whole bangle-and-sculpture ensemble. The official 99-work quantity refers to the ensemble, not an open-range Lock bangle.",
+    "Official U.S. Cartier references are retained snapshots approximately January/April 2026, with fresh product identity/photos verified from Cartier Mexico. Mexican currency prices were not converted or used.",
+    "New primary-price retrievals took place 20 October 2026. Existing core references retain their 19 October 2026 verification dates. Annual selection evidence remains limited to 19 October 2026."
+  ]
+}

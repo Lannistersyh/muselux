@@ -4,6 +4,8 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
 import json,re,struct,html,xml.etree.ElementTree as ET
 from collections import Counter
+from datetime import date
+from bag_yearbook import BOOKS
 
 ROOT=Path(__file__).resolve().parents[1]
 D=json.loads((ROOT/'tools/content.json').read_text())
@@ -114,23 +116,30 @@ check(Counter(x['category'] for x in style_products)==Counter({c['id']:4 for c i
 for c in D['categories']:
     source=(ROOT/'cat'/f'{c["id"]}.html').read_text()
     check(source.count('class="item-card product-card reveal"')==4,c['id']+': expected four photographed cards')
-annual_years=D.get('bagYears',[])
-annual_entries=[x for year in annual_years for x in year['entries']]
-if annual_years:
+annual_books={category:D.get(cfg['key'],[]) for category,cfg in BOOKS.items()}
+annual_entries=[x for years in annual_books.values() for year in years for x in year['entries']]
+check(len({x['id'] for x in annual_entries})==len(annual_entries),'Duplicate annual catalog IDs')
+check(not {x['id'] for x in annual_entries}&{x['id'] for x in D['items']},'Annual ID collision with core items')
+for category,annual_years in annual_books.items():
+    if not annual_years:continue
+    book_entries=[x for y in annual_years for x in y['entries']]
     check(sorted(y['year'] for y in annual_years)==list(range(2022,2027)),'Yearbook must contain 2022–2026 exactly once')
-    check(len({x['id'] for x in annual_entries})==30,'Expected thirty unique annual selection IDs')
-    check(not {x['id'] for x in annual_entries}&{x['id'] for x in D['items']},'Annual ID collision with core items')
+    check(len(book_entries)==30,category+': expected thirty annual selections')
     for year in annual_years:
         check(Counter(x['selection'] for x in year['entries'])=={'hot':4,'limited':2},str(year['year'])+': expected four hot + two editions')
         check(bool(year.get('sources')),str(year['year'])+': year sources absent')
         if year['year']==2026:check(year.get('yearToDate') and year.get('cutoff')=='2026-10-19','2026 year-to-date scope absent')
         for x in year['entries']:
-            for field in ('brandName','name','reference','sizes','materials','priceBasis','priceAsOf','priceLabelEn','source','imageSource','imageCredit','imageRightsNote','selectionReasonEn','selectionSources','availabilityEn'):
+            check(x['year']==year['year'] and x['category']==category,x['id']+': incorrect year/category')
+            for source in x['selectionSources']:
+                stamp=source.get('publishedAt','') or ''
+                if re.fullmatch(r'\d{4}-\d{2}-\d{2}',stamp):check(date.fromisoformat(stamp)<=date(2026,10,19),x['id']+': evidence after the stated cutoff')
+            for field in ('brandName','name','reference','sizes','materials','priceBasis','priceAsOf','priceLabelEn','source','imageSource','imageCredit','imageRightsNote','selectionReasonEn','selectionSources','stylingEn','availabilityEn'):
                 check(bool(x.get(field)),x['id']+': annual field absent: '+field)
             check(x.get('priceCurrency')=='USD',x['id']+': annual currency is not USD')
-            check(x['priceBasis'] in ('current-retail','release-retail','reported-retail','auction-result','unlisted'),x['id']+': unknown price basis')
+            check(x['priceBasis'] in ('current-retail','release-retail','reported-retail','auction-result','resale-ask','unlisted'),x['id']+': unknown price basis')
             check(x['priceUSD'] is None or isinstance(x['priceUSD'],(int,float)) and x['priceUSD']>0,x['id']+': invalid annual USD value')
-            if x['priceUSD'] is not None:check(bool(x.get('priceSource')),x['id']+': numeric price lacks a source')
+            if x['priceUSD'] is not None:check(bool(x.get('priceSource') and x.get('priceEvidence')),x['id']+': numeric price lacks source evidence')
             if x['selection']=='limited':
                 check(x.get('editionType') in ('numbered','limited-edition','seasonal-capsule'),x['id']+': unsupported edition type')
                 check(bool(x.get('editionEvidence') and x.get('editionSource')),x['id']+': missing edition proof')
@@ -154,10 +163,11 @@ if annual_years:
             urls=[x['source'],x['imageSource']]+[s['url'] for s in x['selectionSources']]
             urls += [u for u in (x.get('priceSource'),x.get('editionSource')) if u]
             check(all(urlsplit(u).scheme=='https' for u in urls),x['id']+': source URL must use HTTPS')
-    target=ROOT/'bags-by-year.html'
+    target=ROOT/BOOKS[category]['path']
     check(target.is_file(),'Yearbook index absent')
     if target.is_file():
         source=target.read_text()
+        check(BOOKS[category]['title'] in source,category+': wrong yearbook title')
         check(source.count('class="item-card product-card year-card reveal"')==30,'Yearbook index must include thirty cards')
         for year in range(2022,2027):check(f'id="year-{year}"' in source,'Missing year panel: '+str(year))
 for f in pages:
@@ -188,7 +198,19 @@ check(not stack,'CSS has unclosed delimiters')
 check((ROOT/'README.md').exists(),'Missing README')
 check((ROOT/'assets/fonts/Oswald-LICENSE.txt').exists(),'Oswald license missing')
 check((ROOT/'assets/fonts/Raleway-LICENSE.txt').exists(),'Raleway license missing')
-summary=dict(passed=not issues,pages=len(pages),brands=len(D['brands']),items=len(D['items']),annualBagEntries=len(annual_entries),annualSelectionCounts={str(y['year']):dict(Counter(x['selection'] for x in y['entries'])) for y in annual_years},annualEditionTypes=dict(Counter(x['editionType'] for x in annual_entries if x['selection']=='limited')),annualPriceBasis=dict(Counter(x['priceBasis'] for x in annual_entries)),annualSnapshotReferences=sum('snapshot' in x['priceLabelEn'].lower() for x in annual_entries),searchableItemPages=len(D['items'])+len(annual_entries),articles=len(D['articles']),categories=len(D['categories']),photographedProducts=len(style_products)+len(annual_entries),productsPerCategory=dict(Counter(x['category'] for x in style_products)),currency='USD',coreSnapshotPrices=sum(x['priceStatus']=='official-snapshot' for x in style_products),unlistedAnnualPrices=sum(x['priceUSD'] is None for x in annual_entries),svgAssets=len(list((ROOT/'assets/img').glob('*.svg'))),runtimeJavaScriptBytes=jsbytes,articleChineseCharacters=article_counts,issues=issues)
+summary=dict(passed=not issues,pages=len(pages),brands=len(D['brands']),items=len(D['items']),
+    annualBagEntries=sum(len(y['entries']) for y in annual_books['bags']),
+    annualEntries=len(annual_entries),
+    annualEntriesByCategory={c:sum(len(y['entries']) for y in years) for c,years in annual_books.items()},
+    annualSelectionCounts={c:{str(y['year']):dict(Counter(x['selection'] for x in y['entries'])) for y in years} for c,years in annual_books.items()},
+    annualEditionTypes=dict(Counter(x['editionType'] for x in annual_entries if x['selection']=='limited')),
+    annualPriceBasis=dict(Counter(x['priceBasis'] for x in annual_entries)),
+    annualSnapshotReferences=sum('snapshot' in x['priceLabelEn'].lower() for x in annual_entries),
+    searchableItemPages=len(D['items'])+len(annual_entries),articles=len(D['articles']),categories=len(D['categories']),
+    photographedProducts=len(style_products)+len(annual_entries),productsPerCategory=dict(Counter(x['category'] for x in style_products)),
+    currency='USD',coreSnapshotPrices=sum(x['priceStatus']=='official-snapshot' for x in style_products),
+    unlistedAnnualPrices=sum(x['priceUSD'] is None for x in annual_entries),
+    svgAssets=len(list((ROOT/'assets/img').glob('*.svg'))),runtimeJavaScriptBytes=jsbytes,articleChineseCharacters=article_counts,issues=issues)
 (ROOT/'reports/static-validation.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(summary,ensure_ascii=False,indent=2))
 raise SystemExit(bool(issues))

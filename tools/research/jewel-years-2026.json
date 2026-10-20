@@ -1,0 +1,979 @@
+{
+  "methodologyEn": "Year-to-date editorial selections through 19 October 2026, with actual product photographs and individually dated USD reference prices. Capsule collaborations are distinct from numbered or production-limited editions. No global annual sales rank is claimed.",
+  "necklaceYears": [
+    {
+      "year": 2026,
+      "headlineEn": "Sculpted gold, a garden in colour",
+      "introEn": "Graphic chains, nature motifs and enveloping gold shapes define this year-to-date necklace edit. Four fine-jewelry choices meet two playful collaboration pieces, following dated 2026 editorial attention through 19 October.",
+      "yearToDate": true,
+      "cutoff": "2026-10-19",
+      "sources": [
+        {
+          "label": "CNA Luxury — 2026 fine-jewelry edit",
+          "url": "https://cnaluxury.channelnewsasia.com/obsessions/fine-jewellery-trends-2026-cartier-bvlgari-boucheron-292826",
+          "publishedAt": "2026-03-18",
+          "evidence": "The Bvlgari section discusses yellow-gold Serpenti Viper necklaces and the streamlined collar direction; it covers the family rather than a demand ranking for this exact SKU."
+        },
+        {
+          "label": "Bvlgari US — exact 361342 reference",
+          "url": "https://www.bulgari.com/en-us/product/361342",
+          "publishedAt": null,
+          "evidence": "Official US product page lists $15,000 excluding taxes, 18K yellow gold and selected size 34."
+        },
+        {
+          "label": "Hamilton Jewelers — exact small pendant",
+          "url": "https://hamiltonjewelers.com/collections/fred-necklaces/products/fred-force-10-rise-18k-yellow-gold-and-diamond-small-pendant",
+          "publishedAt": null,
+          "evidence": "US retailer lists JFRPD0025 at $5,950, with 39 diamonds/0.10 ct and 45 cm chain; the observed photograph belongs to this exact listing."
+        },
+        {
+          "label": "Who What Wear — HardWear gold for fall",
+          "url": "https://www.whowhatwear.com/fashion/jewelry/tiffany-hardwear-gold-jewelry",
+          "publishedAt": "2026-10-15",
+          "evidence": "The feature calls the double-link pendant small but its shopping link resolves to family 75060742, now named medium on the official US page."
+        },
+        {
+          "label": "Tiffany US — exact linked double-link pendant",
+          "url": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-hardwear-18k-yellow-gold-necklaces-pendants-75060742.html",
+          "publishedAt": null,
+          "evidence": "Official US page identifies medium double-link pendant, 18K yellow gold, adjustable 16–18-inch chain and $3,000 price."
+        },
+        {
+          "label": "Tiffany US — medium link necklace",
+          "url": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-hardwear-18k-yellow-gold-necklaces-pendants-70751119.html",
+          "publishedAt": null,
+          "evidence": "Official US listing displays $19,500 and identifies 18K yellow gold and medium links."
+        },
+        {
+          "label": "Swarovski Japan — second capsule released",
+          "url": "https://prtimes.jp/main/html/rd/p/000000130.000007029.html",
+          "publishedAt": "2026-03-18",
+          "evidence": "Brand-issued release confirms the nature/dragonfly capsule went on sale online 17 March 2026 and in stores 18 March 2026."
+        },
+        {
+          "label": "Swarovski US — exact dragonfly reference",
+          "url": "https://www.swarovski.com/en-US/p-M5737383/Ariana-Grande-x-Swarovski-pendant-Mixed-cuts-Dragonfly-Multicolored-Rhodium-plated?variantID=5737383",
+          "publishedAt": null,
+          "evidence": "Exact article 5737383, multicoloured rhodium-plated dragonfly family, specifications and USD listed price."
+        },
+        {
+          "label": "Swarovski US — collaboration capsule",
+          "url": "https://www.swarovski.com/en-US/c-swa-root/Categoriesf/collection/collection-ariana-grande-x-swarovski",
+          "publishedAt": null,
+          "evidence": "Official page explicitly identifies the dragonfly collection as the Ariana Grande x Swarovski Capsule Collection."
+        },
+        {
+          "label": "Swarovski US — exact dragonfly reference",
+          "url": "https://www.swarovski.com/en-US/p-M5749183/Ariana-Grande-x-Swarovski-Y-necklace-Mixed-cuts-Dragonfly-Multicolored-Rhodium-plated?variantID=5749183",
+          "publishedAt": null,
+          "evidence": "Exact article 5749183, multicoloured rhodium-plated dragonfly family, specifications and USD listed price."
+        },
+        {
+          "label": "QIC retail announcement — exact Y necklace",
+          "url": "https://eastland.qicre.com/whats-on/news/swarovski/welcome-to-arianas-garden/",
+          "publishedAt": "2026-03-17",
+          "evidence": "Announcement identifies Dragonfly Y Necklace 5749183 in the second collection. Its Australian dollar price is not used here."
+        }
+      ],
+      "entries": [
+        {
+          "id": "necklace-2026-bulgari-serpenti-viper-yellow-gold",
+          "year": 2026,
+          "selection": "hot",
+          "category": "necklace",
+          "brand": "bulgari",
+          "brandName": "Bvlgari",
+          "name": "Serpenti Viper Necklace — Yellow Gold",
+          "nameZh": "宝格丽 Serpenti Viper 黄金项链",
+          "reference": "361342",
+          "color": "Yellow gold",
+          "sizes": [
+            "Official listing selected size: 34"
+          ],
+          "materials": [
+            "18K yellow gold"
+          ],
+          "priceUSD": 15000,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Official US listed reference · snapshot reviewed 20 Oct 2026",
+          "priceSource": "https://www.bulgari.com/en-us/product/361342",
+          "priceEvidence": "Exact pictured variant and USD 15,000 identified on the linked US product reference, reviewed 2026-10-20. Source access and snapshot limitations are stated in priceNoteEn. No currency conversion or original-launch MSRP is inferred.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.bulgari.com/en-us/product/361342",
+          "image": "assets/img/jewel-years/necklace-2026-bulgari-serpenti-viper-yellow-gold.png",
+          "imageSource": "https://media.bulgari.com/image/upload/c_fill%2Ch_851%2Cw_1090/q_auto/f_auto/1627577.png",
+          "imageCredit": "© Bvlgari",
+          "imageRightsNote": "Exact-reference product photograph downloaded unchanged from the linked brand or retail source. Copyright remains with its respective rights holders. No open reproduction license or reuse permission has been verified.",
+          "imageWidth": 1090,
+          "imageHeight": 851,
+          "introEn": "Broad polished scales give this Serpenti Viper necklace a strong, continuous outline. The smooth yellow-gold surfaces create a sequence of reflections that follows the curve of the neckline, while the open shape keeps the design from reading as a closed band. Its impact comes from the relationship between the repeated segments and the tapering ends. Plain fabric gives those forms room to stand out: an uncomplicated dress, a close-fitting knit or a sharply cut shirt can make the gold look especially warm and sculptural.",
+          "featuresEn": [
+            "18K yellow gold with the segmented Serpenti Viper design.",
+            "Unpaved gold variant: the reference does not list diamonds.",
+            "Official US product reference 361342; selected size 34."
+          ],
+          "stylingEn": "Choose a plain black or deep brown neckline and let the segmented gold establish the main shape. Small earrings and one slim ring keep the proportions balanced.",
+          "selectionReasonEn": "2026 editorial selection: CNA Luxury’s March 18 edit highlighted the streamlined Serpenti Viper family and its yellow-gold collar direction. This unpaved yellow-gold reference is the edit’s photographed representative of that family, rather than a claim that this exact reference debuted in 2026.",
+          "selectionSources": [
+            {
+              "label": "CNA Luxury — 2026 fine-jewelry edit",
+              "url": "https://cnaluxury.channelnewsasia.com/obsessions/fine-jewellery-trends-2026-cartier-bvlgari-boucheron-292826",
+              "publishedAt": "2026-03-18",
+              "evidence": "The Bvlgari section discusses yellow-gold Serpenti Viper necklaces and the streamlined collar direction; it covers the family rather than a demand ranking for this exact SKU."
+            },
+            {
+              "label": "Bvlgari US — exact 361342 reference",
+              "url": "https://www.bulgari.com/en-us/product/361342",
+              "publishedAt": null,
+              "evidence": "Official US product page lists $15,000 excluding taxes, 18K yellow gold and selected size 34."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Reference listing only; consult the brand or named retailer for current stock, taxes and delivery.",
+          "priceNoteEn": "Official US listed reference of $15,000 excluding taxes, reviewed 20 October 2026. Direct origin access was restricted; the indexed official page supplies the point-in-time reference."
+        },
+        {
+          "id": "necklace-2026-fred-force10-rise-yellow-gold",
+          "year": 2026,
+          "selection": "hot",
+          "category": "necklace",
+          "brand": "fred",
+          "brandName": "FRED",
+          "name": "Force 10 Rise Small Pendant — Yellow Gold and Diamonds",
+          "nameZh": "斐登 Force 10 Rise 黄金钻石小号吊坠项链",
+          "reference": "Hamilton Jewelers SKU JFRPD0025; brand SKU not confirmed",
+          "color": "Yellow gold; white diamonds",
+          "sizes": [
+            "Chain: 45 cm, adjustable at 39 and 42 cm",
+            "Motif: approximately 13 × 12 mm"
+          ],
+          "materials": [
+            "18K yellow gold",
+            "39 brilliant-cut white diamonds, approximately 0.10 ct, G VS"
+          ],
+          "priceUSD": 5950,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "US retailer listed reference · snapshot reviewed 20 Oct 2026",
+          "priceSource": "https://hamiltonjewelers.com/collections/fred-necklaces/products/fred-force-10-rise-18k-yellow-gold-and-diamond-small-pendant",
+          "priceEvidence": "Exact pictured variant and USD 5,950 identified on the linked US product reference, reviewed 2026-10-20. Source access and snapshot limitations are stated in priceNoteEn. No currency conversion or original-launch MSRP is inferred.",
+          "checkedAt": "2026-10-20",
+          "source": "https://hamiltonjewelers.com/collections/fred-necklaces/products/fred-force-10-rise-18k-yellow-gold-and-diamond-small-pendant",
+          "image": "assets/img/jewel-years/necklace-2026-fred-force10-rise-yellow-gold.png",
+          "imageSource": "https://hamiltonjewelers.com/cdn/shop/files/media_50f3ce3e-3d91-4060-97e0-59dbf0fc0d50.png?v=1791897566&width=1080",
+          "imageCredit": "Product photograph via Hamilton Jewelers",
+          "imageRightsNote": "Exact-reference product photograph downloaded unchanged from the linked brand or retail source. Copyright remains with its respective rights holders. No open reproduction license or reuse permission has been verified.",
+          "imageWidth": 1080,
+          "imageHeight": 1080,
+          "introEn": "The Force 10 Rise pendant compresses a cable-and-buckle idea into a small, clear shape at the neckline. Yellow gold brings a warm outline to the loop, while a narrow diamond accent draws attention to the central crossing. The chain leaves space around the motif so the design can be read without a large pendant or a heavy setting. Its compact proportions make it useful for a wardrobe built around clean collars and fine knits, adding a polished detail that can remain personal rather than dominating the entire outfit.",
+          "featuresEn": [
+            "18K yellow gold with the Force 10 cable-and-buckle motif.",
+            "39 brilliant-cut white diamonds total approximately 0.10 carat.",
+            "45 cm chain with 39 and 42 cm adjustment points; this is the small pendant, not the 80 cm long necklace."
+          ],
+          "stylingEn": "Set the chain at a length that sits clearly above a shirt opening, or wear it against a fine dark knit. A small gold hoop can echo the loop without crowding the neckline.",
+          "selectionReasonEn": "2026 editorial selection: CNA Luxury highlighted Force 10 Rise’s yellow-gold chapter during the parent collection’s 60th anniversary year. The photographed small pendant is the current yellow-gold family representative; its dimensions and price come from its exact US retailer listing.",
+          "selectionSources": [
+            {
+              "label": "CNA Luxury — 2026 fine-jewelry edit",
+              "url": "https://cnaluxury.channelnewsasia.com/obsessions/fine-jewellery-trends-2026-cartier-bvlgari-boucheron-292826",
+              "publishedAt": "2026-03-18",
+              "evidence": "The feature highlights yellow-gold Force 10 Rise and the Force 10 60th anniversary; it discusses the collection family, not a global sales rank."
+            },
+            {
+              "label": "Hamilton Jewelers — exact small pendant",
+              "url": "https://hamiltonjewelers.com/collections/fred-necklaces/products/fred-force-10-rise-18k-yellow-gold-and-diamond-small-pendant",
+              "publishedAt": null,
+              "evidence": "US retailer lists JFRPD0025 at $5,950, with 39 diamonds/0.10 ct and 45 cm chain; the observed photograph belongs to this exact listing."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Reference listing only; consult the brand or named retailer for current stock, taxes and delivery.",
+          "priceNoteEn": "US retailer Hamilton Jewelers lists this small pendant at $5,950, reviewed 20 October 2026. It is a retailer reference, not an official FRED launch MSRP. The 80 cm adjustable necklace uses a different reference and specifications."
+        },
+        {
+          "id": "necklace-2026-tiffany-hardwear-double-link-yellow-gold",
+          "year": 2026,
+          "selection": "hot",
+          "category": "necklace",
+          "brand": "tiffany",
+          "brandName": "Tiffany & Co.",
+          "name": "HardWear Medium Double Link Pendant — Yellow Gold",
+          "nameZh": "蒂芙尼 HardWear 中号双链节黄金吊坠项链",
+          "reference": "Product family 75060742; listed SKU 75125127 / 75060750 / 77090940",
+          "color": "Yellow gold",
+          "sizes": [
+            "Adjustable chain: 16–18 in",
+            "Official current link scale: medium"
+          ],
+          "materials": [
+            "18K yellow gold"
+          ],
+          "priceUSD": 3000,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Official US listed reference · snapshot reviewed 20 Oct 2026",
+          "priceSource": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-hardwear-18k-yellow-gold-necklaces-pendants-75060742.html",
+          "priceEvidence": "Exact pictured variant and USD 3,000 identified on the linked US product reference, reviewed 2026-10-20. Source access and snapshot limitations are stated in priceNoteEn. No currency conversion or original-launch MSRP is inferred.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-hardwear-18k-yellow-gold-necklaces-pendants-75060742.html",
+          "image": "assets/img/jewel-years/necklace-2026-tiffany-hardwear-double-link-yellow-gold.webp",
+          "imageSource": "https://media.tiffany.com/is/image/tco/75060742_PDT_MAIN1X1?fmt=webp&hei=2000&wid=2000",
+          "imageCredit": "© Tiffany & Co.",
+          "imageRightsNote": "Exact-reference product photograph downloaded unchanged from the linked brand or retail source. Copyright remains with its respective rights holders. No open reproduction license or reuse permission has been verified.",
+          "imageWidth": 2000,
+          "imageHeight": 2000,
+          "introEn": "Two linked gold forms give this pendant a clear, compact center of gravity. The slender chain creates a contrast in scale, leaving the polished links to supply the visual weight at the collarbone. Their open centers allow clothing or skin to become part of the composition, so the same necklace can read differently against a white shirt, a charcoal knit or a simple dress. Yellow gold brings a warm highlight without introducing a gemstone palette. The pendant is especially useful when an outfit needs one deliberate shape rather than a full chain around the neckline.",
+          "featuresEn": [
+            "Two signature HardWear links in 18K yellow gold.",
+            "Adjustable 16–18-inch chain.",
+            "Official current product family 75060742 calls this the medium double-link pendant."
+          ],
+          "stylingEn": "Wear it at the shorter setting with a plain round neckline, or lengthen it inside an open shirt. A longer fine chain can add depth while leaving the double-link outline visible.",
+          "selectionReasonEn": "2026 editorial selection: Who What Wear’s October 15 HardWear feature linked this exact yellow-gold double-link product. Its editorial text calls the pendant small; the linked current official page calls product family 75060742 medium, and this entry follows the official reference and photograph.",
+          "selectionSources": [
+            {
+              "label": "Who What Wear — HardWear gold for fall",
+              "url": "https://www.whowhatwear.com/fashion/jewelry/tiffany-hardwear-gold-jewelry",
+              "publishedAt": "2026-10-15",
+              "evidence": "The feature calls the double-link pendant small but its shopping link resolves to family 75060742, now named medium on the official US page."
+            },
+            {
+              "label": "Tiffany US — exact linked double-link pendant",
+              "url": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-hardwear-18k-yellow-gold-necklaces-pendants-75060742.html",
+              "publishedAt": null,
+              "evidence": "Official US page identifies medium double-link pendant, 18K yellow gold, adjustable 16–18-inch chain and $3,000 price."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Reference listing only; consult the brand or named retailer for current stock, taxes and delivery.",
+          "priceNoteEn": "Official US listed reference at $3,000, reviewed 20 October 2026. The October editorial calls the linked pendant small, while the current official page names the same product family medium; the official current reference and photograph control this entry."
+        },
+        {
+          "id": "necklace-2026-tiffany-hardwear-medium-yellow-gold",
+          "year": 2026,
+          "selection": "hot",
+          "category": "necklace",
+          "brand": "tiffany",
+          "brandName": "Tiffany & Co.",
+          "name": "HardWear Medium Link Necklace — Yellow Gold",
+          "nameZh": "蒂芙尼 HardWear 中号链节黄金项链",
+          "reference": "Product family 70751119; listed SKU 70751127 / 76354235",
+          "color": "Yellow gold",
+          "sizes": [
+            "Medium links · official description 18 in long"
+          ],
+          "materials": [
+            "18K yellow gold"
+          ],
+          "priceUSD": 19500,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Official US listed reference · snapshot reviewed 20 Oct 2026",
+          "priceSource": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-hardwear-18k-yellow-gold-necklaces-pendants-70751119.html",
+          "priceEvidence": "Exact pictured variant and USD 19,500 identified on the linked US product reference, reviewed 2026-10-20. Source access and snapshot limitations are stated in priceNoteEn. No currency conversion or original-launch MSRP is inferred.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-hardwear-18k-yellow-gold-necklaces-pendants-70751119.html",
+          "image": "assets/img/jewel-years/necklace-2026-tiffany-hardwear-medium-yellow-gold.webp",
+          "imageSource": "https://media.tiffany.com/is/image/tco/70751119_NL_MAIN1X1?fmt=webp&hei=2000&wid=2000",
+          "imageCredit": "© Tiffany & Co.",
+          "imageRightsNote": "Exact-reference product photograph downloaded unchanged from the linked brand or retail source. Copyright remains with its respective rights holders. No open reproduction license or reuse permission has been verified.",
+          "imageWidth": 2000,
+          "imageHeight": 2000,
+          "introEn": "Alternating polished links make the HardWear necklace read as a continuous piece of sculpture around the neckline. The yellow gold brings warmth to its industrial rhythm, while the open centers keep the chain visually lighter than a solid collar. Medium links offer enough presence to anchor a plain shirt or a simple crewneck, and their repeating shapes reward a clear background. This is a necklace to style through proportion: an uncluttered neckline, a broad shoulder line and one contrasting fabric can make its strong geometry feel especially intentional.",
+          "featuresEn": [
+            "Signature gauge-link chain in 18K yellow gold.",
+            "Medium link scale; the official description lists an 18-inch length.",
+            "The product page groups manufacturing SKUs within family 70751119."
+          ],
+          "stylingEn": "Wear it over a fine white knit or inside an open cotton shirt. A navy blazer sets off the yellow gold, while small studs keep the focus at the collarbone.",
+          "selectionReasonEn": "2026 editorial highlight: Who What Wear’s October 15 HardWear feature specifically selected the medium yellow-gold necklace. This entry follows that exact scale and metal rather than treating the whole collection as a sales ranking.",
+          "selectionSources": [
+            {
+              "label": "Who What Wear — HardWear gold for fall",
+              "url": "https://www.whowhatwear.com/fashion/jewelry/tiffany-hardwear-gold-jewelry",
+              "publishedAt": "2026-10-15",
+              "evidence": "The feature singles out the medium-link necklace in yellow gold and links this exact product family."
+            },
+            {
+              "label": "Tiffany US — medium link necklace",
+              "url": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-hardwear-18k-yellow-gold-necklaces-pendants-70751119.html",
+              "publishedAt": null,
+              "evidence": "Official US listing displays $19,500 and identifies 18K yellow gold and medium links."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Reference listing only; consult the brand or named retailer for current stock, taxes and delivery.",
+          "priceNoteEn": "Official US product page reference at $19,500, reviewed 20 October 2026. The page selector displays multiple lengths, while its product description specifies 18 inches; confirm the selected length and SKU with Tiffany before purchase."
+        },
+        {
+          "id": "necklace-2026-swarovski-ariana-dragonfly-pendant",
+          "year": 2026,
+          "selection": "limited",
+          "category": "necklace",
+          "brand": "swarovski",
+          "brandName": "Swarovski",
+          "name": "Ariana Grande x Swarovski Dragonfly Pendant — Multicolored",
+          "nameZh": "施华洛世奇 Ariana Grande 联名蜻蜓吊坠项链",
+          "reference": "5737383",
+          "color": "Pink, purple and clear; rhodium-plated metal",
+          "sizes": [
+            "Adjustable chain: 14 7/8–17 3/4 in",
+            "Motif: 1/2 × 3/4 in"
+          ],
+          "materials": [
+            "Crystals",
+            "Cubic zirconia",
+            "Swarovski Crystal Pearl",
+            "Rhodium-plated metal"
+          ],
+          "priceUSD": 159,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Official US listed reference · snapshot reviewed 20 Oct 2026",
+          "priceSource": "https://www.swarovski.com/en-US/p-M5737383/Ariana-Grande-x-Swarovski-pendant-Mixed-cuts-Dragonfly-Multicolored-Rhodium-plated?variantID=5737383",
+          "priceEvidence": "Exact pictured variant and USD 159 identified on the linked US product reference, reviewed 2026-10-20. Source access and snapshot limitations are stated in priceNoteEn. No currency conversion or original-launch MSRP is inferred.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.swarovski.com/en-US/p-M5737383/Ariana-Grande-x-Swarovski-pendant-Mixed-cuts-Dragonfly-Multicolored-Rhodium-plated?variantID=5737383",
+          "image": "assets/img/jewel-years/necklace-2026-swarovski-ariana-dragonfly-pendant.jpg",
+          "imageSource": "https://asset.swarovski.com/images/%24size_1450/t_swa103/b_rgb%3Affffff%2Cc_scale%2Cdpr_1.0%2Cf_auto%2Cw_375/5737383_png/ariana-grande-x-swarovski-pendant--mixed-cuts--dragonfly--multicolored--rhodium-plated-swarovski-5737383.png",
+          "imageCredit": "© Swarovski",
+          "imageRightsNote": "Exact-reference product photograph downloaded unchanged from the linked brand or retail source. Copyright remains with its respective rights holders. No open reproduction license or reuse permission has been verified.",
+          "imageWidth": 375,
+          "imageHeight": 375,
+          "introEn": "This small dragonfly brings a playful outline to the neckline without needing a heavy chain. Pale pink and purple wings spread around a bright central body, while a Crystal Pearl at the head adds a smooth point of contrast. Rhodium-plated metal keeps the setting cool against the pastel stones. The design’s appeal lies in the way a familiar garden creature becomes a miniature graphic motif: delicate enough for a plain T-shirt, but defined enough to make a simple dress feel more personal and expressive.",
+          "featuresEn": [
+            "Pastel pink and purple wings with a Swarovski Crystal Pearl at the head.",
+            "Rhodium-plated setting with clear Swarovski Zirconia.",
+            "Adjustable chain with a lobster clasp."
+          ],
+          "stylingEn": "Choose a white shirt with the top buttons open, or a pale grey crewneck. A single pastel element elsewhere in the outfit can echo the wings while leaving the motif easy to read.",
+          "selectionReasonEn": "A 2026 artist-capsule selection: the dragonfly belongs to Ariana Grande and Giovanna Engelbert’s second Swarovski collaboration, released in March 2026. This is a seasonal collaboration capsule; no numbered production limit is claimed.",
+          "selectionSources": [
+            {
+              "label": "Swarovski Japan — second capsule released",
+              "url": "https://prtimes.jp/main/html/rd/p/000000130.000007029.html",
+              "publishedAt": "2026-03-18",
+              "evidence": "Brand-issued release confirms the nature/dragonfly capsule went on sale online 17 March 2026 and in stores 18 March 2026."
+            },
+            {
+              "label": "Swarovski US — exact dragonfly reference",
+              "url": "https://www.swarovski.com/en-US/p-M5737383/Ariana-Grande-x-Swarovski-pendant-Mixed-cuts-Dragonfly-Multicolored-Rhodium-plated?variantID=5737383",
+              "publishedAt": null,
+              "evidence": "Exact article 5737383, multicoloured rhodium-plated dragonfly family, specifications and USD listed price."
+            },
+            {
+              "label": "Swarovski US — collaboration capsule",
+              "url": "https://www.swarovski.com/en-US/c-swa-root/Categoriesf/collection/collection-ariana-grande-x-swarovski",
+              "publishedAt": null,
+              "evidence": "Official page explicitly identifies the dragonfly collection as the Ariana Grande x Swarovski Capsule Collection."
+            }
+          ],
+          "editionType": "seasonal-capsule",
+          "editionLabelEn": "2026 collaboration capsule",
+          "editionEvidence": "Swarovski Japan announced the second Ariana Grande x Swarovski nature-themed capsule in its March 18, 2026 brand-issued release, confirming online sale from March 17 and stores from March 18. The official US collection identifies the same dragonfly family as a capsule. No production limit or numbered edition is stated.",
+          "editionSource": "https://prtimes.jp/main/html/rd/p/000000130.000007029.html",
+          "releaseYear": 2026,
+          "availabilityEn": "Reference listing only; consult the brand or named retailer for current stock, taxes and delivery.",
+          "priceNoteEn": "Official US listed price reference, reviewed 20 October 2026. This is the displayed product price rather than a launch MSRP, live stock guarantee or discounted third-party asking price.",
+          "editionNoteEn": "A seasonal artist collaboration released in March 2026. The brand has not published a production cap; this is not a numbered edition."
+        },
+        {
+          "id": "necklace-2026-swarovski-ariana-dragonfly-y",
+          "year": 2026,
+          "selection": "limited",
+          "category": "necklace",
+          "brand": "swarovski",
+          "brandName": "Swarovski",
+          "name": "Ariana Grande x Swarovski Dragonfly Y Necklace — Multicolored",
+          "nameZh": "施华洛世奇 Ariana Grande 联名蜻蜓 Y 形项链",
+          "reference": "5749183",
+          "color": "Multicolored; rhodium-plated metal",
+          "sizes": [
+            "Adjustable chain: 11 3/4–17 3/8 in",
+            "Y motif length: 2 1/2 in"
+          ],
+          "materials": [
+            "Crystals",
+            "Cubic zirconia",
+            "Swarovski Crystal Pearls",
+            "Rhodium-plated metal"
+          ],
+          "priceUSD": 219,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Official US listed reference · snapshot reviewed 20 Oct 2026",
+          "priceSource": "https://www.swarovski.com/en-US/p-M5749183/Ariana-Grande-x-Swarovski-Y-necklace-Mixed-cuts-Dragonfly-Multicolored-Rhodium-plated?variantID=5749183",
+          "priceEvidence": "Exact pictured variant and USD 219 identified on the linked US product reference, reviewed 2026-10-20. Source access and snapshot limitations are stated in priceNoteEn. No currency conversion or original-launch MSRP is inferred.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.swarovski.com/en-US/p-M5749183/Ariana-Grande-x-Swarovski-Y-necklace-Mixed-cuts-Dragonfly-Multicolored-Rhodium-plated?variantID=5749183",
+          "image": "assets/img/jewel-years/necklace-2026-swarovski-ariana-dragonfly-y.png",
+          "imageSource": "https://asset.swarovski.com/images/%24size_1450/t_swa103/b_rgb%3Affffff%2Cc_scale%2Cdpr_1.0%2Cf_auto%2Cw_375/5749183_png/ariana-grande-x-swarovski-y-necklace--mixed-cuts--dragonfly--multicolored--rhodium-plated-swarovski-5749183.png",
+          "imageCredit": "© Swarovski",
+          "imageRightsNote": "Exact-reference product photograph downloaded unchanged from the linked brand or retail source. Copyright remains with its respective rights holders. No open reproduction license or reuse permission has been verified.",
+          "imageWidth": 375,
+          "imageHeight": 375,
+          "introEn": "Two fine strands extend below the central dragonfly, giving this necklace a different rhythm from a conventional pendant. The pastel-coloured wings establish a small horizontal accent, then a pearl and blue stone draw the eye down the neckline. Scattered coloured stones on the chain repeat the garden palette without filling every space. The Y shape works particularly well with a clean opening in a shirt or dress, where its long lower lines can remain visible. It brings movement and a little fantasy to otherwise straightforward clothing.",
+          "featuresEn": [
+            "A central pastel dragonfly with two hanging strands.",
+            "Crystal Pearls and multicoloured Swarovski Zirconia accent the rhodium-plated design.",
+            "Sliding-ball and lobster closure; 2 1/2-inch Y motif."
+          ],
+          "stylingEn": "Frame the Y shape with a simple V neckline or a sharply open collar. Keep the fabric matte and avoid a busy print around the chest so the coloured stones and hanging strands remain clear.",
+          "selectionReasonEn": "A 2026 artist-capsule selection: exact reference 5749183 appears in the March 2026 Ariana’s Garden retail launch material. The official US listing links it to the dragonfly capsule, distinct from the earlier heart-themed collaboration.",
+          "selectionSources": [
+            {
+              "label": "Swarovski Japan — second capsule released",
+              "url": "https://prtimes.jp/main/html/rd/p/000000130.000007029.html",
+              "publishedAt": "2026-03-18",
+              "evidence": "Brand-issued release confirms the nature/dragonfly capsule went on sale online 17 March 2026 and in stores 18 March 2026."
+            },
+            {
+              "label": "Swarovski US — exact dragonfly reference",
+              "url": "https://www.swarovski.com/en-US/p-M5749183/Ariana-Grande-x-Swarovski-Y-necklace-Mixed-cuts-Dragonfly-Multicolored-Rhodium-plated?variantID=5749183",
+              "publishedAt": null,
+              "evidence": "Exact article 5749183, multicoloured rhodium-plated dragonfly family, specifications and USD listed price."
+            },
+            {
+              "label": "Swarovski US — collaboration capsule",
+              "url": "https://www.swarovski.com/en-US/c-swa-root/Categoriesf/collection/collection-ariana-grande-x-swarovski",
+              "publishedAt": null,
+              "evidence": "Official page explicitly identifies the dragonfly collection as the Ariana Grande x Swarovski Capsule Collection."
+            },
+            {
+              "label": "QIC retail announcement — exact Y necklace",
+              "url": "https://eastland.qicre.com/whats-on/news/swarovski/welcome-to-arianas-garden/",
+              "publishedAt": "2026-03-17",
+              "evidence": "Announcement identifies Dragonfly Y Necklace 5749183 in the second collection. Its Australian dollar price is not used here."
+            }
+          ],
+          "editionType": "seasonal-capsule",
+          "editionLabelEn": "2026 collaboration capsule",
+          "editionEvidence": "Swarovski Japan announced the second Ariana Grande x Swarovski nature-themed capsule in its March 18, 2026 brand-issued release, confirming online sale from March 17 and stores from March 18. The official US collection identifies the same dragonfly family as a capsule. No production limit or numbered edition is stated.",
+          "editionSource": "https://prtimes.jp/main/html/rd/p/000000130.000007029.html",
+          "releaseYear": 2026,
+          "availabilityEn": "Reference listing only; consult the brand or named retailer for current stock, taxes and delivery.",
+          "priceNoteEn": "Official US listed price reference, reviewed 20 October 2026. This is the displayed product price rather than a launch MSRP, live stock guarantee or discounted third-party asking price.",
+          "editionNoteEn": "A seasonal artist collaboration released in March 2026. The brand has not published a production cap; this is not a numbered edition."
+        }
+      ]
+    }
+  ],
+  "jewelryYears": [
+    {
+      "year": 2026,
+      "headlineEn": "Gold in motion",
+      "introEn": "Rings, earrings and bracelets balance geometric gold with tactile volume and vivid colour. This year-to-date selection pairs four fine-jewelry highlights with two clearly labelled collaboration capsules released during 2026.",
+      "yearToDate": true,
+      "cutoff": "2026-10-19",
+      "sources": [
+        {
+          "label": "CNA Luxury — 2026 fine-jewelry edit",
+          "url": "https://cnaluxury.channelnewsasia.com/obsessions/fine-jewellery-trends-2026-cartier-bvlgari-boucheron-292826",
+          "publishedAt": "2026-03-18",
+          "evidence": "The Boucheron section identifies Quatre XS as the new, slimmer Classique and Black Edition format."
+        },
+        {
+          "label": "Boucheron US — JRG03330",
+          "url": "https://www.boucheron.com/us/quatre-classique-xs-ring-jrg03330.html",
+          "publishedAt": null,
+          "evidence": "Exact reference and US listed $5,150; official regional product details identify materials and 43 diamonds totaling 0.13 ct."
+        },
+        {
+          "label": "Pomellato US — exact triple-band reference",
+          "url": "https://www.pomellato.com/us_en/pomellato-together-ring-pac6010-o7whr-db000",
+          "publishedAt": null,
+          "evidence": "Exact rose-gold ring lists 98 white diamonds approximately 1 ct and US $16,000."
+        },
+        {
+          "label": "Who What Wear — HardWear gold for fall",
+          "url": "https://www.whowhatwear.com/fashion/jewelry/tiffany-hardwear-gold-jewelry",
+          "publishedAt": "2026-10-15",
+          "evidence": "The feature specifically recommends the medium-link yellow-gold earrings and links this product family."
+        },
+        {
+          "label": "Tiffany US — medium link earrings",
+          "url": "https://www.tiffany.com/jewelry/earrings/tiffany-hardwear-18k-yellow-gold-earrings-73584531.html",
+          "publishedAt": null,
+          "evidence": "Official US page shows $3,950; 18K yellow gold; medium motif; 1.1-inch length."
+        },
+        {
+          "label": "Tiffany US — micro link bracelet",
+          "url": "https://www.tiffany.com/jewelry/bracelets/tiffany-hardwear-18k-yellow-gold-bracelets-60416923.html",
+          "publishedAt": null,
+          "evidence": "Exact official product page lists $4,800, yellow gold, micro links and medium wrist size fitting up to 6.25 inches."
+        },
+        {
+          "label": "Swarovski Japan — second capsule released",
+          "url": "https://prtimes.jp/main/html/rd/p/000000130.000007029.html",
+          "publishedAt": "2026-03-18",
+          "evidence": "Brand-issued release confirms the nature/dragonfly capsule went on sale online 17 March 2026 and in stores 18 March 2026."
+        },
+        {
+          "label": "Swarovski US — exact dragonfly reference",
+          "url": "https://www.swarovski.com/en-US/p-M5737400/Ariana-Grande-x-Swarovski-bangle-Mixed-cuts-Dragonfly-Multicolored-Rhodium-plated?variantID=5737400",
+          "publishedAt": null,
+          "evidence": "Exact article 5737400, multicoloured rhodium-plated dragonfly family, specifications and USD listed price."
+        },
+        {
+          "label": "Swarovski US — collaboration capsule",
+          "url": "https://www.swarovski.com/en-US/c-swa-root/Categoriesf/collection/collection-ariana-grande-x-swarovski",
+          "publishedAt": null,
+          "evidence": "Official page explicitly identifies the dragonfly collection as the Ariana Grande x Swarovski Capsule Collection."
+        },
+        {
+          "label": "Swarovski US — exact dragonfly reference",
+          "url": "https://www.swarovski.com/en-US/p-M5749185/Ariana-Grande-x-Swarovski-drop-earrings-Mixed-cuts-Dragonfly-Multicolored-Rhodium-plated?variantID=5749185",
+          "publishedAt": null,
+          "evidence": "Exact article 5749185, multicoloured rhodium-plated dragonfly family, specifications and USD listed price."
+        },
+        {
+          "label": "Boucheron — exact JRG03330 material specifications",
+          "url": "https://www.boucheron.com/at_en/quatre-classique-xs-ring-jrg03330.html",
+          "publishedAt": null,
+          "evidence": "Official exact-reference page lists yellow/white/pink 18K gold, brown PVD, 43 round diamonds totaling 0.13 ct. Its euro price is not used or converted."
+        }
+      ],
+      "entries": [
+        {
+          "id": "jewelry-2026-boucheron-quatre-classique-xs",
+          "year": 2026,
+          "selection": "hot",
+          "category": "jewelry",
+          "brand": "boucheron",
+          "brandName": "Boucheron",
+          "name": "Quatre Classique Ring XS — Three Golds and Brown PVD",
+          "nameZh": "宝诗龙 Quatre Classique XS 三色金戒指",
+          "reference": "JRG03330",
+          "color": "Yellow, white and pink gold; brown PVD",
+          "sizes": [
+            "XS motif · select ring size with Boucheron"
+          ],
+          "materials": [
+            "18K yellow gold",
+            "18K white gold",
+            "18K pink gold",
+            "Brown PVD",
+            "43 round diamonds, approximately 0.13 ct"
+          ],
+          "priceUSD": 5150,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Official US listed reference · snapshot reviewed 20 Oct 2026",
+          "priceSource": "https://www.boucheron.com/us/quatre-classique-xs-ring-jrg03330.html",
+          "priceEvidence": "Exact pictured variant and USD 5,150 identified on the linked US product reference, reviewed 2026-10-20. Source access and snapshot limitations are stated in priceNoteEn. No currency conversion or original-launch MSRP is inferred.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.boucheron.com/us/quatre-classique-xs-ring-jrg03330.html",
+          "image": "assets/img/jewel-years/jewelry-2026-boucheron-quatre-classique-xs.webp",
+          "imageSource": "https://dam.boucheron.com/addon/synolia/JRG03330_1.jpg?height=809&width=809",
+          "imageCredit": "© Boucheron",
+          "imageRightsNote": "Exact-reference product photograph downloaded unchanged from the linked brand or retail source. Copyright remains with its respective rights holders. No open reproduction license or reuse permission has been verified.",
+          "imageWidth": 809,
+          "imageHeight": 809,
+          "introEn": "The smallest Quatre Classique ring turns contrast into a precise line around the finger. Warm gold, cool white metal, brown PVD and a fine diamond row each catch the light differently, so the effect changes as the hand moves. The compact proportions make its stacked architecture easier to introduce to an everyday jewelry wardrobe. It can bring a graphic edge to soft knitwear or echo the clean seams of a tailored sleeve, with the four textures providing detail without requiring a large stone at the center.",
+          "featuresEn": [
+            "Four characteristic Quatre textures in the XS format.",
+            "Yellow, white and pink 18K gold with brown PVD.",
+            "43 round diamonds total approximately 0.13 carat; final specifications may vary."
+          ],
+          "stylingEn": "Let it sit on its own beside a clean cuff, or pair it with one slim plain band. Cream knitwear and dark denim make the brown and gold contrasts especially clear.",
+          "selectionReasonEn": "2026 editorial highlight: CNA Luxury spotlighted the new Quatre XS format on March 18. This exact Classique XS reference shows the compact four-code construction discussed in that feature.",
+          "selectionSources": [
+            {
+              "label": "CNA Luxury — 2026 fine-jewelry edit",
+              "url": "https://cnaluxury.channelnewsasia.com/obsessions/fine-jewellery-trends-2026-cartier-bvlgari-boucheron-292826",
+              "publishedAt": "2026-03-18",
+              "evidence": "The Boucheron section identifies Quatre XS as the new, slimmer Classique and Black Edition format."
+            },
+            {
+              "label": "Boucheron US — JRG03330",
+              "url": "https://www.boucheron.com/us/quatre-classique-xs-ring-jrg03330.html",
+              "publishedAt": null,
+              "evidence": "Exact reference and US listed $5,150; official regional product details identify materials and 43 diamonds totaling 0.13 ct."
+            },
+            {
+              "label": "Boucheron — exact JRG03330 material specifications",
+              "url": "https://www.boucheron.com/at_en/quatre-classique-xs-ring-jrg03330.html",
+              "publishedAt": null,
+              "evidence": "Official exact-reference page lists yellow/white/pink 18K gold, brown PVD, 43 round diamonds totaling 0.13 ct. Its euro price is not used or converted."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": 2026,
+          "availabilityEn": "Reference listing only; consult the brand or named retailer for current stock, taxes and delivery.",
+          "priceNoteEn": "The US product page returned an indexed listing at $5,150, reviewed 20 October 2026. Direct origin HTML was access-restricted, so this is a listed reference rather than a verified checkout total."
+        },
+        {
+          "id": "jewelry-2026-pomellato-together-triple-band",
+          "year": 2026,
+          "selection": "hot",
+          "category": "jewelry",
+          "brand": "pomellato",
+          "brandName": "Pomellato",
+          "name": "Together Triple-Band Ring — Rose Gold and Diamonds",
+          "nameZh": "宝曼兰朵 Together 三环玫瑰金钻石戒指",
+          "reference": "PAC6010_O7WHR_DB000",
+          "color": "Rose gold; white diamond pavé",
+          "sizes": [
+            "Ring size selected with Pomellato"
+          ],
+          "materials": [
+            "18K rose gold",
+            "White rhodium-plated 18K rose gold",
+            "98 white diamonds, approximately 1 ct"
+          ],
+          "priceUSD": 16000,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Official US listed reference · snapshot reviewed 20 Oct 2026",
+          "priceSource": "https://www.pomellato.com/us_en/pomellato-together-ring-pac6010-o7whr-db000",
+          "priceEvidence": "Exact pictured variant and USD 16,000 identified on the linked US product reference, reviewed 2026-10-20. Source access and snapshot limitations are stated in priceNoteEn. No currency conversion or original-launch MSRP is inferred.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.pomellato.com/us_en/pomellato-together-ring-pac6010-o7whr-db000",
+          "image": "assets/img/jewel-years/jewelry-2026-pomellato-together-triple-band.jpg",
+          "imageSource": "https://media.pomellato.com/media/catalog/product/P/A/PAC6010_O7WHR_DB000_10.jpg?auto=compress",
+          "imageCredit": "© Pomellato",
+          "imageRightsNote": "Exact-reference product photograph downloaded unchanged from the linked brand or retail source. Copyright remains with its respective rights holders. No open reproduction license or reuse permission has been verified.",
+          "imageWidth": 3000,
+          "imageHeight": 3000,
+          "introEn": "Three rounded bands give this Together ring a generous, architectural silhouette. The diamond-set central link holds the composition together while the bands retain their own movement, creating a tactile play between connection and independence. Rose gold supplies warmth across the broad polished surfaces; the cool sparkle at the crossing makes their curves more legible. It works as a single focal point on the hand, particularly with simple clothing whose textures can balance its volume. A restrained manicure and an unadorned sleeve allow the shifting reflections to become the detail.",
+          "featuresEn": [
+            "Three independent bands joined by a fixed central link.",
+            "18K rose gold with white rhodium-plated rose gold at the diamond setting.",
+            "98 white diamonds total approximately 1 carat."
+          ],
+          "stylingEn": "Pair it with a plain black knit and softly tailored trousers. Leave the neighboring fingers bare to give the generous curves space, and repeat rose gold in one small earring if desired.",
+          "selectionReasonEn": "2026 editorial highlight: CNA Luxury identified the three-band Together ring as one of the collection’s new 2026 additions. The current exact-reference product page matches the sculptural, moving bands and diamond link.",
+          "selectionSources": [
+            {
+              "label": "CNA Luxury — 2026 fine-jewelry edit",
+              "url": "https://cnaluxury.channelnewsasia.com/obsessions/fine-jewellery-trends-2026-cartier-bvlgari-boucheron-292826",
+              "publishedAt": "2026-03-18",
+              "evidence": "The Pomellato section identifies the new Together three-band ring with independently moving bands and a fixed diamond link."
+            },
+            {
+              "label": "Pomellato US — exact triple-band reference",
+              "url": "https://www.pomellato.com/us_en/pomellato-together-ring-pac6010-o7whr-db000",
+              "publishedAt": null,
+              "evidence": "Exact rose-gold ring lists 98 white diamonds approximately 1 ct and US $16,000."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": 2026,
+          "availabilityEn": "Reference listing only; consult the brand or named retailer for current stock, taxes and delivery.",
+          "priceNoteEn": "The official US product listing shows $16,000. This point-in-time price was reviewed 20 October 2026 and does not establish the 2026 launch MSRP."
+        },
+        {
+          "id": "jewelry-2026-tiffany-hardwear-medium-earrings-yellow-gold",
+          "year": 2026,
+          "selection": "hot",
+          "category": "jewelry",
+          "brand": "tiffany",
+          "brandName": "Tiffany & Co.",
+          "name": "HardWear Medium Link Earrings — Yellow Gold",
+          "nameZh": "蒂芙尼 HardWear 中号链节黄金耳环",
+          "reference": "Product family 73584531; listed SKU 73584558 / 75533837 / 77090916",
+          "color": "Yellow gold",
+          "sizes": [
+            "Medium motif · 1.1 in long"
+          ],
+          "materials": [
+            "18K yellow gold"
+          ],
+          "priceUSD": 3950,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Official US listed reference · snapshot reviewed 20 Oct 2026",
+          "priceSource": "https://www.tiffany.com/jewelry/earrings/tiffany-hardwear-18k-yellow-gold-earrings-73584531.html",
+          "priceEvidence": "Exact pictured variant and USD 3,950 identified on the linked US product reference, reviewed 2026-10-20. Source access and snapshot limitations are stated in priceNoteEn. No currency conversion or original-launch MSRP is inferred.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.tiffany.com/jewelry/earrings/tiffany-hardwear-18k-yellow-gold-earrings-73584531.html",
+          "image": "assets/img/jewel-years/jewelry-2026-tiffany-hardwear-medium-earrings-yellow-gold.webp",
+          "imageSource": "https://media.tiffany.com/is/image/tco/73584531_ER_MAIN1X1?fmt=webp&hei=2000&wid=2000",
+          "imageCredit": "© Tiffany & Co.",
+          "imageRightsNote": "Exact-reference product photograph downloaded unchanged from the linked brand or retail source. Copyright remains with its respective rights holders. No open reproduction license or reuse permission has been verified.",
+          "imageWidth": 2000,
+          "imageHeight": 2000,
+          "introEn": "A single elongated gauge link gives each HardWear earring an immediate outline. The polished yellow gold turns as the head moves, creating broad reflections rather than the pinpoint sparkle of a gemstone. Medium proportions make the shape readable from a distance while leaving the neckline available for the cut of a shirt or jacket. Their graphic character suits a wardrobe of clean collars and uncomplicated fabrics. Small differences in hair, sleeve and shoulder proportions can shift them from a daily accent to the main focus of an evening look.",
+          "featuresEn": [
+            "18K yellow gold with the HardWear gauge-link motif.",
+            "Medium motif measures 1.1 inches in length.",
+            "Official product family 73584531 groups several manufacturing SKUs."
+          ],
+          "stylingEn": "Pull the hair back and choose a crisp collared shirt or a plain boatneck. A dark jacket frames the warm gold; a bare neckline makes the elongated links especially clear.",
+          "selectionReasonEn": "2026 editorial highlight: Who What Wear’s October 15 feature selected the medium yellow-gold link earrings alongside the matching necklace. These earrings are the exact metal and medium scale identified there.",
+          "selectionSources": [
+            {
+              "label": "Who What Wear — HardWear gold for fall",
+              "url": "https://www.whowhatwear.com/fashion/jewelry/tiffany-hardwear-gold-jewelry",
+              "publishedAt": "2026-10-15",
+              "evidence": "The feature specifically recommends the medium-link yellow-gold earrings and links this product family."
+            },
+            {
+              "label": "Tiffany US — medium link earrings",
+              "url": "https://www.tiffany.com/jewelry/earrings/tiffany-hardwear-18k-yellow-gold-earrings-73584531.html",
+              "publishedAt": null,
+              "evidence": "Official US page shows $3,950; 18K yellow gold; medium motif; 1.1-inch length."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Reference listing only; consult the brand or named retailer for current stock, taxes and delivery.",
+          "priceNoteEn": "Official US listed price of $3,950 for the yellow-gold medium earrings, reviewed 20 October 2026. Manufacturing SKU and country of origin may vary within this product family."
+        },
+        {
+          "id": "jewelry-2026-tiffany-hardwear-micro-yellow-gold",
+          "year": 2026,
+          "selection": "hot",
+          "category": "jewelry",
+          "brand": "tiffany",
+          "brandName": "Tiffany & Co.",
+          "name": "HardWear Micro Link Bracelet — Yellow Gold, Medium",
+          "nameZh": "蒂芙尼 HardWear 微型链节黄金手链 中号",
+          "reference": "Product family 60416923; listed SKU 60416931 / 76353891",
+          "color": "Yellow gold",
+          "sizes": [
+            "Medium wrist size · fits wrists up to 6.25 in"
+          ],
+          "materials": [
+            "18K yellow gold"
+          ],
+          "priceUSD": 4800,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Official US listed reference · snapshot reviewed 20 Oct 2026",
+          "priceSource": "https://www.tiffany.com/jewelry/bracelets/tiffany-hardwear-18k-yellow-gold-bracelets-60416923.html",
+          "priceEvidence": "Exact pictured variant and USD 4,800 identified on the linked US product reference, reviewed 2026-10-20. Source access and snapshot limitations are stated in priceNoteEn. No currency conversion or original-launch MSRP is inferred.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.tiffany.com/jewelry/bracelets/tiffany-hardwear-18k-yellow-gold-bracelets-60416923.html",
+          "image": "assets/img/jewel-years/jewelry-2026-tiffany-hardwear-micro-yellow-gold.webp",
+          "imageSource": "https://media.tiffany.com/is/image/tco/60416923_BLT_MAIN1X1?fmt=webp&hei=2000&wid=2000",
+          "imageCredit": "© Tiffany & Co.",
+          "imageRightsNote": "Exact-reference product photograph downloaded unchanged from the linked brand or retail source. Copyright remains with its respective rights holders. No open reproduction license or reuse permission has been verified.",
+          "imageWidth": 2000,
+          "imageHeight": 2000,
+          "introEn": "The micro-link HardWear bracelet translates a bold chain vocabulary into a finer rhythm at the wrist. Repeated open links create small changes in reflected light, while the yellow gold lends warmth to the geometric form. Its narrower scale gives it a different role from the medium-link necklace or earrings: it can become a discreet daily detail beneath a sleeve, then read more clearly when the cuff is rolled back. The design works through repetition and spacing, making it easy to combine with clean clothing and an otherwise simple jewelry arrangement.",
+          "featuresEn": [
+            "Micro gauge links in 18K yellow gold.",
+            "Medium wrist size fits wrists up to 6.25 inches.",
+            "Exact product family 60416923; listed manufacturing SKUs 60416931 and 76353891."
+          ],
+          "stylingEn": "Place it beside a crisp shirt cuff or wear it alone with a short-sleeved knit. If stacking, use a slim plain gold band at the wrist to preserve the chain’s delicate rhythm.",
+          "selectionReasonEn": "2026 editorial highlight: Who What Wear’s October 15 HardWear feature specifically recommended the micro-link yellow-gold bracelet for everyday stacking. The pictured medium wrist-size reference matches its linked US product family.",
+          "selectionSources": [
+            {
+              "label": "Who What Wear — HardWear gold for fall",
+              "url": "https://www.whowhatwear.com/fashion/jewelry/tiffany-hardwear-gold-jewelry",
+              "publishedAt": "2026-10-15",
+              "evidence": "The feature lists the micro-link yellow-gold bracelet at $4,800 and links family 60416923."
+            },
+            {
+              "label": "Tiffany US — micro link bracelet",
+              "url": "https://www.tiffany.com/jewelry/bracelets/tiffany-hardwear-18k-yellow-gold-bracelets-60416923.html",
+              "publishedAt": null,
+              "evidence": "Exact official product page lists $4,800, yellow gold, micro links and medium wrist size fitting up to 6.25 inches."
+            }
+          ],
+          "editionType": null,
+          "editionLabelEn": null,
+          "editionEvidence": null,
+          "editionSource": null,
+          "releaseYear": null,
+          "availabilityEn": "Reference listing only; consult the brand or named retailer for current stock, taxes and delivery.",
+          "priceNoteEn": "Official US listed reference of $4,800, reviewed 20 October 2026. This entry is the medium wrist-size micro-link bracelet; it is distinct from larger link scales and diamond-set versions."
+        },
+        {
+          "id": "jewelry-2026-swarovski-ariana-dragonfly-bangle",
+          "year": 2026,
+          "selection": "limited",
+          "category": "jewelry",
+          "brand": "swarovski",
+          "brandName": "Swarovski",
+          "name": "Ariana Grande x Swarovski Dragonfly Bangle — Multicolored",
+          "nameZh": "施华洛世奇 Ariana Grande 联名蜻蜓手镯",
+          "reference": "5737400",
+          "color": "Pink, purple and blue; rhodium-plated metal",
+          "sizes": [
+            "Pictured article 5737400: 7 in circumference",
+            "Inner diameters: 2 1/2 × 2 in"
+          ],
+          "materials": [
+            "Crystals",
+            "Cubic zirconia",
+            "Swarovski Crystal Pearl",
+            "Rhodium-plated metal"
+          ],
+          "priceUSD": 219,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Official US listed reference · snapshot reviewed 20 Oct 2026",
+          "priceSource": "https://www.swarovski.com/en-US/p-M5737400/Ariana-Grande-x-Swarovski-bangle-Mixed-cuts-Dragonfly-Multicolored-Rhodium-plated?variantID=5737400",
+          "priceEvidence": "Exact pictured variant and USD 219 identified on the linked US product reference, reviewed 2026-10-20. Source access and snapshot limitations are stated in priceNoteEn. No currency conversion or original-launch MSRP is inferred.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.swarovski.com/en-US/p-M5737400/Ariana-Grande-x-Swarovski-bangle-Mixed-cuts-Dragonfly-Multicolored-Rhodium-plated?variantID=5737400",
+          "image": "assets/img/jewel-years/jewelry-2026-swarovski-ariana-dragonfly-bangle.jpg",
+          "imageSource": "https://asset.swarovski.com/images/%24size_1450/t_swa103/b_rgb%3Affffff%2Cc_scale%2Cdpr_1.0%2Cf_auto%2Cw_375/5737400_png/ariana-grande-x-swarovski-bangle--mixed-cuts--dragonfly--multicolored--rhodium-plated-swarovski-5737400.png",
+          "imageCredit": "© Swarovski",
+          "imageRightsNote": "Exact-reference product photograph downloaded unchanged from the linked brand or retail source. Copyright remains with its respective rights holders. No open reproduction license or reuse permission has been verified.",
+          "imageWidth": 375,
+          "imageHeight": 375,
+          "introEn": "The open shape of this bangle sets a blue pear-shaped stone opposite a small pastel dragonfly. That asymmetry creates a light, animated composition around the wrist, with clear pavé following the curve between them. Pink and purple wings bring colour close to the skin while the cool metal gives the stones a crisp outline. The space between the two ends is part of the design’s visual effect: it lets a shirt cuff or a bare wrist become a quiet background for the garden motif and its opposing drop of blue.",
+          "featuresEn": [
+            "Pastel dragonfly faces a blue pear-shaped Swarovski Zirconia.",
+            "Clear pavé follows the rhodium-plated open band.",
+            "Hinged Wonder Click closure; exact pictured size article 5737400."
+          ],
+          "stylingEn": "Wear it above a plain cotton cuff or with an uncomplicated short sleeve. Keep the surrounding wrist stack minimal to preserve the gap between the dragonfly and blue stone.",
+          "selectionReasonEn": "A 2026 collaboration-capsule selection: the multicoloured dragonfly family is part of Ariana Grande’s second Swarovski capsule, released in March 2026. It is labelled as a seasonal artist capsule rather than a production-limited edition.",
+          "selectionSources": [
+            {
+              "label": "Swarovski Japan — second capsule released",
+              "url": "https://prtimes.jp/main/html/rd/p/000000130.000007029.html",
+              "publishedAt": "2026-03-18",
+              "evidence": "Brand-issued release confirms the nature/dragonfly capsule went on sale online 17 March 2026 and in stores 18 March 2026."
+            },
+            {
+              "label": "Swarovski US — exact dragonfly reference",
+              "url": "https://www.swarovski.com/en-US/p-M5737400/Ariana-Grande-x-Swarovski-bangle-Mixed-cuts-Dragonfly-Multicolored-Rhodium-plated?variantID=5737400",
+              "publishedAt": null,
+              "evidence": "Exact article 5737400, multicoloured rhodium-plated dragonfly family, specifications and USD listed price."
+            },
+            {
+              "label": "Swarovski US — collaboration capsule",
+              "url": "https://www.swarovski.com/en-US/c-swa-root/Categoriesf/collection/collection-ariana-grande-x-swarovski",
+              "publishedAt": null,
+              "evidence": "Official page explicitly identifies the dragonfly collection as the Ariana Grande x Swarovski Capsule Collection."
+            }
+          ],
+          "editionType": "seasonal-capsule",
+          "editionLabelEn": "2026 collaboration capsule",
+          "editionEvidence": "Swarovski Japan announced the second Ariana Grande x Swarovski nature-themed capsule in its March 18, 2026 brand-issued release, confirming online sale from March 17 and stores from March 18. The official US collection identifies the same dragonfly family as a capsule. No production limit or numbered edition is stated.",
+          "editionSource": "https://prtimes.jp/main/html/rd/p/000000130.000007029.html",
+          "releaseYear": 2026,
+          "availabilityEn": "Reference listing only; consult the brand or named retailer for current stock, taxes and delivery.",
+          "priceNoteEn": "Official US listed price reference, reviewed 20 October 2026. This is the displayed product price rather than a launch MSRP, live stock guarantee or discounted third-party asking price.",
+          "editionNoteEn": "A seasonal artist collaboration released in March 2026. The brand has not published a production cap; this is not a numbered edition."
+        },
+        {
+          "id": "jewelry-2026-swarovski-ariana-dragonfly-earrings",
+          "year": 2026,
+          "selection": "limited",
+          "category": "jewelry",
+          "brand": "swarovski",
+          "brandName": "Swarovski",
+          "name": "Ariana Grande x Swarovski Dragonfly Drop Earrings — Multicolored",
+          "nameZh": "施华洛世奇 Ariana Grande 联名蜻蜓垂坠耳环",
+          "reference": "5749185",
+          "color": "Pink and purple; rhodium-plated metal",
+          "sizes": [
+            "1 × 3/4 in",
+            "Individual piece weight: approximately 0.08 oz"
+          ],
+          "materials": [
+            "Crystals",
+            "Cubic zirconia",
+            "Swarovski Crystal Pearls",
+            "Rhodium-plated metal"
+          ],
+          "priceUSD": 189,
+          "priceCurrency": "USD",
+          "priceBasis": "reported-retail",
+          "priceAsOf": "2026-10-20",
+          "priceLabelEn": "Official US listed reference · snapshot reviewed 20 Oct 2026",
+          "priceSource": "https://www.swarovski.com/en-US/p-M5749185/Ariana-Grande-x-Swarovski-drop-earrings-Mixed-cuts-Dragonfly-Multicolored-Rhodium-plated?variantID=5749185",
+          "priceEvidence": "Exact pictured variant and USD 189 identified on the linked US product reference, reviewed 2026-10-20. Source access and snapshot limitations are stated in priceNoteEn. No currency conversion or original-launch MSRP is inferred.",
+          "checkedAt": "2026-10-20",
+          "source": "https://www.swarovski.com/en-US/p-M5749185/Ariana-Grande-x-Swarovski-drop-earrings-Mixed-cuts-Dragonfly-Multicolored-Rhodium-plated?variantID=5749185",
+          "image": "assets/img/jewel-years/jewelry-2026-swarovski-ariana-dragonfly-earrings.jpg",
+          "imageSource": "https://asset.swarovski.com/images/%24size_1450/t_swa103/b_rgb%3Affffff%2Cc_scale%2Cdpr_1.0%2Cf_auto%2Cw_375/5749185_png/ariana-grande-x-swarovski-drop-earrings--mixed-cuts--dragonfly--multicolored--rhodium-plated-swarovski-5749185.png",
+          "imageCredit": "© Swarovski",
+          "imageRightsNote": "Exact-reference product photograph downloaded unchanged from the linked brand or retail source. Copyright remains with its respective rights holders. No open reproduction license or reuse permission has been verified.",
+          "imageWidth": 375,
+          "imageHeight": 375,
+          "introEn": "These dragonflies hang beneath small pavé hoops, letting the wings move just below the ear. Pink and purple stones alternate across the pair, creating a gentle difference between the two sides of the face. A Crystal Pearl at each head brings a round, smooth note to the faceted surfaces. The scale makes the figurative motif easy to recognize while keeping the composition compact. Against a plain blouse or soft knit, the earrings supply colour, movement and a slightly whimsical focal point without requiring a matching necklace.",
+          "featuresEn": [
+            "Pastel dragonflies hang from pavé hoops.",
+            "Alternating pink and purple wings with a Crystal Pearl at each head.",
+            "Rhodium-plated metal; each earring measures approximately 1 × 3/4 inch."
+          ],
+          "stylingEn": "Pull the hair into a low knot and pair the earrings with a pale blouse or charcoal knit. A bare neckline gives the moving wings space, while a small ring can finish the look.",
+          "selectionReasonEn": "A 2026 collaboration-capsule selection: article 5749185 belongs to the nature-themed second Ariana Grande x Swarovski capsule. The official March release and current exact product reference establish its year and collaboration status.",
+          "selectionSources": [
+            {
+              "label": "Swarovski Japan — second capsule released",
+              "url": "https://prtimes.jp/main/html/rd/p/000000130.000007029.html",
+              "publishedAt": "2026-03-18",
+              "evidence": "Brand-issued release confirms the nature/dragonfly capsule went on sale online 17 March 2026 and in stores 18 March 2026."
+            },
+            {
+              "label": "Swarovski US — exact dragonfly reference",
+              "url": "https://www.swarovski.com/en-US/p-M5749185/Ariana-Grande-x-Swarovski-drop-earrings-Mixed-cuts-Dragonfly-Multicolored-Rhodium-plated?variantID=5749185",
+              "publishedAt": null,
+              "evidence": "Exact article 5749185, multicoloured rhodium-plated dragonfly family, specifications and USD listed price."
+            },
+            {
+              "label": "Swarovski US — collaboration capsule",
+              "url": "https://www.swarovski.com/en-US/c-swa-root/Categoriesf/collection/collection-ariana-grande-x-swarovski",
+              "publishedAt": null,
+              "evidence": "Official page explicitly identifies the dragonfly collection as the Ariana Grande x Swarovski Capsule Collection."
+            }
+          ],
+          "editionType": "seasonal-capsule",
+          "editionLabelEn": "2026 collaboration capsule",
+          "editionEvidence": "Swarovski Japan announced the second Ariana Grande x Swarovski nature-themed capsule in its March 18, 2026 brand-issued release, confirming online sale from March 17 and stores from March 18. The official US collection identifies the same dragonfly family as a capsule. No production limit or numbered edition is stated.",
+          "editionSource": "https://prtimes.jp/main/html/rd/p/000000130.000007029.html",
+          "releaseYear": 2026,
+          "availabilityEn": "Reference listing only; consult the brand or named retailer for current stock, taxes and delivery.",
+          "priceNoteEn": "Official US listed price reference, reviewed 20 October 2026. This is the displayed product price rather than a launch MSRP, live stock guarantee or discounted third-party asking price.",
+          "editionNoteEn": "A seasonal artist collaboration released in March 2026. The brand has not published a production cap; this is not a numbered edition."
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "The 2026 selections are editorial highlights through 19 October, not a global top-four sales ranking. Current USD price references were reviewed on 20 October 2026 and are separately dated.",
+    "Bvlgari and FRED references illustrate families covered in dated 2026 editorial features; no unsupported claim is made that those exact SKUs launched in 2026.",
+    "All four special pieces belong to the officially released March 2026 Ariana Grande x Swarovski capsule. Capsule status is verified, but a production cap or numbered-edition limit has not been published.",
+    "Several brand origins restricted direct static access. Their official US indexed product pages provide labelled listed-price references, not live checkout totals; the FRED small pendant uses Hamilton Jewelers’ exact US retailer listing.",
+    "The Tiffany double-link editorial/current-page scale-name discrepancy and the medium chain’s length-selector discrepancy are explicitly disclosed in the corresponding entry notes.",
+    "Product photographs remain copyrighted; source credits are recorded and files are downloaded unchanged. No reuse license is inferred from public availability.",
+    "Browser/CDP tabs opened: 0. Closed: 0. Remaining owned tabs: 0."
+  ]
+}
