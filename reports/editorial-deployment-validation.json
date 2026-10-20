@@ -1,0 +1,1235 @@
+{
+  "checkedAt": "2026-10-20T06:07:12.135889+00:00",
+  "clientDate": "2026-10-20",
+  "site": "https://lannistersyh.github.io/muselux/",
+  "scope": "12 new journal covers and versioned page assets",
+  "contentCommit": "c2640aa6d4c55554e77fc88a70ef621cc7580e9e",
+  "pagesBuildStatus": "built",
+  "htmlPages": 183,
+  "newJournalCovers": 12,
+  "filesChecked": 200,
+  "passed": true,
+  "checks": [
+    {
+      "path": "404.html",
+      "status": 200,
+      "bytes": 7609,
+      "matchesLocal": true
+    },
+    {
+      "path": "about.html",
+      "status": 200,
+      "bytes": 18091,
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/css/main.css",
+      "status": 200,
+      "bytes": 63630,
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/img/journal/mag-01-first-love.svg",
+      "status": 200,
+      "bytes": 4651,
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/img/journal/mag-02-two-rhythms.svg",
+      "status": 200,
+      "bytes": 4365,
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/img/journal/mag-03-jewelry-alphabet.svg",
+      "status": 200,
+      "bytes": 6605,
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/img/journal/mag-04-held-light.svg",
+      "status": 200,
+      "bytes": 7266,
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/img/journal/mag-05-matter-of-metal.svg",
+      "status": 200,
+      "bytes": 4270,
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/img/journal/mag-06-surface-stories.svg",
+      "status": 200,
+      "bytes": 4448,
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/img/journal/mag-07-one-square.svg",
+      "status": 200,
+      "bytes": 3976,
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/img/journal/mag-08-second-chapter.svg",
+      "status": 200,
+      "bytes": 4765,
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/img/journal/mag-09-time-on-your-terms.svg",
+      "status": 200,
+      "bytes": 9348,
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/img/journal/mag-10-care-ritual.svg",
+      "status": 200,
+      "bytes": 6921,
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/img/journal/mag-11-the-thought-counts.svg",
+      "status": 200,
+      "bytes": 4410,
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/img/journal/mag-12-scent-is-memory.svg",
+      "status": 200,
+      "bytes": 4973,
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/js/data.js",
+      "status": 200,
+      "bytes": 30745,
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/js/main.js",
+      "status": 200,
+      "bytes": 9490,
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/js/render.js",
+      "status": 200,
+      "bytes": 2079,
+      "matchesLocal": true
+    },
+    {
+      "path": "bags-by-year.html",
+      "status": 200,
+      "bytes": 48179,
+      "matchesLocal": true
+    },
+    {
+      "path": "brand/bottega-veneta.html",
+      "status": 200,
+      "bytes": 11985,
+      "matchesLocal": true
+    },
+    {
+      "path": "brand/bulgari.html",
+      "status": 200,
+      "bytes": 14125,
+      "matchesLocal": true
+    },
+    {
+      "path": "brand/cartier.html",
+      "status": 200,
+      "bytes": 16505,
+      "matchesLocal": true
+    },
+    {
+      "path": "brand/celine.html",
+      "status": 200,
+      "bytes": 12476,
+      "matchesLocal": true
+    },
+    {
+      "path": "brand/chanel.html",
+      "status": 200,
+      "bytes": 15421,
+      "matchesLocal": true
+    },
+    {
+      "path": "brand/dior.html",
+      "status": 200,
+      "bytes": 14562,
+      "matchesLocal": true
+    },
+    {
+      "path": "brand/fendi.html",
+      "status": 200,
+      "bytes": 12896,
+      "matchesLocal": true
+    },
+    {
+      "path": "brand/gucci.html",
+      "status": 200,
+      "bytes": 14897,
+      "matchesLocal": true
+    },
+    {
+      "path": "brand/hermes.html",
+      "status": 200,
+      "bytes": 16619,
+      "matchesLocal": true
+    },
+    {
+      "path": "brand/louis-vuitton.html",
+      "status": 200,
+      "bytes": 11960,
+      "matchesLocal": true
+    },
+    {
+      "path": "brand/omega.html",
+      "status": 200,
+      "bytes": 10190,
+      "matchesLocal": true
+    },
+    {
+      "path": "brand/prada.html",
+      "status": 200,
+      "bytes": 14389,
+      "matchesLocal": true
+    },
+    {
+      "path": "brand/rolex.html",
+      "status": 200,
+      "bytes": 10166,
+      "matchesLocal": true
+    },
+    {
+      "path": "brand/tiffany.html",
+      "status": 200,
+      "bytes": 14318,
+      "matchesLocal": true
+    },
+    {
+      "path": "brand/van-cleef-arpels.html",
+      "status": 200,
+      "bytes": 12116,
+      "matchesLocal": true
+    },
+    {
+      "path": "brands.html",
+      "status": 200,
+      "bytes": 13376,
+      "matchesLocal": true
+    },
+    {
+      "path": "cat/bags.html",
+      "status": 200,
+      "bytes": 22390,
+      "matchesLocal": true
+    },
+    {
+      "path": "cat/fragrance.html",
+      "status": 200,
+      "bytes": 13166,
+      "matchesLocal": true
+    },
+    {
+      "path": "cat/jewelry.html",
+      "status": 200,
+      "bytes": 19360,
+      "matchesLocal": true
+    },
+    {
+      "path": "cat/necklace.html",
+      "status": 200,
+      "bytes": 16460,
+      "matchesLocal": true
+    },
+    {
+      "path": "cat/scarves.html",
+      "status": 200,
+      "bytes": 13313,
+      "matchesLocal": true
+    },
+    {
+      "path": "cat/watches.html",
+      "status": 200,
+      "bytes": 14357,
+      "matchesLocal": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 56353,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/alhambra.html",
+      "status": 200,
+      "bytes": 11359,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2022-balenciaga-le-cagole-small.html",
+      "status": 200,
+      "bytes": 14913,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2022-diesel-1dr.html",
+      "status": 200,
+      "bytes": 14774,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2022-gucci-adidas-large-duffle.html",
+      "status": 200,
+      "bytes": 16420,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2022-loewe-spirited-away-susuwatari-mini-puzzle.html",
+      "status": 200,
+      "bytes": 16506,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2022-miu-miu-wander.html",
+      "status": 200,
+      "bytes": 15404,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2022-prada-re-edition-2000.html",
+      "status": 200,
+      "bytes": 14758,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2023-bottega-andiamo-small.html",
+      "status": 200,
+      "bytes": 15206,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2023-loewe-calcifer-mini-puzzle.html",
+      "status": 200,
+      "bytes": 16641,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2023-loewe-font-tote.html",
+      "status": 200,
+      "bytes": 15187,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2023-lv-yayoi-kusama-neverfull.html",
+      "status": 200,
+      "bytes": 16318,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2023-miu-miu-arcadie.html",
+      "status": 200,
+      "bytes": 15434,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2023-the-row-margaux-15.html",
+      "status": 200,
+      "bytes": 14977,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2024-alaia-le-teckel-medium.html",
+      "status": 200,
+      "bytes": 14907,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2024-balenciaga-rodeo-medium.html",
+      "status": 200,
+      "bytes": 15051,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2024-fendi-frgmt-pokemon-beaded-baguette.html",
+      "status": 200,
+      "bytes": 15873,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2024-loewe-puzzle-fold-medium.html",
+      "status": 200,
+      "bytes": 15106,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2024-louis-vuitton-tyler-keepall25.html",
+      "status": 200,
+      "bytes": 16309,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2024-miu-miu-arcadie-suede.html",
+      "status": 200,
+      "bytes": 14758,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2025-chloe-paddington-grained.html",
+      "status": 200,
+      "bytes": 15038,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2025-loewe-puzzle10-confetti.html",
+      "status": 200,
+      "bytes": 16052,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2025-loewe-puzzle10-plumeria.html",
+      "status": 200,
+      "bytes": 16052,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2025-miu-miu-suede-pouch.html",
+      "status": 200,
+      "bytes": 14637,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2025-prada-dada-small.html",
+      "status": 200,
+      "bytes": 14763,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2025-saint-laurent-gaby-vanity.html",
+      "status": 200,
+      "bytes": 14850,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2026-chanel-maxi-flap-camel.html",
+      "status": 200,
+      "bytes": 15077,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2026-dior-toujours-hobo-small-black.html",
+      "status": 200,
+      "bytes": 15316,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2026-loewe-amazona180-large-black.html",
+      "status": 200,
+      "bytes": 15496,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2026-loewe-amazona180-lazy-crab.html",
+      "status": 200,
+      "bytes": 16282,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2026-lv-speedy20-monogram-origine-green.html",
+      "status": 200,
+      "bytes": 16515,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bag-2026-prada-bonnie-medium-black.html",
+      "status": 200,
+      "bytes": 15340,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/baguette.html",
+      "status": 200,
+      "bytes": 11193,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/birkin.html",
+      "status": 200,
+      "bytes": 12082,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/boy.html",
+      "status": 200,
+      "bytes": 10281,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bulgari-bzero1-necklace-white-gold-352815.html",
+      "status": 200,
+      "bytes": 13039,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bulgari-serpenti-viper-ring-rose-gold-45-46-362140.html",
+      "status": 200,
+      "bytes": 13432,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/bzero1.html",
+      "status": 200,
+      "bytes": 11218,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/carre90.html",
+      "status": 200,
+      "bytes": 11248,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/cartier-love-pendant-yellow-gold-b7014200.html",
+      "status": 200,
+      "bytes": 13075,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/cartier-santos-medium-wssa0029.html",
+      "status": 200,
+      "bytes": 13842,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/cartier-tank-must-small-wsta0135.html",
+      "status": 200,
+      "bytes": 13842,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/cartier-trinity-classic-ring-size53-b4234253.html",
+      "status": 200,
+      "bytes": 13719,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/chanel-255.html",
+      "status": 200,
+      "bytes": 11221,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/chanel-coco-crush-necklace-small-beige-gold-j12306.html",
+      "status": 200,
+      "bytes": 13350,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/chanel-coco-crush-ring-mini-beige-gold-j11785.html",
+      "status": 200,
+      "bytes": 13624,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/classic-box.html",
+      "status": 200,
+      "bytes": 11236,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/classic-flap.html",
+      "status": 200,
+      "bytes": 11298,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/coco-crush.html",
+      "status": 200,
+      "bytes": 11257,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/dior-jadore-edp-100ml-c099800246.html",
+      "status": 200,
+      "bytes": 13488,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/dior-oblique-mitzah-navy-us.html",
+      "status": 200,
+      "bytes": 13528,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/dior-small-lady-dior-black-us.html",
+      "status": 200,
+      "bytes": 13831,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/fendi-baguette-tobacco-ff-us.html",
+      "status": 200,
+      "bytes": 13966,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/galleria.html",
+      "status": 200,
+      "bytes": 11173,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/gucci-bloom-edp-100ml-488830.html",
+      "status": 200,
+      "bytes": 13424,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/gucci-flora-silk-carre-pink-us.html",
+      "status": 200,
+      "bytes": 13870,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/gucci-jackie-small-black-gg-us.html",
+      "status": 200,
+      "bytes": 14062,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/hermes-cape-cod-41-etoupe-w044350ww00.html",
+      "status": 200,
+      "bytes": 13666,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/hermes-heure-h-medium-etoupe-w404223ww00.html",
+      "status": 200,
+      "bytes": 13549,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/hermes-please-hold-line-90-blue-us.html",
+      "status": 200,
+      "bytes": 13663,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/hermes-terre-edt-338oz-v107188v0.html",
+      "status": 200,
+      "bytes": 13301,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/horsebit-loafer.html",
+      "status": 200,
+      "bytes": 11441,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jackie.html",
+      "status": 200,
+      "bytes": 11201,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2022-cartier-love-classic-bracelet.html",
+      "status": 200,
+      "bytes": 15393,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2022-david-yurman-classic-cable.html",
+      "status": 200,
+      "bytes": 15511,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2022-fendace-hoop-earrings.html",
+      "status": 200,
+      "bytes": 15926,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2022-tiffany-arsham-lock-ensemble.html",
+      "status": 200,
+      "bytes": 16741,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2022-tiffany-hardwear-bracelet.html",
+      "status": 200,
+      "bytes": 15284,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2022-vca-alhambra-mother-pearl-bracelet.html",
+      "status": 200,
+      "bytes": 16178,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2023-cartier-juste-un-clou-small.html",
+      "status": 200,
+      "bytes": 15102,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2023-cartier-love-small-ring.html",
+      "status": 200,
+      "bytes": 15238,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2023-chanel-coco-crush-ring.html",
+      "status": 200,
+      "bytes": 15105,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2023-lv-kusama-pumpkin-bracelet.html",
+      "status": 200,
+      "bytes": 16006,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2023-tiffany-lock-rose-bangle.html",
+      "status": 200,
+      "bytes": 15208,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2023-tiffany-rose-lock-bangle.html",
+      "status": 200,
+      "bytes": 15997,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2024-bulgari-serpenti-viper-ring-rose-gold-45-46-362140.html",
+      "status": 200,
+      "bytes": 15089,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2024-cartier-trinity-classic-ring-size53-b4234253.html",
+      "status": 200,
+      "bytes": 15279,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2024-chanel-coco-crush-ring-mini-beige-gold-j11785.html",
+      "status": 200,
+      "bytes": 15161,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2024-fendi-frgmt-pokemon-earrings-gold.html",
+      "status": 200,
+      "bytes": 15813,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2024-fendi-frgmt-ring-gold.html",
+      "status": 200,
+      "bytes": 15550,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2024-tiffany-hardwear-small-link-medium-silver-60153085.html",
+      "status": 200,
+      "bytes": 15397,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2025-cartier-love-small-yellow-gold-size17.html",
+      "status": 200,
+      "bytes": 15832,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2025-david-yurman-classic-cable-blue-topaz-diamonds.html",
+      "status": 200,
+      "bytes": 16097,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2025-hermes-clic-clac-h-blanc-rose-gold.html",
+      "status": 200,
+      "bytes": 15480,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2025-louis-vuitton-murakami-superflat-earrings.html",
+      "status": 200,
+      "bytes": 16184,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2025-swarovski-ariana-grande-heart-bracelet.html",
+      "status": 200,
+      "bytes": 16393,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2025-van-cleef-vintage-alhambra-five-motifs-mother-of-pearl.html",
+      "status": 200,
+      "bytes": 16002,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2026-boucheron-quatre-classique-xs.html",
+      "status": 200,
+      "bytes": 16040,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2026-pomellato-together-triple-band.html",
+      "status": 200,
+      "bytes": 15975,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2026-swarovski-ariana-dragonfly-bangle.html",
+      "status": 200,
+      "bytes": 17049,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2026-swarovski-ariana-dragonfly-earrings.html",
+      "status": 200,
+      "bytes": 17116,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2026-tiffany-hardwear-medium-earrings-yellow-gold.html",
+      "status": 200,
+      "bytes": 15956,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jewelry-2026-tiffany-hardwear-micro-yellow-gold.html",
+      "status": 200,
+      "bytes": 16035,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/jodie.html",
+      "status": 200,
+      "bytes": 11200,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/juste-un-clou.html",
+      "status": 200,
+      "bytes": 11280,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/kelly.html",
+      "status": 200,
+      "bytes": 11099,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/lady-dior.html",
+      "status": 200,
+      "bytes": 11251,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/love.html",
+      "status": 200,
+      "bytes": 11184,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2022-adidas-gucci-gourmette.html",
+      "status": 200,
+      "bytes": 16003,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2022-cartier-love-pendant.html",
+      "status": 200,
+      "bytes": 14674,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2022-david-yurman-cable-linked.html",
+      "status": 200,
+      "bytes": 15202,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2022-fendace-chain-necklace.html",
+      "status": 200,
+      "bytes": 16016,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2022-tiffany-hardwear-necklace.html",
+      "status": 200,
+      "bytes": 15167,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2022-vca-alhambra-mother-pearl.html",
+      "status": 200,
+      "bytes": 15466,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2023-chanel-coco-crush-pendant.html",
+      "status": 200,
+      "bytes": 15104,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2023-tiffany-arsham-pokemon-pikachu.html",
+      "status": 200,
+      "bytes": 16861,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2023-tiffany-lock-rose-diamond.html",
+      "status": 200,
+      "bytes": 15543,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2023-tiffany-rose-lock-pendant.html",
+      "status": 200,
+      "bytes": 16016,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2023-tiffany-t-smile.html",
+      "status": 200,
+      "bytes": 15107,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2023-vca-alhambra-onyx.html",
+      "status": 200,
+      "bytes": 15546,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2024-bulgari-bzero1-necklace-white-gold-352815.html",
+      "status": 200,
+      "bytes": 14878,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2024-chanel-coco-crush-necklace-small-beige-gold-j12306.html",
+      "status": 200,
+      "bytes": 15188,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2024-fendi-frgmt-pokemon-pokeball-necklace.html",
+      "status": 200,
+      "bytes": 15661,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2024-tiffany-t-smile-small-yellow-gold-60011679.html",
+      "status": 200,
+      "bytes": 15137,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2024-van-cleef-holiday-guilloche-rose-white-gold.html",
+      "status": 200,
+      "bytes": 16427,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2024-van-cleef-vintage-alhambra-mother-of-pearl.html",
+      "status": 200,
+      "bytes": 15803,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2025-bulgari-divas-dream-mother-of-pearl-diamonds.html",
+      "status": 200,
+      "bytes": 15382,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2025-chanel-coco-crush-necklace-small-beige-gold-j12306.html",
+      "status": 200,
+      "bytes": 15242,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2025-gucci-trademark-heart-silver.html",
+      "status": 200,
+      "bytes": 15410,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2025-louis-vuitton-murakami-superflat-necklace.html",
+      "status": 200,
+      "bytes": 16153,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2025-swarovski-ariana-grande-heart-necklace.html",
+      "status": 200,
+      "bytes": 16149,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2025-tiffany-t-smile-small-yellow-gold-60011679.html",
+      "status": 200,
+      "bytes": 15227,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2026-bulgari-serpenti-viper-yellow-gold.html",
+      "status": 200,
+      "bytes": 15623,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2026-fred-force10-rise-yellow-gold.html",
+      "status": 200,
+      "bytes": 16519,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2026-swarovski-ariana-dragonfly-pendant.html",
+      "status": 200,
+      "bytes": 17014,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2026-swarovski-ariana-dragonfly-y.html",
+      "status": 200,
+      "bytes": 17348,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2026-tiffany-hardwear-double-link-yellow-gold.html",
+      "status": 200,
+      "bytes": 16236,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/necklace-2026-tiffany-hardwear-medium-yellow-gold.html",
+      "status": 200,
+      "bytes": 16137,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/no5.html",
+      "status": 200,
+      "bytes": 10354,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/prada-galleria-small-black-leather-us.html",
+      "status": 200,
+      "bytes": 13918,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/prada-paradoxe-edp-90ml-1a1351.html",
+      "status": 200,
+      "bytes": 13586,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/prada-triangle-silk-scarf-55-alabaster-us.html",
+      "status": 200,
+      "bytes": 13653,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/serpenti.html",
+      "status": 200,
+      "bytes": 11282,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/speedmaster.html",
+      "status": 200,
+      "bytes": 10377,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/speedy.html",
+      "status": 200,
+      "bytes": 11289,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/submariner.html",
+      "status": 200,
+      "bytes": 10322,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/tank.html",
+      "status": 200,
+      "bytes": 11161,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/tiffany-hardwear-small-link-medium-silver-60153085.html",
+      "status": 200,
+      "bytes": 13802,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/tiffany-keys.html",
+      "status": 200,
+      "bytes": 11260,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/tiffany-t-smile-small-yellow-gold-60011679.html",
+      "status": 200,
+      "bytes": 13303,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/tiffany-t.html",
+      "status": 200,
+      "bytes": 11330,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/trinity.html",
+      "status": 200,
+      "bytes": 11194,
+      "matchesLocal": true
+    },
+    {
+      "path": "item/triomphe-sunglasses.html",
+      "status": 200,
+      "bytes": 10770,
+      "matchesLocal": true
+    },
+    {
+      "path": "jewelry-by-year.html",
+      "status": 200,
+      "bytes": 48669,
+      "matchesLocal": true
+    },
+    {
+      "path": "mag/mag-01.html",
+      "status": 200,
+      "bytes": 15520,
+      "matchesLocal": true
+    },
+    {
+      "path": "mag/mag-02.html",
+      "status": 200,
+      "bytes": 15218,
+      "matchesLocal": true
+    },
+    {
+      "path": "mag/mag-03.html",
+      "status": 200,
+      "bytes": 15833,
+      "matchesLocal": true
+    },
+    {
+      "path": "mag/mag-04.html",
+      "status": 200,
+      "bytes": 15368,
+      "matchesLocal": true
+    },
+    {
+      "path": "mag/mag-05.html",
+      "status": 200,
+      "bytes": 15677,
+      "matchesLocal": true
+    },
+    {
+      "path": "mag/mag-06.html",
+      "status": 200,
+      "bytes": 15547,
+      "matchesLocal": true
+    },
+    {
+      "path": "mag/mag-07.html",
+      "status": 200,
+      "bytes": 15279,
+      "matchesLocal": true
+    },
+    {
+      "path": "mag/mag-08.html",
+      "status": 200,
+      "bytes": 15499,
+      "matchesLocal": true
+    },
+    {
+      "path": "mag/mag-09.html",
+      "status": 200,
+      "bytes": 15675,
+      "matchesLocal": true
+    },
+    {
+      "path": "mag/mag-10.html",
+      "status": 200,
+      "bytes": 15588,
+      "matchesLocal": true
+    },
+    {
+      "path": "mag/mag-11.html",
+      "status": 200,
+      "bytes": 15472,
+      "matchesLocal": true
+    },
+    {
+      "path": "mag/mag-12.html",
+      "status": 200,
+      "bytes": 15478,
+      "matchesLocal": true
+    },
+    {
+      "path": "necklaces-by-year.html",
+      "status": 200,
+      "bytes": 49858,
+      "matchesLocal": true
+    },
+    {
+      "path": "reports/editorial-jewelry-preview.png",
+      "status": 200,
+      "bytes": 190869,
+      "matchesLocal": true
+    },
+    {
+      "path": "search.html",
+      "status": 200,
+      "bytes": 8326,
+      "matchesLocal": true
+    }
+  ],
+  "issues": [],
+  "browserVisualCheck": "Native vector renders and static checks only. No browser tab or phone viewport check.",
+  "retryAttempts": [
+    {
+      "priorIssues": [
+        {
+          "path": "item/no5.html",
+          "error": "IncompleteRead(6895 bytes read, 3459 more expected)",
+          "matchesLocal": false
+        }
+      ],
+      "results": [
+        {
+          "path": "item/no5.html",
+          "status": 200,
+          "bytes": 10354,
+          "matchesLocal": true
+        }
+      ]
+    }
+  ]
+}
