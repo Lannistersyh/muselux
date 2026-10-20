@@ -1,0 +1,258 @@
+{
+  "checkedAt": "2026-10-20",
+  "scope": "All 12 journal covers redesigned as separate thematic vector compositions",
+  "passed": true,
+  "covers": 12,
+  "distinctGeometryCompositions": 12,
+  "nativeRasterRendered": 12,
+  "visualReview": "All 12rendered covers inspected as a contact sheet; the first-purchase title clearance and jewelry panther silhouette were revised and inspected again.",
+  "renderer": "Bundled Sharp/libvips SVG renderer; native render only, no web browser",
+  "browserRunPerformed": false,
+  "ownedTabsOpened": 0,
+  "productCatalogPreserved": [
+    "items",
+    "brands",
+    "categories",
+    "bagYears",
+    "necklaceYears",
+    "jewelryYears"
+  ],
+  "articleDataDecoded": 12,
+  "staticPagesChecked": 183,
+  "runtimeJavaScriptBytes": 42314,
+  "articleImageAspectRatio": "3:2, without the former desktop max-height crop",
+  "assetCachePolicy": "Content digest in stylesheet and script URLs; new unique cover filenames",
+  "preview": "reports/editorial-jewelry-preview.png",
+  "checks": [
+    {
+      "article": "mag-01",
+      "scene": "first-love",
+      "cover": "assets/img/journal/mag-01-first-love.svg",
+      "alt": "靛蓝手袋与生活清单、钥匙组成的日常选包静物插画",
+      "viewBox": [
+        0,
+        0,
+        1200,
+        800
+      ],
+      "sha256": "1ac013f7da35649f264e3d59b0bbf7d0589970fde20613a536217e932e453439",
+      "geometrySha256": "0499af4485afabc9d6c3548bdecd6527d99dd05bb01702bfbb27811542f9a2d9",
+      "rasterRenderedAt": [
+        500,
+        333
+      ],
+      "visuallyReviewed": true
+    },
+    {
+      "article": "mag-02",
+      "scene": "two-rhythms",
+      "cover": "assets/img/journal/mag-02-two-rhythms.svg",
+      "alt": "以建筑制图构图比较双提手与单提手手袋结构的插画",
+      "viewBox": [
+        0,
+        0,
+        1200,
+        800
+      ],
+      "sha256": "81886b92a946abc0e389748509f907a7fe6ce4151fd06c47da169b20a8c83d79",
+      "geometrySha256": "097c68f64bfa79db64b0995647ff241789afe0dadc4cb9912991cfb72abf6a77",
+      "rasterRenderedAt": [
+        500,
+        333
+      ],
+      "visuallyReviewed": true
+    },
+    {
+      "article": "mag-03",
+      "scene": "jewelry-alphabet",
+      "cover": "assets/img/journal/mag-03-jewelry-alphabet.svg",
+      "alt": "螺钉、猎豹、四叶草、灵蛇与钥匙组成的五种珠宝符号图谱",
+      "viewBox": [
+        0,
+        0,
+        1200,
+        800
+      ],
+      "sha256": "0af163086ce0ffc8b7e2d22d05d560fad8549013db8527ea0a6f088a3a1b6585",
+      "geometrySha256": "61062f68ad096c6e12156d0e90ac8af15d03e1b09727d0fa3ee9aff94866a21c",
+      "rasterRenderedAt": [
+        500,
+        333
+      ],
+      "visuallyReviewed": true
+    },
+    {
+      "article": "mag-04",
+      "scene": "held-light",
+      "cover": "assets/img/journal/mag-04-held-light.svg",
+      "alt": "深海蓝背景上的贝壳与不同尺寸的浅色、深色珍珠光泽研究",
+      "viewBox": [
+        0,
+        0,
+        1200,
+        800
+      ],
+      "sha256": "b422c76d69c63f91a25378e6b0613657f16144e1b553142f9d21dad299aa275f",
+      "geometrySha256": "94d562d95611dfa6d9b9e9078cc925be345299e7b83a938807d117fb56006b58",
+      "rasterRenderedAt": [
+        500,
+        333
+      ],
+      "visuallyReviewed": true
+    },
+    {
+      "article": "mag-05",
+      "scene": "matter-of-metal",
+      "cover": "assets/img/journal/mag-05-matter-of-metal.svg",
+      "alt": "深蓝底上黄金、铂金与玫瑰金三道弯曲金属切面的材质插画",
+      "viewBox": [
+        0,
+        0,
+        1200,
+        800
+      ],
+      "sha256": "84189e2ce924ae6552d084cf84f2cac3e93661d6d859696954375e255157a63b",
+      "geometrySha256": "b72190589b935755746931b4bd6c66196305d3602ceb44436c3313efab045a98",
+      "rasterRenderedAt": [
+        500,
+        333
+      ],
+      "visuallyReviewed": true
+    },
+    {
+      "article": "mag-06",
+      "scene": "surface-stories",
+      "cover": "assets/img/journal/mag-06-surface-stories.svg",
+      "alt": "赤陶背景上不同纹理、色调与柔软程度的皮革样片插画",
+      "viewBox": [
+        0,
+        0,
+        1200,
+        800
+      ],
+      "sha256": "c7461bd60371ca362d7572a9a3aacf61a5e995a09c77888e01625ad7b19e64c6",
+      "geometrySha256": "e5079dda41e06c2683d3e56f0a322ea20b942b0bcde1d3b03b40290941e871dc",
+      "rasterRenderedAt": [
+        500,
+        333
+      ],
+      "visuallyReviewed": true
+    },
+    {
+      "article": "mag-07",
+      "scene": "one-square",
+      "cover": "assets/img/journal/mag-07-one-square.svg",
+      "alt": "淡紫背景上橙蓝格纹丝巾盘旋成结的动感插画",
+      "viewBox": [
+        0,
+        0,
+        1200,
+        800
+      ],
+      "sha256": "f0dfadd24ae7e837d532ca65611ec509242572af70b522e072b06c00b5bc1f43",
+      "geometrySha256": "6c47984c0b2bea233816eabd20c864d0f7088b08a71413b9d33c563be986a626",
+      "rasterRenderedAt": [
+        500,
+        333
+      ],
+      "visuallyReviewed": true
+    },
+    {
+      "article": "mag-08",
+      "scene": "second-chapter",
+      "cover": "assets/img/journal/mag-08-second-chapter.svg",
+      "alt": "酒红色档案桌面上的旧手袋、来源标签与检查缝线的放大镜",
+      "viewBox": [
+        0,
+        0,
+        1200,
+        800
+      ],
+      "sha256": "a1d56cd2cf390f328b38b983417f325eebd8ee32ff99e31dd43b125da016530e",
+      "geometrySha256": "096bfacaf3be5368e8c410954a030af11c9fe17ae02ff49367180b867b63db9f",
+      "rasterRenderedAt": [
+        500,
+        333
+      ],
+      "visuallyReviewed": true
+    },
+    {
+      "article": "mag-09",
+      "scene": "time-on-your-terms",
+      "cover": "assets/img/journal/mag-09-time-on-your-terms.svg",
+      "alt": "奶油色大幅表盘与机械、石英及连接信号三种时间符号",
+      "viewBox": [
+        0,
+        0,
+        1200,
+        800
+      ],
+      "sha256": "bcf7c71196640d10ea163ad8ab1cf7a00026fffcd3659c1f43e5842490b535db",
+      "geometrySha256": "875c2a8f1ebc5521cb3c6f602a58438120e49d67d5c52b13b3146c7fa03bfd49",
+      "rasterRenderedAt": [
+        500,
+        333
+      ],
+      "visuallyReviewed": true
+    },
+    {
+      "article": "mag-10",
+      "scene": "care-ritual",
+      "cover": "assets/img/journal/mag-10-care-ritual.svg",
+      "alt": "鼠尾草绿桌面上分格首饰盘、软布、珍珠、链条与养护刷的静物插画",
+      "viewBox": [
+        0,
+        0,
+        1200,
+        800
+      ],
+      "sha256": "4193419adf8e7008d69c3ba0bf24bab3fb124f1ebeba42033f5dc0a270366cf4",
+      "geometrySha256": "86b1363055b4b0204edbb53f07fc1b7817922497d1ee1fadd2c788df515bc0fe",
+      "rasterRenderedAt": [
+        500,
+        333
+      ],
+      "visuallyReviewed": true
+    },
+    {
+      "article": "mag-11",
+      "scene": "the-thought-counts",
+      "cover": "assets/img/journal/mag-11-the-thought-counts.svg",
+      "alt": "粉杏色背景上三种不同包装与手写卡片组成的礼物静物",
+      "viewBox": [
+        0,
+        0,
+        1200,
+        800
+      ],
+      "sha256": "ce4e1d9846509ac8455a059f15183e647e6c2e1836050076be1478ea605eb85b",
+      "geometrySha256": "df47461f97caeac20696c4aeb8f0cf8954d844ff189f850fda70b4c1c9b55379",
+      "rasterRenderedAt": [
+        500,
+        333
+      ],
+      "visuallyReviewed": true
+    },
+    {
+      "article": "mag-12",
+      "scene": "scent-is-memory",
+      "cover": "assets/img/journal/mag-12-scent-is-memory.svg",
+      "alt": "浅黄色背景上玻璃香水瓶、植物与三张试香纸组成的气味研究",
+      "viewBox": [
+        0,
+        0,
+        1200,
+        800
+      ],
+      "sha256": "fab5789bf1b4bac42699ab06dafd60d8215d19bd212f6baa46ced5dc927e5bbf",
+      "geometrySha256": "8ac9c4ac5fee24c2df209769f0fe7cd9eea96a543f08929a98348961dfb42ae2",
+      "rasterRenderedAt": [
+        500,
+        333
+      ],
+      "visuallyReviewed": true
+    }
+  ],
+  "versionedAssetReferencesChecked": 728,
+  "nested404PreloadGuardPreserved": true
+}

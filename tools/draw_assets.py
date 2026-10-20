@@ -1,6 +1,7 @@
 """Original, deliberately non-photographic SVG illustrations. No network assets."""
 from pathlib import Path
 import json,html,math
+import draw_journal_covers
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'assets/img'
 D=json.loads((ROOT/'tools/content.json').read_text())
@@ -46,7 +47,7 @@ def image(path,label,cat,shape,number=''):
     text=f'''<rect x="28" y="28" width="664" height="424" fill="none" stroke="{ink}" stroke-opacity=".35" stroke-width=".6"/><path d="M53 57h34m546 366h34" stroke="{ink}" stroke-width=".7"/><text x="56" y="76" font-family="Arial,sans-serif" font-size="9" fill="{ink}" letter-spacing="2.6">MUSELUX / THE ILLUSTRATED ATLAS</text><text x="664" y="76" font-family="Georgia" font-size="13" fill="{ink}" text-anchor="end">{number}</text><text x="360" y="421" font-family="Georgia,serif" font-size="15" fill="{ink}" text-anchor="middle" letter-spacing="3">{html.escape(label.upper())}</text>'''
     OUT.joinpath(path).write_text(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480">{DEFS}<rect width="720" height="480" fill="{bg}"/><circle cx="580" cy="110" r="200" fill="none" stroke="{ink}" opacity=".07"/><path d="M0 384H720" stroke="{ink}" opacity=".14"/>{shape}{text}</svg>')
 
-for idx,x in enumerate(D['items']):
+for idx,x in enumerate(x for x in D['items'] if not x.get('styleEdit')):
     cat=x['category']
     shape=bag(variant='woven' if x['id']=='jodie' else 'flap' if x['id'] in ['chanel-255','classic-flap','boy','classic-box','baguette'] else 'satchel') if cat=='bags' else necklace() if cat=='necklace' else rings() if cat=='jewelry' else watch() if cat=='watches' else scarf() if cat=='scarves' else bottle()
     if x['id']=='horsebit-loafer':
@@ -55,12 +56,10 @@ for idx,x in enumerate(D['items']):
         shape='''<ellipse cx="360" cy="338" rx="185" ry="20" fill="#000" opacity=".2" filter="url(#shadow)"/><path d="M205 207 299 129q21-16 53-3m154 84 66-68q15-12 30-1" fill="none" stroke="#8a7564" stroke-width="13"/><ellipse cx="266" cy="264" rx="93" ry="58" fill="#a37c57" stroke="#d1aa77" stroke-width="14" transform="rotate(12 266 264)"/><ellipse cx="457" cy="264" rx="93" ry="58" fill="#a37c57" stroke="#d1aa77" stroke-width="14" transform="rotate(-12 457 264)"/><path d="M355 252q8-9 15 0" fill="none" stroke="#d1aa77" stroke-width="12"/><path d="m193 239 98 50m110-48 80 45" stroke="#e9d1a7" stroke-width="13" opacity=".2"/><path d="m175 232 10-4m354 4 10 4" stroke="url(#gold)" stroke-width="8"/>'''
     image(x['id']+'.svg',x['name'],cat,shape,f'{idx+1:02}')
 
-shapes=[bag(),bag()+ '<g transform="translate(260 95) scale(.56)">'+bag(variant='flap')+'</g>',rings(),necklace(True),rings(),leather(),scarf(),bag(),watch(),'<g transform="translate(75 30) scale(.82)">'+rings()+'</g>',gift(),bottle()]
-labels=['THE FIRST CHAPTER','TWO EVERYDAY ICONS','A LANGUAGE OF SYMBOLS','THE QUIET GLOW','A STUDY IN METAL','THE FEEL OF LEATHER','A SQUARE OF POSSIBILITIES','STORIES WITH A PAST','TIME, SLOWLY','THE ART OF CARING','A THOUGHTFUL LITTLE GIFT','A MEMORY IN NOTES']
-for idx,a in enumerate(D['articles']):
-    image('mag-'+f'{idx+1:02}'+'.svg',labels[idx],a['category'],shapes[idx],f'JOURNAL {idx+1:02}')
+# Journal scenes have their own art direction; do not map by product category.
+draw_journal_covers.draw_covers(D['articles'])
 
 hero=f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 800">{DEFS}<defs><linearGradient id="heroWall" x2="1" y2=".4"><stop stop-color="#f3ede5"/><stop offset=".45" stop-color="#eee3d7"/><stop offset="1" stop-color="#d7c4b2"/></linearGradient><linearGradient id="plinth" y2="1" x2=".2"><stop stop-color="#e9ded2"/><stop offset="1" stop-color="#c5ad97"/></linearGradient><radialGradient id="light"><stop stop-color="#fffdf7" stop-opacity=".8"/><stop offset="1" stop-color="#fffaf1" stop-opacity="0"/></radialGradient><linearGradient id="shadowWall"><stop stop-color="#b39a83" stop-opacity="0"/><stop offset="1" stop-color="#a8896c" stop-opacity=".12"/></linearGradient></defs><rect width="1500" height="800" fill="url(#heroWall)"/><ellipse cx="340" cy="110" rx="840" ry="700" fill="url(#light)"/><path d="M1317-70 770 800h730V0Z" fill="url(#shadowWall)"/><path d="M0 681h1500v119H0Z" fill="#d8c5b0" fill-opacity=".22"/><path d="M0 681h1500" stroke="#c2ad99" stroke-opacity=".25"/><ellipse cx="1125" cy="684" rx="336" ry="38" fill="#7b6250" opacity=".13" filter="url(#shadow)"/><path d="M898 518h406v172H898Z" fill="url(#plinth)"/><path d="m898 518 71-42h400l-65 42Z" fill="#f1e6db"/><path d="m1304 518 65-42v174l-65 40Z" fill="#bfa68f"/><path d="M901 520h400" stroke="#fff6ea" stroke-width="2"/><g transform="translate(573 -35) scale(1.48)">{bag()}</g><g transform="translate(552 340) scale(.73)">{bag(fill='url(#dark)',variant='flap')}</g><g transform="translate(1115 493) scale(.47)">{scarf()}</g><path d="M1270 219q74 53 92 124t-10 96" fill="none" stroke="#b4965a" stroke-width="2"/><circle cx="1352" cy="441" r="16" fill="none" stroke="url(#gold)" stroke-width="5"/><path d="m1336 441h32m-16-16v32" stroke="#e7d1a4" stroke-width=".8"/><path d="M889 118h44m-22-22v44" stroke="#fff8e7" stroke-width="1.2" opacity=".6"/><text x="1392" y="85" text-anchor="end" font-family="Georgia" font-size="13" letter-spacing="3" fill="#796955">THE EVERYDAY ICONS</text><text x="1392" y="108" text-anchor="end" font-family="Arial" font-size="8" letter-spacing="2.5" fill="#8e7c66">AN ILLUSTRATED STUDY · NO. 01</text></svg>'''
 (OUT/'hero.svg').write_text(hero)
 (OUT/'favicon.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#faf8f5"/><text x="10" y="47" font-family="Georgia" font-style="italic" font-size="49" fill="#1f1c1a">m</text><circle cx="54" cy="19" r="4" fill="#c98a8e"/></svg>')
-print('Drew',len(list(OUT.glob('*.svg'))),'local SVG assets')
+print('Drew',len(list(OUT.rglob('*.svg'))),'local SVG assets')

@@ -62,9 +62,15 @@ reports/        验收记录、页面清单、商品来源清单和预览截图
 
 SVG 表达的是概念、轮廓与阅读气氛，不代表产品实际外观，不能用于真伪判断。The Style Edit 的 24 张照片下载自所列品牌的官方商品图片，未经过生成式改绘；颜色、型号与图源一同记录于 `tools/research/` 和 `reports/product-sources.json`。年度照片的来源与权利记录分别见 `reports/bag-yearbook-sources.json` 和 `reports/jewel-yearbook-sources.json`。照片版权归品牌或相应权利人；公开可见和署名本身不等于开放许可，本站不宣称品牌授权或合作。后续替换请保留来源和权利依据。
 
-替换图片后保留宽高信息与描述性 alt；如改变文件名，请同步修改内容数据或生成模板。插画源脚本在 `tools/draw_assets.py`。
+替换图片后保留宽高信息与描述性 alt；如改变文件名，请同步修改内容数据或生成模板。基础词典插画源脚本在 `tools/draw_assets.py`；12 张杂志封面由 `tools/draw_journal_covers.py` 独立维护。
 
 Oswald 和 Raleway 已本地保存，附 SIL Open Font License。中文标题优先使用 Noto Serif SC，未安装时回退到 macOS 宋体 / STSong / SimSun / serif；正文使用系统中文字体。无需连接 Google Fonts 服务。
+
+## 杂志专题封面
+
+12 篇文章各有独立构图，保存在 `assets/img/journal/`：选包生活清单、双包结构比较、五种珠宝符号、贝壳与珍珠、三种金属切面、皮革样片、流动丝巾、Vintage 档案、放大表盘、收纳养护静物、三种礼物包装和香气试纸。保留共同的字体与刊物标识，主体、配色和叙事随文章变化。插画为原创概念视觉，实物商品照片继续单独署名。
+
+修改封面构图后执行 `python3 tools/draw_journal_covers.py`，再生成和校验网站；此脚本只更新 12 张文章封面及对应 `cover` / `coverAlt` / `coverScene` 字段。基础插画生成器也调用同一封面模块，避免后续重新生成时退回重复双环。正文页完整显示 3:2 画面，CSS 与脚本 URL 使用内容摘要，更新后浏览器可取得新资源。
 
 ## 内容边界与参考资料
 

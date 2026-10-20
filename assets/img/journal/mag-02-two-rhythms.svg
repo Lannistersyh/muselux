@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc" data-scene="two-rhythms"><title id="title">FORM &amp; FUNCTION</title><desc id="desc">以建筑制图构图比较双提手与单提手手袋结构的插画。原创专题概念插画，不代表具体产品实物。</desc><defs>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8c622d"/><stop offset=".26" stop-color="#f3d99c"/><stop offset=".48" stop-color="#bc8c43"/><stop offset=".73" stop-color="#fff0c4"/><stop offset="1" stop-color="#ac7837"/></linearGradient>
+<linearGradient id="silver" x1="0" y1="0" x2="1" y2=".7"><stop stop-color="#63767d"/><stop offset=".25" stop-color="#f4f7f6"/><stop offset=".46" stop-color="#a4b3b6"/><stop offset=".72" stop-color="#fff"/><stop offset="1" stop-color="#859da5"/></linearGradient>
+<linearGradient id="rose" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a46c58"/><stop offset=".27" stop-color="#f0bea3"/><stop offset=".5" stop-color="#bf826c"/><stop offset=".75" stop-color="#f8ddc8"/><stop offset="1" stop-color="#9f6355"/></linearGradient>
+<radialGradient id="pearl" cx=".31" cy=".25"><stop stop-color="#fffdf7"/><stop offset=".25" stop-color="#f9f3e6"/><stop offset=".63" stop-color="#dfd7c9"/><stop offset="1" stop-color="#9c9e98"/></radialGradient>
+<radialGradient id="black-pearl" cx=".3" cy=".25"><stop stop-color="#c6d0bf"/><stop offset=".35" stop-color="#607a75"/><stop offset=".65" stop-color="#3d5258"/><stop offset="1" stop-color="#172f38"/></radialGradient>
+<linearGradient id="leather" x2="1" y2="1"><stop stop-color="#d3a785"/><stop offset="1" stop-color="#a37755"/></linearGradient>
+<pattern id="grain" width="30" height="24" patternUnits="userSpaceOnUse"><path d="M2 5q8-9 15-1m-3 7q10-7 15 1M0 20q7-9 15-3m10 6 4-3" fill="none" stroke="#553c2e" stroke-width="1.2" opacity=".28"/></pattern>
+<pattern id="pinstripe" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M2 0v16" stroke="#b4bca8" stroke-width="2"/></pattern>
+<pattern id="scarf-check" width="120" height="120" patternUnits="userSpaceOnUse" patternTransform="rotate(16)"><rect width="120" height="120" fill="#acb7d6"/><path d="M0 20h120M0 80h120M20 0v120M80 0v120" stroke="#f0e0c8" stroke-width="16"/><path d="M0 45h120M45 0v120" stroke="#392d66" stroke-width="8"/><path d="M0 102h120M102 0v120" stroke="#e9663e" stroke-width="5"/></pattern>
+</defs><rect width="1200" height="800" fill="#f4efe4"/><rect x="600" width="600" height="800" fill="#d8dfd0"/><path d="M600 96v620" stroke="#71816e" stroke-dasharray="2 9"/><text x="64" y="180" font-family="Georgia, serif" font-size="69" fill="#243538">Two structures.</text><text x="650" y="180" font-family="Georgia, serif" font-size="69" fill="#243538">Two rhythms.</text><path d="M114 425h360l32 230H86Z" fill="#e0c8a6" stroke="#846f50" stroke-width="2"/>
+<path d="M177 436V338q0-72 47-72t47 72v90m45 0v-90q0-72 47-72t47 72v90" fill="none" stroke="#8f7452" stroke-width="13"/>
+<path d="m123 442 345 0-23 87H142Z" fill="#ebd9bf" stroke="#987d5d"/>
+<path d="M103 543h386M181 441v143m213-143v143" stroke="#b99a73" stroke-width="16"/>
+<rect x="272" y="534" width="46" height="30" fill="url(#gold)"/>
+<path d="M698 401h351l42 260H660Z" fill="#4e6356" stroke="#2d4138" stroke-width="2"/>
+<path d="M797 414V330q0-66 51-66t51 66v84" fill="none" stroke="#2e4438" stroke-width="14"/>
+<path d="M705 415h333l-43 102H743Z" fill="#687c69" stroke="#2c4436"/>
+<path d="M704 528h342" stroke="#a7af85" stroke-width="15"/>
+<rect x="854" y="515" width="42" height="29" fill="url(#gold)"/>
+<path d="M1038 422q90-46 99 40t-66 157" fill="none" stroke="#344d3d" stroke-width="11"/>
+<path d="M72 686h450m-450-11v22m450-22v22M642 686h485m-485-11v22m485-22v22" stroke="#9b9a7e"/><text x="300" y="742" font-family="Arial, sans-serif" font-size="17" fill="#243538" letter-spacing="2.4" text-anchor="middle">BIRKIN / TWO HANDLES</text><text x="890" y="742" font-family="Arial, sans-serif" font-size="17" fill="#243538" letter-spacing="1.8" text-anchor="middle">KELLY / ONE HANDLE + STRAP</text><text x="44" y="51" font-family="Arial, sans-serif" font-size="13" fill="#536052" letter-spacing="2.8">MUSELUX / THE JOURNAL</text><text x="1156" y="51" font-family="Arial, sans-serif" font-size="13" fill="#536052" letter-spacing="1.8" text-anchor="end">02 / FORM &amp; FUNCTION</text></svg>

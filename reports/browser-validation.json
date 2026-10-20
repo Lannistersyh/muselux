@@ -19,5 +19,14 @@
   "staticReport": "static-validation.json",
   "domInteractionReport": "jewel-yearbook-dom-validation.json",
   "imageReport": "jewel-yearbook-image-validation.json",
-  "userSelectedFlow": "Static checks and publication first; limited editions and labelled collaboration/seasonal capsules accepted."
+  "userSelectedFlow": "Static checks and publication first; limited editions and labelled collaboration/seasonal capsules accepted.",
+  "latestEditorialUpdate": {
+    "date": "2026-10-20",
+    "covers": 12,
+    "freshStaticPages": 183,
+    "nativeRasterRendered": 12,
+    "browserRunPerformed": false,
+    "report": "editorial-cover-validation.json",
+    "interactionChecks": "The earlier 111yearbook DOM assertions are retained as prior evidence; interaction source files did not change."
+  }
 }

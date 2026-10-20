@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc" data-scene="one-square"><title id="title">A SQUARE OF POSSIBILITIES</title><desc id="desc">淡紫背景上橙蓝格纹丝巾盘旋成结的动感插画。原创专题概念插画，不代表具体产品实物。</desc><defs>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8c622d"/><stop offset=".26" stop-color="#f3d99c"/><stop offset=".48" stop-color="#bc8c43"/><stop offset=".73" stop-color="#fff0c4"/><stop offset="1" stop-color="#ac7837"/></linearGradient>
+<linearGradient id="silver" x1="0" y1="0" x2="1" y2=".7"><stop stop-color="#63767d"/><stop offset=".25" stop-color="#f4f7f6"/><stop offset=".46" stop-color="#a4b3b6"/><stop offset=".72" stop-color="#fff"/><stop offset="1" stop-color="#859da5"/></linearGradient>
+<linearGradient id="rose" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a46c58"/><stop offset=".27" stop-color="#f0bea3"/><stop offset=".5" stop-color="#bf826c"/><stop offset=".75" stop-color="#f8ddc8"/><stop offset="1" stop-color="#9f6355"/></linearGradient>
+<radialGradient id="pearl" cx=".31" cy=".25"><stop stop-color="#fffdf7"/><stop offset=".25" stop-color="#f9f3e6"/><stop offset=".63" stop-color="#dfd7c9"/><stop offset="1" stop-color="#9c9e98"/></radialGradient>
+<radialGradient id="black-pearl" cx=".3" cy=".25"><stop stop-color="#c6d0bf"/><stop offset=".35" stop-color="#607a75"/><stop offset=".65" stop-color="#3d5258"/><stop offset="1" stop-color="#172f38"/></radialGradient>
+<linearGradient id="leather" x2="1" y2="1"><stop stop-color="#d3a785"/><stop offset="1" stop-color="#a37755"/></linearGradient>
+<pattern id="grain" width="30" height="24" patternUnits="userSpaceOnUse"><path d="M2 5q8-9 15-1m-3 7q10-7 15 1M0 20q7-9 15-3m10 6 4-3" fill="none" stroke="#553c2e" stroke-width="1.2" opacity=".28"/></pattern>
+<pattern id="pinstripe" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M2 0v16" stroke="#b4bca8" stroke-width="2"/></pattern>
+<pattern id="scarf-check" width="120" height="120" patternUnits="userSpaceOnUse" patternTransform="rotate(16)"><rect width="120" height="120" fill="#acb7d6"/><path d="M0 20h120M0 80h120M20 0v120M80 0v120" stroke="#f0e0c8" stroke-width="16"/><path d="M0 45h120M45 0v120" stroke="#392d66" stroke-width="8"/><path d="M0 102h120M102 0v120" stroke="#e9663e" stroke-width="5"/></pattern>
+</defs><rect width="1200" height="800" fill="#e0def0"/><text x="63" y="171" font-family="Georgia, serif" font-size="84" fill="#372c62">One square.</text><text x="65" y="254" font-family="Georgia, serif" font-size="84" fill="#372c62">Many lives.</text><path d="M193 586q173-276 431-103t362-108l72 90q-161 280-445 104T248 707Z" fill="#7c81aa" opacity=".22"/>
+<path d="M177 554q174-287 441-104t371-125l80 107q-148 319-467 120T248 687Z" fill="url(#scarf-check)"/>
+<path d="M176 554q174-287 442-104t371-125" fill="none" stroke="#ece2c7" stroke-width="8"/>
+<path d="M248 687q55-331 354-135t467-120" fill="none" stroke="#e66c43" stroke-width="9"/>
+<path d="M577 401q-90-167-118-84t101 162m51-31q170-141 184-52t-166 129" fill="none" stroke="#372d65" stroke-width="54"/>
+<path d="M577 401q-90-167-118-84t101 162m51-31q170-141 184-52t-166 129" fill="none" stroke="#eb9b70" stroke-width="32"/>
+<path d="m568 445 73-25 41 86-81 28Z" fill="#e16b41"/>
+<path d="m566 448 110 52" stroke="#f2cb9e" stroke-width="3"/>
+<path d="m574 506-68 253 80-33 42 40 2-237m11-24 156 202 11-61 63 1-172-178" fill="url(#scarf-check)" stroke="#e6d5bb" stroke-width="3"/><text x="70" y="748" font-family="Arial, sans-serif" font-size="15" fill="#453a6c" letter-spacing="3">TIE IT. FOLD IT. MAKE IT YOURS.</text><text x="44" y="51" font-family="Arial, sans-serif" font-size="13" fill="#536052" letter-spacing="2.8">MUSELUX / THE JOURNAL</text><text x="1156" y="51" font-family="Arial, sans-serif" font-size="13" fill="#536052" letter-spacing="1.8" text-anchor="end">07 / A SQUARE OF POSSIBILITIES</text></svg>

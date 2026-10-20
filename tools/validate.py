@@ -172,12 +172,20 @@ for category,annual_years in annual_books.items():
         for year in range(2022,2027):check(f'id="year-{year}"' in source,'Missing year panel: '+str(year))
 for f in pages:
     check(not re.search(r'人民币|[￥¥]|\d[\d,，.]*\s*元',f.read_text()),str(f.relative_to(ROOT))+': legacy RMB price remains')
+check(len({a['cover'] for a in D['articles']})==len(D['articles']),'Every journal article needs a separate cover')
+if any(a.get('coverScene') for a in D['articles']):
+    check(len({a.get('coverScene') for a in D['articles']})==len(D['articles']),'Repeated editorial scene')
+    for a in D['articles']:
+        check(bool(a.get('coverAlt')),a['id']+': cover description absent')
+        cover=(ROOT/a['cover']).read_text()
+        check('data-scene="'+a['coverScene']+'"' in cover,a['id']+': cover scene differs from data')
+        check('<image' not in cover and '<script' not in cover,a['id']+': journal art must remain a self-contained vector scene')
 for a in D['articles']:
     article_counts[a['id']]=cjk(a['body'])
     check(article_counts[a['id']]>=800,a['id']+': less than 800 Chinese characters')
     check(a['body'].count('<h2>')>=3,a['id']+': insufficient sections')
     check(bool(a['sources']),a['id']+': no reading sources')
-for svg in (ROOT/'assets/img').glob('*.svg'):
+for svg in (ROOT/'assets/img').rglob('*.svg'):
     try:ET.parse(svg)
     except Exception as ex:issues.append(str(svg)+': '+str(ex))
 jsbytes=sum(f.stat().st_size for f in (ROOT/'assets/js').glob('*.js'))
@@ -210,7 +218,7 @@ summary=dict(passed=not issues,pages=len(pages),brands=len(D['brands']),items=le
     photographedProducts=len(style_products)+len(annual_entries),productsPerCategory=dict(Counter(x['category'] for x in style_products)),
     currency='USD',coreSnapshotPrices=sum(x['priceStatus']=='official-snapshot' for x in style_products),
     unlistedAnnualPrices=sum(x['priceUSD'] is None for x in annual_entries),
-    svgAssets=len(list((ROOT/'assets/img').glob('*.svg'))),runtimeJavaScriptBytes=jsbytes,articleChineseCharacters=article_counts,issues=issues)
+    svgAssets=len(list((ROOT/'assets/img').rglob('*.svg'))),runtimeJavaScriptBytes=jsbytes,articleChineseCharacters=article_counts,issues=issues)
 (ROOT/'reports/static-validation.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(summary,ensure_ascii=False,indent=2))
 raise SystemExit(bool(issues))
