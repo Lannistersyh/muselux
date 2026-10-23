@@ -4,6 +4,7 @@ import json, html, re, gzip, base64, hashlib, unicodedata
 from urllib.parse import urlsplit
 import bag_yearbook
 import brand_catalog
+from datetime import date
 ROOT=Path(__file__).resolve().parents[1]
 SITE=json.loads((ROOT/'tools/site.json').read_text()) if (ROOT/'tools/site.json').exists() else {}
 SITE_URL=SITE.get('url','').rstrip('/')+'/' if SITE.get('url') else ''
@@ -17,6 +18,18 @@ ALL_ITEMS={x['id']:x for x in CATALOG}
 DISCLAIMER='MuseLux 是个人兴趣驱动的非商业内容项目，所有品牌名称与产品名称的权利归其权利人所有；价格信息仅为整理时的公开参考，请以品牌官方渠道为准。'
 ABOUT='MuseLux 是一个关于奢侈品的品味网站——把百年工坊的故事，讲成日常的向往。'
 e=html.escape
+def article_date(article):
+    return date.fromisoformat(article['date']).strftime('%Y.%m.%d')
+
+def json_script(value):
+    # A product name from an external source must not terminate the JSON-LD tag.
+    return json.dumps(value,ensure_ascii=False).replace('<','\\u003c')
+
+def review_span(products):
+    dates=sorted({date.fromisoformat(x['checkedAt']).isoformat() for x in products})
+    if not dates:raise ValueError('No reviewed products')
+    return bag_yearbook.date_label(dates[0]) if len(dates)==1 else bag_yearbook.date_label(dates[0])+'–'+bag_yearbook.date_label(dates[-1])
+
 def icon(name):
     paths={
       'arrow':'<path d="M4 12h16m-6-6 6 6-6 6"/>',
@@ -38,7 +51,7 @@ LOGO='''<svg class="logo" viewBox="0 0 210 78" role="img" aria-label="MuseLux，
 def card(x,kind='article',prefix='',big=False):
     if kind=='article':
         cat=C[x['category']]
-        return f'''<article class="story-card reveal{' feature-large' if big else ''}"><a class="card-image" href="{prefix}mag/{x['id']}.html" tabindex="-1" aria-hidden="true"><img src="{prefix}{x['cover']}" width="720" height="480" loading="lazy" alt="{e(x.get('coverAlt') or x['title'].split('｜')[0]+'的原创专题插画')}"></a><div class="card-body"><div class="card-kicker"><a class="tag" href="{prefix}cat/{cat['id']}.html">{cat['nameZh']}</a><span class="eyebrow">THE JOURNAL</span></div><h3><a href="{prefix}mag/{x['id']}.html">{e(x['title'])}</a></h3><p class="card-excerpt">{e(x['excerpt'])}</p><div class="card-meta"><time datetime="{x['date']}">2026.10.19</time><span>约 {x['readMins']} 分钟</span><span class="card-arrow">↗</span></div></div></article>'''
+        return f'''<article class="story-card reveal{' feature-large' if big else ''}"><a class="card-image" href="{prefix}mag/{x['id']}.html" tabindex="-1" aria-hidden="true"><img src="{prefix}{x['cover']}" width="720" height="480" loading="lazy" alt="{e(x.get('coverAlt') or x['title'].split('｜')[0]+'的原创专题插画')}"></a><div class="card-body"><div class="card-kicker"><a class="tag" href="{prefix}cat/{cat['id']}.html">{cat['nameZh']}</a><span class="eyebrow">THE JOURNAL</span></div><h3><a href="{prefix}mag/{x['id']}.html">{e(x['title'])}</a></h3><p class="card-excerpt">{e(x['excerpt'])}</p><div class="card-meta"><time datetime="{x['date']}">{article_date(x)}</time><span>约 {x['readMins']} 分钟</span><span class="card-arrow">↗</span></div></div></article>'''
     if x.get('styleEdit'):
         return stylecard(x,prefix)
     if x.get('annualEdit'):
@@ -47,25 +60,27 @@ def card(x,kind='article',prefix='',big=False):
     return f'''<article class="item-card reveal"><a href="{prefix}item/{x['id']}.html"><div class="item-image"><img src="{prefix}assets/img/{x['id']}.svg" width="720" height="480" loading="lazy" alt="{e(b['name']+' '+x['name']+' '+x['nameZh'])}的概念插画，非实物图"></div><div class="item-body"><span class="eyebrow">{e(b['name'])}</span><h3>{e(x['name'])}<span>{e(x['nameZh'])}</span></h3><p>{e(x['oneLiner'])}</p><span class="text-link">打开词条 <span>↗</span></span></div></a></article>'''
 
 def usd(amount):
-    return 'US$'+f'{amount:,.0f}'
+    return bag_yearbook.price_text({'priceUSD':amount})
 
 def stylecard(x,prefix=''):
     b=B[x['brand']]
     return f'''<article class="item-card product-card reveal" lang="en"><a href="{prefix}item/{x['id']}.html"><div class="product-image"><img src="{prefix}{x['image']}" width="{x['imageWidth']}" height="{x['imageHeight']}" loading="lazy" alt="{e(b['name']+' '+x['name']+' — '+x['color'])}"><span class="product-index">THE STYLE EDIT</span></div><div class="item-body"><span class="eyebrow">{e(b['name'])}</span><h3>{e(x['name'])}</h3><p>{e(x['oneLiner'])}</p><div class="product-card-bottom"><span class="product-price">{usd(x['priceUSD'])}</span><span class="product-open">Explore ↗</span></div><span class="product-price-note">U.S. reference · before tax</span>{'<span class="product-reference">'+e(x["priceContextEn"])+'</span>' if x["priceStatus"]=="official-snapshot" else ""}</div></a></article>'''
 
-def price_note():
-    return '<p class="edit-price-note" lang="en">USD references for the pictured variants, before tax. Sources reviewed 19 October 2026; dated official snapshots are labelled individually. Confirm the latest price and availability with the official U.S. store.</p>'
+def price_note(products=None):
+    products=products or [x for x in D['items'] if x.get('styleEdit')]
+    return '<p class="edit-price-note" lang="en">USD references for the pictured variants, before tax. Sources reviewed '+e(review_span(products))+'; dated official snapshots are labelled individually. Confirm the latest price and availability with the official U.S. store.</p>'
 
 def style_edit(prefix='',category=None):
     cats=[category] if category else D['categories']
-    groups=[]
+    groups=[];shown=[]
     for c in cats:
         products=[x for x in D['items'] if x.get('styleEdit') and x['category']==c['id']]
         if not products:continue
+        shown.extend(products)
         groups.append(f'''<div class="edit-panel" id="edit-{c['id']}" data-edit-panel="{c['id']}"><div class="edit-panel-heading" lang="en"><h3>{e(c['nameEn'].title())}</h3><p>{e(c.get('editIntro','Four considered pieces, with design notes and U.S. reference prices.'))}</p></div><div class="product-grid">{''.join(stylecard(x,prefix) for x in products)}</div></div>''')
     if not groups:return ''
     tabs='' if category else '<div class="edit-tabs" hidden role="group" aria-label="Choose a product category">'+''.join(f'<button type="button" data-edit="{c["id"]}" aria-controls="edit-{c["id"]}" aria-pressed="true">{e(c["nameEn"].title())} <span>{c["nameZh"]}</span></button>' for c in cats)+'</div>'
-    return f'''<section class="style-edit{' section' if not category else ''}" id="style-edit">{sectionhead('REAL PIECES. CONSIDERED DETAILS.','The Style Edit')}<p class="section-intro" lang="en">A closer look at beautiful things. Discover the shapes, materials and details behind each piece.</p>{tabs}{''.join(groups)}{price_note()}</section>'''
+    return f'''<section class="style-edit{' section' if not category else ''}" id="style-edit">{sectionhead('REAL PIECES. CONSIDERED DETAILS.','The Style Edit')}<p class="section-intro" lang="en">A closer look at beautiful things. Discover the shapes, materials and details behind each piece.</p>{tabs}{''.join(groups)}{price_note(shown)}</section>'''
 
 def edit_hero(cats):
     x=next(x for x in D['items'] if x.get('styleEdit') and x['category']=='bags')
@@ -77,7 +92,7 @@ def productpage(x):
     specs=[('Reference',x['reference']),('Colour / finish',x['color']),('Size / format',' · '.join(x['sizes'])),('Materials / notes',' · '.join(x['materials']))]
     siblings=[i for i in D['items'] if i.get('styleEdit') and i['category']==x['category'] and i['id']!=x['id']]
     archive=f'<a class="text-link" href="{x["parentItem"]}.html">Read the collection story ↗</a>' if x.get('parentItem') else ''
-    content=f'''<div class="container product-detail"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a><span>/</span><a href="../cat/{c['id']}.html">{e(c['nameEn'].title())}</a><span>/</span><span aria-current="page">The Style Edit</span></nav><section class="product-opening" lang="en"><figure class="product-photo"><img src="../{x['image']}" width="{x['imageWidth']}" height="{x['imageHeight']}" alt="{e(b['name']+' '+x['name']+' — '+x['color'])}" fetchpriority="high"><figcaption>{e(x['imageCredit'])} · Official product photograph</figcaption></figure><div class="product-heading"><a class="eyebrow rose-text" href="../brand/{b['id']}.html">{e(b['name'])} ↗</a><h1>{e(x['name'])}</h1><p class="product-subtitle">{e(x['color'])} · Ref. {e(x['reference'])}</p><p class="product-lede">{e(x['oneLiner'])}</p><div class="product-price-box"><span class="eyebrow">U.S. RETAIL REFERENCE</span><p class="product-detail-price">{usd(x['priceUSD'])}</p><p>Before tax · pictured reference only</p><p class="price-context">{e(x['priceContextEn'])}</p></div><a class="button button-dark official-link" href="{e(x['source'])}" target="_blank" rel="noopener">View at {e(b['name'])} ↗</a><p class="official-note">Official source for the pictured variant. Confirm the latest price and availability with the brand.</p></div></section><div class="product-notes" lang="en"><article class="prose product-prose"><p class="eyebrow rose-text">FORM / MATERIAL / EVERYDAY</p><h2>Design notes</h2><p>{e(x['introEn'])}</p><h2>Three details to notice</h2><ul>{''.join('<li>'+e(f)+'</li>' for f in x['featuresEn'])}</ul><h2>{'How to wear it' if x['category']!='fragrance' else 'The mood'}</h2><p>{e(x['stylingEn'])}</p>{archive}</article><aside class="spec-panel product-spec"><p class="eyebrow">THE PARTICULARS</p><h2>At a glance</h2><dl>{''.join(f'<div><dt>{label}</dt><dd>{e(value)}</dd></div>' for label,value in specs)}</dl><p class="product-source-note">Price applies to this reference and format. {e(x['priceLabel'])}. Product specifications and imagery are credited to {e(b['name'])}; the introduction and styling notes are original MuseLux editorial.</p><a class="source-link" href="{e(x['source'])}" target="_blank" rel="noopener">Official product &amp; price source ↗</a><a class="source-link" href="{e(x['imageSource'])}" target="_blank" rel="noopener">Original image source ↗</a></aside></div><section class="section">{sectionhead('CONTINUE THE EDIT','More to discover')}<div class="product-grid">{''.join(stylecard(i,'../') for i in siblings)}</div>{price_note()}</section></div>'''
+    content=f'''<div class="container product-detail"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a><span>/</span><a href="../cat/{c['id']}.html">{e(c['nameEn'].title())}</a><span>/</span><span aria-current="page">The Style Edit</span></nav><section class="product-opening" lang="en"><figure class="product-photo"><img src="../{x['image']}" width="{x['imageWidth']}" height="{x['imageHeight']}" alt="{e(b['name']+' '+x['name']+' — '+x['color'])}" fetchpriority="high"><figcaption>{e(x['imageCredit'])} · Official product photograph</figcaption></figure><div class="product-heading"><a class="eyebrow rose-text" href="../brand/{b['id']}.html">{e(b['name'])} ↗</a><h1>{e(x['name'])}</h1><p class="product-subtitle">{e(x['color'])} · Ref. {e(x['reference'])}</p><p class="product-lede">{e(x['oneLiner'])}</p><div class="product-price-box"><span class="eyebrow">U.S. RETAIL REFERENCE</span><p class="product-detail-price">{usd(x['priceUSD'])}</p><p>Before tax · pictured reference only</p><p class="price-context">{e(x['priceContextEn'])}</p></div><a class="button button-dark official-link" href="{e(x['source'])}" target="_blank" rel="noopener">View at {e(b['name'])} ↗</a><p class="official-note">Official source for the pictured variant. Confirm the latest price and availability with the brand.</p></div></section><div class="product-notes" lang="en"><article class="prose product-prose"><p class="eyebrow rose-text">FORM / MATERIAL / EVERYDAY</p><h2>Design notes</h2><p>{e(x['introEn'])}</p><h2>Three details to notice</h2><ul>{''.join('<li>'+e(f)+'</li>' for f in x['featuresEn'])}</ul><h2>{'How to wear it' if x['category']!='fragrance' else 'The mood'}</h2><p>{e(x['stylingEn'])}</p>{archive}</article><aside class="spec-panel product-spec"><p class="eyebrow">THE PARTICULARS</p><h2>At a glance</h2><dl>{''.join(f'<div><dt>{label}</dt><dd>{e(value)}</dd></div>' for label,value in specs)}</dl><p class="product-source-note">Price applies to this reference and format. {e(x['priceLabel'])}. Product specifications and imagery are credited to {e(b['name'])}; the introduction and styling notes are original MuseLux editorial.</p><a class="source-link" href="{e(x['source'])}" target="_blank" rel="noopener">Official product &amp; price source ↗</a><a class="source-link" href="{e(x['imageSource'])}" target="_blank" rel="noopener">Original image source ↗</a></aside></div><section class="section">{sectionhead('CONTINUE THE EDIT','More to discover')}<div class="product-grid">{''.join(stylecard(i,'../') for i in siblings)}</div>{price_note([x]+siblings)}</section></div>'''
     page('item/'+x['id']+'.html',b['name']+' '+x['name'],x['oneLiner'],content,'item',x['id'],product=x)
 
 def brandcard(b,prefix=''):
@@ -113,7 +128,7 @@ def page(path,title,desc,content,pagekind='generic',pageid='',article=None,produ
     if pagekind=='yearbook':
         structured={'@context':'https://schema.org','@type':'CollectionPage','name':title,'description':desc,'inLanguage':'en'}
     if article:
-        structured={'@context':'https://schema.org','@type':'Article','headline':article['title'],'datePublished':article['date'],'dateModified':article['date'],'inLanguage':'zh-CN','author':{'@type':'Organization','name':'MuseLux 编辑部'},'publisher':{'@type':'Organization','name':'MuseLux'},'description':article['excerpt']}
+        structured={'@context':'https://schema.org','@type':'Article','headline':article['title'],'datePublished':article['date'],'dateModified':article.get('updatedAt',article['date']),'inLanguage':'zh-CN','author':{'@type':'Organization','name':'MuseLux 编辑部'},'publisher':{'@type':'Organization','name':'MuseLux'},'description':article['excerpt']}
     if product:
         structured={'@context':'https://schema.org','@type':'Product','name':product['name'],'sku':product['reference'],'brand':{'@type':'Brand','name':product.get('brandName') or B[product['brand']]['name']},'description':product['oneLiner'],'image':SITE_URL+product['image'] if SITE_URL else '../'+product['image']}
     if canonical:
@@ -125,7 +140,7 @@ def page(path,title,desc,content,pagekind='generic',pageid='',article=None,produ
     footer=f'''<footer class="site-footer" lang="zh-CN"><div class="container footer-grid"><div><a class="footer-logo" href="{prefix}index.html">{LOGO}</a><p>{ABOUT}</p><span class="eyebrow">A LITTLE KNOWLEDGE. A LONG AFFECTION.</span></div><div><h2>慢慢探索</h2><div class="footer-links">{''.join(f'<a href="{prefix}cat/{c["id"]}.html">{c["nameZh"]}</a>' for c in D['categories'])}<a href="{prefix}bags-by-year.html">包袋年份 · 2022–26</a><a href="{prefix}necklaces-by-year.html">项链年份 · 2022–26</a><a href="{prefix}jewelry-by-year.html">首饰年份 · 2022–26</a><a href="{prefix}brands.html">品牌索引</a><a href="{prefix}search.html">站内搜索</a><a href="{prefix}about.html">关于本站</a><a href="{prefix}about.html#sources">资料与来源</a></div></div><div><h2>一份小小的说明</h2><p>{DISCLAIMER}</p><p>实物图来源与署名见各款详情；概念插画另有标注。<br>在这里，先了解，再慢慢喜欢。</p></div></div><div class="container footer-bottom"><span>© 2026 MUSELUX · AN INDEPENDENT JOURNAL</span><span>用好奇心，收藏日常的美。</span></div></footer>'''
     urls={'css':asset_url(prefix,'assets/css/main.css'),**{name:asset_url(prefix,'assets/js/'+name) for name in ('data.js','render.js','main.js')}}
     out=f'''<!doctype html>
-<html lang="{'en' if product or pagekind=='yearbook' else 'zh-CN'}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#faf8f5"><title>{e(title)}｜MuseLux</title><meta name="description" content="{e(desc[:110])}"><meta property="og:title" content="{e(title)}｜MuseLux"><meta property="og:description" content="{e(desc[:110])}"><meta property="og:type" content="{'article' if article else 'website'}"><meta property="og:image" content="{e(og_image)}">{hosting_meta}{fallback_base}<link rel="icon" href="{prefix}assets/img/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="{urls['css']}"><script type="application/ld+json">{json.dumps(structured,ensure_ascii=False)}</script><script src="{urls['data.js']}" defer></script><script src="{urls['render.js']}" defer></script><script src="{urls['main.js']}" defer></script></head>
+<html lang="{'en' if product or pagekind=='yearbook' else 'zh-CN'}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#faf8f5"><title>{e(title)}｜MuseLux</title><meta name="description" content="{e(desc[:110])}"><meta property="og:title" content="{e(title)}｜MuseLux"><meta property="og:description" content="{e(desc[:110])}"><meta property="og:type" content="{'article' if article else 'website'}"><meta property="og:image" content="{e(og_image)}">{hosting_meta}{fallback_base}<link rel="icon" href="{prefix}assets/img/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="{urls['css']}"><script type="application/ld+json">{json_script(structured)}</script><script src="{urls['data.js']}" defer></script><script src="{urls['render.js']}" defer></script><script src="{urls['main.js']}" defer></script></head>
 <body data-page="{pagekind}" data-id="{pageid}" data-root="{prefix}"><a class="skip-link" href="#main">跳至正文</a><div class="topline"><div class="container"><span>AN INDEPENDENT JOURNAL OF BEAUTIFUL THINGS</span><span>VOL. 01 — OCTOBER 2026</span></div></div><header class="site-header" lang="zh-CN"><div class="container header-inner"><a class="logo-link" href="{prefix}index.html">{LOGO}</a><nav id="main-nav" class="main-nav" aria-label="主导航">{nav}<a class="nav-brand {'active' if current in ['brands','brand'] else ''}" href="{prefix}brands.html">品牌图鉴</a><a class="nav-about" href="{prefix}about.html">关于</a></nav><div class="header-actions"><a class="search-link" href="{prefix}search.html" aria-label="搜索品牌、单品与文章">{icon('search')}</a><button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="打开导航菜单">{icon('menu')}</button></div></div><div class="reading-progress" aria-hidden="true"></div></header><main id="main">{content}</main>{footer}<button class="back-top" aria-label="返回顶部" type="button">{icon('up')}</button><noscript><p class="noscript-note">全部文章可直接阅读；搜索、筛选与订阅演示需要启用 JavaScript。</p></noscript></body></html>'''
     if pagekind=='404':
         # Error documents can be served at arbitrary nested URLs. Build resource
@@ -175,15 +190,15 @@ def otherpages():
 <p>这里借鉴生活美学杂志的阅读节奏，以原创文字、实物款式图与概念插画，整理品牌、作品与日常知识。你可以从一个熟悉名字开始，也可以只是因为喜欢一条弧线，翻开下一页。</p>
 <h2>我们怎样整理内容</h2>
 <p>品牌历史尽量依据官方档案、品牌故事与公开年表；材料知识参考专业机构资料，并在文章后提供阅读入口。历史表述存在差异时保留必要说明，不把设计辨识线索当作真伪鉴定。</p>
-<p>The Style Edit 以美元（USD）列出图中具体型号、尺寸与材质的美国零售参考价，注明 2026 年 10 月 19 日核对日期与官方来源，未含税费。价格与供应可能变化；经典词条未核实具体美元价格时会直接说明。所有价格仅供参考，请以品牌专柜/官方渠道为准。</p>
+<p>The Style Edit 以美元（USD）列出图中具体型号、尺寸与材质的美国零售参考价，逐款注明核对日期与官方来源，未含税费。价格与供应可能变化；经典词条未核实具体美元价格时会直接说明。所有价格仅供参考，请以品牌专柜/官方渠道为准。</p>
 <h2>按年份读懂包袋与珠宝</h2>
-<p><a href="bags-by-year.html">The Bag Yearbook · 2022–2026</a> 每年收录四款热门精选和两款限量或限定设计。热门依据保留原始季度或报道时期，具体款式附当年来源；限定类型和实际发售年份分别标注。价格使用美元，并说明是当前美国参考价、有出处的历史报价或未公开价格。2026 年收录范围截至 10 月 19 日。</p>
+<p><a href="bags-by-year.html">The Bag Yearbook · 2022–2026</a> 每年收录四款热门精选和两款限量或限定设计。热门依据保留原始季度或报道时期，具体款式附当年来源；限定类型和实际发售年份分别标注。价格使用美元，并说明是当前美国参考价、有出处的历史报价或未公开价格。2026 年收录截止日分别显示在各年度栏目中。</p>
 <p>同样的年份规则也用于 <a href="necklaces-by-year.html">The Necklace Yearbook · 项链</a> 与 <a href="jewelry-by-year.html">The Jewelry Yearbook · 首饰</a>，两个栏目各收录 30 条年度记录。首饰页以戒指、手链和耳饰为主，项链单独浏览；当年的热门依据、实际限定发售年份、图中材质和美元价格口径均在详情页注明。</p>
 <h2>关于图片与权利</h2>
 <p>The Style Edit 的实物照片来自各品牌公开商品页，逐款标注品牌署名、商品链接与原图来源；版权归相应权利人，公开访问不代表图片获得开放许可。原创概念插画保留在经典词条和杂志文章中，均明确标注，不能用于鉴定。本站为独立的非商业内容项目，与所介绍品牌不存在授权或合作关系。</p>
 <h2>让阅读保持轻松</h2>
 <p>这里可以搜索、筛选和慢慢阅读。订阅区域是本地交互演示，不保存邮箱，也不真实发送邮件。离线时正文、插画与全部站内功能仍可使用；资料外链需要联网。</p>
-<blockquote>我们相信，了解一只包背后的工时与一间工坊的历史，会让拥有或仰望都变得更有滋味。</blockquote></article></div><section id="sources" class="sources-section">{sectionhead('READING & REFERENCES','继续阅读 · 资料来源')}<p class="section-intro">整理于 2026 年 10 月 19 日。外部页面由相应品牌或机构维护；编辑建议与原始历史资料分开理解。</p>
+<blockquote>我们相信，了解一只包背后的工时与一间工坊的历史，会让拥有或仰望都变得更有滋味。</blockquote></article></div><section id="sources" class="sources-section">{sectionhead('READING & REFERENCES','继续阅读 · 资料来源')}<p class="section-intro">资料核验日期见对应品牌与单品页。外部页面由相应品牌或机构维护；编辑建议与原始历史资料分开理解。</p>
 <div class="source-grid">{''.join(f'<a href="{e(url)}" target="_blank" rel="noopener">{e(label)} <span>↗</span></a>' for label,url in sources)}</div><h2 class="photo-source-heading">The Style Edit · 商品与图片来源</h2>
 <div class="source-grid">{''.join(f'<a href="{e(x["source"])}" target="_blank" rel="noopener">{e(B[x["brand"]]["name"]+" · "+x["name"])} <span>↗</span></a>' for x in D["items"] if x.get("styleEdit"))}</div></section>
 </div>'''
@@ -268,7 +283,7 @@ def detailpages():
         related=(related+[a for a in D['articles'] if a['id']!=x['id'] and a not in related])[:3]
         prev=D['articles'][(D['articles'].index(x)-1)%len(D['articles'])]
         nxt=D['articles'][(D['articles'].index(x)+1)%len(D['articles'])]
-        content=f'''<div class="container">{crumbs([(c['nameZh'],'../cat/'+c['id']+'.html'),('慢读文章',None)],'../')}<header class="article-heading"><a class="tag" href="../cat/{c['id']}.html">{c['nameZh']}</a><p class="eyebrow">THE MUSELUX JOURNAL / VOL. 01</p><h1>{e(x['title'])}</h1><p>{e(x['excerpt'])}</p><div class="article-byline"><span class="author-monogram">m.</span><span>MuseLux 编辑部</span><time datetime="{x['date']}">2026.10.19</time><span>约 {x['readMins']} 分钟</span></div></header><figure class="article-cover"><img src="../{x['cover']}" width="1200" height="800" alt="{e(x.get('coverAlt') or x['title'].split('｜')[0]+'的原创专题插画')}"><figcaption>插画 / MUSELUX · 图像表达设计概念，不代表产品实物。</figcaption></figure><div class="reading-layout"><aside class="toc"><span class="eyebrow">IN THIS STORY</span><h2>这篇慢慢读</h2><nav aria-label="文章目录">{''.join(f'<a href="#chapter-{i+1}"><span>{i+1:02}</span>{e(h)}</a>' for i,h in enumerate(headings))}</nav><a class="toc-category" href="../cat/{c['id']}.html">探索更多{c['nameZh']}故事 ↗</a></aside><article class="prose article-body">{body}<div class="article-sources"><p class="eyebrow">READING NOTES</p><h2>资料与延伸阅读</h2><p>历史与材料资料见以下官方公开页面；搭配与选择建议为本站编辑整理。</p>{''.join(f'<a href="{e(url)}" target="_blank" rel="noopener">{e(__import__("urllib.parse",fromlist=["urlsplit"]).urlsplit(url).netloc)} · 延伸阅读 ↗</a>' for url in x['sources'])}<p>涉及价格时，仅供参考，请以品牌专柜/官方渠道为准。</p></div><nav class="article-pagination" aria-label="前后文章"><a href="{prev['id']}.html"><span>← 上一篇</span>{e(prev['title'].split('｜')[0])}</a><a href="{nxt['id']}.html"><span>下一篇 →</span>{e(nxt['title'].split('｜')[0])}</a></nav></article></div><section class="section">{sectionhead('ONE MORE BEAUTIFUL THING','还想慢慢读')}<div class="article-grid">{''.join(card(a,prefix='../') for a in related)}</div></section></div>'''
+        content=f'''<div class="container">{crumbs([(c['nameZh'],'../cat/'+c['id']+'.html'),('慢读文章',None)],'../')}<header class="article-heading"><a class="tag" href="../cat/{c['id']}.html">{c['nameZh']}</a><p class="eyebrow">THE MUSELUX JOURNAL / VOL. 01</p><h1>{e(x['title'])}</h1><p>{e(x['excerpt'])}</p><div class="article-byline"><span class="author-monogram">m.</span><span>MuseLux 编辑部</span><time datetime="{x['date']}">{article_date(x)}</time><span>约 {x['readMins']} 分钟</span></div></header><figure class="article-cover"><img src="../{x['cover']}" width="1200" height="800" alt="{e(x.get('coverAlt') or x['title'].split('｜')[0]+'的原创专题插画')}"><figcaption>插画 / MUSELUX · 图像表达设计概念，不代表产品实物。</figcaption></figure><div class="reading-layout"><aside class="toc"><span class="eyebrow">IN THIS STORY</span><h2>这篇慢慢读</h2><nav aria-label="文章目录">{''.join(f'<a href="#chapter-{i+1}"><span>{i+1:02}</span>{e(h)}</a>' for i,h in enumerate(headings))}</nav><a class="toc-category" href="../cat/{c['id']}.html">探索更多{c['nameZh']}故事 ↗</a></aside><article class="prose article-body">{body}<div class="article-sources"><p class="eyebrow">READING NOTES</p><h2>资料与延伸阅读</h2><p>历史与材料资料见以下官方公开页面；搭配与选择建议为本站编辑整理。</p>{''.join(f'<a href="{e(url)}" target="_blank" rel="noopener">{e(__import__("urllib.parse",fromlist=["urlsplit"]).urlsplit(url).netloc)} · 延伸阅读 ↗</a>' for url in x['sources'])}<p>涉及价格时，仅供参考，请以品牌专柜/官方渠道为准。</p></div><nav class="article-pagination" aria-label="前后文章"><a href="{prev['id']}.html"><span>← 上一篇</span>{e(prev['title'].split('｜')[0])}</a><a href="{nxt['id']}.html"><span>下一篇 →</span>{e(nxt['title'].split('｜')[0])}</a></nav></article></div><section class="section">{sectionhead('ONE MORE BEAUTIFUL THING','还想慢慢读')}<div class="article-grid">{''.join(card(a,prefix='../') for a in related)}</div></section></div>'''
         page('mag/'+x['id']+'.html',x['title'],x['excerpt'],content,'article',x['id'],x)
 
 def data_script():
@@ -292,9 +307,25 @@ window.MUSELUX_READY=(async function(){var b=atob("'''+packed+'''"),a=Uint8Array
 '''
     (ROOT/'assets/js/data.js').write_text(script)
 
+def retire_pages(previous,current,root=ROOT):
+    retired=[]
+    for name in set(previous)-set(current):
+        relative=Path(name)
+        target=(root/relative).resolve()
+        if (relative.is_absolute() or not re.fullmatch(r'(?:brand/|cat/|item/|mag/)?[a-z0-9][a-z0-9-]*\.html',name)
+                or not target.is_relative_to(root.resolve())):
+            raise ValueError('Unsafe generated page path: '+str(name))
+        retired.append(root/relative)
+    for target in retired:
+        if target.is_file():target.unlink()
+
+
 if __name__=='__main__':
+    manifest=ROOT/'reports/page-manifest.json'
+    previous=json.loads(manifest.read_text()) if manifest.exists() else []
     data_script();home();otherpages();detailpages()
     for category in bag_yearbook.BOOKS:bag_yearbook.render(D,page,B,category)
+    retire_pages(previous,pages)
     if SITE_URL:
         sitemap='<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+e(SITE_URL+('' if p=='index.html' else p))+'</loc></url>' for p in pages if p not in ['404.html','search.html'])+'</urlset>'
         (ROOT/'sitemap.xml').write_text(sitemap+'\n')

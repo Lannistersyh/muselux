@@ -4802,15 +4802,14 @@
           "releaseYear": 2022,
           "availabilityEn": "Archive selection from the June 2022 launch capsule; no current retail stock is implied.",
           "priceNoteEn": "Esquire’s launch listing gives US$4,200. A separate undated retail catalogue reports US$3,980; the original MSRP is not independently reconciled.",
-          "category": "bags",
-          "annualEdit": true,
-          "oneLiner": "A repeating Trefoil and Interlocking G pattern gives this duffle the exuberance of a vintage sporting poster.",
           "collaboratorBrands": [
             "adidas"
-          ]
+          ],
+          "category": "bags",
+          "annualEdit": true,
+          "oneLiner": "A repeating Trefoil and Interlocking G pattern gives this duffle the exuberance of a vintage sporting poster."
         }
-      ],
-      "yearToDate": false
+      ]
     },
     {
       "year": 2023,
@@ -5253,8 +5252,7 @@
           "annualEdit": true,
           "oneLiner": "Kusama's Painted Dots give the Neverfull a second rhythm over its familiar Monogram."
         }
-      ],
-      "yearToDate": false
+      ]
     },
     {
       "year": 2024,
@@ -5649,15 +5647,14 @@
           "editionSource": "https://prtimes.jp/main/html/rd/p/000000371.000003876.html",
           "releaseYear": 2024,
           "availabilityEn": "Archive selection from the 2024 special capsule. The stated amount is reported U.S. launch retail; current boutique or resale availability is not implied.",
-          "category": "bags",
-          "annualEdit": true,
-          "oneLiner": "This Baguette combines the graphic familiarity of Fendi’s FF pattern with the animated world of Dratini, Dragonair and Dragonite.",
           "collaboratorBrands": [
             "fragment-design"
-          ]
+          ],
+          "category": "bags",
+          "annualEdit": true,
+          "oneLiner": "This Baguette combines the graphic familiarity of Fendi’s FF pattern with the animated world of Dratini, Dragonair and Dragonite."
         }
-      ],
-      "yearToDate": false
+      ]
     },
     {
       "year": 2025,
@@ -6066,8 +6063,7 @@
           "annualEdit": true,
           "oneLiner": "Plumeria brings a floral surface to the Puzzle’s precise geometry."
         }
-      ],
-      "yearToDate": false
+      ]
     },
     {
       "year": 2026,
@@ -6622,7 +6618,7 @@
             "18K yellow gold (750/1000)"
           ],
           "priceUSD": 4300,
-          "checkedAt": "2026-10-20",
+          "checkedAt": "2026-10-19",
           "priceEvidence": "Live official U.S. HTML JSON-LD identifies CRB7014200 and an Offer of USD 4300.00. The product description lists the 42 cm chain and 23.5 mm outer diameter.",
           "source": "https://www.cartier.com/en-us/CRB7014200.html",
           "image": "assets/img/jewel-years/necklace-2022-cartier-love-pendant.webp",
@@ -6909,13 +6905,13 @@
           "image": "assets/img/jewel-years/necklace-2022-adidas-gucci-gourmette.jpg",
           "imageWidth": 800,
           "imageHeight": 572,
+          "collaboratorBrands": [
+            "adidas"
+          ],
           "annualEdit": true,
           "yearbookTitle": "The Necklace Yearbook",
           "yearbookPath": "necklaces-by-year.html",
-          "oneLiner": "An elongated chain rhythm gives this collaboration necklace a relaxed sporting attitude.",
-          "collaboratorBrands": [
-            "adidas"
-          ]
+          "oneLiner": "An elongated chain rhythm gives this collaboration necklace a relaxed sporting attitude."
         },
         {
           "id": "necklace-2022-fendace-chain-necklace",
@@ -6977,16 +6973,15 @@
           "image": "assets/img/jewel-years/necklace-2022-fendace-chain-necklace.jpg",
           "imageWidth": 800,
           "imageHeight": 571,
+          "collaboratorBrands": [
+            "versace"
+          ],
           "annualEdit": true,
           "yearbookTitle": "The Necklace Yearbook",
           "yearbookPath": "necklaces-by-year.html",
-          "oneLiner": "Fendace combines a generous curb chain with a dense sequence of emblems and bright decorative stones.",
-          "collaboratorBrands": [
-            "versace"
-          ]
+          "oneLiner": "Fendace combines a generous curb chain with a dense sequence of emblems and bright decorative stones."
         }
-      ],
-      "yearToDate": false
+      ]
     },
     {
       "year": 2023,
@@ -7045,7 +7040,7 @@
             "18K BEIGE GOLD"
           ],
           "priceUSD": 3000,
-          "checkedAt": "2026-10-20",
+          "checkedAt": "2026-10-19",
           "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $3,000 for J12306, small version, in 18K BEIGE GOLD.",
           "source": "https://www.chanel.com/us/fine-jewelry/p/J12306/coco-crush-necklace/",
           "image": "assets/img/jewel-years/necklace-2023-chanel-coco-crush-pendant.jpg",
@@ -7106,7 +7101,7 @@
             "18K yellow gold"
           ],
           "priceUSD": 1400,
-          "checkedAt": "2026-10-20",
+          "checkedAt": "2026-10-19",
           "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $1,400 with Yellow Gold and Small selected, and lists an adjustable 16–18 inch chain.",
           "source": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-t-18k-yellow-gold-necklaces-pendants-60011679.html",
           "image": "assets/img/jewel-years/necklace-2023-tiffany-t-smile.webp",
@@ -7400,8 +7395,7 @@
           "yearbookPath": "necklaces-by-year.html",
           "oneLiner": "Pikachu’s familiar ears and lifted arms remain immediately recognisable, but the darkened silver surface and interrupted edges give the figure an unexpected archaeological mood."
         }
-      ],
-      "yearToDate": false
+      ]
     },
     {
       "year": 2024,
@@ -7464,7 +7458,7 @@
           ],
           "priceUSD": 1400,
           "priceLabel": "U.S. retail reference, before tax",
-          "checkedAt": "2026-10-20",
+          "checkedAt": "2026-10-19",
           "priceStatus": "live",
           "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $1,400 with Yellow Gold and Small selected, and lists an adjustable 16–18 inch chain.",
           "sourceSnapshotNote": "Official U.S. page retrieved through web.open on the check date; direct curl HTML was blocked.",
@@ -7532,7 +7526,7 @@
           ],
           "priceUSD": 4750,
           "priceLabel": "U.S. retail reference, before tax",
-          "checkedAt": "2026-10-20",
+          "checkedAt": "2026-10-19",
           "priceStatus": "live",
           "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $4,750.00 excluding taxes for reference 352815 in white gold. Technical dimensions are corroborated by the official same-reference international page.",
           "sourceSnapshotNote": "U.S. product page retrieved through web.open on the check date; direct curl HTML was blocked. Same-reference dimensional evidence is from an official page snapshot labelled 3 months ago.",
@@ -7602,7 +7596,7 @@
           ],
           "priceUSD": 3000,
           "priceLabel": "U.S. retail reference, before tax",
-          "checkedAt": "2026-10-20",
+          "checkedAt": "2026-10-19",
           "priceStatus": "live",
           "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $3,000 for J12306, small version, in 18K BEIGE GOLD.",
           "sourceSnapshotNote": "Official U.S. page retrieved through web.open on the check date; direct curl HTML was blocked. The readable page describes four extension loops without a numeric chain length.",
@@ -7773,13 +7767,13 @@
           "priceNoteEn": "The USD figure is StockX’s reported original retail field for this exact reference. It is a catalogue reference, not a live brand checkout quote or the current resale asking price.",
           "imagePageURL": "https://stockx.com/fendi-x-frgmt-x-pokemon-metal-necklace-gold",
           "imageAlt": "FENDI × FRGMT × POKÉMON Poké Ball necklace — gold-tone — photograph of the cited material and variant.",
+          "collaboratorBrands": [
+            "fragment-design"
+          ],
           "annualEdit": true,
           "yearbookTitle": "The Necklace Yearbook",
           "yearbookPath": "necklaces-by-year.html",
-          "oneLiner": "A small Poké Ball changes the language of a gold-tone necklace.",
-          "collaboratorBrands": [
-            "fragment-design"
-          ]
+          "oneLiner": "A small Poké Ball changes the language of a gold-tone necklace."
         },
         {
           "id": "necklace-2024-van-cleef-holiday-guilloche-rose-white-gold",
@@ -7848,8 +7842,7 @@
           "yearbookPath": "necklaces-by-year.html",
           "oneLiner": "The 2024 Holiday Alhambra pendant combines two different gold tones around one familiar clover."
         }
-      ],
-      "yearToDate": false
+      ]
     },
     {
       "year": 2025,
@@ -7906,7 +7899,7 @@
           ],
           "priceUSD": 3000,
           "priceLabel": "U.S. retail reference, before tax",
-          "checkedAt": "2026-10-20",
+          "checkedAt": "2026-10-19",
           "priceStatus": "live",
           "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $3,000 for J12306, small version, in 18K BEIGE GOLD.",
           "sourceSnapshotNote": "Official U.S. page retrieved through web.open on the check date; direct curl HTML was blocked. The readable page describes four extension loops without a numeric chain length.",
@@ -7973,7 +7966,7 @@
           ],
           "priceUSD": 1400,
           "priceLabel": "U.S. retail reference, before tax",
-          "checkedAt": "2026-10-20",
+          "checkedAt": "2026-10-19",
           "priceStatus": "live",
           "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $1,400 with Yellow Gold and Small selected, and lists an adjustable 16–18 inch chain.",
           "sourceSnapshotNote": "Official U.S. page retrieved through web.open on the check date; direct curl HTML was blocked.",
@@ -8275,8 +8268,7 @@
           "yearbookPath": "necklaces-by-year.html",
           "oneLiner": "A circle of hearts gives this necklace its distinct rhythm."
         }
-      ],
-      "yearToDate": false
+      ]
     },
     {
       "year": 2026,
@@ -8833,7 +8825,7 @@
             "Sterling silver"
           ],
           "priceUSD": 1600,
-          "checkedAt": "2026-10-20",
+          "checkedAt": "2026-10-19",
           "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $1,600 with Sterling Silver and Medium selected. It specifies small links and 7.5 inch overall length.",
           "source": "https://www.tiffany.com/jewelry/bracelets/tiffany-hardwear-sterling-silver-bracelets-60153085.html",
           "image": "assets/img/jewel-years/jewelry-2022-tiffany-hardwear-bracelet.webp",
@@ -9123,13 +9115,13 @@
           "image": "assets/img/jewel-years/jewelry-2022-fendace-hoop-earrings.jpg",
           "imageWidth": 800,
           "imageHeight": 571,
+          "collaboratorBrands": [
+            "versace"
+          ],
           "annualEdit": true,
           "yearbookTitle": "The Jewelry Yearbook",
           "yearbookPath": "jewelry-by-year.html",
-          "oneLiner": "Open geometric sections turn the familiar hoop into a small architectural frame.",
-          "collaboratorBrands": [
-            "versace"
-          ]
+          "oneLiner": "Open geometric sections turn the familiar hoop into a small architectural frame."
         },
         {
           "id": "jewelry-2022-tiffany-arsham-lock-ensemble",
@@ -9198,8 +9190,7 @@
           "yearbookPath": "jewelry-by-year.html",
           "oneLiner": "A brightly set Lock bangle and an apparently eroded bronze padlock make a deliberately contrasting pair."
         }
-      ],
-      "yearToDate": false
+      ]
     },
     {
       "year": 2023,
@@ -9257,7 +9248,7 @@
             "18K BEIGE GOLD"
           ],
           "priceUSD": 1900,
-          "checkedAt": "2026-10-20",
+          "checkedAt": "2026-10-19",
           "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $1,900 for J11785, mini version, in 18K BEIGE GOLD. It does not expose a selected finger circumference.",
           "source": "https://www.chanel.com/us/fine-jewelry/p/J11785/coco-crush-ring/",
           "image": "assets/img/jewel-years/jewelry-2023-chanel-coco-crush-ring.jpg",
@@ -9621,8 +9612,7 @@
           "yearbookPath": "jewelry-by-year.html",
           "oneLiner": "A slim Monogram loop becomes the quiet support for two small hanging forms: a bright pumpkin and the familiar LV initials."
         }
-      ],
-      "yearToDate": false
+      ]
     },
     {
       "year": 2024,
@@ -9674,7 +9664,7 @@
           ],
           "priceUSD": 2350,
           "priceLabel": "U.S. retail reference, before tax",
-          "checkedAt": "2026-10-20",
+          "checkedAt": "2026-10-19",
           "priceStatus": "live",
           "priceEvidence": "Live official U.S. HTML JSON-LD identifies exact selected SKU CRB4234253 and an Offer of USD 2350.00. The page names the classic model and the three 18K gold colors.",
           "sourceSnapshotNote": "Direct official HTML retrieved on the check date. The page quotes band width for size 52, so that measurement is not assigned to the selected size 53.",
@@ -9743,7 +9733,7 @@
           ],
           "priceUSD": 1600,
           "priceLabel": "U.S. retail reference, before tax",
-          "checkedAt": "2026-10-20",
+          "checkedAt": "2026-10-19",
           "priceStatus": "live",
           "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $1,600 with Sterling Silver and Medium selected. It specifies small links and 7.5 inch overall length.",
           "sourceSnapshotNote": "Official U.S. page retrieved through web.open on the check date. Overall bracelet length and the brand’s suggested wrist circumference are recorded separately.",
@@ -9810,7 +9800,7 @@
           ],
           "priceUSD": 2790,
           "priceLabel": "U.S. retail reference, before tax",
-          "checkedAt": "2026-10-20",
+          "checkedAt": "2026-10-19",
           "priceStatus": "official-snapshot",
           "priceEvidence": "Official U.S. product page returned by web.open shows $2,790.00 excluding taxes for ref. 362140 in size 45–46. The response is labelled Crawled: 3 months ago and states that price may vary with size.",
           "sourceSnapshotNote": "Official U.S. page snapshot labelled “Crawled: 3 months ago”; retrieved 2026-10-19. No more precise crawl date was provided. A fresh transaction-time price was not verified.",
@@ -9876,7 +9866,7 @@
           ],
           "priceUSD": 1900,
           "priceLabel": "U.S. retail reference, before tax",
-          "checkedAt": "2026-10-20",
+          "checkedAt": "2026-10-19",
           "priceStatus": "live",
           "priceEvidence": "Official U.S. product page returned by web.open, labelled crawled today, shows $1,900 for J11785, mini version, in 18K BEIGE GOLD. It does not expose a selected finger circumference.",
           "sourceSnapshotNote": "Official U.S. page retrieved through web.open on the check date. Price is attached to the mini material/model reference; no circumference-specific variant was available in the readable page.",
@@ -9983,13 +9973,13 @@
           "priceNoteEn": "The USD figure is StockX’s reported original retail field for this exact reference. It is a catalogue reference, not a live brand checkout quote or the current resale asking price.",
           "imagePageURL": "https://stockx.com/fendi-x-frgmt-metal-ring-gold",
           "imageAlt": "FENDI × FRGMT × POKÉMON Dratini ring — gold-finished brass — photograph of the cited material and variant.",
+          "collaboratorBrands": [
+            "fragment-design"
+          ],
           "annualEdit": true,
           "yearbookTitle": "The Jewelry Yearbook",
           "yearbookPath": "jewelry-by-year.html",
-          "oneLiner": "Dratini curls around the finger as a polished gold-tone ring.",
-          "collaboratorBrands": [
-            "fragment-design"
-          ]
+          "oneLiner": "Dratini curls around the finger as a polished gold-tone ring."
         },
         {
           "id": "jewelry-2024-fendi-frgmt-pokemon-earrings-gold",
@@ -10049,16 +10039,15 @@
           "priceNoteEn": "The USD figure is StockX’s reported original retail field for this exact reference. It is a catalogue reference, not a live brand checkout quote or the current resale asking price.",
           "imagePageURL": "https://stockx.com/fendi-x-frgmt-x-pokemon-metal-earrings-gold",
           "imageAlt": "FENDI × FRGMT × POKÉMON Dragonair hoop earrings — gold-tone — photograph of the cited material and variant.",
+          "collaboratorBrands": [
+            "fragment-design"
+          ],
           "annualEdit": true,
           "yearbookTitle": "The Jewelry Yearbook",
           "yearbookPath": "jewelry-by-year.html",
-          "oneLiner": "Dragonair becomes a pair of sculptural gold-tone hoops in this Fendi collaboration.",
-          "collaboratorBrands": [
-            "fragment-design"
-          ]
+          "oneLiner": "Dragonair becomes a pair of sculptural gold-tone hoops in this Fendi collaboration."
         }
-      ],
-      "yearToDate": false
+      ]
     },
     {
       "year": 2025,
@@ -10470,8 +10459,7 @@
           "yearbookPath": "jewelry-by-year.html",
           "oneLiner": "Repeated hearts give this bracelet a more expressive surface than a plain tennis line."
         }
-      ],
-      "yearToDate": false
+      ]
     },
     {
       "year": 2026,

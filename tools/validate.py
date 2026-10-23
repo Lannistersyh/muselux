@@ -2,10 +2,10 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
-import json,re,struct,html,xml.etree.ElementTree as ET
+import json,re,struct,html,xml.etree.ElementTree as ET,base64,gzip,hashlib,math
 from collections import Counter
 from datetime import date
-from bag_yearbook import BOOKS
+from bag_yearbook import BOOKS,price_text,date_label
 from brand_catalog import enrich, brand_ids
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -17,6 +17,11 @@ issues=[]
 def check(condition,message):
     if not condition: issues.append(message)
 def cjk(s):return len(re.findall(r'[\u4e00-\u9fff]',re.sub(r'<[^>]*>','',s)))
+def iso_date(value,label):
+    try:return date.fromisoformat(value)
+    except (ValueError,TypeError):
+        issues.append(label+': invalid ISO date')
+        return None
 def image_size(path):
     data=path.read_bytes()
     if data.startswith(b'\x89PNG\r\n\x1a\n'):
@@ -44,9 +49,10 @@ def image_size(path):
     return None
 class Document(HTMLParser):
     def __init__(self):
-        super().__init__();self.refs=[];self.ids=set();self.h1=0;self.titles=0;self.meta={};self.footer=0;self.images=0
+        super().__init__();self.refs=[];self.ids=set();self.h1=0;self.titles=0;self.meta={};self.footer=0;self.images=0;self.jsonld=[];self.json_buffer=None
     def handle_starttag(self,tag,attrs):
         a=dict(attrs)
+        if tag=='script' and a.get('type')=='application/ld+json':self.json_buffer=''
         if a.get('id'):self.ids.add(a['id'])
         if tag=='h1':self.h1+=1
         if tag=='title':self.titles+=1
@@ -59,6 +65,13 @@ class Document(HTMLParser):
         for attr in ('href','src'):
             if a.get(attr) is not None:self.refs.append(a[attr])
         if a.get('target')=='_blank':check('noopener' in a.get('rel',''),'External link missing noopener')
+    def handle_data(self,data):
+        if self.json_buffer is not None:self.json_buffer+=data
+    def handle_endtag(self,tag):
+        if tag=='script' and self.json_buffer is not None:
+            try:self.jsonld.append(json.loads(self.json_buffer))
+            except ValueError:issues.append('Invalid JSON-LD script')
+            self.json_buffer=None
 
 pages={}
 for f in sorted(ROOT.rglob('*.html')):
@@ -69,7 +82,7 @@ for f in sorted(ROOT.rglob('*.html')):
     check('所有品牌名称与产品名称的权利归其权利人所有' in source,f'{f}: missing disclaimer')
     check(0<len(doc.meta.get('description',''))<=110,f'{f}: invalid meta description')
     for k in ('og:title','og:description','og:type'):check(k in doc.meta,f'{f}: missing {k}')
-    check('application/ld+json' in source,f'{f}: missing structured data')
+    check(len(doc.jsonld)==1 and doc.jsonld[0].get('@context')=='https://schema.org',f'{f}: invalid structured data')
     check('lorem ipsum' not in source.lower(),f'{f}: placeholder text')
     check('<script type="module"' not in source,f'{f}: module dependency')
     for ref in doc.refs:
@@ -78,6 +91,12 @@ for f in sorted(ROOT.rglob('*.html')):
         check(bool(ref) and ref!='#',f'{f}: empty link')
         target=(f.parent/unquote(u.path)).resolve() if u.path else f.resolve()
         check(target.exists(),f'{f.relative_to(ROOT)}: missing {ref}')
+        relative=target.relative_to(ROOT).as_posix() if target.is_relative_to(ROOT) else ''
+        if relative in ('assets/css/main.css','assets/js/data.js','assets/js/render.js','assets/js/main.js') and target.is_file():
+            check(u.query=='v='+hashlib.sha256(target.read_bytes()).hexdigest()[:12],f'{f}: stale asset digest for '+relative)
+manifest=json.loads((ROOT/'reports/page-manifest.json').read_text())
+check(len(manifest)==len(set(manifest)),'Duplicate manifest page')
+check({str(f.relative_to(ROOT)) for f in pages}==set(manifest),'Generated page manifest differs from delivered HTML (missing or retired page)')
 for f,doc in pages.items():
     for ref in doc.refs:
         u=urlsplit(ref)
@@ -141,7 +160,10 @@ for x in D['items']:
         check(image.is_file(),x['id']+': missing product photograph')
         if image.is_file():check(image_size(image)==(x['imageWidth'],x['imageHeight']),x['id']+': photo type/dimensions mismatch')
         source=(ROOT/'item'/f'{x["id"]}.html').read_text()
-        check('US$'+f'{x["priceUSD"]:,.0f}' in source,x['id']+': USD amount absent from detail page')
+        check(price_text(x) in source,x['id']+': USD amount absent from detail page')
+        reviewed=iso_date(x.get('checkedAt'),x['id']+' review')
+        check(reviewed is not None and (reviewed<=date.today()),x['id']+': future review date')
+        if reviewed:check(date_label(x['checkedAt']) in source,x['id']+': review date absent from detail page')
         check('Design notes' in source and 'Three details to notice' in source,x['id']+': English description absent')
         check(html.escape(x['imageCredit']) in source,x['id']+': image credit absent')
         check('<html lang="en">' in source,x['id']+': product page language missing')
@@ -162,18 +184,27 @@ for category,annual_years in annual_books.items():
     for year in annual_years:
         check(Counter(x['selection'] for x in year['entries'])=={'hot':4,'limited':2},str(year['year'])+': expected four hot + two editions')
         check(bool(year.get('sources')),str(year['year'])+': year sources absent')
-        if year['year']==2026:check(year.get('yearToDate') and year.get('cutoff')=='2026-10-19','2026 year-to-date scope absent')
+        cutoff=iso_date(year.get('cutoff'),'Year-to-date cutoff') if year.get('yearToDate') else (iso_date(year['evidenceCutoff'],'Historical evidence cutoff') if year.get('evidenceCutoff') else None)
+        if year['year']==2026:
+            check(year.get('yearToDate') and cutoff is not None and cutoff.year==2026 and cutoff<=date.today(),'2026 year-to-date scope absent or invalid')
         for x in year['entries']:
             check(x['year']==year['year'] and x['category']==category,x['id']+': incorrect year/category')
+            reviewed=iso_date(x.get('checkedAt'),x['id']+' review')
+            check(reviewed is not None and reviewed<=date.today(),x['id']+': future review date')
+            evidence_cutoff=min(cutoff,reviewed) if cutoff and reviewed else cutoff or reviewed
             for source in x['selectionSources']:
                 stamp=source.get('publishedAt','') or ''
-                if re.fullmatch(r'\d{4}-\d{2}-\d{2}',stamp):check(date.fromisoformat(stamp)<=date(2026,10,19),x['id']+': evidence after the stated cutoff')
+                if re.fullmatch(r'\d{4}-\d{2}-\d{2}',stamp):check(evidence_cutoff is not None and date.fromisoformat(stamp)<=evidence_cutoff,x['id']+': evidence after the stated cutoff')
             for field in ('brandName','name','reference','sizes','materials','priceBasis','priceAsOf','priceLabelEn','source','imageSource','imageCredit','imageRightsNote','selectionReasonEn','selectionSources','stylingEn','availabilityEn'):
                 check(bool(x.get(field)),x['id']+': annual field absent: '+field)
             check(x.get('priceCurrency')=='USD',x['id']+': annual currency is not USD')
             check(x['priceBasis'] in ('current-retail','release-retail','reported-retail','auction-result','resale-ask','unlisted'),x['id']+': unknown price basis')
             check(x['priceUSD'] is None or isinstance(x['priceUSD'],(int,float)) and x['priceUSD']>0,x['id']+': invalid annual USD value')
             if x['priceUSD'] is not None:check(bool(x.get('priceSource') and x.get('priceEvidence')),x['id']+': numeric price lacks source evidence')
+            if isinstance(x['priceUSD'],(int,float)):check(math.isfinite(x['priceUSD']),x['id']+': non-finite price')
+            for stamp in re.findall(r'\d{4}-\d{2}-\d{2}',x.get('priceAsOf','')):
+                quoted=iso_date(stamp,x['id']+' price date')
+                check(quoted is not None and reviewed is not None and quoted<=reviewed,x['id']+': price date after review')
             if x['selection']=='limited':
                 check(x.get('editionType') in ('numbered','limited-edition','seasonal-capsule'),x['id']+': unsupported edition type')
                 check(bool(x.get('editionEvidence') and x.get('editionSource')),x['id']+': missing edition proof')
@@ -190,6 +221,7 @@ for category,annual_years in annual_books.items():
                 check('WHY IT BELONGS IN '+str(year['year']) in source,x['id']+': dated selection context absent')
                 check(html.escape(x['priceLabelEn']) in source,x['id']+': price basis label absent')
                 check('<html lang="en">' in source,x['id']+': annual page language absent')
+                if reviewed:check('Source reviewed '+date_label(x['checkedAt']) in source,x['id']+': review date mismatch')
                 if x['priceUSD'] is not None:
                     amount=x['priceUSD'];label='US$'+(f'{amount:,.0f}' if float(amount).is_integer() else f'{amount:,.2f}')
                     check(label in source,x['id']+': annual numeric price absent')
@@ -215,6 +247,11 @@ if any(a.get('coverScene') for a in D['articles']):
         check('data-scene="'+a['coverScene']+'"' in cover,a['id']+': cover scene differs from data')
         check('<image' not in cover and '<script' not in cover,a['id']+': journal art must remain a self-contained vector scene')
 for a in D['articles']:
+    published=iso_date(a['date'],a['id']+' publication')
+    check(published is not None and published<=date.today(),a['id']+': future publication')
+    if published:
+        marker='<time datetime="'+a['date']+'">'+published.strftime('%Y.%m.%d')+'</time>'
+        check(marker in (ROOT/'mag'/f'{a["id"]}.html').read_text(),a['id']+': visible article date mismatch')
     article_counts[a['id']]=cjk(a['body'])
     check(article_counts[a['id']]>=800,a['id']+': less than 800 Chinese characters')
     check(a['body'].count('<h2>')>=3,a['id']+': insufficient sections')
@@ -228,6 +265,23 @@ for f in (ROOT/'assets/js').glob('*.js'):
     source=f.read_text()
     check(not re.search(r'\bfetch\s*\(',source),f.name+': runtime fetch dependency')
     check(not re.search(r'\balert\s*\(',source),f.name+': alert dialog')
+try:
+    script=(ROOT/'assets/js/data.js').read_text()
+    packed=re.search(r'atob\("([A-Za-z0-9+/=]+)"\)',script).group(1)
+    runtime=json.loads(gzip.decompress(base64.b64decode(packed)))
+    runtime_items={x['id']:x for x in runtime['items']}
+    runtime_brands={b['id']:b for b in runtime['brands']}
+    check(len(runtime_items)==len(runtime['items']) and set(runtime_items)==set(PRODUCTS),'Runtime search catalog differs from content')
+    check(len(runtime_brands)==len(runtime['brands']) and set(runtime_brands)==set(BRANDS),'Runtime brand index differs from content')
+    check({a['id'] for a in runtime['articles']}=={a['id'] for a in D['articles']},'Runtime journal index differs from content')
+    for brand_id,b in runtime_brands.items():
+        check(b['itemCount']==BRANDS[brand_id]['itemCount'],brand_id+': runtime brand count mismatch')
+    for product_id,x in runtime_items.items():
+        actual=PRODUCTS[product_id]
+        for field in ('brand','category','name','image','priceUSD','brandNames'):
+            check(x.get(field)==actual.get(field),product_id+': stale runtime '+field)
+except (ValueError,AttributeError,KeyError,TypeError) as error:
+    issues.append('Cannot verify offline search data: '+str(error))
 css=(ROOT/'assets/css/main.css').read_text()
 # Catch malformed edit blocks, while ignoring quoted text and comments.
 tokens=re.sub(r'/\*.*?\*/|"(?:\\.|[^"\\])*"|\'(?:\\.|[^\'\\])*\'','',css,flags=re.S)

@@ -6,10 +6,35 @@ import json,re
 
 ROOT=Path(__file__).resolve().parents[1]
 SOURCES=('jewel-years-2022-2023.json','jewel-years-2024-2025.json','jewel-years-2026.json')
-CUTOFF='2026-10-19'
-CHECKED='2026-10-20'
 BOOKS={'necklace':('necklaceYears','The Necklace Yearbook','necklaces-by-year.html'),
        'jewelry':('jewelryYears','The Jewelry Yearbook','jewelry-by-year.html')}
+
+def iso_date(value,label):
+    assert isinstance(value,str) and re.fullmatch(r'\d{4}-\d{2}-\d{2}',value),label+': expected an ISO date'
+    return date.fromisoformat(value)
+
+def checked_date(product):
+    return iso_date(product.get('checkedAt'),product['id']+' review date')
+
+def evidence_cutoff(year):
+    latest=max(checked_date(x) for x in year['entries'])
+    if year['year']==2026:
+        assert year.get('yearToDate'),'2026 source must state its year-to-date scope'
+        cutoff=iso_date(year.get('cutoff'),'2026 evidence cutoff')
+        assert cutoff.year==2026 and cutoff<=latest,'2026 evidence cutoff exceeds the actual review dates'
+        return cutoff
+    if year.get('evidenceCutoff'):
+        cutoff=iso_date(year['evidenceCutoff'],str(year['year'])+' evidence cutoff')
+        assert cutoff<=latest,'Evidence cutoff exceeds the actual review dates'
+        return cutoff
+    # Retrospective annual reports may be published after the selection year.
+    return latest
+
+def validate_sources(sources,cutoff,label):
+    for source in sources:
+        stamp=source.get('publishedAt')
+        if stamp and re.fullmatch(r'\d{4}-\d{2}-\d{2}',stamp):
+            assert date.fromisoformat(stamp)<=cutoff,label+': evidence after its stated cutoff or review date'
 
 def main():
     path=ROOT/'tools/content.json'
@@ -27,9 +52,10 @@ def main():
         for year in years:
             assert Counter(x['selection'] for x in year['entries'])=={'hot':4,'limited':2}
             assert year['sources'] and year['headlineEn'] and year['introEn']
-            year['yearToDate']=year['year']==2026
-            if year['yearToDate']:year['cutoff']=CUTOFF
+            cutoff=evidence_cutoff(year)
+            validate_sources(year['sources'],cutoff,str(year['year']))
             for x in year['entries']:
+                checked=checked_date(x)
                 assert x['year']==year['year'] and x['category']==category
                 assert x['id'].startswith(category+'-'+str(year['year'])+'-')
                 assert x['priceCurrency']=='USD'
@@ -40,7 +66,7 @@ def main():
                 # must not acquire an invented capture day during the merge.
                 assert x['priceAsOf']
                 for stamp in re.findall(r'\d{4}-\d{2}-\d{2}',x['priceAsOf']):
-                    assert date.fromisoformat(stamp)<=date.fromisoformat(CHECKED),'Future price date'
+                    assert date.fromisoformat(stamp)<=checked,x['id']+': price date after its review date'
                 assert (ROOT/x['image']).is_file(),x['image']
                 assert x['selectionSources'] and x['selectionReasonEn']
                 if x['selection']=='limited':
@@ -51,14 +77,11 @@ def main():
                 x['annualEdit']=True
                 x['yearbookTitle']=title;x['yearbookPath']=book_path
                 x['oneLiner']=re.split(r'(?<=[.!?])\s+',x['introEn'])[0]
-                x['checkedAt']=CHECKED
-                for source in x['selectionSources']:
-                    stamp=source.get('publishedAt')
-                    if stamp and re.fullmatch(r'\d{4}-\d{2}-\d{2}',stamp):
-                        assert date.fromisoformat(stamp)<=date.fromisoformat(CUTOFF),'Future source date'
+                validate_sources(x['selectionSources'],min(cutoff,checked),x['id'])
         data[key]=sorted(years,key=lambda y:y['year'])
         merged.extend(entries)
-    data['jewelYearbooks']={'checkedAt':CHECKED,'evidenceCutoff':CUTOFF,'currency':'USD','entries':60,'hotPerCategoryYear':4,'editionsPerCategoryYear':2,'limitations':[note for bundle in research for note in bundle.get('limitations',[])]}
+    cutoff=max(evidence_cutoff(y) for category,(key,_,_) in BOOKS.items() for y in data[key] if y['year']==2026)
+    data['jewelYearbooks']={'checkedAt':max(checked_date(x) for x in merged).isoformat(),'evidenceCutoff':cutoff.isoformat(),'currency':'USD','entries':60,'hotPerCategoryYear':4,'editionsPerCategoryYear':2,'limitations':[note for bundle in research for key in ('limitations','verificationLimitations') for note in bundle.get(key,[])]}
     path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
     fields=('id','category','year','selection','brandName','name','reference','source','selectionSources','priceUSD','priceBasis','priceAsOf','priceLabelEn','priceNoteEn','priceSource','priceEvidence','editionType','editionLabelEn','editionEvidence','editionNoteEn','editionSource','image','imageSource','imagePageURL','imageCredit','imageRightsNote','checkedAt')
     (ROOT/'reports/jewel-yearbook-sources.json').write_text(json.dumps([{k:x.get(k) for k in fields} for x in merged],ensure_ascii=False,indent=2)+'\n')

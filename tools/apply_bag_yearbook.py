@@ -6,7 +6,33 @@ import json,re
 
 ROOT=Path(__file__).resolve().parents[1]
 SOURCES=('bag-years-2022-2023.json','bag-years-2024-2025.json','bag-years-2026.json')
-CUTOFF='2026-10-19'
+
+def iso_date(value,label):
+    assert isinstance(value,str) and re.fullmatch(r'\d{4}-\d{2}-\d{2}',value),label+': expected an ISO date'
+    return date.fromisoformat(value)
+
+def checked_date(product):
+    return iso_date(product.get('checkedAt'),product['id']+' review date')
+
+def evidence_cutoff(year):
+    latest=max(checked_date(x) for x in year['entries'])
+    if year['year']==2026:
+        assert year.get('yearToDate'), '2026 source must state its year-to-date scope'
+        cutoff=iso_date(year.get('cutoff'),'2026 evidence cutoff')
+        assert cutoff.year==2026 and cutoff<=latest,'2026 evidence cutoff exceeds the actual review dates'
+        return cutoff
+    if year.get('evidenceCutoff'):
+        cutoff=iso_date(year['evidenceCutoff'],str(year['year'])+' evidence cutoff')
+        assert cutoff<=latest,'Evidence cutoff exceeds the actual review dates'
+        return cutoff
+    # Retrospective annual reports may be published after the selection year.
+    return latest
+
+def validate_sources(sources,cutoff,label):
+    for source in sources:
+        stamp=source.get('publishedAt')
+        if stamp and re.fullmatch(r'\d{4}-\d{2}-\d{2}',stamp):
+            assert date.fromisoformat(stamp)<=cutoff,label+': evidence after its stated cutoff or review date'
 
 def main():
     path=ROOT/'tools/content.json'
@@ -14,7 +40,9 @@ def main():
     years=[];limitations=[]
     for name in SOURCES:
         research=json.loads((ROOT/'tools/research'/name).read_text())
-        years.extend(research['years']);limitations.extend(research.get('limitations',[]))
+        years.extend(research['years'])
+        for key in ('limitations','verificationLimitations'):
+            limitations.extend(research.get(key,[]))
     assert sorted(y['year'] for y in years)==list(range(2022,2027)), 'Expected 2022–2026 exactly once'
     entries=[x for year in years for x in year['entries']]
     assert len(entries)==30 and len({x['id'] for x in entries})==30
@@ -22,9 +50,10 @@ def main():
     for year in years:
         assert Counter(x['selection'] for x in year['entries'])=={'hot':4,'limited':2}
         assert year['sources'], 'Missing year sources'
-        year['yearToDate']=year['year']==2026
-        if year['yearToDate']:year['cutoff']=CUTOFF
+        cutoff=evidence_cutoff(year)
+        validate_sources(year['sources'],cutoff,str(year['year']))
         for x in year['entries']:
+            checked=checked_date(x)
             assert x['year']==year['year']
             assert x['priceCurrency']=='USD'
             assert x['priceUSD'] is None or (isinstance(x['priceUSD'],(int,float)) and x['priceUSD']>0)
@@ -34,16 +63,15 @@ def main():
                 assert x['editionType'] in ('numbered','limited-edition','seasonal-capsule')
                 assert x['editionEvidence'] and x['editionSource'] and x['editionLabelEn']
             if x['priceUSD'] is not None:assert x.get('priceSource')
+            assert x.get('priceAsOf'),x['id']+': price date absent'
+            for stamp in re.findall(r'\d{4}-\d{2}-\d{2}',x['priceAsOf']):
+                assert date.fromisoformat(stamp)<=checked,x['id']+': price date after its review date'
             assert len(x['introEn'].split())>=70 and len(x['featuresEn'])==3
             x['category']='bags';x['annualEdit']=True
             x['oneLiner']=re.split(r'(?<=[.!?])\s+',x['introEn'])[0]
-            x['checkedAt']=CUTOFF
-            for source in x['selectionSources']:
-                stamp=source.get('publishedAt')
-                if stamp and re.fullmatch(r'\d{4}-\d{2}-\d{2}',stamp):
-                    assert date.fromisoformat(stamp)<=date.fromisoformat(CUTOFF), 'Future evidence date'
+            validate_sources(x['selectionSources'],min(cutoff,checked),x['id'])
     data['bagYears']=sorted(years,key=lambda y:y['year'])
-    data['bagYearbook']={'checkedAt':CUTOFF,'currency':'USD','years':[2022,2023,2024,2025,2026],'entries':30,'hotPerYear':4,'editionsPerYear':2,'methodology':'Four editorial popular picks per year from dated demand reports and fashion coverage; source rankings retain their stated periods. Edition types are labelled individually.','limitations':limitations}
+    data['bagYearbook']={'checkedAt':max(checked_date(x) for x in entries).isoformat(),'currency':'USD','years':[2022,2023,2024,2025,2026],'entries':30,'hotPerYear':4,'editionsPerYear':2,'methodology':'Four editorial popular picks per year from dated demand reports and fashion coverage; source rankings retain their stated periods. Edition types are labelled individually.','limitations':limitations}
     path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
     fields=('id','year','selection','brandName','name','reference','source','selectionSources','priceUSD','priceBasis','priceAsOf','priceLabelEn','priceNoteEn','priceSource','priceEvidence','editionType','editionLabelEn','editionEvidence','editionNoteEn','editionSource','image','imageSource','imageCredit','imageRightsNote','checkedAt')
     (ROOT/'reports/bag-yearbook-sources.json').write_text(json.dumps([{k:x.get(k) for k in fields} for x in entries],ensure_ascii=False,indent=2)+'\n')
