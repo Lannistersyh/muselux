@@ -1,0 +1,244 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-23",
+  "contentCommit": "9c50b48bd88f88dadf09d6ea3242f72ae94007ea",
+  "pagesBuildCommit": "9c50b48bd88f88dadf09d6ea3242f72ae94007ea",
+  "pagesBuildStatus": "built",
+  "url": "https://lannistersyh.github.io/muselux/",
+  "filesChecked": 33,
+  "method": "Public HTTPS bytes compared with local files; changed pages and key entrypoints; no browser layout check",
+  "retries": [],
+  "results": [
+    {
+      "path": "404.html",
+      "status": 200,
+      "bytes": 7609,
+      "sha256": "71288461ee45c5514396bce2f0ed49f80e91f099187ad9a4127cfe8cef115fca",
+      "matches": true
+    },
+    {
+      "path": "about.html",
+      "status": 200,
+      "bytes": 20464,
+      "sha256": "6fd52300625153485951d9f86bdd604ced653e52bb5d0fb53342a1ebfd0d4f71",
+      "matches": true
+    },
+    {
+      "path": "assets/css/main.css",
+      "status": 200,
+      "bytes": 65467,
+      "sha256": "392ffd9f9258c98edc17e949806f9cf663df234358059b5ec71b46bae9386638",
+      "matches": true
+    },
+    {
+      "path": "assets/js/data.js",
+      "status": 200,
+      "bytes": 32677,
+      "sha256": "e9809cf378e66bb367f6492277b94d2f7208eb2b6460522ee790c268bcbde46c",
+      "matches": true
+    },
+    {
+      "path": "assets/js/main.js",
+      "status": 200,
+      "bytes": 9559,
+      "sha256": "d2a7aa695f9cfa689c47dd2673115d62b7809a2789f6143e616319c6cc22a319",
+      "matches": true
+    },
+    {
+      "path": "assets/js/render.js",
+      "status": 200,
+      "bytes": 2121,
+      "sha256": "205d0e3f63d2b6a4f0734a9cfcffdc48ff3a117e5fa84f1157e9caab98d58c80",
+      "matches": true
+    },
+    {
+      "path": "bags-by-year.html",
+      "status": 200,
+      "bytes": 48179,
+      "sha256": "4b270590dd80827caa9599e99d27b4a8ef957451ccc7dd1f5aea5db6a9cf09b0",
+      "matches": true
+    },
+    {
+      "path": "brands.html",
+      "status": 200,
+      "bytes": 18065,
+      "sha256": "1cf71a1afdae4dd6ac7e175155d06101bdf81e25f6abca42b24d7ebfcb715a36",
+      "matches": true
+    },
+    {
+      "path": "cat/bags.html",
+      "status": 200,
+      "bytes": 22888,
+      "sha256": "8bbaca74cfb76718b8d2160f425b2b0a18ee0e583e51299daeebf21a365309a2",
+      "matches": true
+    },
+    {
+      "path": "cat/fragrance.html",
+      "status": 200,
+      "bytes": 13166,
+      "sha256": "bc14b5cdfc87e4dce232bf5e79603af704ac1c4a5a178e29248fcac7685b7961",
+      "matches": true
+    },
+    {
+      "path": "cat/jewelry.html",
+      "status": 200,
+      "bytes": 19836,
+      "sha256": "32d4b47e89b13aaf568721025674abb72eeaec68a3dc1f6330917093483eb57e",
+      "matches": true
+    },
+    {
+      "path": "cat/necklace.html",
+      "status": 200,
+      "bytes": 16917,
+      "sha256": "a0fb882389ae5085ee5484a1be38a2254dba159572dd7dd4d123978cb4b61752",
+      "matches": true
+    },
+    {
+      "path": "cat/scarves.html",
+      "status": 200,
+      "bytes": 13313,
+      "sha256": "505c124d6c94e75196be6b1dc406bf0614f2c0497b2c4423b774566513b25afc",
+      "matches": true
+    },
+    {
+      "path": "cat/watches.html",
+      "status": 200,
+      "bytes": 14357,
+      "sha256": "d7ee870cc368ea9bdb1ed46041a4d310ffe438e10d00c5a3e877b496064f5a5b",
+      "matches": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 57730,
+      "sha256": "b4b16c34572fa1b4472eb5c0ae31c4ba6db3945c7b784a735c277690def567f3",
+      "matches": true
+    },
+    {
+      "path": "item/jewelry-2022-tiffany-hardwear-bracelet.html",
+      "status": 200,
+      "bytes": 15284,
+      "sha256": "96801339830e11222c30325f350577b366b606c3146ea2e908aed08c7c682edc",
+      "matches": true
+    },
+    {
+      "path": "item/jewelry-2023-chanel-coco-crush-ring.html",
+      "status": 200,
+      "bytes": 15105,
+      "sha256": "86111b44334340a199e6e93a58281b82c10c6ad4e41870ee65471c02c002eec4",
+      "matches": true
+    },
+    {
+      "path": "item/jewelry-2024-bulgari-serpenti-viper-ring-rose-gold-45-46-362140.html",
+      "status": 200,
+      "bytes": 15089,
+      "sha256": "7a9f5a4f077565daa033106ee04fead114156c9da7fb4798c1e5c72138ea5229",
+      "matches": true
+    },
+    {
+      "path": "item/jewelry-2024-cartier-trinity-classic-ring-size53-b4234253.html",
+      "status": 200,
+      "bytes": 15279,
+      "sha256": "d48aa23e6b64ddfa557c7f65f36b0d6a20ac0fd46aa6d8a80a933eb3b18346cf",
+      "matches": true
+    },
+    {
+      "path": "item/jewelry-2024-chanel-coco-crush-ring-mini-beige-gold-j11785.html",
+      "status": 200,
+      "bytes": 15161,
+      "sha256": "a62b553f6846718ad5a69eb118ed2a4d05425e09058aece638b6672e6aa384f2",
+      "matches": true
+    },
+    {
+      "path": "item/jewelry-2024-tiffany-hardwear-small-link-medium-silver-60153085.html",
+      "status": 200,
+      "bytes": 15397,
+      "sha256": "94fc0f47a575c49b7718081250741b96c9d684df5ef6b0f8977a586ef8e881c6",
+      "matches": true
+    },
+    {
+      "path": "item/necklace-2022-cartier-love-pendant.html",
+      "status": 200,
+      "bytes": 14674,
+      "sha256": "11c242219fcdb3cccf4ca57f617fcc93e5aee29bfe3dc67325782bb88e44addf",
+      "matches": true
+    },
+    {
+      "path": "item/necklace-2023-chanel-coco-crush-pendant.html",
+      "status": 200,
+      "bytes": 15104,
+      "sha256": "f2f9b081b32b45a707cc8b0bbbd9f8ef7695b5197085f51b10566dc41f1934f9",
+      "matches": true
+    },
+    {
+      "path": "item/necklace-2023-tiffany-t-smile.html",
+      "status": 200,
+      "bytes": 15107,
+      "sha256": "5225dbad843543ecab4fb143e9eec6099ce8880e242aebfb509797930da274ef",
+      "matches": true
+    },
+    {
+      "path": "item/necklace-2024-bulgari-bzero1-necklace-white-gold-352815.html",
+      "status": 200,
+      "bytes": 14878,
+      "sha256": "7ba22fc240280f31011c14eb809b19e2decd6c58854d014425e75af8ad9bcbea",
+      "matches": true
+    },
+    {
+      "path": "item/necklace-2024-chanel-coco-crush-necklace-small-beige-gold-j12306.html",
+      "status": 200,
+      "bytes": 15188,
+      "sha256": "0764a8d5603f802a45c8d1c60c78f9e2b85c0bfaa78918151ae3f9af4a39975a",
+      "matches": true
+    },
+    {
+      "path": "item/necklace-2024-tiffany-t-smile-small-yellow-gold-60011679.html",
+      "status": 200,
+      "bytes": 15137,
+      "sha256": "ec372889ab141e3cfff7e5cb72b2436ecdce372dd0876eea64570ea4602cde67",
+      "matches": true
+    },
+    {
+      "path": "item/necklace-2025-chanel-coco-crush-necklace-small-beige-gold-j12306.html",
+      "status": 200,
+      "bytes": 15242,
+      "sha256": "0d5e83cc0ebd18f127b6213122a10bb00c5895269c0b1e91dbfcd9fad3a69291",
+      "matches": true
+    },
+    {
+      "path": "item/necklace-2025-tiffany-t-smile-small-yellow-gold-60011679.html",
+      "status": 200,
+      "bytes": 15227,
+      "sha256": "ae391384f00a3e85bb68a992b37b5c7fe93f552873145b8aa5090aa7b1776788",
+      "matches": true
+    },
+    {
+      "path": "jewelry-by-year.html",
+      "status": 200,
+      "bytes": 48669,
+      "sha256": "941545cf03dc6f88ab44ca5bebf48ee0f659fa5013d820de21f31e80d9513c53",
+      "matches": true
+    },
+    {
+      "path": "necklaces-by-year.html",
+      "status": 200,
+      "bytes": 49858,
+      "sha256": "5d56b7cb9b8a13e08d4242539cdfeda98571800c2a1aa924e528b674a0c0d04c",
+      "matches": true
+    },
+    {
+      "path": "search.html",
+      "status": 200,
+      "bytes": 8326,
+      "sha256": "44c4b9bf4cb77e93e50c80e05b3fc21abad6b93ac84c4785984d0c41627db26c",
+      "matches": true
+    },
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "bytes": 19365,
+      "sha256": "0b108197e744b2ec45244fa302461d2ca79af0e0f12166ed17cccbf511b93c0c",
+      "matches": true
+    }
+  ]
+}
