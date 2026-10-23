@@ -78,6 +78,22 @@ class MaintenanceTests(unittest.TestCase):
         self.research(root,style.SOURCES[0],lambda d:d['products'][0].update(id='birkin'))
         with self.assertRaisesRegex(AssertionError,'collision'):self.run_merge(style,root)
 
+    def test_fifth_editorial_slot_preserves_existing_products(self):
+        root=self.fixture()
+        def fifth(data):
+            watches=[x for x in data['products'] if x['category']=='watches'][:4]
+            data['products']=[x for x in data['products'] if x['category']!='watches']+watches
+            product=copy.deepcopy(next(x for x in data['products'] if x['category']=='watches'))
+            product['id']='fifth-watch';data['products'].append(product)
+        self.research(root,'watches-fragrance.json',fifth)
+        self.run_merge(style,root)
+        data=json.loads((root/'tools/content.json').read_text())
+        self.assertEqual(sum(x.get('styleEdit',False) and x['category']=='watches' for x in data['items']),5)
+        def sixth(data):
+            product=copy.deepcopy(data['products'][-1]);product['id']='sixth-watch';data['products'].append(product)
+        self.research(root,'watches-fragrance.json',sixth)
+        with self.assertRaisesRegex(AssertionError,'three to five'):self.run_merge(style,root)
+
     def test_new_yearbook_cutoff_is_kept(self):
         root=self.fixture()
         def change(data):

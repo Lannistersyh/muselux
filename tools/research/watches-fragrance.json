@@ -1,6 +1,6 @@
 {
   "categoryNotes": {
-    "watches": "A watch can carry an outfit through its proportions alone. Explore four precise references, from the compact Tank rectangle to the curved Cape Cod frame, with the selected materials, movement and U.S. price attached to each.",
+    "watches": "Five perspectives on time: precious metal, clear dials, distinctive cases and the character of a strap.",
     "fragrance": "Build a fragrance wardrobe by mood, from white flowers and floral amber to dry woods and citrus. These four bottles identify the exact concentration and size, with original editorial guidance and a U.S. retail reference."
   },
   "products": [
@@ -369,6 +369,57 @@
       ],
       "introWordCount": 81,
       "stylingWordCount": 27
+    },
+    {
+      "id": "hublot-tributo-white-gold-38-262-wx-6870-rx-mdm",
+      "brand": "hublot",
+      "category": "watches",
+      "name": "Classic Fusion Tributo White Gold, 38 mm",
+      "nameZh": "宇舶经典融合致敬款白金腕表 38毫米",
+      "parentItem": null,
+      "reference": "262.WX.6870.RX.MDM",
+      "color": "White gold / black onyx (left); yellow-gold companion shown on the right",
+      "sizes": [
+        "38 mm case diameter"
+      ],
+      "materials": [
+        "18K white-gold case and bezel",
+        "Black onyx dial",
+        "Black rubber strap; precious-metal and coated-metal folding clasp"
+      ],
+      "priceUSD": 30900,
+      "priceStatus": "official-snapshot",
+      "priceEvidence": "Official Hublot U.S. listing identifies the white-gold 38 mm model at USD 30,900; its technical page identifies reference 262.WX.6870.RX.MDM.",
+      "sourceSnapshotNote": "Official U.S. page retrieval reviewed 2026-10-23. The indexed result reported crawled two days earlier and showed USD 30,900 before U.S. tax. The current text extraction exposes the amount in its named Novelties link, while the main selector is a template. Direct static origin access returned HTTP 403; no checkout or stock confirmation is claimed.",
+      "source": "https://www.hublot.com/en-us/watches/classic-fusion/classic-fusion-tributo-white-gold-38-mm",
+      "image": "assets/img/products/watches-hublot-tributo-white-gold-38.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 1500,
+      "introEn": "Tributo returns to Hublot’s original conversation between precious metal and rubber. The white-gold version gives that contrast a cooler character, with a dark onyx dial framed by exposed screws. Its restrained face leaves room for the hands, date and small MDM signature to establish their own rhythm. At 38 mm, the silhouette feels compact and clearly defined. The black strap continues the dial’s colour, letting the polished case become the central point of light rather than adding another decorative layer.",
+      "featuresEn": [
+        "38 mm white-gold case with a stated 100 m water-resistance rating.",
+        "Black onyx dial, date aperture and MDM signature; automatic HUB1711 movement.",
+        "Black rubber strap with a folding clasp; the quoted white-gold reference appears on the left of the official photograph."
+      ],
+      "stylingEn": "Pair the white-gold version with charcoal tailoring or a clean white shirt. The rubber strap keeps the composition visually relaxed; check fit and operating instructions with the brand before wear.",
+      "born": 2026,
+      "designer": "Hublot; inspired by Carlo Crocco’s 1980 design",
+      "priceLabel": "Official U.S. listed-price reference, before tax; snapshot rather than checkout quote",
+      "checkedAt": "2026-10-23",
+      "imageSource": "https://images.prismic.io/lvmh-com/H03Rh9QHJtGyKUSg_ClassicFusionTributo-SL-03-262.VX.1130.RX.MDM-262.WX.6870.RX.MDM-4x5.jpg?auto=format%2Ccompress&fit=max&w=1200",
+      "imageCredit": "© Hublot / LVMH; white-gold reference on the left, yellow-gold companion on the right",
+      "imageRightsNote": "Unaltered official Hublot photograph published by LVMH. Copyright remains with the rights holder; public access and attribution do not establish an open reuse licence.",
+      "imageMime": "image/jpeg",
+      "editorialNote": "Original MuseLux design and styling commentary; no hands-on test or inventory guarantee.",
+      "productLimitations": [
+        "The LVMH news article states approximately 60 hours of reserve; the exact-reference Hublot technical page states approximately 50 hours. This entry makes no power-reserve claim.",
+        "The photograph shows both gold versions; the quote and primary reference identify the white-gold watch on the left.",
+        "The official group article was published 21 October 2026; this is not asserted to be its first sales date."
+      ],
+      "selectionSource": "https://www.lvmh.com/en/news-lvmh/hublot-reinterprets-its-original-watch-with-the-classic-fusion-tributo",
+      "selectionSourcePublishedAt": "2026-10-21",
+      "introWordCount": 80,
+      "stylingWordCount": 30
     }
   ],
   "verificationLimitations": [

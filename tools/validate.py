@@ -168,10 +168,11 @@ for x in D['items']:
         check(html.escape(x['imageCredit']) in source,x['id']+': image credit absent')
         check('<html lang="en">' in source,x['id']+': product page language missing')
 style_products=[x for x in D['items'] if x.get('styleEdit')]
-check(Counter(x['category'] for x in style_products)==Counter({c['id']:4 for c in D['categories']}),'Expected four photographed products in every category')
+style_counts=Counter(x['category'] for x in style_products)
+check(set(style_counts)=={c['id'] for c in D['categories']} and all(3<=n<=5 for n in style_counts.values()),'Expected three to five photographed products in every category')
 for c in D['categories']:
     source=(ROOT/'cat'/f'{c["id"]}.html').read_text()
-    check(source.count('class="item-card product-card reveal"')==4,c['id']+': expected four photographed cards')
+    check(source.count('class="item-card product-card reveal"')==style_counts[c['id']],c['id']+': photographed cards differ from catalog')
 annual_books={category:D.get(cfg['key'],[]) for category,cfg in BOOKS.items()}
 annual_entries=[x for years in annual_books.values() for year in years for x in year['entries']]
 check(len({x['id'] for x in annual_entries})==len(annual_entries),'Duplicate annual catalog IDs')

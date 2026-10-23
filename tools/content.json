@@ -30,7 +30,7 @@
       "nameEn": "WATCHES",
       "blurb": "让时间，有自己的形状",
       "note": "在机芯之外，读见时间的审美。",
-      "editIntro": "A watch can carry an outfit through its proportions alone. Explore four precise references, from the compact Tank rectangle to the curved Cape Cod frame, with the selected materials, movement and U.S. price attached to each."
+      "editIntro": "Five perspectives on time: precious metal, clear dials, distinctive cases and the character of a strap."
     },
     {
       "id": "scarves",
@@ -1921,6 +1921,95 @@
         "Fragment",
         "藤原浩"
       ]
+    },
+    {
+      "id": "hublot",
+      "name": "Hublot",
+      "nameZh": "宇舶",
+      "country": "瑞士",
+      "founded": 1980,
+      "categories": [
+        "watches"
+      ],
+      "tagline": "让金属、橡胶与机械彼此对话",
+      "intro": "宇舶把材质的相遇变成一套鲜明的腕表语言：金属的分量、橡胶的柔韧，与舷窗般的表圈彼此呼应。创立初期的黄金配黑色表带，为后来运动腕表中的反差留下了基调。Big Bang 以更有力度的结构展开这种想法，Classic Fusion 则把比例收得更简洁。阅读宇舶，可以先看表圈的螺钉、表壳的层次，再看机芯如何进入视线。它对陶瓷、蓝宝石和合金的探索，让颜色与透明度也成为设计的一部分；机械性能和佩戴触感在同一枚表上形成对话。",
+      "timeline": [
+        {
+          "year": 1980,
+          "event": "Carlo Crocco 创立宇舶，首枚腕表将黄金表壳与黑色橡胶表带结合。",
+          "source": "https://www.hublot.com/en-lt/40-years/digital-book-products",
+          "evidence": "官网四十周年产品史明确记录首款腕表诞生于一九八零年，并说明创始人与材质组合。"
+        },
+        {
+          "year": 2005,
+          "event": "Big Bang 问世，以鲜明的运动结构拓展品牌的融合美学。",
+          "source": "https://www.hublot.com/en-lt/40-years/digital-book-products",
+          "evidence": "官网产品史将 Big Bang 的推出年份列为二零零五年。"
+        },
+        {
+          "year": 2008,
+          "event": "LVMH 宣布收购瑞士制表品牌宇舶。",
+          "source": "https://www.lvmh.com/en/financial-calendar/lvmh-acquires-the-swiss-watchmaker-hublot",
+          "evidence": "集团收购公告的发布日期为二零零八年四月二十四日，标题明确记载收购宇舶。"
+        },
+        {
+          "year": 2009,
+          "event": "Unico 自制机芯完成开发，把计时机构的结构带到表盘视线之中。",
+          "source": "https://www.lvmh.com/en/our-maisons/watches-jewelry/hublot",
+          "evidence": "集团品牌档案说明 Unico 于二零零九年开发，其双重耦合系统可从表盘侧观察。"
+        },
+        {
+          "year": 2011,
+          "event": "与洛桑联邦理工学院合作研发的 Magic Gold 首次亮相。",
+          "source": "https://www.hublot.com/en-lt/40-years/digital-book-art-of-fusion",
+          "evidence": "官网材质史说明 Magic Gold 在二零一一年首次发布，并注明与洛桑联邦理工学院的研发合作。"
+        },
+        {
+          "year": 2018,
+          "event": "研发部门推出鲜红色高科技陶瓷，扩大腕表材质的色彩表达。",
+          "source": "https://www.lvmh.com/en/our-maisons/watches-jewelry/hublot",
+          "evidence": "集团品牌档案将鲜红色陶瓷的研发成果明确记于二零一八年。"
+        },
+        {
+          "year": 2026,
+          "event": "Classic Fusion Tributo 以黄金与白金版本重新演绎品牌创始腕表。",
+          "source": "https://www.lvmh.com/en/news-lvmh/hublot-reinterprets-its-original-watch-with-the-classic-fusion-tributo",
+          "evidence": "集团二零二六年十月二十一日新闻明确介绍两种贵金属版本，并将其与一九八零年的原作联系。"
+        }
+      ],
+      "signatures": [
+        "舷窗造型与外露螺钉",
+        "金属搭配橡胶表带",
+        "Big Bang 层次结构",
+        "彩色陶瓷与蓝宝石材质"
+      ],
+      "source": "https://www.lvmh.com/en/our-maisons/watches-jewelry/hublot",
+      "sources": [
+        {
+          "label": "LVMH — Hublot Maison history and materials",
+          "url": "https://www.lvmh.com/en/our-maisons/watches-jewelry/hublot"
+        },
+        {
+          "label": "Hublot — 40th anniversary product history",
+          "url": "https://www.hublot.com/en-lt/40-years/digital-book-products"
+        },
+        {
+          "label": "Hublot — 40th anniversary Art of Fusion",
+          "url": "https://www.hublot.com/en-lt/40-years/digital-book-art-of-fusion"
+        },
+        {
+          "label": "LVMH — acquisition announcement, 24 April 2008",
+          "url": "https://www.lvmh.com/en/financial-calendar/lvmh-acquires-the-swiss-watchmaker-hublot"
+        },
+        {
+          "label": "LVMH — Classic Fusion Tributo, 21 October 2026",
+          "url": "https://www.lvmh.com/en/news-lvmh/hublot-reinterprets-its-original-watch-with-the-classic-fusion-tributo"
+        }
+      ],
+      "classicItems": [
+        "hublot-tributo-white-gold-38-262-wx-6870-rx-mdm"
+      ],
+      "checkedAt": "2026-10-23"
     }
   ],
   "items": [
@@ -4132,6 +4221,71 @@
       "relatedArticles": [
         "mag-12"
       ]
+    },
+    {
+      "id": "hublot-tributo-white-gold-38-262-wx-6870-rx-mdm",
+      "brand": "hublot",
+      "category": "watches",
+      "name": "Classic Fusion Tributo White Gold, 38 mm",
+      "nameZh": "宇舶经典融合致敬款白金腕表 38毫米",
+      "parentItem": null,
+      "reference": "262.WX.6870.RX.MDM",
+      "color": "White gold / black onyx (left); yellow-gold companion shown on the right",
+      "sizes": [
+        "38 mm case diameter"
+      ],
+      "materials": [
+        "18K white-gold case and bezel",
+        "Black onyx dial",
+        "Black rubber strap; precious-metal and coated-metal folding clasp"
+      ],
+      "priceUSD": 30900,
+      "priceStatus": "official-snapshot",
+      "priceEvidence": "Official Hublot U.S. listing identifies the white-gold 38 mm model at USD 30,900; its technical page identifies reference 262.WX.6870.RX.MDM.",
+      "sourceSnapshotNote": "Official U.S. page retrieval reviewed 2026-10-23. The indexed result reported crawled two days earlier and showed USD 30,900 before U.S. tax. The current text extraction exposes the amount in its named Novelties link, while the main selector is a template. Direct static origin access returned HTTP 403; no checkout or stock confirmation is claimed.",
+      "source": "https://www.hublot.com/en-us/watches/classic-fusion/classic-fusion-tributo-white-gold-38-mm",
+      "image": "assets/img/products/watches-hublot-tributo-white-gold-38.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 1500,
+      "introEn": "Tributo returns to Hublot’s original conversation between precious metal and rubber. The white-gold version gives that contrast a cooler character, with a dark onyx dial framed by exposed screws. Its restrained face leaves room for the hands, date and small MDM signature to establish their own rhythm. At 38 mm, the silhouette feels compact and clearly defined. The black strap continues the dial’s colour, letting the polished case become the central point of light rather than adding another decorative layer.",
+      "featuresEn": [
+        "38 mm white-gold case with a stated 100 m water-resistance rating.",
+        "Black onyx dial, date aperture and MDM signature; automatic HUB1711 movement.",
+        "Black rubber strap with a folding clasp; the quoted white-gold reference appears on the left of the official photograph."
+      ],
+      "stylingEn": "Pair the white-gold version with charcoal tailoring or a clean white shirt. The rubber strap keeps the composition visually relaxed; check fit and operating instructions with the brand before wear.",
+      "born": 2026,
+      "designer": "Hublot; inspired by Carlo Crocco’s 1980 design",
+      "priceLabel": "Official U.S. listed-price reference, before tax; snapshot rather than checkout quote",
+      "checkedAt": "2026-10-23",
+      "imageSource": "https://images.prismic.io/lvmh-com/H03Rh9QHJtGyKUSg_ClassicFusionTributo-SL-03-262.VX.1130.RX.MDM-262.WX.6870.RX.MDM-4x5.jpg?auto=format%2Ccompress&fit=max&w=1200",
+      "imageCredit": "© Hublot / LVMH; white-gold reference on the left, yellow-gold companion on the right",
+      "imageRightsNote": "Unaltered official Hublot photograph published by LVMH. Copyright remains with the rights holder; public access and attribution do not establish an open reuse licence.",
+      "imageMime": "image/jpeg",
+      "editorialNote": "Original MuseLux design and styling commentary; no hands-on test or inventory guarantee.",
+      "productLimitations": [
+        "The LVMH news article states approximately 60 hours of reserve; the exact-reference Hublot technical page states approximately 50 hours. This entry makes no power-reserve claim.",
+        "The photograph shows both gold versions; the quote and primary reference identify the white-gold watch on the left.",
+        "The official group article was published 21 October 2026; this is not asserted to be its first sales date."
+      ],
+      "selectionSource": "https://www.lvmh.com/en/news-lvmh/hublot-reinterprets-its-original-watch-with-the-classic-fusion-tributo",
+      "selectionSourcePublishedAt": "2026-10-21",
+      "introWordCount": 80,
+      "stylingWordCount": 30,
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "Tributo returns to Hublot’s original conversation between precious metal and rubber.",
+      "story": "Tributo returns to Hublot’s original conversation between precious metal and rubber. The white-gold version gives that contrast a cooler character, with a dark onyx dial framed by exposed screws. Its restrained face leaves room for the hands, date and small MDM signature to establish their own rhythm. At 38 mm, the silhouette feels compact and clearly defined. The black strap continues the dial’s colour, letting the polished case become the central point of light rather than adding another decorative layer.",
+      "facts": [
+        "38 mm white-gold case with a stated 100 m water-resistance rating.",
+        "Black onyx dial, date aperture and MDM signature; automatic HUB1711 movement.",
+        "Black rubber strap with a folding clasp; the quoted white-gold reference appears on the left of the official photograph."
+      ],
+      "priceContextEn": "Official page snapshot · reviewed 23 October 2026; live price may differ",
+      "priceRange": "US$30,900, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-09"
+      ]
     }
   ],
   "articles": [
@@ -4328,10 +4482,17 @@
     }
   ],
   "styleEdit": {
-    "checkedAt": "2026-10-19",
+    "checkedAt": "2026-10-23",
     "currency": "USD",
-    "products": 24,
-    "perCategory": 4,
+    "products": 25,
+    "perCategory": {
+      "bags": 4,
+      "scarves": 4,
+      "necklace": 4,
+      "jewelry": 4,
+      "watches": 5,
+      "fragrance": 4
+    },
     "limitations": [
       "U.S. retail references were checked on 2026-10-19 for the exact photographed variants; they are not checkout quotes and may change.",
       "Four Gucci and Prada prices were verified in directly retrieved official HTML. The Dior page-reader results were labeled crawled today. Hermès was labeled crawled yesterday, and Fendi two weeks earlier; these differences are recorded per product.",

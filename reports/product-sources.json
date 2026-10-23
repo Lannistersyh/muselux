@@ -334,5 +334,19 @@
     "priceStatus": "official-snapshot",
     "priceContextEn": "Official page snapshot · reported crawled the same day; reviewed 19 October 2026",
     "checkedAt": "2026-10-19"
+  },
+  {
+    "id": "hublot-tributo-white-gold-38-262-wx-6870-rx-mdm",
+    "brand": "hublot",
+    "reference": "262.WX.6870.RX.MDM",
+    "source": "https://www.hublot.com/en-us/watches/classic-fusion/classic-fusion-tributo-white-gold-38-mm",
+    "image": "assets/img/products/watches-hublot-tributo-white-gold-38.jpg",
+    "imageSource": "https://images.prismic.io/lvmh-com/H03Rh9QHJtGyKUSg_ClassicFusionTributo-SL-03-262.VX.1130.RX.MDM-262.WX.6870.RX.MDM-4x5.jpg?auto=format%2Ccompress&fit=max&w=1200",
+    "imageCredit": "© Hublot / LVMH; white-gold reference on the left, yellow-gold companion on the right",
+    "imageRightsNote": "Unaltered official Hublot photograph published by LVMH. Copyright remains with the rights holder; public access and attribution do not establish an open reuse licence.",
+    "priceUSD": 30900,
+    "priceStatus": "official-snapshot",
+    "priceContextEn": "Official page snapshot · reviewed 23 October 2026; live price may differ",
+    "checkedAt": "2026-10-23"
   }
 ]

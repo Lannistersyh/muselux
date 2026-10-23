@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-10-23",
+  "method": "Official static retrieval and bounded news scan; no browser tabs",
+  "newProduct": "hublot-tributo-white-gold-38-262-wx-6870-rx-mdm",
+  "newBrand": "hublot",
+  "newsSource": "https://www.lvmh.com/en/news-lvmh/hublot-reinterprets-its-original-watch-with-the-classic-fusion-tributo",
+  "newsPublishedAt": "2026-10-21",
+  "firstSaleDateInferred": false,
+  "reference": "262.WX.6870.RX.MDM",
+  "priceUSD": 30900,
+  "priceBasis": "Official U.S. indexed listing; snapshot, not checkout quote",
+  "image": {
+    "path": "assets/img/products/watches-hublot-tributo-white-gold-38.jpg",
+    "width": 1200,
+    "height": 1500,
+    "pixelDecoded": true,
+    "visuallyChecked": true,
+    "whiteGoldIsLeft": true,
+    "bothVersionsDisclosed": true,
+    "sha256": "42cf9aec2a4479e8759d5642c8e1c981407c3c2721fa852de5caf86f140c9a3b"
+  },
+  "previous142ProductsPreserved": true,
+  "annualSelectionsUnchanged": true,
+  "existingPricesUnchanged": true,
+  "newBrandHistoryNodes": 7,
+  "photographedProducts": 115,
+  "primaryBrands": 29,
+  "collaborationBrands": 3,
+  "fragranceChecks": {
+    "dior-jadore-100ml": 185,
+    "gucci-bloom-100ml": 168,
+    "prada-paradoxe-90ml": 185,
+    "hermes-terre-3.38floz": 145
+  },
+  "fragranceNotes": "Prices on the retrieved official pages match stored amounts; no date-only edits or checkout/inventory claims. Direct Hermes access remained restricted, so its snapshot classification remains.",
+  "browserTabsOpened": 0,
+  "browserTabsRemaining": 0
+}

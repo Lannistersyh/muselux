@@ -1,0 +1,92 @@
+{
+  "checkedAt": "2026-10-23",
+  "brands": [
+    {
+      "id": "hublot",
+      "name": "Hublot",
+      "nameZh": "宇舶",
+      "country": "瑞士",
+      "founded": 1980,
+      "categories": [
+        "watches"
+      ],
+      "tagline": "让金属、橡胶与机械彼此对话",
+      "intro": "宇舶把材质的相遇变成一套鲜明的腕表语言：金属的分量、橡胶的柔韧，与舷窗般的表圈彼此呼应。创立初期的黄金配黑色表带，为后来运动腕表中的反差留下了基调。Big Bang 以更有力度的结构展开这种想法，Classic Fusion 则把比例收得更简洁。阅读宇舶，可以先看表圈的螺钉、表壳的层次，再看机芯如何进入视线。它对陶瓷、蓝宝石和合金的探索，让颜色与透明度也成为设计的一部分；机械性能和佩戴触感在同一枚表上形成对话。",
+      "timeline": [
+        {
+          "year": 1980,
+          "event": "Carlo Crocco 创立宇舶，首枚腕表将黄金表壳与黑色橡胶表带结合。",
+          "source": "https://www.hublot.com/en-lt/40-years/digital-book-products",
+          "evidence": "官网四十周年产品史明确记录首款腕表诞生于一九八零年，并说明创始人与材质组合。"
+        },
+        {
+          "year": 2005,
+          "event": "Big Bang 问世，以鲜明的运动结构拓展品牌的融合美学。",
+          "source": "https://www.hublot.com/en-lt/40-years/digital-book-products",
+          "evidence": "官网产品史将 Big Bang 的推出年份列为二零零五年。"
+        },
+        {
+          "year": 2008,
+          "event": "LVMH 宣布收购瑞士制表品牌宇舶。",
+          "source": "https://www.lvmh.com/en/financial-calendar/lvmh-acquires-the-swiss-watchmaker-hublot",
+          "evidence": "集团收购公告的发布日期为二零零八年四月二十四日，标题明确记载收购宇舶。"
+        },
+        {
+          "year": 2009,
+          "event": "Unico 自制机芯完成开发，把计时机构的结构带到表盘视线之中。",
+          "source": "https://www.lvmh.com/en/our-maisons/watches-jewelry/hublot",
+          "evidence": "集团品牌档案说明 Unico 于二零零九年开发，其双重耦合系统可从表盘侧观察。"
+        },
+        {
+          "year": 2011,
+          "event": "与洛桑联邦理工学院合作研发的 Magic Gold 首次亮相。",
+          "source": "https://www.hublot.com/en-lt/40-years/digital-book-art-of-fusion",
+          "evidence": "官网材质史说明 Magic Gold 在二零一一年首次发布，并注明与洛桑联邦理工学院的研发合作。"
+        },
+        {
+          "year": 2018,
+          "event": "研发部门推出鲜红色高科技陶瓷，扩大腕表材质的色彩表达。",
+          "source": "https://www.lvmh.com/en/our-maisons/watches-jewelry/hublot",
+          "evidence": "集团品牌档案将鲜红色陶瓷的研发成果明确记于二零一八年。"
+        },
+        {
+          "year": 2026,
+          "event": "Classic Fusion Tributo 以黄金与白金版本重新演绎品牌创始腕表。",
+          "source": "https://www.lvmh.com/en/news-lvmh/hublot-reinterprets-its-original-watch-with-the-classic-fusion-tributo",
+          "evidence": "集团二零二六年十月二十一日新闻明确介绍两种贵金属版本，并将其与一九八零年的原作联系。"
+        }
+      ],
+      "signatures": [
+        "舷窗造型与外露螺钉",
+        "金属搭配橡胶表带",
+        "Big Bang 层次结构",
+        "彩色陶瓷与蓝宝石材质"
+      ],
+      "source": "https://www.lvmh.com/en/our-maisons/watches-jewelry/hublot",
+      "sources": [
+        {
+          "label": "LVMH — Hublot Maison history and materials",
+          "url": "https://www.lvmh.com/en/our-maisons/watches-jewelry/hublot"
+        },
+        {
+          "label": "Hublot — 40th anniversary product history",
+          "url": "https://www.hublot.com/en-lt/40-years/digital-book-products"
+        },
+        {
+          "label": "Hublot — 40th anniversary Art of Fusion",
+          "url": "https://www.hublot.com/en-lt/40-years/digital-book-art-of-fusion"
+        },
+        {
+          "label": "LVMH — acquisition announcement, 24 April 2008",
+          "url": "https://www.lvmh.com/en/financial-calendar/lvmh-acquires-the-swiss-watchmaker-hublot"
+        },
+        {
+          "label": "LVMH — Classic Fusion Tributo, 21 October 2026",
+          "url": "https://www.lvmh.com/en/news-lvmh/hublot-reinterprets-its-original-watch-with-the-classic-fusion-tributo"
+        }
+      ],
+      "classicItems": [],
+      "checkedAt": "2026-10-23"
+    }
+  ]
+}

@@ -44,8 +44,9 @@ def main():
         for key in ('limitations','verificationLimitations'):
             limitations.extend(source.get(key,[]))
     categories={x['id'] for x in data['categories']}
-    assert Counter(x['category'] for x in products)==Counter({k:4 for k in categories}), 'Expected exactly four products per category'
-    assert len({x['id'] for x in products})==24, 'Duplicate product id'
+    counts=Counter(x['category'] for x in products)
+    assert set(counts)==categories and all(3<=n<=5 for n in counts.values()),'Expected three to five photographed products per category'
+    assert len({x['id'] for x in products})==len(products), 'Duplicate product id'
     brands={x['id']:x for x in data['brands']}
     legacy=[x for x in data['items'] if not x.get('styleEdit')]
     legacy_ids={x['id'] for x in legacy}
@@ -81,10 +82,10 @@ def main():
         if a['id']=='mag-11':
             a['body']=a['body'].replace('一千元以内','US$250 以内').replace('一千到五千','US$250–1,000').replace('一千至五千','US$250–1,000').replace('五千元以上','US$1,000 以上')
     data['items']=legacy+products
-    data['styleEdit']={'checkedAt':max(checked_date(x) for x in products).isoformat(),'currency':'USD','products':24,'perCategory':4,'limitations':limitations}
+    data['styleEdit']={'checkedAt':max(checked_date(x) for x in products).isoformat(),'currency':'USD','products':len(products),'perCategory':dict(counts),'limitations':limitations}
     DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
     manifest=[{k:x[k] for k in ('id','brand','reference','source','image','imageSource','imageCredit','imageRightsNote','priceUSD','priceStatus','priceContextEn','checkedAt')} for x in products]
     (ROOT/'reports/product-sources.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
-    print('Merged 24 photographed products; 4 per category; all prices in USD.')
+    print(f'Merged {len(products)} photographed products; 3–5 per category; all prices in USD.')
 
 if __name__=='__main__':main()

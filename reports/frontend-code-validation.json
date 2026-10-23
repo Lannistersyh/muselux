@@ -49,15 +49,15 @@
     "Desktop resize closes mobile menu"
   ],
   "sourceHashes": {
-    "assets/js/data.js": "e9809cf378e66bb367f6492277b94d2f7208eb2b6460522ee790c268bcbde46c",
+    "assets/js/data.js": "101c2753db46ae9668230a022012521cd408f9648f2ee5cc79af594b7ed75b47",
     "assets/js/render.js": "205d0e3f63d2b6a4f0734a9cfcffdc48ff3a117e5fa84f1157e9caab98d58c80",
     "assets/js/main.js": "d2a7aa695f9cfa689c47dd2673115d62b7809a2789f6143e616319c6cc22a319"
   },
-  "contentHash": "f6e0be69885c325a17c85f755dd13afb4d8fd75188409920ed929031af00cc6f",
+  "contentHash": "b8f61b38faa4b67c4d5877e5b14af8f38a4214bdbb0f878d4f9aa99e6df8c0c6",
   "fixtureHashes": {
-    "search.html": "44c4b9bf4cb77e93e50c80e05b3fc21abad6b93ac84c4785984d0c41627db26c",
-    "brands.html": "1cf71a1afdae4dd6ac7e175155d06101bdf81e25f6abca42b24d7ebfcb715a36",
-    "bags-by-year.html": "4b270590dd80827caa9599e99d27b4a8ef957451ccc7dd1f5aea5db6a9cf09b0",
-    "index.html": "b4b16c34572fa1b4472eb5c0ae31c4ba6db3945c7b784a735c277690def567f3"
+    "search.html": "c81ea8f0d5ba1aafb8a11acbc7bf568b483711883663d84c0f647f63c05f7ac7",
+    "brands.html": "0d74e6e40c1ac80da55abcdacb201a435fc9b012e41b8ff717755c99380bb2fc",
+    "bags-by-year.html": "5e2d911f720327b90ab5c3357259abc95cefa3d15237fc674072de74912ef85c",
+    "index.html": "1ff007cde1189ddb94ae273749252de144d46cdb1274d60ed5d06452ec99cefb"
   }
 }

@@ -21,8 +21,8 @@ def main():
     data = json.loads(path.read_text())
     by_id = {brand['id']: brand for brand in data['brands']}
     added = []
-    for part in ('a', 'b', 'c'):
-        research = json.loads((ROOT / f'tools/research/brand-expansion-{part}.json').read_text())
+    for source in sorted((ROOT/'tools/research').glob('brand-expansion-*.json')):
+        research = json.loads(source.read_text())
         for brand in research['brands']:
             if brand['id'] in by_id:
                 current = by_id[brand['id']]
