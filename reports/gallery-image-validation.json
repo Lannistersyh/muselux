@@ -1,0 +1,1589 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-23",
+  "method": "Pillow full pixel decoding; RGBA composited on white; hash/dimension checks. Low RMS pairs flagged for human visual review; RMS alone is not proof of a new angle.",
+  "galleries": 143,
+  "uniqueFiles": 244,
+  "files": {
+    "assets/img/products/bags-prada-galleria-small-black.jpg": {
+      "width": 1000,
+      "height": 1250,
+      "sha256": "ac04e01b31396d86c176703b6c5ed99d50ac951cad7919317b3f015325682c60",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-prada-galleria-small-black-leather-us-2.jpg": {
+      "width": 1000,
+      "height": 1250,
+      "sha256": "d4cefb0193a1d3fd1c2c2f81390e2c870ea14bf4de00e29a06c4cbfddb803557",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2022-prada-re-edition-2000.jpg": {
+      "width": 600,
+      "height": 750,
+      "sha256": "eba96439809cfb1981b7e861bbcf589b6189f2f1e0e976d9677abd32cb6f9b80",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2022-prada-re-edition-2000-2.jpg": {
+      "width": 1000,
+      "height": 1250,
+      "sha256": "aa94bbbc5f4fbb2c637feb26288b63236d3934422cf64dbaaf792361c3b7cae1",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2022-miu-miu-wander.jpg": {
+      "width": 2400,
+      "height": 2400,
+      "sha256": "69d2c47a64a9c876a79ec17d6af68b8535f989b6aba638c3b4b25a838ecd3fdc",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2022-miu-miu-wander-2.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "8f2358b39c88b2a375b076826aa44d60ccf19c6c198e1dd43af6bfc76348e585",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2023-loewe-font-tote.jpg": {
+      "width": 1848,
+      "height": 2790,
+      "sha256": "df23e68cfb9d1b8351929dd3a3fd8ae5a2f40eec3c378c21977851e54883dcf1",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2023-loewe-font-tote-2.jpg": {
+      "width": 500,
+      "height": 755,
+      "sha256": "0d485253a8df28e0bc98428aef6279ad249b6624bea305b1712a9c7877dafe2d",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2023-the-row-margaux-15.jpg": {
+      "width": 800,
+      "height": 1200,
+      "sha256": "99a52e5a410914205acf8d151c81d616c347aebf785626f8086f4015b7102524",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2023-the-row-margaux-15-2.jpg": {
+      "width": 800,
+      "height": 1200,
+      "sha256": "ea50700ddc7b744a3f674c5135b1d702a631242bdc57ffbe313f0bb572b273d8",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2023-miu-miu-arcadie.jpg": {
+      "width": 2400,
+      "height": 2400,
+      "sha256": "244219a0f737aeb8ca192589cd735c4b9440ed24a7811db49eee111d86755acb",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2023-miu-miu-arcadie-2.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "d28ea56c76d99e7563f6b93ac53c0ae27272e2111d0e16ece5879414d0eb6dc7",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2024-miu-miu-arcadie-suede.jpg": {
+      "width": 2400,
+      "height": 2400,
+      "sha256": "ba5974dbc8e767359603001323d4092643e3c6f276a90f1932eb4fb49c0f6e12",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2024-miu-miu-arcadie-suede-2.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "d5a318ca191456db5361fc4ae17cea25126c8ad6d7462aceb66118a833646db3",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2025-miu-miu-suede-pouch.jpg": {
+      "width": 2400,
+      "height": 2400,
+      "sha256": "fba95eaacc48d1c5813ebc4fec1a5f0b3bf923e6af4c73a9c036d53b5a188b8a",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2025-miu-miu-suede-pouch-2.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "4bb114f423aee7820cc445c89e3edb1a63e2da2561d5f392c5dfa731ebdb1241",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2025-chloe-paddington.jpg": {
+      "width": 750,
+      "height": 1000,
+      "sha256": "64f1f1a5287e77c58d4d640ff4e8f7d54876a8846d4bbee2c38c8ee42eda31ea",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2025-chloe-paddington-grained-2.jpg": {
+      "width": 750,
+      "height": 1000,
+      "sha256": "ed438e5af985ca41d27892fa94aef345e4fd161a1ed63f1fd5a0aa771ae2bd91",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2026-prada-bonnie-medium-black.jpg": {
+      "width": 1000,
+      "height": 1250,
+      "sha256": "2912d4342bfffe15c9e4c65f2b5df1241289456570936bd9c591c527395764b8",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2026-prada-bonnie-medium-black-2.jpg": {
+      "width": 1000,
+      "height": 1250,
+      "sha256": "4531984310422a59c20442f3f4ed69f839f1bbdf189a37a36b2e983981ab76e9",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2026-loewe-amazona180-large-black.jpg": {
+      "width": 750,
+      "height": 1132,
+      "sha256": "d1f14cdeec1ea2ede677ba776ccee1efd5931176dbece6e621a6680257661138",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2026-loewe-amazona180-large-black-2.webp": {
+      "width": 500,
+      "height": 755,
+      "sha256": "19ca0f04a5b076497bfd02477f20f89cfa56447e4e943868c7fc86719daa0fdd",
+      "format": "WEBP"
+    },
+    "assets/img/bag-years/2026-loewe-amazona180-lazy-crab.jpg": {
+      "width": 750,
+      "height": 1132,
+      "sha256": "d3d21b78cc2fa755ccb39c833599023551c9675e8f842612f8078f103baaf93b",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2026-loewe-amazona180-lazy-crab-2.jpg": {
+      "width": 500,
+      "height": 755,
+      "sha256": "11b441d6f4ca03a639116a9cfb9cf26031c184b23c9e75fe3377a5725198cd06",
+      "format": "JPEG"
+    },
+    "assets/img/products/bags-dior-lady-dior-small-black.jpg": {
+      "width": 1600,
+      "height": 2000,
+      "sha256": "1d905a8faf6639f1488c55198f8abe7f67a95e9b4540ec757c9d76774d22f849",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-dior-small-lady-dior-black-us-2.jpg": {
+      "width": 1600,
+      "height": 2000,
+      "sha256": "6cea713903bb19f413cfb5183ec2fa32e1f352e4d45644cdee0a04866fadfb77",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2022-diesel-1dr.jpg": {
+      "width": 2000,
+      "height": 3000,
+      "sha256": "f8291d3a4bd2488a09a7780258faf44d0152411a5a68a52d083d6176a9363396",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2022-diesel-1dr-2.jpg": {
+      "width": 2000,
+      "height": 3000,
+      "sha256": "ffcf69c46dfcea5fefc763f9fc941ed70dc2453b701c3393ebd78570ef899a93",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2022-balenciaga-le-cagole-small.jpg": {
+      "width": 1100,
+      "height": 1100,
+      "sha256": "f39003a69b2c44e68e23df824bbcbf6fadf13361ccddf3d467f1bfbc885e6bf7",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2022-balenciaga-le-cagole-small-2.jpg": {
+      "width": 1100,
+      "height": 1100,
+      "sha256": "82191b21abc859382033e396c5e1409a4ab52341c4f9e7cbf0752417d69ab3a3",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2023-bottega-andiamo-small.jpg": {
+      "width": 849,
+      "height": 1000,
+      "sha256": "7804a5d527de0249a236f78894594e0169d4ce13f616608e7cb531223c565f3c",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2023-bottega-andiamo-small-2.jpg": {
+      "width": 849,
+      "height": 1000,
+      "sha256": "e180f0be2fbd1bc3330614bca9765bb562df6c91daea6ae618ad73a16bc56706",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2024-balenciaga-rodeo.jpg": {
+      "width": 1100,
+      "height": 1100,
+      "sha256": "2488357ddd296d28622ca15a73dfbb4e4a74ffe7ce131ed9de48f73abd1170fa",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2024-balenciaga-rodeo-medium-2.jpg": {
+      "width": 1100,
+      "height": 1100,
+      "sha256": "d5b27f8cb675aedc2786fc95e9c6b3fab15714251644882e492e34e8d1c20c90",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2025-saint-laurent-gaby.jpg": {
+      "width": 2608,
+      "height": 3260,
+      "sha256": "41936caeedac6487675af6533f4bd4045c70bdc47c3e63a60e2163d0eb08c74c",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2025-saint-laurent-gaby-vanity-2.jpg": {
+      "width": 2400,
+      "height": 3000,
+      "sha256": "4e4a10b98c056d8d460b12b899bdbfdb7560775d03461e5a18333ccecd47451c",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2024-alaia-le-teckel.jpg": {
+      "width": 750,
+      "height": 1333,
+      "sha256": "51ded8996962d5ac168ae43d62836e7244fead57879afa4462f8d9649c7203c1",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2024-alaia-le-teckel-medium-2.jpg": {
+      "width": 750,
+      "height": 1333,
+      "sha256": "a9486ea575791e61dda2207329482df4c1c4daac7ac7b270005a40334c86f064",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2026-dior-toujours-hobo-small-black.jpg": {
+      "width": 1334,
+      "height": 2000,
+      "sha256": "34e8e54f2187e34f2245e22af2c35b61356b1ba87245d21ee85226b70f6350c7",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2026-dior-toujours-hobo-small-black-2.jpg": {
+      "width": 1600,
+      "height": 2000,
+      "sha256": "c9a6054aad3b0cb9082264631c32d07791d780dab6679545dea6bb9099bbf041",
+      "format": "JPEG"
+    },
+    "assets/img/products/bags-gucci-jackie-small-black.jpg": {
+      "width": 980,
+      "height": 980,
+      "sha256": "ec6d1c43006c5cb5f226bcbb6dc611f63f79d6c56690e62e2fcceb984e145995",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-gucci-jackie-small-black-gg-us-2.jpg": {
+      "width": 490,
+      "height": 490,
+      "sha256": "0c31105af47749fa212d1335480e83cdc8b563bed89cb60d6ed14450058f9503",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-birkin-1.jpg": {
+      "width": 1500,
+      "height": 1500,
+      "sha256": "9360fe858cb98c5b23980e11f2953379206abb6c2af40b81aee268ec2c1405df",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-birkin-3.jpg": {
+      "width": 1500,
+      "height": 1500,
+      "sha256": "d5e32e809d2cb936dbde536ba6f801b63dafa749c86dce2e8e0688db94589084",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-kelly-1.jpg": {
+      "width": 1500,
+      "height": 1500,
+      "sha256": "78a5ad4109b7402f57ad11f0e4d082ba8f6f3e6d298179644fcb5a2ed8b69994",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-kelly-3.jpg": {
+      "width": 1500,
+      "height": 1500,
+      "sha256": "1b6fbece68b2e6a84bacec849675e616fec37259c0a72265f300606ef515ae4a",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2024-fendi-pokemon-baguette.jpg": {
+      "width": 2048,
+      "height": 2560,
+      "sha256": "6baa03e4411d10bf09d01f97f4db15583e49d2e2b4fc34287af0d358a100ef24",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2024-fendi-frgmt-pokemon-beaded-baguette-3.jpg": {
+      "width": 1500,
+      "height": 1500,
+      "sha256": "b4c3dab070f5deddc699ccaf82920ff3dd158c7e67be350b32976d9aa00d37f8",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2022-gucci-adidas-large-duffle.png": {
+      "width": 1424,
+      "height": 1416,
+      "sha256": "a52188f8a6cffe283e53972e5d2d12fe315c56f271c1bcff85499b4e951f97fc",
+      "format": "PNG"
+    },
+    "assets/img/views/bags-bag-2022-gucci-adidas-large-duffle-2.jpg": {
+      "width": 990,
+      "height": 707,
+      "sha256": "8a30ac377fbcb2e5c5235904504eaa77d43c65e908c3d28fa77d6358a40698d6",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-jodie-1.jpg": {
+      "width": 849,
+      "height": 1000,
+      "sha256": "175fac9b2090a47af45b838c48aeb374a49713c0a516d90240c3226907cdb654",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-jodie-2.jpg": {
+      "width": 849,
+      "height": 1000,
+      "sha256": "0af7759afe928978ce32b9ddc020bffbf47f881043a70586fb748a76d22bd029",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2025-prada-dada.jpg": {
+      "width": 2400,
+      "height": 3000,
+      "sha256": "a14ba872d4692f4629b77adf6f0a1b75661349e319a0f8f555d909cb72a5dae1",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2025-prada-dada-small-2.jpg": {
+      "width": 2400,
+      "height": 3000,
+      "sha256": "d644fddf266ae1122a498a43439d90fb71636b89e448e53e784742b13c54ef21",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2025-loewe-puzzle10-confetti.jpg": {
+      "width": 750,
+      "height": 1132,
+      "sha256": "cde260cf3a021245a391b4aab1a87255a569b359d52a3f1396f7b68e0a53efdc",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2025-loewe-puzzle10-confetti-2.jpg": {
+      "width": 750,
+      "height": 1132,
+      "sha256": "cf409dfa94e24c39ebfb4630100a0420d9fe4c1f3044d6ca85a93a11ba73e20c",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-classic-box-1.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "a5e17906dbaead7d7adfc2748dbaf6a0e2dda7ccafb6134055af82c326f6841b",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-classic-box-3.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "121046966d2414997423e91eb60eebf1efeeb45d998804db4b27f1f6a7de4466",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2023-loewe-calcifer-mini-puzzle.jpg": {
+      "width": 1500,
+      "height": 1500,
+      "sha256": "6acf00cd92c5582c923ffe0395f6049c3c4dcff2a32ad0e012482f6a1011a6c9",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2023-loewe-calcifer-mini-puzzle-3.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "a1768be4e55131a25eb3069ae34b1188c3f6ed77d7b346b67c3a83bf294767f7",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2025-loewe-puzzle10-plumeria.jpg": {
+      "width": 640,
+      "height": 853,
+      "sha256": "278056be5f6457069f70054660026281736b440862f21773571c1fb69608928c",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2025-loewe-puzzle10-plumeria-2.jpg": {
+      "width": 750,
+      "height": 1132,
+      "sha256": "71f29db2d2b6529d9f5733dab2bfc6762776b0e9bfb28f64b25f2a7cd779ba34",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2026-chanel-maxi-flap-camel.webp": {
+      "width": 768,
+      "height": 767,
+      "sha256": "76dd7a4c0f335e95107437f44ae9702762de8f07aca76dc56a848d6774fc1cde",
+      "format": "WEBP"
+    },
+    "assets/img/views/bags-bag-2026-chanel-maxi-flap-camel-2.jpg": {
+      "width": 1056,
+      "height": 1233,
+      "sha256": "cf7ae410a9ce723b728b5fd0a75a5ef7c1096f928432536dd1c7c49fca3cc88a",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2023-lv-yayoi-kusama-neverfull.jpg": {
+      "width": 2560,
+      "height": 2560,
+      "sha256": "7be85c0bc213b9bd37d28c0fb816c5544f20c152baa0501a897b385e14c219c7",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2023-lv-yayoi-kusama-neverfull-2.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "5e580d40e52f072f29f67f496cdb96cc5ebae11f72c6d8b894538e0fb56712d2",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2022-loewe-spirited-away.jpg": {
+      "width": 600,
+      "height": 679,
+      "sha256": "c01768320774c9cc9834eb42cc3148d5d9df1f8aeff6479dc5a805fbf92bdee3",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2022-loewe-spirited-away-susuwatari-mini-puzzle-2.jpg": {
+      "width": 1280,
+      "height": 1280,
+      "sha256": "480f24ca9cae63b6e2d938b179dac9020f032c1aee0e13be66c38ee62a127692",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2024-lv-tyler-keepall25.jpg": {
+      "width": 800,
+      "height": 857,
+      "sha256": "5a17f141831e29b0b1a51c178954fceee532e04e53a4dbed6b1092cb2035c50a",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2024-louis-vuitton-tyler-keepall25-2.jpg": {
+      "width": 1600,
+      "height": 1600,
+      "sha256": "8e453ea29dca365746cc9e1158b1ac93bd1675777f4275b18c5119165f5ea5a5",
+      "format": "JPEG"
+    },
+    "assets/img/products/bags-fendi-baguette-tobacco.jpg": {
+      "width": 1120,
+      "height": 1120,
+      "sha256": "2537a301b3b47656768ad4b9554590e6bcb5b463d041265ebaafe37e2454ea37",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-fendi-baguette-tobacco-ff-us-2.webp": {
+      "width": 1600,
+      "height": 1600,
+      "sha256": "2bd394374fd8f461a53120f9f33e3cf5a4d85427789445078e509c45c47a95a4",
+      "format": "WEBP"
+    },
+    "assets/img/bag-years/2026-lv-speedy20-monogram-origine-green.png": {
+      "width": 750,
+      "height": 1000,
+      "sha256": "1d1071edcac161ae98bcbc17c4b027b942fad42711d88506ac9078cc92caa909",
+      "format": "PNG"
+    },
+    "assets/img/views/bags-bag-2026-lv-speedy20-monogram-origine-green-2.png": {
+      "width": 2000,
+      "height": 2000,
+      "sha256": "01d9230b4a6aef07ace4a5526fbb061effdde24e26241d80faf7aaf57ce7553e",
+      "format": "PNG"
+    },
+    "assets/img/views/bags-classic-flap-1.jpg": {
+      "width": 1056,
+      "height": 1233,
+      "sha256": "9f37f1e568d362a16db0ec79f00ce43dabb1051dcedf24393c8de0225b344a17",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-classic-flap-2.jpg": {
+      "width": 1056,
+      "height": 1233,
+      "sha256": "533e4253f1acc09d35db1412d57d1b4fbd54816f039a06eed099ee3e5ecf09c0",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-chanel-255-1.jpg": {
+      "width": 1056,
+      "height": 1233,
+      "sha256": "5b7973444cb8288967470807caa21cc586a72a9f147892df2b9f7ab4ecf3e858",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-chanel-255-2.jpg": {
+      "width": 1056,
+      "height": 1233,
+      "sha256": "fe23cff55e9e9bb0d11dff4cbaa27099bd7aab5230bc54bd4ce654116f33dcd7",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-boy-1.jpg": {
+      "width": 1056,
+      "height": 1233,
+      "sha256": "3178e7eab5bfd73152761f86028cb5924c7e7562825ce69d39faed195ba7898c",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-boy-2.jpg": {
+      "width": 1056,
+      "height": 1233,
+      "sha256": "93a5db6f84d17d59b8a755f8e21e814fc6a4ebb049f402c92963b4fff27c6537",
+      "format": "JPEG"
+    },
+    "assets/img/bag-years/2024-loewe-puzzle-fold.jpg": {
+      "width": 750,
+      "height": 1132,
+      "sha256": "2c79a95fc65a61e1872a4fff4fcfe81ba83cfdeda89267ba2f221ed0cbfbd16c",
+      "format": "JPEG"
+    },
+    "assets/img/views/bags-bag-2024-loewe-puzzle-fold-medium-2.jpg": {
+      "width": 750,
+      "height": 1132,
+      "sha256": "66c919f293d4baa6cb45c5aa6cd6f4373c225f53986f60d3744f3c34458ca8ed",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2022-tiffany-hardwear-bracelet.webp": {
+      "width": 2000,
+      "height": 2000,
+      "sha256": "94a402a534b7b84ae7a2d4dc1d9ef249386d52b3be1877bfe122871cdfd45b23",
+      "format": "WEBP"
+    },
+    "assets/img/views/jewelry-2022-tiffany-hardwear-bracelet.webp": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "7a2d6e6b902be021c9b8316ff3d6de3697c3b0908cf2fbae4f48a2afab0d7944",
+      "format": "WEBP"
+    },
+    "assets/img/jewel-years/jewelry-2022-david-yurman-classic-cable.jpg": {
+      "width": 3200,
+      "height": 4000,
+      "sha256": "0218016d8eb9ee42554ba46e44cab689249315716adb73ae1e26d8c8c195ceb4",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-2022-david-yurman-classic-cable.jpg": {
+      "width": 1200,
+      "height": 1500,
+      "sha256": "c978b6fe684c377429e55ef7252504e6c25b62738de9e291c1eb4431adb4ae53",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2022-cartier-love-classic-bracelet.png": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "3ef92b02f21ef7841ac7c5e4cae8a5da1690612c8bec48ac03ece3ffe5eb7404",
+      "format": "PNG"
+    },
+    "assets/img/views/jewelry-2022-cartier-love-classic-bracelet.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "be4cd1047a056f74e11157c734b58b1d3df6eaf620a9ece0ce108fc61df38ccf",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2023-cartier-juste-un-clou-small.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "84d5ce306cf7d0bcd2a09f2ed0057cc6d4ba6a694c967fc7d96492d243e63556",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-2023-cartier-juste-un-clou-small.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "b78391028e878f6eef0ed7bde355c91d3f18413d33b361936a34b6cc10597338",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2023-tiffany-lock-rose-bangle.webp": {
+      "width": 2000,
+      "height": 2000,
+      "sha256": "a7bf3422fe680eb88ddf7c21acb38dd40594c260a8ca707f31c9cfef025c4618",
+      "format": "WEBP"
+    },
+    "assets/img/views/jewelry-2023-tiffany-lock-rose-bangle.webp": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "4f1c3e8a4369b3600b54ef478ac74b9a9c71edfc2ac838a62516043055d33883",
+      "format": "WEBP"
+    },
+    "assets/img/jewel-years/jewelry-2023-tiffany-rose-lock-bangle.webp": {
+      "width": 2000,
+      "height": 2000,
+      "sha256": "c8172a880dd25519b4f0eaf0d089443a4ee55d0ee56f9b035abd21d727cdad30",
+      "format": "WEBP"
+    },
+    "assets/img/views/jewelry-2023-tiffany-rose-lock-bangle.webp": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "8bd8398e0caf5c713de1369e4c9661301b5f0cdebf2e3a10111ddf1d1647ede9",
+      "format": "WEBP"
+    },
+    "assets/img/jewel-years/jewelry-2024-bulgari-serpenti-viper-ring-rose-gold-45-46-362140.png": {
+      "width": 727,
+      "height": 1090,
+      "sha256": "04f9813767e5b0ec0db4d9ee2360787eca6c512d379d46ea650028e587e82c31",
+      "format": "PNG"
+    },
+    "assets/img/views/jewelry-2024-bulgari-serpenti-viper-ring-rose-gold-45-46-362140.png": {
+      "width": 1090,
+      "height": 851,
+      "sha256": "a94517ea5f5061e4e4180cad5471894b6311b0297bffbc673f3ed32ba344d6da",
+      "format": "PNG"
+    },
+    "assets/img/jewel-years/jewelry-2025-david-yurman-classic-cable-blue-topaz-diamonds.jpg": {
+      "width": 3200,
+      "height": 4000,
+      "sha256": "8453975fa81745b20f9da3af3ae9273fa630bc27eb828b51f2ad4935eef79f7d",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-2025-david-yurman-classic-cable-blue-topaz-diamonds.jpg": {
+      "width": 1200,
+      "height": 1500,
+      "sha256": "c9e65eee9cbf6f567149d174276fed9e8792618d68bdd25697781e7830cd3e53",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2025-cartier-love-small-yellow-gold-size17.jpg": {
+      "width": 768,
+      "height": 768,
+      "sha256": "868f17332e93d721f0dee4d99b4e1890c0c8122b8213a63abb8dc9cdc9a43ee0",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-2025-cartier-love-small-yellow-gold-size17.jpg": {
+      "width": 1000,
+      "height": 750,
+      "sha256": "0af8365091950a670fd8a1aef2a5c0c88b403bb6662f42ddf3f9fe7ab5818c44",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2026-pomellato-together-triple-band.jpg": {
+      "width": 3000,
+      "height": 3000,
+      "sha256": "32ac8cd36740aab225e3efe5e3fa90ed13009d8f37810b9a6d5733f0934a7546",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-2026-pomellato-together-triple-band.jpg": {
+      "width": 3000,
+      "height": 3000,
+      "sha256": "6832791516f7271016596b9dc329070d1e60cd3ac850d3ef7a669cacc597ef4b",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2026-tiffany-hardwear-medium-earrings-yellow-gold.webp": {
+      "width": 2000,
+      "height": 2000,
+      "sha256": "2531fb4650290a4e5d0bc6458d8b6a3c461e7e62e802fba775ffbbd0129ce845",
+      "format": "WEBP"
+    },
+    "assets/img/views/jewelry-2026-tiffany-hardwear-medium-earrings-yellow-gold.webp": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "44e297e24df679e59a9092ea03adbccc35e934eb74dbaeead2402c09bf09dd51",
+      "format": "WEBP"
+    },
+    "assets/img/jewel-years/jewelry-2026-tiffany-hardwear-micro-yellow-gold.webp": {
+      "width": 2000,
+      "height": 2000,
+      "sha256": "d0873a4c36d0c612d370ae9afd221ecfc8a674e94dc637966b5e15f69b23ac0a",
+      "format": "WEBP"
+    },
+    "assets/img/views/jewelry-2026-tiffany-hardwear-micro-yellow-gold.webp": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "dcdf4890c08b88d6833d4d46ea49ea9c111fa85cfed2c20aba0b3eb9b4319cf3",
+      "format": "WEBP"
+    },
+    "assets/img/jewel-years/jewelry-2025-van-cleef-vintage-alhambra-five-motifs-mother-of-pearl.jpg": {
+      "width": 1500,
+      "height": 1500,
+      "sha256": "02135b3d0d602aec630c08737d8e7de9da350a7906632da28625984cb22c25f8",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-2025-van-cleef-vintage-alhambra-five-motifs-mother-of-pearl.jpg": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "2897a44d9e7423434ef1f5b43e0f57eedfaca80d4e62dd22893b7203ab445ddb",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2022-vca-alhambra-mother-pearl-bracelet.jpg": {
+      "width": 768,
+      "height": 768,
+      "sha256": "c35125c78040ed6fa52adf8c61e240db74b2825b358153c0a9b5f834aaad5dbb",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-2022-vca-alhambra-mother-pearl-bracelet.jpg": {
+      "width": 768,
+      "height": 768,
+      "sha256": "d23eb561def4fd23a68f15e010371dbcb76c0901b933382daaa7c37f9034a7ce",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2026-boucheron-quatre-classique-xs.webp": {
+      "width": 809,
+      "height": 809,
+      "sha256": "99265026f39d934920a067c018e1399fe89ec43af6e4c6403346084fd1803961",
+      "format": "WEBP"
+    },
+    "assets/img/views/jewelry-2026-boucheron-quatre-classique-xs.webp": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "8b85b74bbb6a03f42198142ca523a5e8d71a54d2883d0b30710c7dc7c4ce61c5",
+      "format": "WEBP"
+    },
+    "assets/img/jewel-years/jewelry-2022-tiffany-arsham-lock-ensemble.jpg": {
+      "width": 1280,
+      "height": 1280,
+      "sha256": "bb49c938ab6c85fd2f5a0bc19ed14871d80e17ccb1c0ba72774b81eec84bd7e7",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-2022-tiffany-arsham-lock-ensemble.jpg": {
+      "width": 1280,
+      "height": 1280,
+      "sha256": "9abec79b271d1dcfe6f078fdf31ca5f5e5404b41ef73efc29d28b739cb78e382",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2025-hermes-clic-clac-h-blanc-rose-gold.jpg": {
+      "width": 800,
+      "height": 800,
+      "sha256": "53297ef6b3cbe67dc40e0b0808eb2dca9bd51f761481bcf232b559481fb4c043",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-2025-hermes-clic-clac-h-blanc-rose-gold.jpg": {
+      "width": 800,
+      "height": 800,
+      "sha256": "0684c363ef062baf67550acf2da9ffb755e17c6e39566032230020a12530e1e8",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2026-swarovski-ariana-dragonfly-bangle.jpg": {
+      "width": 375,
+      "height": 375,
+      "sha256": "517638b0f84dff26f992e92db721d529fe18f9c79e4bacbd80e4a67adfac89df",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-2026-swarovski-ariana-dragonfly-bangle.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "23b359d132d76d4f9105ad7a70b036fa688876618ea4c61ded8f3fdb4e693d67",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2025-swarovski-ariana-grande-heart-bracelet.jpg": {
+      "width": 580,
+      "height": 580,
+      "sha256": "36a816af841bc2a20a624692a3ca9cc7fe1a51d90a970151cc94c3a932367b23",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-2025-swarovski-ariana-grande-heart-bracelet.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "d7f9950500e9d1ae6075186df150d9efb29098c37aff3bc19eccfb3f5025a8ce",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2024-cartier-trinity-classic-ring-size53-b4234253.jpg": {
+      "width": 750,
+      "height": 750,
+      "sha256": "5bd57d9a29c2ecfc928aa0960c7021cab54c7fe2ad816093fb0c576acd5931bf",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-2024-cartier-trinity-classic-ring-size53-b4234253.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "73c3dc1ab3726577936c2b9a81eda9d2da6d6799165685328f6f03668f8e6bc3",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2023-chanel-coco-crush-ring.jpg": {
+      "width": 1080,
+      "height": 1080,
+      "sha256": "dc7b558f0d970c5a655cb637b9ef77011087872e2f081a21fe61e902b8964698",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-2023-chanel-coco-crush-ring.jpg": {
+      "width": 1600,
+      "height": 1600,
+      "sha256": "79cd1af14779057e8002e4fda2fbf90130f4bb81f7685c0f638bb3cd39508437",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2023-lv-kusama-pumpkin-bracelet.jpg": {
+      "width": 800,
+      "height": 571,
+      "sha256": "8766ff44763c1c29fc6ad4877c0509e991a4e1c218963c8e7e942bd090be56f2",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-2023-lv-kusama-pumpkin-bracelet.jpg": {
+      "width": 1400,
+      "height": 1000,
+      "sha256": "da4570daa3a048837e77e986bc3dda24a8ab8fd14827290b498deb5a7f46d8a6",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2022-fendace-hoop-earrings.jpg": {
+      "width": 800,
+      "height": 571,
+      "sha256": "4863599aa49f397051110200530b4c6fe4c3cbefb1f18c1c62a1faa32068ca77",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-2022-fendace-hoop-earrings.jpg": {
+      "width": 1400,
+      "height": 1000,
+      "sha256": "b4261560b25bab2749b978673df915360259025e109a1265490b7ed6149588a9",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2024-fendi-frgmt-ring-gold.jpg": {
+      "width": 800,
+      "height": 571,
+      "sha256": "6012beeda827425c8dd1304eeb0a5e1bd7027fd8ba22423c445048fbaf2211d6",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-2024-fendi-frgmt-ring-gold.jpg": {
+      "width": 1400,
+      "height": 1000,
+      "sha256": "cd28245eb8d9228db9c821170003f111422923d275d039feadd6196cf3fd8f0e",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2024-fendi-frgmt-pokemon-earrings-gold.jpg": {
+      "width": 800,
+      "height": 571,
+      "sha256": "7f8dfad309006dedc7a115d1c31e7afe4a6c2ae301eb098dd5cfbb42f670b6ff",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-2024-fendi-frgmt-pokemon-earrings-gold.jpg": {
+      "width": 1400,
+      "height": 1000,
+      "sha256": "32f2602e424e0687e1d8cd3893106825d560918bdc2cebac7f27987c8ccd0372",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2025-louis-vuitton-murakami-superflat-earrings.jpg": {
+      "width": 1500,
+      "height": 1500,
+      "sha256": "1147aa8c8a6a6493d40fe6c4f689e783eafc03342e9efc4c74ad3cd276405104",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-2025-louis-vuitton-murakami-superflat-earrings.jpg": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "905c1357df426dce57f65c457071ea1025347617ab8ef4811f21f215f3791123",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2023-cartier-love-small-ring.png": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "79e5801fa094382fb0988cf705064a31b88756787c9ef14e08388e066da5050a",
+      "format": "PNG"
+    },
+    "assets/img/views/jewelry-2023-cartier-love-small-ring.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "8eff35ab32f62f5e6539b1ae2b5306cfdd93e8b8a9fe51302960265c16fd7b8d",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2026-swarovski-ariana-dragonfly-earrings.jpg": {
+      "width": 375,
+      "height": 375,
+      "sha256": "a001ec619720912c6a004d896227de1f13b3764a41bba15215b5881930e31722",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-2026-swarovski-ariana-dragonfly-earrings.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "f6d8a77b8dc2925c4a234bdeef71dcc9fad626f53973c5d054a37a5ad5cd1df2",
+      "format": "JPEG"
+    },
+    "assets/img/products/jewelry-cartier-trinity-classic-53-b4234253.jpg": {
+      "width": 750,
+      "height": 750,
+      "sha256": "5bd57d9a29c2ecfc928aa0960c7021cab54c7fe2ad816093fb0c576acd5931bf",
+      "format": "JPEG"
+    },
+    "assets/img/products/jewelry-tiffany-hardwear-small-link-medium-silver-60153085.webp": {
+      "width": 2000,
+      "height": 2000,
+      "sha256": "94a402a534b7b84ae7a2d4dc1d9ef249386d52b3be1877bfe122871cdfd45b23",
+      "format": "WEBP"
+    },
+    "assets/img/jewel-years/jewelry-2024-tiffany-hardwear-small-link-medium-silver-60153085.webp": {
+      "width": 2000,
+      "height": 2000,
+      "sha256": "94a402a534b7b84ae7a2d4dc1d9ef249386d52b3be1877bfe122871cdfd45b23",
+      "format": "WEBP"
+    },
+    "assets/img/products/jewelry-bulgari-serpenti-viper-rose-gold-45-46-362140.png": {
+      "width": 727,
+      "height": 1090,
+      "sha256": "04f9813767e5b0ec0db4d9ee2360787eca6c512d379d46ea650028e587e82c31",
+      "format": "PNG"
+    },
+    "assets/img/products/jewelry-chanel-coco-crush-mini-beige-gold-j11785.jpg": {
+      "width": 1080,
+      "height": 1080,
+      "sha256": "dc7b558f0d970c5a655cb637b9ef77011087872e2f081a21fe61e902b8964698",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/jewelry-2024-chanel-coco-crush-ring-mini-beige-gold-j11785.jpg": {
+      "width": 1080,
+      "height": 1080,
+      "sha256": "dc7b558f0d970c5a655cb637b9ef77011087872e2f081a21fe61e902b8964698",
+      "format": "JPEG"
+    },
+    "assets/img/views/jewelry-bzero1-335985-457393.png": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "357f989749172bd0c4e50fa1170f2470c5cbe27a1e324e66a00902f77589a840",
+      "format": "PNG"
+    },
+    "assets/img/views/jewelry-bzero1-335985-457394.png": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "049dd58188dc76af86c745b77142fd1c4bd2ddf03090d9bf8f4bc6d821264e4d",
+      "format": "PNG"
+    },
+    "assets/img/products/necklace-tiffany-t-smile-small-yellow-gold-60011679.webp": {
+      "width": 2000,
+      "height": 2000,
+      "sha256": "5e3d2d8e8e8092641cf914aea48ea1f81ccb37c96b0639fe2a6057189e69247e",
+      "format": "WEBP"
+    },
+    "assets/img/views/necklace-tiffany-t-smile-small-yellow-gold-60011679.webp": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "3b6cedf7173ab0bda272a4464b4926fbf44adad4b942e025a97fe5dd7c538681",
+      "format": "WEBP"
+    },
+    "assets/img/jewel-years/necklace-2026-bulgari-serpenti-viper-yellow-gold.png": {
+      "width": 1090,
+      "height": 851,
+      "sha256": "b8512f5f227df04094fe8c7b0c6084a91252710b0a036920fbef01c6fd88f74d",
+      "format": "PNG"
+    },
+    "assets/img/views/necklace-2026-bulgari-serpenti-viper-yellow-gold.jpg": {
+      "width": 779,
+      "height": 1090,
+      "sha256": "76bf8083b64c9b637dc1a696ae358fb08924dc2f3f4bc6e52a4a3496ee7897da",
+      "format": "JPEG"
+    },
+    "assets/img/products/necklace-cartier-love-yellow-gold-b7014200.webp": {
+      "width": 750,
+      "height": 750,
+      "sha256": "18ea2a3058f24a8a19e2c6a5352eac9f780ba79d7b82f3fb9c55e55d5e112e0a",
+      "format": "WEBP"
+    },
+    "assets/img/views/necklace-cartier-love-pendant-yellow-gold-b7014200.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "514c48c925907f08e4acc0904d006d92b4d721d83cfcc5ccc590ebc1106a784f",
+      "format": "JPEG"
+    },
+    "assets/img/products/necklace-bulgari-bzero1-white-gold-352815.png": {
+      "width": 1090,
+      "height": 851,
+      "sha256": "875a2ab015029f7a4e2808494f251377047700d02c55a9da7e777bb6cc3ed935",
+      "format": "PNG"
+    },
+    "assets/img/views/necklace-bulgari-bzero1-white-gold-352815.png": {
+      "width": 1090,
+      "height": 851,
+      "sha256": "bd2570c07318a186a5fee48eb989de4b269912064aa9caded10b07578abd716a",
+      "format": "PNG"
+    },
+    "assets/img/products/necklace-chanel-coco-crush-small-beige-gold-j12306.jpg": {
+      "width": 1080,
+      "height": 1080,
+      "sha256": "744526c00aceded52bf3d25dc0dc65a0b16c78bd83a125c406188b07adb3137e",
+      "format": "JPEG"
+    },
+    "assets/img/views/necklace-chanel-coco-crush-j12306-clasp.png": {
+      "width": 3080,
+      "height": 3080,
+      "sha256": "7161cf8a454f87079ae95091526e211ab2f7e50d1188624fd9d76021ee090e6a",
+      "format": "PNG"
+    },
+    "assets/img/jewel-years/necklace-2022-cartier-love-pendant.webp": {
+      "width": 750,
+      "height": 750,
+      "sha256": "18ea2a3058f24a8a19e2c6a5352eac9f780ba79d7b82f3fb9c55e55d5e112e0a",
+      "format": "WEBP"
+    },
+    "assets/img/jewel-years/necklace-2022-tiffany-hardwear-necklace.webp": {
+      "width": 2000,
+      "height": 2000,
+      "sha256": "7726b550ab00df83ad4a660d4f85c6d0144c28b66fddb6e8c4e9e8d98b9826de",
+      "format": "WEBP"
+    },
+    "assets/img/views/necklace-2022-tiffany-hardwear-necklace.webp": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "7a470268998ebae71ec750bc055badbed5f1e85144595795b4a08a0c060795fe",
+      "format": "WEBP"
+    },
+    "assets/img/jewel-years/necklace-2022-david-yurman-cable-linked.jpg": {
+      "width": 3200,
+      "height": 4000,
+      "sha256": "6adde484491a4c8c2526bee9fc47e47fa332c8e1e42f25c8f6a85d0b12c29904",
+      "format": "JPEG"
+    },
+    "assets/img/views/necklace-2022-david-yurman-cable-linked.jpg": {
+      "width": 1200,
+      "height": 1500,
+      "sha256": "d43276f77347086eac051cd51330bf412163ddc09d302736d43fa5fe421830af",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/necklace-2022-vca-alhambra-mother-pearl.jpg": {
+      "width": 989,
+      "height": 1242,
+      "sha256": "baacd45e339e5a83594b64f84e88d3d4913ae4f19bf2fe573640e75608c444c5",
+      "format": "JPEG"
+    },
+    "assets/img/views/necklace-2022-vca-alhambra-mother-pearl.jpg": {
+      "width": 930,
+      "height": 1242,
+      "sha256": "9b29848fa7f9ad1a22e2ab2a0a1f763632db7d6017af0bdf670eae386cbdbee3",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/necklace-2022-adidas-gucci-gourmette.jpg": {
+      "width": 800,
+      "height": 572,
+      "sha256": "7df9e5d1c24256b5f738e2d6bcdc319239873d511028969380271bd79d4bb755",
+      "format": "JPEG"
+    },
+    "assets/img/views/necklace-2022-adidas-gucci-gourmette.jpg": {
+      "width": 1200,
+      "height": 1582,
+      "sha256": "0eff53f7def6efc7418c80bd8e45f5e38467aa0a642f8f0579cb0b9c04332215",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/necklace-2022-fendace-chain-necklace.jpg": {
+      "width": 800,
+      "height": 571,
+      "sha256": "7840c60d5910f43316fdb10bd94a21525d2d88f6115f036cca4dd8e36c06215d",
+      "format": "JPEG"
+    },
+    "assets/img/views/necklace-2022-fendace-chain-necklace.jpg": {
+      "width": 1006,
+      "height": 1600,
+      "sha256": "f975f574765c976c0d738ea10b0260c8e1e2b748d9770013b061d41134ce6407",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/necklace-2023-chanel-coco-crush-pendant.jpg": {
+      "width": 1080,
+      "height": 1080,
+      "sha256": "744526c00aceded52bf3d25dc0dc65a0b16c78bd83a125c406188b07adb3137e",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/necklace-2023-tiffany-t-smile.webp": {
+      "width": 2000,
+      "height": 2000,
+      "sha256": "5e3d2d8e8e8092641cf914aea48ea1f81ccb37c96b0639fe2a6057189e69247e",
+      "format": "WEBP"
+    },
+    "assets/img/jewel-years/necklace-2023-vca-alhambra-onyx.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "2eed6ee14d0dba7c5ab4630f8edc579246f1f668d2c8ed5e69c045744f362718",
+      "format": "JPEG"
+    },
+    "assets/img/views/necklace-2023-vca-alhambra-onyx.jpg": {
+      "width": 3800,
+      "height": 3800,
+      "sha256": "606a6b75df44f261bc4195e05aa17a6c2cb8755121a4639dd55e2e46f4e9e5b4",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/necklace-2023-tiffany-lock-rose-diamond.webp": {
+      "width": 2000,
+      "height": 2000,
+      "sha256": "a2ad9ef53871646419c1868cc1b2ed9e312bc8892340145c88374b93c97a6b7e",
+      "format": "WEBP"
+    },
+    "assets/img/views/necklace-2023-tiffany-lock-rose-diamond.webp": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "bdbf1caccafb28fc61a1191d2d7c1f1f243c2316f06fab8ae252abe6cee0a3c0",
+      "format": "WEBP"
+    },
+    "assets/img/jewel-years/necklace-2023-tiffany-rose-lock-pendant.webp": {
+      "width": 2000,
+      "height": 2000,
+      "sha256": "a9e353d9fa3121cbe54dfe0dbaac3c67ae93d9e6421e5c9798f39e746f5d56d5",
+      "format": "WEBP"
+    },
+    "assets/img/views/necklace-2023-tiffany-rose-lock-pendant.webp": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "2f6571ad0c2a40b35b56019e1f118a210f53bec8fae2a4d3c640118f9384a018",
+      "format": "WEBP"
+    },
+    "assets/img/jewel-years/necklace-2023-tiffany-arsham-pokemon-pikachu.jpg": {
+      "width": 988,
+      "height": 988,
+      "sha256": "246108b6a34ccbcc5fa7a1d366746ec157cd01c3dec0539b910457cc9557ab3c",
+      "format": "JPEG"
+    },
+    "assets/img/views/necklace-2023-tiffany-arsham-pokemon-pikachu.png": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "be5de466311f28f112c6bdbedc183f1ac744a7c72ab5c8ab6551cf15e8c5005d",
+      "format": "PNG"
+    },
+    "assets/img/jewel-years/necklace-2024-tiffany-t-smile-small-yellow-gold-60011679.webp": {
+      "width": 2000,
+      "height": 2000,
+      "sha256": "5e3d2d8e8e8092641cf914aea48ea1f81ccb37c96b0639fe2a6057189e69247e",
+      "format": "WEBP"
+    },
+    "assets/img/jewel-years/necklace-2024-bulgari-bzero1-necklace-white-gold-352815.png": {
+      "width": 1090,
+      "height": 851,
+      "sha256": "875a2ab015029f7a4e2808494f251377047700d02c55a9da7e777bb6cc3ed935",
+      "format": "PNG"
+    },
+    "assets/img/jewel-years/necklace-2024-chanel-coco-crush-necklace-small-beige-gold-j12306.jpg": {
+      "width": 1080,
+      "height": 1080,
+      "sha256": "744526c00aceded52bf3d25dc0dc65a0b16c78bd83a125c406188b07adb3137e",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/necklace-2024-van-cleef-vintage-alhambra-mother-of-pearl.jpg": {
+      "width": 1003,
+      "height": 1003,
+      "sha256": "1e4cffbbd4c29bbae9812da3e1cf02c8afd7365f02bb21f9bafd1f5ba4665929",
+      "format": "JPEG"
+    },
+    "assets/img/views/necklace-2024-van-cleef-vintage-alhambra-mother-of-pearl.jpg": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "9a16322a9f1b37891c57fb4084ec002e1ebbb84832f7baa7b6bcaca141ef3ddf",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/necklace-2024-fendi-frgmt-pokemon-pokeball-necklace.jpg": {
+      "width": 800,
+      "height": 571,
+      "sha256": "8b5dc1daaa589ca04b5ec7c66f48118f37b34b85f9f2a9497c55a034aa59b79a",
+      "format": "JPEG"
+    },
+    "assets/img/views/necklace-2024-fendi-frgmt-pokemon-pokeball-necklace.jpg": {
+      "width": 1280,
+      "height": 1280,
+      "sha256": "536bc92511f73aaf4bcc1764d2d2e24300dea100b34d034ccf96e0517b8749df",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/necklace-2024-van-cleef-holiday-guilloche-rose-white-gold.jpg": {
+      "width": 768,
+      "height": 768,
+      "sha256": "e30f588734cd05d8fe2675bdaae0826e6d298c679276676ec1d6cb9da922d884",
+      "format": "JPEG"
+    },
+    "assets/img/views/necklace-2024-van-cleef-holiday-guilloche-rose-white-gold.jpg": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "99ac54806a4384498c403a4ef4da42cf2246cce1f31e1b78cc4f4444797ee095",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/necklace-2025-chanel-coco-crush-necklace-small-beige-gold-j12306.jpg": {
+      "width": 1080,
+      "height": 1080,
+      "sha256": "744526c00aceded52bf3d25dc0dc65a0b16c78bd83a125c406188b07adb3137e",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/necklace-2025-tiffany-t-smile-small-yellow-gold-60011679.webp": {
+      "width": 2000,
+      "height": 2000,
+      "sha256": "5e3d2d8e8e8092641cf914aea48ea1f81ccb37c96b0639fe2a6057189e69247e",
+      "format": "WEBP"
+    },
+    "assets/img/jewel-years/necklace-2025-gucci-trademark-heart-silver.jpg": {
+      "width": 1200,
+      "height": 1500,
+      "sha256": "a046638cbf05896c594e7d417651d9babaf657cdc9523078f10326f3f916793e",
+      "format": "JPEG"
+    },
+    "assets/img/views/necklace-2025-gucci-trademark-heart-silver.jpg": {
+      "width": 490,
+      "height": 490,
+      "sha256": "d229c88ed87f3d2beff5da8b79a2e03a4c3260539058e332bbfb0a3cdb51ccfd",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/necklace-2025-bulgari-divas-dream-mother-of-pearl-diamonds.png": {
+      "width": 1090,
+      "height": 851,
+      "sha256": "ab12c23ff41ec710f52fdede5a0c67881d9a18a42bbba10ee79d10483a7c1731",
+      "format": "PNG"
+    },
+    "assets/img/views/necklace-2025-bulgari-divas-dream-mother-of-pearl-diamonds.jpg": {
+      "width": 779,
+      "height": 1090,
+      "sha256": "fdb6dc440482d0719e5fd6e04f63bddd5730e5a8948e81d2bedecf6c24ebdacd",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/necklace-2025-louis-vuitton-murakami-superflat-necklace.webp": {
+      "width": 1024,
+      "height": 954,
+      "sha256": "e792c7c6e438ee89ac73a59a2421de032f93f066bc7b383e93ef51e0bbeec70a",
+      "format": "WEBP"
+    },
+    "assets/img/views/necklace-2025-louis-vuitton-murakami-superflat-necklace.jpg": {
+      "width": 900,
+      "height": 900,
+      "sha256": "1c88094dac7565db2aa80885e3a61cfaa70b9567d971b4ec80959f2e5c9cc74a",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/necklace-2025-swarovski-ariana-grande-heart-necklace.jpg": {
+      "width": 580,
+      "height": 580,
+      "sha256": "aff5d1215e3fef426b6d95d83d5aaf46d8386688f557c57df9e4028c05d096a1",
+      "format": "JPEG"
+    },
+    "assets/img/views/necklace-2025-swarovski-ariana-grande-heart-necklace.jpg": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "eb5de55e067675e359506c203cfba629cfcf19d9b5d6c2dbeefbdba78622c392",
+      "format": "JPEG"
+    },
+    "assets/img/jewel-years/necklace-2026-fred-force10-rise-yellow-gold.png": {
+      "width": 1080,
+      "height": 1080,
+      "sha256": "db0519c629da2c0f7c0d91308df300a7267b86f2269f2cc58ca8b4bcbffbaeb8",
+      "format": "PNG"
+    },
+    "assets/img/views/necklace-2026-fred-force10-rise-yellow-gold.png": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "c737beeb3b6167020c5f07b5efa4a2ed7ef8a1011b56edc83dde58e58452f559",
+      "format": "PNG"
+    },
+    "assets/img/jewel-years/necklace-2026-tiffany-hardwear-double-link-yellow-gold.webp": {
+      "width": 2000,
+      "height": 2000,
+      "sha256": "15d045207b8002b57bc0c8dab246ddd533abc3c38c84754189d3d5dae47f91f3",
+      "format": "WEBP"
+    },
+    "assets/img/views/necklace-2026-tiffany-hardwear-double-link-yellow-gold.webp": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "4321a2530dc67c396aeebf6e8f178791a9f0c0762f19ef711536ff2a1bdb2bc5",
+      "format": "WEBP"
+    },
+    "assets/img/jewel-years/necklace-2026-tiffany-hardwear-medium-yellow-gold.webp": {
+      "width": 2000,
+      "height": 2000,
+      "sha256": "20b0a17e8185922d8862311958041a824273e484973740f894bcc6f2d9c6d237",
+      "format": "WEBP"
+    },
+    "assets/img/views/necklace-2026-tiffany-hardwear-medium-yellow-gold.webp": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "bc458aa9950c8e2dfc3ed666bc7b39507f88046618041e583fab349dcb16d733",
+      "format": "WEBP"
+    },
+    "assets/img/jewel-years/necklace-2026-swarovski-ariana-dragonfly-pendant.jpg": {
+      "width": 375,
+      "height": 375,
+      "sha256": "29f9adf679b1c360ac7cb8ab1b317d3803ab03fec4e62c10f9e9be1873540175",
+      "format": "JPEG"
+    },
+    "assets/img/views/necklace-2026-swarovski-ariana-dragonfly-pendant.png": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "e6fa07d6d83cd18ac552e653f242782d3595a0e9122a0ec1b42f6410a7ab641c",
+      "format": "PNG"
+    },
+    "assets/img/jewel-years/necklace-2026-swarovski-ariana-dragonfly-y.png": {
+      "width": 375,
+      "height": 375,
+      "sha256": "1aa1b91f0c10d8eed709dea4da2335027d6f6f89636499a4d000d0e332ee7070",
+      "format": "PNG"
+    },
+    "assets/img/views/necklace-2026-swarovski-ariana-dragonfly-y.png": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "920ed2376918ac718470dc5bda19c8f4d53f4bb523d5a02f28e32a6883d7110b",
+      "format": "PNG"
+    },
+    "assets/img/views/necklace-tiffany-keys-front.webp": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "8c71c700aeef038041a4038e1521a814e56d3a3c22d7b09ba883eaf1e92985f1",
+      "format": "WEBP"
+    },
+    "assets/img/views/necklace-tiffany-keys-second.webp": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "4d210fc662f899d3038849f8cad9041799ada059e6481b37b50875e52174a6bd",
+      "format": "WEBP"
+    },
+    "assets/img/products/watches-hermes-cape-cod-w044350ww00.jpg": {
+      "width": 800,
+      "height": 800,
+      "sha256": "1cbd392d1dc14889ce260a90ad93772de86fba48f37123661d8cf072abd4d957",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-hermes-cape-cod-41-etoupe-w044350ww00.jpg": {
+      "width": 800,
+      "height": 800,
+      "sha256": "4e0d0d9553df7e1c3bb7d03e6d4dc6820ec77dd825292b1e4089bdd6eb4e9565",
+      "format": "JPEG"
+    },
+    "assets/img/products/watches-hermes-heure-h-w404223ww00.jpg": {
+      "width": 800,
+      "height": 800,
+      "sha256": "41ece745bb5e98ba975168312ab3fc7b14f79557329b71edda2df0413e045f06",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-hermes-heure-h-medium-etoupe-w404223ww00.jpg": {
+      "width": 800,
+      "height": 800,
+      "sha256": "1c16d5c92ae4594d309ce56bf91c751c35793a10f668022c14888b7bf2bf2312",
+      "format": "JPEG"
+    },
+    "assets/img/products/scarves-hermes-please-hold-line-blue.jpg": {
+      "width": 800,
+      "height": 800,
+      "sha256": "43cc4369bb70973e1f690ce7a993c0d65aff4f9e8385db2e17cf1153dfca8242",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-hermes-please-hold-line-90-blue-us.jpg": {
+      "width": 300,
+      "height": 400,
+      "sha256": "a4dab0131cdddce9aac5332adaa529d1281f5832c5cbdb86bd60338878ae2e09",
+      "format": "JPEG"
+    },
+    "assets/img/products/fragrance-hermes-terre-edt-v107188v0.jpg": {
+      "width": 800,
+      "height": 800,
+      "sha256": "a1e6625e4038175cd350ee7085b01f412955371ad66e357f698cd48ea69e2f9b",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-hermes-terre-edt-338oz-v107188v0.jpg": {
+      "width": 300,
+      "height": 400,
+      "sha256": "4785c0974afda3b4e27b86e6995f6f9ffc5f658faf22229438e86509b01add4b",
+      "format": "JPEG"
+    },
+    "assets/img/products/scarves-dior-oblique-mitzah-navy.jpg": {
+      "width": 1600,
+      "height": 2000,
+      "sha256": "fe84fbbed58a3f3b91346578380eb2ce5db9ded4966f9c0c7e853477b7582b56",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-dior-oblique-mitzah-navy-us.jpg": {
+      "width": 960,
+      "height": 1200,
+      "sha256": "c4efbd020880be67509f84457898dee099ebbd36860d52acb4c0c924863bfad8",
+      "format": "JPEG"
+    },
+    "assets/img/products/scarves-prada-triangle-alabaster.jpg": {
+      "width": 1000,
+      "height": 1250,
+      "sha256": "3b95ffafd48fba13222c6202954a4349d931cb6e9eb1f9c0ae6b7f3bb3ffb3c1",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-prada-triangle-silk-scarf-55-alabaster-us.jpg": {
+      "width": 1000,
+      "height": 1250,
+      "sha256": "8578ab03fa84745027a2890c458ee1d84cf9699b8a424570c42685dd3ec67cb0",
+      "format": "JPEG"
+    },
+    "assets/img/products/fragrance-prada-paradoxe-90ml.jpg": {
+      "width": 600,
+      "height": 750,
+      "sha256": "8a9d3e91390bd549c180625ce8ff867de3435b33991780127287b577a26af7d4",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-prada-paradoxe-edp-90ml-1a1351.jpg": {
+      "width": 1000,
+      "height": 1250,
+      "sha256": "a53d2381c7901ffb1ea52f460d413d88a21cd0253dddb58ebfff592af21afb18",
+      "format": "JPEG"
+    },
+    "assets/img/products/watches-cartier-tank-crwsta0135.jpg": {
+      "width": 750,
+      "height": 750,
+      "sha256": "f4ea72ecfde190dcdf51611f526cfd4f26eb682be00a20dca367de8dc2f70add",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-cartier-tank-must-small-wsta0135.jpg": {
+      "width": 800,
+      "height": 800,
+      "sha256": "b3b312b4fb6ed6e4bf35f3db89c620e37d4abc09a93b37b63571c7a043a90e08",
+      "format": "JPEG"
+    },
+    "assets/img/products/watches-cartier-santos-crwssa0029.jpg": {
+      "width": 750,
+      "height": 750,
+      "sha256": "031e6bcd00f0c1eba467fe77125840ea932bb25b42faced6d87d94570f8de58a",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-santos-angle.png": {
+      "width": 800,
+      "height": 800,
+      "sha256": "ddb398d5f8c73afc13cab2d230ea5170e7aa070fca0e7220baeaf912936a94c8",
+      "format": "PNG"
+    },
+    "assets/img/products/fragrance-gucci-bloom-100ml.jpg": {
+      "width": 490,
+      "height": 490,
+      "sha256": "272466bb331a38b7c27942845bbf66327caa57e09420a4552d9043e83d40e5e2",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-bloom-uncapped.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "bd346c04242728f7afda3a76525c6995f564c7735d5fe8fad76caa08ea5b13d6",
+      "format": "JPEG"
+    },
+    "assets/img/products/scarves-gucci-flora-pink.jpg": {
+      "width": 980,
+      "height": 980,
+      "sha256": "805ce1519a8262cd37ca55adc76b8bf42e14920e0eb597d38d3089d44f3decf6",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-gucci-flora-silk-carre-pink-us.jpg": {
+      "width": 980,
+      "height": 980,
+      "sha256": "0772e21ca5f2fa8660b04d9342b718f69405c1cea79d048296752557d58fd508",
+      "format": "JPEG"
+    },
+    "assets/img/products/watches-hublot-tributo-white-gold-38.jpg": {
+      "width": 1200,
+      "height": 1500,
+      "sha256": "42cf9aec2a4479e8759d5642c8e1c981407c3c2721fa852de5caf86f140c9a3b",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-hublot-back.webp": {
+      "width": 1600,
+      "height": 1131,
+      "sha256": "102f733afad8e3857b0687eceabe4eb3383e1c100b6144bf316b36038ef0023f",
+      "format": "WEBP"
+    },
+    "assets/img/products/fragrance-dior-jadore-edp-100ml.jpg": {
+      "width": 1800,
+      "height": 1200,
+      "sha256": "6e77bb5654cca7b9eb607e5d10a424bf191c2291730cb95e87440bbf4777763b",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-jadore-official-extra.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "sha256": "51fb778ac435b3fbc888c6c945b8375115c9cba6411c8747fd4c24cd020e2439",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-omega-front.jpg": {
+      "width": 800,
+      "height": 800,
+      "sha256": "db88fd2037b7834d904e7243f8acda8df30e368eba9f082e0300baaba01a2ac1",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-omega-side.jpg": {
+      "width": 800,
+      "height": 800,
+      "sha256": "6694bf32a86b19f3775a5251083d4758d7b70d55d0bb7336c6848bf4bd874bde",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-submariner-front.png": {
+      "width": 1200,
+      "height": 1786,
+      "sha256": "f8c9ec7987ae2f31acf7becbedcb23896bd41b61b2b2a06a3fc9242c55f673ff",
+      "format": "PNG"
+    },
+    "assets/img/views/root-submariner-side.jpg": {
+      "width": 1200,
+      "height": 675,
+      "sha256": "fb913244a3e0dd112ae77975a447627a7011bfab0c34eccda895197824849240",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-horsebit-front.jpg": {
+      "width": 980,
+      "height": 980,
+      "sha256": "6a5417d6ea5e915c8dcd85dae3a0e0260c8c2aefb81aaebd980804b1e9a6fa60",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-horsebit-side.jpg": {
+      "width": 980,
+      "height": 980,
+      "sha256": "1db80d0b07e44ba3d2b71f224279dd325f81c7878f226756a1d795d24330427b",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-celine-1.jpg": {
+      "width": 800,
+      "height": 1000,
+      "sha256": "4eee725b1598e63d47512937a14c5b8dd84b7499dcb8e1d56f2d4f15f8c03ef1",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-celine-2.jpg": {
+      "width": 800,
+      "height": 1000,
+      "sha256": "a4a6c6a9a4d665e6529d1781ef1e25bcc765851a6e67e19101c8fa56ce712ca8",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-n5-sasa-1.jpg": {
+      "width": 800,
+      "height": 800,
+      "sha256": "2dd0686860f264831300151cec99f5caf48513e39e3dd7b43e02f44dde78f192",
+      "format": "JPEG"
+    },
+    "assets/img/views/root-n5-sasa-5.jpg": {
+      "width": 800,
+      "height": 800,
+      "sha256": "ad97dd06874013ebb6e4fb08dd78b53db5274a57f0c9e064c5ca4488f6894834",
+      "format": "JPEG"
+    }
+  },
+  "closestPairs": [
+    {
+      "id": "tiffany-keys",
+      "a": "assets/img/views/necklace-tiffany-keys-front.webp",
+      "b": "assets/img/views/necklace-tiffany-keys-second.webp",
+      "rms": 7.093
+    },
+    {
+      "id": "necklace-2026-swarovski-ariana-dragonfly-y",
+      "a": "assets/img/jewel-years/necklace-2026-swarovski-ariana-dragonfly-y.png",
+      "b": "assets/img/views/necklace-2026-swarovski-ariana-dragonfly-y.png",
+      "rms": 8.334
+    },
+    {
+      "id": "prada-galleria-small-black-leather-us",
+      "a": "assets/img/products/bags-prada-galleria-small-black.jpg",
+      "b": "assets/img/views/bags-prada-galleria-small-black-leather-us-2.jpg",
+      "rms": 10.025
+    },
+    {
+      "id": "galleria",
+      "a": "assets/img/products/bags-prada-galleria-small-black.jpg",
+      "b": "assets/img/views/bags-prada-galleria-small-black-leather-us-2.jpg",
+      "rms": 10.025
+    },
+    {
+      "id": "tiffany-t",
+      "a": "assets/img/products/necklace-tiffany-t-smile-small-yellow-gold-60011679.webp",
+      "b": "assets/img/views/necklace-tiffany-t-smile-small-yellow-gold-60011679.webp",
+      "rms": 10.581
+    },
+    {
+      "id": "tiffany-t-smile-small-yellow-gold-60011679",
+      "a": "assets/img/products/necklace-tiffany-t-smile-small-yellow-gold-60011679.webp",
+      "b": "assets/img/views/necklace-tiffany-t-smile-small-yellow-gold-60011679.webp",
+      "rms": 10.581
+    },
+    {
+      "id": "necklace-2023-tiffany-t-smile",
+      "a": "assets/img/jewel-years/necklace-2023-tiffany-t-smile.webp",
+      "b": "assets/img/views/necklace-tiffany-t-smile-small-yellow-gold-60011679.webp",
+      "rms": 10.581
+    },
+    {
+      "id": "necklace-2024-tiffany-t-smile-small-yellow-gold-60011679",
+      "a": "assets/img/jewel-years/necklace-2024-tiffany-t-smile-small-yellow-gold-60011679.webp",
+      "b": "assets/img/views/necklace-tiffany-t-smile-small-yellow-gold-60011679.webp",
+      "rms": 10.581
+    },
+    {
+      "id": "necklace-2025-tiffany-t-smile-small-yellow-gold-60011679",
+      "a": "assets/img/jewel-years/necklace-2025-tiffany-t-smile-small-yellow-gold-60011679.webp",
+      "b": "assets/img/views/necklace-tiffany-t-smile-small-yellow-gold-60011679.webp",
+      "rms": 10.581
+    },
+    {
+      "id": "necklace-2026-fred-force10-rise-yellow-gold",
+      "a": "assets/img/jewel-years/necklace-2026-fred-force10-rise-yellow-gold.png",
+      "b": "assets/img/views/necklace-2026-fred-force10-rise-yellow-gold.png",
+      "rms": 10.859
+    },
+    {
+      "id": "bag-2025-prada-dada-small",
+      "a": "assets/img/bag-years/2025-prada-dada.jpg",
+      "b": "assets/img/views/bags-bag-2025-prada-dada-small-2.jpg",
+      "rms": 11.846
+    },
+    {
+      "id": "bag-2024-miu-miu-arcadie-suede",
+      "a": "assets/img/bag-years/2024-miu-miu-arcadie-suede.jpg",
+      "b": "assets/img/views/bags-bag-2024-miu-miu-arcadie-suede-2.jpg",
+      "rms": 12.343
+    },
+    {
+      "id": "bag-2022-miu-miu-wander",
+      "a": "assets/img/bag-years/2022-miu-miu-wander.jpg",
+      "b": "assets/img/views/bags-bag-2022-miu-miu-wander-2.jpg",
+      "rms": 13.534
+    },
+    {
+      "id": "necklace-2023-tiffany-lock-rose-diamond",
+      "a": "assets/img/jewel-years/necklace-2023-tiffany-lock-rose-diamond.webp",
+      "b": "assets/img/views/necklace-2023-tiffany-lock-rose-diamond.webp",
+      "rms": 14.638
+    },
+    {
+      "id": "necklace-2024-fendi-frgmt-pokemon-pokeball-necklace",
+      "a": "assets/img/jewel-years/necklace-2024-fendi-frgmt-pokemon-pokeball-necklace.jpg",
+      "b": "assets/img/views/necklace-2024-fendi-frgmt-pokemon-pokeball-necklace.jpg",
+      "rms": 15.072
+    },
+    {
+      "id": "bag-2023-miu-miu-arcadie",
+      "a": "assets/img/bag-years/2023-miu-miu-arcadie.jpg",
+      "b": "assets/img/views/bags-bag-2023-miu-miu-arcadie-2.jpg",
+      "rms": 16.619
+    },
+    {
+      "id": "necklace-2026-tiffany-hardwear-double-link-yellow-gold",
+      "a": "assets/img/jewel-years/necklace-2026-tiffany-hardwear-double-link-yellow-gold.webp",
+      "b": "assets/img/views/necklace-2026-tiffany-hardwear-double-link-yellow-gold.webp",
+      "rms": 17.027
+    },
+    {
+      "id": "necklace-2023-tiffany-rose-lock-pendant",
+      "a": "assets/img/jewel-years/necklace-2023-tiffany-rose-lock-pendant.webp",
+      "b": "assets/img/views/necklace-2023-tiffany-rose-lock-pendant.webp",
+      "rms": 17.526
+    }
+  ],
+  "visualReview": {
+    "allNewImages": "Primary agent and category agents visually compared images with existing views; exact-reference repeats shared verified assets.",
+    "additionalReview": "Primary agent rechecked the 18 lowest-RMS gallery pairs; genuine rear/closure/three-quarter/worn views, not resamples.",
+    "browserTabsOpened": 0,
+    "browserTabsRemaining": 0
+  }
+}

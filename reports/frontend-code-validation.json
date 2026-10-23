@@ -6,7 +6,7 @@
   "scope": "Behavior and offline URL checks only; no browser engine, layout, CSS or assistive-technology verification. No network calls.",
   "browserTabsOpened": 0,
   "browserTabsRemaining": 0,
-  "assertions": 39,
+  "assertions": 54,
   "checks": [
     "Decoded brand count matches canonical content",
     "Decoded product count includes all annual selections",
@@ -44,6 +44,21 @@
     "Year deep link: 2026",
     "Year click updates location: 2026",
     "Year keyboard wraps at final button: 2026",
+    "Gallery initializes with one visible photograph: dior-small-lady-dior-black-us",
+    "Thumbnail image click switches view: dior-small-lady-dior-black-us",
+    "Home key selects and focuses first view: dior-small-lady-dior-black-us",
+    "Arrow key wraps gallery focus: dior-small-lady-dior-black-us",
+    "Gallery announces active view: dior-small-lady-dior-black-us",
+    "Gallery initializes with one visible photograph: bag-2022-prada-re-edition-2000",
+    "Thumbnail image click switches view: bag-2022-prada-re-edition-2000",
+    "Home key selects and focuses first view: bag-2022-prada-re-edition-2000",
+    "Arrow key wraps gallery focus: bag-2022-prada-re-edition-2000",
+    "Gallery announces active view: bag-2022-prada-re-edition-2000",
+    "Gallery initializes with one visible photograph: birkin",
+    "Thumbnail image click switches view: birkin",
+    "Home key selects and focuses first view: birkin",
+    "Arrow key wraps gallery focus: birkin",
+    "Gallery announces active view: birkin",
     "Mobile menu opens with correct expanded state",
     "Escape closes mobile menu",
     "Desktop resize closes mobile menu"
@@ -51,13 +66,16 @@
   "sourceHashes": {
     "assets/js/data.js": "101c2753db46ae9668230a022012521cd408f9648f2ee5cc79af594b7ed75b47",
     "assets/js/render.js": "205d0e3f63d2b6a4f0734a9cfcffdc48ff3a117e5fa84f1157e9caab98d58c80",
-    "assets/js/main.js": "d2a7aa695f9cfa689c47dd2673115d62b7809a2789f6143e616319c6cc22a319"
+    "assets/js/main.js": "d6a2925e3a4734c6814f54efedaea080bed5d8da56ff55b1f34ce193fee3ebff"
   },
   "contentHash": "b8f61b38faa4b67c4d5877e5b14af8f38a4214bdbb0f878d4f9aa99e6df8c0c6",
   "fixtureHashes": {
-    "search.html": "c81ea8f0d5ba1aafb8a11acbc7bf568b483711883663d84c0f647f63c05f7ac7",
-    "brands.html": "0d74e6e40c1ac80da55abcdacb201a435fc9b012e41b8ff717755c99380bb2fc",
-    "bags-by-year.html": "5e2d911f720327b90ab5c3357259abc95cefa3d15237fc674072de74912ef85c",
-    "index.html": "1ff007cde1189ddb94ae273749252de144d46cdb1274d60ed5d06452ec99cefb"
+    "search.html": "89226e47790c5a718697ef949aec09e592c96dec9f5b64f60afe72b94249cf15",
+    "brands.html": "824d99e254ade6d088a089fea2664caed10e32f6f7fa3e0e228a05ed260ebfd8",
+    "bags-by-year.html": "7d6624e5ecabffc6293e03109e94e714c08977a2bcfe710a2813e80527e869ea",
+    "item/dior-small-lady-dior-black-us.html": "3896149637b4e32cb548cf47428450a979310df676721223f0cc36f9c9b2c349",
+    "item/bag-2022-prada-re-edition-2000.html": "05b6867ece677f78ec216d30eb92f744c008bf3c4332b1a84d08ecc926342ecb",
+    "item/birkin.html": "b61b8585e15fa35f038d4d0b2932eda4bd6db664f8ec503fe8285499122043ac",
+    "index.html": "78c6b43fff98f62b6b7a89d8b33334f70a245910463c383df3b0f4844a05bf03"
   }
 }

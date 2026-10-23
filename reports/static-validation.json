@@ -3,6 +3,8 @@
   "pages": 201,
   "brands": 32,
   "items": 53,
+  "productGalleries": 143,
+  "galleryViews": 286,
   "primaryBrands": 29,
   "collaborationBrands": 3,
   "catalogBrandAssociations": 151,
@@ -108,7 +110,7 @@
   "coreSnapshotPrices": 9,
   "unlistedAnnualPrices": 0,
   "svgAssets": 42,
-  "runtimeJavaScriptBytes": 44853,
+  "runtimeJavaScriptBytes": 46006,
   "articleChineseCharacters": {
     "mag-01": 972,
     "mag-02": 915,

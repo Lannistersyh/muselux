@@ -7,6 +7,7 @@ from collections import Counter
 from datetime import date
 from bag_yearbook import BOOKS,price_text,date_label
 from brand_catalog import enrich, brand_ids
+import product_gallery
 
 ROOT=Path(__file__).resolve().parents[1]
 D=json.loads((ROOT/'tools/content.json').read_text())
@@ -60,7 +61,7 @@ class Document(HTMLParser):
         if tag=='meta':self.meta[a.get('name',a.get('property'))]=a.get('content','')
         if tag=='img':
             self.images+=1
-            check(bool(a.get('alt')),'Missing image alt: '+a.get('src',''))
+            check(bool(a.get('alt')) or (a.get('aria-hidden')=='true' and a.get('alt')==''),'Missing image alt: '+a.get('src',''))
             check('width'in a and 'height'in a,'Missing intrinsic image dimensions: '+a.get('src',''))
         for attr in ('href','src'):
             if a.get(attr) is not None:self.refs.append(a[attr])
@@ -292,10 +293,45 @@ for token in tokens:
     elif token in ')]}':
         if not stack or stack.pop()!=pairs[token]:issues.append('CSS has unbalanced delimiters');break
 check(not stack,'CSS has unclosed delimiters')
+galleries=product_gallery.load()
+check(not set(galleries)-set(PRODUCTS),'Gallery contains retired or unknown products')
+for product_id,product in PRODUCTS.items():
+    record=galleries.get(product_id)
+    check(bool(record),product_id+': missing source-backed gallery')
+    if not record:continue
+    check(bool(record.get('reference')),product_id+': gallery needs a pictured reference')
+    if product.get('image'):
+        check(record['reference']==product['reference'],product_id+': gallery reference differs from product')
+    else:
+        check(bool(record.get('note')),product_id+': family gallery needs a representative-variant note')
+    views=product_gallery.views(product,record)
+    check(len(views)>=2,product_id+': fewer than two real product views')
+    hashes=[]
+    for image in views:
+        path=(ROOT/image['path']).resolve()
+        check(path.is_relative_to(ROOT/'assets/img'),product_id+': unsafe gallery image path')
+        check(path.is_file(),product_id+': missing gallery asset')
+        if path.is_file():
+            check(image_size(path)==(image['width'],image['height']),product_id+': wrong gallery image dimensions')
+            hashes.append(hashlib.sha256(path.read_bytes()).hexdigest())
+        for field in ('source','pageSource'):
+            check(urlsplit(image.get(field,'')).scheme=='https',product_id+': missing HTTPS gallery '+field)
+        for field in ('alt','viewLabel','credit'):
+            check(bool(image.get(field)),product_id+': missing gallery '+field)
+    check(len(hashes)==len(set(hashes)),product_id+': duplicate gallery photograph')
+    for image in record['images']:
+        reviewed=iso_date(image.get('checkedAt'),product_id+': view review')
+        check(reviewed is not None and reviewed<=date.today(),product_id+': future gallery review')
+        check(bool(image.get('evidence')),product_id+': missing view matching evidence')
+    source=(ROOT/'item'/f'{product_id}.html').read_text()
+    check(source.count('data-gallery-view')==len(views),product_id+': gallery HTML count differs from evidence')
+    check('data-gallery-controls hidden' in source,product_id+': gallery controls must be progressively enhanced')
+    check(not re.search(r'data-gallery-view[^>]*\bhidden\b',source),product_id+': photographs unavailable without JavaScript')
 check((ROOT/'README.md').exists(),'Missing README')
 check((ROOT/'assets/fonts/Oswald-LICENSE.txt').exists(),'Oswald license missing')
 check((ROOT/'assets/fonts/Raleway-LICENSE.txt').exists(),'Raleway license missing')
 summary=dict(passed=not issues,pages=len(pages),brands=len(D['brands']),items=len(D['items']),
+    productGalleries=len(galleries),galleryViews=sum(len(product_gallery.views(PRODUCTS[k],v)) for k,v in galleries.items() if k in PRODUCTS),
     primaryBrands=len({x['brand'] for x in CATALOG}),
     collaborationBrands=sum(b.get('role')=='collaborator' for b in D['brands']),
     catalogBrandAssociations=sum(b['itemCount'] for b in D['brands']),

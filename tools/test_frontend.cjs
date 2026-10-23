@@ -211,6 +211,29 @@ async function run() {
     check(panels.find(panel => !panel.hidden).dataset.yearPanel === '2026', 'Year keyboard wraps at final button: ' + year);
   }
 
+  const viewSources = fs.readdirSync(path.join(root, 'tools/research')).filter(file => /^product-views-.*\.json$/.test(file));
+  const viewRecords = viewSources.flatMap(file => JSON.parse(fs.readFileSync(path.join(root, 'tools/research', file), 'utf8')).records);
+  const galleryIds = [content.items.find(item => item.styleEdit && viewRecords.some(record => record.id === item.id))?.id,
+    catalog.find(item => item.annualEdit && viewRecords.some(record => record.id === item.id))?.id,
+    content.items.find(item => !item.styleEdit && viewRecords.some(record => record.id === item.id))?.id];
+  for (const id of galleryIds) {
+    assert.ok(id, 'Core, annual and dictionary gallery fixtures available');
+    site = await fixture('item/' + id + '.html', 'file:///tmp/muselux/item/' + id + '.html');
+    const gallery = site.get('[data-product-gallery]');
+    const views = gallery.querySelectorAll('[data-gallery-view]');
+    const controls = gallery.querySelector('[data-gallery-controls]');
+    const buttons = controls.querySelectorAll('button');
+    check(views.length >= 2 && !controls.hidden && !views[0].hidden && views.slice(1).every(view => view.hidden), 'Gallery initializes with one visible photograph: ' + id);
+    controls.events.click({target: buttons[1].querySelector('img')});
+    check(!views[1].hidden && views[0].hidden && buttons[1].getAttribute('aria-pressed') === 'true', 'Thumbnail image click switches view: ' + id);
+    buttons[1].focus();
+    controls.events.keydown({key: 'Home', preventDefault() {}});
+    check(!views[0].hidden && site.document.activeElement === buttons[0], 'Home key selects and focuses first view: ' + id);
+    controls.events.keydown({key: 'ArrowLeft', preventDefault() {}});
+    check(!views.at(-1).hidden && site.document.activeElement === buttons.at(-1), 'Arrow key wraps gallery focus: ' + id);
+    check(gallery.querySelector('[data-gallery-status]').textContent.startsWith('View ' + views.length + ' of ' + views.length), 'Gallery announces active view: ' + id);
+  }
+
   site = await fixture('index.html');
   const menu = site.get('.menu-toggle');
   const nav = site.get('#main-nav');

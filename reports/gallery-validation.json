@@ -1,0 +1,743 @@
+{
+  "checkedAt": "2026-10-23",
+  "passed": true,
+  "productPages": 143,
+  "photoViews": 286,
+  "newImageFiles": 129,
+  "newImageBytes": 15213665,
+  "existingPhotoRecords": 115,
+  "representativeFamilyPages": 28,
+  "canonicalContentUnchanged": true,
+  "contentSha256": "b8f61b38faa4b67c4d5877e5b14af8f38a4214bdbb0f878d4f9aa99e6df8c0c6",
+  "galleryManifests": {
+    "tools/research/product-views-bags.json": "dfa0257077dbe720edf4dd6a14ebd62b171053ac8675a01ec62d98b15ddcd30d",
+    "tools/research/product-views-jewelry.json": "7dc01dd3dcfa7d775ca8cc3a515a4bb8f013153b93a1d588703a6c25cd9bf14f",
+    "tools/research/product-views-necklace.json": "93c01306be35e9daf83a7f034f70d4ce705ca37866966487c1e3edddf535fbcc",
+    "tools/research/product-views-root.json": "031a15697f68632a4597b1fbd7423f7f67ea7c46cacaca31b443cc9e998a2ad2"
+  },
+  "uniqueGalleryPhotoFiles": 244,
+  "unresolved": [],
+  "browserTabsOpened": 0,
+  "browserTabsRemaining": 0,
+  "limitations": [
+    "Some archive images use original retailer/resale galleries. Two necklace listings do not repeat manufacturer SKU; visual collaboration matching is disclosed in captions.",
+    "Static and DOM checks do not replace browser layout/phone viewport visual testing."
+  ],
+  "records": [
+    {
+      "id": "prada-galleria-small-black-leather-us",
+      "reference": "1BA896_2CYS_F0002_V_YO0",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2022-prada-re-edition-2000",
+      "reference": "1NE515_RDH0_F0002",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2022-miu-miu-wander",
+      "reference": "5BC125_AN88_F0002_V_OOY",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2023-loewe-font-tote",
+      "reference": "A685B61X05-2123",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2023-the-row-margaux-15",
+      "reference": "W1255L133BLPL",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2023-miu-miu-arcadie",
+      "reference": "5BB142_AN88_F0002_V_OON",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2024-miu-miu-arcadie-suede",
+      "reference": "5BB148_2CS4_F0324_V_OON",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2025-miu-miu-suede-pouch",
+      "reference": "5NF460_ACSS_F0324",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2025-chloe-paddington-grained",
+      "reference": "CH25WS802P7527M",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2026-prada-bonnie-medium-black",
+      "reference": "1BA426_2CYR_F0002_V_MOM",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2026-loewe-amazona180-large-black",
+      "reference": "A039ASRX02-1100",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2026-loewe-amazona180-lazy-crab",
+      "reference": "A03918MX26-1104",
+      "extraViews": 1
+    },
+    {
+      "id": "dior-small-lady-dior-black-us",
+      "reference": "M0618ONGE_M900",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2022-diesel-1dr",
+      "reference": "X08396PR818T8013",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2022-balenciaga-le-cagole-small",
+      "reference": "6713071VG9Y1000",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2023-bottega-andiamo-small",
+      "reference": "766014VCPP11249",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2024-balenciaga-rodeo-medium",
+      "reference": "7897722AA4U1000",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2025-saint-laurent-gaby-vanity",
+      "reference": "7667311EL071000",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2024-alaia-le-teckel-medium",
+      "reference": "AA1S06033I061999U",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2026-dior-toujours-hobo-small-black",
+      "reference": "M2867ODKZ_M900",
+      "extraViews": 1
+    },
+    {
+      "id": "gucci-jackie-small-black-gg-us",
+      "reference": "867156 FAFV4 1000",
+      "extraViews": 1
+    },
+    {
+      "id": "birkin",
+      "reference": "FASHIONPHILE listing 1821598 · Togo Birkin 30 Black · gold hardware · 2017",
+      "extraViews": 2
+    },
+    {
+      "id": "kelly",
+      "reference": "FASHIONPHILE listing 1963927 · Epsom Kelly Sellier 28 Black · gold hardware · 2017",
+      "extraViews": 2
+    },
+    {
+      "id": "bag-2024-fendi-frgmt-pokemon-beaded-baguette",
+      "reference": "8BR600AR1SF1N7O",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2022-gucci-adidas-large-duffle",
+      "reference": "702422 UVGAT 4170",
+      "extraViews": 1
+    },
+    {
+      "id": "jodie",
+      "reference": "651876VCPP58803",
+      "extraViews": 2
+    },
+    {
+      "id": "bag-2025-prada-dada-small",
+      "reference": "1BG586_2DX8_F0002_V_OOO",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2025-loewe-puzzle10-confetti",
+      "reference": "A510S21XCD-9990",
+      "extraViews": 1
+    },
+    {
+      "id": "classic-box",
+      "reference": "FASHIONPHILE listing 1961254 · Box calfskin Medium Classic Box Black · 2019",
+      "extraViews": 2
+    },
+    {
+      "id": "bag-2023-loewe-calcifer-mini-puzzle",
+      "reference": "A510U95X64-1100",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2025-loewe-puzzle10-plumeria",
+      "reference": "A510S21XAY-2906",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2026-chanel-maxi-flap-camel",
+      "reference": "AS6233-B24008-U8390",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2023-lv-yayoi-kusama-neverfull",
+      "reference": "Archive reference not available",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2022-loewe-spirited-away-susuwatari-mini-puzzle",
+      "reference": "Archive reference not available",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2024-louis-vuitton-tyler-keepall25",
+      "reference": "M24849",
+      "extraViews": 1
+    },
+    {
+      "id": "fendi-baguette-tobacco-ff-us",
+      "reference": "8BR600AFPMF1GL7",
+      "extraViews": 1
+    },
+    {
+      "id": "bag-2026-lv-speedy20-monogram-origine-green",
+      "reference": "M27530",
+      "extraViews": 1
+    },
+    {
+      "id": "classic-flap",
+      "reference": "A01112-Y01295-94305",
+      "extraViews": 2
+    },
+    {
+      "id": "chanel-255",
+      "reference": "A37586-Y04634-C3906",
+      "extraViews": 2
+    },
+    {
+      "id": "boy",
+      "reference": "A67085-Y09953-94305",
+      "extraViews": 2
+    },
+    {
+      "id": "bag-2024-loewe-puzzle-fold-medium",
+      "reference": "A657G50X01-2586",
+      "extraViews": 1
+    },
+    {
+      "id": "lady-dior",
+      "reference": "M0618ONGE_M900",
+      "extraViews": 2
+    },
+    {
+      "id": "jackie",
+      "reference": "867156 FAFV4 1000",
+      "extraViews": 2
+    },
+    {
+      "id": "galleria",
+      "reference": "1BA896_2CYS_F0002_V_YO0",
+      "extraViews": 2
+    },
+    {
+      "id": "baguette",
+      "reference": "8BR600AFPMF1GL7",
+      "extraViews": 2
+    },
+    {
+      "id": "speedy",
+      "reference": "M27530",
+      "extraViews": 2
+    },
+    {
+      "id": "jewelry-2022-tiffany-hardwear-bracelet",
+      "reference": "60153085",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2022-david-yurman-classic-cable",
+      "reference": "B12381 S4BGG (UPC883932667950)",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2022-cartier-love-classic-bracelet",
+      "reference": "B6067517 model family",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2023-cartier-juste-un-clou-small",
+      "reference": "B6062617 model family",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2023-tiffany-lock-rose-bangle",
+      "reference": "70185520 family (manufacturer SKUs70185512 /70306875)",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2023-tiffany-rose-lock-bangle",
+      "reference": "73965322 (manufacturer SKU73965330)",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2024-bulgari-serpenti-viper-ring-rose-gold-45-46-362140",
+      "reference": "362140",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2025-david-yurman-classic-cable-blue-topaz-diamonds",
+      "reference": "B04182 SSABTDI · XS",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2025-cartier-love-small-yellow-gold-size17",
+      "reference": "B6047517",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2026-pomellato-together-triple-band",
+      "reference": "PAC6010_O7WHR_DB000",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2026-tiffany-hardwear-medium-earrings-yellow-gold",
+      "reference": "Product family 73584531; listed SKU 73584558 / 75533837 / 77090916",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2026-tiffany-hardwear-micro-yellow-gold",
+      "reference": "Product family 60416923; listed SKU 60416931 / 76353891",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2025-van-cleef-vintage-alhambra-five-motifs-mother-of-pearl",
+      "reference": "VCARA41800",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2022-vca-alhambra-mother-pearl-bracelet",
+      "reference": "VCARA41800; photographed resale listingLU590324391352",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2026-boucheron-quatre-classique-xs",
+      "reference": "JRG03330",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2022-tiffany-arsham-lock-ensemble",
+      "reference": "2022 Bronze Eroded Tiffany Padlock ensemble;99 works",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2025-hermes-clic-clac-h-blanc-rose-gold",
+      "reference": "H300001FO31PM",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2026-swarovski-ariana-dragonfly-bangle",
+      "reference": "5737400",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2025-swarovski-ariana-grande-heart-bracelet",
+      "reference": "5720860",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2024-cartier-trinity-classic-ring-size53-b4234253",
+      "reference": "B4234253 (family B4234200)",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2023-chanel-coco-crush-ring",
+      "reference": "J11785",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2023-lv-kusama-pumpkin-bracelet",
+      "reference": "M1006E",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2022-fendace-hoop-earrings",
+      "reference": "1005395-1A00620_3J000",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2024-fendi-frgmt-ring-gold",
+      "reference": "8AK511B08F0CFK",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2024-fendi-frgmt-pokemon-earrings-gold",
+      "reference": "8AK506B08F0CFK",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2025-louis-vuitton-murakami-superflat-earrings",
+      "reference": "M02506",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2023-cartier-love-small-ring",
+      "reference": "B4085000 model family",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2026-swarovski-ariana-dragonfly-earrings",
+      "reference": "5749185",
+      "extraViews": 1
+    },
+    {
+      "id": "cartier-trinity-classic-ring-size53-b4234253",
+      "reference": "B4234253 (family B4234200)",
+      "extraViews": 1
+    },
+    {
+      "id": "tiffany-hardwear-small-link-medium-silver-60153085",
+      "reference": "60153085",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2024-tiffany-hardwear-small-link-medium-silver-60153085",
+      "reference": "60153085",
+      "extraViews": 1
+    },
+    {
+      "id": "bulgari-serpenti-viper-ring-rose-gold-45-46-362140",
+      "reference": "362140",
+      "extraViews": 1
+    },
+    {
+      "id": "chanel-coco-crush-ring-mini-beige-gold-j11785",
+      "reference": "J11785",
+      "extraViews": 1
+    },
+    {
+      "id": "jewelry-2024-chanel-coco-crush-ring-mini-beige-gold-j11785",
+      "reference": "J11785",
+      "extraViews": 1
+    },
+    {
+      "id": "love",
+      "reference": "B6067517 model family",
+      "extraViews": 2
+    },
+    {
+      "id": "juste-un-clou",
+      "reference": "B6062617 model family",
+      "extraViews": 2
+    },
+    {
+      "id": "trinity",
+      "reference": "B4234253 (family B4234200)",
+      "extraViews": 2
+    },
+    {
+      "id": "coco-crush",
+      "reference": "J11785",
+      "extraViews": 2
+    },
+    {
+      "id": "bzero1",
+      "reference": "335985",
+      "extraViews": 2
+    },
+    {
+      "id": "tiffany-t",
+      "reference": "60011679",
+      "extraViews": 2
+    },
+    {
+      "id": "serpenti",
+      "reference": "361342",
+      "extraViews": 2
+    },
+    {
+      "id": "cartier-love-pendant-yellow-gold-b7014200",
+      "reference": "B7014200",
+      "extraViews": 1
+    },
+    {
+      "id": "tiffany-t-smile-small-yellow-gold-60011679",
+      "reference": "60011679",
+      "extraViews": 1
+    },
+    {
+      "id": "bulgari-bzero1-necklace-white-gold-352815",
+      "reference": "352815",
+      "extraViews": 1
+    },
+    {
+      "id": "chanel-coco-crush-necklace-small-beige-gold-j12306",
+      "reference": "J12306",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2022-cartier-love-pendant",
+      "reference": "B7014200",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2022-tiffany-hardwear-necklace",
+      "reference": "60153093 (manufacturer SKUs 38086936 / 60964874 / 75055536)",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2022-david-yurman-cable-linked",
+      "reference": "N18193 S417",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2022-vca-alhambra-mother-pearl",
+      "reference": "VCARA45900; photographed resale itemN518871",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2022-adidas-gucci-gourmette",
+      "reference": "710077 J8400 0728",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2022-fendace-chain-necklace",
+      "reference": "1005387-1A00727_4J160",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2023-chanel-coco-crush-pendant",
+      "reference": "J12306",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2023-tiffany-t-smile",
+      "reference": "60011679",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2023-vca-alhambra-onyx",
+      "reference": "VCARA45800 model family; photographed resale item0004152",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2023-tiffany-lock-rose-diamond",
+      "reference": "72342143 (manufacturer SKUs72342151 /72791290 /74596819)",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2023-tiffany-rose-lock-pendant",
+      "reference": "73965950 (manufacturer SKU73965969)",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2023-tiffany-arsham-pokemon-pikachu",
+      "reference": "2023 Pikachu oxidized-silver capsule reference; SKU unconfirmed",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2024-tiffany-t-smile-small-yellow-gold-60011679",
+      "reference": "60011679",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2024-bulgari-bzero1-necklace-white-gold-352815",
+      "reference": "352815",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2024-chanel-coco-crush-necklace-small-beige-gold-j12306",
+      "reference": "J12306",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2024-van-cleef-vintage-alhambra-mother-of-pearl",
+      "reference": "VCARA45900",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2024-fendi-frgmt-pokemon-pokeball-necklace",
+      "reference": "8AK512B08F0CFK",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2024-van-cleef-holiday-guilloche-rose-white-gold",
+      "reference": "VCARPNTH00",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2025-chanel-coco-crush-necklace-small-beige-gold-j12306",
+      "reference": "J12306",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2025-tiffany-t-smile-small-yellow-gold-60011679",
+      "reference": "60011679",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2025-gucci-trademark-heart-silver",
+      "reference": "223512 J8400 8106",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2025-bulgari-divas-dream-mother-of-pearl-diamonds",
+      "reference": "356452",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2025-louis-vuitton-murakami-superflat-necklace",
+      "reference": "M02499",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2025-swarovski-ariana-grande-heart-necklace",
+      "reference": "5720857",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2026-bulgari-serpenti-viper-yellow-gold",
+      "reference": "361342",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2026-fred-force10-rise-yellow-gold",
+      "reference": "Hamilton Jewelers SKU JFRPD0025; brand SKU not confirmed",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2026-tiffany-hardwear-double-link-yellow-gold",
+      "reference": "Product family 75060742; listed SKU 75125127 / 75060750 / 77090940",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2026-tiffany-hardwear-medium-yellow-gold",
+      "reference": "Product family 70751119; listed SKU 70751127 / 76354235",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2026-swarovski-ariana-dragonfly-pendant",
+      "reference": "5737383",
+      "extraViews": 1
+    },
+    {
+      "id": "necklace-2026-swarovski-ariana-dragonfly-y",
+      "reference": "5749183",
+      "extraViews": 1
+    },
+    {
+      "id": "tiffany-keys",
+      "reference": "60010880",
+      "extraViews": 2
+    },
+    {
+      "id": "alhambra",
+      "reference": "VCARA45900",
+      "extraViews": 2
+    },
+    {
+      "id": "hermes-cape-cod-41-etoupe-w044350ww00",
+      "reference": "W044350WW00",
+      "extraViews": 1
+    },
+    {
+      "id": "hermes-heure-h-medium-etoupe-w404223ww00",
+      "reference": "W404223WW00",
+      "extraViews": 1
+    },
+    {
+      "id": "hermes-please-hold-line-90-blue-us",
+      "reference": "H004187S 09",
+      "extraViews": 1
+    },
+    {
+      "id": "hermes-terre-edt-338oz-v107188v0",
+      "reference": "V107188V0",
+      "extraViews": 1
+    },
+    {
+      "id": "dior-oblique-mitzah-navy-us",
+      "reference": "15DOB106I600_C541",
+      "extraViews": 1
+    },
+    {
+      "id": "prada-triangle-silk-scarf-55-alabaster-us",
+      "reference": "1FF004_2DTP_F0V4C",
+      "extraViews": 1
+    },
+    {
+      "id": "prada-paradoxe-edp-90ml-1a1351",
+      "reference": "1A1351_2HDZ_F0Z99_P_ML090",
+      "extraViews": 1
+    },
+    {
+      "id": "cartier-tank-must-small-wsta0135",
+      "reference": "WSTA0135",
+      "extraViews": 1
+    },
+    {
+      "id": "cartier-santos-medium-wssa0029",
+      "reference": "WSSA0029",
+      "extraViews": 1
+    },
+    {
+      "id": "gucci-bloom-edp-100ml-488830",
+      "reference": "488830 99999 0099",
+      "extraViews": 1
+    },
+    {
+      "id": "gucci-flora-silk-carre-pink-us",
+      "reference": "602585 3G001 9772",
+      "extraViews": 1
+    },
+    {
+      "id": "hublot-tributo-white-gold-38-262-wx-6870-rx-mdm",
+      "reference": "262.WX.6870.RX.MDM",
+      "extraViews": 1
+    },
+    {
+      "id": "dior-jadore-edp-100ml-c099800246",
+      "reference": "C099800246",
+      "extraViews": 1
+    },
+    {
+      "id": "tank",
+      "reference": "WSTA0135",
+      "extraViews": 2
+    },
+    {
+      "id": "carre90",
+      "reference": "H004187S 09",
+      "extraViews": 2
+    },
+    {
+      "id": "speedmaster",
+      "reference": "310.30.42.50.01.002",
+      "extraViews": 2
+    },
+    {
+      "id": "submariner",
+      "reference": "124060 / m124060-0001",
+      "extraViews": 2
+    },
+    {
+      "id": "horsebit-loafer",
+      "reference": "307929 BLM00 1000",
+      "extraViews": 2
+    },
+    {
+      "id": "triomphe-sunglasses",
+      "reference": "4S194CPLB.38MN.U",
+      "extraViews": 2
+    },
+    {
+      "id": "no5",
+      "reference": "125530 · Sa Sa 100032802001",
+      "extraViews": 2
+    }
+  ]
+}

@@ -26,6 +26,10 @@
 - 三类年度栏目共有 90 个英文详情页；全站共 **143 个单品/年度详情页、201 页 HTML**。
 - The Style Edit 的 25 张本地实物照片约 2.14 MiB，年度包袋照片另存于 `assets/img/bag-years/`，新增项链与首饰的 60 张实物照片保存于 `assets/img/jewel-years/`；另有 42 个原创 SVG。照片逐款署名并保留原图来源，未声称获得开放图片许可；没有复制第三方文章。
 
+2026-10-23 补齐全站 **143 个单品详情页的双视角实物图库**，共 286 次照片展示；新增 **129 个独立原图文件**（约 14.51 MiB）。具体商品保留原图并增加侧面、背面、佩戴、内部或不同拍摄角度的细节图；28 个经典系列词条以两张实物照片展示明确标注的代表型号。跨年份相同型号复用已核验图源。详情页支持缩略图、方向键/Home/End，关闭脚本时两图均可阅读，点大图可打开原尺寸本地照片。
+
+图库来源单独保存在 `tools/research/product-views-*.json`，由 `tools/product_gallery.py` 按单品 ID 读取，不覆盖价格、年份证据或商品核验日期。新增或替换商品必须同步提供匹配型号的第二张照片；经典家族须说明具体代表型号。原始商家未重复制造商编号的两条档案联名照片，图注明确说明以独有联名设计匹配。校验器检查全目录覆盖、型号、尺寸、署名、来源、重复文件与无脚本访问；实际像素解码另记录在 `reports/gallery-image-validation.json`。
+
 ## 目录
 
 ```
@@ -38,7 +42,7 @@ item/           单品词典
 mag/            杂志长文
 assets/css/     唯一主样式 main.css
 assets/js/      data.js、render.js、main.js
-assets/img/     原创概念插画；products/、bag-years/ 与 jewel-years/ 为实物照片
+assets/img/     原创概念插画；products/、bag-years/、jewel-years/ 与 views/ 为实物照片
 assets/fonts/   本地字体和对应 OFL 许可证
 tools/          可选的内容维护脚本与可编辑数据
 tools/research/ 实物商品与三类年度选集的来源、价格证据与图片权利记录
@@ -48,7 +52,7 @@ reports/        验收记录、页面清单、商品来源清单和预览截图
 ## 如何新增一条数据（三行指南）
 
 1. 在 `tools/content.json` 相应的 `brands`、`items` 或 `articles` 数组中复制一条对象，填写唯一 `id` 和正文；单品的 `brand` 必须对应品牌档案，品牌联名另填 `collaboratorBrands`。品牌的 `classicItems` 保留人工精选词条，全部款式关联由生成器自动计算。
-2. 将对应的封面保存到 `assets/img/`，文章填写 `cover`；实物单品填写 `image`、固有宽高、`imageSource`、`imageCredit` 与权利说明，经典插画单品默认用 `<id>.svg`。
+2. 将对应的封面保存到 `assets/img/`，文章填写 `cover`；实物单品填写 `image`、固有宽高、`imageSource`、`imageCredit` 与权利说明，经典词条的列表插画默认用 `<id>.svg`，详情实物图库维护于 `tools/research/product-views-*.json`；每条须提供具体代表型号及两张实物照片。
 3. 在本目录运行 `python3 tools/generate.py`，再运行 `python3 tools/validate.py`，完成后双击 `index.html` 查看。
 
 ## 每日更新与代码核验

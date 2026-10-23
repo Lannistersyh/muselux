@@ -1,0 +1,834 @@
+{
+  "records": [
+    {
+      "id": "jewelry-2022-tiffany-hardwear-bracelet",
+      "reference": "60153085",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2022-tiffany-hardwear-bracelet.webp",
+          "source": "https://media.tiffany.com/is/image/tco/60153085_BLT_SIO2X1?fmt=webp&hei=1200&wid=1200",
+          "pageSource": "https://www.tiffany.com/jewelry/bracelets/tiffany-hardwear-sterling-silver-bracelets-60153085.html",
+          "credit": "Tiffany & Co.",
+          "alt": "Tiffany HardWear Small Link Bracelet in Sterling Silver, Medium — worn view",
+          "viewLabel": "Worn view",
+          "width": 1200,
+          "height": 1200,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official product gallery image number 1 for 60153085 small-link sterling-silver bracelet. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2022-david-yurman-classic-cable",
+      "reference": "B12381 S4BGG (UPC883932667950)",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2022-david-yurman-classic-cable.jpg",
+          "source": "https://media.davidyurman.com/productsv3/B12381-S4BGG/classic-cable-bracelet-in-sterling-silver-with-14k-yellow-gold-and-gold-domes-B12381-S4BGG-alt1.jpg?width=1200&version=14",
+          "pageSource": "https://www.davidyurman.com/womens/bracelets/classic-cable-bracelet-in-sterling-silver-with-14k-yellow-gold-and-gold-domes-5mm-883932667950.html",
+          "credit": "David Yurman",
+          "alt": "Classic Cable Bracelet — silver,14K gold domes,5 mm — alternate view",
+          "viewLabel": "Alternate view",
+          "width": 1200,
+          "height": 1500,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official selected B12381-S4BGG product gallery alt1; silver cable and 14K gold domes. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2022-cartier-love-classic-bracelet",
+      "reference": "B6067517 model family",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2022-cartier-love-classic-bracelet.jpg",
+          "source": "https://cartiermx.vtexassets.com/arquivos/ids/173729/B6035517_2.jpg",
+          "pageSource": "https://www.cartier.mx/b6067517-pulsera-love-1/p",
+          "credit": "Cartier",
+          "alt": "LOVE Bracelet, classic model — yellow gold — side view",
+          "viewLabel": "Side view",
+          "width": 1000,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official Cartier Mexico B6067517 classic yellow-gold LOVE gallery second image, legacy media code B6035517. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2023-cartier-juste-un-clou-small",
+      "reference": "B6062617 model family",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2023-cartier-juste-un-clou-small.jpg",
+          "source": "https://cartiermx.vtexassets.com/arquivos/ids/173935/B6062617_2.jpg",
+          "pageSource": "https://www.cartier.mx/b6062617-pulsera-juste-un-clou-mp/p",
+          "credit": "Cartier",
+          "alt": "Juste un Clou Bracelet, small model — yellow gold — worn view",
+          "viewLabel": "Worn view",
+          "width": 1000,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official B6062617 small yellow-gold Juste un Clou gallery second photograph. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2023-tiffany-lock-rose-bangle",
+      "reference": "70185520 family (manufacturer SKUs70185512 /70306875)",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2023-tiffany-lock-rose-bangle.webp",
+          "source": "https://media.tiffany.com/is/image/tco/70185520_BLT_SIO2X1?fmt=webp&hei=1200&wid=1200",
+          "pageSource": "https://www.tiffany.com/jewelry/bracelets/tiffany-lock-18k-rose-gold-bracelets-1366351846.html",
+          "credit": "Tiffany & Co.",
+          "alt": "Lock Bangle — rose gold, medium — worn view",
+          "viewLabel": "Worn view",
+          "width": 1200,
+          "height": 1200,
+          "checkedAt": "2026-10-23",
+          "evidence": "Same 70185520 rose-gold Lock family media alternate SIO2X1; official product gallery confirms same rose-gold model. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2023-tiffany-rose-lock-bangle",
+      "reference": "73965322 (manufacturer SKU73965330)",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2023-tiffany-rose-lock-bangle.webp",
+          "source": "https://media.tiffany.com/is/image/tco/73965322_BLT_SIO2X1?fmt=webp&hei=1200&wid=1200",
+          "pageSource": "https://www.tiffany.com/jewelry/bracelets/tiffany-lock-18k-rose-gold-pink-sapphire-bracelets-1366682306.html",
+          "credit": "Tiffany & Co.",
+          "alt": "Lock ROSÉ Edition Bangle — rose gold / pink sapphires, medium — worn view",
+          "viewLabel": "Worn view",
+          "width": 1200,
+          "height": 1200,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official 73965322 rose-gold and pink-sapphire Lock gallery image number 1. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2024-bulgari-serpenti-viper-ring-rose-gold-45-46-362140",
+      "reference": "362140",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2024-bulgari-serpenti-viper-ring-rose-gold-45-46-362140.png",
+          "source": "https://media.bulgari.com/image/upload/c_fill%2Ch_851%2Cw_1090/q_auto/f_auto/1712597.png",
+          "pageSource": "https://www.bulgari.com/en-us/product/362140",
+          "credit": "Bvlgari",
+          "alt": "Serpenti Viper Ring — rose gold, size 45–46 — alternate view",
+          "viewLabel": "Alternate view",
+          "width": 1090,
+          "height": 851,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official product 362140 gallery second image; rose-gold Serpenti Viper, size 45–46. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2025-david-yurman-classic-cable-blue-topaz-diamonds",
+      "reference": "B04182 SSABTDI · XS",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2025-david-yurman-classic-cable-blue-topaz-diamonds.jpg",
+          "source": "https://media.davidyurman.com/productsv3/B04182-SSABTDI/classic-cable-bracelet-in-sterling-silver-with-blue-topaz-and-diamonds-B04182-SSABTDI-alt1.jpg?width=1200&version=14",
+          "pageSource": "https://www.davidyurman.com/womens/bracelets/classic-cable-bracelet-in-sterling-silver-with-blue-topaz-and-diamonds-5mm-192740858666.html",
+          "credit": "David Yurman",
+          "alt": "Classic Cable bracelet — silver, blue topaz and diamonds,5mm — alternate view",
+          "viewLabel": "Alternate view",
+          "width": 1200,
+          "height": 1500,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official selected B04182-SSABTDI gallery alt1; silver, blue topaz and diamonds. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2025-cartier-love-small-yellow-gold-size17",
+      "reference": "B6047517",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2025-cartier-love-small-yellow-gold-size17.jpg",
+          "source": "https://a.1stdibscdn.com/cartier-love-bracelet-single-screw-closure-small-model-18k-yellow-gold-size-17-for-sale-picture-2/j_17401/j_269508221753710423530/SH149799AA_23595_master.jpg?width=1000",
+          "pageSource": "https://www.1stdibs.com/jewelry/bracelets/bangles/cartier-love-bracelet-single-screw-closure-small-model-18k-yellow-gold-size-17/id-j_26950822/",
+          "credit": "1stDibs · original seller photograph",
+          "alt": "LOVE bracelet, small model — yellow gold,size17 — alternate view",
+          "viewLabel": "Alternate view",
+          "width": 1000,
+          "height": 750,
+          "checkedAt": "2026-10-23",
+          "evidence": "Same photographed archival listing j_26950822, size 17 yellow-gold small-model LOVE, photograph 2. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2026-pomellato-together-triple-band",
+      "reference": "PAC6010_O7WHR_DB000",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2026-pomellato-together-triple-band.jpg",
+          "source": "https://media.pomellato.com/media/catalog/product/P/A/PAC6010_O7WHR_DB000_20.jpg?auto=compress",
+          "pageSource": "https://www.pomellato.com/us_en/pomellato-together-ring-pac6010-o7whr-db000",
+          "credit": "Pomellato",
+          "alt": "Together Triple-Band Ring — Rose Gold and Diamonds — alternate view",
+          "viewLabel": "Alternate view",
+          "width": 3000,
+          "height": 3000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official PAC6010_O7WHR_DB000 product gallery _20; rose-gold triple band with diamonds. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2026-tiffany-hardwear-medium-earrings-yellow-gold",
+      "reference": "Product family 73584531; listed SKU 73584558 / 75533837 / 77090916",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2026-tiffany-hardwear-medium-earrings-yellow-gold.webp",
+          "source": "https://media.tiffany.com/is/image/tco/73584531_ER_SIO2X1?fmt=webp&hei=1200&wid=1200",
+          "pageSource": "https://www.tiffany.com/jewelry/earrings/tiffany-hardwear-18k-yellow-gold-earrings-73584531.html",
+          "credit": "Tiffany & Co.",
+          "alt": "HardWear Medium Link Earrings — Yellow Gold — worn view",
+          "viewLabel": "Worn view",
+          "width": 1200,
+          "height": 1200,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official 73584531 yellow-gold medium-link earrings gallery image number 1. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2026-tiffany-hardwear-micro-yellow-gold",
+      "reference": "Product family 60416923; listed SKU 60416931 / 76353891",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2026-tiffany-hardwear-micro-yellow-gold.webp",
+          "source": "https://media.tiffany.com/is/image/tco/60416923_BLT_SIO2X1?fmt=webp&hei=1200&wid=1200",
+          "pageSource": "https://www.tiffany.com/jewelry/bracelets/tiffany-hardwear-18k-yellow-gold-bracelets-60416923.html",
+          "credit": "Tiffany & Co.",
+          "alt": "HardWear Micro Link Bracelet — Yellow Gold, Medium — worn view",
+          "viewLabel": "Worn view",
+          "width": 1200,
+          "height": 1200,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official 60416923 yellow-gold micro-link bracelet gallery image number 1. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2025-van-cleef-vintage-alhambra-five-motifs-mother-of-pearl",
+      "reference": "VCARA41800",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2025-van-cleef-vintage-alhambra-five-motifs-mother-of-pearl.jpg",
+          "source": "https://www.fashionphile.com/cdn/shop/files/ab7a0e4b1ac99f9b07ba1b10dc1f85d7.jpg?v=1791381660&width=1200",
+          "pageSource": "https://www.fashionphile.com/products/van-cleef-arpels-18k-yellow-gold-mother-of-pearl-5-motifs-vintage-alhambra-bracelet-1982693",
+          "credit": "FASHIONPHILE · original listing photograph",
+          "alt": "Vintage Alhambra five-motif bracelet — yellow gold and mother-of-pearl — angled view",
+          "viewLabel": "Angled view",
+          "width": 1200,
+          "height": 1200,
+          "checkedAt": "2026-10-23",
+          "evidence": "Second photograph from the same identified exact-variant resale listing; matching original photographed item. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2022-vca-alhambra-mother-pearl-bracelet",
+      "reference": "VCARA41800; photographed resale listingLU590324391352",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2022-vca-alhambra-mother-pearl-bracelet.jpg",
+          "source": "https://a.1stdibscdn.com/van-cleef-arpels-gold-mother-of-pearl-vintage-alhambra-bracelet-vcara41800-for-sale-picture-2/j_5903/j_243913521729684341086/0RD5218_1__master.jpg?width=768",
+          "pageSource": "https://www.1stdibs.com/jewelry/bracelets/charm-bracelets/van-cleef-arpels-gold-mother-pearl-vintage-alhambra-bracelet-vcara41800/id-j_24391352/",
+          "credit": "1stDibs · original seller photograph",
+          "alt": "Vintage Alhambra Five-Motif Bracelet — yellow gold / mother-of-pearl — angled view",
+          "viewLabel": "Angled view",
+          "width": 768,
+          "height": 768,
+          "checkedAt": "2026-10-23",
+          "evidence": "Same identified VCARA41800 mother-of-pearl/yellow-gold listing j_24391352 photograph 2. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2026-boucheron-quatre-classique-xs",
+      "reference": "JRG03330",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2026-boucheron-quatre-classique-xs.webp",
+          "source": "https://dam.boucheron.com/addon/synolia/JRG03330_2.jpg?height=1000&width=1000",
+          "pageSource": "https://www.boucheron.com/int_en/quatre-classique-xs-ring-jrg03330.html",
+          "credit": "Boucheron",
+          "alt": "Quatre Classique Ring XS — Three Golds and Brown PVD — alternate view",
+          "viewLabel": "Alternate view",
+          "width": 1000,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official JRG03330 gallery second image: Quatre Classique XS three golds, diamonds and brown PVD. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2022-tiffany-arsham-lock-ensemble",
+      "reference": "2022 Bronze Eroded Tiffany Padlock ensemble;99 works",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2022-tiffany-arsham-lock-ensemble.jpg",
+          "source": "https://media.tiffany.com/is/image/tco/2022_LOCKXARSHAM-LP-FWMH-1-Mobile",
+          "pageSource": "https://www.tiffany.com/world-of-tiffany/collaborations/daniel-arsham-lock.html",
+          "credit": "Tiffany & Co. / Arsham Studio",
+          "alt": "Tiffany x Arsham Lock Bangle + Bronze Eroded Padlock ensemble — bangle detail",
+          "viewLabel": "Bangle detail",
+          "width": 1280,
+          "height": 1280,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official 2022 Tiffany x Arsham Lock page image 1, different photograph from existing FWMH-2. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2025-hermes-clic-clac-h-blanc-rose-gold",
+      "reference": "H300001FO31PM",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2025-hermes-clic-clac-h-blanc-rose-gold.jpg",
+          "source": "https://assets.hermes.com/is/image/hermesproduct/clic-clac-h-bracelet--300001FO31-worn-3-0-0-800-800_g.jpg",
+          "pageSource": "https://www.hermes.com/us/en/product/clic-clac-h-bracelet-H300001FO31PM/",
+          "credit": "Hermès",
+          "alt": "Clic Clac H wide bracelet — Blanc, rose-gold finish — worn view",
+          "viewLabel": "Worn view",
+          "width": 800,
+          "height": 800,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official product 300001FO31 Blanc/rose-gold-finish gallery worn image, third gallery position. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2026-swarovski-ariana-dragonfly-bangle",
+      "reference": "5737400",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2026-swarovski-ariana-dragonfly-bangle.jpg",
+          "source": "https://asset.swarovski.com/images/%24size_1450/t_swa103/b_rgb%3Affffff%2Cc_scale%2Cdpr_1.0%2Cf_auto%2Cw_1000/5737400_png_var1/ariana-grande-x-swarovski-bangle--mixed-cuts--dragonfly--multicolored--rhodium-plated-swarovski-5737400.png",
+          "pageSource": "https://www.swarovski.com/en-US/p-M5737400/Ariana-Grande-x-Swarovski-bangle-Mixed-cuts-Dragonfly-Multicolored-Rhodium-plated?variantID=5737400",
+          "credit": "Swarovski",
+          "alt": "Ariana Grande x Swarovski Dragonfly Bangle — Multicolored — alternate view",
+          "viewLabel": "Alternate view",
+          "width": 1000,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official product 5737400 gallery var1; rhodium-plated multicolor dragonfly bangle. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2025-swarovski-ariana-grande-heart-bracelet",
+      "reference": "5720860",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2025-swarovski-ariana-grande-heart-bracelet.jpg",
+          "source": "https://asset.swarovski.com/images/%24size_1450/t_swa103/b_rgb%3Affffff%2Cc_scale%2Cdpr_1.0%2Cf_auto%2Cw_1000/5720860_png_var1/ariana-grande-x-swarovski-bracelet--mixed-cuts--heart--white--rhodium-plated-swarovski-5720860.png",
+          "pageSource": "https://www.swarovski.com/en-AA/p-M5720860/Ariana-Grande-x-Swarovski-bracelet-Mixed-cuts-Heart-White-Rhodium-plated?variantID=5720860",
+          "credit": "Swarovski",
+          "alt": "Ariana Grande × Swarovski heart bracelet — white,rhodium plated — alternate view",
+          "viewLabel": "Alternate view",
+          "width": 1000,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official product 5720860 gallery var1; white crystal heart bracelet with rhodium plating. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2024-cartier-trinity-classic-ring-size53-b4234253",
+      "reference": "B4234253 (family B4234200)",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2024-cartier-trinity-classic-ring-size53-b4234253.jpg",
+          "source": "https://static.deep.cartier.cn/DMS21/202510/836aa088-9297-411f-83cf-4bb4da0d6921.jpeg?x-oss-process=image%2Fresize%2Cp_80%2Cm_pad%2Ch_1000%2Cw_1000%2Fquality%2Cq_80",
+          "pageSource": "https://www.cartier.cn/creation/B4234200",
+          "credit": "Cartier",
+          "alt": "Trinity ring, classic model — size 53 — top view",
+          "viewLabel": "Top view",
+          "width": 1000,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official Cartier China B4234200 classic model 3.2-mm ring gallery. B4234253 is size 53 in this family. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2023-chanel-coco-crush-ring",
+      "reference": "J11785",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2023-chanel-coco-crush-ring.jpg",
+          "source": "https://chpremier.com/cdn/shop/products/chanel-coco-crush-ring-j11785-957334.jpg?v=1620878745",
+          "pageSource": "https://chpremier.com/products/chanel-coco-crush-ring-j11785",
+          "credit": "CH Premier Jewelers · CHANEL product photograph",
+          "alt": "Coco Crush ring, mini version, 18K BEIGE GOLD — worn view",
+          "viewLabel": "Worn view",
+          "width": 1600,
+          "height": 1600,
+          "checkedAt": "2026-10-23",
+          "evidence": "CH Premier exact J11785 mini BEIGE GOLD ring gallery second photograph. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2023-lv-kusama-pumpkin-bracelet",
+      "reference": "M1006E",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2023-lv-kusama-pumpkin-bracelet.jpg",
+          "source": "https://sidekicks.co.uk/cdn/shop/files/Louis-Vuitton-LV-x-YK-Pumpkin-Charm-Bracelet-Multicolor-2.webp?v=1739223059",
+          "pageSource": "https://sidekicks.co.uk/products/louis-vuitton-lv-x-yk-pumpkin-charm-bracelet-multicolor",
+          "credit": "Side Kicks · product gallery",
+          "alt": "LV x Yayoi K usama Pumpkin Charm Bracelet — Monogram — angled detail",
+          "viewLabel": "Angled detail",
+          "width": 1400,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "M1006E exact Pumpkin Charm Bracelet Monogram/Multicolor listing second image. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2022-fendace-hoop-earrings",
+      "reference": "1005395-1A00620_3J000",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2022-fendace-hoop-earrings.jpg",
+          "source": "https://sidekicks.co.uk/cdn/shop/files/Fendi-Fendace-Hoop-Earrings-Brass-Versace-Gold-2.webp?v=1739384653",
+          "pageSource": "https://sidekicks.co.uk/products/fendi-fendace-hoop-earrings-brass-versace-gold",
+          "credit": "Side Kicks · product gallery",
+          "alt": "Fendace Hoop Earrings — brass / Versace Gold — medusa detail",
+          "viewLabel": "Medusa detail",
+          "width": 1400,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Exact named product and reference listing second photograph. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2024-fendi-frgmt-ring-gold",
+      "reference": "8AK511B08F0CFK",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2024-fendi-frgmt-ring-gold.jpg",
+          "source": "https://sidekicks.co.uk/cdn/shop/files/Fendi-x-FRGMT-Metal-Ring-Gold-2.webp?v=1740001531",
+          "pageSource": "https://sidekicks.co.uk/products/fendi-x-frgmt-metal-ring-gold",
+          "credit": "Side Kicks · product gallery",
+          "alt": "FENDI × FRGMT × POKÉMON Dratini ring — gold-finished brass — alternate view",
+          "viewLabel": "Alternate view",
+          "width": 1400,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Exact named product and reference listing second photograph. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2024-fendi-frgmt-pokemon-earrings-gold",
+      "reference": "8AK506B08F0CFK",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2024-fendi-frgmt-pokemon-earrings-gold.jpg",
+          "source": "https://sidekicks.co.uk/cdn/shop/files/Fendi-x-FRGMT-x-Pokemon-Metal-Earrings-Gold-2.webp?v=1740001552",
+          "pageSource": "https://sidekicks.co.uk/products/fendi-x-frgmt-x-pokemon-metal-earrings-gold",
+          "credit": "Side Kicks · product gallery",
+          "alt": "FENDI × FRGMT × POKÉMON Dragonair hoop earrings — gold-tone — alternate view",
+          "viewLabel": "Alternate view",
+          "width": 1400,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Exact named product and reference listing second photograph. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2025-louis-vuitton-murakami-superflat-earrings",
+      "reference": "M02506",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2025-louis-vuitton-murakami-superflat-earrings.jpg",
+          "source": "https://www.fashionphile.com/cdn/shop/files/5d6ff84bb54574e1ba51db5830ac9913.jpg?v=1753472054&width=1200",
+          "pageSource": "https://www.fashionphile.com/products/louis-vuitton-lv-x-tm-superflat-earrings-gold-multicolor-1662782",
+          "credit": "FASHIONPHILE · original listing photograph",
+          "alt": "LV × TM Superflat asymmetrical earrings — multicolor — closure / reverse",
+          "viewLabel": "Closure / reverse",
+          "width": 1200,
+          "height": 1200,
+          "checkedAt": "2026-10-23",
+          "evidence": "Same exact LV x TM Superflat earrings archival listing 1662782, third photograph showing reverse. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2023-cartier-love-small-ring",
+      "reference": "B4085000 model family",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2023-cartier-love-small-ring.jpg",
+          "source": "https://cartiermx.vtexassets.com/arquivos/ids/164329/B4085047_3.jpg",
+          "pageSource": "https://www.cartier.mx/b4085000-alianza-love/p",
+          "credit": "Cartier",
+          "alt": "LOVE Ring, small model — yellow gold — worn view",
+          "viewLabel": "Worn view",
+          "width": 1000,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official B4085000 small yellow-gold LOVE ring gallery third photograph, model wearing the ring. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2026-swarovski-ariana-dragonfly-earrings",
+      "reference": "5749185",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2026-swarovski-ariana-dragonfly-earrings.jpg",
+          "source": "https://asset.swarovski.com/images/%24size_1450/t_swa103/b_rgb%3Affffff%2Cc_scale%2Cdpr_1.0%2Cf_auto%2Cw_1000/5749185_png_var2/ariana-grande-x-swarovski-drop-earrings--mixed-cuts--dragonfly--multicolored--rhodium-plated-swarovski-5749185.png",
+          "pageSource": "https://www.swarovski.com/en-US/p-M5749185/Ariana-Grande-x-Swarovski-drop-earrings-Mixed-cuts-Dragonfly-Multicolored-Rhodium-plated?variantID=5749185",
+          "credit": "Swarovski",
+          "alt": "Ariana Grande x Swarovski Dragonfly Drop Earrings — Multicolored — side and closure view",
+          "viewLabel": "Side / closure view",
+          "width": 1000,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official product 5749185 gallery var2; multicolor rhodium-plated dragonfly drop earrings. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "cartier-trinity-classic-ring-size53-b4234253",
+      "reference": "B4234253 (family B4234200)",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2024-cartier-trinity-classic-ring-size53-b4234253.jpg",
+          "source": "https://static.deep.cartier.cn/DMS21/202510/836aa088-9297-411f-83cf-4bb4da0d6921.jpeg?x-oss-process=image%2Fresize%2Cp_80%2Cm_pad%2Ch_1000%2Cw_1000%2Fquality%2Cq_80",
+          "pageSource": "https://www.cartier.cn/creation/B4234200",
+          "credit": "Cartier",
+          "alt": "Trinity ring, classic model — size 53 — top view",
+          "viewLabel": "Top view",
+          "width": 1000,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official Cartier China B4234200 classic model 3.2-mm ring gallery. B4234253 is size 53 in this family. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "tiffany-hardwear-small-link-medium-silver-60153085",
+      "reference": "60153085",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2022-tiffany-hardwear-bracelet.webp",
+          "source": "https://media.tiffany.com/is/image/tco/60153085_BLT_SIO2X1?fmt=webp&hei=1200&wid=1200",
+          "pageSource": "https://www.tiffany.com/jewelry/bracelets/tiffany-hardwear-sterling-silver-bracelets-60153085.html",
+          "credit": "Tiffany & Co.",
+          "alt": "Tiffany HardWear Small Link Bracelet in Sterling Silver, Medium — worn view",
+          "viewLabel": "Worn view",
+          "width": 1200,
+          "height": 1200,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official product gallery image number 1 for 60153085 small-link sterling-silver bracelet. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2024-tiffany-hardwear-small-link-medium-silver-60153085",
+      "reference": "60153085",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2022-tiffany-hardwear-bracelet.webp",
+          "source": "https://media.tiffany.com/is/image/tco/60153085_BLT_SIO2X1?fmt=webp&hei=1200&wid=1200",
+          "pageSource": "https://www.tiffany.com/jewelry/bracelets/tiffany-hardwear-sterling-silver-bracelets-60153085.html",
+          "credit": "Tiffany & Co.",
+          "alt": "Tiffany HardWear Small Link Bracelet in Sterling Silver, Medium — worn view",
+          "viewLabel": "Worn view",
+          "width": 1200,
+          "height": 1200,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official product gallery image number 1 for 60153085 small-link sterling-silver bracelet. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "bulgari-serpenti-viper-ring-rose-gold-45-46-362140",
+      "reference": "362140",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2024-bulgari-serpenti-viper-ring-rose-gold-45-46-362140.png",
+          "source": "https://media.bulgari.com/image/upload/c_fill%2Ch_851%2Cw_1090/q_auto/f_auto/1712597.png",
+          "pageSource": "https://www.bulgari.com/en-us/product/362140",
+          "credit": "Bvlgari",
+          "alt": "Serpenti Viper Ring — rose gold, size 45–46 — alternate view",
+          "viewLabel": "Alternate view",
+          "width": 1090,
+          "height": 851,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official product 362140 gallery second image; rose-gold Serpenti Viper, size 45–46. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "chanel-coco-crush-ring-mini-beige-gold-j11785",
+      "reference": "J11785",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2023-chanel-coco-crush-ring.jpg",
+          "source": "https://chpremier.com/cdn/shop/products/chanel-coco-crush-ring-j11785-957334.jpg?v=1620878745",
+          "pageSource": "https://chpremier.com/products/chanel-coco-crush-ring-j11785",
+          "credit": "CH Premier Jewelers · CHANEL product photograph",
+          "alt": "Coco Crush ring, mini version, 18K BEIGE GOLD — worn view",
+          "viewLabel": "Worn view",
+          "width": 1600,
+          "height": 1600,
+          "checkedAt": "2026-10-23",
+          "evidence": "CH Premier exact J11785 mini BEIGE GOLD ring gallery second photograph. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "jewelry-2024-chanel-coco-crush-ring-mini-beige-gold-j11785",
+      "reference": "J11785",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-2023-chanel-coco-crush-ring.jpg",
+          "source": "https://chpremier.com/cdn/shop/products/chanel-coco-crush-ring-j11785-957334.jpg?v=1620878745",
+          "pageSource": "https://chpremier.com/products/chanel-coco-crush-ring-j11785",
+          "credit": "CH Premier Jewelers · CHANEL product photograph",
+          "alt": "Coco Crush ring, mini version, 18K BEIGE GOLD — worn view",
+          "viewLabel": "Worn view",
+          "width": 1600,
+          "height": 1600,
+          "checkedAt": "2026-10-23",
+          "evidence": "CH Premier exact J11785 mini BEIGE GOLD ring gallery second photograph. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "reference": "B6067517 model family",
+      "note": "Representative variant: LOVE Bracelet, classic model — yellow gold · B6067517 model family. These photographs illustrate this identified variant within the broader collection.",
+      "images": [
+        {
+          "path": "assets/img/jewel-years/jewelry-2022-cartier-love-classic-bracelet.png",
+          "source": "https://cartiermx.vteximg.com.br/arquivos/ids/180649/CRB6035517_1.png?v=637463330372500000",
+          "pageSource": "https://www.cartier.mx/b6067517-pulsera-love-1/p",
+          "credit": "© Cartier · official Mexico product photograph",
+          "alt": "LOVE Bracelet, classic model — yellow gold — front view",
+          "viewLabel": "Front view",
+          "width": 1000,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Existing source photograph re-opened and visually compared against the newly obtained exact-variant gallery image on 23 Oct 2026."
+        },
+        {
+          "path": "assets/img/views/jewelry-2022-cartier-love-classic-bracelet.jpg",
+          "source": "https://cartiermx.vtexassets.com/arquivos/ids/173729/B6035517_2.jpg",
+          "pageSource": "https://www.cartier.mx/b6067517-pulsera-love-1/p",
+          "credit": "Cartier",
+          "alt": "LOVE Bracelet, classic model — yellow gold — side view",
+          "viewLabel": "Side view",
+          "width": 1000,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official Cartier Mexico B6067517 classic yellow-gold LOVE gallery second image, legacy media code B6035517. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "juste-un-clou",
+      "reference": "B6062617 model family",
+      "note": "Representative variant: Juste un Clou Bracelet, small model — yellow gold · B6062617 model family. These photographs illustrate this identified variant within the broader collection.",
+      "images": [
+        {
+          "path": "assets/img/jewel-years/jewelry-2023-cartier-juste-un-clou-small.jpg",
+          "source": "https://cartiermx.vteximg.com.br/arquivos/ids/173934/B6062617_1.jpg?v=637275274526200000",
+          "pageSource": "https://www.cartier.mx/b6062617-pulsera-juste-un-clou-mp/p",
+          "credit": "© Cartier · official Mexico product photograph",
+          "alt": "Juste un Clou Bracelet, small model — yellow gold — front view",
+          "viewLabel": "Front view",
+          "width": 1000,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Existing source photograph re-opened and visually compared against the newly obtained exact-variant gallery image on 23 Oct 2026."
+        },
+        {
+          "path": "assets/img/views/jewelry-2023-cartier-juste-un-clou-small.jpg",
+          "source": "https://cartiermx.vtexassets.com/arquivos/ids/173935/B6062617_2.jpg",
+          "pageSource": "https://www.cartier.mx/b6062617-pulsera-juste-un-clou-mp/p",
+          "credit": "Cartier",
+          "alt": "Juste un Clou Bracelet, small model — yellow gold — worn view",
+          "viewLabel": "Worn view",
+          "width": 1000,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official B6062617 small yellow-gold Juste un Clou gallery second photograph. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "trinity",
+      "reference": "B4234253 (family B4234200)",
+      "note": "Representative variant: Trinity ring, classic model — size 53 · B4234253 (family B4234200). These photographs illustrate this identified variant within the broader collection.",
+      "images": [
+        {
+          "path": "assets/img/products/jewelry-cartier-trinity-classic-53-b4234253.jpg",
+          "source": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw3dd0fb78/images/large/238dc62dc9b25322aedd24454d6959f6.png?sw=750&sh=750&sm=fit&sfrm=png",
+          "pageSource": "https://www.cartier.com/en-us/jewelry/rings/trinity/trinity-ring-classic-model-CRB4234253.html",
+          "credit": "© Cartier, official product imagery",
+          "alt": "Trinity ring, classic model — size 53 — front view",
+          "viewLabel": "Front view",
+          "width": 750,
+          "height": 750,
+          "checkedAt": "2026-10-23",
+          "evidence": "Existing source photograph re-opened and visually compared against the newly obtained exact-variant gallery image on 23 Oct 2026."
+        },
+        {
+          "path": "assets/img/views/jewelry-2024-cartier-trinity-classic-ring-size53-b4234253.jpg",
+          "source": "https://static.deep.cartier.cn/DMS21/202510/836aa088-9297-411f-83cf-4bb4da0d6921.jpeg?x-oss-process=image%2Fresize%2Cp_80%2Cm_pad%2Ch_1000%2Cw_1000%2Fquality%2Cq_80",
+          "pageSource": "https://www.cartier.cn/creation/B4234200",
+          "credit": "Cartier",
+          "alt": "Trinity ring, classic model — size 53 — top view",
+          "viewLabel": "Top view",
+          "width": 1000,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official Cartier China B4234200 classic model 3.2-mm ring gallery. B4234253 is size 53 in this family. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "coco-crush",
+      "reference": "J11785",
+      "note": "Representative variant: Coco Crush ring, mini version, 18K BEIGE GOLD · J11785. These photographs illustrate this identified variant within the broader collection.",
+      "images": [
+        {
+          "path": "assets/img/products/jewelry-chanel-coco-crush-mini-beige-gold-j11785.jpg",
+          "source": "https://www.chanel.com/videos/player/v1/static/6057940565001/f7b00180-1b5b-4fad-94d2-7825cd8bd580/f1d12d3f-5e27-4a34-b8d0-a23fb1b64872/1920x1080/match/image.jpg",
+          "pageSource": "https://www.chanel.com/us/fine-jewelry/p/J11785/coco-crush-ring/",
+          "credit": "© CHANEL, official product imagery",
+          "alt": "Coco Crush ring, mini version, 18K BEIGE GOLD — front view",
+          "viewLabel": "Front view",
+          "width": 1080,
+          "height": 1080,
+          "checkedAt": "2026-10-23",
+          "evidence": "Existing source photograph re-opened and visually compared against the newly obtained exact-variant gallery image on 23 Oct 2026."
+        },
+        {
+          "path": "assets/img/views/jewelry-2023-chanel-coco-crush-ring.jpg",
+          "source": "https://chpremier.com/cdn/shop/products/chanel-coco-crush-ring-j11785-957334.jpg?v=1620878745",
+          "pageSource": "https://chpremier.com/products/chanel-coco-crush-ring-j11785",
+          "credit": "CH Premier Jewelers · CHANEL product photograph",
+          "alt": "Coco Crush ring, mini version, 18K BEIGE GOLD — worn view",
+          "viewLabel": "Worn view",
+          "width": 1600,
+          "height": 1600,
+          "checkedAt": "2026-10-23",
+          "evidence": "CH Premier exact J11785 mini BEIGE GOLD ring gallery second photograph. Downloaded successfully and fully pixel-decoded; compared visually with the original product photograph on 23 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "bzero1",
+      "reference": "335985",
+      "note": "Representative variant: B.zero1 one-band ring in 18K rose gold, reference 335985. The collection includes other widths and materials.",
+      "images": [
+        {
+          "path": "assets/img/views/jewelry-bzero1-335985-457393.png",
+          "source": "https://media2.bulgari.com/f_auto%2Cq_auto%2Cc_pad%2Ch_1000%2Cw_1000/production/dwc9f9a53c/images/images/457393.png",
+          "pageSource": "https://www.bulgari.com/en-int/jewellery/rings/b-zero1-ring-rose-gold-335985",
+          "credit": "Bvlgari",
+          "alt": "B.zero1 one-band ring in 18K rose gold, ref. 335985 — front view",
+          "viewLabel": "Front view",
+          "width": 1000,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official exact reference 335985 one-band rose-gold ring gallery; media 457393 from original product page."
+        },
+        {
+          "path": "assets/img/views/jewelry-bzero1-335985-457394.png",
+          "source": "https://media2.bulgari.com/f_auto%2Cq_auto%2Cc_pad%2Ch_1000%2Cw_1000/production/dw5b3b4ef1/images/images/457394.png",
+          "pageSource": "https://www.bulgari.com/en-int/jewellery/rings/b-zero1-ring-rose-gold-335985",
+          "credit": "Bvlgari",
+          "alt": "B.zero1 one-band ring in 18K rose gold, ref. 335985 — side view",
+          "viewLabel": "Side view",
+          "width": 1000,
+          "height": 1000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Official exact reference 335985 one-band rose-gold ring gallery; media 457394 from original product page."
+        }
+      ]
+    },
+    {
+      "id": "tiffany-t",
+      "reference": "60011679",
+      "note": "Representative variant: Tiffany T Smile small pendant in 18K yellow gold, reference 60011679. Other Tiffany T designs differ.",
+      "images": [
+        {
+          "path": "assets/img/products/necklace-tiffany-t-smile-small-yellow-gold-60011679.webp",
+          "source": "https://media.tiffany.com/is/image/tco/60011679_PDT_MAIN1X1?fmt=webp&hei=2000&wid=2000",
+          "pageSource": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-t-18k-yellow-gold-necklaces-pendants-60011679.html",
+          "credit": "© Tiffany & Co., official product imagery",
+          "alt": "Tiffany T Smile Pendant in Yellow Gold, Small — front view",
+          "viewLabel": "Front view",
+          "width": 2000,
+          "height": 2000,
+          "checkedAt": "2026-10-23",
+          "evidence": "Existing source photograph re-opened and visually compared against the newly obtained exact-variant gallery image on 23 Oct 2026."
+        },
+        {
+          "path": "assets/img/views/necklace-tiffany-t-smile-small-yellow-gold-60011679.webp",
+          "source": "https://media.tiffany.com/is/image/tco/60011679_PDT_ALT3X1?fmt=webp&hei=1200&wid=1200",
+          "pageSource": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-t-18k-yellow-gold-necklaces-pendants-60011679.html",
+          "credit": "Tiffany & Co.",
+          "alt": "Tiffany T Smile Pendant in Yellow Gold, Small — full-chain view",
+          "viewLabel": "Full-chain view",
+          "width": 1200,
+          "height": 1200,
+          "checkedAt": "2026-10-23",
+          "evidence": "Exact reference 60011679 official gallery alternate ALT3X1, verified by necklace researcher and visually compared with existing main photograph."
+        }
+      ]
+    },
+    {
+      "id": "serpenti",
+      "reference": "361342",
+      "note": "Representative variant: Serpenti Viper necklace in 18K yellow gold, reference 361342. Other Serpenti designs differ.",
+      "images": [
+        {
+          "path": "assets/img/jewel-years/necklace-2026-bulgari-serpenti-viper-yellow-gold.png",
+          "source": "https://media.bulgari.com/image/upload/c_fill%2Ch_851%2Cw_1090/q_auto/f_auto/1627577.png",
+          "pageSource": "https://www.bulgari.com/en-us/product/361342",
+          "credit": "© Bvlgari",
+          "alt": "Serpenti Viper Necklace — Yellow Gold — front view",
+          "viewLabel": "Front view",
+          "width": 1090,
+          "height": 851,
+          "checkedAt": "2026-10-23",
+          "evidence": "Existing source photograph re-opened and visually compared against the newly obtained exact-variant gallery image on 23 Oct 2026."
+        },
+        {
+          "path": "assets/img/views/necklace-2026-bulgari-serpenti-viper-yellow-gold.jpg",
+          "source": "https://media.bulgari.com/image/upload/c_fill%2Ch_1090%2Cw_779/q_auto/f_auto/1643469.png",
+          "pageSource": "https://www.bulgari.com/en-us/product/361342",
+          "credit": "Bvlgari",
+          "alt": "Serpenti Viper Necklace — Yellow Gold — worn view",
+          "viewLabel": "Worn view",
+          "width": 779,
+          "height": 1090,
+          "checkedAt": "2026-10-23",
+          "evidence": "Exact reference 361342 official gallery worn photograph, verified by necklace researcher and visually compared with existing main photograph."
+        }
+      ]
+    }
+  ],
+  "unresolved": []
+}
