@@ -34,5 +34,15 @@
   },
   "fragranceNotes": "Prices on the retrieved official pages match stored amounts; no date-only edits or checkout/inventory claims. Direct Hermes access remained restricted, so its snapshot classification remains.",
   "browserTabsOpened": 0,
-  "browserTabsRemaining": 0
+  "browserTabsRemaining": 0,
+  "publishedContentCommit": "d789c6e8e6c80451758f501ee1f0c343b59e060f",
+  "publicFilesVerified": 207,
+  "codeVerification": {
+    "passed": true,
+    "pages": 201,
+    "brands": 32,
+    "items": 143,
+    "pythonRegressionTests": 11,
+    "frontendAssertions": 39
+  }
 }
