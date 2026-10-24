@@ -382,5 +382,21 @@
   },
   "browserTabsOpened": 0,
   "browserTabsRemaining": 0,
-  "graphflow": "No callable GraphFlow tools exposed; metadata discovery returned none. No context/index call claimed."
+  "graphflow": "No callable GraphFlow tools exposed; metadata discovery returned none. No context/index call claimed.",
+  "publication": {
+    "commit": "be6119d8ff1295851aa65359b055798f9bd90d1b",
+    "pagesBuild": {
+      "commit": "be6119d8ff1295851aa65359b055798f9bd90d1b",
+      "status": "built"
+    },
+    "verifiedPublicFiles": 342,
+    "retriedFiles": 0,
+    "allPublicFilesByteIdentical": true,
+    "report": "reports/daily-deployment-2026-10-24.json"
+  },
+  "independentReview": {
+    "scope": "Read-only exact product/brand/source and frontend test review",
+    "releaseBlockers": [],
+    "browserTabsOpened": 0
+  }
 }
