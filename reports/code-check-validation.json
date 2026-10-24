@@ -1,11 +1,11 @@
 {
   "passed": true,
   "reproducibleBuild": true,
-  "pages": 201,
-  "brands": 32,
-  "searchableItems": 143,
+  "pages": 204,
+  "brands": 33,
+  "searchableItems": 145,
   "pythonRegressionTests": 11,
-  "frontendAssertions": 54,
+  "frontendAssertions": 58,
   "method": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test",
   "sourceHashes": {
     "tools/apply_bag_yearbook.py": "688ba2e08e92a47d8d0050a883ae7153f635b15390dbb6c676f8c97da635d63f",
@@ -24,7 +24,7 @@
     "tools/validate.py": "a386630e9d7ab03f83a58110cab9533a89b001266a1f0b2ea352821b382c4551",
     "assets/js/render.js": "205d0e3f63d2b6a4f0734a9cfcffdc48ff3a117e5fa84f1157e9caab98d58c80",
     "assets/js/main.js": "d6a2925e3a4734c6814f54efedaea080bed5d8da56ff55b1f34ce193fee3ebff",
-    "assets/js/data.js": "101c2753db46ae9668230a022012521cd408f9648f2ee5cc79af594b7ed75b47",
-    "tools/test_frontend.cjs": "95e8e991d1bc311902d351da861bfa2cf4f1261fe32f375f81a203b82730a6ea"
+    "assets/js/data.js": "c3233163194f0f1864501c5e7edee0a405f204e42510d971f812c01de05048a4",
+    "tools/test_frontend.cjs": "63139ca91f01bfc41af00474670193260636babaf6ca5f61bf87e83147cb0b24"
   }
 }

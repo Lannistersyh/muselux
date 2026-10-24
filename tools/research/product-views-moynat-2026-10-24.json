@@ -1,0 +1,59 @@
+{
+  "records": [
+    {
+      "id": "moynat-hotel-hobo-brown-ci3625-0760",
+      "reference": "CI3625-0760",
+      "images": [
+        {
+          "path": "assets/img/views/moynat-hobo-brown-ci3625-0760-side.webp",
+          "source": "https://cdn.shopify.com/s/files/1/0539/5339/6921/files/2026-09-29MOYNATE-COMHOBOSIDE.png?v=1792092636",
+          "pageSource": "https://www.moynat.com/en-us/collections/hotel-moynat-collection/products/hobo-bag-hotel-moynat",
+          "credit": "© Moynat · official product gallery",
+          "alt": "Hôtel Moynat Hobo bag CI3625-0760 in brown M canvas — side view with long strap",
+          "viewLabel": "Side view / long strap",
+          "width": 1200,
+          "height": 1412,
+          "checkedAt": "2026-10-24",
+          "evidence": "Official collection API product16687051047257 and Brown variant59928233115993 identify CI3625-0760. Gallery position1 is FRONT, position2 is SIDE. Both original files were downloaded, fully pixel decoded and visually compared: the second image shows a three-quarter side profile and attached long strap rather than the frontal short-handle composition.",
+          "imageProcessing": {
+            "method": "Full-frame resize to at most 1200px wide and WebP quality88; no crop, retouching, mirroring or generated content",
+            "original": {
+              "sha256": "9fc693f5d71e48a7e59ba81abd1955669a54ee5edd06c852a14fb4ac8d857bed",
+              "width": 2040,
+              "height": 2400,
+              "bytes": 1881640
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "moynat-hotel-silk-scarf-70-multicolor-us",
+      "reference": "C30663-0001",
+      "images": [
+        {
+          "path": "assets/img/views/moynat-scarf-hotel-70-multicolor-reverse.webp",
+          "source": "https://www.moynat.com/cdn/shop/files/2026-09-29MOYNATE-COMSCARFBACK.png?v=1792093016&width=900",
+          "pageSource": "https://www.moynat.com/en-us/products/scarf-hotel-moynat",
+          "credit": "© Moynat Paris, official product imagery",
+          "alt": "Hôtel Moynat silk scarf 70, Multicolor C30663-0001 — reverse side",
+          "viewLabel": "Reverse side",
+          "width": 900,
+          "height": 1059,
+          "checkedAt": "2026-10-24",
+          "evidence": "Exact official product 16687142732121 supplies separate FRONT and BACK gallery assets at 2040 × 2400 pixels. This 900-pixel responsive BACK rendition is explicitly present in the product HTML. Downloaded unchanged, fully decoded to RGBA and visually compared against the front. Its pixels differ from the front and from a horizontal flip of that downloaded front image.",
+          "imageProcessing": {
+            "method": "Full-frame resize to at most 1200px wide and WebP quality88; no crop, retouching, mirroring or generated content",
+            "original": {
+              "sha256": "4214bb43962a036342a54b7023c150b94ab8ec43f8fce54e8e04826e36b66053",
+              "width": 900,
+              "height": 1059,
+              "bytes": 1100889
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "unresolved": []
+}

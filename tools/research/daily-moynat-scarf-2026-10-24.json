@@ -1,0 +1,104 @@
+{
+  "product": {
+    "id": "moynat-hotel-silk-scarf-70-multicolor-us",
+    "brand": "moynat",
+    "category": "scarves",
+    "name": "Hôtel Moynat Silk Scarf 70 — Multicolor",
+    "nameZh": "摩奈Hôtel Moynat七十真丝方巾 多色",
+    "reference": "C30663-0001",
+    "color": "Multicolor (official variant name)",
+    "sizes": [
+      "70 × 70 cm (Length × Width)"
+    ],
+    "materials": [
+      "Silk"
+    ],
+    "priceUSD": 400,
+    "priceLabel": "U.S. retail reference, before tax; currently unavailable online",
+    "checkedAt": "2026-10-24",
+    "priceEvidence": "Direct official U.S. HTML fetched successfully on 2026-10-24 identifies SKU C30663-0001 and displays $400.00. The same page embeds an Open Graph amount of 400.00 with currency USD, and variant price.amount 400.0 / currencyCode USD. The official variant 59928339710297 is currently unavailable online; this retail reference is not a stock or checkout guarantee.",
+    "priceStatus": "live",
+    "source": "https://www.moynat.com/en-us/products/scarf-hotel-moynat",
+    "image": "assets/img/products/scarves-moynat-hotel-silk-scarf-70-multicolor.webp",
+    "imageSource": "https://www.moynat.com/cdn/shop/files/2026-09-29MOYNATE-COMSCARFFRONT.png?v=1792093016&width=900",
+    "imageCredit": "© Moynat Paris, official product imagery",
+    "imageRightsNote": "Official front-view product image downloaded unchanged from a responsive rendition explicitly present in the exact Moynat U.S. product page and matched to Shopify product16687142732121 / SKU C30663-0001. No open reproduction licence, brand affiliation or republication permission has been verified or claimed. Local delivery uses a full-frame WebP rendition for loading performance; processing and original download hash are recorded separately.",
+    "imageWidth": 900,
+    "imageHeight": 1059,
+    "introEn": "Hôtel Moynat turns a silk square into a miniature archive of journeys. Inspired by the hotel stickers once attached to the house’s vintage trunks, the multicoloured print gives travel ephemera a place in a contemporary wardrobe. The 70 cm format keeps the composition compact, while hand-rolled edges provide a soft finish around its illustrated surface. Fold it narrowly to show a ribbon of colour, or leave a corner open to reveal more of the graphic story. It is a playful option for someone who enjoys accessories with a clear connection to luggage and travel history.",
+    "featuresEn": [
+      "70 × 70 cm silk square with hand-rolled edges",
+      "Multicoloured hotel-label motif inspired by Moynat’s vintage trunks",
+      "Part of the Hôtel Moynat limited-edition capsule; no numbered quantity is stated"
+    ],
+    "stylingEn": "Tie it loosely at the neck over an ivory shirt or navy knit so the multicoloured labels supply the accent. Fold it into a narrow band for a quieter treatment, or leave one broad corner visible to show the travel-inspired graphic.",
+    "born": "Hôtel Moynat capsule (2026)",
+    "designer": "Hôtel Moynat capsule collaboration with Storm Pablo and Marvin Douglas",
+    "verificationLimitations": [
+      "The official U.S. page identifies a US$400 retail reference, but this variant is currently unavailable online. Online unavailability does not establish permanent discontinuation.",
+      "The product page describes a limited-edition capsule but publishes no unit count or numbered run.",
+      "LVMH’s 23 October 2026 article is a news publication date. The brand’s product record gives 15 October 2026 as its publication date; neither is asserted as a verified first retail release date.",
+      "The exact product page specifies silk and 70 × 70 cm. It does not state a fibre percentage."
+    ],
+    "selectionSources": [
+      {
+        "label": "LVMH · Hotel Moynat reimagines the art of travel",
+        "url": "https://www.lvmh.com/en/news-lvmh/hotel-moynat-reimagines-the-art-of-travelc",
+        "publishedAt": "2026-10-23",
+        "evidence": "Official LVMH news describes the Hotel Moynat collection created with Storm Pablo and Marvin Douglas, including silk scarves, and says its first chapter is available in boutiques; article publication date is not a first-release date."
+      },
+      {
+        "label": "Moynat U.S. · exact scarf product page",
+        "url": "https://www.moynat.com/en-us/products/scarf-hotel-moynat",
+        "publishedAt": null,
+        "evidence": "The exact U.S. page returned HTTP 200 and identifies C30663-0001, Multicolor, 70 × 70 cm, silk, hand-rolled edges, a limited-edition capsule, US$400, and official front/reverse images."
+      },
+      {
+        "label": "Moynat U.S. · official product JSON",
+        "url": "https://www.moynat.com/en-us/products/scarf-hotel-moynat.json",
+        "publishedAt": null,
+        "evidence": "The exact official product JSON identifies product 16687142732121, variant 59928339710297, SKU C30663-0001, publication timestamp 2026-10-15T23:03:32+02:00 and price 400.00. Currency USD and material are independently confirmed in the exact U.S. HTML."
+      }
+    ],
+    "imageProcessing": {
+      "method": "Full-frame resize to at most 1200px wide and WebP quality88; no crop, retouching, mirroring or generated content",
+      "original": {
+        "sha256": "b0777571e78bc1536994749740565684ad86d172d57a752ea0662eb26b40c8be",
+        "width": 900,
+        "height": 1059,
+        "bytes": 1097696
+      }
+    },
+    "priceAsOf": "2026-10-24",
+    "editionType": "seasonal-capsule",
+    "editionLabelEn": "Limited collaboration capsule",
+    "editionSource": "https://www.lvmh.com/en/news-lvmh/hotel-moynat-reimagines-the-art-of-travelc"
+  },
+  "gallery": {
+    "id": "moynat-hotel-silk-scarf-70-multicolor-us",
+    "reference": "C30663-0001",
+    "images": [
+      {
+        "path": "assets/img/views/moynat-scarf-hotel-70-multicolor-reverse.webp",
+        "source": "https://www.moynat.com/cdn/shop/files/2026-09-29MOYNATE-COMSCARFBACK.png?v=1792093016&width=900",
+        "pageSource": "https://www.moynat.com/en-us/products/scarf-hotel-moynat",
+        "credit": "© Moynat Paris, official product imagery",
+        "alt": "Hôtel Moynat silk scarf 70, Multicolor C30663-0001 — reverse side",
+        "viewLabel": "Reverse side",
+        "width": 900,
+        "height": 1059,
+        "checkedAt": "2026-10-24",
+        "evidence": "Exact official product 16687142732121 supplies separate FRONT and BACK gallery assets at 2040 × 2400 pixels. This 900-pixel responsive BACK rendition is explicitly present in the product HTML. Downloaded unchanged, fully decoded to RGBA and visually compared against the front. Its pixels differ from the front and from a horizontal flip of that downloaded front image.",
+        "imageProcessing": {
+          "method": "Full-frame resize to at most 1200px wide and WebP quality88; no crop, retouching, mirroring or generated content",
+          "original": {
+            "sha256": "4214bb43962a036342a54b7023c150b94ab8ec43f8fce54e8e04826e36b66053",
+            "width": 900,
+            "height": 1059,
+            "bytes": 1100889
+          }
+        }
+      }
+    ]
+  }
+}

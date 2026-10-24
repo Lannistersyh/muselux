@@ -1,0 +1,386 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-24",
+  "focus": "scarves",
+  "scope": "Bounded official-news scan across six categories plus exact reference/price checks on four existing scarf products and selected other-category products. Not an exhaustive revalidation of every brand or product.",
+  "addedProducts": [
+    {
+      "id": "moynat-hotel-hobo-brown-ci3625-0760",
+      "reference": "CI3625-0760",
+      "priceUSD": 2550,
+      "priceStatus": "live",
+      "priceLabel": "U.S. retail reference, before tax; exact brown reference",
+      "source": "https://www.moynat.com/en-us/collections/hotel-moynat-collection/products/hobo-bag-hotel-moynat",
+      "checkedAt": "2026-10-24",
+      "editionType": "seasonal-capsule",
+      "editionLabelEn": "Limited collaboration capsule",
+      "verificationLimitations": [
+        "The brand calls the capsule limited edition but does not publish a numbered or fixed production quantity.",
+        "Product API published_at is15 October2026; the23 October2026 group article is new evidence, not asserted as the initial launch date.",
+        "Static HTML contains shared stock-status templates; no stock or checkout promise is asserted."
+      ]
+    },
+    {
+      "id": "moynat-hotel-silk-scarf-70-multicolor-us",
+      "reference": "C30663-0001",
+      "priceUSD": 400,
+      "priceStatus": "live",
+      "priceLabel": "U.S. retail reference, before tax; currently unavailable online",
+      "source": "https://www.moynat.com/en-us/products/scarf-hotel-moynat",
+      "checkedAt": "2026-10-24",
+      "editionType": "seasonal-capsule",
+      "editionLabelEn": "Limited collaboration capsule",
+      "verificationLimitations": [
+        "The official U.S. page identifies a US$400 retail reference, but this variant is currently unavailable online. Online unavailability does not establish permanent discontinuation.",
+        "The product page describes a limited-edition capsule but publishes no unit count or numbered run.",
+        "LVMH’s 23 October 2026 article is a news publication date. The brand’s product record gives 15 October 2026 as its publication date; neither is asserted as a verified first retail release date.",
+        "The exact product page specifies silk and 70 × 70 cm. It does not state a fibre percentage."
+      ]
+    }
+  ],
+  "addedBrand": "moynat",
+  "preservation": {
+    "originalProductCount": 143,
+    "originalCoreObjectsUnchanged": true,
+    "allAnnualObjectsAndCutoffsUnchanged": true,
+    "oldMainImageFilesUnchanged": true
+  },
+  "counts": {
+    "pages": 204,
+    "brands": 33,
+    "primaryBrands": 30,
+    "collaborationBrands": 3,
+    "items": 55,
+    "productGalleries": 145,
+    "galleryViews": 290,
+    "photographedProducts": 117,
+    "productsPerCategory": {
+      "bags": 5,
+      "scarves": 5,
+      "necklace": 4,
+      "jewelry": 4,
+      "watches": 5,
+      "fragrance": 4
+    },
+    "catalogBrandAssociations": 153,
+    "runtimeJavaScriptBytes": 46458
+  },
+  "newImages": [
+    {
+      "path": "assets/img/products/bags-moynat-hotel-hobo-brown-ci3625-0760.webp",
+      "bytes": 173132,
+      "sha256": "420e85915cc93b286543e8a9ffae30151cac1ce0a26f18bfd09a3ea36fdf9dea"
+    },
+    {
+      "path": "assets/img/products/scarves-moynat-hotel-silk-scarf-70-multicolor.webp",
+      "bytes": 206226,
+      "sha256": "ba65eee62dfa8cf01192f092f6db7298d85f7acab6ee8735d39346b5c5f42fff"
+    },
+    {
+      "path": "assets/img/views/moynat-hobo-brown-ci3625-0760-side.webp",
+      "bytes": 141086,
+      "sha256": "15cde0e3a7c2437696c0cb6cb293b744d9b4386dff25a05383ccb66df162f714"
+    },
+    {
+      "path": "assets/img/views/moynat-scarf-hotel-70-multicolor-reverse.webp",
+      "bytes": 206340,
+      "sha256": "d266d594afbca4ed28aaa29d52cad15658b164a1c4070334da278836c513f0bd"
+    }
+  ],
+  "newImageBytes": 726784,
+  "imageProcessing": "Full-frame resize/conversion to WebP quality88. Original download SHA256, dimensions and byte sizes preserved in each research record. No crop, mirror, retouching or generated content.",
+  "checks": {
+    "pythonRegressionTests": 11,
+    "frontendAssertions": 58,
+    "reproducibleBuild": true,
+    "photosFullyDecoded": 248,
+    "method": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test"
+  },
+  "publicationRecovery": {
+    "commit": "89a49c01ff773c621eabd1556c1131b008443f68",
+    "stuckBuildSinceUTC": "2026-10-23T07:05:54Z",
+    "action": "One authorized official GitHub Pages build request; no empty commit or configuration change",
+    "requestHTTPStatus": 201,
+    "requestedAtUTC": "2026-10-24T01:01:01Z",
+    "builtAtUTC": "2026-10-24T01:01:53Z",
+    "publicDocumentationAndRepresentativeFilesMatched": 5
+  },
+  "existingScarfChecks": {
+    "date": "2026-10-24",
+    "focus": "scarves",
+    "readOnly": true,
+    "browserTabsOpened": 0,
+    "records": [
+      {
+        "id": "hermes-please-hold-line-90-blue-us",
+        "source": "https://www.hermes.com/us/en/product/please-hold-the-line-scarf-90-H004187Sv09/",
+        "reference": "H004187S 09",
+        "observedUSD": 660,
+        "priceChanged": false,
+        "referenceOrColorChanged": false,
+        "productCheckedAtPreserved": "2026-10-19",
+        "sourceEvidence": "DirectHTML403; exactofficialpage reader provided matching reference, colour andUSD price",
+        "images": [
+          {
+            "id": "hermes-please-hold-line-90-blue-us",
+            "kind": "main",
+            "source": "https://assets.hermes.com/is/image/hermesproduct/please-hold-the-line-scarf-90--004187S%2009-flat-wm-1-0-0-800-800_g.jpg",
+            "status": 200,
+            "byteIdentical": false,
+            "width": 800,
+            "height": 800,
+            "sha256": "b7b9606d08043ba0b6eeed16d8b4cda466c484adadce470f5654d7123cac8790",
+            "localSHA256": "43cc4369bb70973e1f690ce7a993c0d65aff4f9e8385db2e17cf1153dfca8242"
+          },
+          {
+            "id": "hermes-please-hold-line-90-blue-us",
+            "kind": "extra",
+            "source": "https://assets.hermes.com/is/image/hermesproduct/004187S%2009_worn_103?%24product_default_bg%24=",
+            "status": 200,
+            "byteIdentical": true,
+            "width": 300,
+            "height": 400,
+            "sha256": "a4dab0131cdddce9aac5332adaa529d1281f5832c5cbdb86bd60338878ae2e09",
+            "localSHA256": "a4dab0131cdddce9aac5332adaa529d1281f5832c5cbdb86bd60338878ae2e09"
+          }
+        ]
+      },
+      {
+        "id": "dior-oblique-mitzah-navy-us",
+        "source": "https://www.dior.com/en_us/fashion/products/15DOB106I600_C541",
+        "reference": "15DOB106I600_C541",
+        "observedUSD": 250,
+        "priceChanged": false,
+        "referenceOrColorChanged": false,
+        "productCheckedAtPreserved": "2026-10-19",
+        "sourceEvidence": "DirectHTML403; exactofficialpage reader provided matching reference, colour andUSD price",
+        "images": [
+          {
+            "id": "dior-oblique-mitzah-navy-us",
+            "kind": "main",
+            "source": "https://assets.christiandior.com/is/image/diorprod/15DOB106I600C541_SBG_E01?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=2000&qlt=80&scale=1&wid=1600",
+            "status": 200,
+            "byteIdentical": true,
+            "width": 1600,
+            "height": 2000,
+            "sha256": "fe84fbbed58a3f3b91346578380eb2ce5db9ded4966f9c0c7e853477b7582b56",
+            "localSHA256": "fe84fbbed58a3f3b91346578380eb2ce5db9ded4966f9c0c7e853477b7582b56"
+          },
+          {
+            "id": "dior-oblique-mitzah-navy-us",
+            "kind": "extra",
+            "source": "https://assets.christiandior.com/is/image/diorprod/15DOB106I600C541_SBG_E11?%24r4x5_raw%24=&bfc=on&crop=0%2C0%2C4000%2C5000&hei=1200&qlt=80&scale=1&wid=960",
+            "status": 200,
+            "byteIdentical": true,
+            "width": 960,
+            "height": 1200,
+            "sha256": "c4efbd020880be67509f84457898dee099ebbd36860d52acb4c0c924863bfad8",
+            "localSHA256": "c4efbd020880be67509f84457898dee099ebbd36860d52acb4c0c924863bfad8"
+          }
+        ]
+      },
+      {
+        "id": "gucci-flora-silk-carre-pink-us",
+        "source": "https://www.gucci.com/us/en/pr/women/accessories-for-women/silks-and-scarves-for-women/square-scarves-for-women/printed-flora-silk-twill-carre-p-6025853G0019772",
+        "reference": "602585 3G001 9772",
+        "observedUSD": 540,
+        "priceChanged": false,
+        "referenceOrColorChanged": false,
+        "productCheckedAtPreserved": "2026-10-19",
+        "sourceEvidence": "Direct officialHTML200 plus officialpage reader",
+        "images": [
+          {
+            "id": "gucci-flora-silk-carre-pink-us",
+            "kind": "main",
+            "source": "https://media.gucci.com/style/DarkGray_Center_0_0_980x980/1778665367/602585_3G001_9772_001_090_0000_Light-printed-flora-silk-twill-carre.jpg",
+            "status": 200,
+            "byteIdentical": true,
+            "width": 980,
+            "height": 980,
+            "sha256": "805ce1519a8262cd37ca55adc76b8bf42e14920e0eb597d38d3089d44f3decf6",
+            "localSHA256": "805ce1519a8262cd37ca55adc76b8bf42e14920e0eb597d38d3089d44f3decf6"
+          },
+          {
+            "id": "gucci-flora-silk-carre-pink-us",
+            "kind": "extra",
+            "source": "https://media.gucci.com/style/DarkGray_Center_0_0_980x980/1758643203/602585_3G001_9772_003_100_0000_Light-printed-flora-silk-twill-carre.jpg",
+            "status": 200,
+            "byteIdentical": true,
+            "width": 980,
+            "height": 980,
+            "sha256": "0772e21ca5f2fa8660b04d9342b718f69405c1cea79d048296752557d58fd508",
+            "localSHA256": "0772e21ca5f2fa8660b04d9342b718f69405c1cea79d048296752557d58fd508"
+          }
+        ]
+      },
+      {
+        "id": "prada-triangle-silk-scarf-55-alabaster-us",
+        "source": "https://www.prada.com/us/en/p/printed-silk-twill-scarf-55/1FF004_2DTP_F0V4C",
+        "reference": "1FF004_2DTP_F0V4C",
+        "observedUSD": 350,
+        "priceChanged": false,
+        "referenceOrColorChanged": false,
+        "productCheckedAtPreserved": "2026-10-19",
+        "sourceEvidence": "Direct officialHTML200 plus officialpage reader",
+        "images": [
+          {
+            "id": "prada-triangle-silk-scarf-55-alabaster-us",
+            "kind": "main",
+            "source": "https://www.prada.com/content/dam/pradabkg_products/1/1FF/1FF004/2DTPF0V4C/1FF004_2DTP_F0V4C_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1000.1000.jpg",
+            "status": 200,
+            "byteIdentical": true,
+            "width": 1000,
+            "height": 1250,
+            "sha256": "3b95ffafd48fba13222c6202954a4349d931cb6e9eb1f9c0ae6b7f3bb3ffb3c1",
+            "localSHA256": "3b95ffafd48fba13222c6202954a4349d931cb6e9eb1f9c0ae6b7f3bb3ffb3c1"
+          },
+          {
+            "id": "prada-triangle-silk-scarf-55-alabaster-us",
+            "kind": "extra",
+            "source": "https://www.prada.com/content/dam/pradabkg_products/1/1FF/1FF004/2DTPF0V4C/1FF004_2DTP_F0V4C_SLD.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1000.1000.jpg",
+            "status": 200,
+            "byteIdentical": true,
+            "width": 1000,
+            "height": 1250,
+            "sha256": "8578ab03fa84745027a2890c458ee1d84cf9699b8a424570c42685dd3ec67cb0",
+            "localSHA256": "8578ab03fa84745027a2890c458ee1d84cf9699b8a424570c42685dd3ec67cb0"
+          }
+        ]
+      }
+    ],
+    "findings": {
+      "priceOrReferenceChanges": 0,
+      "brokenExistingImageURLs": 0,
+      "byteIdenticalImages": 7,
+      "imageCheckCount": 8,
+      "hermesMainImage": {
+        "decodedComparison": {
+          "oldFormat": "JPEG",
+          "newFormat": "JPEG",
+          "sameSize": true,
+          "decodedRGBIdentical": false,
+          "meanAbsolutePerChannelDifference": [
+            5.6521515625,
+            5.0773234375,
+            6.44944375
+          ],
+          "diffBBox": [
+            29,
+            58,
+            736,
+            760
+          ]
+        },
+        "visualAssessment": "Same exact blue H004187S09 scarf, same flat composition and framing; no verified model/colour change. Raster differences may reflect CDN rendering/reprocessing; retain the working local image without a meaningful content reason to replace.",
+        "comparisonFile": "/tmp/muselux-daily-20261024-scarves/hermes-compare.jpg"
+      }
+    },
+    "newCollectionScan": [
+      {
+        "source": "https://www.hermes.com/us/en/content/403416-homepage-oct-p2-2026-us-en-old-d/",
+        "finding": "Official autumn scarf feature; lacks an explicit publication date and no dated limited capsule/new24October launch established."
+      },
+      {
+        "source": "https://www.dior.com/en_us/fashion/womens-fashion/accessories/all-accessories",
+        "finding": "DiorAlps scarves visible, e.g Dior d'Hiver70 US$420; collection itself already present in earlier pages. No dated new evidence establishing a new capsule since prior review."
+      }
+    ],
+    "recommendation": "No source-supported product/price/edition change requiring publication; preserve canonical data, review dates and cutoff. No repository edits performed."
+  },
+  "otherCategoryChecks": {
+    "checkedAt": "2026-10-24",
+    "scope": "Bounded static official-news scan since2026-10-23 plus one exact StyleEdit product source in each of bags,necklace,jewelry,watches,fragrance. Not an exhaustive all-product recertification.",
+    "browserTabsOpened": 0,
+    "findings": [
+      {
+        "kind": "actionable_new_official_evidence",
+        "title": "Hotel Moynat reimagines the art of travel",
+        "source": "https://www.lvmh.com/en/news-lvmh/hotel-moynat-reimagines-the-art-of-travelc",
+        "publishedAt": "2026-10-23",
+        "summary": "Hôtel Moynat collaboration with Storm Pablo and Marvin Douglas includes bags and silk scarves. First chapter available in boutiques; a second chapter is described for November. New official US SKU, price and gallery evidence support a current StyleEdit Hobo addition, while annual2026 4+2 selections and their cutoff remain untouched.",
+        "productHelper": "tools/research/daily-moynat-hobo-2026-10-24.json"
+      }
+    ],
+    "unchangedExactPrices": [
+      {
+        "id": "gucci-jackie-small-black-gg-us",
+        "reference": "867156 FAFV4 1000",
+        "priceUSD": 1490,
+        "source": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/gucci-jackie-small-shoulder-bag-p-867156FAFV41000"
+      },
+      {
+        "id": "tiffany-t-smile-small-yellow-gold-60011679",
+        "reference": "60011679",
+        "priceUSD": 1400,
+        "source": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-t-18k-yellow-gold-necklaces-pendants-60011679.html"
+      },
+      {
+        "id": "chanel-coco-crush-ring-mini-beige-gold-j11785",
+        "reference": "J11785",
+        "priceUSD": 1900,
+        "source": "https://www.chanel.com/us/fine-jewelry/p/J11785/coco-crush-ring/"
+      },
+      {
+        "id": "prada-paradoxe-edp-90ml-1a1351",
+        "reference": "1A1351_2HDZ_F0Z99_P_ML090",
+        "priceUSD": 185,
+        "source": "https://www.prada.com/us/en/p/paradoxe-edp-90-ml/1A1351_2HDZ_F0Z99_P_ML090"
+      }
+    ],
+    "imageByteChecks": [
+      {
+        "id": "gucci-jackie-small-black-gg-us",
+        "url": "https://media.gucci.com/style/DarkGray_Center_0_0_980x980/1776876339/867156_FAFV4_1000_001_075_0040_Light-gucci-jackie-small-shoulder-bag.jpg",
+        "status": 200,
+        "bytes": 91580,
+        "sameBytes": true,
+        "localSHA256": "ec6d1c43006c5cb5f226bcbb6dc611f63f79d6c56690e62e2fcceb984e145995",
+        "remoteSHA256": "ec6d1c43006c5cb5f226bcbb6dc611f63f79d6c56690e62e2fcceb984e145995"
+      },
+      {
+        "id": "tiffany-t-smile-small-yellow-gold-60011679",
+        "url": "https://media.tiffany.com/is/image/tco/60011679_PDT_MAIN1X1?fmt=webp&hei=2000&wid=2000",
+        "status": 200,
+        "bytes": 39486,
+        "sameBytes": true,
+        "localSHA256": "5e3d2d8e8e8092641cf914aea48ea1f81ccb37c96b0639fe2a6057189e69247e",
+        "remoteSHA256": "5e3d2d8e8e8092641cf914aea48ea1f81ccb37c96b0639fe2a6057189e69247e"
+      },
+      {
+        "id": "prada-paradoxe-edp-90ml-1a1351",
+        "url": "https://www.prada.com/content/dam/pradabkg_products/1/1A1/1A1351/2HDZF0Z99/1A1351_2HDZ_F0Z99_P_ML090_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.600.600.jpg",
+        "status": 200,
+        "bytes": 33419,
+        "sameBytes": true,
+        "localSHA256": "8a9d3e91390bd549c180625ce8ff867de3435b33991780127287b577a26af7d4",
+        "remoteSHA256": "8a9d3e91390bd549c180625ce8ff867de3435b33991780127287b577a26af7d4"
+      }
+    ],
+    "otherOfficialChecks": [
+      {
+        "source": "https://press.tiffany.com/news/",
+        "outcome": "Visible recent dated releases include2026-07-06,2026-06-30,2026-06-01; no newly dated23–24October launch found in this bounded listing."
+      },
+      {
+        "source": "https://www.richemont.com/news-media/",
+        "outcome": "Most recent displayed release is22October2026, a Van Cleef & Arpels photography exhibition; no later product launch shown."
+      },
+      {
+        "source": "https://www.kering.com/en/news/",
+        "outcome": "404; not treated as product delisting. No repeat."
+      },
+      {
+        "source": "https://www.hublot.com/en-us/news",
+        "outcome": "Redirects to a2021 LasVegas article, so not used as a currentnews index."
+      },
+      {
+        "source": "https://www.hublot.com/en-us/watches/classic-fusion/classic-fusion-tributo-white-gold-38-mm",
+        "outcome": "Exact reference still described but extracted USD amount remains a locale placeholder; retain existing30900 officialsnapshot and its actualdate."
+      }
+    ],
+    "mutations": "Only root-authorized Hobo helper JSON and its two image assets were created. Existing source dates,prices,annualcutoffs and core files were left unchanged."
+  },
+  "browserTabsOpened": 0,
+  "browserTabsRemaining": 0,
+  "graphflow": "No callable GraphFlow tools exposed; metadata discovery returned none. No context/index call claimed."
+}

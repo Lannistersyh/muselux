@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": "moynat-hotel-hobo-brown-ci3625-0760",
+    "brand": "moynat",
+    "category": "bags",
+    "name": "Hôtel Moynat Hobo Bag — Brown M Canvas",
+    "nameZh": "摩奈 Hôtel Moynat 联名胶囊 Hobo 包 棕色 M 帆布",
+    "reference": "CI3625-0760",
+    "color": "Brown M canvas with multicolour hotel-label motifs and gold-colour hardware",
+    "sizes": [
+      "32 × 27 × 15 cm (L × H × W)",
+      "Handle drop: 21.5 cm",
+      "Removable adjustable strap: 88–98 cm"
+    ],
+    "materials": [
+      "M canvas",
+      "Cowhide leather trims and top handle",
+      "Gold-colour hardware"
+    ],
+    "priceUSD": 2550,
+    "priceLabel": "U.S. retail reference, before tax; exact brown reference",
+    "checkedAt": "2026-10-24",
+    "priceAsOf": "2026-10-24",
+    "priceEvidence": "Directly retrieved official United States product HTML displays SKU CI3625-0760 and $2,550.00 USD. Official /en-us/ collection products JSON independently supplies variant59928233115993, Brown, SKU CI3625-0760 and price2550.00. US localization and checkout-tax wording were read from the same product page.",
+    "priceStatus": "live",
+    "source": "https://www.moynat.com/en-us/collections/hotel-moynat-collection/products/hobo-bag-hotel-moynat",
+    "image": "assets/img/products/bags-moynat-hotel-hobo-brown-ci3625-0760.webp",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0539/5339/6921/files/2026-09-29MOYNATE-COMHOBOFRONT.png?v=1792092636",
+    "imageCredit": "© Moynat, official product imagery",
+    "imageRightsNote": "Original photograph linked in the exact Moynat product gallery. No reproduction licence accompanied the source or is asserted here; attribution does not itself grant permission. Local delivery uses a full-frame WebP rendition for loading performance; processing and original download hash are recorded separately.",
+    "imageWidth": 1200,
+    "imageHeight": 1412,
+    "introEn": "The Hôtel Moynat Hobo turns the House’s travel heritage into an easy everyday silhouette. Colourful hotel-label motifs stand out against brown M canvas, while cowhide trims and contrasting stitching define the soft, generous shape. A top handle offers a relaxed shoulder carry; the removable, adjustable strap provides a crossbody option and finishes with signature M-shaped clasps. A zip closure keeps the opening neat. Part of the limited-edition Hôtel Moynat capsule, this version combines the visual character of vintage luggage with a practical format for a day in the city. Created with Storm Pablo and Marvin Douglas, this collaboration capsule has no production quantity stated in the cited sources.",
+    "featuresEn": [
+      "Brown M canvas with hotel-label motifs, contrasting stitching and the Moynat Crown leather patch",
+      "Top leather handle plus removable, adjustable strap with signature M-shaped clasps",
+      "Zip closure, cowhide leather trims and gold-colour hardware; made in Italy"
+    ],
+    "stylingEn": "Let the hotel-label colours enliven a plain trench, dark denim and loafers. Carry it by the short handle for a relaxed city look, then attach the long strap when you want your hands free.",
+    "born": "Hôtel Moynat capsule; LVMH news published 23 October 2026",
+    "designer": "Moynat with Storm Pablo and Marvin Douglas",
+    "editionType": "seasonal-capsule",
+    "verificationLimitations": [
+      "The brand calls the capsule limited edition but does not publish a numbered or fixed production quantity.",
+      "Product API published_at is15 October2026; the23 October2026 group article is new evidence, not asserted as the initial launch date.",
+      "Static HTML contains shared stock-status templates; no stock or checkout promise is asserted."
+    ],
+    "supportingSources": [
+      {
+        "label": "Moynat · exact US product and technical details",
+        "url": "https://www.moynat.com/en-us/collections/hotel-moynat-collection/products/hobo-bag-hotel-moynat"
+      },
+      {
+        "label": "Moynat · official US product API, exact brown variant",
+        "url": "https://www.moynat.com/en-us/collections/hotel-moynat-collection/products.json?limit=20"
+      },
+      {
+        "label": "LVMH · Hotel Moynat reimagines the art of travel",
+        "url": "https://www.lvmh.com/en/news-lvmh/hotel-moynat-reimagines-the-art-of-travelc",
+        "publishedAt": "2026-10-23"
+      }
+    ],
+    "imageProcessing": {
+      "method": "Full-frame resize to at most 1200px wide and WebP quality88; no crop, retouching, mirroring or generated content",
+      "original": {
+        "sha256": "0886c869f8aa6f3e77eed5be183f3f2f518a6646e8b0d5c14290e1579af1d2a4",
+        "width": 2040,
+        "height": 2400,
+        "bytes": 2526649
+      }
+    },
+    "editionLabelEn": "Limited collaboration capsule",
+    "editionSource": "https://www.lvmh.com/en/news-lvmh/hotel-moynat-reimagines-the-art-of-travelc"
+  },
+  "gallery": {
+    "id": "moynat-hotel-hobo-brown-ci3625-0760",
+    "reference": "CI3625-0760",
+    "images": [
+      {
+        "path": "assets/img/views/moynat-hobo-brown-ci3625-0760-side.webp",
+        "source": "https://cdn.shopify.com/s/files/1/0539/5339/6921/files/2026-09-29MOYNATE-COMHOBOSIDE.png?v=1792092636",
+        "pageSource": "https://www.moynat.com/en-us/collections/hotel-moynat-collection/products/hobo-bag-hotel-moynat",
+        "credit": "© Moynat · official product gallery",
+        "alt": "Hôtel Moynat Hobo bag CI3625-0760 in brown M canvas — side view with long strap",
+        "viewLabel": "Side view / long strap",
+        "width": 1200,
+        "height": 1412,
+        "checkedAt": "2026-10-24",
+        "evidence": "Official collection API product16687051047257 and Brown variant59928233115993 identify CI3625-0760. Gallery position1 is FRONT, position2 is SIDE. Both original files were downloaded, fully pixel decoded and visually compared: the second image shows a three-quarter side profile and attached long strap rather than the frontal short-handle composition.",
+        "imageProcessing": {
+          "method": "Full-frame resize to at most 1200px wide and WebP quality88; no crop, retouching, mirroring or generated content",
+          "original": {
+            "sha256": "9fc693f5d71e48a7e59ba81abd1955669a54ee5edd06c852a14fb4ac8d857bed",
+            "width": 2040,
+            "height": 2400,
+            "bytes": 1881640
+          }
+        }
+      }
+    ]
+  }
+}

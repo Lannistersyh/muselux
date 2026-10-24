@@ -1,12 +1,12 @@
 {
   "passed": true,
-  "checkedAt": "2026-10-23",
+  "checkedAt": "2026-10-24",
   "timezone": "Asia/Shanghai",
   "method": "Node VM executing actual generated HTML and data.js/render.js/main.js using a dependency-free minimal DOM fixture",
   "scope": "Behavior and offline URL checks only; no browser engine, layout, CSS or assistive-technology verification. No network calls.",
   "browserTabsOpened": 0,
   "browserTabsRemaining": 0,
-  "assertions": 54,
+  "assertions": 58,
   "checks": [
     "Decoded brand count matches canonical content",
     "Decoded product count includes all annual selections",
@@ -18,16 +18,20 @@
     "Search lookup: FRGMT",
     "Search lookup: 阿迪达斯",
     "Search lookup: Birkin",
+    "Search lookup: 摩奈",
     "Search query HTML remains inert",
     "URL query, type and category filters combine",
     "Offline file URL searches collaboration products",
     "Invalid URL filters fall back to all records",
+    "Unaccented Hotel Moynat search finds both new capsule products",
     "Brand lookup: FRGMT",
     "Brand card has complete fields: FRGMT",
     "Brand lookup: Alaïa",
     "Brand card has complete fields: Alaïa",
     "Brand lookup: 罗意威",
     "Brand card has complete fields: 罗意威",
+    "Brand lookup: 摩奈",
+    "Brand card has complete fields: 摩奈",
     "Necklace brand filter includes Fendi annual selections",
     "Year deep link: 2022",
     "Year click updates location: 2022",
@@ -64,18 +68,18 @@
     "Desktop resize closes mobile menu"
   ],
   "sourceHashes": {
-    "assets/js/data.js": "101c2753db46ae9668230a022012521cd408f9648f2ee5cc79af594b7ed75b47",
+    "assets/js/data.js": "c3233163194f0f1864501c5e7edee0a405f204e42510d971f812c01de05048a4",
     "assets/js/render.js": "205d0e3f63d2b6a4f0734a9cfcffdc48ff3a117e5fa84f1157e9caab98d58c80",
     "assets/js/main.js": "d6a2925e3a4734c6814f54efedaea080bed5d8da56ff55b1f34ce193fee3ebff"
   },
-  "contentHash": "b8f61b38faa4b67c4d5877e5b14af8f38a4214bdbb0f878d4f9aa99e6df8c0c6",
+  "contentHash": "8ddffa242afb69e86d8855090303e095af6e8668ad9c15b620378c85da8840c0",
   "fixtureHashes": {
-    "search.html": "89226e47790c5a718697ef949aec09e592c96dec9f5b64f60afe72b94249cf15",
-    "brands.html": "824d99e254ade6d088a089fea2664caed10e32f6f7fa3e0e228a05ed260ebfd8",
-    "bags-by-year.html": "7d6624e5ecabffc6293e03109e94e714c08977a2bcfe710a2813e80527e869ea",
-    "item/dior-small-lady-dior-black-us.html": "3896149637b4e32cb548cf47428450a979310df676721223f0cc36f9c9b2c349",
-    "item/bag-2022-prada-re-edition-2000.html": "05b6867ece677f78ec216d30eb92f744c008bf3c4332b1a84d08ecc926342ecb",
-    "item/birkin.html": "b61b8585e15fa35f038d4d0b2932eda4bd6db664f8ec503fe8285499122043ac",
-    "index.html": "78c6b43fff98f62b6b7a89d8b33334f70a245910463c383df3b0f4844a05bf03"
+    "search.html": "c024d1399205df14ba8a1832377974220d1531fdb6b848e907b30b9270aff7fd",
+    "brands.html": "6430581dd814b2f4156a6c5ab8cfb78fabbea6c7852507d396a1b3fa419eab23",
+    "bags-by-year.html": "0d3df8b43db4063d61d1c6fb4ebf527263f22ff95851d55322ff338ed1268e33",
+    "item/dior-small-lady-dior-black-us.html": "546787b7fc1cb1bb05948752c6ee70e33c11c4889ff2fcf528a1a7c4b76bb210",
+    "item/bag-2022-prada-re-edition-2000.html": "e5ecc30a67047a16bc484e4f6fd355d204bdf8fb74e302dfbcf290933fa90ea9",
+    "item/birkin.html": "4001d8b9ed3c68d46a79459400ae83153d3f76ec3e5ac22ef33cf65a9bb507bb",
+    "index.html": "12e7a760dcd8791c9605a99e9e6c833e7a9be4e9bc417e52f9bec5f1ad3645e7"
   }
 }

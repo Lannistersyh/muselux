@@ -166,7 +166,7 @@ async function run() {
   check(data.items.length === catalog.length, 'Decoded product count includes all annual selections');
   check(site.get('#search-count').textContent === `找到 ${expectedRecords} 条内容`, 'Global search includes every brand, product and article');
   check(site.get('#search-results').querySelectorAll('a').length === Math.min(8, expectedRecords), 'First search page renders eight results');
-  for (const query of ['罗意威', '缪缪', '施华洛世奇', 'FRGMT', '阿迪达斯', 'Birkin']) {
+  for (const query of ['罗意威', '缪缪', '施华洛世奇', 'FRGMT', '阿迪达斯', 'Birkin', '摩奈']) {
     site.get('#search-query').value = query;
     site.get('#search-query').events.input();
     check(!site.get('#search-count').textContent.endsWith('找到 0 条内容'), 'Search lookup: ' + query);
@@ -184,8 +184,12 @@ async function run() {
   site = await fixture('search.html', 'https://muselux.test/search.html?type=invalid&cat=invalid');
   check(site.get('#search-count').textContent === `找到 ${expectedRecords} 条内容`, 'Invalid URL filters fall back to all records');
 
+  const moynatItems = catalog.filter(item => item.brand === 'moynat');
+  site = await fixture('search.html', 'https://muselux.test/search.html?q=Hotel%20Moynat&type=item');
+  check(moynatItems.length === 2 && site.get('#search-count').textContent.endsWith(`找到 ${moynatItems.length} 条内容`), 'Unaccented Hotel Moynat search finds both new capsule products');
+
   site = await fixture('brands.html');
-  for (const query of ['FRGMT', 'Alaïa', '罗意威']) {
+  for (const query of ['FRGMT', 'Alaïa', '罗意威', '摩奈']) {
     site.get('#brand-query').value = query;
     site.get('#brand-query').events.input();
     check(site.get('#brand-count').textContent === '1 个品牌', 'Brand lookup: ' + query);

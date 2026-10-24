@@ -1,9 +1,9 @@
 {
   "passed": true,
-  "checkedAt": "2026-10-23",
+  "checkedAt": "2026-10-24",
   "method": "Pillow full pixel decoding; RGBA composited on white; hash/dimension checks. Low RMS pairs flagged for human visual review; RMS alone is not proof of a new angle.",
-  "galleries": 143,
-  "uniqueFiles": 244,
+  "galleries": 145,
+  "uniqueFiles": 248,
   "files": {
     "assets/img/products/bags-prada-galleria-small-black.jpg": {
       "width": 1000,
@@ -905,6 +905,30 @@
       "sha256": "76bf8083b64c9b637dc1a696ae358fb08924dc2f3f4bc6e52a4a3496ee7897da",
       "format": "JPEG"
     },
+    "assets/img/products/bags-moynat-hotel-hobo-brown-ci3625-0760.webp": {
+      "width": 1200,
+      "height": 1412,
+      "sha256": "420e85915cc93b286543e8a9ffae30151cac1ce0a26f18bfd09a3ea36fdf9dea",
+      "format": "WEBP"
+    },
+    "assets/img/views/moynat-hobo-brown-ci3625-0760-side.webp": {
+      "width": 1200,
+      "height": 1412,
+      "sha256": "15cde0e3a7c2437696c0cb6cb293b744d9b4386dff25a05383ccb66df162f714",
+      "format": "WEBP"
+    },
+    "assets/img/products/scarves-moynat-hotel-silk-scarf-70-multicolor.webp": {
+      "width": 900,
+      "height": 1059,
+      "sha256": "ba65eee62dfa8cf01192f092f6db7298d85f7acab6ee8735d39346b5c5f42fff",
+      "format": "WEBP"
+    },
+    "assets/img/views/moynat-scarf-hotel-70-multicolor-reverse.webp": {
+      "width": 900,
+      "height": 1059,
+      "sha256": "d266d594afbca4ed28aaa29d52cad15658b164a1c4070334da278836c513f0bd",
+      "format": "WEBP"
+    },
     "assets/img/products/necklace-cartier-love-yellow-gold-b7014200.webp": {
       "width": 750,
       "height": 750,
@@ -1581,9 +1605,16 @@
     }
   ],
   "visualReview": {
-    "allNewImages": "Primary agent and category agents visually compared images with existing views; exact-reference repeats shared verified assets.",
-    "additionalReview": "Primary agent rechecked the 18 lowest-RMS gallery pairs; genuine rear/closure/three-quarter/worn views, not resamples.",
-    "browserTabsOpened": 0,
-    "browserTabsRemaining": 0
+    "checkedAt": "2026-10-24",
+    "newFiles": [
+      "assets/img/products/bags-moynat-hotel-hobo-brown-ci3625-0760.webp",
+      "assets/img/products/scarves-moynat-hotel-silk-scarf-70-multicolor.webp",
+      "assets/img/views/moynat-hobo-brown-ci3625-0760-side.webp",
+      "assets/img/views/moynat-scarf-hotel-70-multicolor-reverse.webp"
+    ],
+    "finding": "All four new official Moynat images compared in a contact sheet after full-frame WebP conversion: exact brown CI3625-0760 Hobo front versus side/long strap, and C30663-0001 scarf front versus separately supplied official reverse. No synthetic, cropped or self-mirrored angle added.",
+    "unchangedHistoricalFiles": 244,
+    "historicalReview": "Historical 244 files retain their hashes from the preceding gallery review; all 248 current files were fully decoded and their dimensions/hashes checked today. Previous low-difference visual review remains historical evidence.",
+    "browserTabsOpened": 0
   }
 }

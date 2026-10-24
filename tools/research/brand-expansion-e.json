@@ -1,0 +1,119 @@
+{
+  "checkedAt": "2026-10-24",
+  "researchNotes": [
+    "Moynat 的现行中文站及 LVMH 中文品牌档案均使用‘摩奈’，中文名称采用这一已核验写法。",
+    "Moynat 官网将 Henri Rapin 的合作期记为 1905–1925 年；LVMH 档案以 1905 年标记 M 字印花，另一篇 Moynat 工艺文章则介绍 1920 年的 Toile 1920 Monogramme M。本时间线只将 1905 年用于已核实的合作起点，不混同这些纹样口径。",
+    "Hotel Moynat 新闻由 LVMH 于 2026-10-23 发布；这不是品牌或产品精确首售日期的独立证据。Storm Pablo 与 Marvin Douglas 作为参与创作的个人署名，不作为独立品牌建立图鉴。未从新闻发布平台推断品牌所有权。"
+  ],
+  "brands": [
+    {
+      "id": "moynat",
+      "name": "Moynat",
+      "nameZh": "摩奈",
+      "country": "法国",
+      "founded": 1849,
+      "foundingNote": "创立年份采用 Moynat 官网所记的巴黎制箱工坊起点 1849 年；品牌史记载 Pauline Moynat 经营工坊，并于 1869 年开设首家精品店。LVMH 现行品牌档案将她列为创始人。",
+      "categories": [
+        "bags",
+        "scarves"
+      ],
+      "aliases": [
+        "MOYNAT PARIS",
+        "摩奈"
+      ],
+      "tagline": "把旅行箱的记忆，缝进日常轮廓",
+      "intro": "摩奈把旅行箱的结构带进日常皮具：弧形底线、金属锁扣与手绘图案，让行李的功能细节成为辨认品牌的线索。这家诞生于巴黎的工坊，早期以防水帆布回应旅行的需要，再把保护物品的结构做成鲜明的外观。今天的 Gabrielle 手袋借用 Limousine 硬箱的弧线，Toile M 则以字母纹样展开色彩。看摩奈，可以先观察皮革拼接的边缘、提手的弯度与缝线的走向，再读那些被重新使用的旅行标签。制箱经验由此化成可以随身携带的轮廓。",
+      "timeline": [
+        {
+          "year": 1849,
+          "event": "巴黎制箱工坊创立，成为摩奈品牌历史的起点。",
+          "source": "https://www.moynat.com/blogs/moynat-history/the-time-of-trunk-makers",
+          "evidence": "品牌历史说明 Pauline Moynat 经营的制箱工坊创建于 1849 年；LVMH 品牌档案也明确列出相同创立年份。"
+        },
+        {
+          "year": 1869,
+          "event": "Pauline Moynat 在巴黎歌剧院大道开设首家摩奈精品店。",
+          "source": "https://www.moynat.com/blogs/moynat-history/the-time-of-trunk-makers",
+          "evidence": "官网历史章节以 1869 年首家精品店为题，正文记载 Pauline 于当年在巴黎歌剧院大道一号开店。"
+        },
+        {
+          "year": 1873,
+          "event": "采用防水帆布的英式硬箱获得商业成功，成为品牌制箱创新的重要一章。",
+          "source": "https://www.moynat.com/blogs/moynat-history/our-inventions",
+          "evidence": "官网发明史把 English Trunk、防水帆布及 1873 年的商业成功联系起来；此处不把商业成功年份额外推断为专利申请日。"
+        },
+        {
+          "year": 1905,
+          "event": "画家与装饰艺术家 Henri Rapin 开始与摩奈合作，将艺术创作融入制箱语言。",
+          "source": "https://www.moynat.com/fr/blogs/moynat-history/the-time-of-artists",
+          "evidence": "品牌官网明确说明 Henri Rapin 与 Moynat 的长期合作持续于 1905–1925 年，事件年份采用这段合作的起点。"
+        },
+        {
+          "year": 1907,
+          "event": "位于巴黎 rue Coysevox 的摩奈工坊开设，汇集二百五十位制箱工匠。",
+          "source": "https://www.moynat.com/blogs/moynat-history/the-time-of-trunk-makers",
+          "evidence": "官网工坊历史记载 1907 年在 rue Coysevox 开设生产工坊，并注明二百五十位制箱工匠。"
+        },
+        {
+          "year": 2025,
+          "event": "与艺术家龙家升 Kasing Lung 合作，将 The Monsters 角色带入 M 字帆布箱包与配件。",
+          "source": "https://www.moynat.com/en-sg/blogs/collections/kasing-lung-collection",
+          "evidence": "官网合作介绍将首章上海发布安排在十月十一日，并明确写明系列于 2025 年末至 2026 年初在巡展城市的摩奈精品店供应；角色包括 Labubu、Zimomo 与 King Mon。"
+        },
+        {
+          "year": 2026,
+          "event": "Hotel Moynat 首章以皮革旅行酒店标签装饰 M 字帆布，延展至手袋、丝巾与旅行用品。",
+          "source": "https://www.lvmh.com/en/news-lvmh/hotel-moynat-reimagines-the-art-of-travelc",
+          "evidence": "LVMH 于 2026 年十月二十三日发布的新闻记载 Storm Pablo 与 Marvin Douglas 参与创作，皮革标签逐一缝于 M 字帆布，并明确涵盖手袋、丝巾及旅行硬箱。"
+        }
+      ],
+      "signatures": [
+        "源于旅行硬箱的弧形轮廓",
+        "Toile M 字母帆布",
+        "皮革细工镶嵌与手绘定制",
+        "金属箱锁与手工缝线"
+      ],
+      "source": "https://www.moynat.com/blogs/moynat-history/the-time-of-trunk-makers",
+      "sources": [
+        {
+          "label": "Moynat — The Time of Trunk-Makers: 1849, 1869 and 1907",
+          "url": "https://www.moynat.com/blogs/moynat-history/the-time-of-trunk-makers"
+        },
+        {
+          "label": "Moynat — Our Inventions: the English Trunk and waterproof canvas",
+          "url": "https://www.moynat.com/blogs/moynat-history/our-inventions"
+        },
+        {
+          "label": "Moynat — Henri Rapin and the House, 1905–1925",
+          "url": "https://www.moynat.com/fr/blogs/moynat-history/the-time-of-artists"
+        },
+        {
+          "label": "Moynat — Extraordinary craft and rare materials",
+          "url": "https://www.moynat.com/fr/blogs/news/extraordinary-craft-and-rare-materials-since-1849"
+        },
+        {
+          "label": "LVMH — Moynat Maison profile and Gabrielle design",
+          "url": "https://www.lvmh.com/our-maisons/fashion-leather-good/moynat"
+        },
+        {
+          "label": "LVMH 中文 — MOYNAT 摩奈品牌档案",
+          "url": "https://www.lvmh.cn/cn/our-maisons/fashion-leather-good/moynat"
+        },
+        {
+          "label": "Moynat — official Chinese name",
+          "url": "https://www.moynat.com/zh-tw"
+        },
+        {
+          "label": "Moynat — Kasing Lung collection, 2025–2026",
+          "url": "https://www.moynat.com/en-sg/blogs/collections/kasing-lung-collection"
+        },
+        {
+          "label": "LVMH — Hotel Moynat, 23 October 2026",
+          "url": "https://www.lvmh.com/en/news-lvmh/hotel-moynat-reimagines-the-art-of-travelc"
+        }
+      ],
+      "classicItems": [],
+      "checkedAt": "2026-10-24"
+    }
+  ]
+}

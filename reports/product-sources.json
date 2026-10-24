@@ -112,6 +112,34 @@
     "checkedAt": "2026-10-19"
   },
   {
+    "id": "moynat-hotel-hobo-brown-ci3625-0760",
+    "brand": "moynat",
+    "reference": "CI3625-0760",
+    "source": "https://www.moynat.com/en-us/collections/hotel-moynat-collection/products/hobo-bag-hotel-moynat",
+    "image": "assets/img/products/bags-moynat-hotel-hobo-brown-ci3625-0760.webp",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0539/5339/6921/files/2026-09-29MOYNATE-COMHOBOFRONT.png?v=1792092636",
+    "imageCredit": "© Moynat, official product imagery",
+    "imageRightsNote": "Original photograph linked in the exact Moynat product gallery. No reproduction licence accompanied the source or is asserted here; attribution does not itself grant permission. Local delivery uses a full-frame WebP rendition for loading performance; processing and original download hash are recorded separately.",
+    "priceUSD": 2550,
+    "priceStatus": "live",
+    "priceContextEn": "Official U.S. product page · checked 24 October 2026",
+    "checkedAt": "2026-10-24"
+  },
+  {
+    "id": "moynat-hotel-silk-scarf-70-multicolor-us",
+    "brand": "moynat",
+    "reference": "C30663-0001",
+    "source": "https://www.moynat.com/en-us/products/scarf-hotel-moynat",
+    "image": "assets/img/products/scarves-moynat-hotel-silk-scarf-70-multicolor.webp",
+    "imageSource": "https://www.moynat.com/cdn/shop/files/2026-09-29MOYNATE-COMSCARFFRONT.png?v=1792093016&width=900",
+    "imageCredit": "© Moynat Paris, official product imagery",
+    "imageRightsNote": "Official front-view product image downloaded unchanged from a responsive rendition explicitly present in the exact Moynat U.S. product page and matched to Shopify product16687142732121 / SKU C30663-0001. No open reproduction licence, brand affiliation or republication permission has been verified or claimed. Local delivery uses a full-frame WebP rendition for loading performance; processing and original download hash are recorded separately.",
+    "priceUSD": 400,
+    "priceStatus": "live",
+    "priceContextEn": "Official U.S. product page · checked 24 October 2026",
+    "checkedAt": "2026-10-24"
+  },
+  {
     "id": "cartier-love-pendant-yellow-gold-b7014200",
     "brand": "cartier",
     "reference": "B7014200",
