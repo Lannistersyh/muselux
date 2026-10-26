@@ -1,0 +1,1627 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-26T15:44:58.278546+00:00",
+  "commit": "b11d1029488eae79845fd8b9356a6af0babbd3f0",
+  "pagesBuild": {
+    "commit": "b11d1029488eae79845fd8b9356a6af0babbd3f0",
+    "status": "built"
+  },
+  "publicURL": "https://lannistersyh.github.io/muselux/",
+  "verifiedFiles": 230,
+  "scope": "All 211 HTML pages, four runtime CSS/JS resources, sitemap and all 14 new Chrome Hearts photos. Existing photo files retain their verified Git blobs.",
+  "firstPass": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "75ef465cf4994a508c79fe6469e2a0f80cc03764fb5098e0dfce9966303caac3",
+      "expectedSha256": "75ef465cf4994a508c79fe6469e2a0f80cc03764fb5098e0dfce9966303caac3"
+    },
+    {
+      "path": "brands.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "710bc0d80894e9043952ec90798a7bdbfe30f9a5632313b283d19ab62b201422",
+      "expectedSha256": "710bc0d80894e9043952ec90798a7bdbfe30f9a5632313b283d19ab62b201422"
+    },
+    {
+      "path": "search.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "d8faafd06fc16c52e34f8d9e84538d3c1a513bc8d5a5ff509089567c5dbc1515",
+      "expectedSha256": "d8faafd06fc16c52e34f8d9e84538d3c1a513bc8d5a5ff509089567c5dbc1515"
+    },
+    {
+      "path": "about.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "ef4a34a1020b2db6c37415cf3e8173f9379e495f0121a0573be1c38fa6b3bfed",
+      "expectedSha256": "ef4a34a1020b2db6c37415cf3e8173f9379e495f0121a0573be1c38fa6b3bfed"
+    },
+    {
+      "path": "404.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "71288461ee45c5514396bce2f0ed49f80e91f099187ad9a4127cfe8cef115fca",
+      "expectedSha256": "71288461ee45c5514396bce2f0ed49f80e91f099187ad9a4127cfe8cef115fca"
+    },
+    {
+      "path": "cat/bags.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "0d238522858d778a8249f74e466555e5980e637aaeddd0ae3880151752a200c1",
+      "expectedSha256": "0d238522858d778a8249f74e466555e5980e637aaeddd0ae3880151752a200c1"
+    },
+    {
+      "path": "cat/necklace.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "3cdea6efb1f55e4ce0ed3463e87be1be21b52ea5432848e8ab2eb0e4d714f9c8",
+      "expectedSha256": "3cdea6efb1f55e4ce0ed3463e87be1be21b52ea5432848e8ab2eb0e4d714f9c8"
+    },
+    {
+      "path": "cat/jewelry.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "50e5c6e05f65dc99e44a4aa63af6b220fb5a6bc6b49543646238eedbcfae8b28",
+      "expectedSha256": "50e5c6e05f65dc99e44a4aa63af6b220fb5a6bc6b49543646238eedbcfae8b28"
+    },
+    {
+      "path": "cat/watches.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "82f1d7385dad57d0c15a3b51703855cc2a3572066e84127c66d6c78912af493f",
+      "expectedSha256": "82f1d7385dad57d0c15a3b51703855cc2a3572066e84127c66d6c78912af493f"
+    },
+    {
+      "path": "cat/scarves.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "490f20e09eb9b4c8c46f427310e57d911a8f4839b1066a8e1379ce122abe6769",
+      "expectedSha256": "490f20e09eb9b4c8c46f427310e57d911a8f4839b1066a8e1379ce122abe6769"
+    },
+    {
+      "path": "cat/fragrance.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "fb69b6784c2b46fc74c3a453b768adc27da9666f71fb68b37916f11ae46494ff",
+      "expectedSha256": "fb69b6784c2b46fc74c3a453b768adc27da9666f71fb68b37916f11ae46494ff"
+    },
+    {
+      "path": "brand/hermes.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "5e07b1a4861685c15301630bc3ed6e2b8b82f8a08b6500e339018a54dedf8bd4",
+      "expectedSha256": "5e07b1a4861685c15301630bc3ed6e2b8b82f8a08b6500e339018a54dedf8bd4"
+    },
+    {
+      "path": "brand/chanel.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "9e4e9aa2f4c1aa449493f6c076bb1ef0354cc6223dd1c28a7b352876f28bd461",
+      "expectedSha256": "9e4e9aa2f4c1aa449493f6c076bb1ef0354cc6223dd1c28a7b352876f28bd461"
+    },
+    {
+      "path": "brand/louis-vuitton.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "b5fe6654f1200ece68eee986a4e0347ed3a6a2e1d154bf6545ffb5f7708931f4",
+      "expectedSha256": "b5fe6654f1200ece68eee986a4e0347ed3a6a2e1d154bf6545ffb5f7708931f4"
+    },
+    {
+      "path": "brand/dior.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "f6155fc72eef41adc46f66ce658cc24c0c051fe8a177fc1d4e53509ae606f46a",
+      "expectedSha256": "f6155fc72eef41adc46f66ce658cc24c0c051fe8a177fc1d4e53509ae606f46a"
+    },
+    {
+      "path": "brand/gucci.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "a51c183966061b90c7e281fb2a5a9be1854a72eab4537c2e2099a0ee9463b672",
+      "expectedSha256": "a51c183966061b90c7e281fb2a5a9be1854a72eab4537c2e2099a0ee9463b672"
+    },
+    {
+      "path": "brand/prada.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "85ceb1bd57135259e2e75476514418349baa87122ed3c09945b940d26665cf7a",
+      "expectedSha256": "85ceb1bd57135259e2e75476514418349baa87122ed3c09945b940d26665cf7a"
+    },
+    {
+      "path": "brand/bottega-veneta.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "4c614b24c557e9e2c72ba0410441a4e3275b56af911ef0f6e97afe045470e192",
+      "expectedSha256": "4c614b24c557e9e2c72ba0410441a4e3275b56af911ef0f6e97afe045470e192"
+    },
+    {
+      "path": "brand/celine.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "36d4d0cf4c0f0f97f6264f55cd827b5074b373eec80cd8a8f3ac270f6cb8c42c",
+      "expectedSha256": "36d4d0cf4c0f0f97f6264f55cd827b5074b373eec80cd8a8f3ac270f6cb8c42c"
+    },
+    {
+      "path": "brand/cartier.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "5739ff1e458cd7e000c0c74c8f3ca325b81171827b03f4360d780b42ca513d02",
+      "expectedSha256": "5739ff1e458cd7e000c0c74c8f3ca325b81171827b03f4360d780b42ca513d02"
+    },
+    {
+      "path": "brand/tiffany.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "ea57b529ea57c5967119d99b254edcdb124bea275a76cc76db9bcef236c951ed",
+      "expectedSha256": "ea57b529ea57c5967119d99b254edcdb124bea275a76cc76db9bcef236c951ed"
+    },
+    {
+      "path": "brand/bulgari.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "5e96f73f48a6c09527e4bc6c1ba5d07f69a8732bfb7b9de4ececf33547a41d89",
+      "expectedSha256": "5e96f73f48a6c09527e4bc6c1ba5d07f69a8732bfb7b9de4ececf33547a41d89"
+    },
+    {
+      "path": "brand/van-cleef-arpels.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "1c40ace8e2e45d61306c76a6de54190a2a84cb59618c88907c9fd87bd42e41b1",
+      "expectedSha256": "1c40ace8e2e45d61306c76a6de54190a2a84cb59618c88907c9fd87bd42e41b1"
+    },
+    {
+      "path": "brand/rolex.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "b046a8ba97b4517a0cde9ab40ae7a0e6da6e1c1fd35e624c41f6c6609f9c38f5",
+      "expectedSha256": "b046a8ba97b4517a0cde9ab40ae7a0e6da6e1c1fd35e624c41f6c6609f9c38f5"
+    },
+    {
+      "path": "brand/omega.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "866d46f16cec85fd04f5390a0db68572fb3515c67c1726f84d1cf9e1dd4c6fb7",
+      "expectedSha256": "866d46f16cec85fd04f5390a0db68572fb3515c67c1726f84d1cf9e1dd4c6fb7"
+    },
+    {
+      "path": "brand/fendi.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "f7327aa941a2337ca0e85d07024f786a4aa19cceb0704710ffb81f1876f12d39",
+      "expectedSha256": "f7327aa941a2337ca0e85d07024f786a4aa19cceb0704710ffb81f1876f12d39"
+    },
+    {
+      "path": "brand/diesel.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "d66bd2ea7cc0f555cfddeef3096c3254254b06798fa5dfdaa312829fbe006afd",
+      "expectedSha256": "d66bd2ea7cc0f555cfddeef3096c3254254b06798fa5dfdaa312829fbe006afd"
+    },
+    {
+      "path": "brand/balenciaga.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "3e785d642bdbcf5f58fdd0a3df6d526160b577a29e5ea96b9be26fc4a08613e0",
+      "expectedSha256": "3e785d642bdbcf5f58fdd0a3df6d526160b577a29e5ea96b9be26fc4a08613e0"
+    },
+    {
+      "path": "brand/miu-miu.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "48fdd601dd438b85bb39f943c6f4bebb35873454eb5cf00b6b4e7d2f522ff794",
+      "expectedSha256": "48fdd601dd438b85bb39f943c6f4bebb35873454eb5cf00b6b4e7d2f522ff794"
+    },
+    {
+      "path": "brand/loewe.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "bf8e66ce82d2c18894bd058e770ec645eae5a837b7c17584692233d1d1e20434",
+      "expectedSha256": "bf8e66ce82d2c18894bd058e770ec645eae5a837b7c17584692233d1d1e20434"
+    },
+    {
+      "path": "brand/the-row.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "de6cde94bd8781e6543535becb6963b3af53df633469a73b247be4768119cd1e",
+      "expectedSha256": "de6cde94bd8781e6543535becb6963b3af53df633469a73b247be4768119cd1e"
+    },
+    {
+      "path": "brand/alaia.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "c31daeedd7e3712d7244c45577d5413238434b4ac69b21f5e8ade93eba6a612e",
+      "expectedSha256": "c31daeedd7e3712d7244c45577d5413238434b4ac69b21f5e8ade93eba6a612e"
+    },
+    {
+      "path": "brand/saint-laurent.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "a0fc9ac9449c04553bfd3355859b15d91ff94fc57d423472e34680995e2c9047",
+      "expectedSha256": "a0fc9ac9449c04553bfd3355859b15d91ff94fc57d423472e34680995e2c9047"
+    },
+    {
+      "path": "brand/chloe.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "438e0de67972cf99c65a9bdd9f44c7a9e16c2e292851143baa550dd06d7d00a3",
+      "expectedSha256": "438e0de67972cf99c65a9bdd9f44c7a9e16c2e292851143baa550dd06d7d00a3"
+    },
+    {
+      "path": "brand/david-yurman.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "eae468c8ae2e1e5b75f1008bb125b4ffb61ccfbd5c4bc80ff8ad4489e1e9f99b",
+      "expectedSha256": "eae468c8ae2e1e5b75f1008bb125b4ffb61ccfbd5c4bc80ff8ad4489e1e9f99b"
+    },
+    {
+      "path": "brand/swarovski.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "7001974457e20d915ae61a1bf7964b30571dd17d41c8031838c9b3934d1ac4f2",
+      "expectedSha256": "7001974457e20d915ae61a1bf7964b30571dd17d41c8031838c9b3934d1ac4f2"
+    },
+    {
+      "path": "brand/fred.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "7ad5ddb9a8f0969858b2114c160865ce0f81ec29318c00e1631623c2bec41a95",
+      "expectedSha256": "7ad5ddb9a8f0969858b2114c160865ce0f81ec29318c00e1631623c2bec41a95"
+    },
+    {
+      "path": "brand/boucheron.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "2df4d87ff9f30b96e2c531e3389744a04d4f47a33aaf67ddcbd8039d05481101",
+      "expectedSha256": "2df4d87ff9f30b96e2c531e3389744a04d4f47a33aaf67ddcbd8039d05481101"
+    },
+    {
+      "path": "brand/pomellato.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "5724eef2c2c6ab9d834b851000784e4fd8237442704a7d29edaa8ca8551c1cfa",
+      "expectedSha256": "5724eef2c2c6ab9d834b851000784e4fd8237442704a7d29edaa8ca8551c1cfa"
+    },
+    {
+      "path": "brand/adidas.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "54aa6eaee59cec6be7751fab345d94cdf97fad9c10df3f3d8bc8bb15d3e2c4f9",
+      "expectedSha256": "54aa6eaee59cec6be7751fab345d94cdf97fad9c10df3f3d8bc8bb15d3e2c4f9"
+    },
+    {
+      "path": "brand/versace.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "7688fa4b0414a080cc17de3fa7e2223b22fa67fe516ad86760761aa8eb692467",
+      "expectedSha256": "7688fa4b0414a080cc17de3fa7e2223b22fa67fe516ad86760761aa8eb692467"
+    },
+    {
+      "path": "brand/fragment-design.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "6c101e890a672b096e558150d6bd3cd47681ef9bf3337d9360b917bf1d3015df",
+      "expectedSha256": "6c101e890a672b096e558150d6bd3cd47681ef9bf3337d9360b917bf1d3015df"
+    },
+    {
+      "path": "brand/hublot.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "99dfe72263e9b150eb2ff33e7ba78b11045b9decb581fd699d67518c975359f9",
+      "expectedSha256": "99dfe72263e9b150eb2ff33e7ba78b11045b9decb581fd699d67518c975359f9"
+    },
+    {
+      "path": "brand/moynat.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "36b2b22e67637612f4b46704d6220d96860524a6bcc4e11c0436ba58e75dda75",
+      "expectedSha256": "36b2b22e67637612f4b46704d6220d96860524a6bcc4e11c0436ba58e75dda75"
+    },
+    {
+      "path": "brand/chrome-hearts.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "92802a15410e4b9b2f5cfaee5a9bf7ea0aef8ff4d83991ace46aaae0fa4bcdf9",
+      "expectedSha256": "92802a15410e4b9b2f5cfaee5a9bf7ea0aef8ff4d83991ace46aaae0fa4bcdf9"
+    },
+    {
+      "path": "item/birkin.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "fde2f3b16504153ad9de0897fa9c3a6139bed31f2c091e7baee2ef4a840e76e1",
+      "expectedSha256": "fde2f3b16504153ad9de0897fa9c3a6139bed31f2c091e7baee2ef4a840e76e1"
+    },
+    {
+      "path": "item/kelly.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "99a7589651da16dfcf49fe69ec5d8fe95c1972d59be21844714f0586e9906cd0",
+      "expectedSha256": "99a7589651da16dfcf49fe69ec5d8fe95c1972d59be21844714f0586e9906cd0"
+    },
+    {
+      "path": "item/chanel-255.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "7a538011244a676343e8d0b1aafe94a8ff1da69ad2b850dd4dfbe63006dec4da",
+      "expectedSha256": "7a538011244a676343e8d0b1aafe94a8ff1da69ad2b850dd4dfbe63006dec4da"
+    },
+    {
+      "path": "item/classic-flap.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "2d9bc5269046143d0f59a1d09043209fe6480e352768e98c3dea3e070ffbb90d",
+      "expectedSha256": "2d9bc5269046143d0f59a1d09043209fe6480e352768e98c3dea3e070ffbb90d"
+    },
+    {
+      "path": "item/boy.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "a93c27135b38280200ed3c547f04c741af8db1fa50adf79a1e6bc0dd2bb79fc5",
+      "expectedSha256": "a93c27135b38280200ed3c547f04c741af8db1fa50adf79a1e6bc0dd2bb79fc5"
+    },
+    {
+      "path": "item/speedy.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "522b47b86e1b4e4e838a2d0b9f8b9505e6d9b714c30baccfbc12935230c09871",
+      "expectedSha256": "522b47b86e1b4e4e838a2d0b9f8b9505e6d9b714c30baccfbc12935230c09871"
+    },
+    {
+      "path": "item/lady-dior.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "1f73cd9c203be5b5cc43455752d40b19ad60e58a8d30401d9fd1f3b905ba882c",
+      "expectedSha256": "1f73cd9c203be5b5cc43455752d40b19ad60e58a8d30401d9fd1f3b905ba882c"
+    },
+    {
+      "path": "item/jackie.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "6223180266681688708dd859b3c57394c3ee88426c831fb590ec01dd009bdfb3",
+      "expectedSha256": "6223180266681688708dd859b3c57394c3ee88426c831fb590ec01dd009bdfb3"
+    },
+    {
+      "path": "item/galleria.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "c15bac303021c977c7a068b7d0e76708909b47b103baee215746b47f6ba10651",
+      "expectedSha256": "c15bac303021c977c7a068b7d0e76708909b47b103baee215746b47f6ba10651"
+    },
+    {
+      "path": "item/jodie.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "1bf4c07607347c48ebd7e43b206670608ec125c3fa11ddd57b1097c111bb8a38",
+      "expectedSha256": "1bf4c07607347c48ebd7e43b206670608ec125c3fa11ddd57b1097c111bb8a38"
+    },
+    {
+      "path": "item/classic-box.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "6f24e0b46aa4549fb631b163b282f8f805b49bc67450d082efa1132501ea60ef",
+      "expectedSha256": "6f24e0b46aa4549fb631b163b282f8f805b49bc67450d082efa1132501ea60ef"
+    },
+    {
+      "path": "item/baguette.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "6a30e9ac9366d500f4e0056f62eb57fdc7842966e80ae1d9e53aa9d7137a800d",
+      "expectedSha256": "6a30e9ac9366d500f4e0056f62eb57fdc7842966e80ae1d9e53aa9d7137a800d"
+    },
+    {
+      "path": "item/love.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "5cf81274fd64d4bec53eec2b8e8f650e67002b492754a4eabad8784eab2e0bb3",
+      "expectedSha256": "5cf81274fd64d4bec53eec2b8e8f650e67002b492754a4eabad8784eab2e0bb3"
+    },
+    {
+      "path": "item/juste-un-clou.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "1e76bc3c964a5b2a55f2dd6ac585bcfde60ab5b453fe257aee408d527ee4bf49",
+      "expectedSha256": "1e76bc3c964a5b2a55f2dd6ac585bcfde60ab5b453fe257aee408d527ee4bf49"
+    },
+    {
+      "path": "item/trinity.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "734346809b17ff031944616d77f71304c4a02644145d4b710c5af831ad69b2ba",
+      "expectedSha256": "734346809b17ff031944616d77f71304c4a02644145d4b710c5af831ad69b2ba"
+    },
+    {
+      "path": "item/tiffany-t.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "154df29df4a0ca89077dfbaa4a01329b181ddaa3a3816e943cc11a48b46afa5f",
+      "expectedSha256": "154df29df4a0ca89077dfbaa4a01329b181ddaa3a3816e943cc11a48b46afa5f"
+    },
+    {
+      "path": "item/tiffany-keys.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "a0854715dff5301dfcae775c59fbcf4c66759cdc18725fe0f31915e58abbadfd",
+      "expectedSha256": "a0854715dff5301dfcae775c59fbcf4c66759cdc18725fe0f31915e58abbadfd"
+    },
+    {
+      "path": "item/serpenti.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "f930d2a44b06257881edeb6f2e074b94a5cda37c640a090005da1941575208e5",
+      "expectedSha256": "f930d2a44b06257881edeb6f2e074b94a5cda37c640a090005da1941575208e5"
+    },
+    {
+      "path": "item/bzero1.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "3d0253908ed5b92dccca74facacacf76948e3de5a09d3b14da3776afa2879bf1",
+      "expectedSha256": "3d0253908ed5b92dccca74facacacf76948e3de5a09d3b14da3776afa2879bf1"
+    },
+    {
+      "path": "item/alhambra.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "35306ae6e791c81fdcbe1220f8d9177febf50074e5dc1ed0c990c76bcf888684",
+      "expectedSha256": "35306ae6e791c81fdcbe1220f8d9177febf50074e5dc1ed0c990c76bcf888684"
+    },
+    {
+      "path": "item/coco-crush.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "fc095f76e0d4b8dba45cc2ec6033a3efc2f29dfa97873fa82c8e6d869e2c8600",
+      "expectedSha256": "fc095f76e0d4b8dba45cc2ec6033a3efc2f29dfa97873fa82c8e6d869e2c8600"
+    },
+    {
+      "path": "item/submariner.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "b2e1b7b557f6e97ba42ed6c1fede2a84d31f45991148bd594c4702f64f67e5dd",
+      "expectedSha256": "b2e1b7b557f6e97ba42ed6c1fede2a84d31f45991148bd594c4702f64f67e5dd"
+    },
+    {
+      "path": "item/speedmaster.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "63cf03f3838913da51c122fdd5f5338146ab6d9ec184697908ca8c1b7417c702",
+      "expectedSha256": "63cf03f3838913da51c122fdd5f5338146ab6d9ec184697908ca8c1b7417c702"
+    },
+    {
+      "path": "item/tank.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "ff56eda2af654602bb1ff69314cf2f2ff0155812e369151e3ad9ffa47f5e9366",
+      "expectedSha256": "ff56eda2af654602bb1ff69314cf2f2ff0155812e369151e3ad9ffa47f5e9366"
+    },
+    {
+      "path": "item/carre90.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "4b0a9417f433ae707c7e30fc19c66ec6e9279e7db73318f723bbb20174f9ae93",
+      "expectedSha256": "4b0a9417f433ae707c7e30fc19c66ec6e9279e7db73318f723bbb20174f9ae93"
+    },
+    {
+      "path": "item/no5.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "82049b3f86348f22e4f5978f1136f42b64ef20855f32ea28a8fcfde5b726a8b5",
+      "expectedSha256": "82049b3f86348f22e4f5978f1136f42b64ef20855f32ea28a8fcfde5b726a8b5"
+    },
+    {
+      "path": "item/horsebit-loafer.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "e747a7f2266415939b456374dfab6974dc1f2c03efe234e1e45d011792607606",
+      "expectedSha256": "e747a7f2266415939b456374dfab6974dc1f2c03efe234e1e45d011792607606"
+    },
+    {
+      "path": "item/triomphe-sunglasses.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "ae97be97d6eb6aac99e7cb0baa11400b9d7e836c9a616abf16ae1bf920193360",
+      "expectedSha256": "ae97be97d6eb6aac99e7cb0baa11400b9d7e836c9a616abf16ae1bf920193360"
+    },
+    {
+      "path": "item/dior-small-lady-dior-black-us.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "5e7585ace8815a21738d4645d584f5520d0e17c871b2e05b20d5bd66c4254ecc",
+      "expectedSha256": "5e7585ace8815a21738d4645d584f5520d0e17c871b2e05b20d5bd66c4254ecc"
+    },
+    {
+      "path": "item/gucci-jackie-small-black-gg-us.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "0c2446af74ffc954bc0319254d8750f5c1f67fae5a74f3d58dfd1cd8da267481",
+      "expectedSha256": "0c2446af74ffc954bc0319254d8750f5c1f67fae5a74f3d58dfd1cd8da267481"
+    },
+    {
+      "path": "item/prada-galleria-small-black-leather-us.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "c9e40a98bb0640d714a8004b22dd85084954b998ae2471b90e0e8c3cb25ae01c",
+      "expectedSha256": "c9e40a98bb0640d714a8004b22dd85084954b998ae2471b90e0e8c3cb25ae01c"
+    },
+    {
+      "path": "item/fendi-baguette-tobacco-ff-us.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "0734ebecb57309fe03ab3c71512c0e088c9ddecb466bd613ee31657b4f8a24f7",
+      "expectedSha256": "0734ebecb57309fe03ab3c71512c0e088c9ddecb466bd613ee31657b4f8a24f7"
+    },
+    {
+      "path": "item/hermes-please-hold-line-90-blue-us.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "b4c31d4bef2c8a4be42986797427b21176d5337ffe2156c8ac6e691349926a5d",
+      "expectedSha256": "b4c31d4bef2c8a4be42986797427b21176d5337ffe2156c8ac6e691349926a5d"
+    },
+    {
+      "path": "item/dior-oblique-mitzah-navy-us.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "9ff3cc0443aabe04c38b0c2b8b6619701d21c32a637849c9960399305d3e30d9",
+      "expectedSha256": "9ff3cc0443aabe04c38b0c2b8b6619701d21c32a637849c9960399305d3e30d9"
+    },
+    {
+      "path": "item/gucci-flora-silk-carre-pink-us.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "55c7bbc14d447e6d7273dc57ae92d1b54daac3fc26c09d02b7e3006fac20410b",
+      "expectedSha256": "55c7bbc14d447e6d7273dc57ae92d1b54daac3fc26c09d02b7e3006fac20410b"
+    },
+    {
+      "path": "item/prada-triangle-silk-scarf-55-alabaster-us.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "ddddabd9cdef66c3c9b1a5c63f1c7295b2799bc678247db6c18492833120a35c",
+      "expectedSha256": "ddddabd9cdef66c3c9b1a5c63f1c7295b2799bc678247db6c18492833120a35c"
+    },
+    {
+      "path": "item/moynat-hotel-hobo-brown-ci3625-0760.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "805cf29b11c765603f490c026ff56ba7d05421fa39b67060f9d7a35790a14c0a",
+      "expectedSha256": "805cf29b11c765603f490c026ff56ba7d05421fa39b67060f9d7a35790a14c0a"
+    },
+    {
+      "path": "item/moynat-hotel-silk-scarf-70-multicolor-us.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "dd93a784e70a06919090a14603fa5b6c20b4c9de2c45eb568bad4373f61902c6",
+      "expectedSha256": "dd93a784e70a06919090a14603fa5b6c20b4c9de2c45eb568bad4373f61902c6"
+    },
+    {
+      "path": "item/cartier-love-pendant-yellow-gold-b7014200.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "80737454dbe85d9dce50fb38daae8d4c2fb042d44c37c1d3b7a74a591b05a16a",
+      "expectedSha256": "80737454dbe85d9dce50fb38daae8d4c2fb042d44c37c1d3b7a74a591b05a16a"
+    },
+    {
+      "path": "item/tiffany-t-smile-small-yellow-gold-60011679.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "84327c557566df267e26948a6c5fdac67efb3febdb6ece8e9b531747ab298fd4",
+      "expectedSha256": "84327c557566df267e26948a6c5fdac67efb3febdb6ece8e9b531747ab298fd4"
+    },
+    {
+      "path": "item/bulgari-bzero1-necklace-white-gold-352815.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "2e7c52df55450ebbcb5694e53eaa867266af7cc044c6be6833d9e57f69fe4a67",
+      "expectedSha256": "2e7c52df55450ebbcb5694e53eaa867266af7cc044c6be6833d9e57f69fe4a67"
+    },
+    {
+      "path": "item/chanel-coco-crush-necklace-small-beige-gold-j12306.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "98dc40595603e848317289ce07949cc2aef4f4be7b319dea4231c28ef4d2988f",
+      "expectedSha256": "98dc40595603e848317289ce07949cc2aef4f4be7b319dea4231c28ef4d2988f"
+    },
+    {
+      "path": "item/cartier-trinity-classic-ring-size53-b4234253.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "29f6a729f3b4a7a1f6945d3daaa763cee24c58e4d9fd9c67bbe490ac6df45657",
+      "expectedSha256": "29f6a729f3b4a7a1f6945d3daaa763cee24c58e4d9fd9c67bbe490ac6df45657"
+    },
+    {
+      "path": "item/tiffany-hardwear-small-link-medium-silver-60153085.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "67543947b5176dd4fd4b7d48ebf00d4d499c1aca67321af22b1ef5a984d513dd",
+      "expectedSha256": "67543947b5176dd4fd4b7d48ebf00d4d499c1aca67321af22b1ef5a984d513dd"
+    },
+    {
+      "path": "item/bulgari-serpenti-viper-ring-rose-gold-45-46-362140.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "07f43bfa26e817d312c3df9dfb15b5af7ee42a009fe1a2580feb223c48438a00",
+      "expectedSha256": "07f43bfa26e817d312c3df9dfb15b5af7ee42a009fe1a2580feb223c48438a00"
+    },
+    {
+      "path": "item/chanel-coco-crush-ring-mini-beige-gold-j11785.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "53a85a1e35d3f0b84012fc3e5af8a54de6e80c520d2f55a7263264826d79f226",
+      "expectedSha256": "53a85a1e35d3f0b84012fc3e5af8a54de6e80c520d2f55a7263264826d79f226"
+    },
+    {
+      "path": "item/cartier-tank-must-small-wsta0135.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "47fdb5e22ea5c759210f080965a1dbb42ff5f7c411bcc809e8741c1f7cdb30f0",
+      "expectedSha256": "47fdb5e22ea5c759210f080965a1dbb42ff5f7c411bcc809e8741c1f7cdb30f0"
+    },
+    {
+      "path": "item/cartier-santos-medium-wssa0029.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "104ad5678b5079eeea03f3d4783edc3f92bd4d44aa2a61c2f25ac926bfee2cc7",
+      "expectedSha256": "104ad5678b5079eeea03f3d4783edc3f92bd4d44aa2a61c2f25ac926bfee2cc7"
+    },
+    {
+      "path": "item/hermes-cape-cod-41-etoupe-w044350ww00.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "7444c77959063ab169bec311b578fd785ade907c624e0c85c75b188dcc3f6d28",
+      "expectedSha256": "7444c77959063ab169bec311b578fd785ade907c624e0c85c75b188dcc3f6d28"
+    },
+    {
+      "path": "item/hermes-heure-h-medium-etoupe-w404223ww00.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "292cafefef580321b00b72f2ac3d803984ee6a57cdd1fd496a4b898f07ebb34c",
+      "expectedSha256": "292cafefef580321b00b72f2ac3d803984ee6a57cdd1fd496a4b898f07ebb34c"
+    },
+    {
+      "path": "item/dior-jadore-edp-100ml-c099800246.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "39a7ec50b026f3a9d73e78dc77b5e42f5fc6603ba7fc093baa1fae17165ec087",
+      "expectedSha256": "39a7ec50b026f3a9d73e78dc77b5e42f5fc6603ba7fc093baa1fae17165ec087"
+    },
+    {
+      "path": "item/gucci-bloom-edp-100ml-488830.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "24fb46f5363eef7cc5b27dca7e2c20450488c39bca76aeded12e0e6068383c97",
+      "expectedSha256": "24fb46f5363eef7cc5b27dca7e2c20450488c39bca76aeded12e0e6068383c97"
+    },
+    {
+      "path": "item/prada-paradoxe-edp-90ml-1a1351.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "aa53bad41dd66b1745dd66039505fc23a218832e31a6068f951df4a85bf8fe35",
+      "expectedSha256": "aa53bad41dd66b1745dd66039505fc23a218832e31a6068f951df4a85bf8fe35"
+    },
+    {
+      "path": "item/hermes-terre-edt-338oz-v107188v0.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "8c64ebbfe4d0e0e56eee0df4dd5b8a1f1c6b2e5f2087c9b89a52204919bdb8c2",
+      "expectedSha256": "8c64ebbfe4d0e0e56eee0df4dd5b8a1f1c6b2e5f2087c9b89a52204919bdb8c2"
+    },
+    {
+      "path": "item/hublot-tributo-white-gold-38-262-wx-6870-rx-mdm.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "27f1b836dd8c8d12a614994489af8efbca5ae0239a613bea0790a5d15d1d9bba",
+      "expectedSha256": "27f1b836dd8c8d12a614994489af8efbca5ae0239a613bea0790a5d15d1d9bba"
+    },
+    {
+      "path": "item/chrome-hearts-baby-fat-silver-jr-10417229988154.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "33a24bb484d3fc15611d26c792474bf7655cb38c0284a13813cd233b52e2197c",
+      "expectedSha256": "33a24bb484d3fc15611d26c792474bf7655cb38c0284a13813cd233b52e2197c"
+    },
+    {
+      "path": "item/chrome-hearts-dagger-silver-jr-15409514479930.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "cc636c02507ae0aa46e36c5a1d6d2f9e256451cfebb878e813efe58463ea25ce",
+      "expectedSha256": "cc636c02507ae0aa46e36c5a1d6d2f9e256451cfebb878e813efe58463ea25ce"
+    },
+    {
+      "path": "item/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "695e6bc72ade6ec3c2e04fc55ce56a9512f5ed7dd22ed0efeb1afca07a1c8212",
+      "expectedSha256": "695e6bc72ade6ec3c2e04fc55ce56a9512f5ed7dd22ed0efeb1afca07a1c8212"
+    },
+    {
+      "path": "item/chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "874bf7f9e39f6a57f3823c7ce7323ca1f81de49a549ac7e81ae33801b7637b92",
+      "expectedSha256": "874bf7f9e39f6a57f3823c7ce7323ca1f81de49a549ac7e81ae33801b7637b92"
+    },
+    {
+      "path": "item/chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "d58192d6ac19d11928d6dd7aac116f41b77a474229bf161a091ffc53bd02cb12",
+      "expectedSha256": "d58192d6ac19d11928d6dd7aac116f41b77a474229bf161a091ffc53bd02cb12"
+    },
+    {
+      "path": "item/chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "da43f80ca2c7ad635523261047de5a3d85d924ad39d57b9a552d13ef570d2ea0",
+      "expectedSha256": "da43f80ca2c7ad635523261047de5a3d85d924ad39d57b9a552d13ef570d2ea0"
+    },
+    {
+      "path": "mag/mag-01.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "d0b29b629d619132a91ea3697bc3c4568309f51027c33e5dc7e7d066adda6e51",
+      "expectedSha256": "d0b29b629d619132a91ea3697bc3c4568309f51027c33e5dc7e7d066adda6e51"
+    },
+    {
+      "path": "mag/mag-02.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "93aeb78a30fc3e307340846e93cde05191e101209227fd854635f39060d45e02",
+      "expectedSha256": "93aeb78a30fc3e307340846e93cde05191e101209227fd854635f39060d45e02"
+    },
+    {
+      "path": "mag/mag-03.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "3949584f948559af56b2394709d1776fed8fe5b9286b549ea0b48151c03aeae5",
+      "expectedSha256": "3949584f948559af56b2394709d1776fed8fe5b9286b549ea0b48151c03aeae5"
+    },
+    {
+      "path": "mag/mag-04.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "f2222fb635ce6810da86c505c623c40b7a277ca61b543a7d64a6f25508d14d01",
+      "expectedSha256": "f2222fb635ce6810da86c505c623c40b7a277ca61b543a7d64a6f25508d14d01"
+    },
+    {
+      "path": "mag/mag-05.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "38b6f36437374b6d582a8a14c3018bae729c6661ae14bf1e67698cc7e3f2fb04",
+      "expectedSha256": "38b6f36437374b6d582a8a14c3018bae729c6661ae14bf1e67698cc7e3f2fb04"
+    },
+    {
+      "path": "mag/mag-06.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "a8d184f0632edd42be944a4334ce284ace00ad39cc4a79b35ed2f6bb6e6a7f8f",
+      "expectedSha256": "a8d184f0632edd42be944a4334ce284ace00ad39cc4a79b35ed2f6bb6e6a7f8f"
+    },
+    {
+      "path": "mag/mag-07.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "aab003fca6d9bc03f758f540db81c2196c28c86a57399cf713d431ef1d207448",
+      "expectedSha256": "aab003fca6d9bc03f758f540db81c2196c28c86a57399cf713d431ef1d207448"
+    },
+    {
+      "path": "mag/mag-08.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "93560d33ea4975a3eeec63d2462ce758b339824059dbb26fa7cc796e6980e6b4",
+      "expectedSha256": "93560d33ea4975a3eeec63d2462ce758b339824059dbb26fa7cc796e6980e6b4"
+    },
+    {
+      "path": "mag/mag-09.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "e3bb7047792f5b491b85cbc8e7e5d2173d415508e7d7a56f1bcc0ed07f7cfa0b",
+      "expectedSha256": "e3bb7047792f5b491b85cbc8e7e5d2173d415508e7d7a56f1bcc0ed07f7cfa0b"
+    },
+    {
+      "path": "mag/mag-10.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "dc8780924d80b645cd7ea0efb936c78ff0e6f5fd3109820d59e4f6621cd0e5c9",
+      "expectedSha256": "dc8780924d80b645cd7ea0efb936c78ff0e6f5fd3109820d59e4f6621cd0e5c9"
+    },
+    {
+      "path": "mag/mag-11.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "97125dd53e1c4a468780a8053f2a1a548a506b89e1e5d2f7e9003b458b25178a",
+      "expectedSha256": "97125dd53e1c4a468780a8053f2a1a548a506b89e1e5d2f7e9003b458b25178a"
+    },
+    {
+      "path": "mag/mag-12.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "73860592b39a9758f3aea887f33d6fd567188d4d55e69ed93d9fba957d5eb98d",
+      "expectedSha256": "73860592b39a9758f3aea887f33d6fd567188d4d55e69ed93d9fba957d5eb98d"
+    },
+    {
+      "path": "bags-by-year.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "7a3fcd5c39a73501a3a04d3194b957ffe6d6d2548e033cfa7d18e18883a1b8de",
+      "expectedSha256": "7a3fcd5c39a73501a3a04d3194b957ffe6d6d2548e033cfa7d18e18883a1b8de"
+    },
+    {
+      "path": "item/bag-2022-prada-re-edition-2000.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "c9286beb693c7a6afa4a454dc85024aae6fb6554fed50d75d033e13e1a6805a7",
+      "expectedSha256": "c9286beb693c7a6afa4a454dc85024aae6fb6554fed50d75d033e13e1a6805a7"
+    },
+    {
+      "path": "item/bag-2022-diesel-1dr.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "e7e69b39b2a2236c9ecb5ad6248012a2def5d6d43d9a5e9a93d6e7c653971593",
+      "expectedSha256": "e7e69b39b2a2236c9ecb5ad6248012a2def5d6d43d9a5e9a93d6e7c653971593"
+    },
+    {
+      "path": "item/bag-2022-balenciaga-le-cagole-small.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "835765cc81da887900c731d31f1fbe5b1a5c0f146da2fb269ec4693fb6e0bc65",
+      "expectedSha256": "835765cc81da887900c731d31f1fbe5b1a5c0f146da2fb269ec4693fb6e0bc65"
+    },
+    {
+      "path": "item/bag-2022-miu-miu-wander.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "2b9b78e21752071e65e7cb5108d8343a29e27f82fd905ed698530583a14edec7",
+      "expectedSha256": "2b9b78e21752071e65e7cb5108d8343a29e27f82fd905ed698530583a14edec7"
+    },
+    {
+      "path": "item/bag-2022-loewe-spirited-away-susuwatari-mini-puzzle.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "0855b658266c4bec03df75de85770426ae5a6beaa6073cff7795212013f3b66f",
+      "expectedSha256": "0855b658266c4bec03df75de85770426ae5a6beaa6073cff7795212013f3b66f"
+    },
+    {
+      "path": "item/bag-2022-gucci-adidas-large-duffle.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "da79709dae2b989bf37e2fb982d4ccaf9ec7ccac1d5a19db36e47588b8469712",
+      "expectedSha256": "da79709dae2b989bf37e2fb982d4ccaf9ec7ccac1d5a19db36e47588b8469712"
+    },
+    {
+      "path": "item/bag-2023-loewe-font-tote.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "9d6d5712d8d3d94b28d119813bde4582001a4012fa60776adc3c5f02bd5d647f",
+      "expectedSha256": "9d6d5712d8d3d94b28d119813bde4582001a4012fa60776adc3c5f02bd5d647f"
+    },
+    {
+      "path": "item/bag-2023-the-row-margaux-15.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "757be75d768ce06aaa5a7842ba6a4d051818650b6e6d9e2d41728c1e8b97142c",
+      "expectedSha256": "757be75d768ce06aaa5a7842ba6a4d051818650b6e6d9e2d41728c1e8b97142c"
+    },
+    {
+      "path": "item/bag-2023-bottega-andiamo-small.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "807e056ed4caafa51d2f2f603715230463730cd694d21f41b43e79889bf16059",
+      "expectedSha256": "807e056ed4caafa51d2f2f603715230463730cd694d21f41b43e79889bf16059"
+    },
+    {
+      "path": "item/bag-2023-miu-miu-arcadie.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "aed5e878a991e05c430223698e9ec1c7c7d559fffa487a38bb9f9c74f2a81c03",
+      "expectedSha256": "aed5e878a991e05c430223698e9ec1c7c7d559fffa487a38bb9f9c74f2a81c03"
+    },
+    {
+      "path": "item/bag-2023-loewe-calcifer-mini-puzzle.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "b2aa017d6b6d63459f40295f8949a3620beba9d04d71f1972f663bf79c91739a",
+      "expectedSha256": "b2aa017d6b6d63459f40295f8949a3620beba9d04d71f1972f663bf79c91739a"
+    },
+    {
+      "path": "item/bag-2023-lv-yayoi-kusama-neverfull.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "6d065aa47b9584fdbe09781234ea585adf58aeb713f2eec41ea9861eb0cd4f77",
+      "expectedSha256": "6d065aa47b9584fdbe09781234ea585adf58aeb713f2eec41ea9861eb0cd4f77"
+    },
+    {
+      "path": "item/bag-2024-alaia-le-teckel-medium.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "b7716dd59671b8633abf8b04fbe4c48e82f4b763d767fe3b0971cf6df46dfd9b",
+      "expectedSha256": "b7716dd59671b8633abf8b04fbe4c48e82f4b763d767fe3b0971cf6df46dfd9b"
+    },
+    {
+      "path": "item/bag-2024-miu-miu-arcadie-suede.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "ddd6c908f37dab5262439599c837a0601197eacb926239d2a08448a496008602",
+      "expectedSha256": "ddd6c908f37dab5262439599c837a0601197eacb926239d2a08448a496008602"
+    },
+    {
+      "path": "item/bag-2024-balenciaga-rodeo-medium.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "8c4681568f9ee3974d3851f7c8f0a735d61373838995bca10aa2a1c3f93ad77f",
+      "expectedSha256": "8c4681568f9ee3974d3851f7c8f0a735d61373838995bca10aa2a1c3f93ad77f"
+    },
+    {
+      "path": "item/bag-2024-loewe-puzzle-fold-medium.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "093b8839a87775f537323c8caf937b2dd6643ae1ffa66bd2d63194ee074ef0a2",
+      "expectedSha256": "093b8839a87775f537323c8caf937b2dd6643ae1ffa66bd2d63194ee074ef0a2"
+    },
+    {
+      "path": "item/bag-2024-louis-vuitton-tyler-keepall25.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "4dcd8bb169529c51470bb39278e4738009f3aa751f36a857d182fc3d45887fb9",
+      "expectedSha256": "4dcd8bb169529c51470bb39278e4738009f3aa751f36a857d182fc3d45887fb9"
+    },
+    {
+      "path": "item/bag-2024-fendi-frgmt-pokemon-beaded-baguette.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "63ea991c0e812b189dcc17ad1b015812e9543f524f6f1cb5a8ed7607e7eb1782",
+      "expectedSha256": "63ea991c0e812b189dcc17ad1b015812e9543f524f6f1cb5a8ed7607e7eb1782"
+    },
+    {
+      "path": "item/bag-2025-saint-laurent-gaby-vanity.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "0693c7ed8d348f85a6b363b55480f6318ac18580d6145ecfceb9c7e2fdc54524",
+      "expectedSha256": "0693c7ed8d348f85a6b363b55480f6318ac18580d6145ecfceb9c7e2fdc54524"
+    },
+    {
+      "path": "item/bag-2025-miu-miu-suede-pouch.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "eb4a122c1efc486ed1fc0937a0ffc11bc526104348f113dbf42778dfedb4abb1",
+      "expectedSha256": "eb4a122c1efc486ed1fc0937a0ffc11bc526104348f113dbf42778dfedb4abb1"
+    },
+    {
+      "path": "item/bag-2025-chloe-paddington-grained.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "92ffc4df8048fe65d6ba5a3e66d5030e4410c9562ce524398303a4e4ac1a9556",
+      "expectedSha256": "92ffc4df8048fe65d6ba5a3e66d5030e4410c9562ce524398303a4e4ac1a9556"
+    },
+    {
+      "path": "item/bag-2025-prada-dada-small.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "d7a9ff3d7595f1f7aa4ef8a58a2d2ba206c2e1d15ef3b33d4fb3f029339af030",
+      "expectedSha256": "d7a9ff3d7595f1f7aa4ef8a58a2d2ba206c2e1d15ef3b33d4fb3f029339af030"
+    },
+    {
+      "path": "item/bag-2025-loewe-puzzle10-confetti.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "0ca0c6c1b170481c1e0053ad9147e81ceea79e63f0673e210f6530575681f0cc",
+      "expectedSha256": "0ca0c6c1b170481c1e0053ad9147e81ceea79e63f0673e210f6530575681f0cc"
+    },
+    {
+      "path": "item/bag-2025-loewe-puzzle10-plumeria.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "774870890b02fe83c67af95b1dda3203fa2ec2a7e627b7dbcaaec007d483ec26",
+      "expectedSha256": "774870890b02fe83c67af95b1dda3203fa2ec2a7e627b7dbcaaec007d483ec26"
+    },
+    {
+      "path": "item/bag-2026-chanel-maxi-flap-camel.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "81c72cdc84ceb80dd26b4abad914d93a2a552eee47ec8daa07d4c18564619025",
+      "expectedSha256": "81c72cdc84ceb80dd26b4abad914d93a2a552eee47ec8daa07d4c18564619025"
+    },
+    {
+      "path": "item/bag-2026-prada-bonnie-medium-black.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "d1f7f3dc19e2a6b6930bcc78dd6b479747b19a9f8dd58f1d9c6fb07720b46e0b",
+      "expectedSha256": "d1f7f3dc19e2a6b6930bcc78dd6b479747b19a9f8dd58f1d9c6fb07720b46e0b"
+    },
+    {
+      "path": "item/bag-2026-loewe-amazona180-large-black.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "e664ab32b89a65218f4c9de9583836b9b69957180ef34686b3b2634f68138dd8",
+      "expectedSha256": "e664ab32b89a65218f4c9de9583836b9b69957180ef34686b3b2634f68138dd8"
+    },
+    {
+      "path": "item/bag-2026-dior-toujours-hobo-small-black.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "f3d0ca3d375fbf537e2155ca8f512c8f38f8bd57ce7cf4fed2d92ad62e359dab",
+      "expectedSha256": "f3d0ca3d375fbf537e2155ca8f512c8f38f8bd57ce7cf4fed2d92ad62e359dab"
+    },
+    {
+      "path": "item/bag-2026-lv-speedy20-monogram-origine-green.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "658ff2a3eb779ce76363a9986ee6e445197bdf280f71920a477d956ffb67fc07",
+      "expectedSha256": "658ff2a3eb779ce76363a9986ee6e445197bdf280f71920a477d956ffb67fc07"
+    },
+    {
+      "path": "item/bag-2026-loewe-amazona180-lazy-crab.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "cb785a4b8e39f4c547d6838c2a984970023adbce3cea2641d89a7f63c4da2e40",
+      "expectedSha256": "cb785a4b8e39f4c547d6838c2a984970023adbce3cea2641d89a7f63c4da2e40"
+    },
+    {
+      "path": "necklaces-by-year.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "22cde2c20fd036251defd8f2edfd48cbba0beb3b6ee43bf90c2ea10aa9a9680b",
+      "expectedSha256": "22cde2c20fd036251defd8f2edfd48cbba0beb3b6ee43bf90c2ea10aa9a9680b"
+    },
+    {
+      "path": "item/necklace-2022-cartier-love-pendant.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "538739d6085e83b65f768af19faff0bc0a8fa856d2687f3decffbbc0ed9ee956",
+      "expectedSha256": "538739d6085e83b65f768af19faff0bc0a8fa856d2687f3decffbbc0ed9ee956"
+    },
+    {
+      "path": "item/necklace-2022-tiffany-hardwear-necklace.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "1e0e2f3144e40a4ddc4b4a476e8950b18517cce1ce21aac706c872afae60e8e2",
+      "expectedSha256": "1e0e2f3144e40a4ddc4b4a476e8950b18517cce1ce21aac706c872afae60e8e2"
+    },
+    {
+      "path": "item/necklace-2022-david-yurman-cable-linked.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "023c490a6add5ca8a087c1885f474de8a25569693204f0af5d16b0a169844fe0",
+      "expectedSha256": "023c490a6add5ca8a087c1885f474de8a25569693204f0af5d16b0a169844fe0"
+    },
+    {
+      "path": "item/necklace-2022-vca-alhambra-mother-pearl.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "d85a127aa558f8c83f6cb8b77689e62211803a7bdeda7aeff533b9bfd49985b3",
+      "expectedSha256": "d85a127aa558f8c83f6cb8b77689e62211803a7bdeda7aeff533b9bfd49985b3"
+    },
+    {
+      "path": "item/necklace-2022-adidas-gucci-gourmette.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "2e94ab447c035b736447083b36a40b9a57f49d7222608efa4e62bb130dcb22d0",
+      "expectedSha256": "2e94ab447c035b736447083b36a40b9a57f49d7222608efa4e62bb130dcb22d0"
+    },
+    {
+      "path": "item/necklace-2022-fendace-chain-necklace.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "e05939b734aa7fe4e4e604fad72be4b9ec75231eba2760fe24a50c2a1eb748ed",
+      "expectedSha256": "e05939b734aa7fe4e4e604fad72be4b9ec75231eba2760fe24a50c2a1eb748ed"
+    },
+    {
+      "path": "item/necklace-2023-chanel-coco-crush-pendant.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "1dd567f00ef14771daa7f76b385a767e25fa86ff05c0ffa81afc507f3e1f7340",
+      "expectedSha256": "1dd567f00ef14771daa7f76b385a767e25fa86ff05c0ffa81afc507f3e1f7340"
+    },
+    {
+      "path": "item/necklace-2023-tiffany-t-smile.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "d07ebfdbd5ca4f1fae1fccf76e8032dde7d7c9f7998ebaf2368486c1b4900a56",
+      "expectedSha256": "d07ebfdbd5ca4f1fae1fccf76e8032dde7d7c9f7998ebaf2368486c1b4900a56"
+    },
+    {
+      "path": "item/necklace-2023-vca-alhambra-onyx.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "7f7daa920baac2cabe9106d35a9994c8dd249600c525c6bed9997daa861d8f8d",
+      "expectedSha256": "7f7daa920baac2cabe9106d35a9994c8dd249600c525c6bed9997daa861d8f8d"
+    },
+    {
+      "path": "item/necklace-2023-tiffany-lock-rose-diamond.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "bb1900740d7f34cb0bc80fd02312baa4dfead848e049d2f6780785eb8bbf3b98",
+      "expectedSha256": "bb1900740d7f34cb0bc80fd02312baa4dfead848e049d2f6780785eb8bbf3b98"
+    },
+    {
+      "path": "item/necklace-2023-tiffany-rose-lock-pendant.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "ebdb216fee862e11485bf425d69b3c2bce12366bfdbaf9be6012d00266d89ae7",
+      "expectedSha256": "ebdb216fee862e11485bf425d69b3c2bce12366bfdbaf9be6012d00266d89ae7"
+    },
+    {
+      "path": "item/necklace-2023-tiffany-arsham-pokemon-pikachu.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "b367a5392c34a768fa19583e865ff2079a99860cd872d55e83e56a65a44d2c97",
+      "expectedSha256": "b367a5392c34a768fa19583e865ff2079a99860cd872d55e83e56a65a44d2c97"
+    },
+    {
+      "path": "item/necklace-2024-tiffany-t-smile-small-yellow-gold-60011679.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "4519dd3ec0af5f8f138026b68cce2d2093b201a7a95fed6c4ab20c561c925db2",
+      "expectedSha256": "4519dd3ec0af5f8f138026b68cce2d2093b201a7a95fed6c4ab20c561c925db2"
+    },
+    {
+      "path": "item/necklace-2024-bulgari-bzero1-necklace-white-gold-352815.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "798aea6617ffc5be3f2c31c803d38cc625370667b31f036f43099eb5b724f8b0",
+      "expectedSha256": "798aea6617ffc5be3f2c31c803d38cc625370667b31f036f43099eb5b724f8b0"
+    },
+    {
+      "path": "item/necklace-2024-chanel-coco-crush-necklace-small-beige-gold-j12306.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "1a5032728d0c251793b7b245f5f3c4888ad5e073714da68ca095adcf5dc426b7",
+      "expectedSha256": "1a5032728d0c251793b7b245f5f3c4888ad5e073714da68ca095adcf5dc426b7"
+    },
+    {
+      "path": "item/necklace-2024-van-cleef-vintage-alhambra-mother-of-pearl.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "27b3dfe9abbdb112876af98a5aa7377161249256d76c00b1c1500af3a99bc2df",
+      "expectedSha256": "27b3dfe9abbdb112876af98a5aa7377161249256d76c00b1c1500af3a99bc2df"
+    },
+    {
+      "path": "item/necklace-2024-fendi-frgmt-pokemon-pokeball-necklace.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "88647b02c030e6d8a633e7a54720b32d33d47f27af945d02cb61ce5dc151cc23",
+      "expectedSha256": "88647b02c030e6d8a633e7a54720b32d33d47f27af945d02cb61ce5dc151cc23"
+    },
+    {
+      "path": "item/necklace-2024-van-cleef-holiday-guilloche-rose-white-gold.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "6250ba4a3a6f2525ffcdca92ddb3a70bb0c5e5e83b557c61eaede2025a46be2d",
+      "expectedSha256": "6250ba4a3a6f2525ffcdca92ddb3a70bb0c5e5e83b557c61eaede2025a46be2d"
+    },
+    {
+      "path": "item/necklace-2025-chanel-coco-crush-necklace-small-beige-gold-j12306.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "ce64cb7047111b0f97a1995507b365d744502ecce18dbc31c0794d929efda0fd",
+      "expectedSha256": "ce64cb7047111b0f97a1995507b365d744502ecce18dbc31c0794d929efda0fd"
+    },
+    {
+      "path": "item/necklace-2025-tiffany-t-smile-small-yellow-gold-60011679.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "8a20db9fdd2d2c453123c61baba7ed8e27e09ce1e05ee9ad4f3f22c3aed39074",
+      "expectedSha256": "8a20db9fdd2d2c453123c61baba7ed8e27e09ce1e05ee9ad4f3f22c3aed39074"
+    },
+    {
+      "path": "item/necklace-2025-gucci-trademark-heart-silver.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "ff9af29f735bfb1efbdc1c6ef3441781d16099027b20ae397ab1726147a522ec",
+      "expectedSha256": "ff9af29f735bfb1efbdc1c6ef3441781d16099027b20ae397ab1726147a522ec"
+    },
+    {
+      "path": "item/necklace-2025-bulgari-divas-dream-mother-of-pearl-diamonds.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "d807f9f7df020e9d9b9fd6c18e47ba46665afea54628153cbdd5b1cc25a949d1",
+      "expectedSha256": "d807f9f7df020e9d9b9fd6c18e47ba46665afea54628153cbdd5b1cc25a949d1"
+    },
+    {
+      "path": "item/necklace-2025-louis-vuitton-murakami-superflat-necklace.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "7e0ce98f137728cfa347e7ca9315d0fb083f65679ca273d8edf56d02d57431ed",
+      "expectedSha256": "7e0ce98f137728cfa347e7ca9315d0fb083f65679ca273d8edf56d02d57431ed"
+    },
+    {
+      "path": "item/necklace-2025-swarovski-ariana-grande-heart-necklace.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "a3f72a126d3e1c0346e02b67f511ea1c171f75cde900e5f1173b2a135edb8242",
+      "expectedSha256": "a3f72a126d3e1c0346e02b67f511ea1c171f75cde900e5f1173b2a135edb8242"
+    },
+    {
+      "path": "item/necklace-2026-bulgari-serpenti-viper-yellow-gold.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "71ebd160ae2d743d9534bbf412ce9468be9b852ad5f138102a043b8d1f056bee",
+      "expectedSha256": "71ebd160ae2d743d9534bbf412ce9468be9b852ad5f138102a043b8d1f056bee"
+    },
+    {
+      "path": "item/necklace-2026-fred-force10-rise-yellow-gold.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "109a63404b1a6ea9b2fc7158bc80769cbfd43c299e41b6b522ec872a74136702",
+      "expectedSha256": "109a63404b1a6ea9b2fc7158bc80769cbfd43c299e41b6b522ec872a74136702"
+    },
+    {
+      "path": "item/necklace-2026-tiffany-hardwear-double-link-yellow-gold.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "620f6f04666acf40ea829356c3fea1e2527442c068ddb631f31d28ddef1b7523",
+      "expectedSha256": "620f6f04666acf40ea829356c3fea1e2527442c068ddb631f31d28ddef1b7523"
+    },
+    {
+      "path": "item/necklace-2026-tiffany-hardwear-medium-yellow-gold.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "7138f7046f2c362f6a46308ce7398c6e5c53a22d8bdc0630c4f589a7f10cfb66",
+      "expectedSha256": "7138f7046f2c362f6a46308ce7398c6e5c53a22d8bdc0630c4f589a7f10cfb66"
+    },
+    {
+      "path": "item/necklace-2026-swarovski-ariana-dragonfly-pendant.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "c5e2b07eebf5fdfe4ffe441f3fd508dc169807d3f536edac9efac398fa3c1a8b",
+      "expectedSha256": "c5e2b07eebf5fdfe4ffe441f3fd508dc169807d3f536edac9efac398fa3c1a8b"
+    },
+    {
+      "path": "item/necklace-2026-swarovski-ariana-dragonfly-y.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "d3b97eaeed4da9cd3b2d9bcf4a09d2252e944f04ea992642288bd180299b652a",
+      "expectedSha256": "d3b97eaeed4da9cd3b2d9bcf4a09d2252e944f04ea992642288bd180299b652a"
+    },
+    {
+      "path": "jewelry-by-year.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "35220ec79f7d3853ff9a072977eccbc70c8480bf5b14298cea7670ab1722507d",
+      "expectedSha256": "35220ec79f7d3853ff9a072977eccbc70c8480bf5b14298cea7670ab1722507d"
+    },
+    {
+      "path": "item/jewelry-2022-tiffany-hardwear-bracelet.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "1a69c88eea01a0c3aada314f5216fda3cee943b15603b4b60e3a66fe7ac1ed92",
+      "expectedSha256": "1a69c88eea01a0c3aada314f5216fda3cee943b15603b4b60e3a66fe7ac1ed92"
+    },
+    {
+      "path": "item/jewelry-2022-david-yurman-classic-cable.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "53c11746056dcf594cacfb21e82907901ae35c779f741da59e221ee808470139",
+      "expectedSha256": "53c11746056dcf594cacfb21e82907901ae35c779f741da59e221ee808470139"
+    },
+    {
+      "path": "item/jewelry-2022-cartier-love-classic-bracelet.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "a47a651863b0d9c5f3dad48148c0e1d9022a3dfaa1cc68194c7aef84fd1dc981",
+      "expectedSha256": "a47a651863b0d9c5f3dad48148c0e1d9022a3dfaa1cc68194c7aef84fd1dc981"
+    },
+    {
+      "path": "item/jewelry-2022-vca-alhambra-mother-pearl-bracelet.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "233e579cbb1911a3701ce258b7461aac78466bfae4d6197b91186bd2b9f41d81",
+      "expectedSha256": "233e579cbb1911a3701ce258b7461aac78466bfae4d6197b91186bd2b9f41d81"
+    },
+    {
+      "path": "item/jewelry-2022-fendace-hoop-earrings.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "8e3d70755e851b0b8d77f5c5f97c1f68658a4e333599f24fb0c4397751e25e00",
+      "expectedSha256": "8e3d70755e851b0b8d77f5c5f97c1f68658a4e333599f24fb0c4397751e25e00"
+    },
+    {
+      "path": "item/jewelry-2022-tiffany-arsham-lock-ensemble.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "e5eb8b55118810f2c524cd4977019b3e9e4ec6e1e8eb47b9b516aef43f7144f0",
+      "expectedSha256": "e5eb8b55118810f2c524cd4977019b3e9e4ec6e1e8eb47b9b516aef43f7144f0"
+    },
+    {
+      "path": "item/jewelry-2023-chanel-coco-crush-ring.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "e84003214263a9def582172939943cc719d34131ae2db388250e939c833ed4e3",
+      "expectedSha256": "e84003214263a9def582172939943cc719d34131ae2db388250e939c833ed4e3"
+    },
+    {
+      "path": "item/jewelry-2023-cartier-love-small-ring.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "97da3f1380923989d38c0044243ee126e946c875c88c800b702aa6d7e455213a",
+      "expectedSha256": "97da3f1380923989d38c0044243ee126e946c875c88c800b702aa6d7e455213a"
+    },
+    {
+      "path": "item/jewelry-2023-cartier-juste-un-clou-small.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "5e05fc94db263d246131992dd1c5ad4373eca00845345b3219891ca4d520cafb",
+      "expectedSha256": "5e05fc94db263d246131992dd1c5ad4373eca00845345b3219891ca4d520cafb"
+    },
+    {
+      "path": "item/jewelry-2023-tiffany-lock-rose-bangle.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "b527d29c6a3745a7fd3f09440361133c708e6d93d48cfec0641d3a80651d2458",
+      "expectedSha256": "b527d29c6a3745a7fd3f09440361133c708e6d93d48cfec0641d3a80651d2458"
+    },
+    {
+      "path": "item/jewelry-2023-tiffany-rose-lock-bangle.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "a4b76d7bce2bcf761f96aacc4bbc374c77085b03f560ae4f7e6db0bdc579a7e0",
+      "expectedSha256": "a4b76d7bce2bcf761f96aacc4bbc374c77085b03f560ae4f7e6db0bdc579a7e0"
+    },
+    {
+      "path": "item/jewelry-2023-lv-kusama-pumpkin-bracelet.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "0bb5ea24fc9a902b42a268addebe5b4a23fe2dbbb06be5f10798ef4fb45ec0a7",
+      "expectedSha256": "0bb5ea24fc9a902b42a268addebe5b4a23fe2dbbb06be5f10798ef4fb45ec0a7"
+    },
+    {
+      "path": "item/jewelry-2024-cartier-trinity-classic-ring-size53-b4234253.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "58f69d82b1899eec5acf4aa58ecf78c57f8b59b92376c233a90c4e9bc89149be",
+      "expectedSha256": "58f69d82b1899eec5acf4aa58ecf78c57f8b59b92376c233a90c4e9bc89149be"
+    },
+    {
+      "path": "item/jewelry-2024-tiffany-hardwear-small-link-medium-silver-60153085.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "63f4afe283cb401e72461a89f14f679b7d5731e7078d6648b5f87e5d61d32f9f",
+      "expectedSha256": "63f4afe283cb401e72461a89f14f679b7d5731e7078d6648b5f87e5d61d32f9f"
+    },
+    {
+      "path": "item/jewelry-2024-bulgari-serpenti-viper-ring-rose-gold-45-46-362140.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "3551a59ce021fc18a64d4acb2309384eb2773d5dfb66dcff4cfa7467b3370538",
+      "expectedSha256": "3551a59ce021fc18a64d4acb2309384eb2773d5dfb66dcff4cfa7467b3370538"
+    },
+    {
+      "path": "item/jewelry-2024-chanel-coco-crush-ring-mini-beige-gold-j11785.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "413d845aea8eebe467e9b33661b56cdb0fa1ead630555d19e795c0639b55d012",
+      "expectedSha256": "413d845aea8eebe467e9b33661b56cdb0fa1ead630555d19e795c0639b55d012"
+    },
+    {
+      "path": "item/jewelry-2024-fendi-frgmt-ring-gold.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "45bc01a940627fcd57131c5c287a03267c3fd77c6f5de627bba2a469150c8ac2",
+      "expectedSha256": "45bc01a940627fcd57131c5c287a03267c3fd77c6f5de627bba2a469150c8ac2"
+    },
+    {
+      "path": "item/jewelry-2024-fendi-frgmt-pokemon-earrings-gold.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "6e9b5eb20ff0c7a7ba6604f85d25ab36408339fa36eaea1a83055d3f03fe202b",
+      "expectedSha256": "6e9b5eb20ff0c7a7ba6604f85d25ab36408339fa36eaea1a83055d3f03fe202b"
+    },
+    {
+      "path": "item/jewelry-2025-hermes-clic-clac-h-blanc-rose-gold.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "2539c5ac1f4adef75beb486caf97eda3b36548f0bc0d0db84fed4544bb870cfc",
+      "expectedSha256": "2539c5ac1f4adef75beb486caf97eda3b36548f0bc0d0db84fed4544bb870cfc"
+    },
+    {
+      "path": "item/jewelry-2025-david-yurman-classic-cable-blue-topaz-diamonds.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "1c47fe0951f78d0aa14d4e716a6259d4e7c26d763940312fda05e770fa32a836",
+      "expectedSha256": "1c47fe0951f78d0aa14d4e716a6259d4e7c26d763940312fda05e770fa32a836"
+    },
+    {
+      "path": "item/jewelry-2025-van-cleef-vintage-alhambra-five-motifs-mother-of-pearl.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "a3350b616146cd15f28a43a4924a25ef07e47e83f620f56bbe3981f9c0a29e72",
+      "expectedSha256": "a3350b616146cd15f28a43a4924a25ef07e47e83f620f56bbe3981f9c0a29e72"
+    },
+    {
+      "path": "item/jewelry-2025-cartier-love-small-yellow-gold-size17.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "1c977ba65c4b0caec28142fb70b096d542ce452fe824201e483eb72bf0348588",
+      "expectedSha256": "1c977ba65c4b0caec28142fb70b096d542ce452fe824201e483eb72bf0348588"
+    },
+    {
+      "path": "item/jewelry-2025-louis-vuitton-murakami-superflat-earrings.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "4c7834d1b4ed22b6cedf33b85285685d62a4b4db73053d440679394fe45c0e8a",
+      "expectedSha256": "4c7834d1b4ed22b6cedf33b85285685d62a4b4db73053d440679394fe45c0e8a"
+    },
+    {
+      "path": "item/jewelry-2025-swarovski-ariana-grande-heart-bracelet.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "4b83257a5dbc4cb8dc35646cf999ed413c04ec71fa4f1b7830d3017841a4e770",
+      "expectedSha256": "4b83257a5dbc4cb8dc35646cf999ed413c04ec71fa4f1b7830d3017841a4e770"
+    },
+    {
+      "path": "item/jewelry-2026-boucheron-quatre-classique-xs.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "90e81c1e8a40facc46f3ad1468422f79fd99d4721d77d08e7bd0e79f65f3bdd3",
+      "expectedSha256": "90e81c1e8a40facc46f3ad1468422f79fd99d4721d77d08e7bd0e79f65f3bdd3"
+    },
+    {
+      "path": "item/jewelry-2026-pomellato-together-triple-band.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "cb2c38e42d519040290d776a854b2fec48199da26a3ee6d0a628ac55c904b692",
+      "expectedSha256": "cb2c38e42d519040290d776a854b2fec48199da26a3ee6d0a628ac55c904b692"
+    },
+    {
+      "path": "item/jewelry-2026-tiffany-hardwear-medium-earrings-yellow-gold.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "f3f63ada1bfb7d83b51da10c82a0fca9f24512d0d481e91c6debf37aa8057ae6",
+      "expectedSha256": "f3f63ada1bfb7d83b51da10c82a0fca9f24512d0d481e91c6debf37aa8057ae6"
+    },
+    {
+      "path": "item/jewelry-2026-tiffany-hardwear-micro-yellow-gold.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "fc63d82987ccca41dfd8da6050d6257d6facbf358fe16cc8934ee930745017e4",
+      "expectedSha256": "fc63d82987ccca41dfd8da6050d6257d6facbf358fe16cc8934ee930745017e4"
+    },
+    {
+      "path": "item/jewelry-2026-swarovski-ariana-dragonfly-bangle.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "54d8ed838dde3ae0824ecb3291583d7cca8d2799898f6c94186710b5dd667401",
+      "expectedSha256": "54d8ed838dde3ae0824ecb3291583d7cca8d2799898f6c94186710b5dd667401"
+    },
+    {
+      "path": "item/jewelry-2026-swarovski-ariana-dragonfly-earrings.html",
+      "status": 200,
+      "passed": true,
+      "sha256": "3379bb7549638bcb5b34868d772c006d55ce4c677989a6cfe49641c7a8dffa10",
+      "expectedSha256": "3379bb7549638bcb5b34868d772c006d55ce4c677989a6cfe49641c7a8dffa10"
+    },
+    {
+      "path": "assets/css/main.css",
+      "status": 200,
+      "passed": true,
+      "sha256": "b13db67b8d7a47d47462068b88b81fb58005b2ec7b4198ac5ff4be7fac6f575d",
+      "expectedSha256": "b13db67b8d7a47d47462068b88b81fb58005b2ec7b4198ac5ff4be7fac6f575d"
+    },
+    {
+      "path": "assets/js/data.js",
+      "status": 200,
+      "passed": true,
+      "sha256": "de2526fa9b04a2c2179d7018605f81adb84bd4f02c4dd1b2385347abb73c8ee7",
+      "expectedSha256": "de2526fa9b04a2c2179d7018605f81adb84bd4f02c4dd1b2385347abb73c8ee7"
+    },
+    {
+      "path": "assets/js/main.js",
+      "status": 200,
+      "passed": true,
+      "sha256": "d6a2925e3a4734c6814f54efedaea080bed5d8da56ff55b1f34ce193fee3ebff",
+      "expectedSha256": "d6a2925e3a4734c6814f54efedaea080bed5d8da56ff55b1f34ce193fee3ebff"
+    },
+    {
+      "path": "assets/js/render.js",
+      "status": 200,
+      "passed": true,
+      "sha256": "c3762ddffe7cd11f086800aaf2da5eb3281c33f6b7e36cd494bf2066b2aec78f",
+      "expectedSha256": "c3762ddffe7cd11f086800aaf2da5eb3281c33f6b7e36cd494bf2066b2aec78f"
+    },
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "passed": true,
+      "sha256": "0865d8fe7009b39b185911ab8236ce5da502a1818816e3ea55c67c4d3c25ae7f",
+      "expectedSha256": "0865d8fe7009b39b185911ab8236ce5da502a1818816e3ea55c67c4d3c25ae7f"
+    },
+    {
+      "path": "assets/img/products/chrome-hearts-baby-fat-silver-jr-10417229988154.webp",
+      "status": 200,
+      "passed": true,
+      "sha256": "00d044aacfc73f7de67d09c1a5925aa474df0d5945bbd2703bd494fae5796bab",
+      "expectedSha256": "00d044aacfc73f7de67d09c1a5925aa474df0d5945bbd2703bd494fae5796bab"
+    },
+    {
+      "path": "assets/img/products/chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167.webp",
+      "status": 200,
+      "passed": true,
+      "sha256": "aaf537d2e545f5c86a5bf59e170fce71bd141df6a80da6b41df28cc654899079",
+      "expectedSha256": "aaf537d2e545f5c86a5bf59e170fce71bd141df6a80da6b41df28cc654899079"
+    },
+    {
+      "path": "assets/img/products/chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526.webp",
+      "status": 200,
+      "passed": true,
+      "sha256": "f643eca679881917e556ba48c929283fdd0380c1e444f3353ea9781064a8c3cb",
+      "expectedSha256": "f643eca679881917e556ba48c929283fdd0380c1e444f3353ea9781064a8c3cb"
+    },
+    {
+      "path": "assets/img/products/chrome-hearts-dagger-silver-jr-15409514479930.webp",
+      "status": 200,
+      "passed": true,
+      "sha256": "e4d07100d02f26cbe816636251a125d21fb58a6775a88531f3cc4267d41329e3",
+      "expectedSha256": "e4d07100d02f26cbe816636251a125d21fb58a6775a88531f3cc4267d41329e3"
+    },
+    {
+      "path": "assets/img/products/chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684.webp",
+      "status": 200,
+      "passed": true,
+      "sha256": "c45a10a276a03482e420ce5016f8f2668d24d39d95b9235aab2abcdc97bf30bb",
+      "expectedSha256": "c45a10a276a03482e420ce5016f8f2668d24d39d95b9235aab2abcdc97bf30bb"
+    },
+    {
+      "path": "assets/img/products/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522.webp",
+      "status": 200,
+      "passed": true,
+      "sha256": "3b9eca2d5ada3819cb9785368fe4b698ec46881c3c3f96db42d3b1b73647fa4f",
+      "expectedSha256": "3b9eca2d5ada3819cb9785368fe4b698ec46881c3c3f96db42d3b1b73647fa4f"
+    },
+    {
+      "path": "assets/img/views/chrome-hearts-baby-fat-silver-jr-10417229988154-2.webp",
+      "status": 200,
+      "passed": true,
+      "sha256": "de64905fe185a2d3a406eb669f2879493532822da4c91864ce02ffdfb951b683",
+      "expectedSha256": "de64905fe185a2d3a406eb669f2879493532822da4c91864ce02ffdfb951b683"
+    },
+    {
+      "path": "assets/img/views/chrome-hearts-baby-fat-silver-jr-10417229988154-3.webp",
+      "status": 200,
+      "passed": true,
+      "sha256": "eddf1605addcc7ce56bdbe9e772ba6711c99375fe73e9cf538cfdea3a1f08bf1",
+      "expectedSha256": "eddf1605addcc7ce56bdbe9e772ba6711c99375fe73e9cf538cfdea3a1f08bf1"
+    },
+    {
+      "path": "assets/img/views/chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167.webp",
+      "status": 200,
+      "passed": true,
+      "sha256": "9aac5e857c1594aa7a45eca854dcb0714b1515884d9ed03a12ff125438d70f53",
+      "expectedSha256": "9aac5e857c1594aa7a45eca854dcb0714b1515884d9ed03a12ff125438d70f53"
+    },
+    {
+      "path": "assets/img/views/chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526.webp",
+      "status": 200,
+      "passed": true,
+      "sha256": "106b633fa131d7655424c93985d7aaf554530f13aee6e33b9a03e6b20ff475de",
+      "expectedSha256": "106b633fa131d7655424c93985d7aaf554530f13aee6e33b9a03e6b20ff475de"
+    },
+    {
+      "path": "assets/img/views/chrome-hearts-dagger-silver-jr-15409514479930-2.webp",
+      "status": 200,
+      "passed": true,
+      "sha256": "398784377c0cda120103e3b9e478ec41fce9df880e8705624e9ad1f48e62f8ed",
+      "expectedSha256": "398784377c0cda120103e3b9e478ec41fce9df880e8705624e9ad1f48e62f8ed"
+    },
+    {
+      "path": "assets/img/views/chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684.webp",
+      "status": 200,
+      "passed": true,
+      "sha256": "4b8bf6ae85838337fad0c264c1e538f77e22826aec352064a18191497378d8a3",
+      "expectedSha256": "4b8bf6ae85838337fad0c264c1e538f77e22826aec352064a18191497378d8a3"
+    },
+    {
+      "path": "assets/img/views/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522-1.webp",
+      "status": 200,
+      "passed": true,
+      "sha256": "1ca61c238b6247b5e018951d959e64873dfd67f20cae26a7b2ad61f6018c08ec",
+      "expectedSha256": "1ca61c238b6247b5e018951d959e64873dfd67f20cae26a7b2ad61f6018c08ec"
+    },
+    {
+      "path": "assets/img/views/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522-3.webp",
+      "status": 200,
+      "passed": true,
+      "sha256": "ebd081677f175e396c61541bd80b5d6a6a5e06c0e78a1db62f2104fba407677e",
+      "expectedSha256": "ebd081677f175e396c61541bd80b5d6a6a5e06c0e78a1db62f2104fba407677e"
+    }
+  ],
+  "retries": [],
+  "browserTabsOpened": 0,
+  "browserTabsRemaining": 0
+}

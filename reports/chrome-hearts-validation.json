@@ -175,5 +175,16 @@
   },
   "browserTabsOpened": 0,
   "browserTabsRemaining": 0,
-  "graphflow": "No callable GraphFlow context/plan/index tools exposed; no call claimed."
+  "graphflow": "No callable GraphFlow context/plan/index tools exposed; no call claimed.",
+  "publication": {
+    "commit": "b11d1029488eae79845fd8b9356a6af0babbd3f0",
+    "pagesBuild": {
+      "commit": "b11d1029488eae79845fd8b9356a6af0babbd3f0",
+      "status": "built"
+    },
+    "verifiedPublicFiles": 230,
+    "allByteIdentical": true,
+    "retriedRequests": 0,
+    "report": "reports/chrome-hearts-deployment-validation.json"
+  }
 }
