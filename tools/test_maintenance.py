@@ -2,7 +2,7 @@
 from pathlib import Path
 from contextlib import redirect_stdout, ExitStack
 from unittest.mock import patch
-import copy, io, json, shutil, tempfile, unittest
+import copy, io, json, shutil, tempfile, unittest, html
 import apply_style_edit as style
 import apply_bag_yearbook as bags
 import apply_jewel_yearbooks as jewels
@@ -93,6 +93,48 @@ class MaintenanceTests(unittest.TestCase):
             product=copy.deepcopy(data['products'][-1]);product['id']='sixth-watch';data['products'].append(product)
         self.research(root,'watches-fragrance.json',sixth)
         with self.assertRaisesRegex(AssertionError,'three to five'):self.run_merge(style,root)
+
+    def test_expanded_silver_edit_preserves_existing_products(self):
+        root=self.fixture()
+        original=json.loads((root/'tools/content.json').read_text())
+        original_ids={x['id'] for x in original['items']}
+        count=sum(x.get('styleEdit',False) and x['category']=='jewelry' for x in original['items'])
+        def expand(data):
+            example=next(x for x in data['products'] if x['category']=='jewelry')
+            for n in range(8-count):
+                clone=copy.deepcopy(example);clone['id']='additional-silver-'+str(n);data['products'].append(clone)
+        self.research(root,'chrome-hearts-products.json',expand)
+        self.run_merge(style,root)
+        merged=json.loads((root/'tools/content.json').read_text())
+        self.assertTrue(original_ids<={x['id'] for x in merged['items']})
+        self.assertEqual(sum(x.get('styleEdit',False) and x['category']=='jewelry' for x in merged['items']),8)
+        def overflow(data):
+            clone=copy.deepcopy(next(x for x in data['products'] if x['category']=='jewelry'))
+            clone['id']='ninth-silver';data['products'].append(clone)
+        self.research(root,'chrome-hearts-products.json',overflow)
+        with self.assertRaisesRegex(AssertionError,'up to eight'):self.run_merge(style,root)
+
+    def test_resale_asking_price_never_becomes_brand_retail(self):
+        root=self.fixture();self.run_merge(style,root)
+        merged=json.loads((root/'tools/content.json').read_text())
+        product=next(x for x in merged['items'] if x.get('priceStatus')=='resale-ask')
+        self.assertIn('Resale listing',product['priceContextEn'])
+        self.assertNotIn('Official',product['priceContextEn'])
+        self.assertIn('resale asking price',product['priceRange'])
+        captured={}
+        with patch.object(generate,'page',lambda path,title,desc,content,*args,**kw:captured.update({path:content})):
+            generate.productpage(product)
+        markup=captured['item/'+product['id']+'.html']
+        self.assertIn('RESALE ASKING PRICE',markup)
+        self.assertNotIn('U.S. RETAIL REFERENCE',markup)
+        self.assertNotIn('View at Chrome Hearts',markup)
+        self.assertIn(html.escape(product['sellerName']),markup)
+        self.assertIn(html.escape(product['itemCondition']),markup)
+        if product.get('itemConditionDetails'):self.assertIn(html.escape(product['itemConditionDetails']),markup)
+        self.assertIn('Merchant listing &amp; USD asking price',markup)
+        self.assertIn('USD resale ask',generate.stylecard(product))
+        missing=copy.deepcopy(product);missing.pop('sellerName')
+        with self.assertRaisesRegex(AssertionError,'missing resale sellerName'):style.validate_resale(missing)
 
     def test_new_yearbook_cutoff_is_kept(self):
         root=self.fixture()

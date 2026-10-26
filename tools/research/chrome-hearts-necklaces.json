@@ -1,0 +1,407 @@
+{
+  "researchNotes": {
+    "checkedAt": "2026-10-26",
+    "browserTabsOpened": 0,
+    "method": "Static public HTML, merchant JSON and source-image downloads only; no CDP.",
+    "selectionPolicy": "Three exact, available resale listings; no claim to official retail prices, global rankings, launch dates or limited production.",
+    "authenticationPolicy": "MuseLux has not authenticated these pieces. Any merchant authentication policy belongs to the seller.",
+    "excludedEvidence": "TheRealReal CHH67586 was excluded because live HTML marked it SOLD despite an older search result suggesting Add to Bag."
+  },
+  "products": [
+    {
+      "id": "chrome-hearts-baby-fat-silver-jr-10417229988154",
+      "brand": "chrome-hearts",
+      "category": "necklace",
+      "name": "Baby Fat Cross Pendant — sterling silver",
+      "nameZh": "克罗心 Baby Fat 纯银十字架吊坠",
+      "parentItem": "chrome-hearts-silver",
+      "reference": "Merchant item 10417229988154",
+      "listingReference": "10417229988154",
+      "listingHandle": "chrome-hearts-baby-fat-pendant-5964584748454157785878774",
+      "merchantVariantID": "53982557372730",
+      "color": "Silver",
+      "sizes": [
+        "Pendant length: 0.75 in (19.05 mm), as listed"
+      ],
+      "materials": [
+        ".925 sterling silver"
+      ],
+      "priceUSD": 1000.0,
+      "priceLabel": "Resale asking price · Justin Reed · USD, before tax/shipping",
+      "checkedAt": "2026-10-26",
+      "priceAsOf": "2026-10-26",
+      "priceStatus": "resale-ask",
+      "originalCurrency": "USD",
+      "sellerName": "Justin Reed",
+      "itemCondition": "Great Overall Condition",
+      "itemConditionDetails": "Great condition, some signs of wear. Please review all pictures for details.",
+      "availabilityEn": "Available in the merchant listing at capture; subject to prior sale.",
+      "chainDetails": "Pendant-only listing; no chain is described or pictured.",
+      "stoneDetails": "No gemstones listed or visible in the merchant photographs.",
+      "priceEvidence": "Direct merchant HTML ProductGroup 10417229988154 contains an InStock Offer of USD 1000.00; the exact product JSON independently reports available=true and price=100000 cents. This is the merchant resale asking price, not Chrome Hearts retail/MSRP.",
+      "sourceSnapshotNote": "Direct public merchant HTML and matching Shopify product JSON retrieved on the check date. Condition and measurements are seller statements about this specific piece. No official jewelry retail price is asserted.",
+      "source": "https://justinreed.com/products/chrome-hearts-baby-fat-pendant-5964584748454157785878774",
+      "specificationSources": [
+        "https://justinreed.com/products/chrome-hearts-baby-fat-pendant-5964584748454157785878774",
+        "https://justinreed.com/products/chrome-hearts-baby-fat-pendant-5964584748454157785878774.js"
+      ],
+      "introEn": "The Baby Fat cross makes a small amount of silver feel remarkably sculptural. Its flared arms and rounded center create a clear silhouette, while darker recesses bring the raised surfaces into focus. At the size listed here, the pendant reads as a compact detail at the neckline, with enough depth to reward a closer look. The appeal lies in that change of scale: a quiet silver shape from across the room, then a more intricate object in the hand. This selected resale piece offers a direct introduction to the motif.",
+      "featuresEn": [
+        "A flared cross motif in .925 sterling silver.",
+        "Seller-listed pendant length of 0.75 inch; no gemstones are listed.",
+        "Pendant-only listing; a chain is not described or pictured."
+      ],
+      "stylingEn": "Choose a separate fine silver chain that suits the pendant loop, then let the cross sit above a simple crewneck or inside an open collar. A single plain ring can echo the metal without crowding the small silhouette. Check chain compatibility before pairing.",
+      "imageAlt": "Chrome Hearts Baby Fat cross pendant in sterling silver, front view of Justin Reed item 10417229988154.",
+      "imageCredit": "Justin Reed · photograph of the exact listed Chrome Hearts piece",
+      "imageRightsNote": "Merchant listing photography; public access does not grant a reuse license. Copyright remains with the photographer or rights holder.",
+      "selectionNote": "Editorial selection of recognizable cross, dagger and dog-tag forms, without any sales-ranking or worldwide popularity claim.",
+      "researchCapture": {
+        "capturedAt": "2026-10-26T23:24:35+08:00",
+        "merchantHTMLSHA256": "bb5dd6117f211085fbb259026b3c59486d408a840ee0c9fcdb86703d499e4322",
+        "merchantJSONSHA256": "2b4b75fb8bf3cb27d5308686b85ba3ba6bef24a678f20178e7058c15d4208dab",
+        "merchantHTMLSnapshot": "/tmp/muselux-chrome-necklaces/baby-b.html",
+        "merchantJSONSnapshot": "/tmp/muselux-chrome-necklaces/baby-b.json",
+        "offer": {
+          "@id": "/products/chrome-hearts-baby-fat-pendant-5964584748454157785878774?variant=53982557372730#offer",
+          "@type": "Offer",
+          "availability": "http://schema.org/InStock",
+          "price": "1000.00",
+          "priceCurrency": "USD",
+          "url": "https://justinreed.com/products/chrome-hearts-baby-fat-pendant-5964584748454157785878774?variant=53982557372730"
+        },
+        "officialBrandSource": "https://www.chromehearts.com/",
+        "officialSourceObservation": "Official U.S. homepage exposes store locations and non-jewelry shopping categories. No official jewelry USD retail offer for these pieces was located.",
+        "provenanceNote": "Merchant productGroupID identifies the resale listing; it is not a manufacturer reference. No Chrome Hearts product launch year or edition size is inferred.",
+        "heroImage": {
+          "path": "assets/img/products/chrome-hearts-baby-fat-silver-jr-10417229988154.webp",
+          "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_b899f9a3-531e-4396-bca8-5f203f4553b6.jpg?v=1788211612",
+          "pageSource": "https://justinreed.com/products/chrome-hearts-baby-fat-pendant-5964584748454157785878774",
+          "credit": "Justin Reed · photograph of the exact listed Chrome Hearts piece",
+          "alt": "Baby Fat Cross Pendant — sterling silver — front view",
+          "viewLabel": "Front view",
+          "width": 960,
+          "height": 1200,
+          "originalWidth": 2400,
+          "originalHeight": 3000,
+          "checkedAt": "2026-10-26",
+          "sourceSHA256": "6eb77392d9e43643581897a937feeb43a1dddfeedd79155813627429d870f62d",
+          "sha256": "00d044aacfc73f7de67d09c1a5925aa474df0d5945bbd2703bd494fae5796bab",
+          "processing": "Original full frame preserved; proportional resize within 1200 × 1200; WebP quality 88. No crop, recolor, retouching or generated angle.",
+          "evidence": "Original merchant listing photograph; visually checked against the other angles in the same product gallery. Exact same item and listing ID.",
+          "originalSnapshot": "/tmp/muselux-chrome-necklaces/baby-b-1.jpg"
+        }
+      },
+      "image": "assets/img/products/chrome-hearts-baby-fat-silver-jr-10417229988154.webp",
+      "imageSource": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_b899f9a3-531e-4396-bca8-5f203f4553b6.jpg?v=1788211612",
+      "imageWidth": 960,
+      "imageHeight": 1200,
+      "imageOriginalWidth": 2400,
+      "imageOriginalHeight": 3000,
+      "imageSourceSHA256": "6eb77392d9e43643581897a937feeb43a1dddfeedd79155813627429d870f62d",
+      "imageSHA256": "00d044aacfc73f7de67d09c1a5925aa474df0d5945bbd2703bd494fae5796bab",
+      "imageProcessing": "Original full frame preserved; proportional resize within 1200 × 1200; WebP quality 88. No crop, recolor, retouching or generated angle."
+    },
+    {
+      "id": "chrome-hearts-dagger-silver-jr-15409514479930",
+      "brand": "chrome-hearts",
+      "category": "necklace",
+      "name": "Dagger Pendant — sterling silver",
+      "nameZh": "克罗心 Dagger 纯银匕首吊坠",
+      "parentItem": "chrome-hearts-silver",
+      "reference": "Merchant item 15409514479930",
+      "listingReference": "15409514479930",
+      "listingHandle": "chrome-hearts-dagger-pendant-4564815458",
+      "merchantVariantID": "67631222751546",
+      "color": "Silver",
+      "sizes": [
+        "Pendant length: 2 in (50.8 mm), as listed"
+      ],
+      "materials": [
+        ".925 sterling silver"
+      ],
+      "priceUSD": 1750.0,
+      "priceLabel": "Resale asking price · Justin Reed · USD, before tax/shipping",
+      "checkedAt": "2026-10-26",
+      "priceAsOf": "2026-10-26",
+      "priceStatus": "resale-ask",
+      "originalCurrency": "USD",
+      "sellerName": "Justin Reed",
+      "itemCondition": "Great Overall Condition",
+      "itemConditionDetails": "Great condition, some signs of wear. Please review all pictures for details.",
+      "availabilityEn": "Available in the merchant listing at capture; subject to prior sale.",
+      "chainDetails": "Pendant-only listing; no chain is described or pictured.",
+      "stoneDetails": "No gemstones listed or visible in the merchant photographs.",
+      "priceEvidence": "Direct merchant HTML ProductGroup 15409514479930 contains an InStock Offer of USD 1750.00; the exact product JSON independently reports available=true and price=175000 cents. This is the merchant resale asking price, not Chrome Hearts retail/MSRP.",
+      "sourceSnapshotNote": "Direct public merchant HTML and matching Shopify product JSON retrieved on the check date. Condition and measurements are seller statements about this specific piece. No official jewelry retail price is asserted.",
+      "source": "https://justinreed.com/products/chrome-hearts-dagger-pendant-4564815458",
+      "specificationSources": [
+        "https://justinreed.com/products/chrome-hearts-dagger-pendant-4564815458",
+        "https://justinreed.com/products/chrome-hearts-dagger-pendant-4564815458.js"
+      ],
+      "introEn": "The Dagger pendant builds its character around a long central line. An open, scrolling hilt gives the top a sense of movement, while the blade draws the eye downward and keeps the composition narrow. Raised lettering and darkened recesses make the silver surface feel layered even before the pendant turns. This two-inch example has enough length to become a clear focal point over a plain shirt. Its shape is useful for anyone drawn to jewelry with a strong outline, where the interest comes from carved detail and proportion rather than gemstones.",
+      "featuresEn": [
+        "A dagger silhouette with open scrollwork in .925 sterling silver.",
+        "Seller-listed pendant length of 2 inches; no gemstones are listed.",
+        "Pendant-only listing; a chain is not described or pictured."
+      ],
+      "stylingEn": "Pair it with a separate chain that can pass through the pendant loop and leave clear space around the blade. A dark cotton shirt makes the open hilt and silver edges easy to see. Keep nearby pendants short enough to avoid overlapping its outline.",
+      "imageAlt": "Chrome Hearts sterling-silver Dagger pendant, front view of Justin Reed item 15409514479930.",
+      "imageCredit": "Justin Reed · photograph of the exact listed Chrome Hearts piece",
+      "imageRightsNote": "Merchant listing photography; public access does not grant a reuse license. Copyright remains with the photographer or rights holder.",
+      "selectionNote": "Editorial selection of recognizable cross, dagger and dog-tag forms, without any sales-ranking or worldwide popularity claim.",
+      "researchCapture": {
+        "capturedAt": "2026-10-26T23:24:35+08:00",
+        "merchantHTMLSHA256": "ec34a6979c686addce09d98ae419d15a793e3a1529668c8117dbb7f2968bb934",
+        "merchantJSONSHA256": "9d82e35a030d05864330c951f588183dea36ffff3bf4143a91ddfa329b98ec18",
+        "merchantHTMLSnapshot": "/tmp/muselux-chrome-necklaces/justin-dagger.html",
+        "merchantJSONSnapshot": "/tmp/muselux-chrome-necklaces/justin-dagger.json",
+        "offer": {
+          "@id": "/products/chrome-hearts-dagger-pendant-4564815458?variant=67631222751546#offer",
+          "@type": "Offer",
+          "availability": "http://schema.org/InStock",
+          "price": "1750.00",
+          "priceCurrency": "USD",
+          "url": "https://justinreed.com/products/chrome-hearts-dagger-pendant-4564815458?variant=67631222751546"
+        },
+        "officialBrandSource": "https://www.chromehearts.com/",
+        "officialSourceObservation": "Official U.S. homepage exposes store locations and non-jewelry shopping categories. No official jewelry USD retail offer for these pieces was located.",
+        "provenanceNote": "Merchant productGroupID identifies the resale listing; it is not a manufacturer reference. No Chrome Hearts product launch year or edition size is inferred.",
+        "heroImage": {
+          "path": "assets/img/products/chrome-hearts-dagger-silver-jr-15409514479930.webp",
+          "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_63777f21-3216-4055-b677-7d360f4ff755.jpg?v=1791226249",
+          "pageSource": "https://justinreed.com/products/chrome-hearts-dagger-pendant-4564815458",
+          "credit": "Justin Reed · photograph of the exact listed Chrome Hearts piece",
+          "alt": "Dagger Pendant — sterling silver — front view",
+          "viewLabel": "Front view",
+          "width": 960,
+          "height": 1200,
+          "originalWidth": 2400,
+          "originalHeight": 3000,
+          "checkedAt": "2026-10-26",
+          "sourceSHA256": "46f01705d22d6e26e2a26aa87ce172b549889f03e6e6a296b19cc8dac653024c",
+          "sha256": "e4d07100d02f26cbe816636251a125d21fb58a6775a88531f3cc4267d41329e3",
+          "processing": "Original full frame preserved; proportional resize within 1200 × 1200; WebP quality 88. No crop, recolor, retouching or generated angle.",
+          "evidence": "Original merchant listing photograph; visually checked against the other angles in the same product gallery. Exact same item and listing ID.",
+          "originalSnapshot": "/tmp/muselux-chrome-necklaces/justin-dagger-1.jpg"
+        }
+      },
+      "image": "assets/img/products/chrome-hearts-dagger-silver-jr-15409514479930.webp",
+      "imageSource": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_63777f21-3216-4055-b677-7d360f4ff755.jpg?v=1791226249",
+      "imageWidth": 960,
+      "imageHeight": 1200,
+      "imageOriginalWidth": 2400,
+      "imageOriginalHeight": 3000,
+      "imageSourceSHA256": "46f01705d22d6e26e2a26aa87ce172b549889f03e6e6a296b19cc8dac653024c",
+      "imageSHA256": "e4d07100d02f26cbe816636251a125d21fb58a6775a88531f3cc4267d41329e3",
+      "imageProcessing": "Original full frame preserved; proportional resize within 1200 × 1200; WebP quality 88. No crop, recolor, retouching or generated angle."
+    },
+    {
+      "id": "chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522",
+      "brand": "chrome-hearts",
+      "category": "necklace",
+      "name": "Vine Dagger Cut Out Dog Tag with Ball Chain",
+      "nameZh": "克罗心 Vine Dagger 镂空狗牌纯银珠链项链",
+      "parentItem": "chrome-hearts-silver",
+      "reference": "Merchant item 10358159966522",
+      "listingReference": "10358159966522",
+      "listingHandle": "chrome-hearts-vine-dagger-cut-out-dog-tag-pendant-w-ball-chain-necklace-69589",
+      "merchantVariantID": "53729868349754",
+      "color": "Silver",
+      "sizes": [
+        "Pendant length: 2.25 in (57.15 mm), as listed",
+        "Ball-chain length: 30 in (76.2 cm), included in listing"
+      ],
+      "materials": [
+        ".925 sterling silver"
+      ],
+      "priceUSD": 1400.0,
+      "priceLabel": "Resale asking price · Justin Reed · USD, before tax/shipping",
+      "checkedAt": "2026-10-26",
+      "priceAsOf": "2026-10-26",
+      "priceStatus": "resale-ask",
+      "originalCurrency": "USD",
+      "sellerName": "Justin Reed",
+      "itemCondition": "Pristine Overall Condition",
+      "itemConditionDetails": "New without tags",
+      "availabilityEn": "Available in the merchant listing at capture; subject to prior sale.",
+      "chainDetails": "Ball chain included; seller-listed length 30 inches.",
+      "stoneDetails": "No gemstones listed or visible in the merchant photographs.",
+      "priceEvidence": "Direct merchant HTML ProductGroup 10358159966522 contains an InStock Offer of USD 1400.00; the exact product JSON independently reports available=true and price=140000 cents. This is the merchant resale asking price, not Chrome Hearts retail/MSRP.",
+      "sourceSnapshotNote": "Direct public merchant HTML and matching Shopify product JSON retrieved on the check date. Condition and measurements are seller statements about this specific piece. No official jewelry retail price is asserted.",
+      "source": "https://justinreed.com/products/chrome-hearts-vine-dagger-cut-out-dog-tag-pendant-w-ball-chain-necklace-69589",
+      "specificationSources": [
+        "https://justinreed.com/products/chrome-hearts-vine-dagger-cut-out-dog-tag-pendant-w-ball-chain-necklace-69589",
+        "https://justinreed.com/products/chrome-hearts-vine-dagger-cut-out-dog-tag-pendant-w-ball-chain-necklace-69589.js"
+      ],
+      "introEn": "A dog tag gives the Vine Dagger motif a broad silver surface to work against. The rounded rectangular outline is familiar, but its cutout center changes the effect: light, fabric and skin become part of the composition. The dagger and curling shapes remain readable as the tag shifts, with the ball chain adding a fine, repeated rhythm above it. This selected listing includes the thirty-inch chain, creating a longer line than a close necklace. It is a useful choice for styling over clothing, where the open center can register against a simple background.",
+      "featuresEn": [
+        "Cutout Vine Dagger motif on a .925 sterling-silver dog tag.",
+        "Seller-listed pendant length of 2.25 inches; no gemstones are listed.",
+        "Includes the seller-listed 30-inch ball chain."
+      ],
+      "stylingEn": "Let the long ball chain fall over a plain knit, heavyweight tee or open overshirt. A solid background makes the cutout center easy to read. Keep any second necklace visibly shorter, and check where the tag lands when seated as well as standing.",
+      "imageAlt": "Front detail of Chrome Hearts Vine Dagger Cut Out Dog Tag on ball chain, Justin Reed item 10358159966522.",
+      "imageCredit": "Justin Reed · photograph of the exact listed Chrome Hearts piece",
+      "imageRightsNote": "Merchant listing photography; public access does not grant a reuse license. Copyright remains with the photographer or rights holder.",
+      "selectionNote": "Editorial selection of recognizable cross, dagger and dog-tag forms, without any sales-ranking or worldwide popularity claim.",
+      "researchCapture": {
+        "capturedAt": "2026-10-26T23:24:35+08:00",
+        "merchantHTMLSHA256": "0c0ee3a773ae0018673e24f4a0a3012c6bc6ce6bb94175fed1133dd3cfcc5724",
+        "merchantJSONSHA256": "2950ae8ac5283153cfcfb099771fd0d36f584985b1ac2e071da625eb289cb0a7",
+        "merchantHTMLSnapshot": "/tmp/muselux-chrome-necklaces/justin-dogtag.html",
+        "merchantJSONSnapshot": "/tmp/muselux-chrome-necklaces/justin-dogtag.json",
+        "offer": {
+          "@id": "/products/chrome-hearts-vine-dagger-cut-out-dog-tag-pendant-w-ball-chain-necklace-69589?variant=53729868349754#offer",
+          "@type": "Offer",
+          "availability": "http://schema.org/InStock",
+          "price": "1400.00",
+          "priceCurrency": "USD",
+          "url": "https://justinreed.com/products/chrome-hearts-vine-dagger-cut-out-dog-tag-pendant-w-ball-chain-necklace-69589?variant=53729868349754"
+        },
+        "officialBrandSource": "https://www.chromehearts.com/",
+        "officialSourceObservation": "Official U.S. homepage exposes store locations and non-jewelry shopping categories. No official jewelry USD retail offer for these pieces was located.",
+        "provenanceNote": "Merchant productGroupID identifies the resale listing; it is not a manufacturer reference. No Chrome Hearts product launch year or edition size is inferred.",
+        "heroImage": {
+          "path": "assets/img/products/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522.webp",
+          "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/2_841a7564-f3d0-4cd9-baf2-a89eda0e8295.jpg?v=1783965191",
+          "pageSource": "https://justinreed.com/products/chrome-hearts-vine-dagger-cut-out-dog-tag-pendant-w-ball-chain-necklace-69589",
+          "credit": "Justin Reed · photograph of the exact listed Chrome Hearts piece",
+          "alt": "Vine Dagger Cut Out Dog Tag with Ball Chain — pendant front detail",
+          "viewLabel": "Pendant front detail",
+          "width": 960,
+          "height": 1200,
+          "originalWidth": 2400,
+          "originalHeight": 3000,
+          "checkedAt": "2026-10-26",
+          "sourceSHA256": "e3efb6dd71d9ceffa4c8df46466767f7a5891112ff58ff34c9fc4e10a95ca1c6",
+          "sha256": "3b9eca2d5ada3819cb9785368fe4b698ec46881c3c3f96db42d3b1b73647fa4f",
+          "processing": "Original full frame preserved; proportional resize within 1200 × 1200; WebP quality 88. No crop, recolor, retouching or generated angle.",
+          "evidence": "Original merchant listing photograph; visually checked against the other angles in the same product gallery. Exact same item and listing ID.",
+          "originalSnapshot": "/tmp/muselux-chrome-necklaces/justin-dogtag-2.jpg"
+        }
+      },
+      "image": "assets/img/products/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522.webp",
+      "imageSource": "https://cdn.shopify.com/s/files/1/2400/1837/files/2_841a7564-f3d0-4cd9-baf2-a89eda0e8295.jpg?v=1783965191",
+      "imageWidth": 960,
+      "imageHeight": 1200,
+      "imageOriginalWidth": 2400,
+      "imageOriginalHeight": 3000,
+      "imageSourceSHA256": "e3efb6dd71d9ceffa4c8df46466767f7a5891112ff58ff34c9fc4e10a95ca1c6",
+      "imageSHA256": "3b9eca2d5ada3819cb9785368fe4b698ec46881c3c3f96db42d3b1b73647fa4f",
+      "imageProcessing": "Original full frame preserved; proportional resize within 1200 × 1200; WebP quality 88. No crop, recolor, retouching or generated angle."
+    }
+  ],
+  "galleries": {
+    "records": [
+      {
+        "id": "chrome-hearts-baby-fat-silver-jr-10417229988154",
+        "reference": "Merchant item 10417229988154",
+        "images": [
+          {
+            "path": "assets/img/views/chrome-hearts-baby-fat-silver-jr-10417229988154-2.webp",
+            "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/2_37664913-4925-4a87-a674-0d2de46b281a.jpg?v=1788211612",
+            "pageSource": "https://justinreed.com/products/chrome-hearts-baby-fat-pendant-5964584748454157785878774",
+            "credit": "Justin Reed · photograph of the exact listed Chrome Hearts piece",
+            "alt": "Baby Fat Cross Pendant — sterling silver — reverse view",
+            "viewLabel": "Reverse view",
+            "width": 960,
+            "height": 1200,
+            "originalWidth": 2400,
+            "originalHeight": 3000,
+            "checkedAt": "2026-10-26",
+            "sourceSHA256": "290b663eb5471b6a515caedc4abc8994465f7443c8630a6a186626b08a6d7984",
+            "sha256": "de64905fe185a2d3a406eb669f2879493532822da4c91864ce02ffdfb951b683",
+            "processing": "Original full frame preserved; proportional resize within 1200 × 1200; WebP quality 88. No crop, recolor, retouching or generated angle.",
+            "evidence": "The reverse face of the same Baby Fat pendant; the attachment ring is turned toward the camera.",
+            "originalSnapshot": "/tmp/muselux-chrome-necklaces/baby-b-2.jpg"
+          },
+          {
+            "path": "assets/img/views/chrome-hearts-baby-fat-silver-jr-10417229988154-3.webp",
+            "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/3_add1a727-26fd-48a3-8664-a2deac24c30b.jpg?v=1788211612",
+            "pageSource": "https://justinreed.com/products/chrome-hearts-baby-fat-pendant-5964584748454157785878774",
+            "credit": "Justin Reed · photograph of the exact listed Chrome Hearts piece",
+            "alt": "Baby Fat Cross Pendant — sterling silver — side profile",
+            "viewLabel": "Side profile",
+            "width": 960,
+            "height": 1200,
+            "originalWidth": 2400,
+            "originalHeight": 3000,
+            "checkedAt": "2026-10-26",
+            "sourceSHA256": "1b53e6d2c59f3a8cbcc4a9988f43e6dc5df3efa4278625a3b6295877e1fd5e4c",
+            "sha256": "eddf1605addcc7ce56bdbe9e772ba6711c99375fe73e9cf538cfdea3a1f08bf1",
+            "processing": "Original full frame preserved; proportional resize within 1200 × 1200; WebP quality 88. No crop, recolor, retouching or generated angle.",
+            "evidence": "The same pendant seen from its side, showing its thickness and the CH lettering on its edge.",
+            "originalSnapshot": "/tmp/muselux-chrome-necklaces/baby-b-3.jpg"
+          }
+        ]
+      },
+      {
+        "id": "chrome-hearts-dagger-silver-jr-15409514479930",
+        "reference": "Merchant item 15409514479930",
+        "images": [
+          {
+            "path": "assets/img/views/chrome-hearts-dagger-silver-jr-15409514479930-2.webp",
+            "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/2_eb1c5ce8-a8b3-45b2-96d2-aa955620c6b1.jpg?v=1791226249",
+            "pageSource": "https://justinreed.com/products/chrome-hearts-dagger-pendant-4564815458",
+            "credit": "Justin Reed · photograph of the exact listed Chrome Hearts piece",
+            "alt": "Dagger Pendant — sterling silver — reverse view",
+            "viewLabel": "Reverse view",
+            "width": 960,
+            "height": 1200,
+            "originalWidth": 2400,
+            "originalHeight": 3000,
+            "checkedAt": "2026-10-26",
+            "sourceSHA256": "eb98f44489ba3e4e2ffdf5dcc4576cd33597faf747cbcbb2d0f1983b0c4f2f4f",
+            "sha256": "398784377c0cda120103e3b9e478ec41fce9df880e8705624e9ad1f48e62f8ed",
+            "processing": "Original full frame preserved; proportional resize within 1200 × 1200; WebP quality 88. No crop, recolor, retouching or generated angle.",
+            "evidence": "The reverse face of the same dagger; the blade surface, crossguard lettering and open scrollwork differ from the front photograph.",
+            "originalSnapshot": "/tmp/muselux-chrome-necklaces/justin-dagger-2.jpg"
+          }
+        ]
+      },
+      {
+        "id": "chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522",
+        "reference": "Merchant item 10358159966522",
+        "images": [
+          {
+            "path": "assets/img/views/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522-3.webp",
+            "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/3_d0c4ae98-5429-41f7-ad8c-6d4eaec62373.jpg?v=1783965191",
+            "pageSource": "https://justinreed.com/products/chrome-hearts-vine-dagger-cut-out-dog-tag-pendant-w-ball-chain-necklace-69589",
+            "credit": "Justin Reed · photograph of the exact listed Chrome Hearts piece",
+            "alt": "Vine Dagger Cut Out Dog Tag with Ball Chain — reverse view",
+            "viewLabel": "Reverse view",
+            "width": 960,
+            "height": 1200,
+            "originalWidth": 2400,
+            "originalHeight": 3000,
+            "checkedAt": "2026-10-26",
+            "sourceSHA256": "6e7eb6057108ea75f3a68ebe6971333d5ffdfdbeac974934e46811e3041fb84e",
+            "sha256": "ebd081677f175e396c61541bd80b5d6a6a5e06c0e78a1db62f2104fba407677e",
+            "processing": "Original full frame preserved; proportional resize within 1200 × 1200; WebP quality 88. No crop, recolor, retouching or generated angle.",
+            "evidence": "The reverse face of the same rounded dog tag; the cutout reverses and the lower front engraving is absent.",
+            "originalSnapshot": "/tmp/muselux-chrome-necklaces/justin-dogtag-3.jpg"
+          },
+          {
+            "path": "assets/img/views/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522-1.webp",
+            "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_2ecc4bfe-e9d0-4afe-a1a2-50d22da3ecc6.jpg?v=1783965191",
+            "pageSource": "https://justinreed.com/products/chrome-hearts-vine-dagger-cut-out-dog-tag-pendant-w-ball-chain-necklace-69589",
+            "credit": "Justin Reed · photograph of the exact listed Chrome Hearts piece",
+            "alt": "Vine Dagger Cut Out Dog Tag with Ball Chain — full necklace",
+            "viewLabel": "Full necklace",
+            "width": 960,
+            "height": 1200,
+            "originalWidth": 2400,
+            "originalHeight": 3000,
+            "checkedAt": "2026-10-26",
+            "sourceSHA256": "d9ee2dfcdb9c6405be29ff40f3e7449c4c5bca1c767eca4777f59c54efaecb0b",
+            "sha256": "1ca61c238b6247b5e018951d959e64873dfd67f20cae26a7b2ad61f6018c08ec",
+            "processing": "Original full frame preserved; proportional resize within 1200 × 1200; WebP quality 88. No crop, recolor, retouching or generated angle.",
+            "evidence": "The exact listed dog tag and its complete ball chain, photographed together.",
+            "originalSnapshot": "/tmp/muselux-chrome-necklaces/justin-dogtag-1.jpg"
+          }
+        ]
+      }
+    ]
+  }
+}

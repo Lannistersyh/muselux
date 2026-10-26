@@ -1,0 +1,849 @@
+{
+  "checkedAt": "2026-10-26T23:32:12.664865+08:00",
+  "scope": "Read-only QA of 6 new Chrome Hearts products and 14 local output images. No network or browser used.",
+  "browserTabsOpened": 0,
+  "repoModified": false,
+  "inputs": [
+    {
+      "path": "/Users/admin/科研项目/muselux/tools/research/chrome-hearts-products.json",
+      "sha256": "eeced491fbe5ddfa8faef393865f2f316aa84e5f5a01b43a47a753836bcc2a3a"
+    },
+    {
+      "path": "/Users/admin/科研项目/muselux/tools/research/product-views-chrome-hearts.json",
+      "sha256": "32b8ac4567671a1be309c766362149b26a3b83aea85101ed97b3f88af71a011d"
+    }
+  ],
+  "products": [
+    {
+      "id": "chrome-hearts-baby-fat-silver-jr-10417229988154",
+      "name": "Baby Fat Cross Pendant — sterling silver",
+      "sellerName": "Justin Reed",
+      "listingReference": "Justin Reed item 10417229988154",
+      "source": "https://justinreed.com/products/chrome-hearts-baby-fat-pendant-5964584748454157785878774",
+      "sellerCondition": "Great Overall Condition",
+      "sellerConditionDetails": "Great condition, some signs of wear. Please review all pictures for details.",
+      "conditionClearlyRecorded": true,
+      "photoCount": 3,
+      "visualReview": {
+        "pass": true,
+        "samePieceAppearance": "All three photographs are consistent in the small fork-ended cross body, central raised ridge, flared tips and attachment ring.",
+        "distinctViews": "Primary face, reverse face with turned attachment ring, and an edge profile showing CH lettering are visibly different original photographs.",
+        "conditionNote": "Seller grade is Great Overall Condition; the explicit seller detail records some signs of wear. The QA does not replace the seller grade with an independent condition certification."
+      },
+      "imagePaths": [
+        "assets/img/products/chrome-hearts-baby-fat-silver-jr-10417229988154.webp",
+        "assets/img/views/chrome-hearts-baby-fat-silver-jr-10417229988154-2.webp",
+        "assets/img/views/chrome-hearts-baby-fat-silver-jr-10417229988154-3.webp"
+      ],
+      "samePieceVisualConsistencyPass": true,
+      "distinctViewPass": true
+    },
+    {
+      "id": "chrome-hearts-dagger-silver-jr-15409514479930",
+      "name": "Dagger Pendant — sterling silver",
+      "sellerName": "Justin Reed",
+      "listingReference": "Justin Reed item 15409514479930",
+      "source": "https://justinreed.com/products/chrome-hearts-dagger-pendant-4564815458",
+      "sellerCondition": "Great Overall Condition",
+      "sellerConditionDetails": "Great condition, some signs of wear. Please review all pictures for details.",
+      "conditionClearlyRecorded": true,
+      "photoCount": 2,
+      "visualReview": {
+        "pass": true,
+        "samePieceAppearance": "The two photographs match in the long dagger outline, open scrollwork, arched crossguard and narrow attachment loop.",
+        "distinctViews": "Front and reverse have visibly different blade surfaces and lettering/orientation on the crossguard; they are not duplicate or mirrored exports.",
+        "conditionNote": "Seller grade is Great Overall Condition; the explicit seller detail records some signs of wear."
+      },
+      "imagePaths": [
+        "assets/img/products/chrome-hearts-dagger-silver-jr-15409514479930.webp",
+        "assets/img/views/chrome-hearts-dagger-silver-jr-15409514479930-2.webp"
+      ],
+      "samePieceVisualConsistencyPass": true,
+      "distinctViewPass": true
+    },
+    {
+      "id": "chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522",
+      "name": "Vine Dagger Cut Out Dog Tag with Ball Chain",
+      "sellerName": "Justin Reed",
+      "listingReference": "Justin Reed item 10358159966522",
+      "source": "https://justinreed.com/products/chrome-hearts-vine-dagger-cut-out-dog-tag-pendant-w-ball-chain-necklace-69589",
+      "sellerCondition": "Pristine Overall Condition",
+      "sellerConditionDetails": "New without tags",
+      "conditionClearlyRecorded": true,
+      "photoCount": 3,
+      "visualReview": {
+        "pass": true,
+        "samePieceAppearance": "The rounded rectangular tag, central vine-dagger cutout and ball chain are consistent across both tag faces and the full-chain view.",
+        "distinctViews": "The primary tag face has lower lettering; the reverse face lacks that lettering, and a third photograph shows the complete necklace.",
+        "conditionNote": "Seller grade is Pristine Overall Condition, with New without tags stated separately. This remains a seller statement; reflective surfaces and fine surface marks visible in photographs are not independently graded."
+      },
+      "imagePaths": [
+        "assets/img/products/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522.webp",
+        "assets/img/views/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522-3.webp",
+        "assets/img/views/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522-1.webp"
+      ],
+      "samePieceVisualConsistencyPass": true,
+      "distinctViewPass": true
+    },
+    {
+      "id": "chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167",
+      "name": "Cemetery Cross Ring — sterling silver, US 11",
+      "sellerName": "FASHIONPHILE",
+      "listingReference": "FASHIONPHILE item 1962167",
+      "source": "https://www.fashionphile.com/products/chrome-hearts-sterling-silver-cemetery-cross-ring-65-11-1962167",
+      "sellerCondition": "Excellent; seller notes faint scratches.",
+      "sellerConditionDetails": null,
+      "conditionClearlyRecorded": true,
+      "photoCount": 2,
+      "visualReview": {
+        "pass": true,
+        "samePieceAppearance": "The raised alternating crosses, dark recesses and wide band proportions match between the isolated ring photograph and mannequin-hand photograph.",
+        "distinctViews": "A close front view and a mannequin-hand scale view are distinct seller photographs.",
+        "conditionNote": "Excellent is explicitly recorded together with the seller disclosure of faint scratches."
+      },
+      "imagePaths": [
+        "assets/img/products/chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167.webp",
+        "assets/img/views/chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167.webp"
+      ],
+      "samePieceVisualConsistencyPass": true,
+      "distinctViewPass": true
+    },
+    {
+      "id": "chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526",
+      "name": "CH Forever Ring — .925 silver, US 11",
+      "sellerName": "Justin Reed",
+      "listingReference": "Justin Reed listing 5263256526",
+      "source": "https://justinreed.com/products/chrome-hearts-ch-forever-ring-5263256526",
+      "sellerCondition": "Good overall; seller describes heavy polishing and signs of consistent wear.",
+      "sellerConditionDetails": null,
+      "conditionClearlyRecorded": true,
+      "photoCount": 2,
+      "visualReview": {
+        "pass": true,
+        "samePieceAppearance": "Both views show the same narrow band profile, finish and wear, with Gothic lettering around one segment and repeated crosses around another.",
+        "distinctViews": "The lettering segment and cross-motif segment are photographed from different orientations, with corresponding interior-marking differences; neither image is a mirror of the other.",
+        "conditionNote": "Good overall is explicitly recorded together with heavy polishing and signs of consistent wear."
+      },
+      "imagePaths": [
+        "assets/img/products/chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526.webp",
+        "assets/img/views/chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526.webp"
+      ],
+      "samePieceVisualConsistencyPass": true,
+      "distinctViewPass": true
+    },
+    {
+      "id": "chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684",
+      "name": "Paper Chain Bracelet — .925 silver, 7 inches",
+      "sellerName": "Justin Reed",
+      "listingReference": "Justin Reed listing 64684684",
+      "source": "https://justinreed.com/products/chrome-hearts-paper-chain-bracelet-64684684",
+      "sellerCondition": "Great overall; seller notes general signs of wear.",
+      "sellerConditionDetails": null,
+      "conditionClearlyRecorded": true,
+      "photoCount": 2,
+      "visualReview": {
+        "pass": true,
+        "samePieceAppearance": "The full bracelet and link detail share the same rounded engraved links, dark inner recesses and clasp/link style.",
+        "distinctViews": "The full bracelet and close link view are distinct original source photographs, rather than two exports cropped from one local image. The detail photograph has the seller’s original close framing; MuseLux has preserved that entire source frame.",
+        "conditionNote": "Great overall is explicitly recorded together with general signs of wear."
+      },
+      "imagePaths": [
+        "assets/img/products/chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684.webp",
+        "assets/img/views/chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684.webp"
+      ],
+      "samePieceVisualConsistencyPass": true,
+      "distinctViewPass": true
+    }
+  ],
+  "images": [
+    {
+      "productId": "chrome-hearts-baby-fat-silver-jr-10417229988154",
+      "role": "primary",
+      "viewLabel": "Primary image",
+      "path": "/Users/admin/科研项目/muselux/assets/img/products/chrome-hearts-baby-fat-silver-jr-10417229988154.webp",
+      "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_b899f9a3-531e-4396-bca8-5f203f4553b6.jpg?v=1788211612",
+      "output": {
+        "sha256": "00d044aacfc73f7de67d09c1a5925aa474df0d5945bbd2703bd494fae5796bab",
+        "expectedSha256": "00d044aacfc73f7de67d09c1a5925aa474df0d5945bbd2703bd494fae5796bab",
+        "dimensions": [
+          960,
+          1200
+        ],
+        "format": "WEBP",
+        "bytes": 13652
+      },
+      "original": {
+        "path": "/tmp/muselux-chrome-necklaces/baby-b.jpg",
+        "sha256": "6eb77392d9e43643581897a937feeb43a1dddfeedd79155813627429d870f62d",
+        "dimensions": [
+          2400,
+          3000
+        ],
+        "format": "JPEG",
+        "bytes": 71447,
+        "matchingReproductionPipelines": [
+          "RGB conversion, proportional Lanczos resize",
+          "EXIF transpose, RGB conversion, proportional Lanczos resize"
+        ]
+      },
+      "checks": {
+        "fileExists": true,
+        "fullPixelDecode": true,
+        "formatWebP": true,
+        "recordedDimensionsMatch": true,
+        "longestEdgeAtMost1200": true,
+        "recordedOutputHashMatch": true,
+        "originalLocatedByRecordedHash": true,
+        "galleryPageMatchesProduct": true,
+        "recordedOriginalHashMatch": true,
+        "recordedOriginalDimensionsMatch": true,
+        "originalFullPixelDecode": true,
+        "byteExactFullFrameReproduction": true
+      },
+      "pass": true
+    },
+    {
+      "productId": "chrome-hearts-baby-fat-silver-jr-10417229988154",
+      "role": "gallery",
+      "viewLabel": "Reverse view",
+      "path": "/Users/admin/科研项目/muselux/assets/img/views/chrome-hearts-baby-fat-silver-jr-10417229988154-2.webp",
+      "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/2_37664913-4925-4a87-a674-0d2de46b281a.jpg?v=1788211612",
+      "output": {
+        "sha256": "de64905fe185a2d3a406eb669f2879493532822da4c91864ce02ffdfb951b683",
+        "expectedSha256": "de64905fe185a2d3a406eb669f2879493532822da4c91864ce02ffdfb951b683",
+        "dimensions": [
+          960,
+          1200
+        ],
+        "format": "WEBP",
+        "bytes": 14252
+      },
+      "original": {
+        "path": "/tmp/muselux-chrome-necklaces/baby-b-2.jpg",
+        "sha256": "290b663eb5471b6a515caedc4abc8994465f7443c8630a6a186626b08a6d7984",
+        "dimensions": [
+          2400,
+          3000
+        ],
+        "format": "JPEG",
+        "bytes": 74296,
+        "matchingReproductionPipelines": [
+          "RGB conversion, proportional Lanczos resize",
+          "EXIF transpose, RGB conversion, proportional Lanczos resize"
+        ]
+      },
+      "checks": {
+        "fileExists": true,
+        "fullPixelDecode": true,
+        "formatWebP": true,
+        "recordedDimensionsMatch": true,
+        "longestEdgeAtMost1200": true,
+        "recordedOutputHashMatch": true,
+        "originalLocatedByRecordedHash": true,
+        "galleryPageMatchesProduct": true,
+        "recordedOriginalHashMatch": true,
+        "recordedOriginalDimensionsMatch": true,
+        "originalFullPixelDecode": true,
+        "byteExactFullFrameReproduction": true
+      },
+      "pass": true
+    },
+    {
+      "productId": "chrome-hearts-baby-fat-silver-jr-10417229988154",
+      "role": "gallery",
+      "viewLabel": "Side profile",
+      "path": "/Users/admin/科研项目/muselux/assets/img/views/chrome-hearts-baby-fat-silver-jr-10417229988154-3.webp",
+      "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/3_add1a727-26fd-48a3-8664-a2deac24c30b.jpg?v=1788211612",
+      "output": {
+        "sha256": "eddf1605addcc7ce56bdbe9e772ba6711c99375fe73e9cf538cfdea3a1f08bf1",
+        "expectedSha256": "eddf1605addcc7ce56bdbe9e772ba6711c99375fe73e9cf538cfdea3a1f08bf1",
+        "dimensions": [
+          960,
+          1200
+        ],
+        "format": "WEBP",
+        "bytes": 25222
+      },
+      "original": {
+        "path": "/tmp/muselux-chrome-necklaces/baby-b-3.jpg",
+        "sha256": "1b53e6d2c59f3a8cbcc4a9988f43e6dc5df3efa4278625a3b6295877e1fd5e4c",
+        "dimensions": [
+          2400,
+          3000
+        ],
+        "format": "JPEG",
+        "bytes": 118474,
+        "matchingReproductionPipelines": [
+          "RGB conversion, proportional Lanczos resize",
+          "EXIF transpose, RGB conversion, proportional Lanczos resize"
+        ]
+      },
+      "checks": {
+        "fileExists": true,
+        "fullPixelDecode": true,
+        "formatWebP": true,
+        "recordedDimensionsMatch": true,
+        "longestEdgeAtMost1200": true,
+        "recordedOutputHashMatch": true,
+        "originalLocatedByRecordedHash": true,
+        "galleryPageMatchesProduct": true,
+        "recordedOriginalHashMatch": true,
+        "recordedOriginalDimensionsMatch": true,
+        "originalFullPixelDecode": true,
+        "byteExactFullFrameReproduction": true
+      },
+      "pass": true
+    },
+    {
+      "productId": "chrome-hearts-dagger-silver-jr-15409514479930",
+      "role": "primary",
+      "viewLabel": "Primary image",
+      "path": "/Users/admin/科研项目/muselux/assets/img/products/chrome-hearts-dagger-silver-jr-15409514479930.webp",
+      "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_63777f21-3216-4055-b677-7d360f4ff755.jpg?v=1791226249",
+      "output": {
+        "sha256": "e4d07100d02f26cbe816636251a125d21fb58a6775a88531f3cc4267d41329e3",
+        "expectedSha256": "e4d07100d02f26cbe816636251a125d21fb58a6775a88531f3cc4267d41329e3",
+        "dimensions": [
+          960,
+          1200
+        ],
+        "format": "WEBP",
+        "bytes": 33882
+      },
+      "original": {
+        "path": "/tmp/muselux-chrome-necklaces/justin-dagger-1.jpg",
+        "sha256": "46f01705d22d6e26e2a26aa87ce172b549889f03e6e6a296b19cc8dac653024c",
+        "dimensions": [
+          2400,
+          3000
+        ],
+        "format": "JPEG",
+        "bytes": 147420,
+        "matchingReproductionPipelines": [
+          "RGB conversion, proportional Lanczos resize",
+          "EXIF transpose, RGB conversion, proportional Lanczos resize"
+        ]
+      },
+      "checks": {
+        "fileExists": true,
+        "fullPixelDecode": true,
+        "formatWebP": true,
+        "recordedDimensionsMatch": true,
+        "longestEdgeAtMost1200": true,
+        "recordedOutputHashMatch": true,
+        "originalLocatedByRecordedHash": true,
+        "galleryPageMatchesProduct": true,
+        "recordedOriginalHashMatch": true,
+        "recordedOriginalDimensionsMatch": true,
+        "originalFullPixelDecode": true,
+        "byteExactFullFrameReproduction": true
+      },
+      "pass": true
+    },
+    {
+      "productId": "chrome-hearts-dagger-silver-jr-15409514479930",
+      "role": "gallery",
+      "viewLabel": "Reverse view",
+      "path": "/Users/admin/科研项目/muselux/assets/img/views/chrome-hearts-dagger-silver-jr-15409514479930-2.webp",
+      "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/2_eb1c5ce8-a8b3-45b2-96d2-aa955620c6b1.jpg?v=1791226249",
+      "output": {
+        "sha256": "398784377c0cda120103e3b9e478ec41fce9df880e8705624e9ad1f48e62f8ed",
+        "expectedSha256": "398784377c0cda120103e3b9e478ec41fce9df880e8705624e9ad1f48e62f8ed",
+        "dimensions": [
+          960,
+          1200
+        ],
+        "format": "WEBP",
+        "bytes": 30686
+      },
+      "original": {
+        "path": "/tmp/muselux-chrome-necklaces/justin-dagger-2.jpg",
+        "sha256": "eb98f44489ba3e4e2ffdf5dcc4576cd33597faf747cbcbb2d0f1983b0c4f2f4f",
+        "dimensions": [
+          2400,
+          3000
+        ],
+        "format": "JPEG",
+        "bytes": 132403,
+        "matchingReproductionPipelines": [
+          "RGB conversion, proportional Lanczos resize",
+          "EXIF transpose, RGB conversion, proportional Lanczos resize"
+        ]
+      },
+      "checks": {
+        "fileExists": true,
+        "fullPixelDecode": true,
+        "formatWebP": true,
+        "recordedDimensionsMatch": true,
+        "longestEdgeAtMost1200": true,
+        "recordedOutputHashMatch": true,
+        "originalLocatedByRecordedHash": true,
+        "galleryPageMatchesProduct": true,
+        "recordedOriginalHashMatch": true,
+        "recordedOriginalDimensionsMatch": true,
+        "originalFullPixelDecode": true,
+        "byteExactFullFrameReproduction": true
+      },
+      "pass": true
+    },
+    {
+      "productId": "chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522",
+      "role": "primary",
+      "viewLabel": "Primary image",
+      "path": "/Users/admin/科研项目/muselux/assets/img/products/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522.webp",
+      "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/2_841a7564-f3d0-4cd9-baf2-a89eda0e8295.jpg?v=1783965191",
+      "output": {
+        "sha256": "3b9eca2d5ada3819cb9785368fe4b698ec46881c3c3f96db42d3b1b73647fa4f",
+        "expectedSha256": "3b9eca2d5ada3819cb9785368fe4b698ec46881c3c3f96db42d3b1b73647fa4f",
+        "dimensions": [
+          960,
+          1200
+        ],
+        "format": "WEBP",
+        "bytes": 68522
+      },
+      "original": {
+        "path": "/tmp/muselux-chrome-necklaces/justin-dogtag-2.jpg",
+        "sha256": "e3efb6dd71d9ceffa4c8df46466767f7a5891112ff58ff34c9fc4e10a95ca1c6",
+        "dimensions": [
+          2400,
+          3000
+        ],
+        "format": "JPEG",
+        "bytes": 353665,
+        "matchingReproductionPipelines": [
+          "RGB conversion, proportional Lanczos resize",
+          "EXIF transpose, RGB conversion, proportional Lanczos resize"
+        ]
+      },
+      "checks": {
+        "fileExists": true,
+        "fullPixelDecode": true,
+        "formatWebP": true,
+        "recordedDimensionsMatch": true,
+        "longestEdgeAtMost1200": true,
+        "recordedOutputHashMatch": true,
+        "originalLocatedByRecordedHash": true,
+        "galleryPageMatchesProduct": true,
+        "recordedOriginalHashMatch": true,
+        "recordedOriginalDimensionsMatch": true,
+        "originalFullPixelDecode": true,
+        "byteExactFullFrameReproduction": true
+      },
+      "pass": true
+    },
+    {
+      "productId": "chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522",
+      "role": "gallery",
+      "viewLabel": "Reverse view",
+      "path": "/Users/admin/科研项目/muselux/assets/img/views/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522-3.webp",
+      "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/3_d0c4ae98-5429-41f7-ad8c-6d4eaec62373.jpg?v=1783965191",
+      "output": {
+        "sha256": "ebd081677f175e396c61541bd80b5d6a6a5e06c0e78a1db62f2104fba407677e",
+        "expectedSha256": "ebd081677f175e396c61541bd80b5d6a6a5e06c0e78a1db62f2104fba407677e",
+        "dimensions": [
+          960,
+          1200
+        ],
+        "format": "WEBP",
+        "bytes": 45964
+      },
+      "original": {
+        "path": "/tmp/muselux-chrome-necklaces/justin-dogtag-3.jpg",
+        "sha256": "6e7eb6057108ea75f3a68ebe6971333d5ffdfdbeac974934e46811e3041fb84e",
+        "dimensions": [
+          2400,
+          3000
+        ],
+        "format": "JPEG",
+        "bytes": 281570,
+        "matchingReproductionPipelines": [
+          "RGB conversion, proportional Lanczos resize",
+          "EXIF transpose, RGB conversion, proportional Lanczos resize"
+        ]
+      },
+      "checks": {
+        "fileExists": true,
+        "fullPixelDecode": true,
+        "formatWebP": true,
+        "recordedDimensionsMatch": true,
+        "longestEdgeAtMost1200": true,
+        "recordedOutputHashMatch": true,
+        "originalLocatedByRecordedHash": true,
+        "galleryPageMatchesProduct": true,
+        "recordedOriginalHashMatch": true,
+        "recordedOriginalDimensionsMatch": true,
+        "originalFullPixelDecode": true,
+        "byteExactFullFrameReproduction": true
+      },
+      "pass": true
+    },
+    {
+      "productId": "chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522",
+      "role": "gallery",
+      "viewLabel": "Full necklace",
+      "path": "/Users/admin/科研项目/muselux/assets/img/views/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522-1.webp",
+      "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_2ecc4bfe-e9d0-4afe-a1a2-50d22da3ecc6.jpg?v=1783965191",
+      "output": {
+        "sha256": "1ca61c238b6247b5e018951d959e64873dfd67f20cae26a7b2ad61f6018c08ec",
+        "expectedSha256": "1ca61c238b6247b5e018951d959e64873dfd67f20cae26a7b2ad61f6018c08ec",
+        "dimensions": [
+          960,
+          1200
+        ],
+        "format": "WEBP",
+        "bytes": 13692
+      },
+      "original": {
+        "path": "/tmp/muselux-chrome-necklaces/justin-dogtag-1.jpg",
+        "sha256": "d9ee2dfcdb9c6405be29ff40f3e7449c4c5bca1c767eca4777f59c54efaecb0b",
+        "dimensions": [
+          2400,
+          3000
+        ],
+        "format": "JPEG",
+        "bytes": 79589,
+        "matchingReproductionPipelines": [
+          "RGB conversion, proportional Lanczos resize",
+          "EXIF transpose, RGB conversion, proportional Lanczos resize"
+        ]
+      },
+      "checks": {
+        "fileExists": true,
+        "fullPixelDecode": true,
+        "formatWebP": true,
+        "recordedDimensionsMatch": true,
+        "longestEdgeAtMost1200": true,
+        "recordedOutputHashMatch": true,
+        "originalLocatedByRecordedHash": true,
+        "galleryPageMatchesProduct": true,
+        "recordedOriginalHashMatch": true,
+        "recordedOriginalDimensionsMatch": true,
+        "originalFullPixelDecode": true,
+        "byteExactFullFrameReproduction": true
+      },
+      "pass": true
+    },
+    {
+      "productId": "chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167",
+      "role": "primary",
+      "viewLabel": "Primary image",
+      "path": "/Users/admin/科研项目/muselux/assets/img/products/chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0894/3186/7695/files/0270c09aa633a9cafbdf7b5d452fcb80.jpg?v=1791569364",
+      "output": {
+        "sha256": "aaf537d2e545f5c86a5bf59e170fce71bd141df6a80da6b41df28cc654899079",
+        "expectedSha256": "aaf537d2e545f5c86a5bf59e170fce71bd141df6a80da6b41df28cc654899079",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "WEBP",
+        "bytes": 140918
+      },
+      "original": {
+        "path": "/tmp/chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167-1.jpg",
+        "sha256": "ab8d6c8f8ec0a45055815d7312dd1b8bafc56a1d40619508bf1b5bed3a3ff88e",
+        "dimensions": [
+          1500,
+          1500
+        ],
+        "format": "JPEG",
+        "bytes": 222001,
+        "matchingReproductionPipelines": [
+          "RGB conversion, proportional Lanczos resize",
+          "EXIF transpose, RGB conversion, proportional Lanczos resize"
+        ]
+      },
+      "checks": {
+        "fileExists": true,
+        "fullPixelDecode": true,
+        "formatWebP": true,
+        "recordedDimensionsMatch": true,
+        "longestEdgeAtMost1200": true,
+        "recordedOutputHashMatch": true,
+        "originalLocatedByRecordedHash": true,
+        "galleryPageMatchesProduct": true,
+        "recordedOriginalHashMatch": true,
+        "recordedOriginalDimensionsMatch": true,
+        "originalFullPixelDecode": true,
+        "byteExactFullFrameReproduction": true
+      },
+      "pass": true
+    },
+    {
+      "productId": "chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167",
+      "role": "gallery",
+      "viewLabel": "On mannequin hand",
+      "path": "/Users/admin/科研项目/muselux/assets/img/views/chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0894/3186/7695/files/2f292f01d55d1cbaf0f72abd6a902ae3.jpg?v=1791569364",
+      "output": {
+        "sha256": "9aac5e857c1594aa7a45eca854dcb0714b1515884d9ed03a12ff125438d70f53",
+        "expectedSha256": "9aac5e857c1594aa7a45eca854dcb0714b1515884d9ed03a12ff125438d70f53",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "WEBP",
+        "bytes": 20052
+      },
+      "original": {
+        "path": "/tmp/chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167-2.jpg",
+        "sha256": "91ebb49bc61c09d46c6c18e1ce86df3f41c2cfbc5163f865a35d17f85e235913",
+        "dimensions": [
+          1500,
+          1500
+        ],
+        "format": "JPEG",
+        "bytes": 44923,
+        "matchingReproductionPipelines": [
+          "RGB conversion, proportional Lanczos resize",
+          "EXIF transpose, RGB conversion, proportional Lanczos resize"
+        ]
+      },
+      "checks": {
+        "fileExists": true,
+        "fullPixelDecode": true,
+        "formatWebP": true,
+        "recordedDimensionsMatch": true,
+        "longestEdgeAtMost1200": true,
+        "recordedOutputHashMatch": true,
+        "originalLocatedByRecordedHash": true,
+        "galleryPageMatchesProduct": true,
+        "recordedOriginalHashMatch": true,
+        "recordedOriginalDimensionsMatch": true,
+        "originalFullPixelDecode": true,
+        "byteExactFullFrameReproduction": true
+      },
+      "pass": true
+    },
+    {
+      "productId": "chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526",
+      "role": "primary",
+      "viewLabel": "Primary image",
+      "path": "/Users/admin/科研项目/muselux/assets/img/products/chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526.webp",
+      "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_929a9281-a220-4787-8de7-d65feec5f29c.jpg?v=1792437233",
+      "output": {
+        "sha256": "f643eca679881917e556ba48c929283fdd0380c1e444f3353ea9781064a8c3cb",
+        "expectedSha256": "f643eca679881917e556ba48c929283fdd0380c1e444f3353ea9781064a8c3cb",
+        "dimensions": [
+          960,
+          1200
+        ],
+        "format": "WEBP",
+        "bytes": 41956
+      },
+      "original": {
+        "path": "/tmp/chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526-1.jpg",
+        "sha256": "5d85975cafadde4ed7367690fc89d0caa707a514e5cd0b0c7e4af8690d94f310",
+        "dimensions": [
+          2400,
+          3000
+        ],
+        "format": "JPEG",
+        "bytes": 208686,
+        "matchingReproductionPipelines": [
+          "RGB conversion, proportional Lanczos resize",
+          "EXIF transpose, RGB conversion, proportional Lanczos resize"
+        ]
+      },
+      "checks": {
+        "fileExists": true,
+        "fullPixelDecode": true,
+        "formatWebP": true,
+        "recordedDimensionsMatch": true,
+        "longestEdgeAtMost1200": true,
+        "recordedOutputHashMatch": true,
+        "originalLocatedByRecordedHash": true,
+        "galleryPageMatchesProduct": true,
+        "recordedOriginalHashMatch": true,
+        "recordedOriginalDimensionsMatch": true,
+        "originalFullPixelDecode": true,
+        "byteExactFullFrameReproduction": true
+      },
+      "pass": true
+    },
+    {
+      "productId": "chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526",
+      "role": "gallery",
+      "viewLabel": "Cross-motif view",
+      "path": "/Users/admin/科研项目/muselux/assets/img/views/chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526.webp",
+      "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/2_ad272f1d-d2a4-4b18-a7ef-5e2a7cf0dea8.jpg?v=1792437233",
+      "output": {
+        "sha256": "106b633fa131d7655424c93985d7aaf554530f13aee6e33b9a03e6b20ff475de",
+        "expectedSha256": "106b633fa131d7655424c93985d7aaf554530f13aee6e33b9a03e6b20ff475de",
+        "dimensions": [
+          960,
+          1200
+        ],
+        "format": "WEBP",
+        "bytes": 37004
+      },
+      "original": {
+        "path": "/tmp/chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526-2.jpg",
+        "sha256": "3c810f96a67b26dd7f061992b5d46e196eb5cb7c3e7b1d47f7f7b9b82197aa52",
+        "dimensions": [
+          2400,
+          3000
+        ],
+        "format": "JPEG",
+        "bytes": 195072,
+        "matchingReproductionPipelines": [
+          "RGB conversion, proportional Lanczos resize",
+          "EXIF transpose, RGB conversion, proportional Lanczos resize"
+        ]
+      },
+      "checks": {
+        "fileExists": true,
+        "fullPixelDecode": true,
+        "formatWebP": true,
+        "recordedDimensionsMatch": true,
+        "longestEdgeAtMost1200": true,
+        "recordedOutputHashMatch": true,
+        "originalLocatedByRecordedHash": true,
+        "galleryPageMatchesProduct": true,
+        "recordedOriginalHashMatch": true,
+        "recordedOriginalDimensionsMatch": true,
+        "originalFullPixelDecode": true,
+        "byteExactFullFrameReproduction": true
+      },
+      "pass": true
+    },
+    {
+      "productId": "chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684",
+      "role": "primary",
+      "viewLabel": "Primary image",
+      "path": "/Users/admin/科研项目/muselux/assets/img/products/chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684.webp",
+      "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_50041435-a7d8-47ac-aad3-65efde3909d2.jpg?v=1780354629",
+      "output": {
+        "sha256": "c45a10a276a03482e420ce5016f8f2668d24d39d95b9235aab2abcdc97bf30bb",
+        "expectedSha256": "c45a10a276a03482e420ce5016f8f2668d24d39d95b9235aab2abcdc97bf30bb",
+        "dimensions": [
+          960,
+          1200
+        ],
+        "format": "WEBP",
+        "bytes": 16788
+      },
+      "original": {
+        "path": "/tmp/chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684-1.jpg",
+        "sha256": "e7329dee032ac1b44a7531a9ca2cdf2d2ab63a92a2206743fd914e4de419e8a6",
+        "dimensions": [
+          2400,
+          3000
+        ],
+        "format": "JPEG",
+        "bytes": 84197,
+        "matchingReproductionPipelines": [
+          "RGB conversion, proportional Lanczos resize",
+          "EXIF transpose, RGB conversion, proportional Lanczos resize"
+        ]
+      },
+      "checks": {
+        "fileExists": true,
+        "fullPixelDecode": true,
+        "formatWebP": true,
+        "recordedDimensionsMatch": true,
+        "longestEdgeAtMost1200": true,
+        "recordedOutputHashMatch": true,
+        "originalLocatedByRecordedHash": true,
+        "galleryPageMatchesProduct": true,
+        "recordedOriginalHashMatch": true,
+        "recordedOriginalDimensionsMatch": true,
+        "originalFullPixelDecode": true,
+        "byteExactFullFrameReproduction": true
+      },
+      "pass": true
+    },
+    {
+      "productId": "chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684",
+      "role": "gallery",
+      "viewLabel": "Link detail view",
+      "path": "/Users/admin/科研项目/muselux/assets/img/views/chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684.webp",
+      "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/2_11f8525d-cb36-4f26-9f63-ff2c3b628b43.jpg?v=1780354629",
+      "output": {
+        "sha256": "4b8bf6ae85838337fad0c264c1e538f77e22826aec352064a18191497378d8a3",
+        "expectedSha256": "4b8bf6ae85838337fad0c264c1e538f77e22826aec352064a18191497378d8a3",
+        "dimensions": [
+          960,
+          1200
+        ],
+        "format": "WEBP",
+        "bytes": 40002
+      },
+      "original": {
+        "path": "/tmp/chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684-2.jpg",
+        "sha256": "2d28eed5fc930f7e2003538fbdb3fd04bdd2b61ac0e56454fa5d0b662c3b9725",
+        "dimensions": [
+          2400,
+          3000
+        ],
+        "format": "JPEG",
+        "bytes": 199173,
+        "matchingReproductionPipelines": [
+          "RGB conversion, proportional Lanczos resize",
+          "EXIF transpose, RGB conversion, proportional Lanczos resize"
+        ]
+      },
+      "checks": {
+        "fileExists": true,
+        "fullPixelDecode": true,
+        "formatWebP": true,
+        "recordedDimensionsMatch": true,
+        "longestEdgeAtMost1200": true,
+        "recordedOutputHashMatch": true,
+        "originalLocatedByRecordedHash": true,
+        "galleryPageMatchesProduct": true,
+        "recordedOriginalHashMatch": true,
+        "recordedOriginalDimensionsMatch": true,
+        "originalFullPixelDecode": true,
+        "byteExactFullFrameReproduction": true
+      },
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "contactSheets": [
+    "/tmp/muselux-chrome-images-20261026-contact.jpg",
+    "/tmp/muselux-chrome-images-20261026-necklaces-contact.jpg",
+    "/tmp/muselux-chrome-images-20261026-jewelry-contact.jpg"
+  ],
+  "summary": {
+    "products": 6,
+    "uniqueImageFiles": 14,
+    "fullPixelDecodesPassed": 14,
+    "recordedDimensionsPassed": 14,
+    "outputHashesPassed": 14,
+    "originalHashesPassed": 14,
+    "byteExactFullFrameReproductions": 14,
+    "uniqueOutputHashes": 14,
+    "uniqueSourceHashes": 14,
+    "visualReviewPending": false,
+    "visualGroupsPassed": 6,
+    "conditionsClearlyRecorded": 6,
+    "allChecksPass": true,
+    "issuesFound": 0,
+    "noAdditionalCropMirrorOrSyntheticAngle": "All 14 output files were reproduced byte-for-byte from their recorded original files using only full-frame proportional Lanczos resize and WebP quality 88/method 6 (plus EXIF orientation where applicable). This verifies that the export pipeline introduced no crop, mirror, retouching, composite or generated angle.",
+    "authenticationScope": "Visual consistency and file provenance QA only; no independent authentication or metal/stone/weight certification was performed."
+  },
+  "proofScope": {
+    "sourceFiles": "All 14 original downloads were located locally by their recorded SHA-256 hashes and fully pixel-decoded. All recorded original dimensions matched.",
+    "outputFiles": "All 14 unique WebP outputs were fully pixel-decoded. All recorded output dimensions and hashes matched; all longest edges are <=1200 px.",
+    "gallerySources": "Every gallery pageSource matches its owning product source. Each product has at least two unique source photographs and two unique output files.",
+    "visualEvidence": "Both half contact sheets were opened and inspected. No product mismatch, duplicated image or mirrored substitute was observed.",
+    "sellerConditions": "All 6 product condition grades are explicitly present in the combined source and copied into the report, together with the separate condition details where recorded."
+  },
+  "contactSheetProof": [
+    {
+      "path": "/tmp/muselux-chrome-images-20261026-contact.jpg",
+      "sha256": "703efd0d8eac6af97a413949a51fca2b906d0d9c763f8e33204eb20bdcedbd3f"
+    },
+    {
+      "path": "/tmp/muselux-chrome-images-20261026-necklaces-contact.jpg",
+      "sha256": "d6dc283aac556ef8b2ac3ced531e5e1ed120c845990f8e9e5c537da171f56ba8"
+    },
+    {
+      "path": "/tmp/muselux-chrome-images-20261026-jewelry-contact.jpg",
+      "sha256": "ce89a98f0495fd3362565156e460314691b3931f0b9f3ee1d05b455b1d780f41"
+    }
+  ]
+}

@@ -6,11 +6,12 @@ from pathlib import Path
 from collections import Counter
 from datetime import date
 from bag_yearbook import price_text
+from style_policy import PRICE_STATUSES, valid_category_counts, is_resale, validate_resale
 import json, re
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'tools/content.json'
-SOURCES=['bags-scarves.json','necklace-jewelry.json','watches-fragrance.json']
+SOURCES=['bags-scarves.json','necklace-jewelry.json','watches-fragrance.json','chrome-hearts-products.json']
 
 def checked_date(product):
     value=product.get('checkedAt','')
@@ -25,6 +26,8 @@ def validate_price_dates(product):
 
 def price_context(product):
     reviewed=checked_date(product).strftime('%d %B %Y').lstrip('0')
+    if is_resale(product):
+        return 'Resale listing · '+product['sellerName']+' · reviewed '+reviewed
     if product['priceStatus']=='live':
         return 'Official U.S. product page · checked '+reviewed
     note=product.get('sourceSnapshotNote','').lower()
@@ -45,7 +48,7 @@ def main():
             limitations.extend(source.get(key,[]))
     categories={x['id'] for x in data['categories']}
     counts=Counter(x['category'] for x in products)
-    assert set(counts)==categories and all(3<=n<=5 for n in counts.values()),'Expected three to five photographed products per category'
+    assert valid_category_counts(counts,categories),'Expected three to five photographed products per category; necklaces and jewelry allow up to eight'
     assert len({x['id'] for x in products})==len(products), 'Duplicate product id'
     brands={x['id']:x for x in data['brands']}
     legacy=[x for x in data['items'] if not x.get('styleEdit')]
@@ -64,7 +67,8 @@ def main():
         assert not x.get('parentItem') or x['parentItem'] in legacy_ids
         assert isinstance(x['priceUSD'],(int,float)) and x['priceUSD']>0
         assert (ROOT/x['image']).is_file(), x['image']
-        assert x['priceStatus'] in ('live','official-snapshot')
+        assert x['priceStatus'] in PRICE_STATUSES
+        validate_resale(x)
         validate_price_dates(x)
         x['styleEdit']=True
         x['priceCurrency']='USD'
@@ -72,7 +76,7 @@ def main():
         x['story']=x['introEn']
         x['facts']=x['featuresEn']
         x['priceContextEn']=price_context(x)
-        x['priceRange']=price_text(x)+', pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。'
+        x['priceRange']=(price_text(x)+', resale asking price for this listed example. 仅供参考，商家报价以来源页面为准；品牌价格以官方渠道为准。') if is_resale(x) else price_text(x)+', pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。'
         x['relatedArticles']=[a['id'] for a in data['articles'] if a['category']==x['category']][:3]
         brand=brands[x['brand']]
         brand['classicItems'].insert(0,x['id'])
@@ -86,6 +90,6 @@ def main():
     DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
     manifest=[{k:x[k] for k in ('id','brand','reference','source','image','imageSource','imageCredit','imageRightsNote','priceUSD','priceStatus','priceContextEn','checkedAt')} for x in products]
     (ROOT/'reports/product-sources.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
-    print(f'Merged {len(products)} photographed products; 3–5 per category; all prices in USD.')
+    print(f'Merged {len(products)} photographed products; 3–5 per category, up to 8 for jewelry and necklaces; USD provenance labelled.')
 
 if __name__=='__main__':main()

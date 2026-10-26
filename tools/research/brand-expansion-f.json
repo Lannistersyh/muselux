@@ -1,0 +1,138 @@
+{
+  "checkedAt": "2026-10-26",
+  "researchNotes": [
+    "Chrome Hearts 官网现行 Shop 导航公开 Baccarat、Scents、内衣及袜类，并提供门店与授权零售商列表。本轮未在官网公开入口核验到可完整引用的项链或首饰目录及其官方美元售价；不把零售商、转售平台或香氛银器的价格转写为品牌首饰官方价格。",
+    "官网确有公开标价的非首饰商品，例如 .925 sterling silver Matchstick Holder 为 1500 美元（核验时显示缺货）。这只证明该家居商品页面的公开价格，不能推出项链、戒指等首饰价格或库存。",
+    "1988 年创立与 Richard Stark 参与创立由 CFDA 成员档案确认；好莱坞车库起点来自 GQ 对 Stark 家族的原始采访。共同创立者 Leonard Kamhout、John Bowman 的姓名来自《洛杉矶时报》对 Stark 夫妇的原始采访。后者只用于这一简短创立信息，不沿用其旧价格、店数或其他商业信息。",
+    "1992 年 Accessory Designer of the Year 奖项由当时日本授权经营方 UNITED ARROWS 的官方 2007 年报明确记载；本轮未找到可直接访问的 CFDA 1992 年获奖档案。时间线保留这一来源层级，不把它写成 CFDA 原始颁奖公告。",
+    "1997、1999 年日本门店节点采用 UNITED ARROWS 的原始企业新闻；它是事件参与方的一手来源，且 Chrome Hearts 现行官网仍将 United Arrows 列为授权零售商。1997 年 UTICA 是日本专门店试验，不表述为品牌全球首店。",
+    "2024 年 MIKIMOTO 节点采用合作方官网原文及官网新闻列表；列表标注 2024-11-13。这是新闻发布日期，正文证明联名系列在纽约旗舰店的展示与佩戴，不将其当作精确首售日期。网页读取工具收到 403 后，以一次普通静态 HTTP 请求取得原文，无浏览器操作。",
+    "CFDA 成员档案的材质、手工制作及非固定季节发布说明属于机构刊载的设计师介绍，不作为独立工艺鉴定。本资料不采用“小批量”“最受欢迎”“限量稀缺”或保值排行等未经独立验证的市场结论。",
+    "克罗心、克羅心采用中文通行译名；本轮品牌官网未见其正式中文自称。“CH”歧义较大，未加入品牌搜索别名。全部研究为静态访问，开过 0 个浏览器标签。"
+  ],
+  "brands": [
+    {
+      "id": "chrome-hearts",
+      "name": "Chrome Hearts",
+      "nameZh": "克罗心",
+      "country": "美国",
+      "founded": 1988,
+      "foundingNote": "创立年份采用 CFDA 档案的 1988 年；GQ 对 Stark 家族的原始采访将起步地点记为洛杉矶好莱坞的车库。《洛杉矶时报》对 Stark 夫妇的原始采访同时记载 Leonard Kamhout 与 John Bowman 参与创立，Richard Stark 并非唯一创始人。",
+      "categories": [
+        "necklace",
+        "jewelry"
+      ],
+      "aliases": [
+        "ChromeHearts",
+        "CHROME HEARTS",
+        "克羅心",
+        "クロムハーツ"
+      ],
+      "tagline": "在银与皮革之间，刻下鲜明轮廓",
+      "intro": "克罗心的辨识度来自金属与皮革之间的张力：饱满的十字架、细密的雕刻和深浅相接的银色表面，把机车服饰的硬朗感缩成可以贴身佩戴的细节。品牌从皮革骑行装备起步，逐渐延伸到手工银饰、眼镜和家具，材质与制作始终贯穿其表达。观察一条项链，可以先看吊坠的体量、链节的节奏，再看纹样转折处如何承接光线。它的作品不随固定季节发布，让单件设计沿着自己的速度生长，也让珠宝与日常穿着形成更直接的联系。",
+      "timeline": [
+        {
+          "year": 1988,
+          "event": "Chrome Hearts 创立，从机车皮革骑行装备起步，Richard Stark 参与创立。",
+          "source": "https://cfda.com/member/richard-stark/",
+          "evidence": "CFDA 的 Richard Stark 成员档案明确写明 1988 年参与创立，并将品牌起点描述为 leather motorcycle riding-gear company。"
+        },
+        {
+          "year": 1992,
+          "event": "Richard Stark 获 CFDA 年度配饰设计师奖，Chrome Hearts 的银饰与皮革设计获得行业认可。",
+          "source": "https://www.united-arrows.co.jp/uploads/_archives/ir/pdf/ig07.pdf",
+          "evidence": "UNITED ARROWS 官方 2007 年报印刷页 16（PDF 第 8 页）英文明确记载 Stark 于 1992 年获 Council of Fashion Designers of America 的 Accessory Designer of the Year；来源为当时日本授权经营方的官方回顾。"
+        },
+        {
+          "year": 1997,
+          "event": "日本首家 Chrome Hearts 专门试验店 UTICA 于十月在原宿开设。",
+          "source": "https://www.united-arrows.co.jp/news/7569/",
+          "evidence": "UNITED ARROWS 于 2004 年四月十四日发布的企业新闻回顾：1997 年十月开设 Chrome Hearts only shop 一号店 UTICA，作为 UA Lab 试验店。该节点限定日本经营历史，不指品牌全球首店。"
+        },
+        {
+          "year": 1999,
+          "event": "十二月，青山旗舰店 CHROME HEARTS TOKYO 开设，日本专门店业务正式展开。",
+          "source": "https://www.united-arrows.co.jp/news/7569/",
+          "evidence": "同篇原始企业新闻明确记载 1999 年十二月东京青山 CHROME HEARTS TOKYO 开设，并说明由此开展该品牌业态；2007 年官方年报亦有相同月份和年份。"
+        },
+        {
+          "year": 2019,
+          "event": "与 Virgil Abloh 共同推出可拆成两部分的黑檀木长凳，将合作延伸到家具。",
+          "source": "https://www.architecturaldigest.com/story/virgil-abloh-chrome-hearts-collaboration-richard-stark-louis-vuitton-bench",
+          "evidence": "AD PRO 于 2019 年一月十日刊登对 Richard Stark 与 Virgil Abloh 的原始联合采访，当日介绍双方新发布的 bench；Abloh 说明黑檀木材料及两部分拼合的构思。"
+        },
+        {
+          "year": 2022,
+          "event": "Laurie Lynn Stark 与 Richard Stark 获 CFDA Geoffrey Beene 终身成就奖。",
+          "source": "https://cfda.com/news/laurie-lynn-richard-stark-receive-geoffrey-beene-lifetime-achievement-award/",
+          "evidence": "CFDA 于 2022 年十一月九日发布颁奖报道，明确两位获奖者、Geoffrey Beene Lifetime Achievement Award 名称，以及由 Cher 和 Jesse Jo Stark 颁奖。"
+        },
+        {
+          "year": 2024,
+          "event": "与 MIKIMOTO 合作的珍珠珠宝系列亮相纽约第五大道旗舰店，由杨紫琼率先佩戴。",
+          "source": "https://www.mikimoto.com/jp_en/news-event-at-new-york-boutique-2024-en",
+          "evidence": "MIKIMOTO 官方新闻正文介绍 Michelle Yeoh 在纽约第五大道旗舰店率先佩戴 Mikimoto Chrome Hearts Collection；官网新闻列表第二页将该文标注为 2024-11-13。此年份对应官方披露的展示，不推断精确首售日期。"
+        }
+      ],
+      "signatures": [
+        "手工 sterling silver 珠宝",
+        "十字架与 CH Plus 纹样",
+        "金属雕刻与皮革细节",
+        "从随身配饰延展至家具的制作语言"
+      ],
+      "source": "https://cfda.com/member/richard-stark/",
+      "sources": [
+        {
+          "label": "CFDA — Richard Stark：1988 年创立、手工珠宝与发布方式",
+          "url": "https://cfda.com/member/richard-stark/"
+        },
+        {
+          "label": "Chrome Hearts — 官网公开商品导航",
+          "url": "https://www.chromehearts.com/"
+        },
+        {
+          "label": "Chrome Hearts — Authorized Retailers：United Arrows 的授权身份",
+          "url": "https://www.chromehearts.com/retailers.html"
+        },
+        {
+          "label": "UNITED ARROWS — 2007 年报：1992 CFDA 奖及日本业务历史",
+          "url": "https://www.united-arrows.co.jp/uploads/_archives/ir/pdf/ig07.pdf"
+        },
+        {
+          "label": "UNITED ARROWS — 2004 年原始新闻：UTICA 与东京旗舰店历史",
+          "url": "https://www.united-arrows.co.jp/news/7569/"
+        },
+        {
+          "label": "AD PRO — Richard Stark 与 Virgil Abloh 的长凳合作原始联合采访，2019",
+          "url": "https://www.architecturaldigest.com/story/virgil-abloh-chrome-hearts-collaboration-richard-stark-louis-vuitton-bench"
+        },
+        {
+          "label": "CFDA — Laurie Lynn 与 Richard Stark 获终身成就奖，2022",
+          "url": "https://cfda.com/news/laurie-lynn-richard-stark-receive-geoffrey-beene-lifetime-achievement-award/"
+        },
+        {
+          "label": "MIKIMOTO — 纽约旗舰店联名系列展示与 Michelle Yeoh 佩戴",
+          "url": "https://www.mikimoto.com/jp_en/news-event-at-new-york-boutique-2024-en"
+        },
+        {
+          "label": "MIKIMOTO — 官方新闻列表：联名展示报道日期 2024-11-13",
+          "url": "https://www.mikimoto.com/jp_en/news?p=2"
+        },
+        {
+          "label": "Los Angeles Times — Stark 夫妇原始采访中的三位创始人记录，2002",
+          "url": "https://www.latimes.com/archives/la-xpm-2002-nov-26-et-moore26-story.html"
+        },
+        {
+          "label": "GQ — Stark 家族原始采访中的好莱坞车库起点与设计语汇，2022",
+          "url": "https://www.gq.com/story/chrome-hearts-origin"
+        },
+        {
+          "label": "Chrome Hearts — Matchstick Holder：.925 银与 CH Plus 家居纹样",
+          "url": "https://www.chromehearts.com/scents/matchstick-holder/148310SLVXXX186.html"
+        }
+      ],
+      "classicItems": [],
+      "checkedAt": "2026-10-26"
+    }
+  ]
+}

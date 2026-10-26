@@ -166,7 +166,7 @@ async function run() {
   check(data.items.length === catalog.length, 'Decoded product count includes all annual selections');
   check(site.get('#search-count').textContent === `找到 ${expectedRecords} 条内容`, 'Global search includes every brand, product and article');
   check(site.get('#search-results').querySelectorAll('a').length === Math.min(8, expectedRecords), 'First search page renders eight results');
-  for (const query of ['罗意威', '缪缪', '施华洛世奇', 'FRGMT', '阿迪达斯', 'Birkin', '摩奈']) {
+  for (const query of ['罗意威', '缪缪', '施华洛世奇', 'FRGMT', '阿迪达斯', 'Birkin', '摩奈', '克罗心']) {
     site.get('#search-query').value = query;
     site.get('#search-query').events.input();
     check(!site.get('#search-count').textContent.endsWith('找到 0 条内容'), 'Search lookup: ' + query);
@@ -188,8 +188,19 @@ async function run() {
   site = await fixture('search.html', 'https://muselux.test/search.html?q=Hotel%20Moynat&type=item');
   check(moynatItems.length === 2 && site.get('#search-count').textContent.endsWith(`找到 ${moynatItems.length} 条内容`), 'Unaccented Hotel Moynat search finds both new capsule products');
 
+  const chromeItems = catalog.filter(item => item.brand === 'chrome-hearts');
+  site = await fixture('search.html', 'file:///tmp/muselux/search.html?q=ChromeHearts&type=item');
+  check(chromeItems.length > 0 && site.get('#search-count').textContent.endsWith(`找到 ${chromeItems.length} 条内容`), 'Compact ChromeHearts alias finds every silver selection offline');
+  check(site.get('#search-results').innerHTML.includes('Resale asking price'), 'Chrome Hearts search labels secondary-market asking prices');
+  check(!site.get('#search-results').innerHTML.includes('U.S. reference'), 'Chrome Hearts resale results never claim a U.S. retail reference');
+  for (const category of ['necklace', 'jewelry']) {
+    const expected = chromeItems.filter(item => item.category === category).length;
+    site = await fixture('search.html', `https://muselux.test/search.html?q=克罗心&type=item&cat=${category}`);
+    check(expected > 0 && site.get('#search-count').textContent.endsWith(`找到 ${expected} 条内容`), 'Chrome Hearts category filter: ' + category);
+  }
+
   site = await fixture('brands.html');
-  for (const query of ['FRGMT', 'Alaïa', '罗意威', '摩奈']) {
+  for (const query of ['FRGMT', 'Alaïa', '罗意威', '摩奈', '克罗心']) {
     site.get('#brand-query').value = query;
     site.get('#brand-query').events.input();
     check(site.get('#brand-count').textContent === '1 个品牌', 'Brand lookup: ' + query);

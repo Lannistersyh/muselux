@@ -1,0 +1,179 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-26",
+  "addedBrand": "chrome-hearts",
+  "addedProducts": [
+    {
+      "id": "chrome-hearts-baby-fat-silver-jr-10417229988154",
+      "name": "Baby Fat Cross Pendant — sterling silver",
+      "reference": "Justin Reed item 10417229988154",
+      "sellerName": "Justin Reed",
+      "itemCondition": "Great Overall Condition",
+      "priceUSD": 1000.0,
+      "priceStatus": "resale-ask",
+      "priceAsOf": "2026-10-26",
+      "checkedAt": "2026-10-26",
+      "source": "https://justinreed.com/products/chrome-hearts-baby-fat-pendant-5964584748454157785878774"
+    },
+    {
+      "id": "chrome-hearts-dagger-silver-jr-15409514479930",
+      "name": "Dagger Pendant — sterling silver",
+      "reference": "Justin Reed item 15409514479930",
+      "sellerName": "Justin Reed",
+      "itemCondition": "Great Overall Condition",
+      "priceUSD": 1750.0,
+      "priceStatus": "resale-ask",
+      "priceAsOf": "2026-10-26",
+      "checkedAt": "2026-10-26",
+      "source": "https://justinreed.com/products/chrome-hearts-dagger-pendant-4564815458"
+    },
+    {
+      "id": "chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522",
+      "name": "Vine Dagger Cut Out Dog Tag with Ball Chain",
+      "reference": "Justin Reed item 10358159966522",
+      "sellerName": "Justin Reed",
+      "itemCondition": "Pristine Overall Condition",
+      "priceUSD": 1400.0,
+      "priceStatus": "resale-ask",
+      "priceAsOf": "2026-10-26",
+      "checkedAt": "2026-10-26",
+      "source": "https://justinreed.com/products/chrome-hearts-vine-dagger-cut-out-dog-tag-pendant-w-ball-chain-necklace-69589"
+    },
+    {
+      "id": "chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167",
+      "name": "Cemetery Cross Ring — sterling silver, US 11",
+      "reference": "FASHIONPHILE item 1962167",
+      "sellerName": "FASHIONPHILE",
+      "itemCondition": "Excellent; seller notes faint scratches.",
+      "priceUSD": 2950,
+      "priceStatus": "resale-ask",
+      "priceAsOf": "2026-10-26",
+      "checkedAt": "2026-10-26",
+      "source": "https://www.fashionphile.com/products/chrome-hearts-sterling-silver-cemetery-cross-ring-65-11-1962167"
+    },
+    {
+      "id": "chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526",
+      "name": "CH Forever Ring — .925 silver, US 11",
+      "reference": "Justin Reed listing 5263256526",
+      "sellerName": "Justin Reed",
+      "itemCondition": "Good overall; seller describes heavy polishing and signs of consistent wear.",
+      "priceUSD": 950,
+      "priceStatus": "resale-ask",
+      "priceAsOf": "2026-10-26",
+      "checkedAt": "2026-10-26",
+      "source": "https://justinreed.com/products/chrome-hearts-ch-forever-ring-5263256526"
+    },
+    {
+      "id": "chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684",
+      "name": "Paper Chain Bracelet — .925 silver, 7 inches",
+      "reference": "Justin Reed listing 64684684",
+      "sellerName": "Justin Reed",
+      "itemCondition": "Great overall; seller notes general signs of wear.",
+      "priceUSD": 2000,
+      "priceStatus": "resale-ask",
+      "priceAsOf": "2026-10-26",
+      "checkedAt": "2026-10-26",
+      "source": "https://justinreed.com/products/chrome-hearts-paper-chain-bracelet-64684684"
+    }
+  ],
+  "selectionBasis": "Recognizable silver-design editorial selections; not a measured best-seller ranking, official retail-price list or limited-edition claim.",
+  "preservation": {
+    "originalProductCount": 145,
+    "originalProductObjectsUnchanged": true,
+    "allAnnualObjectsAndCutoffsUnchanged": true,
+    "originalGalleryFilesUnchanged": 248
+  },
+  "counts": {
+    "pages": 211,
+    "brands": 34,
+    "primaryBrands": 31,
+    "collaborationBrands": 3,
+    "items": 61,
+    "productGalleries": 151,
+    "galleryViews": 304,
+    "photographedProducts": 123,
+    "productsPerCategory": {
+      "bags": 5,
+      "scarves": 5,
+      "necklace": 7,
+      "jewelry": 7,
+      "watches": 5,
+      "fragrance": 4
+    },
+    "coreResaleAsks": 6,
+    "catalogBrandAssociations": 159,
+    "runtimeJavaScriptBytes": 47854
+  },
+  "newPhotoFiles": 14,
+  "newPhotoBytes": 542592,
+  "photoFiles": {
+    "assets/img/products/chrome-hearts-baby-fat-silver-jr-10417229988154.webp": {
+      "bytes": 13652,
+      "sha256": "00d044aacfc73f7de67d09c1a5925aa474df0d5945bbd2703bd494fae5796bab"
+    },
+    "assets/img/products/chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167.webp": {
+      "bytes": 140918,
+      "sha256": "aaf537d2e545f5c86a5bf59e170fce71bd141df6a80da6b41df28cc654899079"
+    },
+    "assets/img/products/chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684.webp": {
+      "bytes": 16788,
+      "sha256": "c45a10a276a03482e420ce5016f8f2668d24d39d95b9235aab2abcdc97bf30bb"
+    },
+    "assets/img/products/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522.webp": {
+      "bytes": 68522,
+      "sha256": "3b9eca2d5ada3819cb9785368fe4b698ec46881c3c3f96db42d3b1b73647fa4f"
+    },
+    "assets/img/products/chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526.webp": {
+      "bytes": 41956,
+      "sha256": "f643eca679881917e556ba48c929283fdd0380c1e444f3353ea9781064a8c3cb"
+    },
+    "assets/img/products/chrome-hearts-dagger-silver-jr-15409514479930.webp": {
+      "bytes": 33882,
+      "sha256": "e4d07100d02f26cbe816636251a125d21fb58a6775a88531f3cc4267d41329e3"
+    },
+    "assets/img/views/chrome-hearts-baby-fat-silver-jr-10417229988154-3.webp": {
+      "bytes": 25222,
+      "sha256": "eddf1605addcc7ce56bdbe9e772ba6711c99375fe73e9cf538cfdea3a1f08bf1"
+    },
+    "assets/img/views/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522-1.webp": {
+      "bytes": 13692,
+      "sha256": "1ca61c238b6247b5e018951d959e64873dfd67f20cae26a7b2ad61f6018c08ec"
+    },
+    "assets/img/views/chrome-hearts-dagger-silver-jr-15409514479930-2.webp": {
+      "bytes": 30686,
+      "sha256": "398784377c0cda120103e3b9e478ec41fce9df880e8705624e9ad1f48e62f8ed"
+    },
+    "assets/img/views/chrome-hearts-baby-fat-silver-jr-10417229988154-2.webp": {
+      "bytes": 14252,
+      "sha256": "de64905fe185a2d3a406eb669f2879493532822da4c91864ce02ffdfb951b683"
+    },
+    "assets/img/views/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522-3.webp": {
+      "bytes": 45964,
+      "sha256": "ebd081677f175e396c61541bd80b5d6a6a5e06c0e78a1db62f2104fba407677e"
+    },
+    "assets/img/views/chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167.webp": {
+      "bytes": 20052,
+      "sha256": "9aac5e857c1594aa7a45eca854dcb0714b1515884d9ed03a12ff125438d70f53"
+    },
+    "assets/img/views/chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684.webp": {
+      "bytes": 40002,
+      "sha256": "4b8bf6ae85838337fad0c264c1e538f77e22826aec352064a18191497378d8a3"
+    },
+    "assets/img/views/chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526.webp": {
+      "bytes": 37004,
+      "sha256": "106b633fa131d7655424c93985d7aaf554530f13aee6e33b9a03e6b20ff475de"
+    }
+  },
+  "verification": {
+    "pythonRegressionTests": 13,
+    "frontendAssertions": 66,
+    "reproducibleBuild": true,
+    "allGalleryPhotosDecoded": 262,
+    "newPhotosVisuallyCompared": 14,
+    "independentCodeReview": "Price provenance/source/reference checks passed after fixing omission of seller condition details. The optional condition-details row is escaped and covered by regression.",
+    "scope": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test"
+  },
+  "browserTabsOpened": 0,
+  "browserTabsRemaining": 0,
+  "graphflow": "No callable GraphFlow context/plan/index tools exposed; no call claimed."
+}

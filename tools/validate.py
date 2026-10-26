@@ -8,6 +8,7 @@ from datetime import date
 from bag_yearbook import BOOKS,price_text,date_label
 from brand_catalog import enrich, brand_ids
 import product_gallery
+from style_policy import PRICE_STATUSES, valid_category_counts, is_resale, validate_resale
 
 ROOT=Path(__file__).resolve().parents[1]
 D=json.loads((ROOT/'tools/content.json').read_text())
@@ -153,7 +154,10 @@ for x in D['items']:
             check(bool(x.get(field)),x['id']+': missing '+field)
         check(x.get('priceCurrency')=='USD',x['id']+': expected USD')
         check(isinstance(x.get('priceUSD'),(int,float)) and x['priceUSD']>0,x['id']+': invalid USD amount')
-        check(x.get('priceStatus') in ('live','official-snapshot'),x['id']+': invalid price provenance')
+        check(x.get('priceStatus') in PRICE_STATUSES,x['id']+': invalid price provenance')
+        if is_resale(x):
+            try:validate_resale(x)
+            except AssertionError as error:check(False,str(error))
         if x.get('priceStatus')=='official-snapshot':check(bool(x.get('sourceSnapshotNote')),x['id']+': snapshot qualification missing')
         check(len(x['introEn'].split())>=70,x['id']+': short English introduction')
         check(len(x['featuresEn'])==3,x['id']+': expected three design details')
@@ -161,16 +165,23 @@ for x in D['items']:
         check(image.is_file(),x['id']+': missing product photograph')
         if image.is_file():check(image_size(image)==(x['imageWidth'],x['imageHeight']),x['id']+': photo type/dimensions mismatch')
         source=(ROOT/'item'/f'{x["id"]}.html').read_text()
+        if is_resale(x):
+            check('RESALE ASKING PRICE' in source and 'U.S. RETAIL REFERENCE' not in source,x['id']+': resale price labelled as retail')
+            check(html.escape(x.get('sellerName','')) in source,x['id']+': resale seller absent')
+            check(html.escape(x.get('itemCondition','')) in source,x['id']+': listed condition absent')
         check(price_text(x) in source,x['id']+': USD amount absent from detail page')
         reviewed=iso_date(x.get('checkedAt'),x['id']+' review')
         check(reviewed is not None and (reviewed<=date.today()),x['id']+': future review date')
+        if is_resale(x):
+            price_date=iso_date(x.get('priceAsOf'),x['id']+' asking price')
+            if price_date and reviewed:check(price_date<=reviewed,x['id']+': asking price date after review')
         if reviewed:check(date_label(x['checkedAt']) in source,x['id']+': review date absent from detail page')
         check('Design notes' in source and 'Three details to notice' in source,x['id']+': English description absent')
         check(html.escape(x['imageCredit']) in source,x['id']+': image credit absent')
         check('<html lang="en">' in source,x['id']+': product page language missing')
 style_products=[x for x in D['items'] if x.get('styleEdit')]
 style_counts=Counter(x['category'] for x in style_products)
-check(set(style_counts)=={c['id'] for c in D['categories']} and all(3<=n<=5 for n in style_counts.values()),'Expected three to five photographed products in every category')
+check(valid_category_counts(style_counts,{c['id'] for c in D['categories']}),'Expected 3–5 photographed products per category; necklaces/jewelry allow up to 8')
 for c in D['categories']:
     source=(ROOT/'cat'/f'{c["id"]}.html').read_text()
     check(source.count('class="item-card product-card reveal"')==style_counts[c['id']],c['id']+': photographed cards differ from catalog')
@@ -346,6 +357,7 @@ summary=dict(passed=not issues,pages=len(pages),brands=len(D['brands']),items=le
     searchableItemPages=len(D['items'])+len(annual_entries),articles=len(D['articles']),categories=len(D['categories']),
     photographedProducts=len(style_products)+len(annual_entries),productsPerCategory=dict(Counter(x['category'] for x in style_products)),
     currency='USD',coreSnapshotPrices=sum(x['priceStatus']=='official-snapshot' for x in style_products),
+    coreResaleAsks=sum(is_resale(x) for x in style_products),
     unlistedAnnualPrices=sum(x['priceUSD'] is None for x in annual_entries),
     svgAssets=len(list((ROOT/'assets/img').rglob('*.svg'))),runtimeJavaScriptBytes=jsbytes,articleChineseCharacters=article_counts,issues=issues)
 (ROOT/'reports/static-validation.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')

@@ -1,9 +1,9 @@
 {
   "passed": true,
-  "checkedAt": "2026-10-24",
+  "checkedAt": "2026-10-26",
   "method": "Pillow full pixel decoding; RGBA composited on white; hash/dimension checks. Low RMS pairs flagged for human visual review; RMS alone is not proof of a new angle.",
-  "galleries": 145,
-  "uniqueFiles": 248,
+  "galleries": 151,
+  "uniqueFiles": 262,
   "files": {
     "assets/img/products/bags-prada-galleria-small-black.jpg": {
       "width": 1000,
@@ -496,6 +496,90 @@
       "height": 1132,
       "sha256": "66c919f293d4baa6cb45c5aa6cd6f4373c225f53986f60d3744f3c34458ca8ed",
       "format": "JPEG"
+    },
+    "assets/img/products/chrome-hearts-baby-fat-silver-jr-10417229988154.webp": {
+      "width": 960,
+      "height": 1200,
+      "sha256": "00d044aacfc73f7de67d09c1a5925aa474df0d5945bbd2703bd494fae5796bab",
+      "format": "WEBP"
+    },
+    "assets/img/views/chrome-hearts-baby-fat-silver-jr-10417229988154-2.webp": {
+      "width": 960,
+      "height": 1200,
+      "sha256": "de64905fe185a2d3a406eb669f2879493532822da4c91864ce02ffdfb951b683",
+      "format": "WEBP"
+    },
+    "assets/img/views/chrome-hearts-baby-fat-silver-jr-10417229988154-3.webp": {
+      "width": 960,
+      "height": 1200,
+      "sha256": "eddf1605addcc7ce56bdbe9e772ba6711c99375fe73e9cf538cfdea3a1f08bf1",
+      "format": "WEBP"
+    },
+    "assets/img/products/chrome-hearts-dagger-silver-jr-15409514479930.webp": {
+      "width": 960,
+      "height": 1200,
+      "sha256": "e4d07100d02f26cbe816636251a125d21fb58a6775a88531f3cc4267d41329e3",
+      "format": "WEBP"
+    },
+    "assets/img/views/chrome-hearts-dagger-silver-jr-15409514479930-2.webp": {
+      "width": 960,
+      "height": 1200,
+      "sha256": "398784377c0cda120103e3b9e478ec41fce9df880e8705624e9ad1f48e62f8ed",
+      "format": "WEBP"
+    },
+    "assets/img/products/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522.webp": {
+      "width": 960,
+      "height": 1200,
+      "sha256": "3b9eca2d5ada3819cb9785368fe4b698ec46881c3c3f96db42d3b1b73647fa4f",
+      "format": "WEBP"
+    },
+    "assets/img/views/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522-3.webp": {
+      "width": 960,
+      "height": 1200,
+      "sha256": "ebd081677f175e396c61541bd80b5d6a6a5e06c0e78a1db62f2104fba407677e",
+      "format": "WEBP"
+    },
+    "assets/img/views/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522-1.webp": {
+      "width": 960,
+      "height": 1200,
+      "sha256": "1ca61c238b6247b5e018951d959e64873dfd67f20cae26a7b2ad61f6018c08ec",
+      "format": "WEBP"
+    },
+    "assets/img/products/chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167.webp": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "aaf537d2e545f5c86a5bf59e170fce71bd141df6a80da6b41df28cc654899079",
+      "format": "WEBP"
+    },
+    "assets/img/views/chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167.webp": {
+      "width": 1200,
+      "height": 1200,
+      "sha256": "9aac5e857c1594aa7a45eca854dcb0714b1515884d9ed03a12ff125438d70f53",
+      "format": "WEBP"
+    },
+    "assets/img/products/chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526.webp": {
+      "width": 960,
+      "height": 1200,
+      "sha256": "f643eca679881917e556ba48c929283fdd0380c1e444f3353ea9781064a8c3cb",
+      "format": "WEBP"
+    },
+    "assets/img/views/chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526.webp": {
+      "width": 960,
+      "height": 1200,
+      "sha256": "106b633fa131d7655424c93985d7aaf554530f13aee6e33b9a03e6b20ff475de",
+      "format": "WEBP"
+    },
+    "assets/img/products/chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684.webp": {
+      "width": 960,
+      "height": 1200,
+      "sha256": "c45a10a276a03482e420ce5016f8f2668d24d39d95b9235aab2abcdc97bf30bb",
+      "format": "WEBP"
+    },
+    "assets/img/views/chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684.webp": {
+      "width": 960,
+      "height": 1200,
+      "sha256": "4b8bf6ae85838337fad0c264c1e538f77e22826aec352064a18191497378d8a3",
+      "format": "WEBP"
     },
     "assets/img/jewel-years/jewelry-2022-tiffany-hardwear-bracelet.webp": {
       "width": 2000,
@@ -1574,6 +1658,12 @@
       "rms": 13.534
     },
     {
+      "id": "chrome-hearts-baby-fat-silver-jr-10417229988154",
+      "a": "assets/img/products/chrome-hearts-baby-fat-silver-jr-10417229988154.webp",
+      "b": "assets/img/views/chrome-hearts-baby-fat-silver-jr-10417229988154-2.webp",
+      "rms": 13.577
+    },
+    {
       "id": "necklace-2023-tiffany-lock-rose-diamond",
       "a": "assets/img/jewel-years/necklace-2023-tiffany-lock-rose-diamond.webp",
       "b": "assets/img/views/necklace-2023-tiffany-lock-rose-diamond.webp",
@@ -1596,25 +1686,16 @@
       "a": "assets/img/jewel-years/necklace-2026-tiffany-hardwear-double-link-yellow-gold.webp",
       "b": "assets/img/views/necklace-2026-tiffany-hardwear-double-link-yellow-gold.webp",
       "rms": 17.027
-    },
-    {
-      "id": "necklace-2023-tiffany-rose-lock-pendant",
-      "a": "assets/img/jewel-years/necklace-2023-tiffany-rose-lock-pendant.webp",
-      "b": "assets/img/views/necklace-2023-tiffany-rose-lock-pendant.webp",
-      "rms": 17.526
     }
   ],
   "visualReview": {
-    "checkedAt": "2026-10-24",
-    "newFiles": [
-      "assets/img/products/bags-moynat-hotel-hobo-brown-ci3625-0760.webp",
-      "assets/img/products/scarves-moynat-hotel-silk-scarf-70-multicolor.webp",
-      "assets/img/views/moynat-hobo-brown-ci3625-0760-side.webp",
-      "assets/img/views/moynat-scarf-hotel-70-multicolor-reverse.webp"
-    ],
-    "finding": "All four new official Moynat images compared in a contact sheet after full-frame WebP conversion: exact brown CI3625-0760 Hobo front versus side/long strap, and C30663-0001 scarf front versus separately supplied official reverse. No synthetic, cropped or self-mirrored angle added.",
-    "unchangedHistoricalFiles": 244,
-    "historicalReview": "Historical 244 files retain their hashes from the preceding gallery review; all 248 current files were fully decoded and their dimensions/hashes checked today. Previous low-difference visual review remains historical evidence.",
+    "checkedAt": "2026-10-26",
+    "newChromeHeartsFiles": 14,
+    "newChromeHeartsProducts": 6,
+    "oldFilesWithUnchangedHashes": 248,
+    "scope": "All 262 gallery photo files fully pixel decoded today. All 14 new Chrome Hearts pictures visually compared by product group; old 248 retain hashes from prior visual proof. No claim of new visual review of unchanged historical files.",
+    "method": "Same-piece consistency, independent reverse/side/worn/detail/full-chain views, source-original export reproduction checked. No independent jewelry authentication.",
+    "proof": "reports/chrome-hearts-image-validation.json",
     "browserTabsOpened": 0
   }
 }

@@ -1,0 +1,510 @@
+{
+  "checkedAt": "2026-10-26",
+  "categoryNotes": {
+    "necklace": "From quiet gold lines to Gothic silver pendants, compare the material, proportion and exact format of each pictured example. Brand retail references and resale asking prices are individually labelled.",
+    "jewelry": "Interlocking circles, quilted gold and sculptural silver meet the hand and wrist. Compare these selected rings and bracelets through exact sizes, materials, condition notes and clearly identified price sources."
+  },
+  "limitations": [
+    "The Chrome Hearts selection is an editorial group of recognizable motifs, not a measured sales ranking.",
+    "No official Chrome Hearts retail quote was established for these six silver examples. Prices are named merchants’ USD resale asking prices for the photographed pieces.",
+    "Merchant listing references are not represented as manufacturer SKUs. Material, condition and measurements are attributed to the individual sellers; MuseLux does not independently authenticate these pieces.",
+    "Historical annual selections and all earlier product price/review dates remain separate."
+  ],
+  "products": [
+    {
+      "id": "chrome-hearts-baby-fat-silver-jr-10417229988154",
+      "brand": "chrome-hearts",
+      "category": "necklace",
+      "name": "Baby Fat Cross Pendant — sterling silver",
+      "nameZh": "克罗心 Baby Fat 纯银十字架吊坠",
+      "reference": "Justin Reed item 10417229988154",
+      "listingReference": "Justin Reed item 10417229988154",
+      "listingHandle": "chrome-hearts-baby-fat-pendant-5964584748454157785878774",
+      "merchantVariantID": "53982557372730",
+      "color": "Silver",
+      "sizes": [
+        "Pendant length: 0.75 in (19.05 mm), as listed"
+      ],
+      "materials": [
+        ".925 sterling silver"
+      ],
+      "priceUSD": 1000.0,
+      "priceLabel": "Resale asking price · Justin Reed · USD, before tax/shipping",
+      "checkedAt": "2026-10-26",
+      "priceAsOf": "2026-10-26",
+      "priceStatus": "resale-ask",
+      "originalCurrency": "USD",
+      "sellerName": "Justin Reed",
+      "itemCondition": "Great Overall Condition",
+      "itemConditionDetails": "Great condition, some signs of wear. Please review all pictures for details.",
+      "availabilityEn": "Available in the merchant listing at capture; subject to prior sale.",
+      "chainDetails": "Pendant-only listing; no chain is described or pictured.",
+      "stoneDetails": "No gemstones listed or visible in the merchant photographs.",
+      "priceEvidence": "Direct merchant HTML ProductGroup 10417229988154 contains an InStock Offer of USD 1000.00; the exact product JSON independently reports available=true and price=100000 cents. This is the merchant resale asking price, not Chrome Hearts retail/MSRP.",
+      "sourceSnapshotNote": "Direct public merchant HTML and matching Shopify product JSON retrieved on the check date. Condition and measurements are seller statements about this specific piece. No official jewelry retail price is asserted.",
+      "source": "https://justinreed.com/products/chrome-hearts-baby-fat-pendant-5964584748454157785878774",
+      "specificationSources": [
+        "https://justinreed.com/products/chrome-hearts-baby-fat-pendant-5964584748454157785878774",
+        "https://justinreed.com/products/chrome-hearts-baby-fat-pendant-5964584748454157785878774.js"
+      ],
+      "introEn": "The Baby Fat cross makes a small amount of silver feel remarkably sculptural. Its flared arms and rounded center create a clear silhouette, while darker recesses bring the raised surfaces into focus. At the size listed here, the pendant reads as a compact detail at the neckline, with enough depth to reward a closer look. The appeal lies in that change of scale: a quiet silver shape from across the room, then a more intricate object in the hand. This selected resale piece offers a direct introduction to the motif.",
+      "featuresEn": [
+        "A flared cross motif in .925 sterling silver.",
+        "Seller-listed pendant length of 0.75 inch; no gemstones are listed.",
+        "Pendant-only listing; a chain is not described or pictured."
+      ],
+      "stylingEn": "Choose a separate fine silver chain that suits the pendant loop, then let the cross sit above a simple crewneck or inside an open collar. A single plain ring can echo the metal without crowding the small silhouette. Check chain compatibility before pairing.",
+      "imageAlt": "Chrome Hearts Baby Fat cross pendant in sterling silver, front view of Justin Reed item 10417229988154.",
+      "imageCredit": "Justin Reed · photograph of the exact listed Chrome Hearts piece",
+      "imageRightsNote": "Merchant listing photography; public access does not grant a reuse license. Copyright remains with the photographer or rights holder.",
+      "selectionNote": "Recognizable silver-design editorial selection; not a sales ranking or limited-edition claim.",
+      "researchCapture": {
+        "capturedAt": "2026-10-26T23:24:35+08:00",
+        "merchantHTMLSHA256": "bb5dd6117f211085fbb259026b3c59486d408a840ee0c9fcdb86703d499e4322",
+        "merchantJSONSHA256": "2b4b75fb8bf3cb27d5308686b85ba3ba6bef24a678f20178e7058c15d4208dab",
+        "merchantHTMLSnapshot": "/tmp/muselux-chrome-necklaces/baby-b.html",
+        "merchantJSONSnapshot": "/tmp/muselux-chrome-necklaces/baby-b.json",
+        "offer": {
+          "@id": "/products/chrome-hearts-baby-fat-pendant-5964584748454157785878774?variant=53982557372730#offer",
+          "@type": "Offer",
+          "availability": "http://schema.org/InStock",
+          "price": "1000.00",
+          "priceCurrency": "USD",
+          "url": "https://justinreed.com/products/chrome-hearts-baby-fat-pendant-5964584748454157785878774?variant=53982557372730"
+        },
+        "officialBrandSource": "https://www.chromehearts.com/",
+        "officialSourceObservation": "Official U.S. homepage exposes store locations and non-jewelry shopping categories. No official jewelry USD retail offer for these pieces was located.",
+        "provenanceNote": "Merchant productGroupID identifies the resale listing; it is not a manufacturer reference. No Chrome Hearts product launch year or edition size is inferred.",
+        "heroImage": {
+          "path": "assets/img/products/chrome-hearts-baby-fat-silver-jr-10417229988154.webp",
+          "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_b899f9a3-531e-4396-bca8-5f203f4553b6.jpg?v=1788211612",
+          "pageSource": "https://justinreed.com/products/chrome-hearts-baby-fat-pendant-5964584748454157785878774",
+          "credit": "Justin Reed · photograph of the exact listed Chrome Hearts piece",
+          "alt": "Baby Fat Cross Pendant — sterling silver — front view",
+          "viewLabel": "Front view",
+          "width": 960,
+          "height": 1200,
+          "originalWidth": 2400,
+          "originalHeight": 3000,
+          "checkedAt": "2026-10-26",
+          "sourceSHA256": "6eb77392d9e43643581897a937feeb43a1dddfeedd79155813627429d870f62d",
+          "sha256": "00d044aacfc73f7de67d09c1a5925aa474df0d5945bbd2703bd494fae5796bab",
+          "processing": "Original full frame preserved; proportional resize within 1200 × 1200; WebP quality 88. No crop, recolor, retouching or generated angle.",
+          "evidence": "Original merchant listing photograph; visually checked against the other angles in the same product gallery. Exact same item and listing ID.",
+          "originalSnapshot": "/tmp/muselux-chrome-necklaces/baby-b-1.jpg"
+        }
+      },
+      "image": "assets/img/products/chrome-hearts-baby-fat-silver-jr-10417229988154.webp",
+      "imageSource": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_b899f9a3-531e-4396-bca8-5f203f4553b6.jpg?v=1788211612",
+      "imageWidth": 960,
+      "imageHeight": 1200,
+      "imageOriginalWidth": 2400,
+      "imageOriginalHeight": 3000,
+      "imageSourceSHA256": "6eb77392d9e43643581897a937feeb43a1dddfeedd79155813627429d870f62d",
+      "imageSHA256": "00d044aacfc73f7de67d09c1a5925aa474df0d5945bbd2703bd494fae5796bab",
+      "imageProcessing": "Original full frame preserved; proportional resize within 1200 × 1200; WebP quality 88. No crop, recolor, retouching or generated angle.",
+      "originalListingReference": "10417229988154",
+      "born": "Classic motif; debut date not verified",
+      "designer": "Chrome Hearts",
+      "referenceType": "Merchant listing reference, not a manufacturer SKU",
+      "editorialLabelZh": "克罗心经典银饰精选"
+    },
+    {
+      "id": "chrome-hearts-dagger-silver-jr-15409514479930",
+      "brand": "chrome-hearts",
+      "category": "necklace",
+      "name": "Dagger Pendant — sterling silver",
+      "nameZh": "克罗心 Dagger 纯银匕首吊坠",
+      "reference": "Justin Reed item 15409514479930",
+      "listingReference": "Justin Reed item 15409514479930",
+      "listingHandle": "chrome-hearts-dagger-pendant-4564815458",
+      "merchantVariantID": "67631222751546",
+      "color": "Silver",
+      "sizes": [
+        "Pendant length: 2 in (50.8 mm), as listed"
+      ],
+      "materials": [
+        ".925 sterling silver"
+      ],
+      "priceUSD": 1750.0,
+      "priceLabel": "Resale asking price · Justin Reed · USD, before tax/shipping",
+      "checkedAt": "2026-10-26",
+      "priceAsOf": "2026-10-26",
+      "priceStatus": "resale-ask",
+      "originalCurrency": "USD",
+      "sellerName": "Justin Reed",
+      "itemCondition": "Great Overall Condition",
+      "itemConditionDetails": "Great condition, some signs of wear. Please review all pictures for details.",
+      "availabilityEn": "Available in the merchant listing at capture; subject to prior sale.",
+      "chainDetails": "Pendant-only listing; no chain is described or pictured.",
+      "stoneDetails": "No gemstones listed or visible in the merchant photographs.",
+      "priceEvidence": "Direct merchant HTML ProductGroup 15409514479930 contains an InStock Offer of USD 1750.00; the exact product JSON independently reports available=true and price=175000 cents. This is the merchant resale asking price, not Chrome Hearts retail/MSRP.",
+      "sourceSnapshotNote": "Direct public merchant HTML and matching Shopify product JSON retrieved on the check date. Condition and measurements are seller statements about this specific piece. No official jewelry retail price is asserted.",
+      "source": "https://justinreed.com/products/chrome-hearts-dagger-pendant-4564815458",
+      "specificationSources": [
+        "https://justinreed.com/products/chrome-hearts-dagger-pendant-4564815458",
+        "https://justinreed.com/products/chrome-hearts-dagger-pendant-4564815458.js"
+      ],
+      "introEn": "The Dagger pendant builds its character around a long central line. An open, scrolling hilt gives the top a sense of movement, while the blade draws the eye downward and keeps the composition narrow. Raised lettering and darkened recesses make the silver surface feel layered even before the pendant turns. This two-inch example has enough length to become a clear focal point over a plain shirt. Its shape is useful for anyone drawn to jewelry with a strong outline, where the interest comes from carved detail and proportion rather than gemstones.",
+      "featuresEn": [
+        "A dagger silhouette with open scrollwork in .925 sterling silver.",
+        "Seller-listed pendant length of 2 inches; no gemstones are listed.",
+        "Pendant-only listing; a chain is not described or pictured."
+      ],
+      "stylingEn": "Pair it with a separate chain that can pass through the pendant loop and leave clear space around the blade. A dark cotton shirt makes the open hilt and silver edges easy to see. Keep nearby pendants short enough to avoid overlapping its outline.",
+      "imageAlt": "Chrome Hearts sterling-silver Dagger pendant, front view of Justin Reed item 15409514479930.",
+      "imageCredit": "Justin Reed · photograph of the exact listed Chrome Hearts piece",
+      "imageRightsNote": "Merchant listing photography; public access does not grant a reuse license. Copyright remains with the photographer or rights holder.",
+      "selectionNote": "Recognizable silver-design editorial selection; not a sales ranking or limited-edition claim.",
+      "researchCapture": {
+        "capturedAt": "2026-10-26T23:24:35+08:00",
+        "merchantHTMLSHA256": "ec34a6979c686addce09d98ae419d15a793e3a1529668c8117dbb7f2968bb934",
+        "merchantJSONSHA256": "9d82e35a030d05864330c951f588183dea36ffff3bf4143a91ddfa329b98ec18",
+        "merchantHTMLSnapshot": "/tmp/muselux-chrome-necklaces/justin-dagger.html",
+        "merchantJSONSnapshot": "/tmp/muselux-chrome-necklaces/justin-dagger.json",
+        "offer": {
+          "@id": "/products/chrome-hearts-dagger-pendant-4564815458?variant=67631222751546#offer",
+          "@type": "Offer",
+          "availability": "http://schema.org/InStock",
+          "price": "1750.00",
+          "priceCurrency": "USD",
+          "url": "https://justinreed.com/products/chrome-hearts-dagger-pendant-4564815458?variant=67631222751546"
+        },
+        "officialBrandSource": "https://www.chromehearts.com/",
+        "officialSourceObservation": "Official U.S. homepage exposes store locations and non-jewelry shopping categories. No official jewelry USD retail offer for these pieces was located.",
+        "provenanceNote": "Merchant productGroupID identifies the resale listing; it is not a manufacturer reference. No Chrome Hearts product launch year or edition size is inferred.",
+        "heroImage": {
+          "path": "assets/img/products/chrome-hearts-dagger-silver-jr-15409514479930.webp",
+          "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_63777f21-3216-4055-b677-7d360f4ff755.jpg?v=1791226249",
+          "pageSource": "https://justinreed.com/products/chrome-hearts-dagger-pendant-4564815458",
+          "credit": "Justin Reed · photograph of the exact listed Chrome Hearts piece",
+          "alt": "Dagger Pendant — sterling silver — front view",
+          "viewLabel": "Front view",
+          "width": 960,
+          "height": 1200,
+          "originalWidth": 2400,
+          "originalHeight": 3000,
+          "checkedAt": "2026-10-26",
+          "sourceSHA256": "46f01705d22d6e26e2a26aa87ce172b549889f03e6e6a296b19cc8dac653024c",
+          "sha256": "e4d07100d02f26cbe816636251a125d21fb58a6775a88531f3cc4267d41329e3",
+          "processing": "Original full frame preserved; proportional resize within 1200 × 1200; WebP quality 88. No crop, recolor, retouching or generated angle.",
+          "evidence": "Original merchant listing photograph; visually checked against the other angles in the same product gallery. Exact same item and listing ID.",
+          "originalSnapshot": "/tmp/muselux-chrome-necklaces/justin-dagger-1.jpg"
+        }
+      },
+      "image": "assets/img/products/chrome-hearts-dagger-silver-jr-15409514479930.webp",
+      "imageSource": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_63777f21-3216-4055-b677-7d360f4ff755.jpg?v=1791226249",
+      "imageWidth": 960,
+      "imageHeight": 1200,
+      "imageOriginalWidth": 2400,
+      "imageOriginalHeight": 3000,
+      "imageSourceSHA256": "46f01705d22d6e26e2a26aa87ce172b549889f03e6e6a296b19cc8dac653024c",
+      "imageSHA256": "e4d07100d02f26cbe816636251a125d21fb58a6775a88531f3cc4267d41329e3",
+      "imageProcessing": "Original full frame preserved; proportional resize within 1200 × 1200; WebP quality 88. No crop, recolor, retouching or generated angle.",
+      "originalListingReference": "15409514479930",
+      "born": "Classic motif; debut date not verified",
+      "designer": "Chrome Hearts",
+      "referenceType": "Merchant listing reference, not a manufacturer SKU",
+      "editorialLabelZh": "克罗心经典银饰精选"
+    },
+    {
+      "id": "chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522",
+      "brand": "chrome-hearts",
+      "category": "necklace",
+      "name": "Vine Dagger Cut Out Dog Tag with Ball Chain",
+      "nameZh": "克罗心 Vine Dagger 镂空狗牌纯银珠链项链",
+      "reference": "Justin Reed item 10358159966522",
+      "listingReference": "Justin Reed item 10358159966522",
+      "listingHandle": "chrome-hearts-vine-dagger-cut-out-dog-tag-pendant-w-ball-chain-necklace-69589",
+      "merchantVariantID": "53729868349754",
+      "color": "Silver",
+      "sizes": [
+        "Pendant length: 2.25 in (57.15 mm), as listed",
+        "Ball-chain length: 30 in (76.2 cm), included in listing"
+      ],
+      "materials": [
+        ".925 sterling silver"
+      ],
+      "priceUSD": 1400.0,
+      "priceLabel": "Resale asking price · Justin Reed · USD, before tax/shipping",
+      "checkedAt": "2026-10-26",
+      "priceAsOf": "2026-10-26",
+      "priceStatus": "resale-ask",
+      "originalCurrency": "USD",
+      "sellerName": "Justin Reed",
+      "itemCondition": "Pristine Overall Condition",
+      "itemConditionDetails": "New without tags",
+      "availabilityEn": "Available in the merchant listing at capture; subject to prior sale.",
+      "chainDetails": "Ball chain included; seller-listed length 30 inches.",
+      "stoneDetails": "No gemstones listed or visible in the merchant photographs.",
+      "priceEvidence": "Direct merchant HTML ProductGroup 10358159966522 contains an InStock Offer of USD 1400.00; the exact product JSON independently reports available=true and price=140000 cents. This is the merchant resale asking price, not Chrome Hearts retail/MSRP.",
+      "sourceSnapshotNote": "Direct public merchant HTML and matching Shopify product JSON retrieved on the check date. Condition and measurements are seller statements about this specific piece. No official jewelry retail price is asserted.",
+      "source": "https://justinreed.com/products/chrome-hearts-vine-dagger-cut-out-dog-tag-pendant-w-ball-chain-necklace-69589",
+      "specificationSources": [
+        "https://justinreed.com/products/chrome-hearts-vine-dagger-cut-out-dog-tag-pendant-w-ball-chain-necklace-69589",
+        "https://justinreed.com/products/chrome-hearts-vine-dagger-cut-out-dog-tag-pendant-w-ball-chain-necklace-69589.js"
+      ],
+      "introEn": "A dog tag gives the Vine Dagger motif a broad silver surface to work against. The rounded rectangular outline is familiar, but its cutout center changes the effect: light, fabric and skin become part of the composition. The dagger and curling shapes remain readable as the tag shifts, with the ball chain adding a fine, repeated rhythm above it. This selected listing includes the thirty-inch chain, creating a longer line than a close necklace. It is a useful choice for styling over clothing, where the open center can register against a simple background.",
+      "featuresEn": [
+        "Cutout Vine Dagger motif on a .925 sterling-silver dog tag.",
+        "Seller-listed pendant length of 2.25 inches; no gemstones are listed.",
+        "Includes the seller-listed 30-inch ball chain."
+      ],
+      "stylingEn": "Let the long ball chain fall over a plain knit, heavyweight tee or open overshirt. A solid background makes the cutout center easy to read. Keep any second necklace visibly shorter, and check where the tag lands when seated as well as standing.",
+      "imageAlt": "Front detail of Chrome Hearts Vine Dagger Cut Out Dog Tag on ball chain, Justin Reed item 10358159966522.",
+      "imageCredit": "Justin Reed · photograph of the exact listed Chrome Hearts piece",
+      "imageRightsNote": "Merchant listing photography; public access does not grant a reuse license. Copyright remains with the photographer or rights holder.",
+      "selectionNote": "Recognizable silver-design editorial selection; not a sales ranking or limited-edition claim.",
+      "researchCapture": {
+        "capturedAt": "2026-10-26T23:24:35+08:00",
+        "merchantHTMLSHA256": "0c0ee3a773ae0018673e24f4a0a3012c6bc6ce6bb94175fed1133dd3cfcc5724",
+        "merchantJSONSHA256": "2950ae8ac5283153cfcfb099771fd0d36f584985b1ac2e071da625eb289cb0a7",
+        "merchantHTMLSnapshot": "/tmp/muselux-chrome-necklaces/justin-dogtag.html",
+        "merchantJSONSnapshot": "/tmp/muselux-chrome-necklaces/justin-dogtag.json",
+        "offer": {
+          "@id": "/products/chrome-hearts-vine-dagger-cut-out-dog-tag-pendant-w-ball-chain-necklace-69589?variant=53729868349754#offer",
+          "@type": "Offer",
+          "availability": "http://schema.org/InStock",
+          "price": "1400.00",
+          "priceCurrency": "USD",
+          "url": "https://justinreed.com/products/chrome-hearts-vine-dagger-cut-out-dog-tag-pendant-w-ball-chain-necklace-69589?variant=53729868349754"
+        },
+        "officialBrandSource": "https://www.chromehearts.com/",
+        "officialSourceObservation": "Official U.S. homepage exposes store locations and non-jewelry shopping categories. No official jewelry USD retail offer for these pieces was located.",
+        "provenanceNote": "Merchant productGroupID identifies the resale listing; it is not a manufacturer reference. No Chrome Hearts product launch year or edition size is inferred.",
+        "heroImage": {
+          "path": "assets/img/products/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522.webp",
+          "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/2_841a7564-f3d0-4cd9-baf2-a89eda0e8295.jpg?v=1783965191",
+          "pageSource": "https://justinreed.com/products/chrome-hearts-vine-dagger-cut-out-dog-tag-pendant-w-ball-chain-necklace-69589",
+          "credit": "Justin Reed · photograph of the exact listed Chrome Hearts piece",
+          "alt": "Vine Dagger Cut Out Dog Tag with Ball Chain — pendant front detail",
+          "viewLabel": "Pendant front detail",
+          "width": 960,
+          "height": 1200,
+          "originalWidth": 2400,
+          "originalHeight": 3000,
+          "checkedAt": "2026-10-26",
+          "sourceSHA256": "e3efb6dd71d9ceffa4c8df46466767f7a5891112ff58ff34c9fc4e10a95ca1c6",
+          "sha256": "3b9eca2d5ada3819cb9785368fe4b698ec46881c3c3f96db42d3b1b73647fa4f",
+          "processing": "Original full frame preserved; proportional resize within 1200 × 1200; WebP quality 88. No crop, recolor, retouching or generated angle.",
+          "evidence": "Original merchant listing photograph; visually checked against the other angles in the same product gallery. Exact same item and listing ID.",
+          "originalSnapshot": "/tmp/muselux-chrome-necklaces/justin-dogtag-2.jpg"
+        }
+      },
+      "image": "assets/img/products/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522.webp",
+      "imageSource": "https://cdn.shopify.com/s/files/1/2400/1837/files/2_841a7564-f3d0-4cd9-baf2-a89eda0e8295.jpg?v=1783965191",
+      "imageWidth": 960,
+      "imageHeight": 1200,
+      "imageOriginalWidth": 2400,
+      "imageOriginalHeight": 3000,
+      "imageSourceSHA256": "e3efb6dd71d9ceffa4c8df46466767f7a5891112ff58ff34c9fc4e10a95ca1c6",
+      "imageSHA256": "3b9eca2d5ada3819cb9785368fe4b698ec46881c3c3f96db42d3b1b73647fa4f",
+      "imageProcessing": "Original full frame preserved; proportional resize within 1200 × 1200; WebP quality 88. No crop, recolor, retouching or generated angle.",
+      "originalListingReference": "10358159966522",
+      "born": "Classic motif; debut date not verified",
+      "designer": "Chrome Hearts",
+      "referenceType": "Merchant listing reference, not a manufacturer SKU",
+      "editorialLabelZh": "克罗心经典银饰精选"
+    },
+    {
+      "brand": "chrome-hearts",
+      "category": "jewelry",
+      "name": "Cemetery Cross Ring — sterling silver, US 11",
+      "nameZh": "克罗心 Cemetery Cross 银戒指（美码 11）",
+      "reference": "FASHIONPHILE item 1962167",
+      "listingReference": "FASHIONPHILE item 1962167",
+      "sellerName": "FASHIONPHILE",
+      "itemCondition": "Excellent; seller notes faint scratches.",
+      "color": "Silver",
+      "sizes": [
+        "US ring size 11 / EU 65",
+        "Band width: 20 mm (seller measurement)"
+      ],
+      "materials": [
+        "Sterling silver (seller description)"
+      ],
+      "priceUSD": 2950,
+      "source": "https://www.fashionphile.com/products/chrome-hearts-sterling-silver-cemetery-cross-ring-65-11-1962167",
+      "introEn": "The Cemetery Cross ring turns a repeating motif into a broad silver surface. Raised crosses meet across the band, their bright edges set against dark recesses that make the pattern readable from a distance. It has enough visual presence to anchor the hand on its own, while the repeated shapes reward a closer look. This particular resale example is listed in sterling silver, in US size 11, with a seller-measured width of 20 millimeters. Its scale makes proportion the central consideration: the ring becomes a visible part of the silhouette.",
+      "featuresEn": [
+        "A wide band of repeating raised cross motifs.",
+        "Seller lists sterling silver, US size 11 / EU 65 and a 20 mm width.",
+        "This exact pre-owned example is graded Excellent, with faint scratches noted."
+      ],
+      "stylingEn": "Let the wide band sit beside a plain shirt cuff or a dark knit sleeve, where its outline stays clear. Begin with one statement ring on the hand; a slim bracelet can add another silver note without crowding the fingers.",
+      "imageAlt": "Chrome Hearts Cemetery Cross ring in sterling silver, with raised cross motifs and dark recesses, US size 11.",
+      "priceEvidence": "Direct product HTML structured data and the exact listing Shopify product JSON both identify item 1962167 and a USD 2,950 asking price. Product JSON reports price 295000 in USD cents and available=true. This is a seller resale ask, not an official Chrome Hearts retail price.",
+      "id": "chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167",
+      "priceStatus": "resale-ask",
+      "priceLabel": "Seller resale asking price (USD)",
+      "priceAsOf": "2026-10-26",
+      "checkedAt": "2026-10-26",
+      "availabilityEn": "Seller listed this exact piece as available when checked on 26 October 2026; availability may change.",
+      "editorialLabelZh": "克罗心经典银饰精选",
+      "image": "assets/img/products/chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167.webp",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0894/3186/7695/files/0270c09aa633a9cafbdf7b5d452fcb80.jpg?v=1791569364",
+      "imageCredit": "FASHIONPHILE · resale listing photography",
+      "imageRightsNote": "Seller listing photograph. Public access does not establish a reuse license; copyright remains with the respective rights holder.",
+      "imageWidth": 1200,
+      "imageHeight": 1200,
+      "imageProcessing": {
+        "originalDownloadSha256": "ab8d6c8f8ec0a45055815d7312dd1b8bafc56a1d40619508bf1b5bed3a3ff88e",
+        "originalWidth": 1500,
+        "originalHeight": 1500,
+        "originalBytes": 222001,
+        "bytes": 140918,
+        "sha256": "aaf537d2e545f5c86a5bf59e170fce71bd141df6a80da6b41df28cc654899079",
+        "processing": "Downloaded original JPEG; applied EXIF orientation if present; retained the full frame; downscaled proportionally to at most 1200 px on the longest side using Lanczos; encoded WebP quality 88, method 6. No crop, reflection, compositing, retouching, or generated angle."
+      },
+      "sourceSnapshotNote": "Direct static HTML and the exact listing Shopify product JSON were retrieved on 26 October 2026. Prices are resale asking prices for these individual pieces. Listing identifiers are merchant references, not manufacturer model numbers. No product weight, gemstone specification, release date, official MSRP, sales ranking or quantity claim is inferred.",
+      "sourceSnapshots": {
+        "HTML": {
+          "sha256": "129eb808eb6a0bcebf9a29543884f49c6c7aedff69d0f7ebb20904c470f71624",
+          "bytes": 1181685
+        },
+        "Shopify product JSON": {
+          "sha256": "89fdb912bc7b2140952c23345903557d46c1ec461918be1f72352ba8c425a1e0",
+          "bytes": 4865
+        }
+      },
+      "originalListingReference": "FASHIONPHILE item 1962167",
+      "born": "Classic motif; debut date not verified",
+      "designer": "Chrome Hearts",
+      "referenceType": "Merchant listing reference, not a manufacturer SKU",
+      "selectionNote": "Recognizable silver-design editorial selection; not a sales ranking or limited-edition claim."
+    },
+    {
+      "brand": "chrome-hearts",
+      "category": "jewelry",
+      "name": "CH Forever Ring — .925 silver, US 11",
+      "nameZh": "克罗心 CH Forever 925 银戒指（美码 11）",
+      "reference": "Justin Reed listing 5263256526",
+      "listingReference": "Justin Reed listing 5263256526",
+      "sellerName": "Justin Reed",
+      "itemCondition": "Good overall; seller describes heavy polishing and signs of consistent wear.",
+      "color": "Silver",
+      "sizes": [
+        "US ring size 11 (20.6 mm, as listed by seller)"
+      ],
+      "materials": [
+        ".925 sterling silver (seller description)"
+      ],
+      "priceUSD": 950,
+      "source": "https://justinreed.com/products/chrome-hearts-ch-forever-ring-5263256526",
+      "introEn": "CH Forever gives a simple silver band a distinctly graphic identity. Gothic lettering travels across one face, while small cross motifs bring another rhythm to the surface as the ring turns. The appeal lies in this change of emphasis: a compact shape can read as text, ornament or a quiet strip of metal depending on the angle. This resale example is listed in .925 sterling silver, US size 11. The seller describes substantial polishing and regular wear, details that belong to this individual ring and should inform a closer inspection.",
+      "featuresEn": [
+        "Gothic CH Forever lettering and small cross motifs are visible in the two listing photographs.",
+        "Seller lists .925 sterling silver and US size 11 (20.6 mm).",
+        "This individual ring is graded Good; heavy polishing and consistent wear are disclosed."
+      ],
+      "stylingEn": "Use the band as a small graphic accent with a white T-shirt, dark denim or an open shirt cuff. Leave a little space between neighboring rings so the lettering remains legible, and check the listed size carefully before planning a stack.",
+      "imageAlt": "Chrome Hearts CH Forever ring in .925 sterling silver with Gothic lettering, US size 11.",
+      "priceEvidence": "Direct exact-listing HTML shows $950, size 11 US (20.6 mm), Silver and Add to cart. Its Shopify product JSON reports price 95000 in USD cents, the matching variant and available=true. This is a seller resale ask, not an official Chrome Hearts retail price.",
+      "id": "chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526",
+      "priceStatus": "resale-ask",
+      "priceLabel": "Seller resale asking price (USD)",
+      "priceAsOf": "2026-10-26",
+      "checkedAt": "2026-10-26",
+      "availabilityEn": "Seller listed this exact piece as available when checked on 26 October 2026; availability may change.",
+      "editorialLabelZh": "克罗心经典银饰精选",
+      "image": "assets/img/products/chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526.webp",
+      "imageSource": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_929a9281-a220-4787-8de7-d65feec5f29c.jpg?v=1792437233",
+      "imageCredit": "Justin Reed · resale listing photography",
+      "imageRightsNote": "Seller listing photograph. Public access does not establish a reuse license; copyright remains with the respective rights holder.",
+      "imageWidth": 960,
+      "imageHeight": 1200,
+      "imageProcessing": {
+        "originalDownloadSha256": "5d85975cafadde4ed7367690fc89d0caa707a514e5cd0b0c7e4af8690d94f310",
+        "originalWidth": 2400,
+        "originalHeight": 3000,
+        "originalBytes": 208686,
+        "bytes": 41956,
+        "sha256": "f643eca679881917e556ba48c929283fdd0380c1e444f3353ea9781064a8c3cb",
+        "processing": "Downloaded original JPEG; applied EXIF orientation if present; retained the full frame; downscaled proportionally to at most 1200 px on the longest side using Lanczos; encoded WebP quality 88, method 6. No crop, reflection, compositing, retouching, or generated angle."
+      },
+      "sourceSnapshotNote": "Direct static HTML and the exact listing Shopify product JSON were retrieved on 26 October 2026. Prices are resale asking prices for these individual pieces. Listing identifiers are merchant references, not manufacturer model numbers. No product weight, gemstone specification, release date, official MSRP, sales ranking or quantity claim is inferred.",
+      "sourceSnapshots": {
+        "HTML": {
+          "sha256": "401aaa1e367e8aae464a3243b0a8aa7b1777078c3fd7336107d1baf781512cfe",
+          "bytes": 332670
+        },
+        "Shopify product JSON": {
+          "sha256": "5a8554cefd1d8a4900a20c0c3d6908e9f0ad099c2dc00715e6829d6855ec4956",
+          "bytes": 4532
+        }
+      },
+      "originalListingReference": "Justin Reed listing handle chrome-hearts-ch-forever-ring-5263256526",
+      "born": "Classic motif; debut date not verified",
+      "designer": "Chrome Hearts",
+      "referenceType": "Merchant listing reference, not a manufacturer SKU",
+      "selectionNote": "Recognizable silver-design editorial selection; not a sales ranking or limited-edition claim."
+    },
+    {
+      "brand": "chrome-hearts",
+      "category": "jewelry",
+      "name": "Paper Chain Bracelet — .925 silver, 7 inches",
+      "nameZh": "克罗心 Paper Chain 925 银手链（7 英寸）",
+      "reference": "Justin Reed listing 64684684",
+      "listingReference": "Justin Reed listing 64684684",
+      "sellerName": "Justin Reed",
+      "itemCondition": "Great overall; seller notes general signs of wear.",
+      "color": "Silver",
+      "sizes": [
+        "Length: 7 inches (seller measurement)",
+        "Seller variant: OS / Silver"
+      ],
+      "materials": [
+        ".925 sterling silver (seller description)"
+      ],
+      "priceUSD": 2000,
+      "source": "https://justinreed.com/products/chrome-hearts-paper-chain-bracelet-64684684",
+      "introEn": "The Paper Chain bracelet makes its impression through repetition. Closely connected silver links create a continuous line around the wrist, with small engraved details becoming apparent as the bracelet moves. The darker spaces between the links give the surface depth without interrupting that steady rhythm. This exact resale piece is listed in .925 sterling silver and measures seven inches in length according to the seller. Its appeal is easy to understand beside a clean sleeve: the chain brings texture and movement while keeping the overall shape precise and direct.",
+      "featuresEn": [
+        "A continuous chain of linked silver forms with engraved surface details visible in the photographs.",
+        "Seller lists .925 sterling silver and a measured length of 7 inches.",
+        "This exact resale example is graded Great, with general wear disclosed."
+      ],
+      "stylingEn": "Try the bracelet with a short sleeve or a cuff pushed slightly back so the chain can move freely. Pair it with a single silver ring for a measured combination, and compare the stated seven-inch length with a bracelet that already fits comfortably.",
+      "imageAlt": "Chrome Hearts Paper Chain bracelet in .925 sterling silver, listed length seven inches.",
+      "priceEvidence": "Direct exact-listing HTML shows $2,000, .925 Sterling Silver, Length 7 inches and Add to cart. Its Shopify product JSON reports price 200000 in USD cents, variant OS / Silver and available=true. This is a seller resale ask, not an official Chrome Hearts retail price.",
+      "id": "chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684",
+      "priceStatus": "resale-ask",
+      "priceLabel": "Seller resale asking price (USD)",
+      "priceAsOf": "2026-10-26",
+      "checkedAt": "2026-10-26",
+      "availabilityEn": "Seller listed this exact piece as available when checked on 26 October 2026; availability may change.",
+      "editorialLabelZh": "克罗心经典银饰精选",
+      "image": "assets/img/products/chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684.webp",
+      "imageSource": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_50041435-a7d8-47ac-aad3-65efde3909d2.jpg?v=1780354629",
+      "imageCredit": "Justin Reed · resale listing photography",
+      "imageRightsNote": "Seller listing photograph. Public access does not establish a reuse license; copyright remains with the respective rights holder.",
+      "imageWidth": 960,
+      "imageHeight": 1200,
+      "imageProcessing": {
+        "originalDownloadSha256": "e7329dee032ac1b44a7531a9ca2cdf2d2ab63a92a2206743fd914e4de419e8a6",
+        "originalWidth": 2400,
+        "originalHeight": 3000,
+        "originalBytes": 84197,
+        "bytes": 16788,
+        "sha256": "c45a10a276a03482e420ce5016f8f2668d24d39d95b9235aab2abcdc97bf30bb",
+        "processing": "Downloaded original JPEG; applied EXIF orientation if present; retained the full frame; downscaled proportionally to at most 1200 px on the longest side using Lanczos; encoded WebP quality 88, method 6. No crop, reflection, compositing, retouching, or generated angle."
+      },
+      "sourceSnapshotNote": "Direct static HTML and the exact listing Shopify product JSON were retrieved on 26 October 2026. Prices are resale asking prices for these individual pieces. Listing identifiers are merchant references, not manufacturer model numbers. No product weight, gemstone specification, release date, official MSRP, sales ranking or quantity claim is inferred.",
+      "sourceSnapshots": {
+        "HTML": {
+          "sha256": "e16b8636ddcb9a6d0e4b69378641118ea44f51f0109be5b49e0c5afa80e67bdc",
+          "bytes": 333177
+        },
+        "Shopify product JSON": {
+          "sha256": "63adae45d825a1f59c22f9574ee6e796f2a890903f47bc099894eab52acae502",
+          "bytes": 5073
+        }
+      },
+      "originalListingReference": "Justin Reed listing handle chrome-hearts-paper-chain-bracelet-64684684",
+      "born": "Classic motif; debut date not verified",
+      "designer": "Chrome Hearts",
+      "referenceType": "Merchant listing reference, not a manufacturer SKU",
+      "selectionNote": "Recognizable silver-design editorial selection; not a sales ranking or limited-edition claim."
+    }
+  ]
+}

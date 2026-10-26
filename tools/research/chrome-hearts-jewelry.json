@@ -1,0 +1,328 @@
+{
+  "products": [
+    {
+      "brand": "chrome-hearts",
+      "category": "jewelry",
+      "name": "Cemetery Cross Ring — sterling silver, US 11",
+      "nameZh": "克罗心 Cemetery Cross 银戒指（美码 11）",
+      "reference": "FASHIONPHILE item 1962167 (resale listing ID)",
+      "listingReference": "FASHIONPHILE item 1962167",
+      "sellerName": "FASHIONPHILE",
+      "itemCondition": "Excellent; seller notes faint scratches.",
+      "color": "Silver",
+      "sizes": [
+        "US ring size 11 / EU 65",
+        "Band width: 20 mm (seller measurement)"
+      ],
+      "materials": [
+        "Sterling silver (seller description)"
+      ],
+      "priceUSD": 2950,
+      "source": "https://www.fashionphile.com/products/chrome-hearts-sterling-silver-cemetery-cross-ring-65-11-1962167",
+      "introEn": "The Cemetery Cross ring turns a repeating motif into a broad silver surface. Raised crosses meet across the band, their bright edges set against dark recesses that make the pattern readable from a distance. It has enough visual presence to anchor the hand on its own, while the repeated shapes reward a closer look. This particular resale example is listed in sterling silver, in US size 11, with a seller-measured width of 20 millimeters. Its scale makes proportion the central consideration: the ring becomes a visible part of the silhouette.",
+      "featuresEn": [
+        "A wide band of repeating raised cross motifs.",
+        "Seller lists sterling silver, US size 11 / EU 65 and a 20 mm width.",
+        "This exact pre-owned example is graded Excellent, with faint scratches noted."
+      ],
+      "stylingEn": "Let the wide band sit beside a plain shirt cuff or a dark knit sleeve, where its outline stays clear. Begin with one statement ring on the hand; a slim bracelet can add another silver note without crowding the fingers.",
+      "imageAlt": "Chrome Hearts Cemetery Cross ring in sterling silver, with raised cross motifs and dark recesses, US size 11.",
+      "priceEvidence": "Direct product HTML structured data and the exact listing Shopify product JSON both identify item 1962167 and a USD 2,950 asking price. Product JSON reports price 295000 in USD cents and available=true. This is a seller resale ask, not an official Chrome Hearts retail price.",
+      "id": "chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167",
+      "priceStatus": "resale-ask",
+      "priceLabel": "Seller resale asking price (USD)",
+      "priceAsOf": "2026-10-26",
+      "checkedAt": "2026-10-26",
+      "availabilityEn": "Seller listed this exact piece as available when checked on 26 October 2026; availability may change.",
+      "editorialLabelZh": "人气经典编辑精选",
+      "image": "assets/img/products/chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167.webp",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0894/3186/7695/files/0270c09aa633a9cafbdf7b5d452fcb80.jpg?v=1791569364",
+      "imageCredit": "FASHIONPHILE · resale listing photography",
+      "imageRightsNote": "Seller listing photograph. Public access does not establish a reuse license; copyright remains with the respective rights holder.",
+      "imageWidth": 1200,
+      "imageHeight": 1200,
+      "imageProcessing": {
+        "originalDownloadSha256": "ab8d6c8f8ec0a45055815d7312dd1b8bafc56a1d40619508bf1b5bed3a3ff88e",
+        "originalWidth": 1500,
+        "originalHeight": 1500,
+        "originalBytes": 222001,
+        "bytes": 140918,
+        "sha256": "aaf537d2e545f5c86a5bf59e170fce71bd141df6a80da6b41df28cc654899079",
+        "processing": "Downloaded original JPEG; applied EXIF orientation if present; retained the full frame; downscaled proportionally to at most 1200 px on the longest side using Lanczos; encoded WebP quality 88, method 6. No crop, reflection, compositing, retouching, or generated angle."
+      },
+      "sourceSnapshotNote": "Direct static HTML and the exact listing Shopify product JSON were retrieved on 26 October 2026. Prices are resale asking prices for these individual pieces. Listing identifiers are merchant references, not manufacturer model numbers. No product weight, gemstone specification, release date, official MSRP, sales ranking or quantity claim is inferred.",
+      "sourceSnapshots": {
+        "HTML": {
+          "sha256": "129eb808eb6a0bcebf9a29543884f49c6c7aedff69d0f7ebb20904c470f71624",
+          "bytes": 1181685
+        },
+        "Shopify product JSON": {
+          "sha256": "89fdb912bc7b2140952c23345903557d46c1ec461918be1f72352ba8c425a1e0",
+          "bytes": 4865
+        }
+      }
+    },
+    {
+      "brand": "chrome-hearts",
+      "category": "jewelry",
+      "name": "CH Forever Ring — .925 silver, US 11",
+      "nameZh": "克罗心 CH Forever 925 银戒指（美码 11）",
+      "reference": "Justin Reed listing 5263256526 (resale listing handle)",
+      "listingReference": "Justin Reed listing handle chrome-hearts-ch-forever-ring-5263256526",
+      "sellerName": "Justin Reed",
+      "itemCondition": "Good overall; seller describes heavy polishing and signs of consistent wear.",
+      "color": "Silver",
+      "sizes": [
+        "US ring size 11 (20.6 mm, as listed by seller)"
+      ],
+      "materials": [
+        ".925 sterling silver (seller description)"
+      ],
+      "priceUSD": 950,
+      "source": "https://justinreed.com/products/chrome-hearts-ch-forever-ring-5263256526",
+      "introEn": "CH Forever gives a simple silver band a distinctly graphic identity. Gothic lettering travels across one face, while small cross motifs bring another rhythm to the surface as the ring turns. The appeal lies in this change of emphasis: a compact shape can read as text, ornament or a quiet strip of metal depending on the angle. This resale example is listed in .925 sterling silver, US size 11. The seller describes substantial polishing and regular wear, details that belong to this individual ring and should inform a closer inspection.",
+      "featuresEn": [
+        "Gothic CH Forever lettering and small cross motifs are visible in the two listing photographs.",
+        "Seller lists .925 sterling silver and US size 11 (20.6 mm).",
+        "This individual ring is graded Good; heavy polishing and consistent wear are disclosed."
+      ],
+      "stylingEn": "Use the band as a small graphic accent with a white T-shirt, dark denim or an open shirt cuff. Leave a little space between neighboring rings so the lettering remains legible, and check the listed size carefully before planning a stack.",
+      "imageAlt": "Chrome Hearts CH Forever ring in .925 sterling silver with Gothic lettering, US size 11.",
+      "priceEvidence": "Direct exact-listing HTML shows $950, size 11 US (20.6 mm), Silver and Add to cart. Its Shopify product JSON reports price 95000 in USD cents, the matching variant and available=true. This is a seller resale ask, not an official Chrome Hearts retail price.",
+      "id": "chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526",
+      "priceStatus": "resale-ask",
+      "priceLabel": "Seller resale asking price (USD)",
+      "priceAsOf": "2026-10-26",
+      "checkedAt": "2026-10-26",
+      "availabilityEn": "Seller listed this exact piece as available when checked on 26 October 2026; availability may change.",
+      "editorialLabelZh": "人气经典编辑精选",
+      "image": "assets/img/products/chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526.webp",
+      "imageSource": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_929a9281-a220-4787-8de7-d65feec5f29c.jpg?v=1792437233",
+      "imageCredit": "Justin Reed · resale listing photography",
+      "imageRightsNote": "Seller listing photograph. Public access does not establish a reuse license; copyright remains with the respective rights holder.",
+      "imageWidth": 960,
+      "imageHeight": 1200,
+      "imageProcessing": {
+        "originalDownloadSha256": "5d85975cafadde4ed7367690fc89d0caa707a514e5cd0b0c7e4af8690d94f310",
+        "originalWidth": 2400,
+        "originalHeight": 3000,
+        "originalBytes": 208686,
+        "bytes": 41956,
+        "sha256": "f643eca679881917e556ba48c929283fdd0380c1e444f3353ea9781064a8c3cb",
+        "processing": "Downloaded original JPEG; applied EXIF orientation if present; retained the full frame; downscaled proportionally to at most 1200 px on the longest side using Lanczos; encoded WebP quality 88, method 6. No crop, reflection, compositing, retouching, or generated angle."
+      },
+      "sourceSnapshotNote": "Direct static HTML and the exact listing Shopify product JSON were retrieved on 26 October 2026. Prices are resale asking prices for these individual pieces. Listing identifiers are merchant references, not manufacturer model numbers. No product weight, gemstone specification, release date, official MSRP, sales ranking or quantity claim is inferred.",
+      "sourceSnapshots": {
+        "HTML": {
+          "sha256": "401aaa1e367e8aae464a3243b0a8aa7b1777078c3fd7336107d1baf781512cfe",
+          "bytes": 332670
+        },
+        "Shopify product JSON": {
+          "sha256": "5a8554cefd1d8a4900a20c0c3d6908e9f0ad099c2dc00715e6829d6855ec4956",
+          "bytes": 4532
+        }
+      }
+    },
+    {
+      "brand": "chrome-hearts",
+      "category": "jewelry",
+      "name": "Paper Chain Bracelet — .925 silver, 7 inches",
+      "nameZh": "克罗心 Paper Chain 925 银手链（7 英寸）",
+      "reference": "Justin Reed listing 64684684 (resale listing handle)",
+      "listingReference": "Justin Reed listing handle chrome-hearts-paper-chain-bracelet-64684684",
+      "sellerName": "Justin Reed",
+      "itemCondition": "Great overall; seller notes general signs of wear.",
+      "color": "Silver",
+      "sizes": [
+        "Length: 7 inches (seller measurement)",
+        "Seller variant: OS / Silver"
+      ],
+      "materials": [
+        ".925 sterling silver (seller description)"
+      ],
+      "priceUSD": 2000,
+      "source": "https://justinreed.com/products/chrome-hearts-paper-chain-bracelet-64684684",
+      "introEn": "The Paper Chain bracelet makes its impression through repetition. Closely connected silver links create a continuous line around the wrist, with small engraved details becoming apparent as the bracelet moves. The darker spaces between the links give the surface depth without interrupting that steady rhythm. This exact resale piece is listed in .925 sterling silver and measures seven inches in length according to the seller. Its appeal is easy to understand beside a clean sleeve: the chain brings texture and movement while keeping the overall shape precise and direct.",
+      "featuresEn": [
+        "A continuous chain of linked silver forms with engraved surface details visible in the photographs.",
+        "Seller lists .925 sterling silver and a measured length of 7 inches.",
+        "This exact resale example is graded Great, with general wear disclosed."
+      ],
+      "stylingEn": "Try the bracelet with a short sleeve or a cuff pushed slightly back so the chain can move freely. Pair it with a single silver ring for a measured combination, and compare the stated seven-inch length with a bracelet that already fits comfortably.",
+      "imageAlt": "Chrome Hearts Paper Chain bracelet in .925 sterling silver, listed length seven inches.",
+      "priceEvidence": "Direct exact-listing HTML shows $2,000, .925 Sterling Silver, Length 7 inches and Add to cart. Its Shopify product JSON reports price 200000 in USD cents, variant OS / Silver and available=true. This is a seller resale ask, not an official Chrome Hearts retail price.",
+      "id": "chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684",
+      "priceStatus": "resale-ask",
+      "priceLabel": "Seller resale asking price (USD)",
+      "priceAsOf": "2026-10-26",
+      "checkedAt": "2026-10-26",
+      "availabilityEn": "Seller listed this exact piece as available when checked on 26 October 2026; availability may change.",
+      "editorialLabelZh": "人气经典编辑精选",
+      "image": "assets/img/products/chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684.webp",
+      "imageSource": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_50041435-a7d8-47ac-aad3-65efde3909d2.jpg?v=1780354629",
+      "imageCredit": "Justin Reed · resale listing photography",
+      "imageRightsNote": "Seller listing photograph. Public access does not establish a reuse license; copyright remains with the respective rights holder.",
+      "imageWidth": 960,
+      "imageHeight": 1200,
+      "imageProcessing": {
+        "originalDownloadSha256": "e7329dee032ac1b44a7531a9ca2cdf2d2ab63a92a2206743fd914e4de419e8a6",
+        "originalWidth": 2400,
+        "originalHeight": 3000,
+        "originalBytes": 84197,
+        "bytes": 16788,
+        "sha256": "c45a10a276a03482e420ce5016f8f2668d24d39d95b9235aab2abcdc97bf30bb",
+        "processing": "Downloaded original JPEG; applied EXIF orientation if present; retained the full frame; downscaled proportionally to at most 1200 px on the longest side using Lanczos; encoded WebP quality 88, method 6. No crop, reflection, compositing, retouching, or generated angle."
+      },
+      "sourceSnapshotNote": "Direct static HTML and the exact listing Shopify product JSON were retrieved on 26 October 2026. Prices are resale asking prices for these individual pieces. Listing identifiers are merchant references, not manufacturer model numbers. No product weight, gemstone specification, release date, official MSRP, sales ranking or quantity claim is inferred.",
+      "sourceSnapshots": {
+        "HTML": {
+          "sha256": "e16b8636ddcb9a6d0e4b69378641118ea44f51f0109be5b49e0c5afa80e67bdc",
+          "bytes": 333177
+        },
+        "Shopify product JSON": {
+          "sha256": "63adae45d825a1f59c22f9574ee6e796f2a890903f47bc099894eab52acae502",
+          "bytes": 5073
+        }
+      }
+    }
+  ],
+  "galleries": {
+    "records": [
+      {
+        "id": "chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167",
+        "reference": "FASHIONPHILE item 1962167 (resale listing ID)",
+        "note": "Two distinct seller photographs of the exact listed piece. The full source frames are retained.",
+        "images": [
+          {
+            "path": "assets/img/products/chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167.webp",
+            "source": "https://cdn.shopify.com/s/files/1/0894/3186/7695/files/0270c09aa633a9cafbdf7b5d452fcb80.jpg?v=1791569364",
+            "originalDownloadSha256": "ab8d6c8f8ec0a45055815d7312dd1b8bafc56a1d40619508bf1b5bed3a3ff88e",
+            "originalWidth": 1500,
+            "originalHeight": 1500,
+            "width": 1200,
+            "height": 1200,
+            "originalBytes": 222001,
+            "bytes": 140918,
+            "sha256": "aaf537d2e545f5c86a5bf59e170fce71bd141df6a80da6b41df28cc654899079",
+            "processing": "Downloaded original JPEG; applied EXIF orientation if present; retained the full frame; downscaled proportionally to at most 1200 px on the longest side using Lanczos; encoded WebP quality 88, method 6. No crop, reflection, compositing, retouching, or generated angle.",
+            "pageSource": "https://www.fashionphile.com/products/chrome-hearts-sterling-silver-cemetery-cross-ring-65-11-1962167",
+            "credit": "FASHIONPHILE · resale listing photography",
+            "alt": "Cemetery Cross Ring, sterling silver, US 11 — front view.",
+            "viewLabel": "Front view",
+            "checkedAt": "2026-10-26",
+            "evidence": "FASHIONPHILE exact listing 1962167; gallery photographs 1 and 2 depict the same listed sterling-silver Cemetery Cross ring, US 11 / EU 65. The second photograph shows the ring on a mannequin hand. Visually checked together on 26 October 2026."
+          },
+          {
+            "path": "assets/img/views/chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167.webp",
+            "source": "https://cdn.shopify.com/s/files/1/0894/3186/7695/files/2f292f01d55d1cbaf0f72abd6a902ae3.jpg?v=1791569364",
+            "originalDownloadSha256": "91ebb49bc61c09d46c6c18e1ce86df3f41c2cfbc5163f865a35d17f85e235913",
+            "originalWidth": 1500,
+            "originalHeight": 1500,
+            "width": 1200,
+            "height": 1200,
+            "originalBytes": 44923,
+            "bytes": 20052,
+            "sha256": "9aac5e857c1594aa7a45eca854dcb0714b1515884d9ed03a12ff125438d70f53",
+            "processing": "Downloaded original JPEG; applied EXIF orientation if present; retained the full frame; downscaled proportionally to at most 1200 px on the longest side using Lanczos; encoded WebP quality 88, method 6. No crop, reflection, compositing, retouching, or generated angle.",
+            "pageSource": "https://www.fashionphile.com/products/chrome-hearts-sterling-silver-cemetery-cross-ring-65-11-1962167",
+            "credit": "FASHIONPHILE · resale listing photography",
+            "alt": "The same FASHIONPHILE Cemetery Cross Ring, item 1962167, on a mannequin hand.",
+            "viewLabel": "On mannequin hand",
+            "checkedAt": "2026-10-26",
+            "evidence": "FASHIONPHILE exact listing 1962167; gallery photographs 1 and 2 depict the same listed sterling-silver Cemetery Cross ring, US 11 / EU 65. The second photograph shows the ring on a mannequin hand. Visually checked together on 26 October 2026."
+          }
+        ]
+      },
+      {
+        "id": "chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526",
+        "reference": "Justin Reed listing 5263256526 (resale listing handle)",
+        "note": "Two distinct seller photographs of the exact listed piece. The full source frames are retained.",
+        "images": [
+          {
+            "path": "assets/img/products/chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526.webp",
+            "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_929a9281-a220-4787-8de7-d65feec5f29c.jpg?v=1792437233",
+            "originalDownloadSha256": "5d85975cafadde4ed7367690fc89d0caa707a514e5cd0b0c7e4af8690d94f310",
+            "originalWidth": 2400,
+            "originalHeight": 3000,
+            "width": 960,
+            "height": 1200,
+            "originalBytes": 208686,
+            "bytes": 41956,
+            "sha256": "f643eca679881917e556ba48c929283fdd0380c1e444f3353ea9781064a8c3cb",
+            "processing": "Downloaded original JPEG; applied EXIF orientation if present; retained the full frame; downscaled proportionally to at most 1200 px on the longest side using Lanczos; encoded WebP quality 88, method 6. No crop, reflection, compositing, retouching, or generated angle.",
+            "pageSource": "https://justinreed.com/products/chrome-hearts-ch-forever-ring-5263256526",
+            "credit": "Justin Reed · resale listing photography",
+            "alt": "CH Forever Ring, .925 sterling silver, US 11 — Gothic lettering view.",
+            "viewLabel": "Lettering view",
+            "checkedAt": "2026-10-26",
+            "evidence": "Justin Reed exact listing handle chrome-hearts-ch-forever-ring-5263256526; gallery photographs 1 and 2 show the same listed US 11 .925 sterling-silver ring, with lettering and cross motifs respectively. Seller states the photographs represent the actual item. Visually checked together on 26 October 2026."
+          },
+          {
+            "path": "assets/img/views/chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526.webp",
+            "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/2_ad272f1d-d2a4-4b18-a7ef-5e2a7cf0dea8.jpg?v=1792437233",
+            "originalDownloadSha256": "3c810f96a67b26dd7f061992b5d46e196eb5cb7c3e7b1d47f7f7b9b82197aa52",
+            "originalWidth": 2400,
+            "originalHeight": 3000,
+            "width": 960,
+            "height": 1200,
+            "originalBytes": 195072,
+            "bytes": 37004,
+            "sha256": "106b633fa131d7655424c93985d7aaf554530f13aee6e33b9a03e6b20ff475de",
+            "processing": "Downloaded original JPEG; applied EXIF orientation if present; retained the full frame; downscaled proportionally to at most 1200 px on the longest side using Lanczos; encoded WebP quality 88, method 6. No crop, reflection, compositing, retouching, or generated angle.",
+            "pageSource": "https://justinreed.com/products/chrome-hearts-ch-forever-ring-5263256526",
+            "credit": "Justin Reed · resale listing photography",
+            "alt": "The same Justin Reed CH Forever Ring, listing 5263256526 — cross-motif side view.",
+            "viewLabel": "Cross-motif view",
+            "checkedAt": "2026-10-26",
+            "evidence": "Justin Reed exact listing handle chrome-hearts-ch-forever-ring-5263256526; gallery photographs 1 and 2 show the same listed US 11 .925 sterling-silver ring, with lettering and cross motifs respectively. Seller states the photographs represent the actual item. Visually checked together on 26 October 2026."
+          }
+        ]
+      },
+      {
+        "id": "chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684",
+        "reference": "Justin Reed listing 64684684 (resale listing handle)",
+        "note": "Two distinct seller photographs of the exact listed piece. The full source frames are retained.",
+        "images": [
+          {
+            "path": "assets/img/products/chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684.webp",
+            "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/1_50041435-a7d8-47ac-aad3-65efde3909d2.jpg?v=1780354629",
+            "originalDownloadSha256": "e7329dee032ac1b44a7531a9ca2cdf2d2ab63a92a2206743fd914e4de419e8a6",
+            "originalWidth": 2400,
+            "originalHeight": 3000,
+            "width": 960,
+            "height": 1200,
+            "originalBytes": 84197,
+            "bytes": 16788,
+            "sha256": "c45a10a276a03482e420ce5016f8f2668d24d39d95b9235aab2abcdc97bf30bb",
+            "processing": "Downloaded original JPEG; applied EXIF orientation if present; retained the full frame; downscaled proportionally to at most 1200 px on the longest side using Lanczos; encoded WebP quality 88, method 6. No crop, reflection, compositing, retouching, or generated angle.",
+            "pageSource": "https://justinreed.com/products/chrome-hearts-paper-chain-bracelet-64684684",
+            "credit": "Justin Reed · resale listing photography",
+            "alt": "Paper Chain Bracelet in .925 sterling silver, seven-inch length — full bracelet view.",
+            "viewLabel": "Full bracelet view",
+            "checkedAt": "2026-10-26",
+            "evidence": "Justin Reed exact listing handle chrome-hearts-paper-chain-bracelet-64684684; gallery photographs 1 and 2 show the same seven-inch .925 sterling-silver bracelet, as a full bracelet and a link detail. Seller states the photographs represent the actual item. Visually checked together on 26 October 2026."
+          },
+          {
+            "path": "assets/img/views/chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684.webp",
+            "source": "https://cdn.shopify.com/s/files/1/2400/1837/files/2_11f8525d-cb36-4f26-9f63-ff2c3b628b43.jpg?v=1780354629",
+            "originalDownloadSha256": "2d28eed5fc930f7e2003538fbdb3fd04bdd2b61ac0e56454fa5d0b662c3b9725",
+            "originalWidth": 2400,
+            "originalHeight": 3000,
+            "width": 960,
+            "height": 1200,
+            "originalBytes": 199173,
+            "bytes": 40002,
+            "sha256": "4b8bf6ae85838337fad0c264c1e538f77e22826aec352064a18191497378d8a3",
+            "processing": "Downloaded original JPEG; applied EXIF orientation if present; retained the full frame; downscaled proportionally to at most 1200 px on the longest side using Lanczos; encoded WebP quality 88, method 6. No crop, reflection, compositing, retouching, or generated angle.",
+            "pageSource": "https://justinreed.com/products/chrome-hearts-paper-chain-bracelet-64684684",
+            "credit": "Justin Reed · resale listing photography",
+            "alt": "The same Justin Reed Paper Chain Bracelet, listing 64684684 — close detail of links.",
+            "viewLabel": "Link detail view",
+            "checkedAt": "2026-10-26",
+            "evidence": "Justin Reed exact listing handle chrome-hearts-paper-chain-bracelet-64684684; gallery photographs 1 and 2 show the same seven-inch .925 sterling-silver bracelet, as a full bracelet and a link detail. Seller states the photographs represent the actual item. Visually checked together on 26 October 2026."
+          }
+        ]
+      }
+    ]
+  }
+}
