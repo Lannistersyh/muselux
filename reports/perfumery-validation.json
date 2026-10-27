@@ -366,6 +366,14 @@
   "browserTabsOpened": 0,
   "browserTabsRemaining": 0,
   "publication": {
-    "status": "pending"
+    "status": "published",
+    "contentCommit": "04d7bee9b54d3c4b70756ab9aa6794228d1b5d2e",
+    "pagesBuild": {
+      "commit": "04d7bee9b54d3c4b70756ab9aa6794228d1b5d2e",
+      "status": "built"
+    },
+    "verifiedPublicFiles": 240,
+    "evidence": "reports/perfumery-deployment-validation.json",
+    "method": "All223generatedHTMLpages,4CSS/JSresources,sitemap,and12newphotosmatchedlocalSHA256."
   }
 }
