@@ -199,6 +199,18 @@ async function run() {
     check(expected > 0 && site.get('#search-count').textContent.endsWith(`找到 ${expected} 条内容`), 'Chrome Hearts category filter: ' + category);
   }
 
+  const perfumery = JSON.parse(fs.readFileSync(path.join(root, 'tools/perfumery.json'), 'utf8'));
+  site = await fixture('perfumery.html', 'file:///tmp/muselux/perfumery.html');
+  check(site.document.querySelectorAll('.perfumery-house').length === perfumery.houses.length, 'Perfumery retains every house offline');
+  check(site.get('.nav-perfumery').classList.contains('active'), 'Perfumery column has an active navigation entry');
+  for (const entry of perfumery.houses) {
+    const product = catalog.find(item => item.id === entry.product);
+    const brand = content.brands.find(brand => brand.id === product.brand);
+    site = await fixture('search.html', 'file:///tmp/muselux/search.html?cat=fragrance&type=item&q=' + encodeURIComponent(brand.nameZh));
+    check(site.get('#search-count').textContent.endsWith('找到 1 条内容'), 'Fragrance house finds its representative offline: ' + brand.name);
+    check(site.get('#search-results').innerHTML.includes(product.id + '.html'), 'Search links to the selected bottle: ' + brand.name);
+  }
+
   site = await fixture('brands.html');
   for (const query of ['FRGMT', 'Alaïa', '罗意威', '摩奈', '克罗心']) {
     site.get('#brand-query').value = query;

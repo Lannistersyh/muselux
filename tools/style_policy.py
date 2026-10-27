@@ -4,7 +4,7 @@ PRICE_STATUSES = ('live', 'official-snapshot', 'resale-ask')
 
 
 def category_limit(category):
-    return 8 if category in ('necklace', 'jewelry') else 5
+    return 9 if category == 'fragrance' else 8 if category in ('necklace', 'jewelry') else 5
 
 
 def valid_category_counts(counts, categories):

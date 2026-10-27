@@ -1,0 +1,371 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-27",
+  "scope": "New fragrance-house column with five brand dossiers and five exact-format perfumes; original six categories retained.",
+  "publicURL": "https://lannistersyh.github.io/muselux/perfumery.html",
+  "priorContentHead": "eb6ee728715640db6d4ebaaf20f60968bd309119",
+  "preservedCoreProducts": 61,
+  "preservedAnnualEntries": 90,
+  "priorProductsPreservedExactly": true,
+  "annualSelectionsAndCutoffsPreservedExactly": true,
+  "products": [
+    {
+      "id": "diptyque-tam-dao-edp-75ml-tamdaop75cv1",
+      "brand": "diptyque",
+      "reference": "TAMDAOP75CV1",
+      "format": [
+        "75 ml"
+      ],
+      "priceUSD": 260,
+      "priceStatus": "live",
+      "checkedAt": "2026-10-27",
+      "source": "https://us.diptyqueparis.com/en-us/products/eau-de-parfum-tam-dao-tamdaop75cv1",
+      "priceEvidence": "Live official U.S. product HTML identifies SKU TAMDAOP75CV1, Eau de parfum, 75 ml. Product JSON-LD lists offers.price 260.0 and priceCurrency USD; the visible product panel also shows 75 ml and US $260."
+    },
+    {
+      "id": "le-labo-santal-33-edp-100ml-100ps33100",
+      "brand": "le-labo",
+      "reference": "100PS33100",
+      "format": [
+        "100 ml / 3.4 fl. oz."
+      ],
+      "priceUSD": 348,
+      "priceStatus": "live",
+      "checkedAt": "2026-10-27",
+      "source": "https://www.lelabofragrances.com/santal-33-147.html",
+      "priceEvidence": "Live official U.S. ProductGroup JSON-LD has a 100 ml variant with SKU 100PS33100, offers.price 348.00 and priceCurrency USD. Its separate 50 ml variant is $250 and is not used for this record."
+    },
+    {
+      "id": "byredo-bal-dafrique-edp-100ml-0065204863",
+      "brand": "byredo",
+      "reference": "0065204863",
+      "format": [
+        "100 ml"
+      ],
+      "priceUSD": 330,
+      "priceStatus": "live",
+      "checkedAt": "2026-10-27",
+      "source": "https://www.byredo.com/us_en/p/bal-d-afrique-eau-de-parfum?sku=0065204863",
+      "priceEvidence": "Live official U.S. raw HTML ProductGroup JSON-LD identifies current SKU 0065204863, size 100 ml, offers.price 330 and priceCurrency USD. The same variant in __NEXT_DATA__ has final_price USD 330 and a dedicated media_gallery. Legacy number 10000038 appears only in the current variant’s image filenames."
+    },
+    {
+      "id": "mfk-baccarat-rouge-540-edp-70ml-ra12232",
+      "brand": "maison-francis-kurkdjian",
+      "reference": "RA12232",
+      "format": [
+        "70 ml / 2.4 fl.oz."
+      ],
+      "priceUSD": 360,
+      "priceStatus": "official-snapshot",
+      "checkedAt": "2026-10-27",
+      "source": "https://www.franciskurkdjian.com/us-en/p/baccarat-rouge-540-eau-de-parfum-RA12232.html",
+      "priceEvidence": "The official Maison Francis Kurkdjian U.S. reader snapshot for RA12232 displays Natural spray 2.4 fl.oz., $360.00. Its official Baccarat Rouge 540 collection page separately labels this Eau de parfum as 70ml $360.00. Baccarat’s own U.S. store raw Product JSON-LD independently offers the same 70 ml Eau de Parfum as reference 2810839 for USD360.00; Baccarat is the named co-creator and this corroboration is not represented as a live MFK checkout."
+    },
+    {
+      "id": "jo-malone-wood-sage-sea-salt-cologne-100ml-l41501",
+      "brand": "jo-malone-london",
+      "reference": "L41501",
+      "format": [
+        "100 ml"
+      ],
+      "priceUSD": 175,
+      "priceStatus": "official-snapshot",
+      "checkedAt": "2026-10-27",
+      "source": "https://www.jomalone.com/product/25946/32241/colognes/wood-sage-sea-salt-cologne",
+      "priceEvidence": "Official Jo Malone London U.S. product reader snapshot displays Wood Sage & Sea Salt Cologne at $175.00 with 100ml listed first. The official Canada raw ProductGroup and sku media data identify L41501 specifically as 100ml; Canadian currency and price are not used for the U.S. retail amount."
+    }
+  ],
+  "photos": [
+    {
+      "product": "diptyque-tam-dao-edp-75ml-tamdaop75cv1",
+      "path": "assets/img/products/diptyque-tam-dao-edp75-front-20261027.webp",
+      "width": 900,
+      "height": 1200,
+      "sha256": "54d77d98c161ec7bff8fe92609458d8a0890cfd58059ac4078da3082a6cdfb26",
+      "bytes": 49298,
+      "source": "https://cdn.shopify.com/s/files/1/0991/4784/1850/files/diptyque-tam-dao-eau-de-parfum-TAMDAOP75CV1_front.webp?v=1781571406&width=2048",
+      "viewLabel": "Original view",
+      "decoded": true,
+      "mode": "RGB"
+    },
+    {
+      "product": "diptyque-tam-dao-edp-75ml-tamdaop75cv1",
+      "path": "assets/img/views/diptyque-tam-dao-edp75-back-20261027.webp",
+      "width": 900,
+      "height": 1200,
+      "sha256": "e0e81351858258ad70a079f8280ff70e783cb3dab6c318f84cd21de695ecf9e7",
+      "bytes": 46000,
+      "source": "https://cdn.shopify.com/s/files/1/0991/4784/1850/files/diptyque-tam-dao-eau-de-parfum-TAMDAOP75CV1_back.webp?v=1781571406&width=2048",
+      "viewLabel": "Reverse illustration",
+      "decoded": true,
+      "mode": "RGB"
+    },
+    {
+      "product": "diptyque-tam-dao-edp-75ml-tamdaop75cv1",
+      "path": "assets/img/views/diptyque-tam-dao-edp75-side-20261027.webp",
+      "width": 900,
+      "height": 1200,
+      "sha256": "b96d2902baeb0dd9dd1c3d2d94e7f5643ddf7ee32b1647eb2af4e613c72b0749",
+      "bytes": 110934,
+      "source": "https://cdn.shopify.com/s/files/1/0991/4784/1850/files/diptyque-tam-dao-eau-de-parfum-TAMDAOP75CV1_side.webp?v=1781571407&width=2048",
+      "viewLabel": "Uncapped angled detail",
+      "decoded": true,
+      "mode": "RGB"
+    },
+    {
+      "product": "le-labo-santal-33-edp-100ml-100ps33100",
+      "path": "assets/img/products/le-labo-santal33-edp100-front-20261027.webp",
+      "width": 1200,
+      "height": 1200,
+      "sha256": "9507dc3f9606fc157beb5c72f517cc13f9814aa2ec1d16b133eaf12db9aee3e6",
+      "bytes": 195040,
+      "source": "https://lelabo.ips.photos/lelabo-java/images/skus/100PS33100__PRODUCT_01--IMG_1200--SANTAL33-883562345.jpg",
+      "viewLabel": "Original view",
+      "decoded": true,
+      "mode": "RGB"
+    },
+    {
+      "product": "le-labo-santal-33-edp-100ml-100ps33100",
+      "path": "assets/img/views/le-labo-santal33-edp100-detail-20261027.webp",
+      "width": 1200,
+      "height": 1200,
+      "sha256": "1628f406693e863796dec2fc1308c60e16fd3f89fd94158774441745c666f41c",
+      "bytes": 217948,
+      "source": "https://lelabo.ips.photos/lelabo-java/images/skus/100PS33100__PRODUCT_07--IMG_1200--SANTAL33-752236687.jpg",
+      "viewLabel": "Label application detail",
+      "decoded": true,
+      "mode": "RGB"
+    },
+    {
+      "product": "le-labo-santal-33-edp-100ml-100ps33100",
+      "path": "assets/img/views/le-labo-santal33-edp100-scene-20261027.webp",
+      "width": 1200,
+      "height": 1200,
+      "sha256": "1ec720c2e780c89a3208f7c6919ed728b0305ef18c8371413f811114e4888d45",
+      "bytes": 214178,
+      "source": "https://lelabo.ips.photos/lelabo-java/images/skus/100PS33100__PRODUCT_08--IMG_1200--SANTAL33--902831406.jpg",
+      "viewLabel": "Original packaging",
+      "decoded": true,
+      "mode": "RGB"
+    },
+    {
+      "product": "byredo-bal-dafrique-edp-100ml-0065204863",
+      "path": "assets/img/products/byredo-bal-dafrique-edp100-front-20261027.webp",
+      "width": 1200,
+      "height": 1200,
+      "sha256": "f5f9fcd7a40e5f0ab4a19bd78d4e8a1e6d33b087b2f0fadd421ffc44ffaada6c",
+      "bytes": 20394,
+      "source": "https://www.byredo.com/cdn-cgi/image/format=auto,quality=70/https://www.byredo.com/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/0/10000038_1_full_no.jpg",
+      "viewLabel": "Original view",
+      "decoded": true,
+      "mode": "RGB"
+    },
+    {
+      "product": "byredo-bal-dafrique-edp-100ml-0065204863",
+      "path": "assets/img/views/byredo-bal-dafrique-edp100-spray-20261027.webp",
+      "width": 1200,
+      "height": 1200,
+      "sha256": "5e9dd0d28844354f4c53dfc2243cbb87ae8eb821f89d2cf3e1f25d9c63d74ce5",
+      "bytes": 78388,
+      "source": "https://www.byredo.com/cdn-cgi/image/format=auto,quality=70/https://www.byredo.com/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/0/10000038_3_no_no.jpg",
+      "viewLabel": "Spray nozzle detail",
+      "decoded": true,
+      "mode": "RGB"
+    },
+    {
+      "product": "mfk-baccarat-rouge-540-edp-70ml-ra12232",
+      "path": "assets/img/products/mfk-baccarat-rouge540-edp70-front-20261027.webp",
+      "width": 1200,
+      "height": 1200,
+      "sha256": "e9b2d50462464c23919de429300632d271ec8390539802189b2c48142d3d97b4",
+      "bytes": 35294,
+      "source": "https://www.baccarat.com/dw/image/v2/BBLJ_PRD/on/demandware.static/-/Sites-baccarat-master-products/default/dw31f21528/packshot/2810839_grey_001.jpg?sw=1200&q=90",
+      "viewLabel": "Original view",
+      "decoded": true,
+      "mode": "RGB"
+    },
+    {
+      "product": "mfk-baccarat-rouge-540-edp-70ml-ra12232",
+      "path": "assets/img/views/mfk-baccarat-rouge540-edp70-overhead-20261027.webp",
+      "width": 1200,
+      "height": 1200,
+      "sha256": "146afebed67217e7f5b1009c2f8fc7ad707edc99b4d250f0ccedcccc537d0ce1",
+      "bytes": 40466,
+      "source": "https://www.baccarat.com/dw/image/v2/BBLJ_PRD/on/demandware.static/-/Sites-baccarat-master-products/default/dw6286969f/packshot/2810839_grey_002.jpg?sw=1200&q=90",
+      "viewLabel": "Overhead three-quarter view",
+      "decoded": true,
+      "mode": "RGB"
+    },
+    {
+      "product": "jo-malone-wood-sage-sea-salt-cologne-100ml-l41501",
+      "path": "assets/img/products/jo-malone-wood-sage-sea-salt100-front-20261027.webp",
+      "width": 1000,
+      "height": 1000,
+      "sha256": "c346f5a471ad4822e6a36c941d042f83e5234df7e8b0100769a8f1da05707f05",
+      "bytes": 34470,
+      "source": "https://www.jomalone.ca/media/export/cms/products/1000x1000/jo_sku_L41501_1000x1000_0.png",
+      "viewLabel": "Original view",
+      "decoded": true,
+      "mode": "RGB"
+    },
+    {
+      "product": "jo-malone-wood-sage-sea-salt-cologne-100ml-l41501",
+      "path": "assets/img/views/jo-malone-wood-sage-sea-salt100-scene-20261027.webp",
+      "width": 1000,
+      "height": 1000,
+      "sha256": "d15dfaa98f7910e7c83dfa2db4376e72c751111328853030cf973d78006a0aef",
+      "bytes": 230022,
+      "source": "https://www.jomalone.ca/media/export/cms/products/1000x1000/jo_sku_L41501_1000x1000_2.png",
+      "viewLabel": "Bottle with sage and sea salt",
+      "decoded": true,
+      "mode": "RGB"
+    }
+  ],
+  "newPhotographs": 12,
+  "newPhotoBytes": 1272432,
+  "staticValidation": {
+    "passed": true,
+    "pages": 223,
+    "brands": 40,
+    "items": 66,
+    "productGalleries": 156,
+    "galleryViews": 316,
+    "primaryBrands": 36,
+    "collaborationBrands": 4,
+    "catalogBrandAssociations": 165,
+    "productsWithBrandPage": 156,
+    "annualBagEntries": 30,
+    "annualEntries": 90,
+    "annualEntriesByCategory": {
+      "bags": 30,
+      "necklace": 30,
+      "jewelry": 30
+    },
+    "annualSelectionCounts": {
+      "bags": {
+        "2022": {
+          "hot": 4,
+          "limited": 2
+        },
+        "2023": {
+          "hot": 4,
+          "limited": 2
+        },
+        "2024": {
+          "hot": 4,
+          "limited": 2
+        },
+        "2025": {
+          "hot": 4,
+          "limited": 2
+        },
+        "2026": {
+          "hot": 4,
+          "limited": 2
+        }
+      },
+      "necklace": {
+        "2022": {
+          "hot": 4,
+          "limited": 2
+        },
+        "2023": {
+          "hot": 4,
+          "limited": 2
+        },
+        "2024": {
+          "hot": 4,
+          "limited": 2
+        },
+        "2025": {
+          "hot": 4,
+          "limited": 2
+        },
+        "2026": {
+          "hot": 4,
+          "limited": 2
+        }
+      },
+      "jewelry": {
+        "2022": {
+          "hot": 4,
+          "limited": 2
+        },
+        "2023": {
+          "hot": 4,
+          "limited": 2
+        },
+        "2024": {
+          "hot": 4,
+          "limited": 2
+        },
+        "2025": {
+          "hot": 4,
+          "limited": 2
+        },
+        "2026": {
+          "hot": 4,
+          "limited": 2
+        }
+      }
+    },
+    "annualEditionTypes": {
+      "seasonal-capsule": 27,
+      "limited-edition": 3
+    },
+    "annualPriceBasis": {
+      "current-retail": 44,
+      "reported-retail": 43,
+      "resale-ask": 3
+    },
+    "annualSnapshotReferences": 29,
+    "searchableItemPages": 156,
+    "articles": 12,
+    "categories": 6,
+    "photographedProducts": 128,
+    "productsPerCategory": {
+      "bags": 5,
+      "scarves": 5,
+      "necklace": 7,
+      "jewelry": 7,
+      "watches": 5,
+      "fragrance": 9
+    },
+    "currency": "USD",
+    "coreSnapshotPrices": 11,
+    "coreResaleAsks": 6,
+    "unlistedAnnualPrices": 0,
+    "svgAssets": 42,
+    "runtimeJavaScriptBytes": 49782,
+    "articleChineseCharacters": {
+      "mag-01": 972,
+      "mag-02": 915,
+      "mag-03": 937,
+      "mag-04": 977,
+      "mag-05": 999,
+      "mag-06": 964,
+      "mag-07": 882,
+      "mag-08": 991,
+      "mag-09": 1008,
+      "mag-10": 980,
+      "mag-11": 979,
+      "mag-12": 977
+    }
+  },
+  "codeGate": {
+    "passed": true,
+    "reproducibleBuild": true,
+    "pages": 223,
+    "brands": 40,
+    "searchableItems": 156,
+    "pythonRegressionTests": 15,
+    "frontendAssertions": 78,
+    "method": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test"
+  },
+  "verificationLimit": "Actual JavaScript in Node VM with minimal DOM; no real browser layout or mobile visual retest. Full pixel decoding of each new photograph and prior files preserved.",
+  "browserTabsOpened": 0,
+  "browserTabsRemaining": 0,
+  "publication": {
+    "status": "pending"
+  }
+}

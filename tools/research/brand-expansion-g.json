@@ -1,0 +1,515 @@
+{
+  "checkedAt": "2026-10-27",
+  "brands": [
+    {
+      "id": "diptyque",
+      "name": "Diptyque",
+      "nameZh": "蒂普提克",
+      "country": "法国",
+      "founded": 1961,
+      "foundingNote": "1961 年创立于巴黎圣日耳曼大道34号；品牌官网将三位创始人记为 Desmond Knox-Leet、Christiane Montadre-Gautrot 与 Yves Coueslant。",
+      "categories": [
+        "fragrance"
+      ],
+      "aliases": [
+        "diptyque Paris",
+        "DIPTYQUE",
+        "蒂普提克"
+      ],
+      "tagline": "把旅行、植物与记忆装进椭圆瓶中",
+      "intro": "蒂普提克的香气世界，从巴黎圣日耳曼大道的一间小店展开。三位有着艺术与装饰背景的朋友，把织物、旅行带回的物件和对自然的观察放在一起，逐步形成属于自己的生活语言。蜡烛与香水沿着这份好奇心生长，玫瑰、无花果、檀香或一座森林，都可以成为一段记忆的入口。椭圆标签上的字母与插画让瓶身也参与叙事，翻到背面，常能看到另一层风景。认识这个品牌，可以先从一株植物或一个地方开始，再比较同名香气在不同浓度中的表达。",
+      "timeline": [
+        {
+          "year": 1961,
+          "event": "三位艺术家朋友在巴黎圣日耳曼大道34号创立 Diptyque，店内陈列织物与世界各地的物件。",
+          "source": "https://us.diptyqueparis.com/en-us/pages/the-story-of-diptyque",
+          "evidence": "官网品牌历史章节“1961: The kindling of an imagination”明确列出三位创始人与34 boulevard Saint-Germain地址。"
+        },
+        {
+          "year": 1963,
+          "event": "推出首批三款香氛蜡烛：Aubépine、Cannelle 与 Thé。",
+          "source": "https://jp.diptyqueparis.com/en-jp/pages/diptyque-japan-company-profile",
+          "evidence": "品牌日本公司简介依次记载1963年以及三款首发香氛蜡烛；美国官网品牌历史亦确认三款名称。"
+        },
+        {
+          "year": 1968,
+          "event": "推出品牌首款淡香水 L’Eau，香气创作从居家延伸到随身。",
+          "source": "https://jp.diptyqueparis.com/en-jp/pages/diptyque-japan-company-profile",
+          "evidence": "品牌日本公司简介明确标注1968年首次推出Eau de Toilette L’Eau。"
+        },
+        {
+          "year": 1983,
+          "event": "L’Ombre dans l’Eau 香氛问世，以玫瑰与黑加仑描写水边花园。",
+          "source": "https://us.diptyqueparis.com/en-us/products/eau-de-parfum-ombre-dans-eau-ombrep75cv2",
+          "evidence": "现行官网该款产品故事明确写“Created in 1983”，并描述玫瑰、黑加仑叶及花蕾；此处年份指香氛作品，不指现行EDP版本首发年。"
+        },
+        {
+          "year": 2009,
+          "event": "设立 Diptyque Japan 株式会社，展开日本本地进口与批发业务。",
+          "source": "https://jp.diptyqueparis.com/en-jp/pages/diptyque-japan-company-profile",
+          "evidence": "品牌日本公司简介“設立”段落明确记载2009年公司设立及法国总部产品进口、批发业务。"
+        },
+        {
+          "year": 2023,
+          "event": "推出 L’Eau Papier，Fabrice Pellegrin 的调香作品以纸为创作主题。",
+          "source": "https://www.dsm-firmenich.com/content/dam/dsm-firmenich/perfumery-beauty/perfumery/perfumer-wins/Major%20Win%20List%20-%20Fabrice%20Pellegrin.pdf",
+          "evidence": "调香师所属供应商dsm-firmenich的Fabrice Pellegrin官方Major Wins作品表，将L’Eau Papier、Diptyque与2023直接列在同一作品项下。该表证实年份与调香归属。"
+        }
+      ],
+      "signatures": [
+        "椭圆标签与黑白插画",
+        "以植物、旅行与记忆为主题的香气",
+        "香水与居家香氛相互呼应",
+        "同名作品的不同浓度演绎"
+      ],
+      "source": "https://us.diptyqueparis.com/en-us/pages/the-story-of-diptyque",
+      "sources": [
+        {
+          "label": "Diptyque — 品牌历史、创始人与首店",
+          "url": "https://us.diptyqueparis.com/en-us/pages/the-story-of-diptyque"
+        },
+        {
+          "label": "Diptyque Japan — 1961、1963、1968与2009年公司档案",
+          "url": "https://jp.diptyqueparis.com/en-jp/pages/diptyque-japan-company-profile"
+        },
+        {
+          "label": "Diptyque — L’Ombre dans l’Eau官方故事中的1983年",
+          "url": "https://us.diptyqueparis.com/en-us/products/eau-de-parfum-ombre-dans-eau-ombrep75cv2"
+        },
+        {
+          "label": "dsm-firmenich — Fabrice Pellegrin作品表：L’Eau Papier，2023",
+          "url": "https://www.dsm-firmenich.com/content/dam/dsm-firmenich/perfumery-beauty/perfumery/perfumer-wins/Major%20Win%20List%20-%20Fabrice%20Pellegrin.pdf"
+        },
+        {
+          "label": "Diptyque — Tam Dao EDP75ml官方商品页",
+          "url": "https://us.diptyqueparis.com/en-us/products/eau-de-parfum-tam-dao-tamdaop75cv1"
+        }
+      ],
+      "classicItems": [
+        "diptyque-tam-dao-edp-75ml-tamdaop75cv1"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    {
+      "id": "le-labo",
+      "name": "Le Labo",
+      "nameZh": "勒莱柏",
+      "country": "美国",
+      "founded": 2006,
+      "foundingNote": "品牌理念孕育于法国格拉斯，首家香氛实验室于2006年在纽约Nolita的233 Elizabeth Street开设；Fabrice Penot与Eddie Roschi共同创立由母公司2014年原始收购公告确认。",
+      "categories": [
+        "fragrance"
+      ],
+      "aliases": [
+        "LE LABO",
+        "LeLabo",
+        "勒莱柏"
+      ],
+      "tagline": "让每一张标签，记录人与香气的相遇",
+      "intro": "勒莱柏把香水店变成一间可以走进去的实验室。品牌的想象起于格拉斯，实践则落在纽约：朴素的玻璃瓶、纸质标签和可见的手工过程，把注意力引向香气本身。作品以名称和数字建立辨识度，花朵、木材与麝香在不同配方中展开，也让人有机会沿着自己的偏好逐一探索。现场调制、个性标签与部分门店的续装服务，使购买成为可以延续的日常仪式。它的气质既有城市的直接，也保留对手艺和时间的耐心；适合从试香开始，慢慢建立个人的气味记忆。",
+      "timeline": [
+        {
+          "year": 2006,
+          "event": "Fabrice Penot 与 Eddie Roschi 创立 Le Labo，纽约Nolita的233 Elizabeth Street成为首家实验室。",
+          "source": "https://www.lelabofragrances.com/about-us.html",
+          "evidence": "品牌About Us明确记载2006年创立及首店地址；共同创始人姓名另由2014年母公司原始公告支持。"
+        },
+        {
+          "year": 2010,
+          "event": "与 AnOther Magazine 及 Colette 展开创作合作，ANOTHER 13 由此诞生。",
+          "source": "https://www.lelabofragrances.com/another-13-463.html",
+          "evidence": "品牌ANOTHER13现行官方故事明确写“In 2010”，说明Sarah of Colette发起与Jefferson Hack的创作合作。"
+        },
+        {
+          "year": 2011,
+          "event": "Frank Voelkl 创作的 SANTAL 33 问世，以木质、辛香和柔和花香建立表达。",
+          "source": "https://www.dsm-firmenich.com/content/dam/dsm-firmenich/perfumery-beauty/perfumery/perfumer-wins/Major%20Win%20List%20-%20Frank%20Voelkl.pdf",
+          "evidence": "dsm-firmenich的Frank Voelkl官方Major Wins作品表，在SANTAL33、LeLabo下明确列出2011；香调采用LeLabo当前SANTAL33官方商品页。"
+        },
+        {
+          "year": 2014,
+          "event": "雅诗兰黛集团宣布签署收购 Le Labo 的最终协议，品牌进入集团体系。",
+          "source": "https://kommunikasjon.ntb.no/pressemelding/5172793/the-estee-lauder-companies-inc-to-acquire-le-labo?publisherId=90063",
+          "evidence": "母公司通过BusinessWire发布的原始新闻稿日期为2014年10月15日，正文写明签署definitive agreement；本节点仅陈述宣布与协议，不把预定交割时间当作已完成事实。"
+        },
+        {
+          "year": 2021,
+          "event": "推出 THÉ MATCHA 26，继续扩展常规香氛作品。",
+          "source": "https://www.dsm-firmenich.com/content/dam/dsm-firmenich/perfumery-beauty/perfumery/perfumer-wins/Major%20Win%20List%20-%20Frank%20Voelkl.pdf",
+          "evidence": "dsm-firmenich的Frank Voelkl官方Major Wins作品表将THEMATCHA26、LeLabo与2021明确列在同一作品项下。"
+        },
+        {
+          "year": 2024,
+          "event": "京都町家旗舰店开幕，在修复的老建筑中设置香氛实验室、工艺空间与咖啡馆。",
+          "source": "https://www.lelabofragrances.jp/pages/edm20240320bm",
+          "evidence": "日本官网2024年3月20日活动页（edm20240320bm）宣布京都首家旗舰店已开幕，正文说明建筑复原、二楼工艺空间与咖啡馆，并将实验室调制及续装服务预告为2024年夏季；本条不将预告当作已完成。"
+        }
+      ],
+      "signatures": [
+        "实验室式玻璃瓶与纸质标签",
+        "以香材名称和数字命名",
+        "手工现调与个性定制标签",
+        "常规系列与城市限定系列"
+      ],
+      "source": "https://www.lelabofragrances.com/about-us.html",
+      "sources": [
+        {
+          "label": "Le Labo — About Us：2006年与纽约首店",
+          "url": "https://www.lelabofragrances.com/about-us.html"
+        },
+        {
+          "label": "Le Labo — ANOTHER13官方合作故事，2010",
+          "url": "https://www.lelabofragrances.com/another-13-463.html"
+        },
+        {
+          "label": "dsm-firmenich — Frank Voelkl作品表：SANTAL33与THÉMATCHA26",
+          "url": "https://www.dsm-firmenich.com/content/dam/dsm-firmenich/perfumery-beauty/perfumery/perfumer-wins/Major%20Win%20List%20-%20Frank%20Voelkl.pdf"
+        },
+        {
+          "label": "The Estée Lauder Companies／Business Wire — 2014年收购协议原始公告",
+          "url": "https://kommunikasjon.ntb.no/pressemelding/5172793/the-estee-lauder-companies-inc-to-acquire-le-labo?publisherId=90063"
+        },
+        {
+          "label": "Le Labo日本官网 — 2024年京都町家旗舰店开幕",
+          "url": "https://www.lelabofragrances.jp/pages/edm20240320bm"
+        },
+        {
+          "label": "Le Labo — SANTAL33 EDP100ml官方商品页",
+          "url": "https://www.lelabofragrances.com/santal-33-147.html"
+        },
+        {
+          "label": "Le Labo中国官网 — 手工现调、标签与续装说明",
+          "url": "https://www.lelabofragrances.com.cn/"
+        }
+      ],
+      "classicItems": [
+        "le-labo-santal-33-edp-100ml-100ps33100"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    {
+      "id": "byredo",
+      "name": "Byredo",
+      "nameZh": "百瑞德",
+      "country": "瑞典",
+      "founded": 2006,
+      "categories": [
+        "fragrance"
+      ],
+      "aliases": [
+        "BYREDO",
+        "百瑞德",
+        "柏芮朵"
+      ],
+      "tagline": "把记忆与情绪，放进一只气味容器",
+      "intro": "Byredo由Ben Gorham于二〇〇六年在斯德哥尔摩创立，以记忆、情绪与感官经验作为创作起点。圆润的黑色瓶盖与清晰的白色标签，让不同气味共享克制的外观；作品名称则把想象带向旅行、人物与生活片段。品牌从香水延伸到居家香氛、身体护理和彩妆，强调感受与物件之间的联系。认识它时，可以先从一款作品的香调开始，再看气味如何与自己的日常发生联系。瓶身的简洁只是入口，实际的浓度、容量与版本仍要逐款辨认，也适合先试闻再慢慢决定。",
+      "signatures": [
+        "圆润黑色瓶盖",
+        "白色文字标签",
+        "以记忆与情绪命名",
+        "香水与居家香氛"
+      ],
+      "timeline": [
+        {
+          "year": 2006,
+          "event": "Ben Gorham在斯德哥尔摩创立Byredo，以感官经验连接记忆、情绪与物件。",
+          "source": "https://www.byredo.com/ch_en/about"
+        },
+        {
+          "year": 2008,
+          "event": "创办人在原始访谈中回顾，Byredo进入纽约Barneys销售。",
+          "source": "https://www.vanityfair.com/style/2010/04/ben-gorham-of-byredo"
+        },
+        {
+          "year": 2010,
+          "event": "创办人接受访谈时介绍新香La Tulipe，以花朵开放的想象继续探索气味。",
+          "source": "https://www.vanityfair.com/style/2010/04/ben-gorham-of-byredo"
+        },
+        {
+          "year": 2020,
+          "event": "首个Byredo彩妆系列于Selfridges推出，官方零售伙伴发布创作说明。",
+          "source": "https://selfridgespress.com/2020/10/01/byredo-makeup-launches-at-selfridges/"
+        },
+        {
+          "year": 2022,
+          "event": "Puig宣布取得Byredo多数股权；当时公告同时说明创办人与Manzanita仍持股。",
+          "source": "https://uploads.puig.com/uploads/Puig_Byredo_May31_2022_English_05a5c902e7.pdf"
+        },
+        {
+          "year": 2024,
+          "event": "Puig的二〇二四年业绩公告披露，配合上市收购其余少数股权，将Byredo持股增至百分之百。",
+          "source": "https://www.cnmv.es/webservices/verdocumento/ver?t=%7B64dece68-e688-4405-8b04-159549d713ac%7D"
+        }
+      ],
+      "source": "https://www.byredo.com/ch_en/about",
+      "sources": [
+        {
+          "label": "Byredo · 官方品牌介绍",
+          "url": "https://www.byredo.com/ch_en/about"
+        },
+        {
+          "label": "Vanity Fair · 创办人原始访谈（2008与2010节点）",
+          "url": "https://www.vanityfair.com/style/2010/04/ben-gorham-of-byredo"
+        },
+        {
+          "label": "Selfridges · 首发彩妆官方零售发布",
+          "url": "https://selfridgespress.com/2020/10/01/byredo-makeup-launches-at-selfridges/"
+        },
+        {
+          "label": "Puig · 2022年收购公告",
+          "url": "https://uploads.puig.com/uploads/Puig_Byredo_May31_2022_English_05a5c902e7.pdf"
+        },
+        {
+          "label": "Puig · 2024年业绩公告，西班牙监管机构存档",
+          "url": "https://www.cnmv.es/webservices/verdocumento/ver?t=%7B64dece68-e688-4405-8b04-159549d713ac%7D"
+        }
+      ],
+      "historyNote": "2008与2010节点来自创办人接受媒体的原始访谈；其余节点采用品牌、合作零售商或母公司资料。收购公告中的创意职务只描述当时情况，未推断创办人现职。",
+      "classicItems": [
+        "byredo-bal-dafrique-edp-100ml-0065204863"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    {
+      "id": "maison-francis-kurkdjian",
+      "name": "Maison Francis Kurkdjian",
+      "nameZh": "MFK 香氛",
+      "country": "法国",
+      "founded": 2009,
+      "categories": [
+        "fragrance"
+      ],
+      "aliases": [
+        "MFK",
+        "Francis Kurkdjian",
+        "库尔吉安",
+        "晶红540",
+        "Baccarat Rouge 540"
+      ],
+      "tagline": "以调香师的手笔，描写法式香氛衣橱",
+      "intro": "Maison Francis Kurkdjian由调香师Francis Kurkdjian与Marc Chaya于二〇〇九年共同创立，把香水理解为可以随心选择的气味衣橱。作品围绕清新、花香、琥珀与木质等不同表达展开，既有轻盈的日常气息，也有轮廓鲜明的创作。方形玻璃瓶与简练标签，让阅读重点落在作品本身。品牌同时参与文化与园林项目，将调香和法式生活艺术联系起来。认识晶红系列时，尤其要分清浓香水与香精，以及不同容量对应的具体编号；相同名称并不意味着完全相同的表达，试闻能提供更直接的认识。",
+      "signatures": [
+        "方形透明玻璃瓶",
+        "香氛衣橱的创作观",
+        "调香师署名作品",
+        "晶红540的琥珀木质表达"
+      ],
+      "timeline": [
+        {
+          "year": 2009,
+          "event": "Francis Kurkdjian与Marc Chaya共同创立Maison Francis Kurkdjian。",
+          "source": "https://www.lvmh.com/en/publications/maison-francis-kurkdjian-rejoint-le-groupe-lvmh"
+        },
+        {
+          "year": 2016,
+          "event": "品牌成为推广法国精品与生活艺术的Comité Colbert成员。",
+          "source": "https://www.lvmh.com/en/publications/maison-francis-kurkdjian-rejoint-le-groupe-lvmh"
+        },
+        {
+          "year": 2017,
+          "event": "LVMH宣布取得品牌多数股权，两位共同创办人在当时公告中保留职务与股权。",
+          "source": "https://www.lvmh.com/en/publications/maison-francis-kurkdjian-rejoint-le-groupe-lvmh"
+        },
+        {
+          "year": 2022,
+          "event": "品牌成为凡尔赛宫调香师花园项目的赞助方。",
+          "source": "https://en.chateauversailles.fr/press/jardins/opening-perfumer-garden-on-may-30th-2023"
+        },
+        {
+          "year": 2023,
+          "event": "在品牌支持下，凡尔赛宫调香师花园于五月三十日向公众开放。",
+          "source": "https://en.chateauversailles.fr/press/jardins/opening-perfumer-garden-on-may-30th-2023"
+        },
+        {
+          "year": 2025,
+          "event": "LVMH第一季度业绩公告记录，品牌推出新香Kurky。",
+          "source": "https://www.lvmh.com/en/publications/lvmh-shows-good-resilience-in-the-first-quarter-of-2025"
+        }
+      ],
+      "source": "https://www.franciskurkdjian.com/us-en/",
+      "sources": [
+        {
+          "label": "LVMH · 2017年合作公告与品牌沿革",
+          "url": "https://www.lvmh.com/en/publications/maison-francis-kurkdjian-rejoint-le-groupe-lvmh"
+        },
+        {
+          "label": "凡尔赛宫 · 调香师花园原始公告",
+          "url": "https://en.chateauversailles.fr/press/jardins/opening-perfumer-garden-on-may-30th-2023"
+        },
+        {
+          "label": "LVMH · 2025年第一季度公告",
+          "url": "https://www.lvmh.com/en/publications/lvmh-shows-good-resilience-in-the-first-quarter-of-2025"
+        },
+        {
+          "label": "MFK · 晶红540官方美国商品页",
+          "url": "https://www.franciskurkdjian.com/us-en/p/baccarat-rouge-540-eau-de-parfum-RA12232.html"
+        }
+      ],
+      "classicItems": [
+        "mfk-baccarat-rouge-540-edp-70ml-ra12232"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    {
+      "id": "jo-malone-london",
+      "name": "Jo Malone London",
+      "nameZh": "祖玛珑",
+      "country": "英国",
+      "founded": 1994,
+      "categories": [
+        "fragrance"
+      ],
+      "aliases": [
+        "Jo Malone",
+        "祖玛珑",
+        "祖马龙",
+        "祖玛龙"
+      ],
+      "tagline": "把英伦日常，写成可以叠搭的气味",
+      "intro": "Jo Malone London以英伦生活方式为背景，将清晰的香调组合带入古龙水、身体护理与居家香氛。透明玻璃瓶、简洁标签与浅色包装，构成容易辨认的视觉语言；作品常从花园、果实与海岸寻找灵感。品牌鼓励单独使用香水，也提供气味叠搭的探索方式，让人从熟悉的香调开始建立自己的组合。鼠尾草与海盐以英国海岸为意象，适合作为认识其清新木质表达的入口。阅读时应区分古龙水和其他浓度版本，并核对具体容量与参考价格；气味在皮肤上的表现仍以亲自试闻为准。",
+      "signatures": [
+        "简洁透明瓶身",
+        "浅色与黑边包装",
+        "气味叠搭理念",
+        "古龙水与居家香氛"
+      ],
+      "timeline": [
+        {
+          "year": 1994,
+          "event": "Jo Malone London开始以简洁的香调创作建立英伦香氛品牌。",
+          "source": "https://www.unicef.org/partnerships/jo-malone-london"
+        },
+        {
+          "year": 1999,
+          "event": "品牌加入雅诗兰黛集团，集团官方沿革保留这一收购节点。",
+          "source": "https://www.elcompanies.com/en/who-we-are/our-heritage"
+        },
+        {
+          "year": 2012,
+          "event": "Charity Candle系列率先在英国推出，支持心理健康相关公益工作。",
+          "source": "https://www.unicef.org/partnerships/jo-malone-london"
+        },
+        {
+          "year": 2014,
+          "event": "雅诗兰黛集团发布原始公告，宣布品牌进入中国内地，首站为北京。",
+          "source": "https://www.ksl.com/article/29504780/jo-malone-london-enters-china-doors-open-april-16th-at-mitsukoshi-beijing"
+        },
+        {
+          "year": 2022,
+          "event": "品牌开始与UNICEF合作，支持儿童、年轻人及照护者的心理健康。",
+          "source": "https://www.unicef.org/partnerships/jo-malone-london"
+        },
+        {
+          "year": 2023,
+          "event": "据合作方记录，公益蜡烛扩展至澳大利亚、西班牙、意大利与韩国。",
+          "source": "https://www.unicef.org/partnerships/jo-malone-london"
+        }
+      ],
+      "source": "https://www.jomalone.com/our-company/about-jo-malone",
+      "sources": [
+        {
+          "label": "Jo Malone London · 官方品牌介绍",
+          "url": "https://www.jomalone.com/our-company/about-jo-malone"
+        },
+        {
+          "label": "雅诗兰黛集团 · 官方沿革",
+          "url": "https://www.elcompanies.com/en/who-we-are/our-heritage"
+        },
+        {
+          "label": "UNICEF · 官方伙伴资料与品牌历史",
+          "url": "https://www.unicef.org/partnerships/jo-malone-london"
+        },
+        {
+          "label": "雅诗兰黛集团 · 2014年原始新闻稿，KSL/Business Wire存档",
+          "url": "https://www.ksl.com/article/29504780/jo-malone-london-enters-china-doors-open-april-16th-at-mitsukoshi-beijing"
+        },
+        {
+          "label": "Jo Malone London · 美国官方香水页",
+          "url": "https://www.jomalone.com/product/25946/32241/colognes/wood-sage-sea-salt-cologne"
+        }
+      ],
+      "historyNote": "UNICEF为公益合作方，不为品牌或商品作背书。2014年节点采用署名雅诗兰黛集团的原始Business Wire公告存档。此档案介绍Jo Malone London品牌，与创办人后来创立的Jo Loves分开。",
+      "classicItems": [
+        "jo-malone-wood-sage-sea-salt-cologne-100ml-l41501"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    {
+      "id": "baccarat",
+      "name": "Baccarat",
+      "nameZh": "巴卡拉",
+      "country": "法国",
+      "founded": 1764,
+      "categories": [
+        "fragrance"
+      ],
+      "aliases": [
+        "巴卡拉",
+        "百家乐水晶"
+      ],
+      "role": "collaborator",
+      "tagline": "在光与火之间，让水晶与气味相遇",
+      "intro": "Baccarat诞生于法国东部同名小镇，以水晶器物与法式生活艺术建立自己的语言。手工吹制、切割与光线在材料中的折射，让杯具、花器与灯饰呈现鲜明的结构感。品牌也持续与艺术家、设计师展开合作，把传统工艺带入当代生活。它与香水的联系，在晶红系列中尤其具体：Francis Kurkdjian为其周年纪念创作气味，将红色水晶的转变作为灵感。本档案以香氛合作品牌收录，帮助读者理解作品名称的来处；当前常规香水瓶与早期编号水晶瓶属于不同版本，不能据此混同材质、发行数量或价格。",
+      "signatures": [
+        "手工塑形的水晶",
+        "切面与光线折射",
+        "Harcourt的六边形底座",
+        "红色水晶的创作意象"
+      ],
+      "timeline": [
+        {
+          "year": 1764,
+          "event": "品牌在法国东部Baccarat小镇创立，最初为玻璃工坊。",
+          "source": "https://www.baccarat.com/en_us/world-of-baccarat/the-history.html"
+        },
+        {
+          "year": 1816,
+          "event": "制造工坊发展出水晶配方，奠定后来的材料与工艺方向。",
+          "source": "https://www.baccarat.com/en_us/world-of-baccarat/the-history.html"
+        },
+        {
+          "year": 1841,
+          "event": "Harcourt杯诞生，以六边形底座与切面成为品牌持续演绎的设计。",
+          "source": "https://www.baccarat.com/en_us/barware-and-dining/dining/wine--champagne-and-water-glasses/harcourt-1841-glass-MTHARCGS2.html?variation=1201103"
+        },
+        {
+          "year": 2014,
+          "event": "为品牌二百五十周年，Francis Kurkdjian创作Rouge540；最初版本为二百五十只编号香水瓶。",
+          "source": "https://www.franciskurkdjian.com/uk-en/baccarat_rouge_540_origins_of_an_icon/PDAC44.html"
+        },
+        {
+          "year": 2015,
+          "event": "品牌官方旅行资料记载，首尔Maison于十二月开幕，延展其生活艺术空间。",
+          "source": "https://www.baccarathotels.com/sites/default/files/2018-11/Baccarat%20Heritage%20Experience%20Itinerary.pdf"
+        },
+        {
+          "year": 2016,
+          "event": "据MFK现行官方历史，Baccarat Rouge540进入其常规系列；本次收录的常规浓香水须与早期编号版本分开。",
+          "source": "https://www.franciskurkdjian.com/uk-en/baccarat_rouge_540_origins_of_an_icon/PDAC44.html"
+        }
+      ],
+      "source": "https://www.baccarat.com/en_us/world-of-baccarat/the-history.html",
+      "sources": [
+        {
+          "label": "Baccarat · 官方品牌历史",
+          "url": "https://www.baccarat.com/en_us/world-of-baccarat/the-history.html"
+        },
+        {
+          "label": "Baccarat · Harcourt官方设计说明",
+          "url": "https://www.baccarat.com/en_us/barware-and-dining/dining/wine--champagne-and-water-glasses/harcourt-1841-glass-MTHARCGS2.html?variation=1201103"
+        },
+        {
+          "label": "MFK · 晶红540起源与版本历史",
+          "url": "https://www.franciskurkdjian.com/uk-en/baccarat_rouge_540_origins_of_an_icon/PDAC44.html"
+        },
+        {
+          "label": "Baccarat Hotels · 官方品牌旅行资料",
+          "url": "https://www.baccarathotels.com/sites/default/files/2018-11/Baccarat%20Heritage%20Experience%20Itinerary.pdf"
+        }
+      ],
+      "classicItems": [],
+      "checkedAt": "2026-10-27",
+      "historyNote": "这里只关联已收录的MFK常规香水。2014年二百五十只编号版本的历史不构成当前70ml常规版本的限量或水晶材质证明。"
+    }
+  ]
+}

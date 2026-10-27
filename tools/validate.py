@@ -8,6 +8,7 @@ from datetime import date
 from bag_yearbook import BOOKS,price_text,date_label
 from brand_catalog import enrich, brand_ids
 import product_gallery
+import perfumery
 from style_policy import PRICE_STATUSES, valid_category_counts, is_resale, validate_resale
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -181,7 +182,24 @@ for x in D['items']:
         check('<html lang="en">' in source,x['id']+': product page language missing')
 style_products=[x for x in D['items'] if x.get('styleEdit')]
 style_counts=Counter(x['category'] for x in style_products)
-check(valid_category_counts(style_counts,{c['id'] for c in D['categories']}),'Expected 3–5 photographed products per category; necklaces/jewelry allow up to 8')
+check(valid_category_counts(style_counts,{c['id'] for c in D['categories']}),'Expected 3–5 photographed products per category; necklaces/jewelry allow up to 8, fragrance up to 9')
+try:
+    houses=perfumery.selection(D)
+    hub=(ROOT/'perfumery.html').resolve()
+    doc=pages.get(hub)
+    check(doc is not None,'Missing perfumery column')
+    source=hub.read_text() if doc else ''
+    for entry,brand,product in houses:
+        check(doc is not None and 'house-'+brand['id'] in doc.ids,brand['id']+': missing perfumery anchor')
+        for target in ('brand/'+brand['id']+'.html','item/'+product['id']+'.html'):
+            check(doc is not None and target in doc.refs,brand['id']+': perfumery missing '+target)
+        check(price_text(product) in source,product['id']+': perfumery price absent')
+        check(product['priceContextEn'] in source,product['id']+': perfumery price date/provenance absent')
+    for path,document in pages.items():
+        prefix='../' if path.parent!=ROOT else ''
+        check(prefix+'perfumery.html' in document.refs,str(path.relative_to(ROOT))+': perfumery navigation missing')
+except (ValueError,KeyError,OSError) as error:
+    check(False,'Invalid perfumery selection: '+str(error))
 for c in D['categories']:
     source=(ROOT/'cat'/f'{c["id"]}.html').read_text()
     check(source.count('class="item-card product-card reveal"')==style_counts[c['id']],c['id']+': photographed cards differ from catalog')

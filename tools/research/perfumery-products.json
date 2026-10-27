@@ -1,0 +1,258 @@
+{
+  "checkedAt": "2026-10-27",
+  "products": [
+    {
+      "id": "diptyque-tam-dao-edp-75ml-tamdaop75cv1",
+      "brand": "diptyque",
+      "category": "fragrance",
+      "name": "Tam Dao Eau de Parfum, 75 ml",
+      "nameZh": "蒂普提克 Tam Dao 淡香精75毫升",
+      "reference": "TAMDAOP75CV1",
+      "color": "Pale fragrance / clear oval bottle / black cap",
+      "sizes": [
+        "75 ml"
+      ],
+      "materials": [
+        "Eau de Parfum",
+        "Sandalwood, cedar, cypress and coriander notes"
+      ],
+      "priceUSD": 260,
+      "priceStatus": "live",
+      "priceEvidence": "Live official U.S. product HTML identifies SKU TAMDAOP75CV1, Eau de parfum, 75 ml. Product JSON-LD lists offers.price 260.0 and priceCurrency USD; the visible product panel also shows 75 ml and US $260.",
+      "source": "https://us.diptyqueparis.com/en-us/products/eau-de-parfum-tam-dao-tamdaop75cv1",
+      "introEn": "Tam Dao gives a woody fragrance wardrobe a particularly clear point of reference. Diptyque presents its sandalwood through the memory of temple forests in Vietnam, with cedar, cypress and coriander around it. This 75 ml Eau de Parfum sits in the house’s oval bottle, where the densely lettered label and illustration turn a small object into something worth looking at from both sides. Consider it with textured linen or a soft, simple knit: an understated setting for a composition built around wood and spice.",
+      "featuresEn": [
+        "75 ml Eau de Parfum, official reference TAMDAOP75CV1.",
+        "The declared notes are sandalwood, cedar, cypress and coriander.",
+        "The oval glass bottle carries an illustrated label visible from the reverse."
+      ],
+      "stylingEn": "Try it on skin before choosing a full bottle, then return to it as the fragrance develops. Use a small application with a linen shirt or relaxed tailoring, and adjust to your setting.",
+      "born": "Contemporary Eau de Parfum collection",
+      "designer": "Diptyque; the cited product page does not name the perfumer",
+      "productLimitations": [
+        "The official product page does not state this Eau de Parfum variant’s launch year or perfumer; no year is inferred from the earlier Tam Dao family.",
+        "Named notes describe the brand’s scent profile, not the complete formula; projection and wear time were not tested."
+      ],
+      "image": "assets/img/products/diptyque-tam-dao-edp75-front-20261027.webp",
+      "imageWidth": 900,
+      "imageHeight": 1200,
+      "imageSource": "https://cdn.shopify.com/s/files/1/0991/4784/1850/files/diptyque-tam-dao-eau-de-parfum-TAMDAOP75CV1_front.webp?v=1781571406&width=2048",
+      "imageCredit": "© Diptyque, official product imagery",
+      "imageRightsNote": "Official product photographs from the brand’s public product page. No open reuse license or redistribution grant was identified; copyright remains with the rights holder.",
+      "imageMime": "image/webp",
+      "imageSha256": "54d77d98c161ec7bff8fe92609458d8a0890cfd58059ac4078da3082a6cdfb26",
+      "imageOriginalSha256": "2bb1b66d95ac58bd4e4b867048b276e17c6c203aeba2890c00b9157ab7f613c9",
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-27",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "introWordCount": 84,
+      "stylingWordCount": 33
+    },
+    {
+      "id": "le-labo-santal-33-edp-100ml-100ps33100",
+      "brand": "le-labo",
+      "category": "fragrance",
+      "name": "SANTAL 33 Eau de Parfum, 100 ml",
+      "nameZh": "勒莱柏 SANTAL 33 淡香精100毫升",
+      "reference": "100PS33100",
+      "color": "Clear glass bottle / silver-toned cap / paper label",
+      "sizes": [
+        "100 ml / 3.4 fl. oz."
+      ],
+      "materials": [
+        "Eau de Parfum",
+        "Cardamom, iris, violet, Australian sandalwood and cedarwood notes"
+      ],
+      "priceUSD": 348,
+      "priceStatus": "live",
+      "priceEvidence": "Live official U.S. ProductGroup JSON-LD has a 100 ml variant with SKU 100PS33100, offers.price 348.00 and priceCurrency USD. Its separate 50 ml variant is $250 and is not used for this record.",
+      "source": "https://www.lelabofragrances.com/santal-33-147.html",
+      "introEn": "SANTAL 33 is a useful way to explore the space between woods, spice and soft floral notes. Le Labo describes cardamom, iris and violet alongside Australian sandalwood and cedarwood, then adds leathery and musky facets to its account of the scent. The 100 ml bottle keeps the presentation direct: clear glass, a metal-colored cap and a label that resembles a working laboratory record. Set it beside denim, cotton and an uncomplicated jacket, and let your own skin test decide how the composition fits your day.",
+      "featuresEn": [
+        "100 ml Eau de Parfum, official SKU 100PS33100.",
+        "The brand names cardamom, iris, violet, Australian sandalwood and cedarwood.",
+        "The official gallery shows the bottle, the application of its paper label and its box."
+      ],
+      "stylingEn": "Sample it on skin and allow time for the woody and floral facets to settle before judging. Pair the mood with worn denim or a plain cotton shirt, keeping the application considerate of close company.",
+      "born": 2011,
+      "designer": "Frank Voelkl",
+      "productLimitations": [
+        "The 2011 date and Frank Voelkl attribution are supported by the perfumer’s official dsm-firmenich portfolio; the current product page supplies the concentration, size, notes and price.",
+        "Named notes describe the brand’s scent profile, not the complete formula; projection and wear time were not tested."
+      ],
+      "image": "assets/img/products/le-labo-santal33-edp100-front-20261027.webp",
+      "imageWidth": 1200,
+      "imageHeight": 1200,
+      "imageSource": "https://lelabo.ips.photos/lelabo-java/images/skus/100PS33100__PRODUCT_01--IMG_1200--SANTAL33-883562345.jpg",
+      "imageCredit": "© Le Labo, official product imagery",
+      "imageRightsNote": "Official product photographs from the brand’s public product page. No open reuse license or redistribution grant was identified; copyright remains with the rights holder.",
+      "imageMime": "image/webp",
+      "imageSha256": "9507dc3f9606fc157beb5c72f517cc13f9814aa2ec1d16b133eaf12db9aee3e6",
+      "imageOriginalSha256": "159cd2227e256dcc7ff076a614bbc9aed575c98afea874e4c9e33e63e064576b",
+      "priceLabel": "U.S. retail reference, before tax",
+      "checkedAt": "2026-10-27",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "introWordCount": 85,
+      "stylingWordCount": 35
+    },
+    {
+      "id": "byredo-bal-dafrique-edp-100ml-0065204863",
+      "brand": "byredo",
+      "category": "fragrance",
+      "name": "Bal d’Afrique Eau de Parfum, 100 ml",
+      "nameZh": "百瑞德非洲之旅浓香水100毫升",
+      "reference": "0065204863",
+      "color": "Clear glass / black domed cap",
+      "sizes": [
+        "100 ml"
+      ],
+      "materials": [
+        "Eau de Parfum",
+        "Bergamot, African marigold and blackcurrant notes",
+        "Violet, cedarwood and vetiver accords"
+      ],
+      "priceUSD": 330,
+      "priceStatus": "live",
+      "priceEvidence": "Live official U.S. raw HTML ProductGroup JSON-LD identifies current SKU 0065204863, size 100 ml, offers.price 330 and priceCurrency USD. The same variant in __NEXT_DATA__ has final_price USD 330 and a dedicated media_gallery. Legacy number 10000038 appears only in the current variant’s image filenames.",
+      "source": "https://www.byredo.com/us_en/p/bal-d-afrique-eau-de-parfum?sku=0065204863",
+      "introEn": "Bal d’Afrique gives a fragrance wardrobe a lively floral and woody direction. Byredo describes bright bergamot, African marigold and blackcurrant leading into violet and cyclamen, followed by cedarwood and vetiver. The 100 ml bottle pairs a clear cylindrical body with a rounded black cap and a restrained white label. Its clean visual rhythm works naturally beside pale cotton and relaxed tailoring, while the story behind the scent invites a more personal choice than matching a perfume to a dress code.",
+      "featuresEn": [
+        "100 ml Eau de Parfum, current U.S. SKU 0065204863.",
+        "Declared top notes include bergamot, African marigold and blackcurrant.",
+        "Cedarwood, vetiver, musks and tonka bean appear in the base."
+      ],
+      "stylingEn": "Try it with a linen shirt, loose trousers and a simple leather sandal. Sample it on skin first, allowing its floral and woody elements to develop before choosing your usual amount.",
+      "born": "Contemporary collection",
+      "designer": "Byredo",
+      "productLimitations": [
+        "Named notes and accords describe the brand’s scent profile, not its complete formula; projection and wear time were not tested.",
+        "Byredo states that orders may arrive in either its previous or refined bottle design during a packaging transition; the photograph shows the bottle in the cited 100 ml gallery."
+      ],
+      "image": "assets/img/products/byredo-bal-dafrique-edp100-front-20261027.webp",
+      "imageWidth": 1200,
+      "imageHeight": 1200,
+      "imageSource": "https://www.byredo.com/cdn-cgi/image/format=auto,quality=70/https://www.byredo.com/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/0/10000038_1_full_no.jpg",
+      "imageMime": "image/webp",
+      "imageCredit": "© Byredo, official product imagery",
+      "imageRightsNote": "Official product imagery published on a public brand website. No open reuse license was identified; copyright remains with the rights holder.",
+      "priceCurrency": "USD",
+      "priceLabel": "U.S. retail reference, before tax",
+      "priceContextEn": "Official U.S. retail reference for the specified concentration and bottle size, before tax; checked 2026-10-27.",
+      "checkedAt": "2026-10-27",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "introWordCount": 80,
+      "stylingWordCount": 31
+    },
+    {
+      "id": "mfk-baccarat-rouge-540-edp-70ml-ra12232",
+      "brand": "maison-francis-kurkdjian",
+      "category": "fragrance",
+      "name": "Baccarat Rouge 540 Eau de Parfum, 70 ml / 2.4 fl.oz.",
+      "nameZh": "Maison Francis Kurkdjian 晶红540浓香水70毫升",
+      "reference": "RA12232",
+      "color": "Clear square bottle / red label / gold cap",
+      "sizes": [
+        "70 ml / 2.4 fl.oz."
+      ],
+      "materials": [
+        "Eau de Parfum",
+        "Jasmine and saffron accords",
+        "Ambery, mineral and dry woody accords"
+      ],
+      "priceUSD": 360,
+      "priceStatus": "official-snapshot",
+      "priceEvidence": "The official Maison Francis Kurkdjian U.S. reader snapshot for RA12232 displays Natural spray 2.4 fl.oz., $360.00. Its official Baccarat Rouge 540 collection page separately labels this Eau de parfum as 70ml $360.00. Baccarat’s own U.S. store raw Product JSON-LD independently offers the same 70 ml Eau de Parfum as reference 2810839 for USD360.00; Baccarat is the named co-creator and this corroboration is not represented as a live MFK checkout.",
+      "sourceSnapshotNote": "Official Maison Francis Kurkdjian U.S. product reader snapshot accessed on 2026-10-27 and reported crawled today. Direct raw static requests to MFK returned HTTP403. The USD360 amount is corroborated by live Baccarat U.S. product HTML; no checkout was performed.",
+      "source": "https://www.franciskurkdjian.com/us-en/p/baccarat-rouge-540-eau-de-parfum-RA12232.html",
+      "secondarySource": "https://www.baccarat.com/en_us/fragrance/all-fragrance/perfumes/baccarat-rouge-540-eau-de-parfum-70-ml--2.4-fl.oz.--2810839.html",
+      "introEn": "Baccarat Rouge 540 connects perfume with the visual language of crystal. Its Eau de Parfum balances jasmine and saffron facets with ambery, mineral and dry woody accords, an idea Francis Kurkdjian relates to air, fire and transformed material. The 70 ml presentation places a red label and a small gold cap against a clear square bottle. Consider it as a richly colored accent within an otherwise simple wardrobe, with the bottle itself offering a compact study in transparency and warm metal.",
+      "featuresEn": [
+        "70 ml / 2.4 fl.oz. Eau de Parfum natural spray, MFK reference RA12232.",
+        "The composition is described through floral, ambery and woody facets.",
+        "Its three-aura concept connects jasmine accents, mineral woods and gourmand warmth."
+      ],
+      "stylingEn": "Pair its warm visual character with a black knit, a fluid skirt or a sharply cut jacket. Start with a small skin trial so the scent can settle before an occasion.",
+      "born": "Contemporary collection",
+      "designer": "Francis Kurkdjian",
+      "productLimitations": [
+        "Named notes and accords describe the brand’s scent profile, not its complete formula; projection and wear time were not tested."
+      ],
+      "image": "assets/img/products/mfk-baccarat-rouge540-edp70-front-20261027.webp",
+      "imageWidth": 1200,
+      "imageHeight": 1200,
+      "imageSource": "https://www.baccarat.com/dw/image/v2/BBLJ_PRD/on/demandware.static/-/Sites-baccarat-master-products/default/dw31f21528/packshot/2810839_grey_001.jpg?sw=1200&q=90",
+      "imageMime": "image/webp",
+      "imageCredit": "© Baccarat / Maison Francis Kurkdjian, official product imagery",
+      "imageRightsNote": "Official product imagery published on a public brand website. No open reuse license was identified; copyright remains with the rights holder.",
+      "priceCurrency": "USD",
+      "priceLabel": "U.S. retail reference, before tax",
+      "priceContextEn": "Official U.S. retail reference for the specified concentration and bottle size, before tax; checked 2026-10-27.",
+      "checkedAt": "2026-10-27",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "introWordCount": 81,
+      "stylingWordCount": 31,
+      "collaboratorBrands": [
+        "baccarat"
+      ],
+      "collaborationNote": "Baccarat is the documented creative partner behind the fragrance’s origins. This is the standard 70 ml Eau de Parfum, not the original 2014 numbered crystal-bottle edition.",
+      "verificationLimitations": [
+        "The MFK and Baccarat retail reference numbers differ by sales catalog; both sources identify the same standard 70 ml Eau de Parfum. No limited-edition or crystal-flacon claim is made for RA12232."
+      ]
+    },
+    {
+      "id": "jo-malone-wood-sage-sea-salt-cologne-100ml-l41501",
+      "brand": "jo-malone-london",
+      "category": "fragrance",
+      "name": "Wood Sage & Sea Salt Cologne, 100 ml",
+      "nameZh": "祖玛珑鼠尾草与海盐古龙水100毫升",
+      "reference": "L41501",
+      "color": "Clear rectangular bottle / silver cap",
+      "sizes": [
+        "100 ml"
+      ],
+      "materials": [
+        "Cologne",
+        "Ambrette seed, sea salt and sage notes"
+      ],
+      "priceUSD": 175,
+      "priceStatus": "official-snapshot",
+      "priceEvidence": "Official Jo Malone London U.S. product reader snapshot displays Wood Sage & Sea Salt Cologne at $175.00 with 100ml listed first. The official Canada raw ProductGroup and sku media data identify L41501 specifically as 100ml; Canadian currency and price are not used for the U.S. retail amount.",
+      "sourceSnapshotNote": "Official U.S. product reader snapshot accessed on 2026-10-27 and reported crawled today. Direct static U.S. HTML was blocked with HTTP403. Size, SKU and photography were separately checked in the official Canada site; this record uses the U.S. snapshot price only.",
+      "source": "https://www.jomalone.com/product/25946/32241/colognes/wood-sage-sea-salt-cologne",
+      "introEn": "Wood Sage & Sea Salt brings a coastal idea into a restrained rectangular bottle. Jo Malone London places ambrette seeds at the opening, sea salt at the heart and sage in the base, describing the result as a fresh woody scent inspired by the British shore. The 100 ml Cologne has a pale label and a polished silver cap that keep its presentation spare. It offers an appealing starting point for a scent wardrobe built around texture, open air and uncomplicated clothing.",
+      "featuresEn": [
+        "100 ml Cologne, official SKU L41501.",
+        "Ambrette seeds, sea salt and sage form the declared note structure.",
+        "Designed to be worn alone or layered with another Jo Malone London Cologne."
+      ],
+      "stylingEn": "Try it alongside a cotton poplin shirt, soft denim and a light cardigan. Explore it on its own first, then compare a small layered trial if you enjoy changing your scent.",
+      "born": "Contemporary collection",
+      "designer": "Jo Malone London",
+      "productLimitations": [
+        "Named notes and accords describe the brand’s scent profile, not its complete formula; projection and wear time were not tested."
+      ],
+      "image": "assets/img/products/jo-malone-wood-sage-sea-salt100-front-20261027.webp",
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "imageSource": "https://www.jomalone.ca/media/export/cms/products/1000x1000/jo_sku_L41501_1000x1000_0.png",
+      "imageMime": "image/webp",
+      "imageCredit": "© Jo Malone London, official product imagery",
+      "imageRightsNote": "Official product imagery published on a public brand website. No open reuse license was identified; copyright remains with the rights holder.",
+      "priceCurrency": "USD",
+      "priceLabel": "U.S. retail reference, before tax",
+      "priceContextEn": "Official U.S. retail reference for the specified concentration and bottle size, before tax; checked 2026-10-27.",
+      "checkedAt": "2026-10-27",
+      "editorialNote": "Original editorial introduction and styling suggestion; no product testing is implied.",
+      "introWordCount": 82,
+      "stylingWordCount": 31
+    }
+  ],
+  "categoryNotes": {
+    "fragrance": "Nine considered fragrances: designer signatures and five fragrance houses, with exact concentrations, sizes and dated U.S. references."
+  },
+  "verificationLimitations": [
+    "The five-house column is an editorial starting point, not a sales ranking.",
+    "MFK and Jo Malone prices use qualified official U.S. page reader snapshots; blocked direct pages do not imply discontinued products.",
+    "Baccarat is indexed as a historical creative partner, not as a sixth fragrance house in this column."
+  ]
+}

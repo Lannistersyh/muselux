@@ -15,16 +15,22 @@
 
 ## 内容与页面
 
-- **34 个品牌档案：31 个商品品牌 + 3 个联名品牌**，覆盖全部单品。新增 LOEWE、Miu Miu、The Row、Diesel、Balenciaga、Alaïa、Saint Laurent、Chloé、David Yurman、Swarovski、FRED、Boucheron、Pomellato、Moynat、Chrome Hearts；adidas、Versace、fragment design 单独标注为联名品牌。
-- 品牌页包含原创介绍、有来源的历史时间线、设计细节，以及按品类归集的全部本站款式。151 个单品详情与品牌页双向关联；8 条品牌联名同时链接参与品牌。索引、品类筛选和搜索同步收录，品牌卡片数量由完整目录计算。
-- **The Style Edit：33 款实物图商品，项链与首饰各 7 款，包包、腕表、丝巾各 5 款，香水 4 款**。每款包含英文介绍、三条设计细节、搭配建议、具体型号或商家挂牌编号、材质尺寸、明确口径的美元参考价及商品/图片来源。首页支持按品类切换，各品类页优先显示本站实物精选，一般品类保留 3–5 个位置；本次银饰扩展后，项链与首饰支持 3–8 款，保留原有款式。
+- **40 个品牌档案：36 个商品品牌 + 4 个合作/联名品牌**，覆盖全部单品。新增 LOEWE、Miu Miu、The Row、Diesel、Balenciaga、Alaïa、Saint Laurent、Chloé、David Yurman、Swarovski、FRED、Boucheron、Pomellato、Moynat、Chrome Hearts、Diptyque、Le Labo、Byredo、Maison Francis Kurkdjian、Jo Malone London；Baccarat为晶红香氛创作合作品牌，adidas、Versace、fragment design 单独标注为联名品牌。
+- 品牌页包含原创介绍、有来源的历史时间线、设计细节，以及按品类归集的全部本站款式。156 个单品详情与品牌页双向关联；9 条品牌合作/联名同时链接参与品牌。索引、品类筛选和搜索同步收录，品牌卡片数量由完整目录计算。
+- **The Style Edit：38 款实物图商品，项链与首饰各 7 款，包包、腕表、丝巾各 5 款，香水 9 款**。每款包含英文介绍、三条设计细节、搭配建议、具体型号或商家挂牌编号、材质尺寸、明确口径的美元参考价及商品/图片来源。首页支持按品类切换，各品类页优先显示本站实物精选，一般品类保留 3–5 个位置；本次银饰扩展后，项链与首饰支持 3–8 款，香水专题扩展至 9 款，保留原有款式。
 - **The Bag Yearbook：2022–2026，每年 4 款热门精选 + 2 款限量/限定款，共 30 条年度记录。** 包含实物图、英文设计与搭配介绍、当年入选依据、发行信息和有来源的美元价格。首页与包袋页提供入口，独立页面 `bags-by-year.html` 支持五年份切换和年份直达链接。
 - **The Necklace Yearbook / The Jewelry Yearbook：项链与首饰各 30 条年度记录，共新增 60 条。** 两个独立页面同样覆盖 2022–2026，每年各 4 款热门精选 + 2 款限量/限定联名；首饰以戒指、手链和耳饰为主。首页提供三类年鉴入口，品类页与站内搜索同步收录。
-- 另保留 28 个经典设计词条，共 **61 个核心单品页**；鞋履与墨镜作为生活配件扩展收录于首饰品类。未核实具体美元型号的经典词条直接提示向美国官方渠道询价，不做汇率猜算。
+- 另保留 28 个经典设计词条，共 **66 个核心单品页**；鞋履与墨镜作为生活配件扩展收录于首饰品类。未核实具体美元型号的经典词条直接提示向美国官方渠道询价，不做汇率猜算。
 - 12 篇原创杂志文章，每篇正文至少 800 个中文字；正文不依赖在线加载。
 - 6 个品类页：包包、项链、首饰、腕表、丝巾、香水。
-- 三类年度栏目共有 90 个英文详情页；全站共 **151 个单品/年度详情页、211 页 HTML**。
-- The Style Edit 的 33 张本地首图照片约 2.80 MiB，年度包袋照片另存于 `assets/img/bag-years/`，新增项链与首饰的 60 张实物照片保存于 `assets/img/jewel-years/`；另有 42 个原创 SVG。照片逐款署名并保留原图来源，未声称获得开放图片许可；没有复制第三方文章。
+- 三类年度栏目共有 90 个英文详情页；全站共 **156 个单品/年度详情页、223 页 HTML**。
+- The Style Edit 的 38 张本地首图照片约 3.12 MiB，年度包袋照片另存于 `assets/img/bag-years/`，新增项链与首饰的 60 张实物照片保存于 `assets/img/jewel-years/`；另有 42 个原创 SVG。照片逐款署名并保留原图来源，未声称获得开放图片许可；没有复制第三方文章。
+
+2026-10-27 新增独立 **香氛品牌 / The Perfumery Edit** 栏目：`perfumery.html`，首页、主导航、页脚与香水品类均可进入。首期五家：**Diptyque、Le Labo、Byredo、Maison Francis Kurkdjian、Jo Malone London**，各配一份品牌档案与一款具体容量、浓度的香水。代表作分别为 **Tam Dao EDP 75 ml US$260、Santal 33 EDP 100 ml US$348、Bal d’Afrique EDP 100 ml US$330、Baccarat Rouge 540 EDP 70 ml US$360、Wood Sage & Sea Salt Cologne 100 ml US$175**。前面三款为官网当前结构化美元报价，后面两款保留官方美国页快照口径；Baccarat 官网 USD 报价另对晶红作交叉核对，Jo Malone 加拿大资料仅核对型号与图片，不使用加币价格。
+
+新增 **12 张真实摄影、5 个香水图库与6份品牌档案**，其中 Baccarat 为创作合作品牌，不作为第六家香水专门品牌。每款至少两张不同原始照片，Tam Dao 与 Santal 33 各三张；图片包括背面、喷头、俯拍、手持与原始包装，分别如实标注。新增图片共 **1,272,432 字节**；现为 **156 个图库、316 次图片展示、40 品牌、223 页 HTML**。原有 151 条商品与三类年鉴对象及截止日逐字段保留，未给旧商品推进日期。
+
+本次通过 **15 项维护回归、78 项前端行为断言、全站静态链接/资源检查与两次构建一致性**。新图已逐张完整像素解码并目视核对；未作真实浏览器或手机布局视觉复测。记录见 `reports/perfumery-validation.json`，发布后逐字节核对另见 `reports/perfumery-deployment-validation.json`。
 
 2026-10-27 核实摩奈 Hôtel Moynat 70 cm 真丝方巾 **C30663-0001 / variant 59928339710297** 的美国官网状态已由线上暂不可售变为核验时可售，价格仍为 **US$400**。当前详情已改为带日期的可售说明；2026-10-24 的不可售记录保留为历史快照。只更新这一型号实际复核的报价与库存证据，其余 150 条商品、全部照片、三类年鉴及截止日保持原样。
 
@@ -46,6 +52,7 @@ Chrome Hearts 更新已通过 211 页静态检查、13 项维护回归与 66 项
 
 ```
 index.html / about.html / brands.html / search.html / 404.html
+perfumery.html   香氛品牌专题（保留六品类体系）
 bags-by-year.html / necklaces-by-year.html / jewelry-by-year.html
                 2022–2026 包袋、项链与首饰年份页
 brand/          品牌页
@@ -76,6 +83,8 @@ reports/        验收记录、页面清单、商品来源清单和预览截图
 每天从品牌官网、官方新闻等一手资料检查六品类，轮换重点品类并优先处理发生变化或失效的来源。有可靠更新才修改商品、美元参考价、限定资料或品牌档案，不为凑每日更新重写内容。限量与限定联名分别标注，历史报价与当前报价分开；2022–2025 年保留档案语境，2026 年每类仍为四款热门加两款特别版。
 
 只有实际核实后才修改来源记录的 `checkedAt`，合并器保留逐条日期；栏目总日期取真实记录中的最大日期。2026 年新增入选证据时，在对应研究文件的年份记录中明确修改 `cutoff`，不能只改价格日期来推进收录范围。历史年度可以引用后来发布的官方年度回顾，资料发布日期仍须不晚于实际核验日期。14 条珠宝记录曾被合并器统一标为 10 月 20 日，现已恢复到原始研究记录的实际 10 月 19 日。
+
+香氛品牌选品与栏目文案维护于 `tools/perfumery.json`，五款活跃商品源为 `tools/research/perfumery-products.json`，品牌源为 `brand-expansion-g.json`，图库源为 `product-views-perfumery.json`，原始图片摘要与来源记录见 `perfumery-evidence.json`。新增香氛仍属于 `fragrance`，不建立第七品类；香水总上限 9，栏目每期 3–5 家。Baccarat 通过 `collaboratorBrands` 关联，当前常规 EDP 不引用早期编号版本的限量身份。
 
 Chrome Hearts 活跃商品源为 `tools/research/chrome-hearts-products.json`，图库源为 `tools/research/product-views-chrome-hearts.json`；另两份 `chrome-hearts-necklaces.json` / `chrome-hearts-jewelry.json` 保留原始分组研究与导出记录，不直接用于日常合并。转售记录须包含 `sellerName`、`itemCondition`、`listingReference`、`priceAsOf`、`availabilityEn`，采用 `priceStatus: resale-ask`；商家挂牌编号不能写成制造商 SKU。`tools/style_policy.py` 统一价格类型与扩展数量范围，卡片、详情与搜索均保留转售口径。
 

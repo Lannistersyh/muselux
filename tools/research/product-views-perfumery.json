@@ -1,0 +1,132 @@
+{
+  "records": [
+    {
+      "id": "diptyque-tam-dao-edp-75ml-tamdaop75cv1",
+      "reference": "TAMDAOP75CV1",
+      "images": [
+        {
+          "path": "assets/img/views/diptyque-tam-dao-edp75-back-20261027.webp",
+          "source": "https://cdn.shopify.com/s/files/1/0991/4784/1850/files/diptyque-tam-dao-eau-de-parfum-TAMDAOP75CV1_back.webp?v=1781571406&width=2048",
+          "pageSource": "https://us.diptyqueparis.com/en-us/products/eau-de-parfum-tam-dao-tamdaop75cv1",
+          "credit": "© Diptyque, official product imagery",
+          "alt": "Tam Dao Eau de Parfum75ml — reverse oval illustration and dip tube",
+          "viewLabel": "Reverse illustration",
+          "width": 900,
+          "height": 1200,
+          "checkedAt": "2026-10-27",
+          "evidence": "Exact product SKU TAMDAOP75CV1 official gallery image; visually checked against the main photograph. Separate original photograph, not a crop or mirrored copy of the main image.",
+          "sha256": "e0e81351858258ad70a079f8280ff70e783cb3dab6c318f84cd21de695ecf9e7",
+          "originalSha256": "dc597e7e410015d62b0825b39228d59b844ed41125cc899c387d436094094079"
+        },
+        {
+          "path": "assets/img/views/diptyque-tam-dao-edp75-side-20261027.webp",
+          "source": "https://cdn.shopify.com/s/files/1/0991/4784/1850/files/diptyque-tam-dao-eau-de-parfum-TAMDAOP75CV1_side.webp?v=1781571407&width=2048",
+          "pageSource": "https://us.diptyqueparis.com/en-us/products/eau-de-parfum-tam-dao-tamdaop75cv1",
+          "credit": "© Diptyque, official product imagery",
+          "alt": "Tam Dao Eau de Parfum75ml — original angled close photograph with cap removed",
+          "viewLabel": "Uncapped angled detail",
+          "width": 900,
+          "height": 1200,
+          "checkedAt": "2026-10-27",
+          "evidence": "Exact product SKU TAMDAOP75CV1 official gallery image; visually checked against the main photograph. Separate original photograph, not a crop or mirrored copy of the main image.",
+          "sha256": "b96d2902baeb0dd9dd1c3d2d94e7f5643ddf7ee32b1647eb2af4e613c72b0749",
+          "originalSha256": "e404b0b9724a070c12b764ea0ed49b8d9e86d8a4b02c61bb0b6587945ea0d910"
+        }
+      ]
+    },
+    {
+      "id": "le-labo-santal-33-edp-100ml-100ps33100",
+      "reference": "100PS33100",
+      "images": [
+        {
+          "path": "assets/img/views/le-labo-santal33-edp100-detail-20261027.webp",
+          "source": "https://lelabo.ips.photos/lelabo-java/images/skus/100PS33100__PRODUCT_07--IMG_1200--SANTAL33-752236687.jpg",
+          "pageSource": "https://www.lelabofragrances.com/santal-33-147.html",
+          "credit": "© Le Labo, official product imagery",
+          "alt": "SANTAL33 Eau de Parfum100ml — hands applying a paper label to the same100ml bottle",
+          "viewLabel": "Label application detail",
+          "width": 1200,
+          "height": 1200,
+          "checkedAt": "2026-10-27",
+          "evidence": "Exact product SKU 100PS33100 official gallery image; visually checked against the main photograph. Separate original photograph, not a crop or mirrored copy of the main image.",
+          "sha256": "1628f406693e863796dec2fc1308c60e16fd3f89fd94158774441745c666f41c",
+          "originalSha256": "2d1437f3f5a53daba952fc243dbf7dcbbd9b00838a132a4a36bd4deea8b86d18"
+        },
+        {
+          "path": "assets/img/views/le-labo-santal33-edp100-scene-20261027.webp",
+          "source": "https://lelabo.ips.photos/lelabo-java/images/skus/100PS33100__PRODUCT_08--IMG_1200--SANTAL33--902831406.jpg",
+          "pageSource": "https://www.lelabofragrances.com/santal-33-147.html",
+          "credit": "© Le Labo, official product imagery",
+          "alt": "SANTAL33 Eau de Parfum100ml — branded box with SANTAL33 label",
+          "viewLabel": "Original packaging",
+          "width": 1200,
+          "height": 1200,
+          "checkedAt": "2026-10-27",
+          "evidence": "Exact product SKU 100PS33100 official gallery image; visually checked against the main photograph. This photograph shows the packaging, not a second bottle angle.",
+          "sha256": "1ec720c2e780c89a3208f7c6919ed728b0305ef18c8371413f811114e4888d45",
+          "originalSha256": "7c3400106f10b33f4476d1a41aadfb5a13420abbecd3f1ced92f0f8269f6a194"
+        }
+      ]
+    },
+    {
+      "id": "byredo-bal-dafrique-edp-100ml-0065204863",
+      "reference": "0065204863",
+      "images": [
+        {
+          "path": "assets/img/views/byredo-bal-dafrique-edp100-spray-20261027.webp",
+          "source": "https://www.byredo.com/cdn-cgi/image/format=auto,quality=70/https://www.byredo.com/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/0/10000038_3_no_no.jpg",
+          "pageSource": "https://www.byredo.com/us_en/p/bal-d-afrique-eau-de-parfum?sku=0065204863",
+          "credit": "© Byredo, official product imagery",
+          "alt": "Bal d’Afrique Eau de Parfum, 100 ml — Spray nozzle detail",
+          "viewLabel": "Spray nozzle detail",
+          "width": 1200,
+          "height": 1200,
+          "checkedAt": "2026-10-27",
+          "evidence": "Distinct original official gallery photograph for the exact bottle size; downloaded, Pillow decoded, resized and visually checked. Byredo media label mentions packaging, but visual inspection shows an original uncapped nozzle detail.",
+          "sourceHash": "343e3ad57eedf97819bf5757ae4885736427471cd03dd22ac3436d12528f99a7",
+          "hash": "5e9dd0d28844354f4c53dfc2243cbb87ae8eb821f89d2cf3e1f25d9c63d74ce5"
+        }
+      ]
+    },
+    {
+      "id": "mfk-baccarat-rouge-540-edp-70ml-ra12232",
+      "reference": "RA12232",
+      "images": [
+        {
+          "path": "assets/img/views/mfk-baccarat-rouge540-edp70-overhead-20261027.webp",
+          "source": "https://www.baccarat.com/dw/image/v2/BBLJ_PRD/on/demandware.static/-/Sites-baccarat-master-products/default/dw6286969f/packshot/2810839_grey_002.jpg?sw=1200&q=90",
+          "pageSource": "https://www.baccarat.com/en_us/fragrance/all-fragrance/perfumes/baccarat-rouge-540-eau-de-parfum-70-ml--2.4-fl.oz.--2810839.html",
+          "credit": "© Baccarat / Maison Francis Kurkdjian, official product imagery",
+          "alt": "Baccarat Rouge 540 Eau de Parfum, 70 ml / 2.4 fl.oz. — Overhead three-quarter view",
+          "viewLabel": "Overhead three-quarter view",
+          "width": 1200,
+          "height": 1200,
+          "checkedAt": "2026-10-27",
+          "evidence": "Distinct original official gallery photograph for the exact bottle size; downloaded, Pillow decoded, resized and visually checked. ",
+          "sourceHash": "34331858dff150dc0554d551ac023650dffb1247bc6e54485f1f655c1c83f929",
+          "hash": "146afebed67217e7f5b1009c2f8fc7ad707edc99b4d250f0ccedcccc537d0ce1"
+        }
+      ]
+    },
+    {
+      "id": "jo-malone-wood-sage-sea-salt-cologne-100ml-l41501",
+      "reference": "L41501",
+      "images": [
+        {
+          "path": "assets/img/views/jo-malone-wood-sage-sea-salt100-scene-20261027.webp",
+          "source": "https://www.jomalone.ca/media/export/cms/products/1000x1000/jo_sku_L41501_1000x1000_2.png",
+          "pageSource": "https://www.jomalone.ca/product/25946/32241/colognes/wood-sage-sea-salt-cologne",
+          "credit": "© Jo Malone London, official product imagery",
+          "alt": "Wood Sage & Sea Salt Cologne, 100 ml — Bottle with sage and sea salt",
+          "viewLabel": "Bottle with sage and sea salt",
+          "width": 1000,
+          "height": 1000,
+          "checkedAt": "2026-10-27",
+          "evidence": "Distinct original official gallery photograph for the exact bottle size; downloaded, Pillow decoded, resized and visually checked. ",
+          "sourceHash": "c304ffe172bc71a36dd443346db0ab5e23c47bb38df65df3610e7d8b3297efde",
+          "hash": "d15dfaa98f7910e7c83dfa2db4376e72c751111328853030cf973d78006a0aef"
+        }
+      ]
+    }
+  ]
+}

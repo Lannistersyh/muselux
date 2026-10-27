@@ -1,0 +1,412 @@
+{
+  "checkedAt": "2026-10-27",
+  "diptyqueLeLabo": {
+    "method": "Static HTTPS retrieval and official product HTML/JSON-LD; no browser tabs or CDP used.",
+    "browserTabsOpened": 0,
+    "browserTabsClosed": 0,
+    "images": [
+      {
+        "path": "assets/img/products/diptyque-tam-dao-edp75-front-20261027.webp",
+        "source": "https://cdn.shopify.com/s/files/1/0991/4784/1850/files/diptyque-tam-dao-eau-de-parfum-TAMDAOP75CV1_front.webp?v=1781571406&width=2048",
+        "originalSha256": "2bb1b66d95ac58bd4e4b867048b276e17c6c203aeba2890c00b9157ab7f613c9",
+        "sha256": "54d77d98c161ec7bff8fe92609458d8a0890cfd58059ac4078da3082a6cdfb26",
+        "originalWidth": 2048,
+        "originalHeight": 2730,
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "path": "assets/img/views/diptyque-tam-dao-edp75-back-20261027.webp",
+        "source": "https://cdn.shopify.com/s/files/1/0991/4784/1850/files/diptyque-tam-dao-eau-de-parfum-TAMDAOP75CV1_back.webp?v=1781571406&width=2048",
+        "originalSha256": "dc597e7e410015d62b0825b39228d59b844ed41125cc899c387d436094094079",
+        "sha256": "e0e81351858258ad70a079f8280ff70e783cb3dab6c318f84cd21de695ecf9e7",
+        "originalWidth": 2048,
+        "originalHeight": 2730,
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "path": "assets/img/views/diptyque-tam-dao-edp75-side-20261027.webp",
+        "source": "https://cdn.shopify.com/s/files/1/0991/4784/1850/files/diptyque-tam-dao-eau-de-parfum-TAMDAOP75CV1_side.webp?v=1781571407&width=2048",
+        "originalSha256": "e404b0b9724a070c12b764ea0ed49b8d9e86d8a4b02c61bb0b6587945ea0d910",
+        "sha256": "b96d2902baeb0dd9dd1c3d2d94e7f5643ddf7ee32b1647eb2af4e613c72b0749",
+        "originalWidth": 2048,
+        "originalHeight": 2730,
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "path": "assets/img/products/le-labo-santal33-edp100-front-20261027.webp",
+        "source": "https://lelabo.ips.photos/lelabo-java/images/skus/100PS33100__PRODUCT_01--IMG_1200--SANTAL33-883562345.jpg",
+        "originalSha256": "159cd2227e256dcc7ff076a614bbc9aed575c98afea874e4c9e33e63e064576b",
+        "sha256": "9507dc3f9606fc157beb5c72f517cc13f9814aa2ec1d16b133eaf12db9aee3e6",
+        "originalWidth": 1200,
+        "originalHeight": 1200,
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "path": "assets/img/views/le-labo-santal33-edp100-detail-20261027.webp",
+        "source": "https://lelabo.ips.photos/lelabo-java/images/skus/100PS33100__PRODUCT_07--IMG_1200--SANTAL33-752236687.jpg",
+        "originalSha256": "2d1437f3f5a53daba952fc243dbf7dcbbd9b00838a132a4a36bd4deea8b86d18",
+        "sha256": "1628f406693e863796dec2fc1308c60e16fd3f89fd94158774441745c666f41c",
+        "originalWidth": 1200,
+        "originalHeight": 1200,
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "path": "assets/img/views/le-labo-santal33-edp100-scene-20261027.webp",
+        "source": "https://lelabo.ips.photos/lelabo-java/images/skus/100PS33100__PRODUCT_08--IMG_1200--SANTAL33--902831406.jpg",
+        "originalSha256": "7c3400106f10b33f4476d1a41aadfb5a13420abbecd3f1ced92f0f8269f6a194",
+        "sha256": "1ec720c2e780c89a3208f7c6919ed728b0305ef18c8371413f811114e4888d45",
+        "originalWidth": 1200,
+        "originalHeight": 1200,
+        "width": 1200,
+        "height": 1200
+      }
+    ],
+    "sources": [
+      {
+        "label": "Diptyque Tam Dao product",
+        "url": "https://us.diptyqueparis.com/en-us/products/eau-de-parfum-tam-dao-tamdaop75cv1",
+        "localCapture": "/tmp/diptyque-product.html",
+        "sha256": "f5ceccf0a4bcda80cbd302cee85e1d363105747d6002bc6fda0c749d3ab9323e"
+      },
+      {
+        "label": "Le Labo SANTAL33 product",
+        "url": "https://www.lelabofragrances.com/santal-33-147.html",
+        "localCapture": "/tmp/lelabo-santal.html",
+        "sha256": "f0e0699e5cb57370ac62b9fd3fada2911cea64315dfcf26cbc07fd44b486480f"
+      },
+      {
+        "label": "Diptyque history",
+        "url": "https://us.diptyqueparis.com/en-us/pages/the-story-of-diptyque",
+        "localCapture": "/tmp/diptyque-history.html",
+        "sha256": "ecb39d3dd5fd0a18d548732c39ec9741dab69da2dba3f351e4883fc961303c20"
+      },
+      {
+        "label": "Diptyque Japan company profile",
+        "url": "https://jp.diptyqueparis.com/en-jp/pages/diptyque-japan-company-profile",
+        "localCapture": "/tmp/diptyque-profile.html",
+        "sha256": "9b78f509fa4be9346150f1a79fabc82b8cc9a5739ad56636aa7695314a2f4c76"
+      },
+      {
+        "label": "Diptyque L’Ombre dans l’Eau",
+        "url": "https://us.diptyqueparis.com/en-us/products/eau-de-parfum-ombre-dans-eau-ombrep75cv2",
+        "localCapture": "/tmp/diptyque-ombre.html",
+        "sha256": "013cf3df0a2cdcc510a02eb28c5eeb6fafcf3f1ea091d4b816a640376031eeac"
+      },
+      {
+        "label": "Le Labo about",
+        "url": "https://www.lelabofragrances.com/about-us.html",
+        "localCapture": "/tmp/lelabo-about.html",
+        "sha256": "0a5472911055392c04885470e72a99c3c0245f0e97ba41721692e195253ffaf2"
+      },
+      {
+        "label": "Le Labo ANOTHER13",
+        "url": "https://www.lelabofragrances.com/another-13-463.html",
+        "localCapture": "/tmp/lelabo-another.html",
+        "sha256": "62ee5c067a1e6ce69074d44a9971fcfc6a4599164235a99af291cf64b6b7b4aa"
+      },
+      {
+        "label": "Le Labo acquisition press release",
+        "url": "https://kommunikasjon.ntb.no/pressemelding/5172793/the-estee-lauder-companies-inc-to-acquire-le-labo?publisherId=90063",
+        "localCapture": "/tmp/lelabo-acquire.html",
+        "sha256": "9fc5f49f4396fbac99386ee72ba1a7d0c9c75b442dc6b970cf12962e42f411ae"
+      },
+      {
+        "label": "Le Labo Kyoto official launch",
+        "url": "https://www.lelabofragrances.jp/pages/edm20240320bm",
+        "localCapture": "/tmp/lelabo-kyoto.html",
+        "sha256": "f4b6b5c01a3f21b09cc39c0e6c1e60787553634a4097ea23f46b13e7ed594325"
+      },
+      {
+        "label": "Fabrice Pellegrin official portfolio",
+        "url": "https://www.dsm-firmenich.com/content/dam/dsm-firmenich/perfumery-beauty/perfumery/perfumer-wins/Major%20Win%20List%20-%20Fabrice%20Pellegrin.pdf",
+        "localCapture": "/tmp/diptyque-pellegrin.pdf",
+        "sha256": "05e7d2778232396a05cf8d33d043de4a54761fb47f427cc440d7d7f7bc7e6483"
+      },
+      {
+        "label": "Frank Voelkl official portfolio",
+        "url": "https://www.dsm-firmenich.com/content/dam/dsm-firmenich/perfumery-beauty/perfumery/perfumer-wins/Major%20Win%20List%20-%20Frank%20Voelkl.pdf",
+        "localCapture": "/tmp/lelabo-voelkl.pdf",
+        "sha256": "d70786f02e5147a7c31b914fe4bdc9d530b0e4b700ab9a090b1d565054348f9c"
+      }
+    ],
+    "researchNotes": [
+      "No popularity, sales ranking, price-value or fragrance-performance claims are made. Product prices are official U.S. reference amounts before tax, checked2026-10-27.",
+      "The old Diptyque /en_us/p/ product URL redirects to a collection page; records use the current exact official U.S. product URL.",
+      "Le Labo100ml bottle main image and label-application photograph both visibly identify SANTAL33 and100ml/3.4fl.oz.; the third photograph is the official packaging image.",
+      "Diptyque current Tam Dao EDP product page does not state the launch year or perfumer, so these are not inferred from the earlier EDT.",
+      "Product views were visually compared in a contact sheet; originals were decoded, converted toWebP and resized with Pillow to a maximum dimension of1200px.",
+      "Brand chronology uses the brand’s own pages, a parent-company original announcement and the perfumers’ own official supplier portfolios; no retail catalog launch dates were substituted."
+    ]
+  },
+  "byredoMfkJoMalone": {
+    "directory": "/tmp/muselux-perfumery-b-evidence",
+    "images": [
+      {
+        "key": "byredo-front",
+        "path": "assets/img/products/byredo-bal-dafrique-edp100-front-20261027.webp",
+        "source": "https://www.byredo.com/cdn-cgi/image/format=auto,quality=70/https://www.byredo.com/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/0/10000038_1_full_no.jpg",
+        "sourceHash": "2a82604d21412fe671891b47f78128433d3ce590d461de2898c12741ec1d5604",
+        "originalSize": [
+          2800,
+          2800
+        ],
+        "width": 1200,
+        "height": 1200,
+        "hash": "f5f9fcd7a40e5f0ab4a19bd78d4e8a1e6d33b087b2f0fadd421ffc44ffaada6c"
+      },
+      {
+        "key": "byredo-box",
+        "path": "assets/img/views/byredo-bal-dafrique-edp100-spray-20261027.webp",
+        "source": "https://www.byredo.com/cdn-cgi/image/format=auto,quality=70/https://www.byredo.com/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/0/10000038_3_no_no.jpg",
+        "sourceHash": "343e3ad57eedf97819bf5757ae4885736427471cd03dd22ac3436d12528f99a7",
+        "originalSize": [
+          2800,
+          2800
+        ],
+        "width": 1200,
+        "height": 1200,
+        "hash": "5e9dd0d28844354f4c53dfc2243cbb87ae8eb821f89d2cf3e1f25d9c63d74ce5"
+      },
+      {
+        "key": "mfk-front",
+        "path": "assets/img/products/mfk-baccarat-rouge540-edp70-front-20261027.webp",
+        "source": "https://www.baccarat.com/dw/image/v2/BBLJ_PRD/on/demandware.static/-/Sites-baccarat-master-products/default/dw31f21528/packshot/2810839_grey_001.jpg?sw=1200&q=90",
+        "sourceHash": "038cf7c6f866ab88a84e9d8d5ed933849f33d23bc7bb3011eebc6e6543f016bf",
+        "originalSize": [
+          1200,
+          1200
+        ],
+        "width": 1200,
+        "height": 1200,
+        "hash": "e9b2d50462464c23919de429300632d271ec8390539802189b2c48142d3d97b4"
+      },
+      {
+        "key": "mfk-box",
+        "path": "assets/img/views/mfk-baccarat-rouge540-edp70-overhead-20261027.webp",
+        "source": "https://www.baccarat.com/dw/image/v2/BBLJ_PRD/on/demandware.static/-/Sites-baccarat-master-products/default/dw6286969f/packshot/2810839_grey_002.jpg?sw=1200&q=90",
+        "sourceHash": "34331858dff150dc0554d551ac023650dffb1247bc6e54485f1f655c1c83f929",
+        "originalSize": [
+          1200,
+          1200
+        ],
+        "width": 1200,
+        "height": 1200,
+        "hash": "146afebed67217e7f5b1009c2f8fc7ad707edc99b4d250f0ccedcccc537d0ce1"
+      },
+      {
+        "key": "jo-front",
+        "path": "assets/img/products/jo-malone-wood-sage-sea-salt100-front-20261027.webp",
+        "source": "https://www.jomalone.ca/media/export/cms/products/1000x1000/jo_sku_L41501_1000x1000_0.png",
+        "sourceHash": "19610eafc1d0e35525e9429227738fde6d96650a6decdd1a09d799bf2df3c829",
+        "originalSize": [
+          1000,
+          1000
+        ],
+        "width": 1000,
+        "height": 1000,
+        "hash": "c346f5a471ad4822e6a36c941d042f83e5234df7e8b0100769a8f1da05707f05"
+      },
+      {
+        "key": "jo-detail",
+        "path": "assets/img/views/perfumery-b-jo-detail.webp",
+        "source": "https://www.jomalone.ca/media/export/cms/products/1000x1000/jo_sku_L41501_1000x1000_1.png",
+        "sourceHash": "00bb0c52bcfd28dea9671ee484f2a1f03e8ce71a4f1f0232f5ff4efdecb3a4e0",
+        "originalSize": [
+          1000,
+          1000
+        ],
+        "width": 1000,
+        "height": 1000,
+        "hash": "8ee1cf05eb5f397878c806e35a00a9b7befb752ee8df73b3d86daadd10da6b82"
+      },
+      {
+        "key": "jo-lifestyle",
+        "path": "assets/img/views/jo-malone-wood-sage-sea-salt100-scene-20261027.webp",
+        "source": "https://www.jomalone.ca/media/export/cms/products/1000x1000/jo_sku_L41501_1000x1000_2.png",
+        "sourceHash": "c304ffe172bc71a36dd443346db0ab5e23c47bb38df65df3610e7d8b3297efde",
+        "originalSize": [
+          1000,
+          1000
+        ],
+        "width": 1000,
+        "height": 1000,
+        "hash": "d15dfaa98f7910e7c83dfa2db4376e72c751111328853030cf973d78006a0aef"
+      }
+    ],
+    "browserTabsOpened": 0,
+    "browserTabsClosed": 0,
+    "notes": [
+      "GraphFlow tools were unavailable; schema inspection was restricted to named research files and validator.",
+      "All research used static HTTP or official page reader snapshots; no browser/CDP was used.",
+      "Jo Malone image 1 is an ingredient still life and was excluded from the product gallery.",
+      "MFK images originate from Baccarat’s exact 70 ml EDP 2810839 gallery; product identity and MFK reference are independently verified on the MFK U.S. page."
+    ],
+    "completedBy": "Root agent completed dossiers from retained original sources and targeted official reader verification, after source worker became unavailable.",
+    "rootVerifiedSources": [
+      {
+        "url": "https://uploads.puig.com/uploads/Puig_Byredo_May31_2022_English_05a5c902e7.pdf",
+        "evidence": "Official May31 2022 announcement, majority stake, Stockholm2006."
+      },
+      {
+        "url": "https://www.cnmv.es/webservices/verdocumento/ver?t=%7B64dece68-e688-4405-8b04-159549d713ac%7D",
+        "evidence": "Issuer2024 results publication: Byredo ownership100% following acquisition ofremainingminority concurrentwithIPO."
+      },
+      {
+        "url": "https://www.unicef.org/partnerships/jo-malone-london",
+        "evidence": "Official partner page, founded1994, acquired1999, charity2012, UNICEF2022, candleexpansion2023."
+      }
+    ],
+    "retainedSourceHashes": [
+      {
+        "file": "byredo-product.html",
+        "sha256": "fe7920250a5276ce00e884c372e633b9bda4cdab821db8b9ad878f64f6c9ec41",
+        "bytes": 1197710
+      },
+      {
+        "file": "baccarat-product.html",
+        "sha256": "76e8c150f86e9858a353bf41b48419455c561b13b3519101348963161e12b32b",
+        "bytes": 1093468
+      },
+      {
+        "file": "jo-ca.html",
+        "sha256": "9cd349ac85ab44c642197697938c743140300cb2008c007c5d2718550eb85275",
+        "bytes": 650368
+      },
+      {
+        "file": "byredo-about.html",
+        "sha256": "e642472f5299c3da06efc90ef03b554152b1cedce6d9a37f7806c527e850751b",
+        "bytes": 1014363
+      },
+      {
+        "file": "byredo-2010.html",
+        "sha256": "68dd47424c8ffd6287ca85e8dbb62d244d7acf2ab0e0029732dbf8660476f2bf",
+        "bytes": 1279957
+      },
+      {
+        "file": "byredo-makeup.html",
+        "sha256": "787c4998ef406448f72719d4e22ba9aab07118be15bb4dc0013352aacf5439b6",
+        "bytes": 95722
+      },
+      {
+        "file": "mfk-lvmh.html",
+        "sha256": "2fe9f1da0d71073b319b15530347d349ead8e04f8aefb852c73e5dd4c5e8aae1",
+        "bytes": 1967846
+      },
+      {
+        "file": "mfk-versailles.html",
+        "sha256": "12dc602264ab56e39c429ab9b3ebe725bae25d9735d3e1775800c253f85f6f87",
+        "bytes": 69705
+      },
+      {
+        "file": "mfk-2025.html",
+        "sha256": "badfad84e82320f28837eca5e8f4a09f44fe25de0dab4a735e4fc44096b55214",
+        "bytes": 1990456
+      },
+      {
+        "file": "jo-china.html",
+        "sha256": "0884ec1280eecb1213f1b8ee129a62e485d319c51466b86df2b917a1db845887",
+        "bytes": 192263
+      },
+      {
+        "file": "jo-unicef.html",
+        "sha256": "70b3b591a267ae7656ddf71543bc7d97c09634166efa9039a0cf5f0dce329ee8",
+        "bytes": 217129
+      }
+    ]
+  },
+  "additionalPrimarySources": [
+    "https://www.baccarat.com/en_us/world-of-baccarat/the-history.html",
+    "https://www.baccarat.com/en_us/barware-and-dining/dining/wine--champagne-and-water-glasses/harcourt-1841-glass-MTHARCGS2.html?variation=1201103",
+    "https://www.franciskurkdjian.com/uk-en/baccarat_rouge_540_origins_of_an_icon/PDAC44.html",
+    "https://www.baccarathotels.com/sites/default/files/2018-11/Baccarat%20Heritage%20Experience%20Itinerary.pdf"
+  ],
+  "photoTransform": "Resize whole original frame; WebP export. Jo Malone transparent source composited on white. No mirrored or generated views.",
+  "rootPriceVerification": {
+    "checkedAt": "2026-10-27",
+    "rawJsonLd": [
+      {
+        "sku": "TAMDAOP75CV1",
+        "rawHtmlSha256": "24dc34c79c8ea39a40225c19451ae7f882a8c1140d56975c79b2977820f21a27",
+        "extractedOffers": [
+          {
+            "@type": "Product",
+            "name": "Tam Dao - Eau de parfum",
+            "sku": "TAMDAOP75CV1",
+            "size": null,
+            "offers": {
+              "@type": "Offer",
+              "url": "https://us.diptyqueparis.com/en-us/products/eau-de-parfum-tam-dao-tamdaop75cv1",
+              "priceCurrency": "USD",
+              "price": 260.0,
+              "priceValidUntil": "2026-12-31",
+              "availability": "https://schema.org/InStock",
+              "itemCondition": "https://schema.org/NewCondition",
+              "seller": {
+                "@type": "Organization",
+                "name": "Diptyque Paris"
+              },
+              "hasMerchantReturnPolicy": {
+                "@type": "MerchantReturnPolicy",
+                "applicableCountry": "FR",
+                "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+                "merchantReturnDays": 30,
+                "returnMethod": "https://schema.org/ReturnByMail",
+                "returnFees": "https://schema.org/FreeReturn"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "sku": "100PS33100",
+        "rawHtmlSha256": "f69bba9ecf4a491be8e740a802674d733421feec55edc660d78342ff3a9d3b06",
+        "extractedOffers": [
+          {
+            "@type": "Product",
+            "name": "Le Labo Fragrances SANTAL 33 | Eau de Parfum",
+            "sku": "100PS33100",
+            "size": {
+              "@type": "SizeSpecification",
+              "name": "100 ml",
+              "hasMeasurement": [
+                {
+                  "@type": "QuantitativeValue",
+                  "unitCode": "MLT",
+                  "value": "100"
+                }
+              ]
+            },
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "USD",
+              "price": "348.00",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock"
+            }
+          }
+        ]
+      }
+    ],
+    "byredo": "Exact SKU0065204863 Product size100ml Offer USD330 independently parsed from original raw HTML.",
+    "baccarat": "Exact SKU2810839 Product title70ml/2.4fl.oz. Offer USD360 independently parsed from original raw HTML.",
+    "mfkOfficialReader": {
+      "url": "https://www.franciskurkdjian.com/us-en/p/baccarat-rouge-540-eau-de-parfum-RA12232.html",
+      "format": "Natural spray2.4fl.oz.",
+      "USD": 360,
+      "reportedCrawled": "today",
+      "directStatus": 403
+    },
+    "joOfficialReader": {
+      "url": "https://www.jomalone.com/product/25946/32241/colognes/wood-sage-sea-salt-cologne",
+      "displayedFirstSize": "100ml",
+      "USD": 175,
+      "reportedCrawled": "today",
+      "directStatus": 403
+    }
+  }
+}

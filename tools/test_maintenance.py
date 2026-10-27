@@ -6,7 +6,7 @@ import copy, io, json, shutil, tempfile, unittest, html
 import apply_style_edit as style
 import apply_bag_yearbook as bags
 import apply_jewel_yearbooks as jewels
-import bag_yearbook, brand_catalog, generate
+import bag_yearbook, brand_catalog, generate, perfumery
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -178,6 +178,33 @@ class MaintenanceTests(unittest.TestCase):
         encoded=generate.json_script(value)
         self.assertNotIn('<',encoded)
         self.assertEqual(json.loads(encoded),value)
+
+    def test_perfumery_keeps_existing_products_and_category_bounds(self):
+        root=self.fixture()
+        original=json.loads((root/'tools/content.json').read_text())
+        self.run_merge(style,root)
+        merged=json.loads((root/'tools/content.json').read_text())
+        self.assertEqual({x['id'] for x in original['items']},{x['id'] for x in merged['items']})
+        self.assertEqual(sum(x.get('styleEdit',False) and x['category']=='fragrance' for x in merged['items']),9)
+        def overflow(data):
+            clone=copy.deepcopy(data['products'][0]);clone['id']='tenth-fragrance';data['products'].append(clone)
+        self.research(root,'perfumery-products.json',overflow)
+        with self.assertRaisesRegex(AssertionError,'up to nine'):self.run_merge(style,root)
+
+    def test_perfumery_selection_rejects_duplicate_houses_and_wrong_category(self):
+        root=self.fixture()
+        config=json.loads((ROOT/'tools/perfumery.json').read_text())
+        target=root/'tools/perfumery.json'
+        data=json.loads((root/'tools/content.json').read_text())
+        target.write_text(json.dumps(config))
+        self.assertEqual(len(perfumery.selection(data,root)),5)
+        config['houses'][1]=copy.deepcopy(config['houses'][0])
+        target.write_text(json.dumps(config))
+        with self.assertRaisesRegex(ValueError,'distinct houses'):perfumery.selection(data,root)
+        config=json.loads((ROOT/'tools/perfumery.json').read_text())
+        config['houses'][0]['product']=next(x['id'] for x in data['items'] if x.get('styleEdit') and x['category']=='bags')
+        target.write_text(json.dumps(config))
+        with self.assertRaisesRegex(ValueError,'photographed fragrances'):perfumery.selection(data,root)
 
     def test_only_retired_generated_pages_are_removed(self):
         temporary=tempfile.TemporaryDirectory(prefix='muselux-retirement-');self.addCleanup(temporary.cleanup)
