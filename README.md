@@ -30,7 +30,7 @@
 
 三张引用画面分别取自00:09、00:19、00:37，保留作者水印与原视频入口，合计 **82,068字节**；原视频及完整台词未放入网站。品牌对应覆盖Gucci、Versace、Fendi、Dior、Chanel与Van Cleef & Arpels，拿破仑风另提供Balmain军官扣外套的官方延伸阅读；它不是本站新增商品。已有商品的具体型号、美元价格、历史/快照口径和实际日期完整保留。原有 **156条单品及年鉴记录、40品牌、316次图库展示** 均保持；全站现为 **227页HTML**。
 
-入口加入首页、主导航、页脚，相关品牌与九件单品有风格回链。站内搜索新增“穿搭”类型，支持中英文风格名称与关键词。通过 **18项维护回归、98项前端断言、全站静态页面/链接/资源检查、两次构建一致性**；另在实际浏览器检查404像素窄屏的栏目、三详情及搜索，800/1280像素检查拿破仑页布局与导航，无横向溢出，手机菜单和搜索正常。属于代表页面预览，不是所有手机硬件或浏览器的穷尽兼容测试。记录见 `reports/womens-style-validation.json`；发布后的公开文件核对另见 `reports/womens-style-deployment-validation.json`。
+入口加入首页、主导航、页脚，相关品牌与九件单品有风格回链。站内搜索新增“穿搭”类型，支持中英文风格名称与关键词。通过 **18项维护回归、98项前端断言、全站静态页面/链接/资源检查、两次构建一致性**；另在实际浏览器检查404像素窄屏的栏目、三详情及搜索，800/1280像素检查拿破仑页布局与导航，无横向溢出，手机菜单和搜索正常。属于代表页面预览，不是所有手机硬件或浏览器的穷尽兼容测试。记录见 `reports/womens-style-validation.json`；内容提交 `2f8c49d10e0df46ec2b9bee60319fe079f086751` 已完成GitHub Pages构建，全部 **235个本轮公开页面与运行/图片资源** 均与本地逐字节一致，见 `reports/womens-style-deployment-validation.json`。
 
 2026-10-27 新增独立 **香氛品牌 / The Perfumery Edit** 栏目：`perfumery.html`，首页、主导航、页脚与香水品类均可进入。首期五家：**Diptyque、Le Labo、Byredo、Maison Francis Kurkdjian、Jo Malone London**，各配一份品牌档案与一款具体容量、浓度的香水。代表作分别为 **Tam Dao EDP 75 ml US$260、Santal 33 EDP 100 ml US$348、Bal d’Afrique EDP 100 ml US$330、Baccarat Rouge 540 EDP 70 ml US$360、Wood Sage & Sea Salt Cologne 100 ml US$175**。前面三款为官网当前结构化美元报价，后面两款保留官方美国页快照口径；Baccarat 官网 USD 报价另对晶红作交叉核对，Jo Malone 加拿大资料仅核对型号与图片，不使用加币价格。
 

@@ -116,7 +116,15 @@
   },
   "browserTabsOpened": 2,
   "publication": {
-    "status": "pending"
+    "status": "published",
+    "contentCommit": "2f8c49d10e0df46ec2b9bee60319fe079f086751",
+    "pagesBuild": {
+      "commit": "2f8c49d10e0df46ec2b9bee60319fe079f086751",
+      "status": "built"
+    },
+    "verifiedPublicFiles": 235,
+    "evidence": "reports/womens-style-deployment-validation.json",
+    "method": "All227HTMLpages,fourCSS/JSresources,sitemap,andthreequotedframesmatchedlocalSHA256."
   },
   "browserTabsClosed": 2,
   "browserTabsRemaining": 0,
