@@ -1,0 +1,75 @@
+{
+  "source": {
+    "title": "请选择Queen B下班风格",
+    "creator": "不爱吃榴莲的Nana",
+    "creatorURL": "https://space.bilibili.com/35683995/",
+    "source": "https://www.bilibili.com/video/BV1WUao6UEBa/",
+    "shortURL": "https://b23.tv/zLVMTqG",
+    "bvid": "BV1WUao6UEBa",
+    "cid": 42339729619,
+    "publishedAt": "2026-09-30T19:11:21+08:00",
+    "checkedAt": "2026-10-28",
+    "durationSeconds": 63.232,
+    "metadataDurationSeconds": 64,
+    "subtitleTracks": 0,
+    "method": "Anonymous official view/player/playurl endpoints and ffmpeg key-frame extraction; original video checked by visual observation. No login cookies exported.",
+    "videoBytes": 3028619,
+    "videoSha256": "0e4f9afb97f833b03e01656c4dabdd9b33e77332607e4146548967836cac9ab3",
+    "downloadQuality": "Official anonymous360p (480×360); higher-quality request downgraded to16. Original upload metadata3840×2880 is not the analyzed download resolution.",
+    "apiSources": [
+      "https://api.bilibili.com/x/web-interface/view?bvid=BV1WUao6UEBa",
+      "https://api.bilibili.com/x/player/v2?bvid=BV1WUao6UEBa&cid=42339729619"
+    ],
+    "browserTabsOpened": 1,
+    "browserTabsClosed": 1,
+    "browserTabsRemaining": 0,
+    "notes": [
+      "The page auto-played an unrelated recommended video; that video was excluded and the requested BV was reopened before observations.",
+      "Source explicitly labels three main styles: Mob wife风,拿破仑风,Napoleon core,and千金风. Princess at27s is character dialogue, not a fourth outfit style.",
+      "Visual observations do not establish garment composition, authenticity, exact product reference or purchase price.",
+      "The video’s Vogue/FW2026 trend assertion was not independently verified and is not adopted as a site trend claim.",
+      "The published Napoleon still is19s, avoiding the original video’s unverified media-trend claim shown around21s."
+    ]
+  },
+  "frames": [
+    {
+      "id": "mob-wife",
+      "path": "assets/img/styles/queen-b-mob-wife-20260930.webp",
+      "timestampSeconds": 9,
+      "width": 480,
+      "height": 360,
+      "frameSha256": "10d4036f16206574acc008992ff597203305c3f0685e82545327466f26ea6c87",
+      "sha256": "dc661c8466fa902e574268ea49e0df059ef4dc28a8692b73a698fafd222351d3",
+      "bytes": 28174,
+      "credit": "画面 © 不爱吃榴莲的Nana / bilibili",
+      "source": "https://www.bilibili.com/video/BV1WUao6UEBa/?t=9",
+      "rightsNote": "Limited still-frame quotation for the accompanying original style commentary. Original creator watermark retained; no open reuse license or brand endorsement is claimed."
+    },
+    {
+      "id": "napoleon-core",
+      "path": "assets/img/styles/queen-b-napoleon-core-20260930.webp",
+      "timestampSeconds": 19,
+      "width": 480,
+      "height": 360,
+      "frameSha256": "d962606b2b3cbb23dd8a2a8d34dff99a63251f334cf411b54145b01309d5ad00",
+      "sha256": "fee84d9249dae2df9f143967f6aff10771306ef439c42399ed4db5ec88c19a47",
+      "bytes": 27232,
+      "credit": "画面 © 不爱吃榴莲的Nana / bilibili",
+      "source": "https://www.bilibili.com/video/BV1WUao6UEBa/?t=19",
+      "rightsNote": "Limited still-frame quotation for the accompanying original style commentary. Original creator watermark retained; no open reuse license or brand endorsement is claimed."
+    },
+    {
+      "id": "heiress",
+      "path": "assets/img/styles/queen-b-heiress-20260930.webp",
+      "timestampSeconds": 37,
+      "width": 480,
+      "height": 360,
+      "frameSha256": "1db5b0ca42756fe8fb05de4154f5b51ac3061903b40cc966a6f553854fe28339",
+      "sha256": "5d7fd3da070bffcbfdb4b49e3bcdca7e129d8dbe7cf62715700464b8c7224be4",
+      "bytes": 26662,
+      "credit": "画面 © 不爱吃榴莲的Nana / bilibili",
+      "source": "https://www.bilibili.com/video/BV1WUao6UEBa/?t=37",
+      "rightsNote": "Limited still-frame quotation for the accompanying original style commentary. Original creator watermark retained; no open reuse license or brand endorsement is claimed."
+    }
+  ]
+}

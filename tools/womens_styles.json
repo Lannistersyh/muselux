@@ -1,0 +1,401 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-28",
+  "title": "女性风格指南",
+  "sourceVideo": {
+    "title": "请选择Queen B下班风格",
+    "creator": "不爱吃榴莲的Nana",
+    "creatorURL": "https://space.bilibili.com/35683995/",
+    "source": "https://www.bilibili.com/video/BV1WUao6UEBa/",
+    "shortURL": "https://b23.tv/zLVMTqG",
+    "bvid": "BV1WUao6UEBa",
+    "cid": 42339729619,
+    "publishedAt": "2026-09-30T19:11:21+08:00",
+    "checkedAt": "2026-10-28",
+    "durationSeconds": 63.232,
+    "metadataDurationSeconds": 64,
+    "subtitleTracks": 0,
+    "method": "Anonymous official view/player/playurl endpoints and ffmpeg key-frame extraction; original video checked by visual observation. No login cookies exported.",
+    "videoBytes": 3028619,
+    "videoSha256": "0e4f9afb97f833b03e01656c4dabdd9b33e77332607e4146548967836cac9ab3",
+    "downloadQuality": "Official anonymous360p (480×360); higher-quality request downgraded to16. Original upload metadata3840×2880 is not the analyzed download resolution.",
+    "apiSources": [
+      "https://api.bilibili.com/x/web-interface/view?bvid=BV1WUao6UEBa",
+      "https://api.bilibili.com/x/player/v2?bvid=BV1WUao6UEBa&cid=42339729619"
+    ],
+    "browserTabsOpened": 1,
+    "browserTabsClosed": 1,
+    "browserTabsRemaining": 0,
+    "notes": [
+      "The page auto-played an unrelated recommended video; that video was excluded and the requested BV was reopened before observations.",
+      "Source explicitly labels three main styles: Mob wife风,拿破仑风,Napoleon core,and千金风. Princess at27s is character dialogue, not a fourth outfit style.",
+      "Visual observations do not establish garment composition, authenticity, exact product reference or purchase price.",
+      "The video’s Vogue/FW2026 trend assertion was not independently verified and is not adopted as a site trend claim."
+    ]
+  },
+  "editorialScope": "从原视频的三种造型出发，按可见轮廓、配色与配饰匹配品牌及本站已有款式。品牌对应为编辑判断；推荐单品不是已确认视频同款。",
+  "styles": [
+    {
+      "id": "mob-wife",
+      "name": "Mob Wife",
+      "nameZh": "复古强势风",
+      "videoLabel": "Mob wife风",
+      "tagline": "深色剪裁，让一件夸张配饰成为重心。",
+      "color": "#763e41",
+      "rangeLabel": "约00:02–00:16；00:52后回放",
+      "labelTimestamp": 54,
+      "frame": {
+        "id": "mob-wife",
+        "path": "assets/img/styles/queen-b-mob-wife-20260930.webp",
+        "timestampSeconds": 9,
+        "width": 480,
+        "height": 360,
+        "frameSha256": "10d4036f16206574acc008992ff597203305c3f0685e82545327466f26ea6c87",
+        "sha256": "dc661c8466fa902e574268ea49e0df059ef4dc28a8692b73a698fafd222351d3",
+        "bytes": 28174,
+        "credit": "画面 © 不爱吃榴莲的Nana / bilibili",
+        "source": "https://www.bilibili.com/video/BV1WUao6UEBa/?t=9",
+        "rightsNote": "Limited still-frame quotation for the accompanying original style commentary. Original creator watermark retained; no open reuse license or brand endorsement is claimed."
+      },
+      "categories": [
+        "bags",
+        "jewelry"
+      ],
+      "observations": [
+        {
+          "time": 9,
+          "text": "深灰色收腰外套，领口围着黑色蓬松装饰，整体以深色为主。"
+        },
+        {
+          "time": 14,
+          "text": "金色耳饰在面部附近形成亮点，外套的腰线让轮廓保持清楚。"
+        },
+        {
+          "time": 54,
+          "text": "后段回放可见黑色手套与大体积耳饰，风格重心落在配件的存在感。"
+        }
+      ],
+      "introZh": "这套造型把深色剪裁和强烈配饰放在同一条线上。灰色外套先建立收束的腰线，黑色蓬松领口增加体积，金色耳饰再把光线提到面部附近。理解它时，可以先看明暗与比例：主色够克制，一两处装饰就能产生鲜明效果。日常搭配不必同时堆满所有元素，保留收腰外套与一件大耳饰，就已经能表达这种复古而有气场的方向。",
+      "introEn": "Start with a fitted dark jacket, then let one expressive accessory do the talking. The look in the video uses a plush-looking black collar and bold gold-tone earrings to interrupt a restrained grey silhouette. A small dark bag keeps the outline compact, while a sculptural ring or statement earring can carry the evening mood. The useful lesson is proportion: a quiet base gives an oversized detail room to work. The pieces below are editorial styling suggestions, rather than identified items worn in the video.",
+      "formula": [
+        "收腰深色外套＋深色内搭",
+        "黑色小肩包或短提手包",
+        "大耳饰、雕塑感戒指，选一处强调"
+      ],
+      "stylingZh": "先用灰黑色形成完整轮廓，再决定耳饰或项链谁是主角。若外套领口已经有明显体积，可以减少领口附近的层叠；包袋保持紧凑，让整体看起来利落。",
+      "avoidZh": "重点是对比和配饰比例，不需要凭画面推断领口是真毛皮，也不需要把整身都换成高价材质。",
+      "keywords": [
+        "Mob wife",
+        "Mobwife",
+        "复古",
+        "强势",
+        "灰色西装",
+        "金色耳饰",
+        "黑手套",
+        "夜间穿搭"
+      ],
+      "brandMatches": [
+        {
+          "brand": "gucci",
+          "collection": "GucciCore收腰双排扣西装 A007X6 ZAVXU 4041",
+          "reason": "从收腰西装切入：清楚的肩腰比例给蓬松领口与醒目耳饰留出位置。",
+          "feature": "深蓝细条纹双排扣外套；明确写有收腰剪裁。；尖驳领、Gucci刻字纽扣、翻盖口袋；官方称其把女性廓形与男性比例结合。",
+          "source": "https://www.gucci.com/us/en/pr/women/ready-to-wear-for-women/coats-and-jackets-for-women/blazers-for-women/pinstripe-silk-wool-jacket-p-A007X6ZAVXU4041",
+          "sourceTitle": "Pinstripe silk wool jacket — A007X6 ZAVXU 4041",
+          "designCheckedAt": "2026-10-28",
+          "priceReverified": false,
+          "limitations": [
+            "配色和表面纹样与视频不同；风格归类为本站编辑推断。"
+          ]
+        },
+        {
+          "brand": "versace",
+          "collection": "Medusa耳饰 1027927-1A00620",
+          "reason": "金色Medusa耳饰把视觉重心提到脸部，适合与硬朗外套叠加。",
+          "feature": "商品颜色标注为Gold；中央采用立体Medusa头像五金。；耳钉直径约2.5cm，采用仿古电镀表面。",
+          "source": "https://www.versace.com/us/en/women/fashion-jewelry/earrings/medusa-earrings/1027927-1A00620_3J280.html",
+          "sourceTitle": "Medusa earrings — 1027927-1A00620",
+          "designCheckedAt": "2026-10-28",
+          "priceReverified": false,
+          "limitations": [
+            "只比较装饰量感和颜色，不称为视频同款。"
+          ]
+        },
+        {
+          "brand": "fendi",
+          "collection": "Fur Collection 24官方外套目录",
+          "reason": "丰厚外套与金色五金提供另一条延伸路线：保留体量，再用腰部结构收住轮廓。",
+          "feature": "2024官方目录列出配有西装式领的晚装blazer（FNE71MARWEF0GME）。；目录列出带FF浅金色腰带的外套、带浅金色Peekaboo扣的短外套，以及有动物纹图案的束腰外套。",
+          "source": "https://static.fendi.com/dam/is/content/fendi/FENDI_FUR_COLLECTION_24_DIGITAL_CATALOGUEpdf?hash=414c16d12e13c377fb946a23cdd29efc-18e2de39da8",
+          "sourceTitle": "FENDI Fur Collection 24 — official digital catalogue",
+          "designCheckedAt": "2026-10-28",
+          "priceReverified": false,
+          "limitations": [
+            "视频领口材质未经确认；目录真皮草材料只属于官方所述商品。",
+            "现有Baguette可作暖棕金扣配件延伸，不能说视频出现了Baguette。"
+          ]
+        }
+      ],
+      "products": [
+        {
+          "id": "bag-2025-saint-laurent-gaby-vanity",
+          "reason": "黑色小体积包与深色剪裁保持一致，绗缝与金色标识给晚间搭配一点亮度。"
+        },
+        {
+          "id": "jewelry-2022-fendace-hoop-earrings",
+          "reason": "这对档案联名金色圈形耳饰提供明显体积，适合用作一身深色中的主配饰。价格保留2022年档案口径。"
+        },
+        {
+          "id": "bulgari-serpenti-viper-ring-rose-gold-45-46-362140",
+          "reason": "缠绕式轮廓与玫瑰金表面提供雕塑感，把强调位置从耳部移到手部。"
+        }
+      ]
+    },
+    {
+      "id": "napoleon-core",
+      "name": "Napoleon Core",
+      "nameZh": "拿破仑风",
+      "videoLabel": "Napoleon core / 拿破仑风格",
+      "tagline": "短外套、收腰线与层叠珠链，读装饰的秩序。",
+      "color": "#9c7656",
+      "rangeLabel": "约00:17–00:29；00:56后回放",
+      "labelTimestamp": 17,
+      "frame": {
+        "id": "napoleon-core",
+        "path": "assets/img/styles/queen-b-napoleon-core-20260930.webp",
+        "timestampSeconds": 19,
+        "width": 480,
+        "height": 360,
+        "frameSha256": "d962606b2b3cbb23dd8a2a8d34dff99a63251f334cf411b54145b01309d5ad00",
+        "sha256": "fee84d9249dae2df9f143967f6aff10771306ef439c42399ed4db5ec88c19a47",
+        "bytes": 27232,
+        "credit": "画面 © 不爱吃榴莲的Nana / bilibili",
+        "source": "https://www.bilibili.com/video/BV1WUao6UEBa/?t=19",
+        "rightsNote": "Limited still-frame quotation for the accompanying original style commentary. Original creator watermark retained; no open reuse license or brand endorsement is claimed."
+      },
+      "categories": [
+        "bags",
+        "necklace",
+        "scarves"
+      ],
+      "observations": [
+        {
+          "time": 18,
+          "text": "蜜桃棕色短外套在腰部收束，前襟可见金色纽扣。"
+        },
+        {
+          "time": 21,
+          "text": "袖口和下摆带浅色荷叶边，外套与浅色短裙形成层次。"
+        },
+        {
+          "time": 26,
+          "text": "领口叠戴多层白色珠链与金色长链，装饰集中在上半身。"
+        }
+      ],
+      "introZh": "视频把这套造型称为拿破仑风。它的可借鉴之处，是用清楚的腰线组织繁复装饰：短外套先定轮廓，金色纽扣、袖口荷叶边与层叠珠链再逐层加入。蜜桃棕与浅色下装让金属光泽显得柔和。日常穿法可以从一件收腰短外套开始，领口用一条珠链或金色吊坠呼应，包袋选择结构清楚的款式。这里的品牌对应依据具体设计特征，不把一个名称当作整个品牌的固定属性。",
+      "introEn": "Read this look through its order of decoration: a shaped waist first, metallic buttons next, then a layered neckline. The peach-brown jacket and pale skirt soften the effect, while ruffled edges give the compact silhouette movement. A structured bag, an ornamental silk scarf or a warm gold pendant can each echo one part of the composition. Choose a single point of emphasis before adding another. The video’s name is retained as its own style label; the suggested pieces translate details rather than reproduce a historical uniform.",
+      "formula": [
+        "短款收腰外套＋浅色短裙",
+        "金色扣饰或金色吊坠",
+        "珠链、丝巾与领饰分清主次"
+      ],
+      "stylingZh": "先检查肩线与腰线，再决定装饰量。外套已有明显扣饰时，让项链靠近领口形成一层清楚的弧线；若选择丝巾，可以用它代替多条长链。暖棕与奶油色适合承接金色配件。",
+      "avoidZh": "视频里的层叠白色珠链不能仅凭画面确认珍珠种类。下方金色吊坠与丝巾是搭配思路，不是对视频项链型号的认定。",
+      "keywords": [
+        "Napoleon core",
+        "拿破仑",
+        "装饰性剪裁",
+        "金色纽扣",
+        "珍珠感",
+        "短外套",
+        "收腰"
+      ],
+      "brandMatches": [
+        {
+          "brand": "dior",
+          "collection": "Bar Jacket：收腰与髋部结构（2021工艺档案）",
+          "reason": "以腰线和髋部结构理解视频的收腰骨架。这个工艺档案的豹纹外套与视频配色、扣饰及袖口不同。",
+          "feature": "官方工艺解说强调外套结构：腰线和口袋位置较高，斜置设计用来突出髋部轮廓。；此版本为单排扣，有三枚包覆小纽扣与明线装饰。",
+          "source": "https://www.dior.com/couture/var/dior/storage/original/application/3e5b41f053718e4efaf70d78646138f8.pdf",
+          "sourceTitle": "Dior Fall 21 Bar Jacket — official savoir-faire transcript",
+          "designCheckedAt": "2026-10-28",
+          "priceReverified": false,
+          "limitations": [
+            "两个来源代表不同款式，不要合并为一件同时具备全部特征的Dior外套。",
+            "来源均没有视频的荷叶袖口。"
+          ]
+        },
+        {
+          "brand": "chanel",
+          "collection": "2026秋冬预备系列项链 ABI030",
+          "reason": "从珠白与金色的组合理解领口装饰。此处是玻璃珠与金属的设计参照，不是视频珠链材质的鉴定。",
+          "feature": "官方标注金色与珠白色；材料为金属与玻璃珠。；系列文案明确提到带珍珠或双C装饰的长项链及粗链环。",
+          "source": "https://www.chanel.com/us/fashion/p/ABI030B25739UC951/necklace-metal-glass-pearls/",
+          "sourceTitle": "Fall Winter 2026 Pre-Collection necklace — ABI030-B25739-UC951",
+          "designCheckedAt": "2026-10-28",
+          "priceReverified": false,
+          "limitations": [
+            "珠链型号不在现有catalog中，只作为官网设计参照。",
+            "现有Coco Crush是单坠几何项链，不能描述为多层珠链或已知长度的短链。"
+          ]
+        },
+        {
+          "brand": "gucci",
+          "collection": "GucciCore徽章双排扣外套 A00AOR",
+          "reason": "金色徽章纽扣提供装饰秩序的参照；这件官方示例为红色大衣，不同于视频短外套的颜色与长度。",
+          "feature": "GucciCore系列的鲜红色双排扣外套，装饰金色Gucci徽章纽扣。；开领、双前贴袋、常规版型。",
+          "source": "https://www.gucci.com/tr/en_gb/pr/women/ready-to-wear-for-women/coats-jackets-for-women/coats-for-women/double-breasted-wool-polyamide-coat-p-A00AORZAV1M6143",
+          "sourceTitle": "Double-breasted wool polyamide coat — A00AOR ZAV1M 6143",
+          "designCheckedAt": "2026-10-28",
+          "priceReverified": false,
+          "limitations": [
+            "军服感属于编辑解读；官方未把该外套归类为Napoleon core。",
+            "来源外套是红色大衣、链条是单珠坠，均不同于视频的完整造型。"
+          ]
+        }
+      ],
+      "products": [
+        {
+          "id": "bag-2026-chanel-maxi-flap-camel",
+          "reason": "驼色与金色链条延续暖色调；这是本站收录的较大尺寸示例，可用来理解结构与装饰的呼应。"
+        },
+        {
+          "id": "chanel-coco-crush-necklace-small-beige-gold-j12306",
+          "reason": "小号BEIGE GOLD吊坠把暖色金属收拢在领口，适合用一件细节代替满领层叠。"
+        },
+        {
+          "id": "gucci-flora-silk-carre-pink-us",
+          "reason": "粉色边框和花卉纹样呼应柔和配色，折成长条作领饰即可提供装饰层次。"
+        }
+      ],
+      "extraReading": [
+        {
+          "label": "Balmain：立领、修身与五枚金色军官扣（官方延伸）",
+          "source": "https://balmain.com/fr-fr/products/wool-pilot-jacket-black-ja00000000500pa"
+        },
+        {
+          "label": "Gucci Blondie：金色长链与玻璃珠坠（另一件官方作品）",
+          "source": "https://www.gucci.com/us/en/pr/jewelry-watches/fashion-jewelry/fashion-necklaces/gucci-blondie-pearl-drop-necklace-p-774689I46208078"
+        }
+      ]
+    },
+    {
+      "id": "heiress",
+      "name": "Polished Heiress",
+      "nameZh": "千金风",
+      "videoLabel": "千金风",
+      "tagline": "浅色短套装，用细节和小比例配件完成精致感。",
+      "color": "#a58f86",
+      "rangeLabel": "约00:35–00:41；00:59后回放",
+      "labelTimestamp": 60,
+      "frame": {
+        "id": "heiress",
+        "path": "assets/img/styles/queen-b-heiress-20260930.webp",
+        "timestampSeconds": 37,
+        "width": 480,
+        "height": 360,
+        "frameSha256": "1db5b0ca42756fe8fb05de4154f5b51ac3061903b40cc966a6f553854fe28339",
+        "sha256": "5d7fd3da070bffcbfdb4b49e3bcdca7e129d8dbe7cf62715700464b8c7224be4",
+        "bytes": 26662,
+        "credit": "画面 © 不爱吃榴莲的Nana / bilibili",
+        "source": "https://www.bilibili.com/video/BV1WUao6UEBa/?t=37",
+        "rightsNote": "Limited still-frame quotation for the accompanying original style commentary. Original creator watermark retained; no open reuse license or brand endorsement is claimed."
+      },
+      "categories": [
+        "bags",
+        "necklace",
+        "jewelry"
+      ],
+      "observations": [
+        {
+          "time": 36,
+          "text": "白色短外套与同色短裙组成套装，上下装之间留出腰部空间。"
+        },
+        {
+          "time": 37,
+          "text": "衣身可见花纹感表面与不规则边缘，整体明度较高。"
+        },
+        {
+          "time": 38,
+          "text": "浅色小手袋与短项链保持小比例，配件没有抢走套装的纹理。"
+        }
+      ],
+      "introZh": "这套造型先用浅色建立轻盈感，再把精致留给织物表面与边缘。短外套、同色短裙和小手袋在比例上互相呼应，领饰与耳饰也没有明显放大。日常可以把它转成一套浅色短套装，或用短外套搭直筒裙。包袋不一定也要选白色：一个结构清楚的黑色小包可以成为边界，珍珠母贝吊坠或细窄金色戒指则提供较轻的光泽。先保持颜色和轮廓统一，再添加一处细节。",
+      "introEn": "A pale matching set gives this look its clear starting point. A cropped jacket, a short skirt and a small light-coloured bag keep the proportions compact, while the textured surface adds interest without a large change in colour. A structured black bag can introduce a deliberate contrast; a mother-of-pearl pendant or a slim gold ring can add a quieter glint. The aim is a coordinated outfit with one or two considered details. None of the suggested products is presented as an identified item from the video.",
+      "formula": [
+        "浅色短外套＋同色短裙",
+        "浅色小包，或黑色结构包作对比",
+        "小比例吊坠与细窄戒指"
+      ],
+      "stylingZh": "让上下装的颜色先保持接近，再利用领口、袖口和下摆的纹理增加变化。若换成黑色包袋，可以用黑鞋或细腰带轻轻呼应；配饰选择一两件即可。",
+      "avoidZh": "珍珠母贝是贝壳内层材料，与珍珠珠链不同。本站选品按各自型号列明材质，不把视频中的白色表面直接认作某种面料。",
+      "keywords": [
+        "千金",
+        "名媛",
+        "Heiress",
+        "浅色套装",
+        "白色短外套",
+        "迷你裙",
+        "小手袋",
+        "珍珠母贝"
+      ],
+      "brandMatches": [
+        {
+          "brand": "chanel",
+          "collection": "2025春夏白色外套与围裹裙套装",
+          "reason": "用白色成套穿着、编边与珠宝扣理解精致感。官方围裹裙并未被描述为视频同样的迷你长度。",
+          "feature": "官方发布稿明确描述白色外套与围裹裙组成的套装，饰有编边、珠宝纽扣与黑色长雪纺带。",
+          "source": "https://pressroom.chanel.com/sites/8/chanel_campagne-pret-a-porter-printemps-ete-2025_en.pdf",
+          "sourceTitle": "CHANEL Spring-Summer 2025 Ready-to-Wear campaign",
+          "designCheckedAt": "2026-10-28",
+          "priceReverified": false,
+          "limitations": [
+            "不能把围裹裙写成已核实的同款迷你裙；也不能将同系列蕾丝自动当作白色套装面料。"
+          ]
+        },
+        {
+          "brand": "dior",
+          "collection": "My Dior Mini S0986PUKK_M010",
+          "reason": "用小体量白色手袋延续套装的明度，手柄与字母挂饰补上细节。",
+          "feature": "白色Cannage纹样手袋，带Dior Daisy花朵刺绣与银色D.I.O.R.字母挂饰。；可折叠顶部手柄与可拆蝴蝶结链，尺寸21×11.5×4.5cm。",
+          "source": "https://www.dior.com/en_us/fashion/products/S0986PUKK_M010",
+          "sourceTitle": "My Dior Mini Bag — S0986PUKK_M010",
+          "designCheckedAt": "2026-10-28",
+          "priceReverified": false,
+          "limitations": [
+            "既有站内Small Lady Dior为黑色，其颜色、型号与该白色My Dior不同。",
+            "不把新来源变成既有商品的颜色或价格更新。"
+          ]
+        },
+        {
+          "brand": "van-cleef-arpels",
+          "collection": "Sweet Alhambra VCARF69100",
+          "reason": "白色珍珠母贝小坠与浅色套装自然衔接，保留轻巧的首饰比例。",
+          "feature": "官方描述为18K黄K金与白色珍珠母贝吊坠。；图案外缘为双排珠边，整体比例精巧。",
+          "source": "https://www.vancleefarpels.com/us/en/collections/jewelry/alhambra/vcarf69100---sweet-alhambra-pendant.html",
+          "sourceTitle": "Sweet Alhambra pendant — VCARF69100",
+          "designCheckedAt": "2026-10-28",
+          "priceReverified": false,
+          "limitations": [
+            "9.5mm是图案尺寸，不是链长；不能称已核实的短项链。",
+            "视频的项链品牌与材料未经识别。"
+          ]
+        }
+      ],
+      "products": [
+        {
+          "id": "dior-small-lady-dior-black-us",
+          "reason": "小号Lady Dior的顶部手柄与Cannage纹理提供规整感；本站黑色示例适合给浅色套装加一道清楚的边界。"
+        },
+        {
+          "id": "necklace-2024-van-cleef-vintage-alhambra-mother-of-pearl",
+          "reason": "小型四叶形珍珠母贝吊坠提供柔和反光；这是母贝材质，不是视频白色珠链的同款证明。"
+        },
+        {
+          "id": "chanel-coco-crush-ring-mini-beige-gold-j11785",
+          "reason": "Mini轮廓与暖金色表面提供较克制的装饰，适合保留浅色套装本身的纹理。"
+        }
+      ]
+    }
+  ]
+}

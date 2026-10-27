@@ -23,8 +23,14 @@
 - 另保留 28 个经典设计词条，共 **66 个核心单品页**；鞋履与墨镜作为生活配件扩展收录于首饰品类。未核实具体美元型号的经典词条直接提示向美国官方渠道询价，不做汇率猜算。
 - 12 篇原创杂志文章，每篇正文至少 800 个中文字；正文不依赖在线加载。
 - 6 个品类页：包包、项链、首饰、腕表、丝巾、香水。
-- 三类年度栏目共有 90 个英文详情页；全站共 **156 个单品/年度详情页、223 页 HTML**。
+- 三类年度栏目共有 90 个英文详情页；全站共 **156 个单品/年度详情页、227 页 HTML**。
 - The Style Edit 的 38 张本地首图照片约 3.12 MiB，年度包袋照片另存于 `assets/img/bag-years/`，新增项链与首饰的 60 张实物照片保存于 `assets/img/jewel-years/`；另有 42 个原创 SVG。照片逐款署名并保留原图来源，未声称获得开放图片许可；没有复制第三方文章。
+
+2026-10-28 新增 **女性风格指南 / The Style Atlas**：`womens-style.html`，包含 **Mob Wife（复古强势风）、Napoleon Core（拿破仑风）、千金风** 三个独立详情页。参考不爱吃榴莲的Nana于2026-09-30发布的《请选择Queen B下班风格》（BV1WUao6UEBa，约64秒）。基于实际关键帧与画面标签整理 **9条带时间点的观察、9组品牌对应与9件本站搭配推荐**；13个可读官方设计来源为具体剪裁、扣饰、珠链、套装与手袋特征提供依据。品牌对应属于编辑判断，没有把推荐款式写成视频同款，也没有采纳视频未经核实的媒体趋势判断。
+
+三张引用画面分别取自00:09、00:19、00:37，保留作者水印与原视频入口，合计 **82,068字节**；原视频及完整台词未放入网站。品牌对应覆盖Gucci、Versace、Fendi、Dior、Chanel与Van Cleef & Arpels，拿破仑风另提供Balmain军官扣外套的官方延伸阅读；它不是本站新增商品。已有商品的具体型号、美元价格、历史/快照口径和实际日期完整保留。原有 **156条单品及年鉴记录、40品牌、316次图库展示** 均保持；全站现为 **227页HTML**。
+
+入口加入首页、主导航、页脚，相关品牌与九件单品有风格回链。站内搜索新增“穿搭”类型，支持中英文风格名称与关键词。通过 **18项维护回归、98项前端断言、全站静态页面/链接/资源检查、两次构建一致性**；另在实际浏览器检查404像素窄屏的栏目、三详情及搜索，800/1280像素检查拿破仑页布局与导航，无横向溢出，手机菜单和搜索正常。属于代表页面预览，不是所有手机硬件或浏览器的穷尽兼容测试。记录见 `reports/womens-style-validation.json`；发布后的公开文件核对另见 `reports/womens-style-deployment-validation.json`。
 
 2026-10-27 新增独立 **香氛品牌 / The Perfumery Edit** 栏目：`perfumery.html`，首页、主导航、页脚与香水品类均可进入。首期五家：**Diptyque、Le Labo、Byredo、Maison Francis Kurkdjian、Jo Malone London**，各配一份品牌档案与一款具体容量、浓度的香水。代表作分别为 **Tam Dao EDP 75 ml US$260、Santal 33 EDP 100 ml US$348、Bal d’Afrique EDP 100 ml US$330、Baccarat Rouge 540 EDP 70 ml US$360、Wood Sage & Sea Salt Cologne 100 ml US$175**。前面三款为官网当前结构化美元报价，后面两款保留官方美国页快照口径；Baccarat 官网 USD 报价另对晶红作交叉核对，Jo Malone 加拿大资料仅核对型号与图片，不使用加币价格。
 
@@ -52,6 +58,7 @@ Chrome Hearts 更新已通过 211 页静态检查、13 项维护回归与 66 项
 
 ```
 index.html / about.html / brands.html / search.html / 404.html
+womens-style.html / style/   女性风格栏目与三篇指南
 perfumery.html   香氛品牌专题（保留六品类体系）
 bags-by-year.html / necklaces-by-year.html / jewelry-by-year.html
                 2022–2026 包袋、项链与首饰年份页
@@ -83,6 +90,8 @@ reports/        验收记录、页面清单、商品来源清单和预览截图
 每天从品牌官网、官方新闻等一手资料检查六品类，轮换重点品类并优先处理发生变化或失效的来源。有可靠更新才修改商品、美元参考价、限定资料或品牌档案，不为凑每日更新重写内容。限量与限定联名分别标注，历史报价与当前报价分开；2022–2025 年保留档案语境，2026 年每类仍为四款热门加两款特别版。
 
 只有实际核实后才修改来源记录的 `checkedAt`，合并器保留逐条日期；栏目总日期取真实记录中的最大日期。2026 年新增入选证据时，在对应研究文件的年份记录中明确修改 `cutoff`，不能只改价格日期来推进收录范围。历史年度可以引用后来发布的官方年度回顾，资料发布日期仍须不晚于实际核验日期。14 条珠宝记录曾被合并器统一标为 10 月 20 日，现已恢复到原始研究记录的实际 10 月 19 日。
+
+女性风格内容维护于 `tools/womens_styles.json`，由 `tools/womens_styles.py` 生成栏目与详情。视频来源及抽帧摘要在 `tools/research/womens-style-video-evidence.json`，品牌设计证据在 `womens-style-brand-evidence.json`。新指南不修改六品类与产品目录；推荐引用既有精确产品ID，换款或退休商品时同步调整引用。视频标签、可见细节、官方设计事实和编辑匹配理由分别保留，不能把系列文案合并成某一件衣服的全部特征，也不凭画面鉴定材质、价格或同款。
 
 香氛品牌选品与栏目文案维护于 `tools/perfumery.json`，五款活跃商品源为 `tools/research/perfumery-products.json`，品牌源为 `brand-expansion-g.json`，图库源为 `product-views-perfumery.json`，原始图片摘要与来源记录见 `perfumery-evidence.json`。新增香氛仍属于 `fragrance`，不建立第七品类；香水总上限 9，栏目每期 3–5 家。Baccarat 通过 `collaboratorBrands` 关联，当前常规 EDP 不引用早期编号版本的限量身份。
 

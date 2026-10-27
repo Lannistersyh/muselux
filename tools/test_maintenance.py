@@ -6,7 +6,7 @@ import copy, io, json, shutil, tempfile, unittest, html
 import apply_style_edit as style
 import apply_bag_yearbook as bags
 import apply_jewel_yearbooks as jewels
-import bag_yearbook, brand_catalog, generate, perfumery
+import bag_yearbook, brand_catalog, generate, perfumery, womens_styles
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -215,6 +215,44 @@ class MaintenanceTests(unittest.TestCase):
         self.assertFalse(old.exists());self.assertTrue(keep.exists());self.assertTrue(custom.exists())
         with self.assertRaises(ValueError):generate.retire_pages(['../outside.html'],[],root)
         self.assertTrue(custom.exists())
+
+    def test_style_atlas_rejects_unknown_products_and_unobserved_times(self):
+        root=self.fixture()
+        config=json.loads((ROOT/'tools/womens_styles.json').read_text())
+        target=root/'tools/womens_styles.json';target.write_text(json.dumps(config))
+        for style in config['styles']:
+            frame=root/style['frame']['path'];frame.parent.mkdir(parents=True,exist_ok=True);frame.touch()
+        data=json.loads((root/'tools/content.json').read_text())
+        self.assertEqual(len(womens_styles.load(data,root)['config']['styles']),3)
+        config['styles'][0]['products'][0]['id']='unverified-product'
+        target.write_text(json.dumps(config))
+        with self.assertRaises(KeyError):womens_styles.load(data,root)
+        config=json.loads((ROOT/'tools/womens_styles.json').read_text())
+        config['styles'][0]['observations'][0]['time']=1000
+        target.write_text(json.dumps(config))
+        with self.assertRaisesRegex(ValueError,'outside source video'):womens_styles.load(data,root)
+
+    def test_style_guides_preserve_catalog_and_dated_price_provenance(self):
+        data=json.loads((ROOT/'tools/content.json').read_text());before=copy.deepcopy(data)
+        atlas=womens_styles.load(data);captured={}
+        womens_styles.render(atlas,lambda path,title,desc,content,*args,**kw:captured.update({path:content}))
+        self.assertEqual(data,before)
+        for style in atlas['config']['styles']:
+            source=captured['style/'+style['id']+'.html']
+            self.assertIn('非已确认视频同款',source)
+            for selection in style['products']:
+                product=atlas['catalog'][selection['id']]
+                self.assertIn(html.escape(womens_styles.price_context(product)),source)
+                self.assertIn(bag_yearbook.price_text(product),source)
+
+    def test_style_pages_use_the_same_safe_retirement_rules(self):
+        temporary=tempfile.TemporaryDirectory(prefix='muselux-style-retirement-');self.addCleanup(temporary.cleanup)
+        root=Path(temporary.name);(root/'style').mkdir()
+        old=root/'style/old-look.html';keep=root/'style/keep-look.html'
+        old.write_text('old');keep.write_text('keep')
+        generate.retire_pages(['style/old-look.html','style/keep-look.html'],['style/keep-look.html'],root)
+        self.assertFalse(old.exists());self.assertTrue(keep.exists())
+        with self.assertRaises(ValueError):generate.retire_pages(['style/../../outside.html'],[],root)
 
 
 if __name__=='__main__':unittest.main()

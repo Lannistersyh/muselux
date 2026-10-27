@@ -6,6 +6,7 @@ import bag_yearbook
 import brand_catalog
 import product_gallery
 import perfumery
+import womens_styles
 from style_policy import is_resale, price_heading, card_price_label
 from datetime import date
 ROOT=Path(__file__).resolve().parents[1]
@@ -19,6 +20,7 @@ B={x['id']:x for x in D['brands']}
 I={x['id']:x for x in D['items']}
 A={x['id']:x for x in D['articles']}
 ALL_ITEMS={x['id']:x for x in CATALOG}
+STYLE_ATLAS=womens_styles.load(D)
 DISCLAIMER='MuseLux 是个人兴趣驱动的非商业内容项目，所有品牌名称与产品名称的权利归其权利人所有；价格信息仅为整理时的公开参考，请以品牌官方渠道为准。'
 ABOUT='MuseLux 是一个关于奢侈品的品味网站——把百年工坊的故事，讲成日常的向往。'
 e=html.escape
@@ -134,7 +136,7 @@ def asset_url(prefix,path):
     if path not in asset_versions:asset_versions[path]=hashlib.sha256((ROOT/path).read_bytes()).hexdigest()[:12]
     return prefix+path+'?v='+asset_versions[path]
 
-def page(path,title,desc,content,pagekind='generic',pageid='',article=None,product=None):
+def page(path,title,desc,content,pagekind='generic',pageid='',article=None,product=None,style=None):
     prefix='../' if '/' in path else ''
     current=pagekind
     canonical=SITE_URL+('' if path=='index.html' else path) if SITE_URL else ''
@@ -145,25 +147,29 @@ def page(path,title,desc,content,pagekind='generic',pageid='',article=None,produ
     annual_category=product['category'] if product and product.get('annualEdit') else pageid if pagekind=='yearbook' else None
     nav=''.join(f'<a class="{"active" if pageid==c["id"] or annual_category==c["id"] else ""}" href="{prefix}cat/{c["id"]}.html">{c["nameZh"]}</a>' for c in D['categories'])
     structured={'@context':'https://schema.org','@type':'Organization','name':'MuseLux','description':ABOUT}
-    if pagekind in ('yearbook','perfumery'):
+    if pagekind in ('yearbook','perfumery','styles'):
         structured={'@context':'https://schema.org','@type':'CollectionPage','name':title,'description':desc,'inLanguage':'en' if pagekind=='yearbook' else 'zh-CN'}
     if article:
         structured={'@context':'https://schema.org','@type':'Article','headline':article['title'],'datePublished':article['date'],'dateModified':article.get('updatedAt',article['date']),'inLanguage':'zh-CN','author':{'@type':'Organization','name':'MuseLux 编辑部'},'publisher':{'@type':'Organization','name':'MuseLux'},'description':article['excerpt']}
+    if style:
+        structured={'@context':'https://schema.org','@type':'Article','headline':title,'description':desc,'inLanguage':'zh-CN','datePublished':STYLE_ATLAS['config']['checkedAt'],'dateModified':STYLE_ATLAS['config']['checkedAt'],'author':{'@type':'Organization','name':'MuseLux 编辑部'},'citation':STYLE_ATLAS['config']['sourceVideo']['source']}
     if product:
         structured={'@context':'https://schema.org','@type':'Product','name':product['name'],'sku':product['reference'],'brand':{'@type':'Brand','name':product.get('brandName') or B[product['brand']]['name']},'description':product['oneLiner'],'image':SITE_URL+product['image'] if SITE_URL else '../'+product['image']}
     if canonical:
         structured['url']=canonical
     preview_image=product['image'] if product else (next((x['image'] for x in D['items'] if x.get('styleEdit') and x['category']=='bags'),'assets/img/hero.svg') if pagekind=='home' else 'assets/img/hero.svg')
+    if pagekind in ('styles','style'):
+        preview_image=(style or STYLE_ATLAS['config']['styles'][0])['frame']['path']
     if pagekind=='perfumery':
         preview_image=perfumery.selection(D)[0][2]['image']
     if pagekind=='yearbook':
         preview_image=max(D[bag_yearbook.BOOKS[pageid]['key']],key=lambda y:y['year'])['entries'][0]['image']
     og_image=(SITE_URL if SITE_URL else prefix)+preview_image
-    footer=f'''<footer class="site-footer" lang="zh-CN"><div class="container footer-grid"><div><a class="footer-logo" href="{prefix}index.html">{LOGO}</a><p>{ABOUT}</p><span class="eyebrow">A LITTLE KNOWLEDGE. A LONG AFFECTION.</span></div><div><h2>慢慢探索</h2><div class="footer-links">{''.join(f'<a href="{prefix}cat/{c["id"]}.html">{c["nameZh"]}</a>' for c in D['categories'])}<a href="{prefix}bags-by-year.html">包袋年份 · 2022–26</a><a href="{prefix}necklaces-by-year.html">项链年份 · 2022–26</a><a href="{prefix}jewelry-by-year.html">首饰年份 · 2022–26</a><a href="{prefix}perfumery.html">香氛品牌</a><a href="{prefix}brands.html">品牌索引</a><a href="{prefix}search.html">站内搜索</a><a href="{prefix}about.html">关于本站</a><a href="{prefix}about.html#sources">资料与来源</a></div></div><div><h2>一份小小的说明</h2><p>{DISCLAIMER}</p><p>实物图来源与署名见各款详情；概念插画另有标注。<br>在这里，先了解，再慢慢喜欢。</p></div></div><div class="container footer-bottom"><span>© 2026 MUSELUX · AN INDEPENDENT JOURNAL</span><span>用好奇心，收藏日常的美。</span></div></footer>'''
+    footer=f'''<footer class="site-footer" lang="zh-CN"><div class="container footer-grid"><div><a class="footer-logo" href="{prefix}index.html">{LOGO}</a><p>{ABOUT}</p><span class="eyebrow">A LITTLE KNOWLEDGE. A LONG AFFECTION.</span></div><div><h2>慢慢探索</h2><div class="footer-links">{''.join(f'<a href="{prefix}cat/{c["id"]}.html">{c["nameZh"]}</a>' for c in D['categories'])}<a href="{prefix}bags-by-year.html">包袋年份 · 2022–26</a><a href="{prefix}necklaces-by-year.html">项链年份 · 2022–26</a><a href="{prefix}jewelry-by-year.html">首饰年份 · 2022–26</a><a href="{prefix}womens-style.html">女性风格</a><a href="{prefix}perfumery.html">香氛品牌</a><a href="{prefix}brands.html">品牌索引</a><a href="{prefix}search.html">站内搜索</a><a href="{prefix}about.html">关于本站</a><a href="{prefix}about.html#sources">资料与来源</a></div></div><div><h2>一份小小的说明</h2><p>{DISCLAIMER}</p><p>实物图来源与署名见各款详情；概念插画另有标注。<br>在这里，先了解，再慢慢喜欢。</p></div></div><div class="container footer-bottom"><span>© 2026 MUSELUX · AN INDEPENDENT JOURNAL</span><span>用好奇心，收藏日常的美。</span></div></footer>'''
     urls={'css':asset_url(prefix,'assets/css/main.css'),**{name:asset_url(prefix,'assets/js/'+name) for name in ('data.js','render.js','main.js')}}
     out=f'''<!doctype html>
-<html lang="{'en' if product or pagekind=='yearbook' else 'zh-CN'}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#faf8f5"><title>{e(title)}｜MuseLux</title><meta name="description" content="{e(desc[:110])}"><meta property="og:title" content="{e(title)}｜MuseLux"><meta property="og:description" content="{e(desc[:110])}"><meta property="og:type" content="{'article' if article else 'website'}"><meta property="og:image" content="{e(og_image)}">{hosting_meta}{fallback_base}<link rel="icon" href="{prefix}assets/img/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="{urls['css']}"><script type="application/ld+json">{json_script(structured)}</script><script src="{urls['data.js']}" defer></script><script src="{urls['render.js']}" defer></script><script src="{urls['main.js']}" defer></script></head>
-<body data-page="{pagekind}" data-id="{pageid}" data-root="{prefix}"><a class="skip-link" href="#main">跳至正文</a><div class="topline"><div class="container"><span>AN INDEPENDENT JOURNAL OF BEAUTIFUL THINGS</span><span>VOL. 01 — OCTOBER 2026</span></div></div><header class="site-header" lang="zh-CN"><div class="container header-inner"><a class="logo-link" href="{prefix}index.html">{LOGO}</a><nav id="main-nav" class="main-nav" aria-label="主导航">{nav}<a class="nav-perfumery {'active' if current=='perfumery' else ''}" href="{prefix}perfumery.html">香氛品牌</a><a class="nav-brand {'active' if current in ['brands','brand'] else ''}" href="{prefix}brands.html">品牌图鉴</a><a class="nav-about" href="{prefix}about.html">关于</a></nav><div class="header-actions"><a class="search-link" href="{prefix}search.html" aria-label="搜索品牌、单品与文章">{icon('search')}</a><button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="打开导航菜单">{icon('menu')}</button></div></div><div class="reading-progress" aria-hidden="true"></div></header><main id="main">{content}</main>{footer}<button class="back-top" aria-label="返回顶部" type="button">{icon('up')}</button><noscript><p class="noscript-note">全部文章可直接阅读；搜索、筛选与订阅演示需要启用 JavaScript。</p></noscript></body></html>'''
+<html lang="{'en' if product or pagekind=='yearbook' else 'zh-CN'}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#faf8f5"><title>{e(title)}｜MuseLux</title><meta name="description" content="{e(desc[:110])}"><meta property="og:title" content="{e(title)}｜MuseLux"><meta property="og:description" content="{e(desc[:110])}"><meta property="og:type" content="{'article' if article or style else 'website'}"><meta property="og:image" content="{e(og_image)}">{hosting_meta}{fallback_base}<link rel="icon" href="{prefix}assets/img/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="{urls['css']}"><script type="application/ld+json">{json_script(structured)}</script><script src="{urls['data.js']}" defer></script><script src="{urls['render.js']}" defer></script><script src="{urls['main.js']}" defer></script></head>
+<body data-page="{pagekind}" data-id="{pageid}" data-root="{prefix}"><a class="skip-link" href="#main">跳至正文</a><div class="topline"><div class="container"><span>AN INDEPENDENT JOURNAL OF BEAUTIFUL THINGS</span><span>VOL. 01 — OCTOBER 2026</span></div></div><header class="site-header" lang="zh-CN"><div class="container header-inner"><a class="logo-link" href="{prefix}index.html">{LOGO}</a><nav id="main-nav" class="main-nav" aria-label="主导航">{nav}<a class="nav-womens-style {'active' if current in ('styles','style') else ''}" href="{prefix}womens-style.html">女性风格</a><a class="nav-perfumery {'active' if current=='perfumery' else ''}" href="{prefix}perfumery.html">香氛品牌</a><a class="nav-brand {'active' if current in ['brands','brand'] else ''}" href="{prefix}brands.html">品牌图鉴</a><a class="nav-about" href="{prefix}about.html">关于</a></nav><div class="header-actions"><a class="search-link" href="{prefix}search.html" aria-label="搜索品牌、单品、穿搭与文章">{icon('search')}</a><button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="打开导航菜单">{icon('menu')}</button></div></div><div class="reading-progress" aria-hidden="true"></div></header><main id="main">{content}{womens_styles.product_links(STYLE_ATLAS,product["id"],prefix) if product else ""}</main>{footer}<button class="back-top" aria-label="返回顶部" type="button">{icon('up')}</button><noscript><p class="noscript-note">全部文章可直接阅读；搜索、筛选与订阅演示需要启用 JavaScript。</p></noscript></body></html>'''
     if pagekind=='404':
         # Error documents can be served at arbitrary nested URLs. Build resource
         # URLs after the base is set, so the speculative preload scanner cannot
@@ -174,6 +180,7 @@ def page(path,title,desc,content,pagekind='generic',pageid='',article=None,produ
             out=out.replace(f'<script src="{urls[script]}" defer></script>','')
         loader='''<script>(function(){var root=document.baseURI;function link(rel,path,type){var l=document.createElement('link');l.rel=rel;l.href=new URL(path,root).href;if(type)l.type=type;document.head.appendChild(l)}link('stylesheet','assets/css/main.css');link('icon','assets/img/favicon.svg','image/svg+xml');function scripts(){['data.js','render.js','main.js'].forEach(function(name){var s=document.createElement('script');s.async=false;s.src=new URL('assets/js/'+name,root).href;document.head.appendChild(s)})}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',scripts,{once:true});else scripts()})();</script>'''
         out=out.replace('</head>',loader+'</head>')
+    (ROOT/path).parent.mkdir(parents=True,exist_ok=True)
     (ROOT/path).write_text(out)
     pages.append(path)
 
@@ -183,6 +190,7 @@ def home():
     wall=''.join(f'<a href="brand/{b["id"]}.html"><span>{e(b["name"])}</span><small>{b["founded"]} · {b["country"]}</small></a>' for b in D['brands'])
     content=f'''{edit_hero(cats)}
 <div class="container home-yearbook">{bag_yearbook.hub(D)}</div>
+<div class="container home-style-atlas">{womens_styles.teaser(STYLE_ATLAS)}</div>
 <div class="container home-perfumery">{perfumery.teaser(D)}</div>
 <div class="container">{style_edit()}</div>
 <section class="container section features">{sectionhead('THE EDITOR’S LETTER','本周专题',('全部文章','search.html?type=article'))}<div class="feature-grid">{card(A['mag-02'],big=True)}{card(A['mag-03'])}{card(A['mag-06'])}</div></section>
@@ -198,8 +206,8 @@ def otherpages():
     opts=''.join(f'<option value="{c["id"]}">{c["nameZh"]}</option>' for c in D['categories'])
     content=f'''<div class="container">{crumbs([('品牌图鉴',None)],'')}{headsection('AN ATLAS OF THE HOUSES','品牌图鉴','从一间工坊开始，读懂一个名字的来处。',str(len(B)))}<div class="filter-toolbar"><label>按品类 <select id="brand-category"><option value="all">全部品类</option>{opts}</select></label><label class="brand-query-label">查找品牌 <input id="brand-query" type="search" placeholder="品牌中文或外文名" aria-label="查找品牌"></label><span id="brand-count" aria-live="polite">{len(B)} 个品牌</span></div><div class="alphabet" aria-label="品牌首字母筛选"><button type="button" data-letter="all" aria-pressed="true" class="selected">全部</button>{letters}</div><div id="brand-results" class="brand-grid">{''.join(brandcard(b) for b in sorted(D['brands'],key=lambda b:unicodedata.normalize('NFKD',b['name']).casefold()))}</div></div>'''
     page('brands.html','品牌图鉴', f'{len(B)} 个品牌的来处、历史与本站款式，覆盖全部单品及收录的联名品牌。',content,'brands')
-    content=f'''<div class="container">{crumbs([('站内搜索',None)],'')}{headsection('FOLLOW YOUR CURIOSITY','寻找一点灵感','一个名字、一种材质，或一份尚未说清的好奇。')}<form id="search-form" class="large-search" role="search"><label class="sr-only" for="search-query">搜索品牌、单品与文章</label><input id="search-query" name="q" type="search" placeholder="试试 Birkin、铂金、珍珠……" autocomplete="off" maxlength="100"><button class="button button-dark" type="submit">搜索 {icon('search')}</button></form><div class="popular-search"><span>从这里开始</span><a href="search.html?q=Birkin">Birkin</a><a href="search.html?q=四叶草">四叶草</a><a href="search.html?q=皮革">皮革</a><a href="search.html?q=礼物">礼物</a></div><div class="filter-toolbar search-filter"><div class="filter-chips" id="search-types"><button data-type="all" type="button" aria-pressed="true" class="selected">全部</button><button data-type="brand" type="button" aria-pressed="false">品牌</button><button data-type="item" type="button" aria-pressed="false">单品</button><button data-type="article" type="button" aria-pressed="false">文章</button></div><label>品类 <select id="search-category"><option value="all">全部</option>{opts}</select></label></div><p id="search-count" class="results-count" aria-live="polite">准备好，开始探索。</p><div id="search-results" class="search-results"></div><nav id="pagination" class="pagination" aria-label="搜索结果分页"></nav></div>'''
-    page('search.html','站内搜索','搜索品牌、经典单品与杂志文章，中英文均可检索。',content,'search')
+    content=f'''<div class="container">{crumbs([('站内搜索',None)],'')}{headsection('FOLLOW YOUR CURIOSITY','寻找一点灵感','一个名字、一种材质，或一份尚未说清的好奇。')}<form id="search-form" class="large-search" role="search"><label class="sr-only" for="search-query">搜索品牌、单品、穿搭与文章</label><input id="search-query" name="q" type="search" placeholder="试试 Birkin、铂金、珍珠……" autocomplete="off" maxlength="100"><button class="button button-dark" type="submit">搜索 {icon('search')}</button></form><div class="popular-search"><span>从这里开始</span><a href="search.html?q=Birkin">Birkin</a><a href="search.html?q=四叶草">四叶草</a><a href="search.html?q=皮革">皮革</a><a href="search.html?q=礼物">礼物</a><a href="search.html?q=拿破仑&type=style">拿破仑风</a></div><div class="filter-toolbar search-filter"><div class="filter-chips" id="search-types"><button data-type="all" type="button" aria-pressed="true" class="selected">全部</button><button data-type="brand" type="button" aria-pressed="false">品牌</button><button data-type="item" type="button" aria-pressed="false">单品</button><button data-type="article" type="button" aria-pressed="false">文章</button><button data-type="style" type="button" aria-pressed="false">穿搭</button></div><label>品类 <select id="search-category"><option value="all">全部</option>{opts}</select></label></div><p id="search-count" class="results-count" aria-live="polite">准备好，开始探索。</p><div id="search-results" class="search-results"></div><nav id="pagination" class="pagination" aria-label="搜索结果分页"></nav></div>'''
+    page('search.html','站内搜索','搜索品牌、单品、穿搭指南与杂志文章，中英文均可检索。',content,'search')
     sources=[]
     for b in D['brands']:
         sources.append((b['name']+' · 品牌与历史',b['source']))
@@ -267,7 +275,7 @@ def brandpage(b):
 <ol class="timeline">{''.join(timeline)}</ol>{history_note}<div class="brand-history-sources">{source_links}</div></section>
 <section class="section brand-catalog" id="catalog">{sectionhead('IN THE MUSELUX CATALOG','本站收录 · 从款式继续认识它')}
 <p class="section-intro">{b['itemCount']} 项收录：{catalog_note}。{'年度卡片保留入选年份和美元价格口径。' if any(x.get('annualEdit') for x in catalog) else ''}</p>{''.join(groups)}</section>
-<section class="section">{sectionhead('KEEP READING','从相关品类，继续慢读')}
+{womens_styles.brand_links(STYLE_ATLAS,b['id'])}<section class="section">{sectionhead('KEEP READING','从相关品类，继续慢读')}
 <div class="article-grid">{''.join(card(a,prefix='../') for a in related)}</div></section></div>'''
     page('brand/'+b['id']+'.html',b['name']+' '+b['nameZh'],b['tagline']+'。阅读品牌历史、设计细节与本站收录款式。',content,'brand',b['id'])
 
@@ -313,7 +321,7 @@ def data_script():
     # Long stories and research records already live in static HTML. Only ship
     # fields used by browser filtering/search, keeping mobile memory use small.
     fields={'brands':('id','name','nameZh','country','founded','categories','tagline','itemCount','role','aliases'),'items':('id','brand','category','name','nameZh','oneLiner','reference','color','materials','styleEdit','priceUSD','priceStatus','image','brandNames','collaboratorBrands'),'articles':('id','category','title','excerpt','cover')}
-    runtime={'categories':D['categories']}
+    runtime={'categories':D['categories'],'styles':womens_styles.runtime(STYLE_ATLAS)}
     for key,keys in fields.items():
         runtime[key]=[{k:x[k] for k in keys if k in x} for x in D[key]]
     annual_fields=('id','brand','brandName','category','name','nameZh','oneLiner','reference','color','materials','annualEdit','year','selection','editionLabelEn','priceUSD','priceLabelEn','image','brandNames','collaboratorBrands')
@@ -335,7 +343,7 @@ def retire_pages(previous,current,root=ROOT):
     for name in set(previous)-set(current):
         relative=Path(name)
         target=(root/relative).resolve()
-        if (relative.is_absolute() or not re.fullmatch(r'(?:brand/|cat/|item/|mag/)?[a-z0-9][a-z0-9-]*\.html',name)
+        if (relative.is_absolute() or not re.fullmatch(r'(?:brand/|cat/|item/|mag/|style/)?[a-z0-9][a-z0-9-]*\.html',name)
                 or not target.is_relative_to(root.resolve())):
             raise ValueError('Unsafe generated page path: '+str(name))
         retired.append(root/relative)
@@ -348,6 +356,7 @@ if __name__=='__main__':
     previous=json.loads(manifest.read_text()) if manifest.exists() else []
     data_script();home();otherpages();detailpages()
     perfumery.render(D,page,usd,review_span)
+    womens_styles.render(STYLE_ATLAS,page)
     for category in bag_yearbook.BOOKS:bag_yearbook.render(D,page,B,category)
     retire_pages(previous,pages)
     if SITE_URL:

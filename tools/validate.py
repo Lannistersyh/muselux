@@ -9,6 +9,7 @@ from bag_yearbook import BOOKS,price_text,date_label
 from brand_catalog import enrich, brand_ids
 import product_gallery
 import perfumery
+import womens_styles
 from style_policy import PRICE_STATUSES, valid_category_counts, is_resale, validate_resale
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -305,6 +306,8 @@ try:
     check(len(runtime_items)==len(runtime['items']) and set(runtime_items)==set(PRODUCTS),'Runtime search catalog differs from content')
     check(len(runtime_brands)==len(runtime['brands']) and set(runtime_brands)==set(BRANDS),'Runtime brand index differs from content')
     check({a['id'] for a in runtime['articles']}=={a['id'] for a in D['articles']},'Runtime journal index differs from content')
+    atlas=womens_styles.load(D)
+    check(runtime.get('styles')==womens_styles.runtime(atlas),'Runtime style guide index differs from its source')
     for brand_id,b in runtime_brands.items():
         check(b['itemCount']==BRANDS[brand_id]['itemCount'],brand_id+': runtime brand count mismatch')
     for product_id,x in runtime_items.items():
@@ -313,6 +316,38 @@ try:
             check(x.get(field)==actual.get(field),product_id+': stale runtime '+field)
 except (ValueError,AttributeError,KeyError,TypeError) as error:
     issues.append('Cannot verify offline search data: '+str(error))
+try:
+    atlas=womens_styles.load(D)
+    config=atlas['config']
+    style_hub=(ROOT/'womens-style.html').resolve()
+    check(style_hub in pages,'Missing womens style hub')
+    for style in config['styles']:
+        path=(ROOT/'style'/f'{style["id"]}.html').resolve()
+        doc=pages.get(path)
+        check(doc is not None,style['id']+': missing style detail')
+        source=path.read_text() if doc else ''
+        frame=style['frame'];photo=ROOT/frame['path']
+        check(doc is not None and frame['source'] in doc.refs,style['id']+': frame timestamp link differs from extraction')
+        check(image_size(photo)==(frame['width'],frame['height']),style['id']+': wrong source-frame dimensions')
+        check(hashlib.sha256(photo.read_bytes()).hexdigest()==frame['sha256'],style['id']+': frame differs from extraction record')
+        check(html.escape(frame['credit']) in source,style['id']+': missing creator credit')
+        check('非已确认视频同款' in source,style['id']+': recommendation provenance absent')
+        check(config['sourceVideo']['source'] in source,style['id']+': original video link absent')
+        for selection in style['products']:
+            product=PRODUCTS[selection['id']]
+            check(doc is not None and '../item/'+product['id']+'.html' in doc.refs,style['id']+': missing suggested product')
+            check(price_text(product) in source,style['id']+': suggested USD reference absent')
+            check(html.escape(womens_styles.price_context(product)) in source,style['id']+': original price date/basis absent')
+            item_doc=pages[(ROOT/'item'/f'{product["id"]}.html').resolve()]
+            check('../style/'+style['id']+'.html' in item_doc.refs,product['id']+': missing style backlink')
+        for match in style['brandMatches']:
+            check(doc is not None and '../brand/'+match['brand']+'.html' in doc.refs,style['id']+': missing matched brand')
+            check(doc is not None and match['source'] in doc.refs,style['id']+': missing official design source')
+    for path,doc in pages.items():
+        prefix='../' if path.parent!=ROOT else ''
+        check(prefix+'womens-style.html' in doc.refs,str(path.relative_to(ROOT))+': style navigation absent')
+except (ValueError,KeyError,OSError) as error:
+    issues.append('Cannot verify style atlas: '+str(error))
 css=(ROOT/'assets/css/main.css').read_text()
 # Catch malformed edit blocks, while ignoring quoted text and comments.
 tokens=re.sub(r'/\*.*?\*/|"(?:\\.|[^"\\])*"|\'(?:\\.|[^\'\\])*\'','',css,flags=re.S)

@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 1,
+  "designResearchCheckedAt": "2026-10-28",
+  "project": "/Users/admin/科研项目/muselux",
+  "videoContext": {
+    "source": "parent agent supplied, already directly parsed",
+    "bvid": "BV1WUao6UEBa",
+    "creator": "不爱吃榴莲的Nana",
+    "title": "请选择Queen B下班风格",
+    "publishedAt": "2026-09-30",
+    "durationSeconds": 63.232,
+    "refetchedByThisAgent": false
+  },
+  "editorialPolicy": [
+    "品牌与风格的对应为本站编辑推断，来源只核实具体设计特征。",
+    "不声称品牌官方将产品固定划入Mob wife、Napoleon core或千金风。",
+    "不声称视频同款，不从画面推断真实材质、价格或穿着者身份。",
+    "公开来源可读正文与搜索索引有区别；直接受限的来源单列，不能把搜索摘要升级为核实事实。"
+  ],
+  "catalogContext": {
+    "brandCount": 40,
+    "newBrandsAdded": 0,
+    "canonicalFilesModified": false,
+    "codeModified": false,
+    "published": false,
+    "styleEditCheckedAtBefore": "2026-10-27",
+    "styleEditPriceDatesPreserved": true,
+    "priceReverificationPerformed": false,
+    "existingRelatedItems": [
+      {
+        "id": "fendi-baguette-tobacco-ff-us",
+        "brandId": "fendi",
+        "name": "Baguette® — Tobacco Brown FF Jacquard Fabric Bag",
+        "source": "https://www.fendi.com/us-en/woman/bags/baguette-tobacco-brown-ff-jacquard-fabric-bag-8br600afpmf1gl7",
+        "originalCheckedAt": "2026-10-19",
+        "note": "仅保留既有款式与原日期，不是本轮重新核价"
+      },
+      {
+        "id": "chanel-coco-crush-necklace-small-beige-gold-j12306",
+        "brandId": "chanel",
+        "name": "Coco Crush necklace, small version, 18K BEIGE GOLD",
+        "source": "https://www.chanel.com/us/fine-jewelry/p/J12306/coco-crush-necklace/",
+        "originalCheckedAt": "2026-10-19",
+        "note": "仅保留既有款式与原日期，不是本轮重新核价"
+      },
+      {
+        "id": "dior-small-lady-dior-black-us",
+        "brandId": "dior",
+        "name": "Small Lady Dior Bag — Black Cannage Lambskin",
+        "source": "https://www.dior.com/en_us/fashion/products/M0618ONGE_M900",
+        "originalCheckedAt": "2026-10-19",
+        "note": "仅保留既有款式与原日期，不是本轮重新核价"
+      },
+      {
+        "id": "alhambra",
+        "brandId": "van-cleef-arpels",
+        "name": "Alhambra",
+        "source": null,
+        "originalCheckedAt": null,
+        "note": "仅保留既有款式与原日期，不是本轮重新核价"
+      }
+    ]
+  },
+  "styles": [
+    {
+      "id": "mob-wife",
+      "nameZh": "Mob wife风",
+      "visibleFeatures": [
+        "灰色收腰西装",
+        "黑色蓬松领口",
+        "夸张金色耳饰",
+        "黑手套"
+      ],
+      "brandMatches": [
+        {
+          "brandId": "gucci",
+          "sourceIds": [
+            "gucci-pinstripe-jacket-a007x6"
+          ],
+          "specificSeriesOrModel": "GucciCore收腰双排扣西装 A007X6 ZAVXU 4041",
+          "matchReason": "将视频的收腰西装作为结构主线，Gucci这件双排扣、尖驳领、显腰线的款式提供可核实的剪裁参照。",
+          "editorialCopyZh": "从收腰西装切入：清楚的肩腰比例给蓬松领口与醒目耳饰留出位置。",
+          "evidenceLimitations": [
+            "配色和表面纹样与视频不同；风格归类为本站编辑推断。"
+          ]
+        },
+        {
+          "brandId": "versace",
+          "sourceIds": [
+            "versace-medusa-earrings-1027927"
+          ],
+          "specificSeriesOrModel": "Medusa耳饰 1027927-1A00620",
+          "matchReason": "立体Medusa与约2.5cm的金色耳钉可支撑视频中夸张金色耳饰这一关键线索。",
+          "editorialCopyZh": "金色Medusa耳饰把视觉重心提到脸部，适合与硬朗外套叠加。",
+          "evidenceLimitations": [
+            "只比较装饰量感和颜色，不称为视频同款。"
+          ]
+        },
+        {
+          "brandId": "fendi",
+          "sourceIds": [
+            "fendi-fur-collection-24"
+          ],
+          "specificSeriesOrModel": "Fur Collection 24官方外套目录",
+          "matchReason": "目录将丰厚外套、西装式领与浅金色五金并置，可解释视频以蓬松领部软化收腰西装的装饰逻辑。",
+          "editorialCopyZh": "丰厚外套与金色五金提供另一条延伸路线：保留体量，再用腰部结构收住轮廓。",
+          "existingRelatedItemIds": [
+            "fendi-baguette-tobacco-ff-us"
+          ],
+          "evidenceLimitations": [
+            "视频领口材质未经确认；目录真皮草材料只属于官方所述商品。",
+            "现有Baguette可作暖棕金扣配件延伸，不能说视频出现了Baguette。"
+          ]
+        }
+      ],
+      "styleEvidenceLimitations": [
+        "没有从可靠官网找到与视频黑手套及灰色蓬松领外套同时完全一致的具体款；不做同款识别。"
+      ]
+    },
+    {
+      "id": "napoleon-core",
+      "nameZh": "拿破仑风",
+      "nameEn": "Napoleon core",
+      "visibleFeatures": [
+        "蜜桃棕短收腰外套",
+        "金色纽扣",
+        "荷叶袖口",
+        "层叠珍珠与金色长链"
+      ],
+      "brandMatches": [
+        {
+          "brandId": "dior",
+          "sourceIds": [
+            "dior-bar-fall21",
+            "dior-cropped-jacket-621v07"
+          ],
+          "specificSeriesOrModel": "Bar Jacket收腰结构；621V07A1761短外套装饰细节",
+          "matchReason": "Bar的高腰线与髋部结构回应视频收腰骨架；另一款短外套则给出珠状纽扣与金色领部装饰的独立参照。",
+          "editorialCopyZh": "以收腰结构建立轮廓，再用领部装饰与珠状纽扣增加精致层次。",
+          "evidenceLimitations": [
+            "两个来源代表不同款式，不要合并为一件同时具备全部特征的Dior外套。",
+            "来源均没有视频的荷叶袖口。"
+          ]
+        },
+        {
+          "brandId": "chanel",
+          "sourceIds": [
+            "chanel-fw26-pearl-necklace-abi030"
+          ],
+          "specificSeriesOrModel": "2026秋冬预备系列珠链 ABI030-B25739-UC951",
+          "matchReason": "珠白与金色的配色、系列中的长珠链和粗链环呼应视频多层珠链与金色长链的装饰重心。",
+          "editorialCopyZh": "珠白与金色形成层次，让短外套的纽扣成为项链之外的第二个亮点。",
+          "existingRelatedItemIds": [
+            "chanel-coco-crush-necklace-small-beige-gold-j12306"
+          ],
+          "evidenceLimitations": [
+            "珠链型号不在现有catalog中，只作为官网设计参照。",
+            "现有Coco Crush是单坠几何项链，不能描述为多层珠链或已知长度的短链。"
+          ]
+        },
+        {
+          "brandId": "gucci",
+          "sourceIds": [
+            "gucci-crest-coat-a00aor",
+            "gucci-blondie-necklace-774689"
+          ],
+          "specificSeriesOrModel": "GucciCore徽章双排扣外套 A00AOR；Blondie珠坠链774689",
+          "matchReason": "徽章式金色纽扣与双排扣提供军服感的装饰线索；约60cm金色珠坠链提供纵向叠戴参考。",
+          "editorialCopyZh": "让金色徽章扣与长链相互呼应，把装饰集中在上半身。",
+          "evidenceLimitations": [
+            "军服感属于编辑解读；官方未把该外套归类为Napoleon core。",
+            "来源外套是红色大衣、链条是单珠坠，均不同于视频的完整造型。"
+          ]
+        }
+      ],
+      "externalExtensionSourceIds": [
+        "balmain-wool-pilot-ja0000000050"
+      ],
+      "styleEvidenceLimitations": [
+        "Napoleon core用作视频与本站的风格标签，不表示历史服饰复原。",
+        "荷叶袖口目前仅作为视频可见细节，不归因给以上具体官方款式。"
+      ]
+    },
+    {
+      "id": "heiress",
+      "nameZh": "千金风",
+      "visibleFeatures": [
+        "白色蕾丝或纹理短外套",
+        "同色迷你裙",
+        "小浅色手袋",
+        "短项链"
+      ],
+      "brandMatches": [
+        {
+          "brandId": "chanel",
+          "sourceIds": [
+            "chanel-ss25-white-suit"
+          ],
+          "specificSeriesOrModel": "2025春夏高级成衣白色外套与围裹裙套装",
+          "matchReason": "白色成套穿着、编边与珠宝扣准确对应视频浅色纹理套装和细节感的方向。",
+          "editorialCopyZh": "白色成套穿着最能建立统一感，编边与珠宝扣负责近看时的细节。",
+          "evidenceLimitations": [
+            "不能把围裹裙写成已核实的同款迷你裙；也不能将同系列蕾丝自动当作白色套装面料。"
+          ]
+        },
+        {
+          "brandId": "dior",
+          "sourceIds": [
+            "dior-white-mydior-mini-s0986"
+          ],
+          "specificSeriesOrModel": "My Dior Mini S0986PUKK_M010",
+          "matchReason": "白色小体量、顶部手柄与细致挂饰可作为视频小浅色手袋的搭配参考。",
+          "editorialCopyZh": "用小体量白色手袋延续套装的明度，手柄与字母挂饰补上细节。",
+          "existingRelatedItemIds": [
+            "dior-small-lady-dior-black-us"
+          ],
+          "evidenceLimitations": [
+            "既有站内Small Lady Dior为黑色，其颜色、型号与该白色My Dior不同。",
+            "不把新来源变成既有商品的颜色或价格更新。"
+          ]
+        },
+        {
+          "brandId": "van-cleef-arpels",
+          "sourceIds": [
+            "vca-sweet-pendant-vcarf69100",
+            "vca-alhambra-motif-size"
+          ],
+          "specificSeriesOrModel": "Sweet Alhambra VCARF69100",
+          "matchReason": "9.5mm左右的白色珍珠母贝单坠提供轻巧、浅色的首饰参考，可让套装仍是视觉主体。",
+          "editorialCopyZh": "白色珍珠母贝小坠与浅色套装自然衔接，保留轻巧的首饰比例。",
+          "existingRelatedItemIds": [
+            "alhambra"
+          ],
+          "evidenceLimitations": [
+            "9.5mm是图案尺寸，不是链长；不能称已核实的短项链。",
+            "视频的项链品牌与材料未经识别。"
+          ]
+        }
+      ],
+      "styleEvidenceLimitations": [
+        "千金风是视频与本站的造型标签，不用于判断穿着者身份、真实消费能力或单品价格。"
+      ]
+    }
+  ],
+  "officialSources": [
+    {
+      "id": "versace-medusa-earrings-1027927",
+      "brandId": "versace",
+      "title": "Medusa earrings — 1027927-1A00620",
+      "officialUrl": "https://www.versace.com/us/en/women/fashion-jewelry/earrings/medusa-earrings/1027927-1A00620_3J280.html",
+      "verifiedFeatures": [
+        "商品颜色标注为Gold；中央采用立体Medusa头像五金。",
+        "耳钉直径约2.5cm，采用仿古电镀表面。"
+      ],
+      "textLocator": "Product Details / Size & Fit；可读文本114–124行",
+      "evidenceLimitations": [
+        "支持醒目金色耳饰这一设计线索；不能确定视频耳饰品牌、材质或型号。"
+      ],
+      "access": {
+        "method": "web.open, static page reader; no browser",
+        "result": "official_page_readable",
+        "sourceSnapshotCrawlLabel": "crawled 3 days ago",
+        "checkedForDesignAt": "2026-10-28",
+        "priceReverified": false
+      }
+    },
+    {
+      "id": "gucci-pinstripe-jacket-a007x6",
+      "brandId": "gucci",
+      "title": "Pinstripe silk wool jacket — A007X6 ZAVXU 4041",
+      "officialUrl": "https://www.gucci.com/us/en/pr/women/ready-to-wear-for-women/coats-and-jackets-for-women/blazers-for-women/pinstripe-silk-wool-jacket-p-A007X6ZAVXU4041",
+      "verifiedFeatures": [
+        "深蓝细条纹双排扣外套；明确写有收腰剪裁。",
+        "尖驳领、Gucci刻字纽扣、翻盖口袋；官方称其把女性廓形与男性比例结合。"
+      ],
+      "textLocator": "Product Description / Product Details；可读文本891–908行",
+      "evidenceLimitations": [
+        "它为深蓝细条纹，视频为灰色外套；只支持收腰西装结构的搭配推断。",
+        "该页面没有蓬松领口或黑手套证据。"
+      ],
+      "access": {
+        "method": "web.open, static page reader; no browser",
+        "result": "official_page_readable",
+        "sourceSnapshotCrawlLabel": "crawled today",
+        "checkedForDesignAt": "2026-10-28",
+        "priceReverified": false
+      }
+    },
+    {
+      "id": "fendi-fur-collection-24",
+      "brandId": "fendi",
+      "title": "FENDI Fur Collection 24 — official digital catalogue",
+      "officialUrl": "https://static.fendi.com/dam/is/content/fendi/FENDI_FUR_COLLECTION_24_DIGITAL_CATALOGUEpdf?hash=414c16d12e13c377fb946a23cdd29efc-18e2de39da8",
+      "verifiedFeatures": [
+        "2024官方目录列出配有西装式领的晚装blazer（FNE71MARWEF0GME）。",
+        "目录列出带FF浅金色腰带的外套、带浅金色Peekaboo扣的短外套，以及有动物纹图案的束腰外套。"
+      ],
+      "textLocator": "PDF第13–14页（零基页12–13）的款式说明",
+      "evidenceLimitations": [
+        "该目录支持丰厚外套、领部结构与金色五金的设计组合；不能据此确认视频蓬松领口的真实材质。",
+        "属于2024设计目录，不能作为2026库存、在售状态或价格证据。"
+      ],
+      "access": {
+        "method": "web.open, static page reader; no browser",
+        "result": "official_pdf_readable",
+        "sourceSnapshotCrawlLabel": "crawled yesterday",
+        "checkedForDesignAt": "2026-10-28",
+        "priceReverified": false
+      }
+    },
+    {
+      "id": "chanel-fw26-pearl-necklace-abi030",
+      "brandId": "chanel",
+      "title": "Fall Winter 2026 Pre-Collection necklace — ABI030-B25739-UC951",
+      "officialUrl": "https://www.chanel.com/us/fashion/p/ABI030B25739UC951/necklace-metal-glass-pearls/",
+      "verifiedFeatures": [
+        "官方标注金色与珠白色；材料为金属与玻璃珠。",
+        "系列文案明确提到带珍珠或双C装饰的长项链及粗链环。"
+      ],
+      "textLocator": "Details；可读文本11–25、77–88行",
+      "evidenceLimitations": [
+        "可支持珠白与金色链条的装饰语汇；该单品页未提供可核实的数值长度。",
+        "页面对长项链的描述是系列文案；不要自动声称ABI030本身为视频中的多层长珠链。"
+      ],
+      "access": {
+        "method": "web.open, static page reader; no browser",
+        "result": "official_page_readable",
+        "sourceSnapshotCrawlLabel": "crawled yesterday",
+        "checkedForDesignAt": "2026-10-28",
+        "priceReverified": false
+      }
+    },
+    {
+      "id": "dior-bar-fall21",
+      "brandId": "dior",
+      "title": "Dior Fall 21 Bar Jacket — official savoir-faire transcript",
+      "officialUrl": "https://www.dior.com/couture/var/dior/storage/original/application/3e5b41f053718e4efaf70d78646138f8.pdf",
+      "verifiedFeatures": [
+        "官方工艺解说强调外套结构：腰线和口袋位置较高，斜置设计用来突出髋部轮廓。",
+        "此版本为单排扣，有三枚包覆小纽扣与明线装饰。"
+      ],
+      "textLocator": "PDF第2页；文本40–58行",
+      "evidenceLimitations": [
+        "只支持收腰与上身结构的比较；此版本是豹纹Bar外套。",
+        "不能把该来源写成金色军官扣、短款蜜桃棕外套或荷叶袖口的证据。"
+      ],
+      "access": {
+        "method": "web.open, static page reader; no browser",
+        "result": "official_pdf_readable",
+        "sourceSnapshotCrawlLabel": "crawled 6 days ago",
+        "checkedForDesignAt": "2026-10-28",
+        "priceReverified": false
+      }
+    },
+    {
+      "id": "gucci-crest-coat-a00aor",
+      "brandId": "gucci",
+      "title": "Double-breasted wool polyamide coat — A00AOR ZAV1M 6143",
+      "officialUrl": "https://www.gucci.com/tr/en_gb/pr/women/ready-to-wear-for-women/coats-jackets-for-women/coats-for-women/double-breasted-wool-polyamide-coat-p-A00AORZAV1M6143",
+      "verifiedFeatures": [
+        "GucciCore系列的鲜红色双排扣外套，装饰金色Gucci徽章纽扣。",
+        "开领、双前贴袋、常规版型。"
+      ],
+      "textLocator": "Product Description / Product Details；可读文本770–786行",
+      "evidenceLimitations": [
+        "仅用来支持双排扣与金色徽章纽扣的编辑匹配；该款为红色大衣，和视频短款外套比例、颜色不同。",
+        "土耳其官网来源只用于设计特征，不引入其当地价格。"
+      ],
+      "access": {
+        "method": "web.open, static page reader; no browser",
+        "result": "official_page_readable",
+        "sourceSnapshotCrawlLabel": "crawled today",
+        "checkedForDesignAt": "2026-10-28",
+        "priceReverified": false
+      }
+    },
+    {
+      "id": "gucci-blondie-necklace-774689",
+      "brandId": "gucci",
+      "title": "Gucci Blondie pearl drop necklace — 774689 I4620 8078",
+      "officialUrl": "https://www.gucci.com/us/en/pr/jewelry-watches/fashion-jewelry/fashion-necklaces/gucci-blondie-pearl-drop-necklace-p-774689I46208078",
+      "verifiedFeatures": [
+        "金色表面金属链配圆形互扣双G吊坠与玻璃珠坠。",
+        "官方长度23.6英寸（约60cm）。"
+      ],
+      "textLocator": "Product Details；可读文本884–893行",
+      "evidenceLimitations": [
+        "该款是带单枚珠坠的链条，不等于视频的多层珍珠项链。",
+        "官方说明玻璃珠，不能把视频中的珠状装饰称为天然珍珠。"
+      ],
+      "access": {
+        "method": "web.open, static page reader; no browser",
+        "result": "official_page_readable",
+        "sourceSnapshotCrawlLabel": "crawled today",
+        "checkedForDesignAt": "2026-10-28",
+        "priceReverified": false
+      }
+    },
+    {
+      "id": "chanel-ss25-white-suit",
+      "brandId": "chanel",
+      "title": "CHANEL Spring-Summer 2025 Ready-to-Wear campaign",
+      "officialUrl": "https://pressroom.chanel.com/sites/8/chanel_campagne-pret-a-porter-printemps-ete-2025_en.pdf",
+      "verifiedFeatures": [
+        "官方发布稿明确描述白色外套与围裹裙组成的套装，饰有编边、珠宝纽扣与黑色长雪纺带。",
+        "同系列还出现镂空蕾丝与建筑式纹样。"
+      ],
+      "textLocator": "PDF第1页；文本6–17行",
+      "evidenceLimitations": [
+        "它支持白色成套穿着、表面纹理与装饰细节；发布稿没有把该裙描述为视频同样的迷你长度。",
+        "同系列的蕾丝与该白色套装是否为同一look，发布稿没有明确，不能合并成一件具体产品。"
+      ],
+      "access": {
+        "method": "web.open, static page reader; no browser",
+        "result": "official_pdf_readable",
+        "sourceSnapshotCrawlLabel": "crawled today",
+        "checkedForDesignAt": "2026-10-28",
+        "priceReverified": false
+      }
+    },
+    {
+      "id": "dior-white-mydior-mini-s0986",
+      "brandId": "dior",
+      "title": "My Dior Mini Bag — S0986PUKK_M010",
+      "officialUrl": "https://www.dior.com/en_us/fashion/products/S0986PUKK_M010",
+      "verifiedFeatures": [
+        "白色Cannage纹样手袋，带Dior Daisy花朵刺绣与银色D.I.O.R.字母挂饰。",
+        "可折叠顶部手柄与可拆蝴蝶结链，尺寸21×11.5×4.5cm。"
+      ],
+      "textLocator": "Description / Size & Fit；可读文本31–56行",
+      "evidenceLimitations": [
+        "支持白色小手袋与装饰细节的搭配推断；不能确认视频手袋为该款。",
+        "它不是站内既有黑色Small Lady Dior具体款，不得用此页把既有黑色款的颜色或价格改成白色。"
+      ],
+      "access": {
+        "method": "web.open, static page reader; no browser",
+        "result": "official_page_readable",
+        "sourceSnapshotCrawlLabel": "crawled last week",
+        "checkedForDesignAt": "2026-10-28",
+        "priceReverified": false
+      }
+    },
+    {
+      "id": "vca-sweet-pendant-vcarf69100",
+      "brandId": "van-cleef-arpels",
+      "title": "Sweet Alhambra pendant — VCARF69100",
+      "officialUrl": "https://www.vancleefarpels.com/us/en/collections/jewelry/alhambra/vcarf69100---sweet-alhambra-pendant.html",
+      "verifiedFeatures": [
+        "官方描述为18K黄K金与白色珍珠母贝吊坠。",
+        "图案外缘为双排珠边，整体比例精巧。"
+      ],
+      "textLocator": "商品说明；可读文本220–227行",
+      "evidenceLimitations": [
+        "白色珍珠母贝是吊坠材料，不是珍珠项链；该来源没有提供可核实的链长。",
+        "可支持细巧浅色单坠的搭配建议，不能确认视频中短项链为Alhambra。"
+      ],
+      "access": {
+        "method": "web.open, static page reader; no browser",
+        "result": "official_page_readable",
+        "sourceSnapshotCrawlLabel": "crawled today",
+        "checkedForDesignAt": "2026-10-28",
+        "priceReverified": false
+      }
+    },
+    {
+      "id": "vca-alhambra-motif-size",
+      "brandId": "van-cleef-arpels",
+      "title": "Alhambra motif size guide",
+      "officialUrl": "https://www.vancleefarpels.com/content/dam/vancleefarpels/pdf-guides/size-guides/size-guide-alhambra-pendant/van-cleef-arpels-motif-size-guide-alhambra-en.pdf",
+      "verifiedFeatures": [
+        "官方尺寸图标示Sweet Alhambra图案约9.5mm。",
+        "官方说明手工制作会产生尺寸差异。"
+      ],
+      "textLocator": "PDF第1页；Sweet Alhambra标注与尺寸说明",
+      "evidenceLimitations": [
+        "这是图案宽度参考，不能当作项链长度；不可与Vintage、Pure、Magic Alhambra尺寸混用。"
+      ],
+      "access": {
+        "method": "web.open, static page reader; no browser",
+        "result": "official_pdf_readable",
+        "sourceSnapshotCrawlLabel": "crawled 2 days ago",
+        "checkedForDesignAt": "2026-10-28",
+        "priceReverified": false
+      }
+    },
+    {
+      "id": "dior-cropped-jacket-621v07",
+      "brandId": "dior",
+      "title": "Cropped Jacket — 621V07A1761_X5645",
+      "officialUrl": "https://www.dior.com/en_int/fashion/products/621V07A1761_X5645",
+      "verifiedFeatures": [
+        "海军蓝短外套采用直身轮廓，领口蝴蝶结上有金色CD五金。",
+        "铃兰形纽扣抓握带CD签名的树脂珠；有纽扣袖口，可与同款裙协调搭配。"
+      ],
+      "textLocator": "Description / Size & Fit；可读文本41–63行",
+      "evidenceLimitations": [
+        "可补充短外套、珠状纽扣、金色领部装饰的证据，但非视频蜜桃棕收腰外套。",
+        "直身剪裁不能表述为该款具有视频同样的明显收腰。"
+      ],
+      "access": {
+        "method": "web.open, static page reader; no browser",
+        "result": "official_page_readable",
+        "sourceSnapshotCrawlLabel": "crawled last week",
+        "checkedForDesignAt": "2026-10-28",
+        "priceReverified": false
+      }
+    },
+    {
+      "id": "balmain-wool-pilot-ja0000000050",
+      "brandId": null,
+      "title": "Balmain wool pilot jacket — JA0000000050",
+      "officialUrl": "https://balmain.com/fr-fr/products/wool-pilot-jacket-black-ja00000000500pa",
+      "verifiedFeatures": [
+        "现行法文商品页描述为修身款，前方5枚金色金属军官纽扣。",
+        "立领带金色金属钩，圆形结构肩、束紧袖口上的军官扣、可拆同色腰带。"
+      ],
+      "textLocator": "Description；可读文本126–142行",
+      "evidenceLimitations": [
+        "这是本轮找到最直接支持军官扣、立领与修身组合的官网延伸来源。",
+        "Balmain不在现有40品牌中；仅建议作为外部设计参考，不新增品牌档案或catalog型号。",
+        "该商品为黑色，也没有荷叶袖口；不是视频同款证明。"
+      ],
+      "access": {
+        "method": "web.open, static page reader; no browser",
+        "result": "official_page_readable",
+        "sourceSnapshotCrawlLabel": "crawled last week",
+        "checkedForDesignAt": "2026-10-28",
+        "priceReverified": false
+      }
+    }
+  ],
+  "accessNotes": [
+    {
+      "officialUrl": "https://www.ysl.com/en-us/pr/single-breasted-jacket-in-grain-de-poudre-814393644.html",
+      "result": "search_discovery_only_not_recommended_as_verified_product",
+      "detail": "搜索发现官方摘要含尖驳领、宽肩和单扣信息；直接page reader仅返回导航，后续定向读取超时，单次静态HTML请求403。停止该商品核实，不把搜索摘要单独当证明。"
+    },
+    {
+      "officialUrl": "https://www.fendi.com/us-en/woman/bags/baguette-tobacco-brown-ff-jacquard-fabric-bag-8br600afpmf1gl7",
+      "result": "timeout",
+      "detail": "既有styleEdit具体款来源；本轮一次page reader超时。其原checkedAt=2026-10-19保留，不刷新价格核实日期。"
+    },
+    {
+      "officialUrl": "https://www.fendi.com/ii-en/woman/bags/baguette-26424-camel-coloured-shearling-bag-8br850b1e5f0xt5",
+      "result": "timeout",
+      "detail": "官方搜索发现的延伸商品；直接读取超时。未用它作为已核实设计证据。"
+    },
+    {
+      "officialUrl": "https://www.fendi.com/ca-en/woman/new-in/coat-black-wool-and-shearling-coat-ff6214b1h1f0qa1",
+      "result": "timeout",
+      "detail": "官方搜索发现夸张可拆黑色蓬松领外套，但直接读取超时。未用摘要单独作为已核实事实。"
+    },
+    {
+      "officialUrl": "https://www.kering.com/api/download-file/?path=KERING_RA_24_ALL_EN_PP_c8132fd463.pdf",
+      "result": "official_pdf_accessible_relevant_passage_not_locally_extracted",
+      "detail": "集团2024报告可读且单次静态下载HTTP200；搜索发现圣罗兰系列剪裁段落，但本轮未从该报告准确定位相应原文，未将其具体描述纳入已核实匹配。"
+    },
+    {
+      "officialUrl": "https://www.vancleefarpels.com/us/en/collections/jewelry/alhambra/vcarf69100---sweet-alhambra-pendant.html",
+      "result": "official_page_reader_succeeded_direct_html_403",
+      "detail": "page reader可读到型号、材质与小比例设计；单次本地HTML请求403。以可读官方页面为设计证据，不以直接HTML失败否定来源。"
+    },
+    {
+      "officialUrl": "https://int.balmain.com/en/women/ready-to-wear/outerwear/",
+      "result": "official_redirect_and_successful_product_link",
+      "detail": "旧国际分类URL跳转到balmain.com/fr-fr/collections/women-outerwear；从官方分类链接进入本轮核实的JA0000000050商品页。旧搜索摘要中的FF1型号不作为当前已核实型号。"
+    }
+  ],
+  "browserAccounting": {
+    "budget": 0,
+    "opened": 0,
+    "closed": 0,
+    "leftover": 0,
+    "cdpUsed": false,
+    "targetsCheck": "未启动或连接浏览器/CDP，故本agent创建的标签页始终为0；无须关闭用户标签。"
+  },
+  "toolAvailability": {
+    "graphflow": "graphflow_context/plan未出现在可用工具目录；仅读取父agent给定的content.json锚点。"
+  },
+  "recommendedIntegration": {
+    "requiredBrandIdsByStyle": {
+      "mob-wife": [
+        "gucci",
+        "versace",
+        "fendi"
+      ],
+      "napoleon-core": [
+        "dior",
+        "chanel",
+        "gucci"
+      ],
+      "heiress": [
+        "chanel",
+        "dior",
+        "van-cleef-arpels"
+      ]
+    },
+    "newCatalogItemsRequired": false,
+    "externalBrandReferenceOnly": [
+      "balmain-wool-pilot-ja0000000050"
+    ],
+    "doNotUseAsVerifiedSources": [
+      "Saint Laurent商品搜索摘要",
+      "Fendi超时商品页的搜索摘要",
+      "旧Balmain搜索摘要中的未复核FF1型号"
+    ]
+  }
+}

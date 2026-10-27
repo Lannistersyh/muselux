@@ -17,7 +17,8 @@ const catalog = content.items.concat(
   ...['bagYears', 'necklaceYears', 'jewelryYears'].map(key =>
     (content[key] || []).flatMap(year => year.entries))
 );
-const expectedRecords = content.brands.length + catalog.length + content.articles.length;
+const styleConfig = JSON.parse(fs.readFileSync(path.join(root, 'tools/womens_styles.json'), 'utf8'));
+const expectedRecords = content.brands.length + catalog.length + content.articles.length + styleConfig.styles.length;
 const checks = [];
 const fixturePaths = new Set();
 const digest = file => crypto.createHash('sha256').update(fs.readFileSync(path.join(root, file))).digest('hex');
@@ -164,6 +165,7 @@ async function run() {
   const data = site.window.MUSELUX_DATA;
   check(data.brands.length === content.brands.length, 'Decoded brand count matches canonical content');
   check(data.items.length === catalog.length, 'Decoded product count includes all annual selections');
+  check(data.styles.length === styleConfig.styles.length, 'Decoded style guides match the video-grounded source');
   check(site.get('#search-count').textContent === `找到 ${expectedRecords} 条内容`, 'Global search includes every brand, product and article');
   check(site.get('#search-results').querySelectorAll('a').length === Math.min(8, expectedRecords), 'First search page renders eight results');
   for (const query of ['罗意威', '缪缪', '施华洛世奇', 'FRGMT', '阿迪达斯', 'Birkin', '摩奈', '克罗心']) {
@@ -210,6 +212,23 @@ async function run() {
     check(site.get('#search-count').textContent.endsWith('找到 1 条内容'), 'Fragrance house finds its representative offline: ' + brand.name);
     check(site.get('#search-results').innerHTML.includes(product.id + '.html'), 'Search links to the selected bottle: ' + brand.name);
   }
+
+  site = await fixture('womens-style.html', 'file:///tmp/muselux/womens-style.html');
+  check(site.document.querySelectorAll('.style-atlas-card').length === 3, 'All three observed looks remain readable offline');
+  check(site.get('.nav-womens-style').classList.contains('active'), 'Women style column has active navigation');
+  for (const style of styleConfig.styles) {
+    site = await fixture('search.html', 'file:///tmp/muselux/search.html?type=style&q=' + encodeURIComponent(style.nameZh));
+    check(site.get('#search-count').textContent.endsWith('找到 1 条内容'), 'Offline search finds the style: ' + style.id);
+    check(site.get('#search-results').innerHTML.includes('style/' + style.id + '.html'), 'Search opens the correct style guide: ' + style.id);
+    check(site.get('#search-results').innerHTML.includes('女性风格'), 'Style search result is labelled editorial: ' + style.id);
+    site = await fixture('style/' + style.id + '.html', 'file:///tmp/muselux/style/' + style.id + '.html');
+    check(site.document.querySelectorAll('.style-brand-match').length === 3, 'Style has three sourced brand matches: ' + style.id);
+    check(site.document.querySelectorAll('.style-suggestion').length === 3, 'Style has three catalog suggestions: ' + style.id);
+  }
+  site = await fixture('search.html', 'https://muselux.test/search.html?type=style&cat=scarves&q=' + encodeURIComponent('拿破仑'));
+  check(site.get('#search-count').textContent.endsWith('找到 1 条内容'), 'Style type combines with a relevant category');
+  site = await fixture('search.html', 'https://muselux.test/search.html?type=style&cat=fragrance');
+  check(site.get('#search-count').textContent.endsWith('找到 0 条内容'), 'Style filtering does not imply an unsupported category');
 
   site = await fixture('brands.html');
   for (const query of ['FRGMT', 'Alaïa', '罗意威', '摩奈', '克罗心']) {

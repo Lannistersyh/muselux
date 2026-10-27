@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-28",
+  "publicURL": "https://lannistersyh.github.io/muselux/womens-style.html",
+  "priorHead": "748b25cf8cbd7cc93af946ef45a20886e1f79475",
+  "sourceVideo": {
+    "title": "请选择Queen B下班风格",
+    "creator": "不爱吃榴莲的Nana",
+    "source": "https://www.bilibili.com/video/BV1WUao6UEBa/",
+    "publishedAt": "2026-09-30T19:11:21+08:00",
+    "bvid": "BV1WUao6UEBa",
+    "durationSeconds": 63.232,
+    "metadataDurationSeconds": 64,
+    "subtitleTracks": 0
+  },
+  "styleGuides": 3,
+  "observedLabels": [
+    "Mob wife风",
+    "Napoleon core / 拿破仑风格",
+    "千金风"
+  ],
+  "timedObservations": 9,
+  "sourcedBrandMatches": 9,
+  "officialDesignSources": 13,
+  "catalogSuggestions": 9,
+  "canonicalContentBytesUnchanged": true,
+  "canonicalContentSha256": "3290d6b2741f31a9cf942280760fdadb504ab7615b7ebdf4058f49c5b2719c2f",
+  "preservedCatalogProducts": 156,
+  "preservedAnnualEntries": 90,
+  "frames": [
+    {
+      "id": "mob-wife",
+      "path": "assets/img/styles/queen-b-mob-wife-20260930.webp",
+      "timestampSeconds": 9,
+      "width": 480,
+      "height": 360,
+      "frameSha256": "10d4036f16206574acc008992ff597203305c3f0685e82545327466f26ea6c87",
+      "sha256": "dc661c8466fa902e574268ea49e0df059ef4dc28a8692b73a698fafd222351d3",
+      "bytes": 28174,
+      "credit": "画面 © 不爱吃榴莲的Nana / bilibili",
+      "source": "https://www.bilibili.com/video/BV1WUao6UEBa/?t=9",
+      "rightsNote": "Limited still-frame quotation for the accompanying original style commentary. Original creator watermark retained; no open reuse license or brand endorsement is claimed.",
+      "fullyDecoded": true
+    },
+    {
+      "id": "napoleon-core",
+      "path": "assets/img/styles/queen-b-napoleon-core-20260930.webp",
+      "timestampSeconds": 19,
+      "width": 480,
+      "height": 360,
+      "frameSha256": "d962606b2b3cbb23dd8a2a8d34dff99a63251f334cf411b54145b01309d5ad00",
+      "sha256": "fee84d9249dae2df9f143967f6aff10771306ef439c42399ed4db5ec88c19a47",
+      "bytes": 27232,
+      "credit": "画面 © 不爱吃榴莲的Nana / bilibili",
+      "source": "https://www.bilibili.com/video/BV1WUao6UEBa/?t=19",
+      "rightsNote": "Limited still-frame quotation for the accompanying original style commentary. Original creator watermark retained; no open reuse license or brand endorsement is claimed.",
+      "fullyDecoded": true
+    },
+    {
+      "id": "heiress",
+      "path": "assets/img/styles/queen-b-heiress-20260930.webp",
+      "timestampSeconds": 37,
+      "width": 480,
+      "height": 360,
+      "frameSha256": "1db5b0ca42756fe8fb05de4154f5b51ac3061903b40cc966a6f553854fe28339",
+      "sha256": "5d7fd3da070bffcbfdb4b49e3bcdca7e129d8dbe7cf62715700464b8c7224be4",
+      "bytes": 26662,
+      "credit": "画面 © 不爱吃榴莲的Nana / bilibili",
+      "source": "https://www.bilibili.com/video/BV1WUao6UEBa/?t=37",
+      "rightsNote": "Limited still-frame quotation for the accompanying original style commentary. Original creator watermark retained; no open reuse license or brand endorsement is claimed.",
+      "fullyDecoded": true
+    }
+  ],
+  "frameBytes": 82068,
+  "fullVideoPublished": false,
+  "sourceRightsScope": "Three short still quotations for accompanying original style commentary; watermarks, attribution and source links retained. No full video or transcript copied to website.",
+  "pricingPolicy": "Existing specific variants keep their recorded USD retail/snapshot/archive/resale provenance and dates. No prices inferred from the video, and no price review dates advanced.",
+  "codeGate": {
+    "passed": true,
+    "reproducibleBuild": true,
+    "pages": 227,
+    "brands": 40,
+    "searchableItems": 156,
+    "pythonRegressionTests": 18,
+    "frontendAssertions": 98,
+    "method": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test"
+  },
+  "staticSummary": {
+    "pages": 227,
+    "brands": 40,
+    "productGalleries": 156,
+    "galleryViews": 316,
+    "runtimeJavaScriptBytes": 50548
+  },
+  "browserChecks": {
+    "surface": "Codex in-app browser; real browser rendering, not phone hardware",
+    "mobileWidth": 404,
+    "mobilePages": [
+      "womens-style.html",
+      "style/mob-wife.html",
+      "style/napoleon-core.html",
+      "style/heiress.html",
+      "search.html?type=style&q=拿破仑"
+    ],
+    "documentWidthMatchesViewport": true,
+    "napoleonDesktopWidths": [
+      800,
+      1280
+    ],
+    "desktopNavDoesNotOverflow": true,
+    "brandGridColumnsAt1280": 3,
+    "mobileSearchExpectedResults": 1,
+    "mobileMenuOpenAndNavigationClose": true,
+    "pageConsoleErrors": [],
+    "limits": "Representative pages and widths, not a visual audit of every existing page or every mobile browser."
+  },
+  "browserTabsOpened": 2,
+  "publication": {
+    "status": "pending"
+  },
+  "browserTabsClosed": 2,
+  "browserTabsRemaining": 0,
+  "browserTotalPeak": 5,
+  "browserTotalFinal": 4
+}

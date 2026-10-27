@@ -1,11 +1,11 @@
 {
   "passed": true,
   "reproducibleBuild": true,
-  "pages": 223,
+  "pages": 227,
   "brands": 40,
   "searchableItems": 156,
-  "pythonRegressionTests": 15,
-  "frontendAssertions": 78,
+  "pythonRegressionTests": 18,
+  "frontendAssertions": 98,
   "method": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test",
   "sourceHashes": {
     "tools/apply_bag_yearbook.py": "688ba2e08e92a47d8d0050a883ae7153f635b15390dbb6c676f8c97da635d63f",
@@ -17,16 +17,17 @@
     "tools/check_site.py": "165720ed89c9f25597b6165d9d76980de5b13e0d5bc9f4ca8af3b8a7271a7a01",
     "tools/draw_assets.py": "3e04f918e8fda83d4f9a5c740760325e47b649e69e419ee137e8352133cfac2d",
     "tools/draw_journal_covers.py": "24cd8f09856a9ef8a28eb17b40d6b46e2c1a3a37778d411b24edc88e5288bdfc",
-    "tools/generate.py": "924a1e4cf359df7bd53d264750e02727f252e1e6799c6f9167a79efaba5d50e0",
+    "tools/generate.py": "284d6e7c02b5f1a3ea9d47b5af30c313bada8030a5420f2ccb085a4b20eb2258",
     "tools/perfumery.py": "db380bb44814ea8db91140c711f04c7837572dd4ee1701daedde23ab63deb5ac",
     "tools/product_gallery.py": "389142a56459be4826021baa4a4ff838bc8ead623012b5c7c6ba161a9b7af011",
     "tools/seed_content.py": "2755b15b5905247fc5b8400e236428a2d9e37fab667733209a559626bada2cc3",
     "tools/style_policy.py": "1cb32efc9b44a340203d519f17f7e1332a9b8aeee7dfea0c7e0eb1b5e3761a53",
-    "tools/test_maintenance.py": "bd195ad4eb7b8e99ef69f2635a27df23dc7a53255003cd610a78dc8be5dfc2ab",
-    "tools/validate.py": "b323f5ad9b51aeb983dae883461741edfc6849d4cf3a04fbf15eb4b69fab4d9c",
-    "assets/js/render.js": "c3762ddffe7cd11f086800aaf2da5eb3281c33f6b7e36cd494bf2066b2aec78f",
-    "assets/js/main.js": "d6a2925e3a4734c6814f54efedaea080bed5d8da56ff55b1f34ce193fee3ebff",
-    "assets/js/data.js": "93f12f0b4407ae5b0f8dcf3409d1e2e08e8f5dd4237b160b404ae5f143497376",
-    "tools/test_frontend.cjs": "2d937ed07f76d31f4b7538730d6328cdd1e51a9f4d746f9698acda4ee2f18b4f"
+    "tools/test_maintenance.py": "2552551048c96cb69c1edfa7020745d2c765a3b304a30b8d0d137149ebab8ff1",
+    "tools/validate.py": "41a6ddcdc76f0f27cbaf8d1e27767eec98f464b79e8ea5d8917617d8db9e8f1a",
+    "tools/womens_styles.py": "b06d777eac3cd53fd0c4f700c5027c8f727149d7e2c7aa29c0b9881a604b8146",
+    "assets/js/render.js": "1b73ec544d16b17dc18b20af85615b4fb33bb244c3e37102e7fa6f771e87ba7d",
+    "assets/js/main.js": "57effd484f7bb73005024fd63985f6edb0519fed645d9339262618084a10a3e9",
+    "assets/js/data.js": "e2c1782f66a55f5a23b95c1d597a36c3d9c1d1b4662122f796c65503b2b30ab3",
+    "tools/test_frontend.cjs": "09bc6626328dbf284eba156768e493cd3af2c572c6a612e94684247ac81aefe9"
   }
 }

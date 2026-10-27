@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "pages": 223,
+  "pages": 227,
   "brands": 40,
   "items": 66,
   "productGalleries": 156,
@@ -111,7 +111,7 @@
   "coreResaleAsks": 6,
   "unlistedAnnualPrices": 0,
   "svgAssets": 42,
-  "runtimeJavaScriptBytes": 49782,
+  "runtimeJavaScriptBytes": 50548,
   "articleChineseCharacters": {
     "mag-01": 972,
     "mag-02": 915,
