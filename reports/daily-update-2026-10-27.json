@@ -70,5 +70,16 @@
   },
   "browserTabsOpened": 0,
   "browserTabsRemaining": 0,
-  "graphflow": "No callable GraphFlow tools exposed; no call claimed."
+  "graphflow": "No callable GraphFlow tools exposed; no call claimed.",
+  "publication": {
+    "commit": "b20ba809ea557775db6d7f16cddfd8d6bd8ef958",
+    "pagesBuild": {
+      "commit": "b20ba809ea557775db6d7f16cddfd8d6bd8ef958",
+      "status": "built"
+    },
+    "verifiedPublicFiles": 216,
+    "allPublicFilesByteIdentical": true,
+    "retriedRequests": 0,
+    "report": "reports/daily-deployment-2026-10-27.json"
+  }
 }
