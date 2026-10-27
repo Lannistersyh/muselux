@@ -3640,9 +3640,9 @@
         "Silk"
       ],
       "priceUSD": 400,
-      "priceLabel": "U.S. retail reference, before tax; currently unavailable online",
-      "checkedAt": "2026-10-24",
-      "priceEvidence": "Direct official U.S. HTML fetched successfully on 2026-10-24 identifies SKU C30663-0001 and displays $400.00. The same page embeds an Open Graph amount of 400.00 with currency USD, and variant price.amount 400.0 / currencyCode USD. The official variant 59928339710297 is currently unavailable online; this retail reference is not a stock or checkout guarantee.",
+      "priceLabel": "U.S. retail reference, before tax; shown available online when checked on 27 October 2026",
+      "checkedAt": "2026-10-27",
+      "priceEvidence": "Direct official U.S. product HTML retrieved on 2026-10-27 identifies product 16687142732121, SKU C30663-0001, exact variant 59928339710297 and an Offer of USD 400.00 with InStock availability. The same exact variant in the embedded product data and the official U.S. collection products JSON is available=true at price 400.00. This updates the prior unavailable-online statement for this variant only; stock and checkout availability may change.",
       "priceStatus": "live",
       "source": "https://www.moynat.com/en-us/products/scarf-hotel-moynat",
       "image": "assets/img/products/scarves-moynat-hotel-silk-scarf-70-multicolor.webp",
@@ -3661,7 +3661,7 @@
       "born": "Hôtel Moynat capsule (2026)",
       "designer": "Hôtel Moynat capsule collaboration with Storm Pablo and Marvin Douglas",
       "verificationLimitations": [
-        "The official U.S. page identifies a US$400 retail reference, but this variant is currently unavailable online. Online unavailability does not establish permanent discontinuation.",
+        "The exact U.S. variant was shown available online at a US$400 retail reference on 27 October 2026. This point-in-time observation is not a stock, shipping or checkout guarantee.",
         "The product page describes a limited-edition capsule but publishes no unit count or numbered run.",
         "LVMH’s 23 October 2026 article is a news publication date. The brand’s product record gives 15 October 2026 as its publication date; neither is asserted as a verified first retail release date.",
         "The exact product page specifies silk and 70 × 70 cm. It does not state a fibre percentage."
@@ -3695,7 +3695,7 @@
           "bytes": 1097696
         }
       },
-      "priceAsOf": "2026-10-24",
+      "priceAsOf": "2026-10-27",
       "editionType": "seasonal-capsule",
       "editionLabelEn": "Limited collaboration capsule",
       "editionSource": "https://www.lvmh.com/en/news-lvmh/hotel-moynat-reimagines-the-art-of-travelc",
@@ -3708,7 +3708,7 @@
         "Multicoloured hotel-label motif inspired by Moynat’s vintage trunks",
         "Part of the Hôtel Moynat limited-edition capsule; no numbered quantity is stated"
       ],
-      "priceContextEn": "Official U.S. product page · checked 24 October 2026",
+      "priceContextEn": "Official U.S. product page · checked 27 October 2026",
       "priceRange": "US$400, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
       "relatedArticles": [
         "mag-07"
@@ -5490,7 +5490,7 @@
     }
   ],
   "styleEdit": {
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "currency": "USD",
     "products": 33,
     "perCategory": {

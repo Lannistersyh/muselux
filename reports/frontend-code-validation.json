@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checkedAt": "2026-10-26",
+  "checkedAt": "2026-10-27",
   "timezone": "Asia/Shanghai",
   "method": "Node VM executing actual generated HTML and data.js/render.js/main.js using a dependency-free minimal DOM fixture",
   "scope": "Behavior and offline URL checks only; no browser engine, layout, CSS or assistive-technology verification. No network calls.",
@@ -80,7 +80,7 @@
     "assets/js/render.js": "c3762ddffe7cd11f086800aaf2da5eb3281c33f6b7e36cd494bf2066b2aec78f",
     "assets/js/main.js": "d6a2925e3a4734c6814f54efedaea080bed5d8da56ff55b1f34ce193fee3ebff"
   },
-  "contentHash": "6d0fa217354aa121091e044467aee7057e9f471c59dfe92c14714bc112e6447d",
+  "contentHash": "fb15c5b87aa47b1e259252c2705c7bf1afe5287ff3af11bfa6e5ae88239059fb",
   "fixtureHashes": {
     "search.html": "d8faafd06fc16c52e34f8d9e84538d3c1a513bc8d5a5ff509089567c5dbc1515",
     "brands.html": "710bc0d80894e9043952ec90798a7bdbfe30f9a5632313b283d19ab62b201422",
@@ -88,6 +88,6 @@
     "item/dior-small-lady-dior-black-us.html": "5e7585ace8815a21738d4645d584f5520d0e17c871b2e05b20d5bd66c4254ecc",
     "item/bag-2022-prada-re-edition-2000.html": "c9286beb693c7a6afa4a454dc85024aae6fb6554fed50d75d033e13e1a6805a7",
     "item/birkin.html": "fde2f3b16504153ad9de0897fa9c3a6139bed31f2c091e7baee2ef4a840e76e1",
-    "index.html": "75ef465cf4994a508c79fe6469e2a0f80cc03764fb5098e0dfce9966303caac3"
+    "index.html": "adc89ce6e9de08f062ce8845fb39e81372e8677b6e6c0f37ac385ed884d0247a"
   }
 }

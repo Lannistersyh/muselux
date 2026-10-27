@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-27",
+  "focus": "necklace",
+  "scope": "Bounded official-source six-category scan; necklace focus and all six recently added Chrome Hearts resale listings. Not exhaustive recertification of every brand or product.",
+  "updatedProduct": {
+    "id": "moynat-hotel-silk-scarf-70-multicolor-us",
+    "reference": "C30663-0001",
+    "productID": 16687142732121,
+    "variantID": 59928339710297,
+    "priceUSD": 400,
+    "priceChanged": false,
+    "previousAvailability": "OutOfStock / unavailable online",
+    "observedAvailability": "InStock / available online when checked",
+    "evidence": "Exact SKU Offer, embedded variant and official collection JSON agree. PriceCurrency USD and price400.00 verified from the exact US product HTML; no inference from a shared stock template.",
+    "sources": [
+      {
+        "source": "https://www.moynat.com/en-us/products/scarf-hotel-moynat",
+        "bytes": 344844,
+        "sha256": "698371759e18c23078dfdea2e9accf3a4b914bba9471e66160c816db9033e929"
+      },
+      {
+        "source": "https://www.moynat.com/en-us/collections/hotel-moynat-collection/products.json?limit=20",
+        "bytes": 39233,
+        "sha256": "25586a4ea843b90c6464724bd53a0d35dafec6ff534a95cf41df0015e4279856"
+      }
+    ],
+    "reviewedFields": [
+      "USD retail reference",
+      "exact product/variant identity",
+      "online availability"
+    ],
+    "unchangedFields": [
+      "model",
+      "color",
+      "material",
+      "dimensions",
+      "English introduction",
+      "photo files",
+      "capsule classification and quantity qualifications",
+      "launch-date limitations"
+    ]
+  },
+  "preservation": {
+    "otherProductsUnchanged": 150,
+    "allAnnualObjectsAndCutoffsUnchanged": true,
+    "historicalPriceContextPreserved": true,
+    "photoFilesUnchanged": true,
+    "chromeHeartsAllSixSourceObjectsUnchanged": true
+  },
+  "otherObservations": {
+    "chromeHearts": "All six actual merchant USD asks and exact variants remain unchanged and available; resale basis, condition details and chain scope preserved. Product review dates not advanced.",
+    "necklacePhotoSources": "Eight original merchant JPEG sources returned200, full pixeldecode and originalSHA/dimensions match captured evidence.",
+    "sourceAccessLimits": "CHANEL J12306 and selected Hermès/Dior pages remain statically restricted; reader observations qualified, no blocked retries or delisting inference.",
+    "newOfficialNews": {
+      "source": "https://www.lvmh.com/en/news-lvmh/louis-vuitton-celebrates-seven-years-of-artycapucines-at-art-basel-paris",
+      "publishedAt": "2026-10-26",
+      "exhibitionOpened": "2026-10-23",
+      "action": "Recorded as retrospective news, not a confirmed new product release. No complete exact-SKU/USD/quantity evidence for catalog addition or annual selection replacement."
+    }
+  },
+  "checks": {
+    "pages": 211,
+    "brands": 34,
+    "searchableItems": 151,
+    "pythonRegressionTests": 13,
+    "frontendAssertions": 66,
+    "reproducibleBuild": true,
+    "method": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test"
+  },
+  "browserTabsOpened": 0,
+  "browserTabsRemaining": 0,
+  "graphflow": "No callable GraphFlow tools exposed; no call claimed."
+}
