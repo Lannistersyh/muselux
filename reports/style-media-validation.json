@@ -355,5 +355,16 @@
   "finalUserTabs": 6,
   "maximumTotalTabs": 7,
   "researchAgentTabsOpened": 0,
-  "graphflow": "No callable GraphFlow context,plan or index tool exposed. No call claimed."
+  "graphflow": "No callable GraphFlow context,plan or index tool exposed. No call claimed.",
+  "publication": {
+    "commit": "21bb08ad0d734c9a2b1f15c25483d1f3b058a0ec",
+    "pagesBuild": {
+      "commit": "21bb08ad0d734c9a2b1f15c25483d1f3b058a0ec",
+      "status": "built"
+    },
+    "verifiedFiles": 274,
+    "publicURL": "https://lannistersyh.github.io/muselux/womens-style.html#photography",
+    "allPublicFilesByteIdentical": true,
+    "report": "reports/style-media-deployment-validation.json"
+  }
 }

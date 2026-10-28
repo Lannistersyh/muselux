@@ -38,6 +38,8 @@
 
 本轮仍为 **227页HTML、40品牌、156条商品/年鉴、316次产品图库展示**，商品数据和美元报价日期、年度选集及截止日逐字节保留。19项维护回归、110项前端断言、全站静态链接/资源/图像尺寸与摘要、两次构建一致性通过；浏览器核验404/800/1280像素布局。图源证据见 `tools/research/style-photography-evidence.json`、`tools/research/womens-style-video-evidence.json`，本轮验收见 `reports/style-media-validation.json`。四个女性风格页面的浏览器标题继续为英文。
 
+内容提交 `21bb08ad0d734c9a2b1f15c25483d1f3b058a0ec` 已完成GitHub Pages构建，全部 **274个本轮公开页面、运行/图片资源与来源/验收文件** 均与本地逐字节一致，发布记录见 `reports/style-media-deployment-validation.json`。
+
 2026-10-27 新增独立 **香氛品牌 / The Perfumery Edit** 栏目：`perfumery.html`，首页、主导航、页脚与香水品类均可进入。首期五家：**Diptyque、Le Labo、Byredo、Maison Francis Kurkdjian、Jo Malone London**，各配一份品牌档案与一款具体容量、浓度的香水。代表作分别为 **Tam Dao EDP 75 ml US$260、Santal 33 EDP 100 ml US$348、Bal d’Afrique EDP 100 ml US$330、Baccarat Rouge 540 EDP 70 ml US$360、Wood Sage & Sea Salt Cologne 100 ml US$175**。前面三款为官网当前结构化美元报价，后面两款保留官方美国页快照口径；Baccarat 官网 USD 报价另对晶红作交叉核对，Jo Malone 加拿大资料仅核对型号与图片，不使用加币价格。
 
 新增 **12 张真实摄影、5 个香水图库与6份品牌档案**，其中 Baccarat 为创作合作品牌，不作为第六家香水专门品牌。每款至少两张不同原始照片，Tam Dao 与 Santal 33 各三张；图片包括背面、喷头、俯拍、手持与原始包装，分别如实标注。新增图片共 **1,272,432 字节**；现为 **156 个图库、316 次图片展示、40 品牌、223 页 HTML**。原有 151 条商品与三类年鉴对象及截止日逐字段保留，未给旧商品推进日期。
