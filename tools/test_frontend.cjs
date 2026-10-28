@@ -216,10 +216,10 @@ async function run() {
   site = await fixture('womens-style.html', 'file:///tmp/muselux/womens-style.html');
   check(site.document.querySelectorAll('.style-atlas-card').length === 3, 'All three observed looks remain readable offline');
   check(site.get('.nav-womens-style').classList.contains('active'), 'Women style column has active navigation');
-  check(site.document.querySelectorAll('.style-photo-study').length === 6, 'Six unique photographic studies remain readable offline');
+  check(site.document.querySelectorAll('.style-photo-study').length === 18, 'Eighteen unique photographic studies remain readable offline');
   check(site.document.querySelectorAll('.style-creator-card').length === 4, 'Creator and photographer works have original-site references');
   const photoLinks = site.document.querySelectorAll('.style-photo-image');
-  check(photoLinks.length === 6 && photoLinks.every(link => link.querySelector('img')?.getAttribute('srcset').includes('1280w')), 'Photography has responsive high-resolution image sources');
+  check(photoLinks.length === 18 && photoLinks.every(link => link.querySelector('img')?.getAttribute('srcset').includes('1280w')), 'Photography has responsive high-resolution image sources');
   for (const style of styleConfig.styles) {
     site = await fixture('search.html', 'file:///tmp/muselux/search.html?type=style&q=' + encodeURIComponent(style.nameZh));
     check(site.get('#search-count').textContent.endsWith('找到 1 条内容'), 'Offline search finds the style: ' + style.id);
@@ -228,7 +228,7 @@ async function run() {
     site = await fixture('style/' + style.id + '.html', 'file:///tmp/muselux/style/' + style.id + '.html');
     check(site.document.querySelectorAll('.style-brand-match').length === 3, 'Style has three sourced brand matches: ' + style.id);
     check(site.document.querySelectorAll('.style-suggestion').length === 3, 'Style has three catalog suggestions: ' + style.id);
-    check(site.document.querySelectorAll('.style-photo-study').length === 2, 'Style has two relevant photographic studies: ' + style.id);
+    check(site.document.querySelectorAll('.style-photo-study').length === 6, 'Style has six relevant photographic studies: ' + style.id);
     check(site.get('.style-original-link').getAttribute('href').endsWith('.png'), 'Native-resolution PNG can be opened offline: ' + style.id);
     check(site.get('.style-frame-image').querySelector('img').getAttribute('width') === '2880', 'Source frame retains its native captured width: ' + style.id);
   }

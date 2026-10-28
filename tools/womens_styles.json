@@ -500,7 +500,7 @@
   ],
   "photography": {
     "title": "穿搭与镜头 / Style in Focus",
-    "intro": "把同一种穿搭，放进不同的画面：纯色让配饰说话，建筑让轮廓更清楚，留白让浅色搭配多一点呼吸。",
+    "intro": "三种风格，18幅摄影：从影棚到建筑与室内，观察剪裁、配饰和场景如何彼此呼应。每种风格各有6张参考图，点击图片可放大。",
     "photos": [
       {
         "id": "zaid-black-studio",
@@ -597,6 +597,202 @@
             "height": 3840,
             "sha256": "8e5550699cca3debe02750287d30eeefad384ec5d64736482d276c098ff23051",
             "bytes": 1151226
+          }
+        ]
+      },
+      {
+        "id": "johann-pattern-shadows",
+        "style": "mob-wife",
+        "title": "影中斑纹",
+        "setting": "墙影与纹理 / CHIAROSCURO",
+        "captionZh": "蓬松的动物纹外套把肩部与袖口放大，深色内搭和系带靴为轮廓收边。墙上的几何阴影与交叠坐姿形成清晰的折线，让这套造型显得沉着而有分量。",
+        "captionEn": "A voluminous animal-patterned coat gives the shoulders and sleeves a sculptural outline, balanced by a dark base and lace-up boots. Geometric shadows and the crossed-leg pose bring a crisp, controlled rhythm to the look.",
+        "alt": "戴眼镜的女性穿动物纹蓬松外套和黑色系带靴坐在椅子上，身后墙面有几何阴影。",
+        "photographer": "Johann Knorst",
+        "source": "https://www.pexels.com/photo/elegant-woman-in-faux-fur-coat-posing-in-shadows-33639140/",
+        "imageSource": "https://images.pexels.com/photos/33639140/pexels-photo-33639140.jpeg",
+        "sourceWidth": 6336,
+        "sourceHeight": 9504,
+        "sourceSha256": "79cd4f7550dca9f32d17ccd08f372d39c4760a0945729b56c48cf9d2c766b020",
+        "checkedAt": "2026-10-28",
+        "licenseName": "Pexels License",
+        "licenseURL": "https://www.pexels.com/license/",
+        "licenseStatus": "platform-license-permits-website-use",
+        "image": {
+          "path": "assets/img/style-photography/johann-pattern-shadows-20261028.webp",
+          "width": 2560,
+          "height": 3840,
+          "sha256": "f1de47c432123c47cc8fa8dde0d9e7b4f0e9c03cd7509dfbda6f38b8c2b9c707",
+          "bytes": 536492
+        },
+        "variants": [
+          {
+            "path": "assets/img/style-photography/johann-pattern-shadows-20261028-640.webp",
+            "width": 640,
+            "height": 960,
+            "sha256": "fdf021e8f49aba7088113d326686343f1e48140d282f2ed165cd3e50fd2b8deb",
+            "bytes": 55624
+          },
+          {
+            "path": "assets/img/style-photography/johann-pattern-shadows-20261028-1280.webp",
+            "width": 1280,
+            "height": 1920,
+            "sha256": "d989e46ce9ce8849980d54c7bbdcdf3f1fcbabb9226d57d54033c62a8f9e85a1",
+            "bytes": 166348
+          },
+          {
+            "path": "assets/img/style-photography/johann-pattern-shadows-20261028.webp",
+            "width": 2560,
+            "height": 3840,
+            "sha256": "f1de47c432123c47cc8fa8dde0d9e7b4f0e9c03cd7509dfbda6f38b8c2b9c707",
+            "bytes": 536492
+          }
+        ]
+      },
+      {
+        "id": "tima-cinema-coat",
+        "style": "mob-wife",
+        "title": "红座暗场",
+        "setting": "影院暗场 / CINEMA",
+        "captionZh": "焦糖色的蓬松外套从黑色内搭中浮出来，垂坠的十字形耳饰为脸侧点亮一条细线。红色座席、深色长靴与大面积阴影，把复古的华丽感带进一幕安静而戏剧性的影院场景。",
+        "captionEn": "A rust-coloured, plush-textured coat stands out over dark layers, with a long cross-shaped earring drawing a fine line beside the face. Red cinema seats, black boots and deep shadows give the outfit a quiet, theatrical presence.",
+        "alt": "女性穿焦糖色蓬松外套、黑色内搭和长靴，戴垂坠十字耳饰坐在影院红色座席上。",
+        "photographer": "Tima Miroshnichenko",
+        "source": "https://www.pexels.com/photo/a-woman-in-brown-fur-coat-posing-on-a-chair-in-a-cinema-7991187/",
+        "imageSource": "https://images.pexels.com/photos/7991187/pexels-photo-7991187.jpeg",
+        "sourceWidth": 3745,
+        "sourceHeight": 5618,
+        "sourceSha256": "cdca2c1796e6244d81aa29f2587d2286f617605ec22e92205db61d63d952b94f",
+        "checkedAt": "2026-10-28",
+        "licenseName": "Pexels License",
+        "licenseURL": "https://www.pexels.com/license/",
+        "licenseStatus": "platform-license-permits-website-use",
+        "image": {
+          "path": "assets/img/style-photography/tima-cinema-coat-20261028.webp",
+          "width": 2560,
+          "height": 3840,
+          "sha256": "26877f2aed84d81b0034f75b4cfd4494da3ba871352c0ff75b5692877fcd6475",
+          "bytes": 1050924
+        },
+        "variants": [
+          {
+            "path": "assets/img/style-photography/tima-cinema-coat-20261028-640.webp",
+            "width": 640,
+            "height": 960,
+            "sha256": "0bdec73c39a81f1d9f805068ba5e769f1dd2b70334f4bee994aae69547f3393e",
+            "bytes": 66934
+          },
+          {
+            "path": "assets/img/style-photography/tima-cinema-coat-20261028-1280.webp",
+            "width": 1280,
+            "height": 1920,
+            "sha256": "b29e3c541f6c734d60c8f06bab527a2300ea9ebd16edd6dc72c771e4d7b29120",
+            "bytes": 261696
+          },
+          {
+            "path": "assets/img/style-photography/tima-cinema-coat-20261028.webp",
+            "width": 2560,
+            "height": 3840,
+            "sha256": "26877f2aed84d81b0034f75b4cfd4494da3ba871352c0ff75b5692877fcd6475",
+            "bytes": 1050924
+          }
+        ]
+      },
+      {
+        "id": "nives-staircase-outfit",
+        "style": "mob-wife",
+        "title": "阶梯间的气场",
+        "setting": "建筑楼梯 / ARCHITECTURE",
+        "captionZh": "棕色毛感外套松松落在肩侧，黑色上衣、花纹丝袜和细带高跟鞋把视觉重心拉向修长的腿部。墨镜与交叠坐姿延续了利落的态度，层层台阶和拱形门洞则为造型搭起一个有纵深的舞台。",
+        "captionEn": "A brown, fur-textured coat rests loosely at the shoulders above a black blouse, patterned tights and ankle-strap heels. Sunglasses and crossed legs set a composed tone, while receding steps and an arched doorway frame the outfit with architectural depth.",
+        "alt": "戴墨镜的女性穿棕色毛感外套、黑色上衣、花纹丝袜和细带高跟鞋，坐在拱形门洞下的楼梯上。",
+        "photographer": "Nives Plander",
+        "source": "https://www.pexels.com/photo/model-in-brown-fur-coat-and-black-blouse-sitting-on-the-staircase-20251666/",
+        "imageSource": "https://images.pexels.com/photos/20251666/pexels-photo-20251666.jpeg",
+        "sourceWidth": 4000,
+        "sourceHeight": 5343,
+        "sourceSha256": "77b9640d0bb5f151129b821ebcfbbcf115ad4d2aec08cc094fe71bc3ca0584b9",
+        "checkedAt": "2026-10-28",
+        "licenseName": "Pexels License",
+        "licenseURL": "https://www.pexels.com/license/",
+        "licenseStatus": "platform-license-permits-website-use",
+        "image": {
+          "path": "assets/img/style-photography/nives-staircase-outfit-20261028.webp",
+          "width": 2560,
+          "height": 3420,
+          "sha256": "c856d47173d6af18b851603cc6a0f61f725aea3e97702efb87341e904241ad4e",
+          "bytes": 1181736
+        },
+        "variants": [
+          {
+            "path": "assets/img/style-photography/nives-staircase-outfit-20261028-640.webp",
+            "width": 640,
+            "height": 855,
+            "sha256": "980ad8b79ad06aa31fa0b5d789245704d808a12f2bc840ab973ab6dac0753ebd",
+            "bytes": 75816
+          },
+          {
+            "path": "assets/img/style-photography/nives-staircase-outfit-20261028-1280.webp",
+            "width": 1280,
+            "height": 1710,
+            "sha256": "2c9e984b234aa99be8701399444a5de2878c462b32080fcf0cf1bf8c18f1d4f6",
+            "bytes": 282452
+          },
+          {
+            "path": "assets/img/style-photography/nives-staircase-outfit-20261028.webp",
+            "width": 2560,
+            "height": 3420,
+            "sha256": "c856d47173d6af18b851603cc6a0f61f725aea3e97702efb87341e904241ad4e",
+            "bytes": 1181736
+          }
+        ]
+      },
+      {
+        "id": "andrea-black-dress-feathers",
+        "style": "mob-wife",
+        "title": "黑裙与羽饰",
+        "setting": "浅色影棚 / STUDIO",
+        "captionZh": "黑色连衣裙以简洁的线条留出身体轮廓，手边垂落的蓬松羽饰则把戏剧感集中在一侧。红唇、卷发与深色高跟鞋呼应出复古晚装的神情，浅色背景让裙摆和羽饰的轻重对比更清楚。",
+        "captionEn": "A simple black dress leaves the silhouette clear, while a feathery accessory falling from one hand places the drama to one side. Red lipstick, curls and dark heels suggest a vintage evening mood against the light studio backdrop.",
+        "alt": "卷发女性穿黑色连衣裙和黑色高跟鞋，手持垂落的黑色羽饰，站在浅色影棚背景前。",
+        "photographer": "Andrea Musto",
+        "source": "https://www.pexels.com/photo/elegant-woman-in-black-dress-studio-portrait-29061641/",
+        "imageSource": "https://images.pexels.com/photos/29061641/pexels-photo-29061641.jpeg",
+        "sourceWidth": 4016,
+        "sourceHeight": 6016,
+        "sourceSha256": "57a8a537d3311f13b2fab9aef32ce3c602887fcf990cc7f0b6cd8452fe40099c",
+        "checkedAt": "2026-10-28",
+        "licenseName": "Pexels License",
+        "licenseURL": "https://www.pexels.com/license/",
+        "licenseStatus": "platform-license-permits-website-use",
+        "image": {
+          "path": "assets/img/style-photography/andrea-black-dress-feathers-20261028.webp",
+          "width": 2560,
+          "height": 3835,
+          "sha256": "c955cf5b59668c0a08a6018d897ec1e537bedc341a8cef76fd7bfac3aac9f472",
+          "bytes": 853932
+        },
+        "variants": [
+          {
+            "path": "assets/img/style-photography/andrea-black-dress-feathers-20261028-640.webp",
+            "width": 640,
+            "height": 959,
+            "sha256": "d1a4b8bf4518b3a473f1f77dca22aff5fe7a0f9891dc05f87239b221d3367805",
+            "bytes": 58686
+          },
+          {
+            "path": "assets/img/style-photography/andrea-black-dress-feathers-20261028-1280.webp",
+            "width": 1280,
+            "height": 1917,
+            "sha256": "d4c6fb911c61ee5ac54f5c4da0b8a9a32a9061e41d66903e70398d6a997dd768",
+            "bytes": 239116
+          },
+          {
+            "path": "assets/img/style-photography/andrea-black-dress-feathers-20261028.webp",
+            "width": 2560,
+            "height": 3835,
+            "sha256": "c955cf5b59668c0a08a6018d897ec1e537bedc341a8cef76fd7bfac3aac9f472",
+            "bytes": 853932
           }
         ]
       },
@@ -699,6 +895,202 @@
         ]
       },
       {
+        "id": "david-cropped-gold-buttons",
+        "style": "napoleon-core",
+        "title": "短身线条，金色扣列",
+        "setting": "纯灰影棚 / STUDIO",
+        "captionZh": "四枚金色钮扣点亮短身黑外套；清晰的肩线与抬高的下摆，把视觉重心放在比例和腰线。",
+        "captionEn": "Four gold-tone buttons punctuate a cropped black jacket. The defined shoulders and high hem focus attention on proportion and the waist.",
+        "alt": "女子穿有四枚金色钮扣的短身黑色双排扣外套，在纯灰色影棚背景前站立。",
+        "photographer": "David Manzyk",
+        "source": "https://www.pexels.com/photo/young-model-in-a-black-bolero-with-golden-buttons-and-pants-with-an-unfastened-belt-19771923/",
+        "imageSource": "https://images.pexels.com/photos/19771923/pexels-photo-19771923.jpeg",
+        "sourceWidth": 4480,
+        "sourceHeight": 6720,
+        "sourceSha256": "1cf32912e24aa7824cf1005448b7553f5980a83c8614d7b7e28d8105b55de150",
+        "checkedAt": "2026-10-28",
+        "licenseName": "Pexels License",
+        "licenseURL": "https://www.pexels.com/license/",
+        "licenseStatus": "platform-license-permits-website-use",
+        "image": {
+          "path": "assets/img/style-photography/david-cropped-gold-buttons-20261028.webp",
+          "width": 2560,
+          "height": 3840,
+          "sha256": "f104a98b5fa163cda06a09aa40c4884a632bc680e8a3e955bc988df74345db32",
+          "bytes": 991878
+        },
+        "variants": [
+          {
+            "path": "assets/img/style-photography/david-cropped-gold-buttons-20261028-640.webp",
+            "width": 640,
+            "height": 960,
+            "sha256": "17c0b8f590cce2177c5ccd52d9d560307cb788c309812aedd458ca4e80b3746e",
+            "bytes": 40938
+          },
+          {
+            "path": "assets/img/style-photography/david-cropped-gold-buttons-20261028-1280.webp",
+            "width": 1280,
+            "height": 1920,
+            "sha256": "d99d2d1c6a63fb3ab19f442e3020e15f076e5f8cbb738a9a78a3a76c22901a06",
+            "bytes": 132678
+          },
+          {
+            "path": "assets/img/style-photography/david-cropped-gold-buttons-20261028.webp",
+            "width": 2560,
+            "height": 3840,
+            "sha256": "f104a98b5fa163cda06a09aa40c4884a632bc680e8a3e955bc988df74345db32",
+            "bytes": 991878
+          }
+        ]
+      },
+      {
+        "id": "kehinde-marine-buttons",
+        "style": "napoleon-core",
+        "title": "暖色影棚中的金扣节奏",
+        "setting": "暖棕影棚 / STUDIO",
+        "captionZh": "凸纹金色钮扣在黑外套前襟与袖口重复排列，帽子和系于头部的丝巾则在暖棕背景前勾勒面部。",
+        "captionEn": "Raised gold-tone buttons repeat across the black jacket and cuffs, while a cap and tied scarf frame the face against warm brown.",
+        "alt": "女子穿带金色前襟扣与袖扣的黑色双排扣外套，戴深色帽子和图案头巾，背景为棕色影棚。",
+        "photographer": "kehinde solomon o ogunsanya",
+        "source": "https://www.pexels.com/photo/woman-posing-in-marine-blazer-jacket-17542260/",
+        "imageSource": "https://images.pexels.com/photos/17542260/pexels-photo-17542260.jpeg",
+        "sourceWidth": 4160,
+        "sourceHeight": 6240,
+        "sourceSha256": "2cefb5996617cae524512cb8702eb39ae9c941807537f208bb7a82083588f7ff",
+        "checkedAt": "2026-10-28",
+        "licenseName": "Pexels License",
+        "licenseURL": "https://www.pexels.com/license/",
+        "licenseStatus": "platform-license-permits-website-use",
+        "image": {
+          "path": "assets/img/style-photography/kehinde-marine-buttons-20261028.webp",
+          "width": 2560,
+          "height": 3840,
+          "sha256": "00e6a495f772d5fc1c21c0e9fccc19c351d726063a0289898601f83e15125b95",
+          "bytes": 2744702
+        },
+        "variants": [
+          {
+            "path": "assets/img/style-photography/kehinde-marine-buttons-20261028-640.webp",
+            "width": 640,
+            "height": 960,
+            "sha256": "aafdf4f62aaa3475945554606699c4cdd6edd12e22c9484aff7e3e96086eaf76",
+            "bytes": 86882
+          },
+          {
+            "path": "assets/img/style-photography/kehinde-marine-buttons-20261028-1280.webp",
+            "width": 1280,
+            "height": 1920,
+            "sha256": "aacd88e13a596fd4e10a3b9d6f84ab5910a09f807780b04a361bac2aa9668809",
+            "bytes": 428340
+          },
+          {
+            "path": "assets/img/style-photography/kehinde-marine-buttons-20261028.webp",
+            "width": 2560,
+            "height": 3840,
+            "sha256": "00e6a495f772d5fc1c21c0e9fccc19c351d726063a0289898601f83e15125b95",
+            "bytes": 2744702
+          }
+        ]
+      },
+      {
+        "id": "arif-stone-pendant",
+        "style": "napoleon-core",
+        "title": "深色翻领，珠白点缀",
+        "setting": "石墙近景 / DETAIL",
+        "captionZh": "细金色链条与不规则白色吊坠落在深色翻领之间；珠白耳饰和手链彼此呼应，背景是有纹理的石墙。",
+        "captionEn": "A fine gold-tone chain and irregular white pendant sit between dark lapels; matching pale earrings and a bracelet echo the detail beside a stone wall.",
+        "alt": "石墙旁的女子身穿黑外套，佩戴细金色链条、白色吊坠、珠白耳饰和手链，画面下方可见金色袖扣。",
+        "photographer": "Arif khan",
+        "source": "https://www.pexels.com/photo/portrait-of-elegant-woman-wearing-necklace-18285668/",
+        "imageSource": "https://images.pexels.com/photos/18285668/pexels-photo-18285668.jpeg",
+        "sourceWidth": 4683,
+        "sourceHeight": 4683,
+        "sourceSha256": "95bd9f3e00cee2693ee1bc2647eba985b161ba8bb0a64602fc1ed17289dcf2f0",
+        "checkedAt": "2026-10-28",
+        "licenseName": "Pexels License",
+        "licenseURL": "https://www.pexels.com/license/",
+        "licenseStatus": "platform-license-permits-website-use",
+        "image": {
+          "path": "assets/img/style-photography/arif-stone-pendant-20261028.webp",
+          "width": 2560,
+          "height": 2560,
+          "sha256": "58cc03eb9cf419f98986878049cabafbfb5547a3bd77c2ca2d5f1ddb1b3e75d8",
+          "bytes": 1352512
+        },
+        "variants": [
+          {
+            "path": "assets/img/style-photography/arif-stone-pendant-20261028-640.webp",
+            "width": 640,
+            "height": 640,
+            "sha256": "37bd176d7c72b9851659bf12483727fdd9b05d765c16d70daec4cec27e8e475e",
+            "bytes": 83492
+          },
+          {
+            "path": "assets/img/style-photography/arif-stone-pendant-20261028-1280.webp",
+            "width": 1280,
+            "height": 1280,
+            "sha256": "ebcb1de0f940d54390bee8a7c3562a1088cf2e58a5defd040c292e9651f85fd4",
+            "bytes": 341866
+          },
+          {
+            "path": "assets/img/style-photography/arif-stone-pendant-20261028.webp",
+            "width": 2560,
+            "height": 2560,
+            "sha256": "58cc03eb9cf419f98986878049cabafbfb5547a3bd77c2ca2d5f1ddb1b3e75d8",
+            "bytes": 1352512
+          }
+        ]
+      },
+      {
+        "id": "michael-white-lapel-necklace",
+        "style": "napoleon-core",
+        "title": "白色翻领间的一圈珠链",
+        "setting": "珠链近景 / DETAIL",
+        "captionZh": "单层珠白串珠配金色心形吊坠，落在宽大的白色翻领之间，让领口成为克制的视觉焦点。",
+        "captionEn": "A single strand of pale beads and a gold-tone heart pendant sits inside broad white lapels, turning the neckline into a quiet focal point.",
+        "alt": "白色外套的宽翻领之间，是一条单层珠白串珠项链和金色心形吊坠的近景。",
+        "photographer": "Michael koneckiy",
+        "source": "https://www.pexels.com/photo/close-up-of-a-woman-wearing-a-pearl-necklace-with-a-heart-pendant-20877330/",
+        "imageSource": "https://images.pexels.com/photos/20877330/pexels-photo-20877330.jpeg",
+        "sourceWidth": 6000,
+        "sourceHeight": 4000,
+        "sourceSha256": "e37b2e02e76e9a5f796ca8baccdd87ccd7fb2b4e71ac0553538d001295455653",
+        "checkedAt": "2026-10-28",
+        "licenseName": "Pexels License",
+        "licenseURL": "https://www.pexels.com/license/",
+        "licenseStatus": "platform-license-permits-website-use",
+        "image": {
+          "path": "assets/img/style-photography/michael-white-lapel-necklace-20261028.webp",
+          "width": 2560,
+          "height": 1707,
+          "sha256": "caee4758f64ba73067c6924a30850432c65fea949d7722fb15e12777d6055002",
+          "bytes": 971972
+        },
+        "variants": [
+          {
+            "path": "assets/img/style-photography/michael-white-lapel-necklace-20261028-640.webp",
+            "width": 640,
+            "height": 427,
+            "sha256": "e5837c9917781552662bbcd2259484305249104ac3830b3fab85461239aab367",
+            "bytes": 32868
+          },
+          {
+            "path": "assets/img/style-photography/michael-white-lapel-necklace-20261028-1280.webp",
+            "width": 1280,
+            "height": 853,
+            "sha256": "be4e24f71037c8601b44d95fd25b1d16fce333cb02df15bf3162f7072cda5b35",
+            "bytes": 131796
+          },
+          {
+            "path": "assets/img/style-photography/michael-white-lapel-necklace-20261028.webp",
+            "width": 2560,
+            "height": 1707,
+            "sha256": "caee4758f64ba73067c6924a30850432c65fea949d7722fb15e12777d6055002",
+            "bytes": 971972
+          }
+        ]
+      },
+      {
         "id": "shvets-white-sculpture",
         "style": "heiress",
         "title": "白色套装，也可以有空间感",
@@ -793,6 +1185,202 @@
             "height": 3886,
             "sha256": "3c000f23e2245ec1105f13e24dfe58c6ab7378f884d600123fc83f1a9f77dcb2",
             "bytes": 1760524
+          }
+        ]
+      },
+      {
+        "id": "klaudia-pale-rounded-jewelry",
+        "style": "heiress",
+        "title": "圆珠与浅色开衫",
+        "setting": "浅灰影棚 / DETAIL",
+        "captionZh": "浅色开衫以简洁领口和纽扣建立秩序，颈间圆珠与耳饰形成呼应。利落低髻与轻抬的手势，让精致感落在清楚而克制的细节上。",
+        "captionEn": "A pale cardigan, a single strand of pale beads and rounded earrings keep the look composed. The neat low bun and relaxed hand gesture draw attention to the neckline without crowding it.",
+        "alt": "浅灰背景前，一位穿白色开衫的女性佩戴圆珠项链与圆形耳饰，一只手轻抬至耳侧。",
+        "photographer": "Klaudia Rak",
+        "source": "https://www.pexels.com/photo/brunette-woman-in-white-sweater-and-pearl-necklace-11526816/",
+        "imageSource": "https://images.pexels.com/photos/11526816/pexels-photo-11526816.jpeg",
+        "sourceWidth": 3733,
+        "sourceHeight": 5599,
+        "sourceSha256": "b80ca95ea016a62ce08f4a8444c24d1167db1f11725c3c0bef60bd09b70098fc",
+        "checkedAt": "2026-10-28",
+        "licenseName": "Pexels License",
+        "licenseURL": "https://www.pexels.com/license/",
+        "licenseStatus": "platform-license-permits-website-use",
+        "image": {
+          "path": "assets/img/style-photography/klaudia-pale-rounded-jewelry-20261028.webp",
+          "width": 2560,
+          "height": 3840,
+          "sha256": "bf5072f5cbcdc8a8b19aa0ec3daff1d664e0ce46fac306945a69bed727842cb3",
+          "bytes": 886202
+        },
+        "variants": [
+          {
+            "path": "assets/img/style-photography/klaudia-pale-rounded-jewelry-20261028-640.webp",
+            "width": 640,
+            "height": 960,
+            "sha256": "cf6470d97cfdc26b2c6d485bdbcbb8841e88f35e3fbfd0302275adfa7483567e",
+            "bytes": 80486
+          },
+          {
+            "path": "assets/img/style-photography/klaudia-pale-rounded-jewelry-20261028-1280.webp",
+            "width": 1280,
+            "height": 1920,
+            "sha256": "a7409543652978405f7e4cf7b7cf6967f71c57d4936d6547aa535044ba2b92ee",
+            "bytes": 277202
+          },
+          {
+            "path": "assets/img/style-photography/klaudia-pale-rounded-jewelry-20261028.webp",
+            "width": 2560,
+            "height": 3840,
+            "sha256": "bf5072f5cbcdc8a8b19aa0ec3daff1d664e0ce46fac306945a69bed727842cb3",
+            "bytes": 886202
+          }
+        ]
+      },
+      {
+        "id": "darkshade-pink-bow",
+        "style": "heiress",
+        "title": "粉色领结的柔和秩序",
+        "setting": "暖棕背景 / STUDIO",
+        "captionZh": "大幅粉色领结成为画面的明确重心，宽松袖线保留柔和体积。低髻、小耳饰与侧向目光共同收住比例，让蝴蝶结的存在感保持优雅。",
+        "captionEn": "An oversized pink neck bow gives a simple blouse a deliberate focal point. A smooth low bun, small earrings and a turned gaze keep the large bow balanced and the silhouette calm.",
+        "alt": "暖棕背景前，一位女性穿着带大蝴蝶结领口的浅粉上衣，梳着低髻并侧目看向画外。",
+        "photographer": "Darkshade Photos",
+        "source": "https://www.pexels.com/photo/elegant-woman-in-pink-blouse-with-bow-tie-30416956/",
+        "imageSource": "https://images.pexels.com/photos/30416956/pexels-photo-30416956.jpeg",
+        "sourceWidth": 4672,
+        "sourceHeight": 7008,
+        "sourceSha256": "44cb6ad981330a947f4f201a939ea37f0e531bec5b77e6a3fdec07271edef634",
+        "checkedAt": "2026-10-28",
+        "licenseName": "Pexels License",
+        "licenseURL": "https://www.pexels.com/license/",
+        "licenseStatus": "platform-license-permits-website-use",
+        "image": {
+          "path": "assets/img/style-photography/darkshade-pink-bow-20261028.webp",
+          "width": 2560,
+          "height": 3840,
+          "sha256": "73509d8b63e4a97b19b09e9d2ace7ab39100c44a28b94dc5c503c6c744e5b7fd",
+          "bytes": 681960
+        },
+        "variants": [
+          {
+            "path": "assets/img/style-photography/darkshade-pink-bow-20261028-640.webp",
+            "width": 640,
+            "height": 960,
+            "sha256": "4f025595feda3310258604b3ed3f4c84ba54383125ccf38acccf3b2e6514a94b",
+            "bytes": 55144
+          },
+          {
+            "path": "assets/img/style-photography/darkshade-pink-bow-20261028-1280.webp",
+            "width": 1280,
+            "height": 1920,
+            "sha256": "b223deacf946e90650c99a4e109e27314c49ba39fc8cff0c153a8174ddd31d10",
+            "bytes": 173406
+          },
+          {
+            "path": "assets/img/style-photography/darkshade-pink-bow-20261028.webp",
+            "width": 2560,
+            "height": 3840,
+            "sha256": "73509d8b63e4a97b19b09e9d2ace7ab39100c44a28b94dc5c503c6c744e5b7fd",
+            "bytes": 681960
+          }
+        ]
+      },
+      {
+        "id": "travel-textured-skirt-set",
+        "style": "heiress",
+        "title": "纹理裙装与雕饰门廊",
+        "setting": "雕饰门廊 / ARCHITECTURE",
+        "captionZh": "同纹理外套与短裙形成清楚的成套轮廓，深色内搭稳住视觉中心。交叠的脚踝与尖头鞋延续腿部线条，雕饰门廊则把日常套装放进更完整的场景。",
+        "captionEn": "A coordinated textured jacket and short skirt create a clear, compact outline. The darker top anchors the set, while crossed ankles and pointed heels bring a measured rhythm to the carved architectural frame.",
+        "alt": "一位女性穿同纹理外套与短裙、深色内搭和尖头鞋，站在雕饰石柱与木门前的台阶上。",
+        "photographer": "Travel with Lenses",
+        "source": "https://www.pexels.com/photo/fashion-portrait-of-woman-in-tweed-suit-in-berlin-35021432/",
+        "imageSource": "https://images.pexels.com/photos/35021432/pexels-photo-35021432.jpeg",
+        "sourceWidth": 4672,
+        "sourceHeight": 7008,
+        "sourceSha256": "212f3111f39e1e24758f52b391ed273f23914cc608cc10d0c0f60574e03dc10c",
+        "checkedAt": "2026-10-28",
+        "licenseName": "Pexels License",
+        "licenseURL": "https://www.pexels.com/license/",
+        "licenseStatus": "platform-license-permits-website-use",
+        "image": {
+          "path": "assets/img/style-photography/travel-textured-skirt-set-20261028.webp",
+          "width": 2560,
+          "height": 3840,
+          "sha256": "7d4639f642e4e0b69a08ac6368b75e48dcf1d76c46cd4000933e3a7438e7c582",
+          "bytes": 2058888
+        },
+        "variants": [
+          {
+            "path": "assets/img/style-photography/travel-textured-skirt-set-20261028-640.webp",
+            "width": 640,
+            "height": 960,
+            "sha256": "6cf73a3919b5eb28d31d85e9a88d3d246ce1a65c0568dd40c136fd16229f8bd9",
+            "bytes": 216742
+          },
+          {
+            "path": "assets/img/style-photography/travel-textured-skirt-set-20261028-1280.webp",
+            "width": 1280,
+            "height": 1920,
+            "sha256": "2635e91b86f0dd212c9f2a556f1bc405d02c63d6416e72c6537e7e864d317b55",
+            "bytes": 704072
+          },
+          {
+            "path": "assets/img/style-photography/travel-textured-skirt-set-20261028.webp",
+            "width": 2560,
+            "height": 3840,
+            "sha256": "7d4639f642e4e0b69a08ac6368b75e48dcf1d76c46cd4000933e3a7438e7c582",
+            "bytes": 2058888
+          }
+        ]
+      },
+      {
+        "id": "cottonbro-pastel-skirt-set",
+        "style": "heiress",
+        "title": "浅色裙装的几何舞台",
+        "setting": "几何布景 / SET DESIGN",
+        "captionZh": "浅色外套与短裙通过立体肩部装饰和局部点缀建立造型重点。粉色与浅绿几何板呼应柔和色调，端正站姿让肩线、裙长与腿部比例一眼可读。",
+        "captionEn": "A pale jacket and short skirt turn into a sculptural outfit through raised shoulder details and small decorative accents. Pink and pale green panels echo the outfit’s soft palette, while the straight stance keeps its proportions easy to read.",
+        "alt": "影棚中，一位穿浅色装饰外套与短裙的女性站在粉色、浅绿几何板及小型花艺旁。",
+        "photographer": "cottonbro studio",
+        "source": "https://www.pexels.com/photo/woman-in-a-white-jacket-and-a-skirt-7304333/",
+        "imageSource": "https://images.pexels.com/photos/7304333/pexels-photo-7304333.jpeg",
+        "sourceWidth": 3500,
+        "sourceHeight": 2333,
+        "sourceSha256": "171d5105532d54878949d2992ca92a70b15b0babb8381b4200c9c895f88b0c6d",
+        "checkedAt": "2026-10-28",
+        "licenseName": "Pexels License",
+        "licenseURL": "https://www.pexels.com/license/",
+        "licenseStatus": "platform-license-permits-website-use",
+        "image": {
+          "path": "assets/img/style-photography/cottonbro-pastel-skirt-set-20261028.webp",
+          "width": 2560,
+          "height": 1706,
+          "sha256": "dd639b22da90f0fd328f965355bdbb2e69e0c3cca4db4a51a3c51d7a600ff8cf",
+          "bytes": 110982
+        },
+        "variants": [
+          {
+            "path": "assets/img/style-photography/cottonbro-pastel-skirt-set-20261028-640.webp",
+            "width": 640,
+            "height": 427,
+            "sha256": "72033dc192439e63be4c02a1fd98b98c5ad68128be10ce1397df29bbf0a01492",
+            "bytes": 14296
+          },
+          {
+            "path": "assets/img/style-photography/cottonbro-pastel-skirt-set-20261028-1280.webp",
+            "width": 1280,
+            "height": 853,
+            "sha256": "4ce91bf50a7869a302f3484b2360691171939fbf9e9665be4a288a86082a0bbc",
+            "bytes": 39546
+          },
+          {
+            "path": "assets/img/style-photography/cottonbro-pastel-skirt-set-20261028.webp",
+            "width": 2560,
+            "height": 1706,
+            "sha256": "dd639b22da90f0fd328f965355bdbb2e69e0c3cca4db4a51a3c51d7a600ff8cf",
+            "bytes": 110982
           }
         ]
       }

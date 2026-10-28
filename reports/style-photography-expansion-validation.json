@@ -1,0 +1,1285 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-28T06:43:51.200629+00:00",
+  "baseCommit": "5ac4c5663769686274ee114617a48496b5d61642",
+  "addedPhotos": 12,
+  "totalPhotos": 18,
+  "photosPerStyle": {
+    "mob-wife": 6,
+    "napoleon-core": 6,
+    "heiress": 6
+  },
+  "existingSixPhotoRecordsPreserved": true,
+  "existingImageFilesPreserved": 349,
+  "catalogAndYearbookSourcesUnchanged": true,
+  "videoFramesAndCreatorReferencesUnchanged": true,
+  "otherHTMLPagesUnchanged": 223,
+  "photography": {
+    "newAssets": 36,
+    "allResponsiveAssets": 54,
+    "newAssetBytes": 17468606,
+    "sourceShortEdgeMinimum": 2333,
+    "webWidths": [
+      640,
+      1280,
+      2560
+    ],
+    "preserveFullComposition": true,
+    "noUpscaling": true,
+    "sources": "tools/research/style-photography-expansion-20261028.json",
+    "newPhotographs": [
+      {
+        "id": "johann-pattern-shadows",
+        "style": "mob-wife",
+        "photographer": "Johann Knorst",
+        "source": "https://www.pexels.com/photo/elegant-woman-in-faux-fur-coat-posing-in-shadows-33639140/",
+        "sourceWidth": 6336,
+        "sourceHeight": 9504,
+        "sourceSha256": "79cd4f7550dca9f32d17ccd08f372d39c4760a0945729b56c48cf9d2c766b020"
+      },
+      {
+        "id": "tima-cinema-coat",
+        "style": "mob-wife",
+        "photographer": "Tima Miroshnichenko",
+        "source": "https://www.pexels.com/photo/a-woman-in-brown-fur-coat-posing-on-a-chair-in-a-cinema-7991187/",
+        "sourceWidth": 3745,
+        "sourceHeight": 5618,
+        "sourceSha256": "cdca2c1796e6244d81aa29f2587d2286f617605ec22e92205db61d63d952b94f"
+      },
+      {
+        "id": "nives-staircase-outfit",
+        "style": "mob-wife",
+        "photographer": "Nives Plander",
+        "source": "https://www.pexels.com/photo/model-in-brown-fur-coat-and-black-blouse-sitting-on-the-staircase-20251666/",
+        "sourceWidth": 4000,
+        "sourceHeight": 5343,
+        "sourceSha256": "77b9640d0bb5f151129b821ebcfbbcf115ad4d2aec08cc094fe71bc3ca0584b9"
+      },
+      {
+        "id": "andrea-black-dress-feathers",
+        "style": "mob-wife",
+        "photographer": "Andrea Musto",
+        "source": "https://www.pexels.com/photo/elegant-woman-in-black-dress-studio-portrait-29061641/",
+        "sourceWidth": 4016,
+        "sourceHeight": 6016,
+        "sourceSha256": "57a8a537d3311f13b2fab9aef32ce3c602887fcf990cc7f0b6cd8452fe40099c"
+      },
+      {
+        "id": "david-cropped-gold-buttons",
+        "style": "napoleon-core",
+        "photographer": "David Manzyk",
+        "source": "https://www.pexels.com/photo/young-model-in-a-black-bolero-with-golden-buttons-and-pants-with-an-unfastened-belt-19771923/",
+        "sourceWidth": 4480,
+        "sourceHeight": 6720,
+        "sourceSha256": "1cf32912e24aa7824cf1005448b7553f5980a83c8614d7b7e28d8105b55de150"
+      },
+      {
+        "id": "kehinde-marine-buttons",
+        "style": "napoleon-core",
+        "photographer": "kehinde solomon o ogunsanya",
+        "source": "https://www.pexels.com/photo/woman-posing-in-marine-blazer-jacket-17542260/",
+        "sourceWidth": 4160,
+        "sourceHeight": 6240,
+        "sourceSha256": "2cefb5996617cae524512cb8702eb39ae9c941807537f208bb7a82083588f7ff"
+      },
+      {
+        "id": "arif-stone-pendant",
+        "style": "napoleon-core",
+        "photographer": "Arif khan",
+        "source": "https://www.pexels.com/photo/portrait-of-elegant-woman-wearing-necklace-18285668/",
+        "sourceWidth": 4683,
+        "sourceHeight": 4683,
+        "sourceSha256": "95bd9f3e00cee2693ee1bc2647eba985b161ba8bb0a64602fc1ed17289dcf2f0"
+      },
+      {
+        "id": "michael-white-lapel-necklace",
+        "style": "napoleon-core",
+        "photographer": "Michael koneckiy",
+        "source": "https://www.pexels.com/photo/close-up-of-a-woman-wearing-a-pearl-necklace-with-a-heart-pendant-20877330/",
+        "sourceWidth": 6000,
+        "sourceHeight": 4000,
+        "sourceSha256": "e37b2e02e76e9a5f796ca8baccdd87ccd7fb2b4e71ac0553538d001295455653"
+      },
+      {
+        "id": "klaudia-pale-rounded-jewelry",
+        "style": "heiress",
+        "photographer": "Klaudia Rak",
+        "source": "https://www.pexels.com/photo/brunette-woman-in-white-sweater-and-pearl-necklace-11526816/",
+        "sourceWidth": 3733,
+        "sourceHeight": 5599,
+        "sourceSha256": "b80ca95ea016a62ce08f4a8444c24d1167db1f11725c3c0bef60bd09b70098fc"
+      },
+      {
+        "id": "darkshade-pink-bow",
+        "style": "heiress",
+        "photographer": "Darkshade Photos",
+        "source": "https://www.pexels.com/photo/elegant-woman-in-pink-blouse-with-bow-tie-30416956/",
+        "sourceWidth": 4672,
+        "sourceHeight": 7008,
+        "sourceSha256": "44cb6ad981330a947f4f201a939ea37f0e531bec5b77e6a3fdec07271edef634"
+      },
+      {
+        "id": "travel-textured-skirt-set",
+        "style": "heiress",
+        "photographer": "Travel with Lenses",
+        "source": "https://www.pexels.com/photo/fashion-portrait-of-woman-in-tweed-suit-in-berlin-35021432/",
+        "sourceWidth": 4672,
+        "sourceHeight": 7008,
+        "sourceSha256": "212f3111f39e1e24758f52b391ed273f23914cc608cc10d0c0f60574e03dc10c"
+      },
+      {
+        "id": "cottonbro-pastel-skirt-set",
+        "style": "heiress",
+        "photographer": "cottonbro studio",
+        "source": "https://www.pexels.com/photo/woman-in-a-white-jacket-and-a-skirt-7304333/",
+        "sourceWidth": 3500,
+        "sourceHeight": 2333,
+        "sourceSha256": "171d5105532d54878949d2992ca92a70b15b0babb8381b4200c9c895f88b0c6d"
+      }
+    ]
+  },
+  "assetChecks": [
+    {
+      "path": "assets/img/style-photography/zaid-black-studio-20261028-640.webp",
+      "width": 640,
+      "height": 959,
+      "sha256": "bd6ae070f5d8d494ec9a220d7b720075b8b47e38569c6804f693dbe72c031cfa",
+      "bytes": 61768,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/zaid-black-studio-20261028-1280.webp",
+      "width": 1280,
+      "height": 1918,
+      "sha256": "104b1ee7dcc2befeceeca05349b4d092ef3a1c20900c51f109eeb3bb0bbbf50b",
+      "bytes": 223206,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/zaid-black-studio-20261028.webp",
+      "width": 2560,
+      "height": 3836,
+      "sha256": "e4da84715afba0e65b92354f0746cb54302bf4c5ae2ee39464d6edb702253d5f",
+      "bytes": 795974,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/luis-black-architecture-20261028-640.webp",
+      "width": 640,
+      "height": 960,
+      "sha256": "2e9886d680a710bc933d41cecf3e787f8fb16ac8bdfbdb47cce3cee3079d2104",
+      "bytes": 120338,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/luis-black-architecture-20261028-1280.webp",
+      "width": 1280,
+      "height": 1920,
+      "sha256": "6ba0a2159d8f35b849aac0d4ab8f37591e741f36d2a86aa01ed60bf63dce4a75",
+      "bytes": 442412,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/luis-black-architecture-20261028.webp",
+      "width": 2560,
+      "height": 3840,
+      "sha256": "8e5550699cca3debe02750287d30eeefad384ec5d64736482d276c098ff23051",
+      "bytes": 1151226,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/johann-pattern-shadows-20261028-640.webp",
+      "width": 640,
+      "height": 960,
+      "sha256": "fdf021e8f49aba7088113d326686343f1e48140d282f2ed165cd3e50fd2b8deb",
+      "bytes": 55624,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/johann-pattern-shadows-20261028-1280.webp",
+      "width": 1280,
+      "height": 1920,
+      "sha256": "d989e46ce9ce8849980d54c7bbdcdf3f1fcbabb9226d57d54033c62a8f9e85a1",
+      "bytes": 166348,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/johann-pattern-shadows-20261028.webp",
+      "width": 2560,
+      "height": 3840,
+      "sha256": "f1de47c432123c47cc8fa8dde0d9e7b4f0e9c03cd7509dfbda6f38b8c2b9c707",
+      "bytes": 536492,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/tima-cinema-coat-20261028-640.webp",
+      "width": 640,
+      "height": 960,
+      "sha256": "0bdec73c39a81f1d9f805068ba5e769f1dd2b70334f4bee994aae69547f3393e",
+      "bytes": 66934,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/tima-cinema-coat-20261028-1280.webp",
+      "width": 1280,
+      "height": 1920,
+      "sha256": "b29e3c541f6c734d60c8f06bab527a2300ea9ebd16edd6dc72c771e4d7b29120",
+      "bytes": 261696,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/tima-cinema-coat-20261028.webp",
+      "width": 2560,
+      "height": 3840,
+      "sha256": "26877f2aed84d81b0034f75b4cfd4494da3ba871352c0ff75b5692877fcd6475",
+      "bytes": 1050924,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/nives-staircase-outfit-20261028-640.webp",
+      "width": 640,
+      "height": 855,
+      "sha256": "980ad8b79ad06aa31fa0b5d789245704d808a12f2bc840ab973ab6dac0753ebd",
+      "bytes": 75816,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/nives-staircase-outfit-20261028-1280.webp",
+      "width": 1280,
+      "height": 1710,
+      "sha256": "2c9e984b234aa99be8701399444a5de2878c462b32080fcf0cf1bf8c18f1d4f6",
+      "bytes": 282452,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/nives-staircase-outfit-20261028.webp",
+      "width": 2560,
+      "height": 3420,
+      "sha256": "c856d47173d6af18b851603cc6a0f61f725aea3e97702efb87341e904241ad4e",
+      "bytes": 1181736,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/andrea-black-dress-feathers-20261028-640.webp",
+      "width": 640,
+      "height": 959,
+      "sha256": "d1a4b8bf4518b3a473f1f77dca22aff5fe7a0f9891dc05f87239b221d3367805",
+      "bytes": 58686,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/andrea-black-dress-feathers-20261028-1280.webp",
+      "width": 1280,
+      "height": 1917,
+      "sha256": "d4c6fb911c61ee5ac54f5c4da0b8a9a32a9061e41d66903e70398d6a997dd768",
+      "bytes": 239116,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/andrea-black-dress-feathers-20261028.webp",
+      "width": 2560,
+      "height": 3835,
+      "sha256": "c955cf5b59668c0a08a6018d897ec1e537bedc341a8cef76fd7bfac3aac9f472",
+      "bytes": 853932,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/andrea-white-rome-20261028-640.webp",
+      "width": 640,
+      "height": 960,
+      "sha256": "2fe5e2187ef343eb9d93c4fa3937c128c7b836068b0a3ca842ae944f272eca08",
+      "bytes": 51902,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/andrea-white-rome-20261028-1280.webp",
+      "width": 1280,
+      "height": 1920,
+      "sha256": "e48f3abc55e6972b31e5bf9d66d97966c1c44037122636376797a9d228d6d081",
+      "bytes": 151986,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/andrea-white-rome-20261028.webp",
+      "width": 2560,
+      "height": 3840,
+      "sha256": "40a9b8a88dffb35b7f6c11bec0b0c4db6c27ebb246e5dc1da548c459e761999c",
+      "bytes": 615628,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/hannah-beige-studio-20261028-640.webp",
+      "width": 640,
+      "height": 960,
+      "sha256": "2f2f0e836a38449ca3877fbca47ae7b6ccbf4eec6e7d789ea1cf6741fd4b7ad3",
+      "bytes": 87302,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/hannah-beige-studio-20261028-1280.webp",
+      "width": 1280,
+      "height": 1920,
+      "sha256": "3e1149447adfb8e781af5fd556f10e54a977f4cbb4dea02cff7c8e873c0945e6",
+      "bytes": 371268,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/hannah-beige-studio-20261028.webp",
+      "width": 2560,
+      "height": 3840,
+      "sha256": "0632fd39a6024027901bc3b3c90b7c6393f3d65c130bfffc37e0918568200142",
+      "bytes": 1514462,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/david-cropped-gold-buttons-20261028-640.webp",
+      "width": 640,
+      "height": 960,
+      "sha256": "17c0b8f590cce2177c5ccd52d9d560307cb788c309812aedd458ca4e80b3746e",
+      "bytes": 40938,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/david-cropped-gold-buttons-20261028-1280.webp",
+      "width": 1280,
+      "height": 1920,
+      "sha256": "d99d2d1c6a63fb3ab19f442e3020e15f076e5f8cbb738a9a78a3a76c22901a06",
+      "bytes": 132678,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/david-cropped-gold-buttons-20261028.webp",
+      "width": 2560,
+      "height": 3840,
+      "sha256": "f104a98b5fa163cda06a09aa40c4884a632bc680e8a3e955bc988df74345db32",
+      "bytes": 991878,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/kehinde-marine-buttons-20261028-640.webp",
+      "width": 640,
+      "height": 960,
+      "sha256": "aafdf4f62aaa3475945554606699c4cdd6edd12e22c9484aff7e3e96086eaf76",
+      "bytes": 86882,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/kehinde-marine-buttons-20261028-1280.webp",
+      "width": 1280,
+      "height": 1920,
+      "sha256": "aacd88e13a596fd4e10a3b9d6f84ab5910a09f807780b04a361bac2aa9668809",
+      "bytes": 428340,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/kehinde-marine-buttons-20261028.webp",
+      "width": 2560,
+      "height": 3840,
+      "sha256": "00e6a495f772d5fc1c21c0e9fccc19c351d726063a0289898601f83e15125b95",
+      "bytes": 2744702,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/arif-stone-pendant-20261028-640.webp",
+      "width": 640,
+      "height": 640,
+      "sha256": "37bd176d7c72b9851659bf12483727fdd9b05d765c16d70daec4cec27e8e475e",
+      "bytes": 83492,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/arif-stone-pendant-20261028-1280.webp",
+      "width": 1280,
+      "height": 1280,
+      "sha256": "ebcb1de0f940d54390bee8a7c3562a1088cf2e58a5defd040c292e9651f85fd4",
+      "bytes": 341866,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/arif-stone-pendant-20261028.webp",
+      "width": 2560,
+      "height": 2560,
+      "sha256": "58cc03eb9cf419f98986878049cabafbfb5547a3bd77c2ca2d5f1ddb1b3e75d8",
+      "bytes": 1352512,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/michael-white-lapel-necklace-20261028-640.webp",
+      "width": 640,
+      "height": 427,
+      "sha256": "e5837c9917781552662bbcd2259484305249104ac3830b3fab85461239aab367",
+      "bytes": 32868,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/michael-white-lapel-necklace-20261028-1280.webp",
+      "width": 1280,
+      "height": 853,
+      "sha256": "be4e24f71037c8601b44d95fd25b1d16fce333cb02df15bf3162f7072cda5b35",
+      "bytes": 131796,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/michael-white-lapel-necklace-20261028.webp",
+      "width": 2560,
+      "height": 1707,
+      "sha256": "caee4758f64ba73067c6924a30850432c65fea949d7722fb15e12777d6055002",
+      "bytes": 971972,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/shvets-white-sculpture-20261028-640.webp",
+      "width": 640,
+      "height": 426,
+      "sha256": "14c16123e8336229c3ce4e6ff18cc5273f63cde5e2e211634c4b72a8d86502ac",
+      "bytes": 19392,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/shvets-white-sculpture-20261028-1280.webp",
+      "width": 1280,
+      "height": 852,
+      "sha256": "2f24feb31788db29f1178b05c1fc074a72bedc325a644ab9b5563cd9c7dc6f76",
+      "bytes": 50388,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/shvets-white-sculpture-20261028.webp",
+      "width": 2560,
+      "height": 1703,
+      "sha256": "b59e5a626a8d06aa3878420d36fb86b2b01b1c1e5396f8866ba67a96725c0053",
+      "bytes": 145226,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/ronin-white-architecture-20261028-640.webp",
+      "width": 640,
+      "height": 971,
+      "sha256": "a5dc77284775dda8e4658a73405814d6309f56132094a43c60173c1293c49834",
+      "bytes": 138658,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/ronin-white-architecture-20261028-1280.webp",
+      "width": 1280,
+      "height": 1943,
+      "sha256": "5c067dbcde832d21d669061d14b5a7a92efe87a040dbb0951fd286de0f2d1184",
+      "bytes": 390332,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/ronin-white-architecture-20261028.webp",
+      "width": 2560,
+      "height": 3886,
+      "sha256": "3c000f23e2245ec1105f13e24dfe58c6ab7378f884d600123fc83f1a9f77dcb2",
+      "bytes": 1760524,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/klaudia-pale-rounded-jewelry-20261028-640.webp",
+      "width": 640,
+      "height": 960,
+      "sha256": "cf6470d97cfdc26b2c6d485bdbcbb8841e88f35e3fbfd0302275adfa7483567e",
+      "bytes": 80486,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/klaudia-pale-rounded-jewelry-20261028-1280.webp",
+      "width": 1280,
+      "height": 1920,
+      "sha256": "a7409543652978405f7e4cf7b7cf6967f71c57d4936d6547aa535044ba2b92ee",
+      "bytes": 277202,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/klaudia-pale-rounded-jewelry-20261028.webp",
+      "width": 2560,
+      "height": 3840,
+      "sha256": "bf5072f5cbcdc8a8b19aa0ec3daff1d664e0ce46fac306945a69bed727842cb3",
+      "bytes": 886202,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/darkshade-pink-bow-20261028-640.webp",
+      "width": 640,
+      "height": 960,
+      "sha256": "4f025595feda3310258604b3ed3f4c84ba54383125ccf38acccf3b2e6514a94b",
+      "bytes": 55144,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/darkshade-pink-bow-20261028-1280.webp",
+      "width": 1280,
+      "height": 1920,
+      "sha256": "b223deacf946e90650c99a4e109e27314c49ba39fc8cff0c153a8174ddd31d10",
+      "bytes": 173406,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/darkshade-pink-bow-20261028.webp",
+      "width": 2560,
+      "height": 3840,
+      "sha256": "73509d8b63e4a97b19b09e9d2ace7ab39100c44a28b94dc5c503c6c744e5b7fd",
+      "bytes": 681960,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/travel-textured-skirt-set-20261028-640.webp",
+      "width": 640,
+      "height": 960,
+      "sha256": "6cf73a3919b5eb28d31d85e9a88d3d246ce1a65c0568dd40c136fd16229f8bd9",
+      "bytes": 216742,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/travel-textured-skirt-set-20261028-1280.webp",
+      "width": 1280,
+      "height": 1920,
+      "sha256": "2635e91b86f0dd212c9f2a556f1bc405d02c63d6416e72c6537e7e864d317b55",
+      "bytes": 704072,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/travel-textured-skirt-set-20261028.webp",
+      "width": 2560,
+      "height": 3840,
+      "sha256": "7d4639f642e4e0b69a08ac6368b75e48dcf1d76c46cd4000933e3a7438e7c582",
+      "bytes": 2058888,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/cottonbro-pastel-skirt-set-20261028-640.webp",
+      "width": 640,
+      "height": 427,
+      "sha256": "72033dc192439e63be4c02a1fd98b98c5ad68128be10ce1397df29bbf0a01492",
+      "bytes": 14296,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/cottonbro-pastel-skirt-set-20261028-1280.webp",
+      "width": 1280,
+      "height": 853,
+      "sha256": "4ce91bf50a7869a302f3484b2360691171939fbf9e9665be4a288a86082a0bbc",
+      "bytes": 39546,
+      "fullyDecoded": true
+    },
+    {
+      "path": "assets/img/style-photography/cottonbro-pastel-skirt-set-20261028.webp",
+      "width": 2560,
+      "height": 1706,
+      "sha256": "dd639b22da90f0fd328f965355bdbb2e69e0c3cca4db4a51a3c51d7a600ff8cf",
+      "bytes": 110982,
+      "fullyDecoded": true
+    }
+  ],
+  "checks": {
+    "passed": true,
+    "reproducibleBuild": true,
+    "pages": 227,
+    "brands": 40,
+    "searchableItems": 156,
+    "pythonRegressionTests": 19,
+    "frontendAssertions": 110,
+    "method": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test"
+  },
+  "browser": {
+    "passed": true,
+    "checks": [
+      {
+        "page": "womens-style.html",
+        "device": "desktop",
+        "columns": "376.664px 376.664px 376.664px",
+        "documentWidth": 1280,
+        "images": [
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/zaid-black-studio-20261028-1280.webp",
+            "displayWidth": 375,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/zaid-black-studio-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/luis-black-architecture-20261028-1280.webp",
+            "displayWidth": 375,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/luis-black-architecture-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/johann-pattern-shadows-20261028-1280.webp",
+            "displayWidth": 375,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/johann-pattern-shadows-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/tima-cinema-coat-20261028-1280.webp",
+            "displayWidth": 375,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/tima-cinema-coat-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/nives-staircase-outfit-20261028-1280.webp",
+            "displayWidth": 375,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/nives-staircase-outfit-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/andrea-black-dress-feathers-20261028-1280.webp",
+            "displayWidth": 375,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/andrea-black-dress-feathers-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/andrea-white-rome-20261028-1280.webp",
+            "displayWidth": 375,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/andrea-white-rome-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/hannah-beige-studio-20261028-1280.webp",
+            "displayWidth": 375,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/hannah-beige-studio-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/david-cropped-gold-buttons-20261028-1280.webp",
+            "displayWidth": 375,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/david-cropped-gold-buttons-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 375,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/kehinde-marine-buttons-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 375,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/arif-stone-pendant-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 375,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/michael-white-lapel-necklace-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 375,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/shvets-white-sculpture-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 375,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/ronin-white-architecture-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 375,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/klaudia-pale-rounded-jewelry-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 375,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/darkshade-pink-bow-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 375,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/travel-textured-skirt-set-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 375,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/cottonbro-pastel-skirt-set-20261028.webp"
+          }
+        ],
+        "intro": "三种风格，18幅摄影：从影棚到建筑与室内，观察剪裁、配饰和场景如何彼此呼应。每种风格各有6张参考图，点击图片可放大。",
+        "photographs": 18,
+        "title": "The Style Atlas｜MuseLux",
+        "width": 1280
+      },
+      {
+        "page": "style/napoleon-core.html",
+        "device": "desktop",
+        "columns": "573px 573px",
+        "documentWidth": 1280,
+        "images": [
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/andrea-white-rome-20261028-1280.webp",
+            "displayWidth": 571,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/andrea-white-rome-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/hannah-beige-studio-20261028-1280.webp",
+            "displayWidth": 571,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/hannah-beige-studio-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/david-cropped-gold-buttons-20261028-1280.webp",
+            "displayWidth": 571,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/david-cropped-gold-buttons-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/kehinde-marine-buttons-20261028-1280.webp",
+            "displayWidth": 571,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/kehinde-marine-buttons-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 571,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/arif-stone-pendant-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 571,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/michael-white-lapel-necklace-20261028.webp"
+          }
+        ],
+        "intro": "6幅摄影，观察剪裁、配饰与背景怎样一起形成风格。照片按可见设计细节选入，衣物与首饰不作品牌鉴定。",
+        "photographs": 6,
+        "title": "Napoleon Core｜MuseLux",
+        "width": 1280
+      },
+      {
+        "page": "style/napoleon-core.html",
+        "device": "tablet",
+        "columns": "361.5px 361.5px",
+        "documentWidth": 800,
+        "images": [
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/andrea-white-rome-20261028-640.webp",
+            "displayWidth": 360,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/andrea-white-rome-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/hannah-beige-studio-20261028-640.webp",
+            "displayWidth": 360,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/hannah-beige-studio-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/david-cropped-gold-buttons-20261028-640.webp",
+            "displayWidth": 360,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/david-cropped-gold-buttons-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/kehinde-marine-buttons-20261028-640.webp",
+            "displayWidth": 360,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/kehinde-marine-buttons-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/arif-stone-pendant-20261028-640.webp",
+            "displayWidth": 360,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/arif-stone-pendant-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/michael-white-lapel-necklace-20261028-640.webp",
+            "displayWidth": 360,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/michael-white-lapel-necklace-20261028.webp"
+          }
+        ],
+        "intro": "6幅摄影，观察剪裁、配饰与背景怎样一起形成风格。照片按可见设计细节选入，衣物与首饰不作品牌鉴定。",
+        "photographs": 6,
+        "title": "Napoleon Core｜MuseLux",
+        "width": 800
+      },
+      {
+        "page": "style/napoleon-core.html",
+        "device": "tablet-after-new-photos",
+        "columns": "361.5px 361.5px",
+        "documentWidth": 800,
+        "images": [
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/andrea-white-rome-20261028-640.webp",
+            "displayWidth": 360,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/andrea-white-rome-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/hannah-beige-studio-20261028-640.webp",
+            "displayWidth": 360,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/hannah-beige-studio-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/david-cropped-gold-buttons-20261028-640.webp",
+            "displayWidth": 360,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/david-cropped-gold-buttons-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/kehinde-marine-buttons-20261028-640.webp",
+            "displayWidth": 360,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/kehinde-marine-buttons-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/arif-stone-pendant-20261028-640.webp",
+            "displayWidth": 360,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/arif-stone-pendant-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/michael-white-lapel-necklace-20261028-640.webp",
+            "displayWidth": 360,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/michael-white-lapel-necklace-20261028.webp"
+          }
+        ],
+        "intro": "6幅摄影，观察剪裁、配饰与背景怎样一起形成风格。照片按可见设计细节选入，衣物与首饰不作品牌鉴定。",
+        "photographs": 6,
+        "title": "Napoleon Core｜MuseLux",
+        "width": 800
+      },
+      {
+        "page": "womens-style.html",
+        "device": "mobile",
+        "columns": "360px",
+        "documentWidth": 404,
+        "images": [
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/zaid-black-studio-20261028-640.webp",
+            "displayWidth": 358,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/zaid-black-studio-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/luis-black-architecture-20261028-640.webp",
+            "displayWidth": 358,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/luis-black-architecture-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/johann-pattern-shadows-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/tima-cinema-coat-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/nives-staircase-outfit-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/andrea-black-dress-feathers-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/andrea-white-rome-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/hannah-beige-studio-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/david-cropped-gold-buttons-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/kehinde-marine-buttons-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/arif-stone-pendant-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/michael-white-lapel-necklace-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/shvets-white-sculpture-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/ronin-white-architecture-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/klaudia-pale-rounded-jewelry-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/darkshade-pink-bow-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/travel-textured-skirt-set-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "assets/img/style-photography/cottonbro-pastel-skirt-set-20261028.webp"
+          }
+        ],
+        "intro": "三种风格，18幅摄影：从影棚到建筑与室内，观察剪裁、配饰和场景如何彼此呼应。每种风格各有6张参考图，点击图片可放大。",
+        "photographs": 18,
+        "title": "The Style Atlas｜MuseLux",
+        "width": 404
+      },
+      {
+        "page": "style/mob-wife.html",
+        "device": "mobile",
+        "columns": "360px",
+        "documentWidth": 404,
+        "images": [
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/zaid-black-studio-20261028-640.webp",
+            "displayWidth": 358,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/zaid-black-studio-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/luis-black-architecture-20261028-640.webp",
+            "displayWidth": 358,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/luis-black-architecture-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/johann-pattern-shadows-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/tima-cinema-coat-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/nives-staircase-outfit-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/andrea-black-dress-feathers-20261028.webp"
+          }
+        ],
+        "intro": "6幅摄影，观察剪裁、配饰与背景怎样一起形成风格。照片按可见设计细节选入，衣物与首饰不作品牌鉴定。",
+        "photographs": 6,
+        "title": "Mob Wife｜MuseLux",
+        "width": 404
+      },
+      {
+        "page": "style/napoleon-core.html",
+        "device": "mobile",
+        "columns": "360px",
+        "documentWidth": 404,
+        "images": [
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/andrea-white-rome-20261028-640.webp",
+            "displayWidth": 358,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/andrea-white-rome-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/hannah-beige-studio-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/david-cropped-gold-buttons-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/kehinde-marine-buttons-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/arif-stone-pendant-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/michael-white-lapel-necklace-20261028.webp"
+          }
+        ],
+        "intro": "6幅摄影，观察剪裁、配饰与背景怎样一起形成风格。照片按可见设计细节选入，衣物与首饰不作品牌鉴定。",
+        "photographs": 6,
+        "title": "Napoleon Core｜MuseLux",
+        "width": 404
+      },
+      {
+        "page": "style/heiress.html",
+        "device": "mobile",
+        "columns": "360px",
+        "documentWidth": 404,
+        "images": [
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/shvets-white-sculpture-20261028-640.webp",
+            "displayWidth": 358,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/shvets-white-sculpture-20261028.webp"
+          },
+          {
+            "complete": true,
+            "currentSrc": "http://127.0.0.1:8766/assets/img/style-photography/ronin-white-architecture-20261028-640.webp",
+            "displayWidth": 358,
+            "loaded": true,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/ronin-white-architecture-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/klaudia-pale-rounded-jewelry-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/darkshade-pink-bow-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/travel-textured-skirt-set-20261028.webp"
+          },
+          {
+            "complete": false,
+            "currentSrc": "",
+            "displayWidth": 358,
+            "loaded": false,
+            "loading": "lazy",
+            "src": "../assets/img/style-photography/cottonbro-pastel-skirt-set-20261028.webp"
+          }
+        ],
+        "intro": "6幅摄影，观察剪裁、配饰与背景怎样一起形成风格。照片按可见设计细节选入，衣物与首饰不作品牌鉴定。",
+        "photographs": 6,
+        "title": "Polished Heiress｜MuseLux",
+        "width": 404
+      }
+    ],
+    "masterImage": {
+      "images": [
+        {
+          "complete": true,
+          "height": 1707,
+          "width": 2560
+        }
+      ],
+      "url": "http://127.0.0.1:8766/assets/img/style-photography/michael-white-lapel-necklace-20261028.webp"
+    },
+    "consoleErrors": [],
+    "previewScreenshot": "reports/style-photography-expansion-page-preview.png",
+    "tabsOpened": 1,
+    "tabsClosed": 1,
+    "tabsRemaining": 0,
+    "peakTotalTabs": 7,
+    "scope": "1280px hub and detail, 800px detail with new photographs, 404px hub and all three details; representative master image opened in the same tab.",
+    "totalTargetsAfterCleanup": 6,
+    "previewServerStopped": true,
+    "previewServerPID": 94779
+  },
+  "researchBrowserTabsOpened": 0,
+  "contactSheet": "reports/style-photography-expansion-contact.jpg",
+  "graphflow": "No callable GraphFlow tools exposed; narrow source reads and required project gate used."
+}

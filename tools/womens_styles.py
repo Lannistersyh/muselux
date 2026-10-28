@@ -100,7 +100,7 @@ def photography_section(atlas,style=None,prefix=''):
         image=responsive_image(photo['image'],photo['variants'],prefix,photo['alt'],'(max-width:768px) calc(100vw - 40px), 600px' if style else '(max-width:768px) calc(100vw - 40px), 410px')
         more=f'<a class="text-link" href="{prefix}style/{photo["style"]}.html#photography">放进{e(names[photo["style"]])}看一看 ↗</a>' if style is None else ''
         cards.append(f'''<figure class="style-photo-study"><a class="style-photo-image" href="{prefix}{e(photo['image']['path'])}" target="_blank" rel="noopener" aria-label="放大摄影作品：{e(photo['title'])}">{image}</a><figcaption><p class="eyebrow rose-text">{e(photo['setting'])}</p><h3>{e(photo['title'])}</h3><p>{e(photo['captionZh'])}</p><p lang="en">{e(photo['captionEn'])}</p><div class="style-photo-credit"><a href="{e(photo['source'])}" target="_blank" rel="noopener">Photo: {e(photo['photographer'])} ↗</a><span>原图 {photo['sourceWidth']}×{photo['sourceHeight']}</span><a href="{e(photo['licenseURL'])}" target="_blank" rel="noopener">{e(photo['licenseName'])}</a></div>{more}</figcaption></figure>''')
-    intro='两幅摄影，观察剪裁、配饰与背景怎样一起形成风格。照片按可见设计细节选入，衣物与首饰不作品牌鉴定。' if style else photography['intro']
+    intro=f'{len(photos)}幅摄影，观察剪裁、配饰与背景怎样一起形成风格。照片按可见设计细节选入，衣物与首饰不作品牌鉴定。' if style else photography['intro']
     return f'''<section class="style-photography style-section" id="photography"><p class="eyebrow rose-text">STYLE IN FOCUS / A WIDER FRAME</p><h2>让穿搭，也成为一幅画</h2><p class="style-section-note">{e(intro)}</p><div class="style-photo-grid {'style-photo-grid-pair' if style else ''}">{''.join(cards)}</div></section>'''
 
 

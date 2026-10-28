@@ -1,0 +1,599 @@
+{
+  "checkedAt": "2026-10-28T06:34:42.469974+00:00",
+  "scope": "Twelve additional licensed photographic studies; four per existing style. Existing six retained.",
+  "addedPhotos": 12,
+  "totalPhotos": 18,
+  "perStyle": {
+    "mob-wife": 6,
+    "napoleon-core": 6,
+    "heiress": 6
+  },
+  "publicationRule": "Original Pexels works verified at their primary pages; full composition, bilingual editorial commentary, attribution and license links. No pictured wardrobe brand, material, endorsement or same-item identity inferred.",
+  "license": {
+    "url": "https://www.pexels.com/license/",
+    "checkedAt": "2026-10-28",
+    "websiteUseAllowed": true,
+    "noEndorsementClaim": true
+  },
+  "browserTabsOpenedForResearch": 0,
+  "records": [
+    {
+      "id": "johann-pattern-shadows",
+      "style": "mob-wife",
+      "title": "影中斑纹",
+      "setting": "墙影与纹理 / CHIAROSCURO",
+      "photographer": "Johann Knorst",
+      "source": "https://www.pexels.com/photo/elegant-woman-in-faux-fur-coat-posing-in-shadows-33639140/",
+      "imageSource": "https://images.pexels.com/photos/33639140/pexels-photo-33639140.jpeg",
+      "sourceWidth": 6336,
+      "sourceHeight": 9504,
+      "sourceSha256": "79cd4f7550dca9f32d17ccd08f372d39c4760a0945729b56c48cf9d2c766b020",
+      "sourceBytes": 2350924,
+      "sourceTitle": "Elegant Woman in Faux Fur Coat Posing in Shadows",
+      "sourceDescription": "Stylish woman in a faux fur coat sitting on a chair, dramatic indoor lighting.",
+      "sourcePageVerified": true,
+      "licenseVerified": true,
+      "licenseURL": "https://www.pexels.com/license/",
+      "visuallyInspected": true,
+      "selectionReason": "全身坐姿能读到外套、深色内搭与靴子的比例；鲜明的蓬松纹理和墙面硬光为系列增加强势的动物纹造型。",
+      "sourceFullyDecoded": true,
+      "outputFullyDecoded": true,
+      "outputOrientation": "EXIF normalized; full composition preserved",
+      "outputVariants": [
+        {
+          "path": "assets/img/style-photography/johann-pattern-shadows-20261028-640.webp",
+          "width": 640,
+          "height": 960,
+          "sha256": "fdf021e8f49aba7088113d326686343f1e48140d282f2ed165cd3e50fd2b8deb",
+          "bytes": 55624
+        },
+        {
+          "path": "assets/img/style-photography/johann-pattern-shadows-20261028-1280.webp",
+          "width": 1280,
+          "height": 1920,
+          "sha256": "d989e46ce9ce8849980d54c7bbdcdf3f1fcbabb9226d57d54033c62a8f9e85a1",
+          "bytes": 166348
+        },
+        {
+          "path": "assets/img/style-photography/johann-pattern-shadows-20261028.webp",
+          "width": 2560,
+          "height": 3840,
+          "sha256": "f1de47c432123c47cc8fa8dde0d9e7b4f0e9c03cd7509dfbda6f38b8c2b9c707",
+          "bytes": 536492
+        }
+      ]
+    },
+    {
+      "id": "tima-cinema-coat",
+      "style": "mob-wife",
+      "title": "红座暗场",
+      "setting": "影院暗场 / CINEMA",
+      "photographer": "Tima Miroshnichenko",
+      "source": "https://www.pexels.com/photo/a-woman-in-brown-fur-coat-posing-on-a-chair-in-a-cinema-7991187/",
+      "imageSource": "https://images.pexels.com/photos/7991187/pexels-photo-7991187.jpeg",
+      "sourceWidth": 3745,
+      "sourceHeight": 5618,
+      "sourceSha256": "cdca2c1796e6244d81aa29f2587d2286f617605ec22e92205db61d63d952b94f",
+      "sourceBytes": 1283877,
+      "sourceTitle": "A Woman in Brown Fur Coat Posing on a Chair in a Cinema",
+      "sourceDescription": "Elegant woman in a fur coat sitting in a theater, posing thoughtfully.",
+      "sourcePageVerified": true,
+      "licenseVerified": true,
+      "licenseURL": "https://www.pexels.com/license/",
+      "visuallyInspected": true,
+      "selectionReason": "将醒目耳饰、蓬松外套、深色穿搭和经过选择的室内场景结合；红色座席带来明确的场景变化，画面保留从外套到靴子的穿搭信息。",
+      "sourceFullyDecoded": true,
+      "outputFullyDecoded": true,
+      "outputOrientation": "EXIF normalized; full composition preserved",
+      "outputVariants": [
+        {
+          "path": "assets/img/style-photography/tima-cinema-coat-20261028-640.webp",
+          "width": 640,
+          "height": 960,
+          "sha256": "0bdec73c39a81f1d9f805068ba5e769f1dd2b70334f4bee994aae69547f3393e",
+          "bytes": 66934
+        },
+        {
+          "path": "assets/img/style-photography/tima-cinema-coat-20261028-1280.webp",
+          "width": 1280,
+          "height": 1920,
+          "sha256": "b29e3c541f6c734d60c8f06bab527a2300ea9ebd16edd6dc72c771e4d7b29120",
+          "bytes": 261696
+        },
+        {
+          "path": "assets/img/style-photography/tima-cinema-coat-20261028.webp",
+          "width": 2560,
+          "height": 3840,
+          "sha256": "26877f2aed84d81b0034f75b4cfd4494da3ba871352c0ff75b5692877fcd6475",
+          "bytes": 1050924
+        }
+      ]
+    },
+    {
+      "id": "nives-staircase-outfit",
+      "style": "mob-wife",
+      "title": "阶梯间的气场",
+      "setting": "建筑楼梯 / ARCHITECTURE",
+      "photographer": "Nives Plander",
+      "source": "https://www.pexels.com/photo/model-in-brown-fur-coat-and-black-blouse-sitting-on-the-staircase-20251666/",
+      "imageSource": "https://images.pexels.com/photos/20251666/pexels-photo-20251666.jpeg",
+      "sourceWidth": 4000,
+      "sourceHeight": 5343,
+      "sourceSha256": "77b9640d0bb5f151129b821ebcfbbcf115ad4d2aec08cc094fe71bc3ca0584b9",
+      "sourceBytes": 1581927,
+      "sourceTitle": "Model in Brown Fur Coat and Black Blouse Sitting on the Staircase",
+      "sourceDescription": "Stylish woman in sunglasses and a fur coat poses on stairs in a fashionable photoshoot.",
+      "sourcePageVerified": true,
+      "licenseVerified": true,
+      "licenseURL": "https://www.pexels.com/license/",
+      "visuallyInspected": true,
+      "selectionReason": "从外套到鞋履的完整搭配清楚可见；楼梯与门洞构成明确的建筑场景，墨镜和花纹丝袜丰富配饰层次。",
+      "sourceFullyDecoded": true,
+      "outputFullyDecoded": true,
+      "outputOrientation": "EXIF normalized; full composition preserved",
+      "outputVariants": [
+        {
+          "path": "assets/img/style-photography/nives-staircase-outfit-20261028-640.webp",
+          "width": 640,
+          "height": 855,
+          "sha256": "980ad8b79ad06aa31fa0b5d789245704d808a12f2bc840ab973ab6dac0753ebd",
+          "bytes": 75816
+        },
+        {
+          "path": "assets/img/style-photography/nives-staircase-outfit-20261028-1280.webp",
+          "width": 1280,
+          "height": 1710,
+          "sha256": "2c9e984b234aa99be8701399444a5de2878c462b32080fcf0cf1bf8c18f1d4f6",
+          "bytes": 282452
+        },
+        {
+          "path": "assets/img/style-photography/nives-staircase-outfit-20261028.webp",
+          "width": 2560,
+          "height": 3420,
+          "sha256": "c856d47173d6af18b851603cc6a0f61f725aea3e97702efb87341e904241ad4e",
+          "bytes": 1181736
+        }
+      ]
+    },
+    {
+      "id": "andrea-black-dress-feathers",
+      "style": "mob-wife",
+      "title": "黑裙与羽饰",
+      "setting": "浅色影棚 / STUDIO",
+      "photographer": "Andrea Musto",
+      "source": "https://www.pexels.com/photo/elegant-woman-in-black-dress-studio-portrait-29061641/",
+      "imageSource": "https://images.pexels.com/photos/29061641/pexels-photo-29061641.jpeg",
+      "sourceWidth": 4016,
+      "sourceHeight": 6016,
+      "sourceSha256": "57a8a537d3311f13b2fab9aef32ce3c602887fcf990cc7f0b6cd8452fe40099c",
+      "sourceBytes": 1304236,
+      "sourceTitle": "Elegant Woman in Black Dress Studio Portrait",
+      "sourceDescription": "A stylish woman poses in a black dress holding a feather boa in a studio setting.",
+      "sourcePageVerified": true,
+      "licenseVerified": true,
+      "licenseURL": "https://www.pexels.com/license/",
+      "visuallyInspected": true,
+      "selectionReason": "全身正面穿搭与浅色纯背景补足场景变化；黑裙、红唇和羽饰以更简洁的画面呈现复古华丽感。",
+      "sourceFullyDecoded": true,
+      "outputFullyDecoded": true,
+      "outputOrientation": "EXIF normalized; full composition preserved",
+      "outputVariants": [
+        {
+          "path": "assets/img/style-photography/andrea-black-dress-feathers-20261028-640.webp",
+          "width": 640,
+          "height": 959,
+          "sha256": "d1a4b8bf4518b3a473f1f77dca22aff5fe7a0f9891dc05f87239b221d3367805",
+          "bytes": 58686
+        },
+        {
+          "path": "assets/img/style-photography/andrea-black-dress-feathers-20261028-1280.webp",
+          "width": 1280,
+          "height": 1917,
+          "sha256": "d4c6fb911c61ee5ac54f5c4da0b8a9a32a9061e41d66903e70398d6a997dd768",
+          "bytes": 239116
+        },
+        {
+          "path": "assets/img/style-photography/andrea-black-dress-feathers-20261028.webp",
+          "width": 2560,
+          "height": 3835,
+          "sha256": "c955cf5b59668c0a08a6018d897ec1e537bedc341a8cef76fd7bfac3aac9f472",
+          "bytes": 853932
+        }
+      ]
+    },
+    {
+      "id": "david-cropped-gold-buttons",
+      "style": "napoleon-core",
+      "title": "短身线条，金色扣列",
+      "setting": "纯灰影棚 / STUDIO",
+      "photographer": "David Manzyk",
+      "source": "https://www.pexels.com/photo/young-model-in-a-black-bolero-with-golden-buttons-and-pants-with-an-unfastened-belt-19771923/",
+      "imageSource": "https://images.pexels.com/photos/19771923/pexels-photo-19771923.jpeg",
+      "sourceWidth": 4480,
+      "sourceHeight": 6720,
+      "sourceSha256": "1cf32912e24aa7824cf1005448b7553f5980a83c8614d7b7e28d8105b55de150",
+      "sourceBytes": 1974056,
+      "sourceTitle": "Young Model in a Black Bolero with Golden Buttons and Pants with an Unfastened Belt",
+      "sourceDescription": "Fashion model posing in a chic bolero jacket with golden buttons in a studio setting.",
+      "sourcePageVerified": true,
+      "licenseVerified": true,
+      "licenseURL": "https://www.pexels.com/license/",
+      "visuallyInspected": true,
+      "selectionReason": "最直接的风格对应：短外套、清晰肩线、规则金色扣列与可见腰线；躯干构图完整，适合展示轮廓。",
+      "visibleDesignDetails": [
+        "cropped black jacket",
+        "four gold-tone front buttons in a double-breasted arrangement",
+        "defined shoulder line",
+        "exposed waist",
+        "plain gray studio background"
+      ],
+      "sourceFullyDecoded": true,
+      "outputFullyDecoded": true,
+      "outputOrientation": "EXIF normalized; full composition preserved",
+      "outputVariants": [
+        {
+          "path": "assets/img/style-photography/david-cropped-gold-buttons-20261028-640.webp",
+          "width": 640,
+          "height": 960,
+          "sha256": "17c0b8f590cce2177c5ccd52d9d560307cb788c309812aedd458ca4e80b3746e",
+          "bytes": 40938
+        },
+        {
+          "path": "assets/img/style-photography/david-cropped-gold-buttons-20261028-1280.webp",
+          "width": 1280,
+          "height": 1920,
+          "sha256": "d99d2d1c6a63fb3ab19f442e3020e15f076e5f8cbb738a9a78a3a76c22901a06",
+          "bytes": 132678
+        },
+        {
+          "path": "assets/img/style-photography/david-cropped-gold-buttons-20261028.webp",
+          "width": 2560,
+          "height": 3840,
+          "sha256": "f104a98b5fa163cda06a09aa40c4884a632bc680e8a3e955bc988df74345db32",
+          "bytes": 991878
+        }
+      ]
+    },
+    {
+      "id": "kehinde-marine-buttons",
+      "style": "napoleon-core",
+      "title": "暖色影棚中的金扣节奏",
+      "setting": "暖棕影棚 / STUDIO",
+      "photographer": "kehinde solomon o ogunsanya",
+      "source": "https://www.pexels.com/photo/woman-posing-in-marine-blazer-jacket-17542260/",
+      "imageSource": "https://images.pexels.com/photos/17542260/pexels-photo-17542260.jpeg",
+      "sourceWidth": 4160,
+      "sourceHeight": 6240,
+      "sourceSha256": "2cefb5996617cae524512cb8702eb39ae9c941807537f208bb7a82083588f7ff",
+      "sourceBytes": 3789975,
+      "sourceTitle": "Woman Posing in Marine Blazer Jacket",
+      "sourceDescription": "Stylish woman wearing a blazer, cap, and headscarf in a studio shot against a brown background.",
+      "sourcePageVerified": true,
+      "licenseVerified": true,
+      "licenseURL": "https://www.pexels.com/license/",
+      "visuallyInspected": true,
+      "selectionReason": "提供不同的五金细节视角：前襟扣与袖扣都容易辨认；帽子、头巾和棕色影棚带来另一种造型与色彩。",
+      "visibleDesignDetails": [
+        "black double-breasted jacket",
+        "raised gold-tone front buttons",
+        "matching cuff buttons",
+        "cap with red stripe",
+        "tied patterned headscarf",
+        "plain warm brown studio background"
+      ],
+      "sourceFullyDecoded": true,
+      "outputFullyDecoded": true,
+      "outputOrientation": "EXIF normalized; full composition preserved",
+      "outputVariants": [
+        {
+          "path": "assets/img/style-photography/kehinde-marine-buttons-20261028-640.webp",
+          "width": 640,
+          "height": 960,
+          "sha256": "aafdf4f62aaa3475945554606699c4cdd6edd12e22c9484aff7e3e96086eaf76",
+          "bytes": 86882
+        },
+        {
+          "path": "assets/img/style-photography/kehinde-marine-buttons-20261028-1280.webp",
+          "width": 1280,
+          "height": 1920,
+          "sha256": "aacd88e13a596fd4e10a3b9d6f84ab5910a09f807780b04a361bac2aa9668809",
+          "bytes": 428340
+        },
+        {
+          "path": "assets/img/style-photography/kehinde-marine-buttons-20261028.webp",
+          "width": 2560,
+          "height": 3840,
+          "sha256": "00e6a495f772d5fc1c21c0e9fccc19c351d726063a0289898601f83e15125b95",
+          "bytes": 2744702
+        }
+      ]
+    },
+    {
+      "id": "arif-stone-pendant",
+      "style": "napoleon-core",
+      "title": "深色翻领，珠白点缀",
+      "setting": "石墙近景 / DETAIL",
+      "photographer": "Arif khan",
+      "source": "https://www.pexels.com/photo/portrait-of-elegant-woman-wearing-necklace-18285668/",
+      "imageSource": "https://images.pexels.com/photos/18285668/pexels-photo-18285668.jpeg",
+      "sourceWidth": 4683,
+      "sourceHeight": 4683,
+      "sourceSha256": "95bd9f3e00cee2693ee1bc2647eba985b161ba8bb0a64602fc1ed17289dcf2f0",
+      "sourceBytes": 2149123,
+      "sourceTitle": "Portrait of Elegant Woman Wearing Necklace",
+      "sourceDescription": "Sophisticated portrait of a woman wearing a black blazer and pearl jewelry against a stone wall.",
+      "sourcePageVerified": true,
+      "licenseVerified": true,
+      "licenseURL": "https://www.pexels.com/license/",
+      "visuallyInspected": true,
+      "selectionReason": "增加石墙建筑肌理与配饰近景，将细链吊坠和袖口金扣放在同一画面，形成与完整影棚轮廓不同的观看层次。",
+      "visibleDesignDetails": [
+        "black notched lapels",
+        "fine gold-tone chain with irregular white pendant",
+        "pale round earrings",
+        "fine bracelet with pale accent",
+        "gold-tone cuff buttons at bottom edge",
+        "textured stone wall"
+      ],
+      "sourceFullyDecoded": true,
+      "outputFullyDecoded": true,
+      "outputOrientation": "EXIF normalized; full composition preserved",
+      "outputVariants": [
+        {
+          "path": "assets/img/style-photography/arif-stone-pendant-20261028-640.webp",
+          "width": 640,
+          "height": 640,
+          "sha256": "37bd176d7c72b9851659bf12483727fdd9b05d765c16d70daec4cec27e8e475e",
+          "bytes": 83492
+        },
+        {
+          "path": "assets/img/style-photography/arif-stone-pendant-20261028-1280.webp",
+          "width": 1280,
+          "height": 1280,
+          "sha256": "ebcb1de0f940d54390bee8a7c3562a1088cf2e58a5defd040c292e9651f85fd4",
+          "bytes": 341866
+        },
+        {
+          "path": "assets/img/style-photography/arif-stone-pendant-20261028.webp",
+          "width": 2560,
+          "height": 2560,
+          "sha256": "58cc03eb9cf419f98986878049cabafbfb5547a3bd77c2ca2d5f1ddb1b3e75d8",
+          "bytes": 1352512
+        }
+      ]
+    },
+    {
+      "id": "michael-white-lapel-necklace",
+      "style": "napoleon-core",
+      "title": "白色翻领间的一圈珠链",
+      "setting": "珠链近景 / DETAIL",
+      "photographer": "Michael koneckiy",
+      "source": "https://www.pexels.com/photo/close-up-of-a-woman-wearing-a-pearl-necklace-with-a-heart-pendant-20877330/",
+      "imageSource": "https://images.pexels.com/photos/20877330/pexels-photo-20877330.jpeg",
+      "sourceWidth": 6000,
+      "sourceHeight": 4000,
+      "sourceSha256": "e37b2e02e76e9a5f796ca8baccdd87ccd7fb2b4e71ac0553538d001295455653",
+      "sourceBytes": 3505775,
+      "sourceTitle": "Close-up of a Woman Wearing a Pearl Necklace with a Heart Pendant",
+      "sourceDescription": "Close-up of a pearl necklace with a gold heart pendant over a white blazer.",
+      "sourcePageVerified": true,
+      "licenseVerified": true,
+      "licenseURL": "https://www.pexels.com/license/",
+      "visuallyInspected": true,
+      "selectionReason": "提供浅色调的横幅细节画面，清楚展示珠链点缀；与深色外套主图形成色彩和景别差异。",
+      "visibleDesignDetails": [
+        "single pale beaded necklace",
+        "gold-tone heart pendant",
+        "broad white lapels",
+        "tight neckline close-up",
+        "soft neutral background"
+      ],
+      "sourceFullyDecoded": true,
+      "outputFullyDecoded": true,
+      "outputOrientation": "EXIF normalized; full composition preserved",
+      "outputVariants": [
+        {
+          "path": "assets/img/style-photography/michael-white-lapel-necklace-20261028-640.webp",
+          "width": 640,
+          "height": 427,
+          "sha256": "e5837c9917781552662bbcd2259484305249104ac3830b3fab85461239aab367",
+          "bytes": 32868
+        },
+        {
+          "path": "assets/img/style-photography/michael-white-lapel-necklace-20261028-1280.webp",
+          "width": 1280,
+          "height": 853,
+          "sha256": "be4e24f71037c8601b44d95fd25b1d16fce333cb02df15bf3162f7072cda5b35",
+          "bytes": 131796
+        },
+        {
+          "path": "assets/img/style-photography/michael-white-lapel-necklace-20261028.webp",
+          "width": 2560,
+          "height": 1707,
+          "sha256": "caee4758f64ba73067c6924a30850432c65fea949d7722fb15e12777d6055002",
+          "bytes": 971972
+        }
+      ]
+    },
+    {
+      "id": "klaudia-pale-rounded-jewelry",
+      "style": "heiress",
+      "title": "圆珠与浅色开衫",
+      "setting": "浅灰影棚 / DETAIL",
+      "photographer": "Klaudia Rak",
+      "source": "https://www.pexels.com/photo/brunette-woman-in-white-sweater-and-pearl-necklace-11526816/",
+      "imageSource": "https://images.pexels.com/photos/11526816/pexels-photo-11526816.jpeg",
+      "sourceWidth": 3733,
+      "sourceHeight": 5599,
+      "sourceSha256": "b80ca95ea016a62ce08f4a8444c24d1167db1f11725c3c0bef60bd09b70098fc",
+      "sourceBytes": 1211504,
+      "sourceTitle": "Brunette Woman in White Sweater and Pearl Necklace",
+      "sourcePageVerified": true,
+      "licenseVerified": true,
+      "licenseURL": "https://www.pexels.com/license/",
+      "visuallyInspected": true,
+      "selectionReason": "Adds a clear accessory and neckline study: pale palette, rounded jewelry, tidy hair, plain studio background. Distinct from the full-length skirt sets.",
+      "sourceFullyDecoded": true,
+      "outputFullyDecoded": true,
+      "outputOrientation": "EXIF normalized; full composition preserved",
+      "outputVariants": [
+        {
+          "path": "assets/img/style-photography/klaudia-pale-rounded-jewelry-20261028-640.webp",
+          "width": 640,
+          "height": 960,
+          "sha256": "cf6470d97cfdc26b2c6d485bdbcbb8841e88f35e3fbfd0302275adfa7483567e",
+          "bytes": 80486
+        },
+        {
+          "path": "assets/img/style-photography/klaudia-pale-rounded-jewelry-20261028-1280.webp",
+          "width": 1280,
+          "height": 1920,
+          "sha256": "a7409543652978405f7e4cf7b7cf6967f71c57d4936d6547aa535044ba2b92ee",
+          "bytes": 277202
+        },
+        {
+          "path": "assets/img/style-photography/klaudia-pale-rounded-jewelry-20261028.webp",
+          "width": 2560,
+          "height": 3840,
+          "sha256": "bf5072f5cbcdc8a8b19aa0ec3daff1d664e0ce46fac306945a69bed727842cb3",
+          "bytes": 886202
+        }
+      ]
+    },
+    {
+      "id": "darkshade-pink-bow",
+      "style": "heiress",
+      "title": "粉色领结的柔和秩序",
+      "setting": "暖棕背景 / STUDIO",
+      "photographer": "Darkshade Photos",
+      "source": "https://www.pexels.com/photo/elegant-woman-in-pink-blouse-with-bow-tie-30416956/",
+      "imageSource": "https://images.pexels.com/photos/30416956/pexels-photo-30416956.jpeg",
+      "sourceWidth": 4672,
+      "sourceHeight": 7008,
+      "sourceSha256": "44cb6ad981330a947f4f201a939ea37f0e531bec5b77e6a3fdec07271edef634",
+      "sourceBytes": 946485,
+      "sourceTitle": "Elegant Woman in Pink Blouse with Bow Tie",
+      "sourcePageVerified": true,
+      "licenseVerified": true,
+      "licenseURL": "https://www.pexels.com/license/",
+      "visuallyInspected": true,
+      "selectionReason": "A direct pastel-and-bow interpretation, with a clean portrait arrangement and no business headshot cues. Supplies a large decorative detail absent from the other three.",
+      "sourceFullyDecoded": true,
+      "outputFullyDecoded": true,
+      "outputOrientation": "EXIF normalized; full composition preserved",
+      "outputVariants": [
+        {
+          "path": "assets/img/style-photography/darkshade-pink-bow-20261028-640.webp",
+          "width": 640,
+          "height": 960,
+          "sha256": "4f025595feda3310258604b3ed3f4c84ba54383125ccf38acccf3b2e6514a94b",
+          "bytes": 55144
+        },
+        {
+          "path": "assets/img/style-photography/darkshade-pink-bow-20261028-1280.webp",
+          "width": 1280,
+          "height": 1920,
+          "sha256": "b223deacf946e90650c99a4e109e27314c49ba39fc8cff0c153a8174ddd31d10",
+          "bytes": 173406
+        },
+        {
+          "path": "assets/img/style-photography/darkshade-pink-bow-20261028.webp",
+          "width": 2560,
+          "height": 3840,
+          "sha256": "73509d8b63e4a97b19b09e9d2ace7ab39100c44a28b94dc5c503c6c744e5b7fd",
+          "bytes": 681960
+        }
+      ]
+    },
+    {
+      "id": "travel-textured-skirt-set",
+      "style": "heiress",
+      "title": "纹理裙装与雕饰门廊",
+      "setting": "雕饰门廊 / ARCHITECTURE",
+      "photographer": "Travel with Lenses",
+      "source": "https://www.pexels.com/photo/fashion-portrait-of-woman-in-tweed-suit-in-berlin-35021432/",
+      "imageSource": "https://images.pexels.com/photos/35021432/pexels-photo-35021432.jpeg",
+      "sourceWidth": 4672,
+      "sourceHeight": 7008,
+      "sourceSha256": "212f3111f39e1e24758f52b391ed273f23914cc608cc10d0c0f60574e03dc10c",
+      "sourceBytes": 3181368,
+      "sourceTitle": "Fashion Portrait of Woman in Tweed Suit in Berlin",
+      "sourcePageVerified": true,
+      "licenseVerified": true,
+      "licenseURL": "https://www.pexels.com/license/",
+      "visuallyInspected": true,
+      "selectionReason": "Adds the requested matching skirt-set proportions and a designed architectural setting. The textured darker set gives the pale and pink group useful tonal variety.",
+      "sourceFullyDecoded": true,
+      "outputFullyDecoded": true,
+      "outputOrientation": "EXIF normalized; full composition preserved",
+      "outputVariants": [
+        {
+          "path": "assets/img/style-photography/travel-textured-skirt-set-20261028-640.webp",
+          "width": 640,
+          "height": 960,
+          "sha256": "6cf73a3919b5eb28d31d85e9a88d3d246ce1a65c0568dd40c136fd16229f8bd9",
+          "bytes": 216742
+        },
+        {
+          "path": "assets/img/style-photography/travel-textured-skirt-set-20261028-1280.webp",
+          "width": 1280,
+          "height": 1920,
+          "sha256": "2635e91b86f0dd212c9f2a556f1bc405d02c63d6416e72c6537e7e864d317b55",
+          "bytes": 704072
+        },
+        {
+          "path": "assets/img/style-photography/travel-textured-skirt-set-20261028.webp",
+          "width": 2560,
+          "height": 3840,
+          "sha256": "7d4639f642e4e0b69a08ac6368b75e48dcf1d76c46cd4000933e3a7438e7c582",
+          "bytes": 2058888
+        }
+      ]
+    },
+    {
+      "id": "cottonbro-pastel-skirt-set",
+      "style": "heiress",
+      "title": "浅色裙装的几何舞台",
+      "setting": "几何布景 / SET DESIGN",
+      "photographer": "cottonbro studio",
+      "source": "https://www.pexels.com/photo/woman-in-a-white-jacket-and-a-skirt-7304333/",
+      "imageSource": "https://images.pexels.com/photos/7304333/pexels-photo-7304333.jpeg",
+      "sourceWidth": 3500,
+      "sourceHeight": 2333,
+      "sourceSha256": "171d5105532d54878949d2992ca92a70b15b0babb8381b4200c9c895f88b0c6d",
+      "sourceBytes": 163399,
+      "sourceTitle": "Woman in a White Jacket and a Skirt",
+      "sourcePageVerified": true,
+      "licenseVerified": true,
+      "licenseURL": "https://www.pexels.com/license/",
+      "visuallyInspected": true,
+      "selectionReason": "A complete outfit reference with deliberate pastel staging, sculptural shoulder details and clear jacket/skirt proportions. Its full studio arrangement differs from the close portraits and stone architecture.",
+      "sourceFullyDecoded": true,
+      "outputFullyDecoded": true,
+      "outputOrientation": "EXIF normalized; full composition preserved",
+      "outputVariants": [
+        {
+          "path": "assets/img/style-photography/cottonbro-pastel-skirt-set-20261028-640.webp",
+          "width": 640,
+          "height": 427,
+          "sha256": "72033dc192439e63be4c02a1fd98b98c5ad68128be10ce1397df29bbf0a01492",
+          "bytes": 14296
+        },
+        {
+          "path": "assets/img/style-photography/cottonbro-pastel-skirt-set-20261028-1280.webp",
+          "width": 1280,
+          "height": 853,
+          "sha256": "4ce91bf50a7869a302f3484b2360691171939fbf9e9665be4a288a86082a0bbc",
+          "bytes": 39546
+        },
+        {
+          "path": "assets/img/style-photography/cottonbro-pastel-skirt-set-20261028.webp",
+          "width": 2560,
+          "height": 1706,
+          "sha256": "dd639b22da90f0fd328f965355bdbb2e69e0c3cca4db4a51a3c51d7a600ff8cf",
+          "bytes": 110982
+        }
+      ]
+    }
+  ]
+}
