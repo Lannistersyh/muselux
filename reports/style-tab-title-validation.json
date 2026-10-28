@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-28T01:32:04.980949+00:00",
+  "scope": "English browser and metadata titles for The Style Atlas and its three detail pages. Visible page bodies and navigation unchanged.",
+  "pages": [
+    {
+      "path": "womens-style.html",
+      "title": "The Style Atlas｜MuseLux",
+      "englishOnly": true,
+      "bodyUnchanged": true
+    },
+    {
+      "path": "style/mob-wife.html",
+      "title": "Mob Wife｜MuseLux",
+      "englishOnly": true,
+      "bodyUnchanged": true
+    },
+    {
+      "path": "style/napoleon-core.html",
+      "title": "Napoleon Core｜MuseLux",
+      "englishOnly": true,
+      "bodyUnchanged": true
+    },
+    {
+      "path": "style/heiress.html",
+      "title": "Polished Heiress｜MuseLux",
+      "englishOnly": true,
+      "bodyUnchanged": true
+    }
+  ],
+  "checks": {
+    "passed": true,
+    "reproducibleBuild": true,
+    "pages": 227,
+    "brands": 40,
+    "searchableItems": 156,
+    "pythonRegressionTests": 18,
+    "frontendAssertions": 98,
+    "method": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test"
+  },
+  "browserTabsOpened": 0,
+  "browserTabsRemaining": 0
+}
