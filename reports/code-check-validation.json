@@ -4,8 +4,8 @@
   "pages": 227,
   "brands": 40,
   "searchableItems": 156,
-  "pythonRegressionTests": 18,
-  "frontendAssertions": 98,
+  "pythonRegressionTests": 19,
+  "frontendAssertions": 110,
   "method": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test",
   "sourceHashes": {
     "tools/apply_bag_yearbook.py": "688ba2e08e92a47d8d0050a883ae7153f635b15390dbb6c676f8c97da635d63f",
@@ -22,12 +22,12 @@
     "tools/product_gallery.py": "389142a56459be4826021baa4a4ff838bc8ead623012b5c7c6ba161a9b7af011",
     "tools/seed_content.py": "2755b15b5905247fc5b8400e236428a2d9e37fab667733209a559626bada2cc3",
     "tools/style_policy.py": "1cb32efc9b44a340203d519f17f7e1332a9b8aeee7dfea0c7e0eb1b5e3761a53",
-    "tools/test_maintenance.py": "2552551048c96cb69c1edfa7020745d2c765a3b304a30b8d0d137149ebab8ff1",
-    "tools/validate.py": "41a6ddcdc76f0f27cbaf8d1e27767eec98f464b79e8ea5d8917617d8db9e8f1a",
-    "tools/womens_styles.py": "d3ad01afc638e001010aed1dcb69d168c58e6493e03a17974a6ead18f028f921",
+    "tools/test_maintenance.py": "a69e60f2c61cbab90f53e47a952f000b0751ce53541f8b8d890f9f478a62212c",
+    "tools/validate.py": "fa7a2adea1a1bf02c6e72c1468cdb89ddf796055f41fb08b0558e031fae6fec3",
+    "tools/womens_styles.py": "dbbb78d2170d5bdddcab8548747ff1561b4ba4c397c4b920f9434cb0750900da",
     "assets/js/render.js": "1b73ec544d16b17dc18b20af85615b4fb33bb244c3e37102e7fa6f771e87ba7d",
     "assets/js/main.js": "57effd484f7bb73005024fd63985f6edb0519fed645d9339262618084a10a3e9",
-    "assets/js/data.js": "e2c1782f66a55f5a23b95c1d597a36c3d9c1d1b4662122f796c65503b2b30ab3",
-    "tools/test_frontend.cjs": "09bc6626328dbf284eba156768e493cd3af2c572c6a612e94684247ac81aefe9"
+    "assets/js/data.js": "d7313de35a0bec397304108fa39d65c197c6b081e10e13299a5e42a0b19e83a8",
+    "tools/test_frontend.cjs": "02730d4165833216b278938b139eef2cb8cd905b5e434123938d43dc1415ef02"
   }
 }

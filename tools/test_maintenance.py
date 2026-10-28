@@ -216,13 +216,23 @@ class MaintenanceTests(unittest.TestCase):
         with self.assertRaises(ValueError):generate.retire_pages(['../outside.html'],[],root)
         self.assertTrue(custom.exists())
 
-    def test_style_atlas_rejects_unknown_products_and_unobserved_times(self):
+    def style_fixture(self):
         root=self.fixture()
         config=json.loads((ROOT/'tools/womens_styles.json').read_text())
         target=root/'tools/womens_styles.json';target.write_text(json.dumps(config))
         for style in config['styles']:
-            frame=root/style['frame']['path'];frame.parent.mkdir(parents=True,exist_ok=True);frame.touch()
+            frame=style['frame']
+            paths=[frame['path'],frame.get('originalPath',frame['path'])]+[v['path'] for v in frame.get('variants',[])]
+            for path in paths:
+                file=root/path;file.parent.mkdir(parents=True,exist_ok=True);file.touch()
+        for photo in config.get('photography',{}).get('photos',[]):
+            for variant in photo['variants']:
+                file=root/variant['path'];file.parent.mkdir(parents=True,exist_ok=True);file.touch()
         data=json.loads((root/'tools/content.json').read_text())
+        return root,config,target,data
+
+    def test_style_atlas_rejects_unknown_products_and_unobserved_times(self):
+        root,config,target,data=self.style_fixture()
         self.assertEqual(len(womens_styles.load(data,root)['config']['styles']),3)
         config['styles'][0]['products'][0]['id']='unverified-product'
         target.write_text(json.dumps(config))
@@ -231,6 +241,16 @@ class MaintenanceTests(unittest.TestCase):
         config['styles'][0]['observations'][0]['time']=1000
         target.write_text(json.dumps(config))
         with self.assertRaisesRegex(ValueError,'outside source video'):womens_styles.load(data,root)
+
+    def test_style_photography_rejects_unlicensed_or_repeated_source_images(self):
+        root,config,target,data=self.style_fixture()
+        config['photography']['photos'][0]['licenseStatus']='copyright-reserved-link-only'
+        target.write_text(json.dumps(config))
+        with self.assertRaisesRegex(ValueError,'website-use license'):womens_styles.load(data,root)
+        config=json.loads((ROOT/'tools/womens_styles.json').read_text())
+        config['photography']['photos'][1]['sourceSha256']=config['photography']['photos'][0]['sourceSha256']
+        target.write_text(json.dumps(config))
+        with self.assertRaisesRegex(ValueError,'Duplicate photography source'):womens_styles.load(data,root)
 
     def test_style_guides_preserve_catalog_and_dated_price_provenance(self):
         data=json.loads((ROOT/'tools/content.json').read_text());before=copy.deepcopy(data)

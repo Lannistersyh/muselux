@@ -330,6 +330,15 @@ try:
         check(doc is not None and frame['source'] in doc.refs,style['id']+': frame timestamp link differs from extraction')
         check(image_size(photo)==(frame['width'],frame['height']),style['id']+': wrong source-frame dimensions')
         check(hashlib.sha256(photo.read_bytes()).hexdigest()==frame['sha256'],style['id']+': frame differs from extraction record')
+        if frame.get('originalPath'):
+            original=ROOT/frame['originalPath']
+            check(image_size(original)==(frame['width'],frame['height']),style['id']+': original screenshot dimensions differ')
+            check(hashlib.sha256(original.read_bytes()).hexdigest()==frame['originalSha256'],style['id']+': original screenshot differs from browser capture')
+            check('../'+frame['originalPath'] in doc.refs,style['id']+': original screenshot cannot be opened')
+        for variant in frame.get('variants',[]):
+            file=ROOT/variant['path']
+            check(image_size(file)==(variant['width'],variant['height']),style['id']+': responsive frame size differs')
+            check(hashlib.sha256(file.read_bytes()).hexdigest()==variant['sha256'],style['id']+': responsive frame hash differs')
         check(html.escape(frame['credit']) in source,style['id']+': missing creator credit')
         check('非已确认视频同款' in source,style['id']+': recommendation provenance absent')
         check(config['sourceVideo']['source'] in source,style['id']+': original video link absent')
@@ -343,6 +352,17 @@ try:
         for match in style['brandMatches']:
             check(doc is not None and '../brand/'+match['brand']+'.html' in doc.refs,style['id']+': missing matched brand')
             check(doc is not None and match['source'] in doc.refs,style['id']+': missing official design source')
+    for photo in config.get('photography',{}).get('photos',[]):
+        detail=pages[(ROOT/'style'/f'{photo["style"]}.html').resolve()]
+        for page_doc in (pages[style_hub],detail):
+            check(photo['source'] in page_doc.refs,photo['id']+': photographer original source absent')
+            check(photo['licenseURL'] in page_doc.refs,photo['id']+': photography license link absent')
+        for variant in photo['variants']:
+            file=ROOT/variant['path']
+            check(image_size(file)==(variant['width'],variant['height']),photo['id']+': photo size differs')
+            check(hashlib.sha256(file.read_bytes()).hexdigest()==variant['sha256'],photo['id']+': photo hash differs')
+    for creator in config.get('photography',{}).get('creators',[]):
+        check(creator['source'] in pages[style_hub].refs,creator['id']+': creator original work absent')
     for path,doc in pages.items():
         prefix='../' if path.parent!=ROOT else ''
         check(prefix+'womens-style.html' in doc.refs,str(path.relative_to(ROOT))+': style navigation absent')

@@ -1,0 +1,105 @@
+{
+  "scope": "Representative local browser checks at404,800,1280pixels; no claim of exhaustive device compatibility.",
+  "mobilePages": [
+    {
+      "documentWidth": 404,
+      "frameComplete": true,
+      "frameOriginal": "../assets/img/styles/queen-b-napoleon-core-4k-20261028.png",
+      "path": "/style/napoleon-core.html",
+      "photos": 2,
+      "title": "Napoleon Core｜MuseLux",
+      "width": 404
+    },
+    {
+      "documentWidth": 404,
+      "frameComplete": true,
+      "frameOriginal": "../assets/img/styles/queen-b-mob-wife-4k-20261028.png",
+      "path": "/style/mob-wife.html",
+      "photos": 2,
+      "title": "Mob Wife｜MuseLux",
+      "width": 404
+    },
+    {
+      "documentWidth": 404,
+      "frameComplete": true,
+      "frameOriginal": "../assets/img/styles/queen-b-heiress-4k-20261028.png",
+      "path": "/style/heiress.html",
+      "photos": 2,
+      "title": "Polished Heiress｜MuseLux",
+      "width": 404
+    },
+    {
+      "documentWidth": 404,
+      "path": "/womens-style.html",
+      "photos": 6,
+      "title": "The Style Atlas｜MuseLux",
+      "width": 404
+    }
+  ],
+  "mobileHub": {
+    "creatorCount": 4,
+    "documentWidth": 404,
+    "photoCount": 6,
+    "title": "The Style Atlas｜MuseLux",
+    "width": 404
+  },
+  "tablet": {
+    "documentWidth": 800,
+    "navScrollWidth": 543,
+    "navWidth": 543,
+    "photoColumns": "361.5px 361.5px",
+    "source": "http://127.0.0.1:8766/assets/img/styles/queen-b-napoleon-core-4k-20261028-960.webp",
+    "width": 800
+  },
+  "desktop": {
+    "columns": "376.664px 376.664px 376.664px",
+    "creatorCount": 4,
+    "documentWidth": 1280,
+    "photos": [
+      {
+        "complete": true,
+        "fit": "contain",
+        "loaded": true,
+        "source": "http://127.0.0.1:8766/assets/img/style-photography/zaid-black-studio-20261028-640.webp"
+      },
+      {
+        "complete": true,
+        "fit": "contain",
+        "loaded": true,
+        "source": "http://127.0.0.1:8766/assets/img/style-photography/luis-black-architecture-20261028-640.webp"
+      },
+      {
+        "complete": true,
+        "fit": "contain",
+        "loaded": true,
+        "source": "http://127.0.0.1:8766/assets/img/style-photography/andrea-white-rome-20261028-640.webp"
+      },
+      {
+        "complete": true,
+        "fit": "contain",
+        "loaded": true,
+        "source": "http://127.0.0.1:8766/assets/img/style-photography/hannah-beige-studio-20261028-640.webp"
+      },
+      {
+        "complete": true,
+        "fit": "contain",
+        "loaded": true,
+        "source": "http://127.0.0.1:8766/assets/img/style-photography/shvets-white-sculpture-20261028-640.webp"
+      },
+      {
+        "complete": true,
+        "fit": "contain",
+        "loaded": true,
+        "source": "http://127.0.0.1:8766/assets/img/style-photography/ronin-white-architecture-20261028-640.webp"
+      }
+    ],
+    "width": 1280
+  },
+  "mobileMenuOpened": true,
+  "mobileMenuClosedAfterNavigation": true,
+  "consoleErrors": [],
+  "browserTabsOpened": 1,
+  "existingVideoTabReused": 1,
+  "maxTotalTabs": 7,
+  "browserTabsRemaining": 0
+}

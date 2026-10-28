@@ -12,26 +12,42 @@
     "cid": 42339729619,
     "publishedAt": "2026-09-30T19:11:21+08:00",
     "checkedAt": "2026-10-28",
-    "durationSeconds": 63.232,
+    "durationSeconds": 64,
     "metadataDurationSeconds": 64,
-    "subtitleTracks": 0,
-    "method": "Anonymous official view/player/playurl endpoints and ffmpeg key-frame extraction; original video checked by visual observation. No login cookies exported.",
-    "videoBytes": 3028619,
-    "videoSha256": "0e4f9afb97f833b03e01656c4dabdd9b33e77332607e4146548967836cac9ab3",
-    "downloadQuality": "Official anonymous360p (480×360); higher-quality request downgraded to16. Original upload metadata3840×2880 is not the analyzed download resolution.",
+    "method": "Logged-in user-authorized browser player. Explicit highest selectable4Kquality120; native-resolution canvas screenshots at9,19,37seconds; credentials/cookies never exported.",
+    "downloadQuality": "Highest selectable4KUltraHD(quality120), actualdecoded2880×2160pixels. Original PNG screenshots and responsiveWebP derivatives; no upscaling or generative edits.",
     "apiSources": [
       "https://api.bilibili.com/x/web-interface/view?bvid=BV1WUao6UEBa",
       "https://api.bilibili.com/x/player/v2?bvid=BV1WUao6UEBa&cid=42339729619"
     ],
-    "browserTabsOpened": 1,
-    "browserTabsClosed": 1,
+    "browserTabsOpened": 0,
+    "browserTabsClosed": 0,
     "browserTabsRemaining": 0,
     "notes": [
       "The page auto-played an unrelated recommended video; that video was excluded and the requested BV was reopened before observations.",
       "Source explicitly labels three main styles: Mob wife风,拿破仑风,Napoleon core,and千金风. Princess at27s is character dialogue, not a fourth outfit style.",
       "Visual observations do not establish garment composition, authenticity, exact product reference or purchase price.",
       "The video’s Vogue/FW2026 trend assertion was not independently verified and is not adopted as a site trend claim."
-    ]
+    ],
+    "captureHistory": [
+      {
+        "method": "Anonymous official view/player/playurl endpoints and ffmpeg key-frame extraction; original video checked by visual observation. No login cookies exported.",
+        "quality": "Official anonymous360p (480×360); higher-quality request downgraded to16. Original upload metadata3840×2880 is not the analyzed download resolution.",
+        "videoBytes": 3028619,
+        "videoSha256": "0e4f9afb97f833b03e01656c4dabdd9b33e77332607e4146548967836cac9ab3",
+        "role": "Initial anonymous source analysis; superseded display frames, not current image quality.",
+        "durationSeconds": 63.232,
+        "subtitleTracks": 0
+      }
+    ],
+    "captureWidth": 2880,
+    "captureHeight": 2160,
+    "captureQuality": "4K 超高清",
+    "captureQualityID": 120,
+    "captureCheckedAt": "2026-10-28",
+    "subtitleTrackObservation": "Initial anonymous analysis exposed no subtitle tracks; logged-in subtitle availability was not rechecked for this screenshot update.",
+    "browserExistingTabReused": true,
+    "captureMethod": "Native video-frame screenshots in the existing user-authorized logged-in browser tab; no account credentials exported."
   },
   "editorialScope": "从原视频的三种造型出发，按可见轮廓、配色与配饰匹配品牌及本站已有款式。品牌对应为编辑判断；推荐单品不是已确认视频同款。",
   "styles": [
@@ -46,16 +62,44 @@
       "labelTimestamp": 54,
       "frame": {
         "id": "mob-wife",
-        "path": "assets/img/styles/queen-b-mob-wife-20260930.webp",
+        "path": "assets/img/styles/queen-b-mob-wife-4k-20261028.webp",
         "timestampSeconds": 9,
-        "width": 480,
-        "height": 360,
-        "frameSha256": "10d4036f16206574acc008992ff597203305c3f0685e82545327466f26ea6c87",
-        "sha256": "dc661c8466fa902e574268ea49e0df059ef4dc28a8692b73a698fafd222351d3",
-        "bytes": 28174,
+        "width": 2880,
+        "height": 2160,
+        "frameSha256": "920bdf20bd562fd56fdd4d30ea52435c6199244d9683daffbb0c5e0617d71d65",
+        "sha256": "5dec73a818c059133c6ad126c0ff154645778d0278f8fb4a50673f3b2727c25e",
+        "bytes": 357642,
         "credit": "画面 © 不爱吃榴莲的Nana / bilibili",
         "source": "https://www.bilibili.com/video/BV1WUao6UEBa/?t=9",
-        "rightsNote": "Limited still-frame quotation for the accompanying original style commentary. Original creator watermark retained; no open reuse license or brand endorsement is claimed."
+        "rightsNote": "Still-frame quotation for the accompanying original style commentary; original creator watermark retained, no crop, mirroring, upscaling or generative changes. No open reuse license claimed.",
+        "originalPath": "assets/img/styles/queen-b-mob-wife-4k-20261028.png",
+        "originalSha256": "920bdf20bd562fd56fdd4d30ea52435c6199244d9683daffbb0c5e0617d71d65",
+        "originalBytes": 4750737,
+        "quality": "4K 超高清",
+        "variants": [
+          {
+            "path": "assets/img/styles/queen-b-mob-wife-4k-20261028-960.webp",
+            "width": 960,
+            "height": 720,
+            "sha256": "52606d5dfe7056a0a9b7426310a7a6bdcfb88e75a463834432f9ece7427f6fab",
+            "bytes": 93852
+          },
+          {
+            "path": "assets/img/styles/queen-b-mob-wife-4k-20261028-1440.webp",
+            "width": 1440,
+            "height": 1080,
+            "sha256": "168ca4c844d4e51cd6c03de8a7c171ffe953977f1b602e89dc013e2ffac750af",
+            "bytes": 155000
+          },
+          {
+            "path": "assets/img/styles/queen-b-mob-wife-4k-20261028.webp",
+            "width": 2880,
+            "height": 2160,
+            "sha256": "5dec73a818c059133c6ad126c0ff154645778d0278f8fb4a50673f3b2727c25e",
+            "bytes": 357642
+          }
+        ],
+        "captureMethod": "Native2880×2160canvasPNGfromthelogged-inplayer,manual4Kquality120,pausedatthespecifiedtimestamp."
       },
       "categories": [
         "bags",
@@ -162,16 +206,44 @@
       "labelTimestamp": 17,
       "frame": {
         "id": "napoleon-core",
-        "path": "assets/img/styles/queen-b-napoleon-core-20260930.webp",
+        "path": "assets/img/styles/queen-b-napoleon-core-4k-20261028.webp",
         "timestampSeconds": 19,
-        "width": 480,
-        "height": 360,
-        "frameSha256": "d962606b2b3cbb23dd8a2a8d34dff99a63251f334cf411b54145b01309d5ad00",
-        "sha256": "fee84d9249dae2df9f143967f6aff10771306ef439c42399ed4db5ec88c19a47",
-        "bytes": 27232,
+        "width": 2880,
+        "height": 2160,
+        "frameSha256": "93a489c439ef59cabc69cad981fc327546169c20d8be324206b8ebf468471dda",
+        "sha256": "e3ca0ef063532fc602cfa240c3a550792e061ad333f1f1e8da4ff8c301bbfde6",
+        "bytes": 369996,
         "credit": "画面 © 不爱吃榴莲的Nana / bilibili",
         "source": "https://www.bilibili.com/video/BV1WUao6UEBa/?t=19",
-        "rightsNote": "Limited still-frame quotation for the accompanying original style commentary. Original creator watermark retained; no open reuse license or brand endorsement is claimed."
+        "rightsNote": "Still-frame quotation for the accompanying original style commentary; original creator watermark retained, no crop, mirroring, upscaling or generative changes. No open reuse license claimed.",
+        "originalPath": "assets/img/styles/queen-b-napoleon-core-4k-20261028.png",
+        "originalSha256": "93a489c439ef59cabc69cad981fc327546169c20d8be324206b8ebf468471dda",
+        "originalBytes": 5190264,
+        "quality": "4K 超高清",
+        "variants": [
+          {
+            "path": "assets/img/styles/queen-b-napoleon-core-4k-20261028-960.webp",
+            "width": 960,
+            "height": 720,
+            "sha256": "d19240b52668e92797d83ff843dc220c1a9b3f1eea0387ca02be030747dba101",
+            "bytes": 98944
+          },
+          {
+            "path": "assets/img/styles/queen-b-napoleon-core-4k-20261028-1440.webp",
+            "width": 1440,
+            "height": 1080,
+            "sha256": "859922a030e339cf3c5759b9a7d2d96d2fada4a53a363539567c4d76d94bf531",
+            "bytes": 163842
+          },
+          {
+            "path": "assets/img/styles/queen-b-napoleon-core-4k-20261028.webp",
+            "width": 2880,
+            "height": 2160,
+            "sha256": "e3ca0ef063532fc602cfa240c3a550792e061ad333f1f1e8da4ff8c301bbfde6",
+            "bytes": 369996
+          }
+        ],
+        "captureMethod": "Native2880×2160canvasPNGfromthelogged-inplayer,manual4Kquality120,pausedatthespecifiedtimestamp."
       },
       "categories": [
         "bags",
@@ -290,16 +362,44 @@
       "labelTimestamp": 60,
       "frame": {
         "id": "heiress",
-        "path": "assets/img/styles/queen-b-heiress-20260930.webp",
+        "path": "assets/img/styles/queen-b-heiress-4k-20261028.webp",
         "timestampSeconds": 37,
-        "width": 480,
-        "height": 360,
-        "frameSha256": "1db5b0ca42756fe8fb05de4154f5b51ac3061903b40cc966a6f553854fe28339",
-        "sha256": "5d7fd3da070bffcbfdb4b49e3bcdca7e129d8dbe7cf62715700464b8c7224be4",
-        "bytes": 26662,
+        "width": 2880,
+        "height": 2160,
+        "frameSha256": "0629f57d9f6ec4602e8af356850af4856426f2b9778a5a30a78561a1225e9b1b",
+        "sha256": "9dbed662433e3a1aff12a27bb37ea52ea3ab8c6d2e88493d8b2e5dd464d74940",
+        "bytes": 333858,
         "credit": "画面 © 不爱吃榴莲的Nana / bilibili",
         "source": "https://www.bilibili.com/video/BV1WUao6UEBa/?t=37",
-        "rightsNote": "Limited still-frame quotation for the accompanying original style commentary. Original creator watermark retained; no open reuse license or brand endorsement is claimed."
+        "rightsNote": "Still-frame quotation for the accompanying original style commentary; original creator watermark retained, no crop, mirroring, upscaling or generative changes. No open reuse license claimed.",
+        "originalPath": "assets/img/styles/queen-b-heiress-4k-20261028.png",
+        "originalSha256": "0629f57d9f6ec4602e8af356850af4856426f2b9778a5a30a78561a1225e9b1b",
+        "originalBytes": 5178021,
+        "quality": "4K 超高清",
+        "variants": [
+          {
+            "path": "assets/img/styles/queen-b-heiress-4k-20261028-960.webp",
+            "width": 960,
+            "height": 720,
+            "sha256": "a8b64ee459156d73eace7f2ddb951913afaf4563ada81548a5c14210a7de8fee",
+            "bytes": 91592
+          },
+          {
+            "path": "assets/img/styles/queen-b-heiress-4k-20261028-1440.webp",
+            "width": 1440,
+            "height": 1080,
+            "sha256": "7d382444fca35b8340d0b3543285f6b1d812e854f0f6995e1d58a620c31bcc27",
+            "bytes": 151908
+          },
+          {
+            "path": "assets/img/styles/queen-b-heiress-4k-20261028.webp",
+            "width": 2880,
+            "height": 2160,
+            "sha256": "9dbed662433e3a1aff12a27bb37ea52ea3ab8c6d2e88493d8b2e5dd464d74940",
+            "bytes": 333858
+          }
+        ],
+        "captureMethod": "Native2880×2160canvasPNGfromthelogged-inplayer,manual4Kquality120,pausedatthespecifiedtimestamp."
       },
       "categories": [
         "bags",
@@ -397,5 +497,380 @@
         }
       ]
     }
-  ]
+  ],
+  "photography": {
+    "title": "穿搭与镜头 / Style in Focus",
+    "intro": "把同一种穿搭，放进不同的画面：纯色让配饰说话，建筑让轮廓更清楚，留白让浅色搭配多一点呼吸。",
+    "photos": [
+      {
+        "id": "zaid-black-studio",
+        "style": "mob-wife",
+        "title": "让一件首饰成为画面的重心",
+        "setting": "纯色影棚 / STUDIO",
+        "captionZh": "粉色背景把黑色衣服与亮色首饰分得很清楚。耳饰与靠近脸部的手势形成呼应，适合观察复古强势风如何用配饰组织注意力。",
+        "captionEn": "A clean pink background gives a dark silhouette and expressive jewelry room to work. Read the scale and placement of the accessories before choosing one statement piece.",
+        "alt": "粉色纯背景，穿黑色服装的女性以手部姿势呼应醒目耳饰。",
+        "photographer": "zaid mohammed",
+        "source": "https://www.pexels.com/photo/woman-in-black-dress-and-jewelry-10073453/",
+        "imageSource": "https://images.pexels.com/photos/10073453/pexels-photo-10073453.jpeg?cs=srgb&fm=jpg",
+        "sourceWidth": 4912,
+        "sourceHeight": 7360,
+        "sourceSha256": "1168b9a3a5a1af718ddad795790f16466df38db61dca3694e8323e57831d35ef",
+        "checkedAt": "2026-10-28",
+        "licenseName": "Pexels License",
+        "licenseURL": "https://www.pexels.com/license/",
+        "licenseStatus": "platform-license-permits-website-use",
+        "image": {
+          "path": "assets/img/style-photography/zaid-black-studio-20261028.webp",
+          "width": 2560,
+          "height": 3836,
+          "sha256": "e4da84715afba0e65b92354f0746cb54302bf4c5ae2ee39464d6edb702253d5f",
+          "bytes": 795974
+        },
+        "variants": [
+          {
+            "path": "assets/img/style-photography/zaid-black-studio-20261028-640.webp",
+            "width": 640,
+            "height": 959,
+            "sha256": "bd6ae070f5d8d494ec9a220d7b720075b8b47e38569c6804f693dbe72c031cfa",
+            "bytes": 61768
+          },
+          {
+            "path": "assets/img/style-photography/zaid-black-studio-20261028-1280.webp",
+            "width": 1280,
+            "height": 1918,
+            "sha256": "104b1ee7dcc2befeceeca05349b4d092ef3a1c20900c51f109eeb3bb0bbbf50b",
+            "bytes": 223206
+          },
+          {
+            "path": "assets/img/style-photography/zaid-black-studio-20261028.webp",
+            "width": 2560,
+            "height": 3836,
+            "sha256": "e4da84715afba0e65b92354f0746cb54302bf4c5ae2ee39464d6edb702253d5f",
+            "bytes": 795974
+          }
+        ]
+      },
+      {
+        "id": "luis-black-architecture",
+        "style": "mob-wife",
+        "title": "把深色剪裁放回石墙与阴影",
+        "setting": "建筑外景 / ARCHITECTURE",
+        "captionZh": "黑白影像省去颜色的干扰，长线条外套与石墙雕刻留下形状的对话。领口的留白和深色轮廓，让姿态显得利落而有力量。",
+        "captionEn": "Dark tailoring meets carved stone and strong shadow. Study the long silhouette, the open neckline and the contrast between the figure and the setting.",
+        "alt": "黑白街景，穿深色长外套与阔腿裤的女性站在雕刻石墙前。",
+        "photographer": "Luis Ariza",
+        "source": "https://www.pexels.com/photo/a-woman-wearing-black-coat-over-her-tube-top-13202568/",
+        "imageSource": "https://images.pexels.com/photos/13202568/pexels-photo-13202568.jpeg?cs=srgb&fm=jpg",
+        "sourceWidth": 2667,
+        "sourceHeight": 4000,
+        "sourceSha256": "ca360117d2e8bbd30741e9a41f3a7797a022d6afc6026630637a78b94f5067ae",
+        "checkedAt": "2026-10-28",
+        "licenseName": "Pexels License",
+        "licenseURL": "https://www.pexels.com/license/",
+        "licenseStatus": "platform-license-permits-website-use",
+        "image": {
+          "path": "assets/img/style-photography/luis-black-architecture-20261028.webp",
+          "width": 2560,
+          "height": 3840,
+          "sha256": "8e5550699cca3debe02750287d30eeefad384ec5d64736482d276c098ff23051",
+          "bytes": 1151226
+        },
+        "variants": [
+          {
+            "path": "assets/img/style-photography/luis-black-architecture-20261028-640.webp",
+            "width": 640,
+            "height": 960,
+            "sha256": "2e9886d680a710bc933d41cecf3e787f8fb16ac8bdfbdb47cce3cee3079d2104",
+            "bytes": 120338
+          },
+          {
+            "path": "assets/img/style-photography/luis-black-architecture-20261028-1280.webp",
+            "width": 1280,
+            "height": 1920,
+            "sha256": "6ba0a2159d8f35b849aac0d4ab8f37591e741f36d2a86aa01ed60bf63dce4a75",
+            "bytes": 442412
+          },
+          {
+            "path": "assets/img/style-photography/luis-black-architecture-20261028.webp",
+            "width": 2560,
+            "height": 3840,
+            "sha256": "8e5550699cca3debe02750287d30eeefad384ec5d64736482d276c098ff23051",
+            "bytes": 1151226
+          }
+        ]
+      },
+      {
+        "id": "andrea-white-rome",
+        "style": "napoleon-core",
+        "title": "立领与金色点缀，遇见暖色城市",
+        "setting": "城市夕照 / SUNSET",
+        "captionZh": "立领、整齐的门襟与腰部金色点缀，把视线沿着身体中线排开。罗马斗兽场与夕照为浅色造型增加暖意，也让装饰的秩序更容易被看见。",
+        "captionEn": "An upright collar and ordered gold-tone accents offer a contemporary study in disciplined detail. The source identifies Rome and the Colosseum; warm evening light gives the pale outfit a softer setting.",
+        "alt": "夕照中穿米白色立领外套的女性，远处可见罗马斗兽场的建筑轮廓。",
+        "photographer": "Andrea Prochilo",
+        "source": "https://www.pexels.com/photo/elegant-woman-by-the-colosseum-at-sunset-37189703/",
+        "imageSource": "https://images.pexels.com/photos/37189703/pexels-photo-37189703.jpeg?cs=srgb&fm=jpg",
+        "sourceWidth": 4672,
+        "sourceHeight": 7008,
+        "sourceSha256": "66f9bf7830c97ca7097b44f15d718063b2ff57c6d99aba3e5c6438905575e278",
+        "checkedAt": "2026-10-28",
+        "licenseName": "Pexels License",
+        "licenseURL": "https://www.pexels.com/license/",
+        "licenseStatus": "platform-license-permits-website-use",
+        "image": {
+          "path": "assets/img/style-photography/andrea-white-rome-20261028.webp",
+          "width": 2560,
+          "height": 3840,
+          "sha256": "40a9b8a88dffb35b7f6c11bec0b0c4db6c27ebb246e5dc1da548c459e761999c",
+          "bytes": 615628
+        },
+        "variants": [
+          {
+            "path": "assets/img/style-photography/andrea-white-rome-20261028-640.webp",
+            "width": 640,
+            "height": 960,
+            "sha256": "2fe5e2187ef343eb9d93c4fa3937c128c7b836068b0a3ca842ae944f272eca08",
+            "bytes": 51902
+          },
+          {
+            "path": "assets/img/style-photography/andrea-white-rome-20261028-1280.webp",
+            "width": 1280,
+            "height": 1920,
+            "sha256": "e48f3abc55e6972b31e5bf9d66d97966c1c44037122636376797a9d228d6d081",
+            "bytes": 151986
+          },
+          {
+            "path": "assets/img/style-photography/andrea-white-rome-20261028.webp",
+            "width": 2560,
+            "height": 3840,
+            "sha256": "40a9b8a88dffb35b7f6c11bec0b0c4db6c27ebb246e5dc1da548c459e761999c",
+            "bytes": 615628
+          }
+        ]
+      },
+      {
+        "id": "hannah-beige-studio",
+        "style": "napoleon-core",
+        "title": "先看剪裁，再决定装饰有多少",
+        "setting": "浅色影棚 / STUDIO",
+        "captionZh": "米色外套在浅色背景前留下清楚的轮廓，内层图案与翻起的袖口增加层次。先看剪裁怎样建立秩序，再考虑用珠链或扣饰调整装饰的分量。",
+        "captionEn": "A pale studio setting makes the jacket outline easy to read. Begin with the tailoring and layered sleeves, then consider how a necklace or decorative button could change the balance.",
+        "alt": "浅色纯背景前，穿米色外套、印花衬衣的女性侧身看向画外。",
+        "photographer": "Hannah Bickmore",
+        "source": "https://www.pexels.com/photo/woman-wearing-beige-suit-on-white-background-9514679/",
+        "imageSource": "https://images.pexels.com/photos/9514679/pexels-photo-9514679.jpeg?cs=srgb&fm=jpg",
+        "sourceWidth": 3648,
+        "sourceHeight": 5472,
+        "sourceSha256": "54c0ba8ee000587c1a3ee9c215ac36b670341dc14f9b4a4a379630331abbb09b",
+        "checkedAt": "2026-10-28",
+        "licenseName": "Pexels License",
+        "licenseURL": "https://www.pexels.com/license/",
+        "licenseStatus": "platform-license-permits-website-use",
+        "image": {
+          "path": "assets/img/style-photography/hannah-beige-studio-20261028.webp",
+          "width": 2560,
+          "height": 3840,
+          "sha256": "0632fd39a6024027901bc3b3c90b7c6393f3d65c130bfffc37e0918568200142",
+          "bytes": 1514462
+        },
+        "variants": [
+          {
+            "path": "assets/img/style-photography/hannah-beige-studio-20261028-640.webp",
+            "width": 640,
+            "height": 960,
+            "sha256": "2f2f0e836a38449ca3877fbca47ae7b6ccbf4eec6e7d789ea1cf6741fd4b7ad3",
+            "bytes": 87302
+          },
+          {
+            "path": "assets/img/style-photography/hannah-beige-studio-20261028-1280.webp",
+            "width": 1280,
+            "height": 1920,
+            "sha256": "3e1149447adfb8e781af5fd556f10e54a977f4cbb4dea02cff7c8e873c0945e6",
+            "bytes": 371268
+          },
+          {
+            "path": "assets/img/style-photography/hannah-beige-studio-20261028.webp",
+            "width": 2560,
+            "height": 3840,
+            "sha256": "0632fd39a6024027901bc3b3c90b7c6393f3d65c130bfffc37e0918568200142",
+            "bytes": 1514462
+          }
+        ]
+      },
+      {
+        "id": "shvets-white-sculpture",
+        "style": "heiress",
+        "title": "白色套装，也可以有空间感",
+        "setting": "雕塑空间 / SCULPTURE",
+        "captionZh": "白色衣服、古典雕像与斜向窗影形成几层明暗。整套浅色搭配的轻盈，来自衣物、背景与留白的共同作用；光影让轮廓从白色空间里分离出来。",
+        "captionEn": "A white suit is framed by classical sculpture, window light and generous negative space. A pale outfit can feel composed through the setting as much as through an accessory.",
+        "alt": "白色西装女性站在白色古典雕像之间，斜向窗影与大面积留白组成画面。",
+        "photographer": "SHVETS production",
+        "source": "https://www.pexels.com/photo/a-woman-in-a-white-suit-holding-on-a-sculpture-7561209/",
+        "imageSource": "https://images.pexels.com/photos/7561209/pexels-photo-7561209.jpeg?cs=srgb&fm=jpg",
+        "sourceWidth": 5753,
+        "sourceHeight": 3828,
+        "sourceSha256": "49415b886c2947576e4745f04f68ccf6a7470580ca2544eb638d4793168bd6f2",
+        "checkedAt": "2026-10-28",
+        "licenseName": "Pexels License",
+        "licenseURL": "https://www.pexels.com/license/",
+        "licenseStatus": "platform-license-permits-website-use",
+        "image": {
+          "path": "assets/img/style-photography/shvets-white-sculpture-20261028.webp",
+          "width": 2560,
+          "height": 1703,
+          "sha256": "b59e5a626a8d06aa3878420d36fb86b2b01b1c1e5396f8866ba67a96725c0053",
+          "bytes": 145226
+        },
+        "variants": [
+          {
+            "path": "assets/img/style-photography/shvets-white-sculpture-20261028-640.webp",
+            "width": 640,
+            "height": 426,
+            "sha256": "14c16123e8336229c3ce4e6ff18cc5273f63cde5e2e211634c4b72a8d86502ac",
+            "bytes": 19392
+          },
+          {
+            "path": "assets/img/style-photography/shvets-white-sculpture-20261028-1280.webp",
+            "width": 1280,
+            "height": 852,
+            "sha256": "2f24feb31788db29f1178b05c1fc074a72bedc325a644ab9b5563cd9c7dc6f76",
+            "bytes": 50388
+          },
+          {
+            "path": "assets/img/style-photography/shvets-white-sculpture-20261028.webp",
+            "width": 2560,
+            "height": 1703,
+            "sha256": "b59e5a626a8d06aa3878420d36fb86b2b01b1c1e5396f8866ba67a96725c0053",
+            "bytes": 145226
+          }
+        ]
+      },
+      {
+        "id": "ronin-white-architecture",
+        "style": "heiress",
+        "title": "让浅色套装回应建筑的线条",
+        "setting": "玻璃建筑 / ARCHITECTURE",
+        "captionZh": "白色套装的纵向线条，与玻璃幕墙和立柱形成对应。相较视频里的短裙套装，这是一种更舒展的浅色剪裁延伸，适合观察全身比例。",
+        "captionEn": "The vertical line of a pale trouser suit is echoed by glass and columns. This is a longer, more relaxed tailoring reference alongside the cropped set seen in the video.",
+        "alt": "穿白色西装与白色长裤的女性站在玻璃建筑旁，立柱与步道强调纵向构图。",
+        "photographer": "Ronin .",
+        "source": "https://www.pexels.com/photo/stylish-woman-in-white-blazer-and-white-pants-10626422/",
+        "imageSource": "https://images.pexels.com/photos/10626422/pexels-photo-10626422.jpeg?cs=srgb&fm=jpg",
+        "sourceWidth": 3717,
+        "sourceHeight": 5642,
+        "sourceSha256": "47e0c980bf0a826da6fc27b1c3683a8b5032fb3ddd5907b3cd8adc3c14a2d520",
+        "checkedAt": "2026-10-28",
+        "licenseName": "Pexels License",
+        "licenseURL": "https://www.pexels.com/license/",
+        "licenseStatus": "platform-license-permits-website-use",
+        "image": {
+          "path": "assets/img/style-photography/ronin-white-architecture-20261028.webp",
+          "width": 2560,
+          "height": 3886,
+          "sha256": "3c000f23e2245ec1105f13e24dfe58c6ab7378f884d600123fc83f1a9f77dcb2",
+          "bytes": 1760524
+        },
+        "variants": [
+          {
+            "path": "assets/img/style-photography/ronin-white-architecture-20261028-640.webp",
+            "width": 640,
+            "height": 971,
+            "sha256": "a5dc77284775dda8e4658a73405814d6309f56132094a43c60173c1293c49834",
+            "bytes": 138658
+          },
+          {
+            "path": "assets/img/style-photography/ronin-white-architecture-20261028-1280.webp",
+            "width": 1280,
+            "height": 1943,
+            "sha256": "5c067dbcde832d21d669061d14b5a7a92efe87a040dbb0951fd286de0f2d1184",
+            "bytes": 390332
+          },
+          {
+            "path": "assets/img/style-photography/ronin-white-architecture-20261028.webp",
+            "width": 2560,
+            "height": 3886,
+            "sha256": "3c000f23e2245ec1105f13e24dfe58c6ab7378f884d600123fc83f1a9f77dcb2",
+            "bytes": 1760524
+          }
+        ]
+      }
+    ],
+    "creators": [
+      {
+        "id": "leonie-fauxfur",
+        "styles": [
+          "mob-wife"
+        ],
+        "name": "Leonie Hanne",
+        "role": "造型创作者 / STYLE CREATOR",
+        "title": "围饰、手袋与门廊的侧光",
+        "captionZh": "本人文章把 Toteme 围饰称为 faux fur，并列出 The Row Margaux 手袋。观察蓬松体积与包袋比例，以及浅色门廊如何衬出轮廓。",
+        "source": "https://leoniehanne.com/2024/11/faux-fur-scarf-x-the-row-margaux-bag/",
+        "checkedAt": "2026-10-28",
+        "sourceImageWidth": 1440,
+        "sourceImageHeight": 1920,
+        "photographer": null,
+        "licenseStatus": "copyright-reserved-link-only",
+        "licenseNote": "Original work is linked, not reproduced or hotlinked. Photographer not inferred from the author name.",
+        "publishedAt": "2024-11-26"
+      },
+      {
+        "id": "leonie-chanel",
+        "styles": [
+          "napoleon-core",
+          "heiress"
+        ],
+        "name": "Leonie Hanne",
+        "role": "造型创作者 / STYLE CREATOR",
+        "title": "Chanel Cruise 21/22 的珠链与浅色搭配",
+        "captionZh": "粉色外套、层叠珠链与白色小包，组成她的 Chanel Cruise 21/22 看秀造型。原文记录在 Hamburg 水边拍摄，可以一起观察珠链的长短、浅色搭配与背景的关系。",
+        "source": "https://leoniehanne.com/2021/05/chanel-cruise-21-show-look/",
+        "checkedAt": "2026-10-28",
+        "sourceImageWidth": 1536,
+        "sourceImageHeight": 2305,
+        "photographer": null,
+        "licenseStatus": "copyright-reserved-link-only",
+        "licenseNote": "Original work is linked, not reproduced or hotlinked. Photographer not inferred from the author name.",
+        "publishedAt": "2021-05-04"
+      },
+      {
+        "id": "tamara-chaumet",
+        "styles": [
+          "mob-wife",
+          "napoleon-core"
+        ],
+        "name": "Tamara Kalinic",
+        "role": "造型创作者 / STYLE CREATOR",
+        "title": "收腰西装，进入有金色线条的室内",
+        "captionZh": "灰色收腰西装、亮色首饰与金色墙板，在人物周围形成清楚的层次。看她如何用室内线条衬托剪裁，再到完整文章里比较不同场景的造型。",
+        "source": "https://theglamandglitter.com/2026/03/recent-outfits-5/",
+        "checkedAt": "2026-10-28",
+        "sourceImageWidth": 1920,
+        "sourceImageHeight": 2560,
+        "photographer": null,
+        "licenseStatus": "copyright-reserved-link-only",
+        "licenseNote": "Original work is linked, not reproduced or hotlinked. Photographer not inferred from the author name.",
+        "publishedAt": "2026-03-25"
+      },
+      {
+        "id": "balmain-suffo",
+        "styles": [],
+        "name": "Suffo Moncloa × Balmain",
+        "role": "摄影作品 / PHOTOGRAPHY",
+        "title": "让衣物的肩线，与建筑的曲面相遇",
+        "captionZh": "Suffo Moncloa 为 Balmain 2026 秋冬拍摄的官方大片，以 John Lautner 设计的住宅为场景。黑白、鲜明肩线、人物姿态与建筑曲面一起，形成戏剧性的空间关系。",
+        "source": "https://balmain.com/en-mt/pages/fall-winter-2026-campaign",
+        "checkedAt": "2026-10-28",
+        "sourceImageWidth": 2160,
+        "sourceImageHeight": 2700,
+        "photographer": "Suffo Moncloa",
+        "licenseStatus": "copyright-reserved-link-only",
+        "licenseNote": "Original work is linked, not reproduced or hotlinked. Photographer not inferred from the author name.",
+        "publishedAt": null
+      }
+    ],
+    "scope": "Photographic studies linked by visible styling and composition. No photographed garment brand, material, endorsement or video-same-item identity is inferred. Pexels-licensed imagery only; copyrighted creator/brand works are linked, not republished."
+  }
 }
