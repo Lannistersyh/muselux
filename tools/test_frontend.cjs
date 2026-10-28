@@ -224,7 +224,7 @@ async function run() {
     site = await fixture('search.html', 'file:///tmp/muselux/search.html?type=style&q=' + encodeURIComponent(style.nameZh));
     check(site.get('#search-count').textContent.endsWith('找到 1 条内容'), 'Offline search finds the style: ' + style.id);
     check(site.get('#search-results').innerHTML.includes('style/' + style.id + '.html'), 'Search opens the correct style guide: ' + style.id);
-    check(site.get('#search-results').innerHTML.includes('女性风格'), 'Style search result is labelled editorial: ' + style.id);
+    check(site.get('#search-results').innerHTML.includes('穿搭灵感'), 'Style search result is labelled editorial: ' + style.id);
     site = await fixture('style/' + style.id + '.html', 'file:///tmp/muselux/style/' + style.id + '.html');
     check(site.document.querySelectorAll('.style-brand-match').length === 3, 'Style has three sourced brand matches: ' + style.id);
     check(site.document.querySelectorAll('.style-suggestion').length === 3, 'Style has three catalog suggestions: ' + style.id);

@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-28T03:08:41.409381+00:00",
+  "oldLabel": "女性风格",
+  "label": "穿搭灵感",
+  "scope": [
+    "main navigation",
+    "footer",
+    "home teaser",
+    "breadcrumbs",
+    "style selection aria-label",
+    "editorial search-result kind"
+  ],
+  "labelSource": "tools/womens_styles.json title",
+  "pagesWithConsistentNavigation": 227,
+  "englishBrowserTitlesPreserved": true,
+  "catalogAndAnnualDataUnchanged": true,
+  "allExistingImageBytesUnchanged": true,
+  "checks": {
+    "passed": true,
+    "reproducibleBuild": true,
+    "pages": 227,
+    "brands": 40,
+    "searchableItems": 156,
+    "pythonRegressionTests": 19,
+    "frontendAssertions": 110,
+    "method": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test"
+  },
+  "browser": {
+    "desktop": {
+      "width": 1280,
+      "documentWidth": 1280,
+      "navWidth": 886,
+      "navScrollWidth": 886,
+      "label": "穿搭灵感",
+      "active": true
+    },
+    "mobile": {
+      "width": 404,
+      "documentWidth": 404,
+      "label": "穿搭灵感",
+      "menuOpened": true,
+      "menuClosedAfterNavigation": true
+    },
+    "screenshot": "reports/style-label-preview.png",
+    "tabsOpened": 1,
+    "tabsClosed": 1,
+    "tabsRemaining": 0,
+    "peakTotalTabs": 7
+  },
+  "graphflow": "No callable GraphFlow tools exposed."
+}
