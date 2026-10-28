@@ -30,7 +30,7 @@
 
 本轮227页全站检查、19项维护回归、110项前端断言与两次构建一致性通过，54个摄影WebP全部完整解码和摘要核验；404像素总览及三个详情均无横向溢出，800/1280像素代表页面与新增图片大图入口已检查。既有6张摄影、三张4K截图、4组创作者入口、全部商品/年鉴数据及349个现有图片文件保持。记录见 `reports/style-photography-expansion-validation.json`，18图一览见 `reports/style-photography-expansion-contact.jpg`。
 
-<!-- STYLE-PHOTOGRAPHY-EXPANSION-PUBLICATION -->
+本轮内容提交 `ea0e3a861deb3efa87e166585043e26c478da73e` 已通过GitHub Pages构建，全部 **297个公开页面、摄影资源及本轮变更文件** 与本地逐字节一致，详见 `reports/style-photography-expansion-deployment.json`。
 
 2026-10-28 导航栏目统一命名为 **穿搭灵感**，同步首页、页脚、面包屑和搜索结果；浏览器英文标题继续使用 **The Style Atlas**。以造型、摄影和品牌作品组织栏目入口。全站227页检查及19项维护回归、110项前端断言通过，桌面与手机菜单已预览，见 `reports/style-label-validation.json`。
 

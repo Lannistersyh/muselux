@@ -1281,5 +1281,16 @@
   },
   "researchBrowserTabsOpened": 0,
   "contactSheet": "reports/style-photography-expansion-contact.jpg",
-  "graphflow": "No callable GraphFlow tools exposed; narrow source reads and required project gate used."
+  "graphflow": "No callable GraphFlow tools exposed; narrow source reads and required project gate used.",
+  "publication": {
+    "commit": "ea0e3a861deb3efa87e166585043e26c478da73e",
+    "pagesBuild": {
+      "commit": "ea0e3a861deb3efa87e166585043e26c478da73e",
+      "status": "built"
+    },
+    "verifiedFiles": 297,
+    "publicURL": "https://lannistersyh.github.io/muselux/womens-style.html#photography",
+    "allPublicFilesByteIdentical": true,
+    "report": "reports/style-photography-expansion-deployment.json"
+  }
 }

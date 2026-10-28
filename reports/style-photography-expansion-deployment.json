@@ -1,0 +1,1233 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-28T06:54:48.641100+00:00",
+  "commit": "ea0e3a861deb3efa87e166585043e26c478da73e",
+  "pagesBuild": {
+    "commit": "ea0e3a861deb3efa87e166585043e26c478da73e",
+    "status": "built"
+  },
+  "publicURL": "https://lannistersyh.github.io/muselux/womens-style.html#photography",
+  "verifiedFiles": 297,
+  "scope": "All 227 HTML pages, runtime files, all 54 style-photography WebP assets, and every content-commit changed file.",
+  "verificationPasses": [
+    {
+      "files": 297,
+      "firstPassTransportFailures": 2,
+      "successAfterInitialBoundedRetry": 296,
+      "remainingTransportFailures": [
+        {
+          "path": "assets/img/style-photography/arif-stone-pendant-20261028.webp",
+          "error": "IncompleteRead(49152 bytes read, 1303360 more expected)"
+        }
+      ],
+      "evidence": "Prior verifier output: publicFiles=297, firstPassFailures=2; final assertion contained exactly the one remaining path. In-memory rows were not persisted before the assertion.",
+      "comparison": "HTTP 200 and SHA256 equality for every successful file."
+    },
+    {
+      "targetedRetryCount": 1,
+      "rows": [
+        {
+          "path": "assets/img/style-photography/arif-stone-pendant-20261028.webp",
+          "status": 200,
+          "passed": true,
+          "sha256": "58cc03eb9cf419f98986878049cabafbfb5547a3bd77c2ca2d5f1ddb1b3e75d8",
+          "expectedSha256": "58cc03eb9cf419f98986878049cabafbfb5547a3bd77c2ca2d5f1ddb1b3e75d8"
+        }
+      ]
+    }
+  ],
+  "expectedFiles": [
+    {
+      "path": "index.html",
+      "sha256": "4440a68a63205d00a51f0821600e0c216b7a1d63e213558c2d75fe9944e43f8c"
+    },
+    {
+      "path": "brands.html",
+      "sha256": "c9ec2d7a608b4e6d45e5eb24c629a03e2622cf067a301a4866a57fc1c8f8ed64"
+    },
+    {
+      "path": "search.html",
+      "sha256": "06022796b71c102d3e2ccc220ba0a1a4a09346e1e7a04e73c35fab0c6704f560"
+    },
+    {
+      "path": "about.html",
+      "sha256": "8c41cda8449d850c7c33fd49d87833ae39273d220efb4d266b817c3517b3f42a"
+    },
+    {
+      "path": "404.html",
+      "sha256": "cc3f409630741fb6e77a6b592b0b79332638d128bd452f0fc2684cdcbaa4108d"
+    },
+    {
+      "path": "cat/bags.html",
+      "sha256": "128d8251c78e229f0e07f2bb0e306bbe75a9600c3a05b49aea41811543f393ec"
+    },
+    {
+      "path": "cat/necklace.html",
+      "sha256": "5b4ee71f30c86f1ccd6cab68a15aaef9dff33d765a9a505a1a96f1c6c8d6af75"
+    },
+    {
+      "path": "cat/jewelry.html",
+      "sha256": "9e46087b05b4ba13f4a7916866e446b6eb52af1f07e569e4b74ef034c30171ef"
+    },
+    {
+      "path": "cat/watches.html",
+      "sha256": "e4f16a2f9444eab5fd1b0b6c50f2c38b1b6fdb0574cc86de18732807d5fb45e8"
+    },
+    {
+      "path": "cat/scarves.html",
+      "sha256": "4bbc381a758034f89676ab3742ebee53e9b4ebfe24571c0b69aeb86248db0546"
+    },
+    {
+      "path": "cat/fragrance.html",
+      "sha256": "5e43263f1cd658f3d6ac3e3cef6d084e8f22858e4a350f17029b1b4571dad541"
+    },
+    {
+      "path": "brand/hermes.html",
+      "sha256": "25e34c2625c796c7dbe47909098bf908bf3888d0d72ba20068b05c705b0ea6ea"
+    },
+    {
+      "path": "brand/chanel.html",
+      "sha256": "943e004ef39e0dff69d3f7f26f8d115dd92e8122c978a38444991fc713726cfa"
+    },
+    {
+      "path": "brand/louis-vuitton.html",
+      "sha256": "99a76e3415d3cf6b94a0999d726ede4f14507874f62f950814a08dcdf80888f2"
+    },
+    {
+      "path": "brand/dior.html",
+      "sha256": "ecdd12eb064b5772f669d4b281f42dfc9839c66091c61c334442ebbd41090022"
+    },
+    {
+      "path": "brand/gucci.html",
+      "sha256": "a82cef9ffbff1c9b7bfbc194150ef45034a7df9ff6023e53035dd87131769bb4"
+    },
+    {
+      "path": "brand/prada.html",
+      "sha256": "1e0ef19311676510be577955215ed31004a89a3a820f5d6a13bfc903d530db71"
+    },
+    {
+      "path": "brand/bottega-veneta.html",
+      "sha256": "2557ed798f03bd16f119cbe62ad71b9a399dc4a385ef4f6f1632273f868dfdd5"
+    },
+    {
+      "path": "brand/celine.html",
+      "sha256": "7311260711ff04ee800c60d7fecde3ad2803f077bd703371a963d5c1b70c6d8f"
+    },
+    {
+      "path": "brand/cartier.html",
+      "sha256": "2b3dd44e4764c9ea54570dd0ec8c99b8994373382617726891ff8b058288837b"
+    },
+    {
+      "path": "brand/tiffany.html",
+      "sha256": "4dbfeccab3123f29026e8ae5ca5203dade408bb2ac947e4c24d92eb0f3430763"
+    },
+    {
+      "path": "brand/bulgari.html",
+      "sha256": "254f7d662bd997f4b8abc1dc66f60d5633c984d5c4f52c25cc995011b66cc8e0"
+    },
+    {
+      "path": "brand/van-cleef-arpels.html",
+      "sha256": "f3d79d7bf58f2ce23d810c9b4673c68b1094fbef2b158e03424f34ccd2507108"
+    },
+    {
+      "path": "brand/rolex.html",
+      "sha256": "6468b283f68ea0590407cbc851f63932d0e7c05882ebb690214ca0558ef3ff9f"
+    },
+    {
+      "path": "brand/omega.html",
+      "sha256": "6a51334b6e3ec07777ea6f13e72914be10331651a7fb018568c0914caa9eea22"
+    },
+    {
+      "path": "brand/fendi.html",
+      "sha256": "40c95f8db5b4fe586b37dbecda42054fba7cb8cf72c9d8d329e60a73abf92f23"
+    },
+    {
+      "path": "brand/diesel.html",
+      "sha256": "b2509c0ae5e8c8d3054810fb53eca90a73a72f3f95cab36574a7cab4f95b6493"
+    },
+    {
+      "path": "brand/balenciaga.html",
+      "sha256": "3704cb72c3c8f63a0d34d74993efe1064aea4110894734000ea3dae520215470"
+    },
+    {
+      "path": "brand/miu-miu.html",
+      "sha256": "84172a18218be50c681c40f5a79002d3c05a150092e9e54009e7581b23f02e7b"
+    },
+    {
+      "path": "brand/loewe.html",
+      "sha256": "a239966fb9d2b4b5ef195c1d5fe5c3cf5bf0376134bd5bc2e497584b9b465dc7"
+    },
+    {
+      "path": "brand/the-row.html",
+      "sha256": "c3bc5832bb631b9ebabe5a37af53810f9678342da4bbdcc10a1e3162bcfbed2c"
+    },
+    {
+      "path": "brand/alaia.html",
+      "sha256": "67b45d9fabb1f5f6ec155c00e7889b8e2fac6a9adf9802ec89155ce2506b1a08"
+    },
+    {
+      "path": "brand/saint-laurent.html",
+      "sha256": "cc7361e1440ce456c6d29a557b3603348eccda94321042075b3faf2574d95334"
+    },
+    {
+      "path": "brand/chloe.html",
+      "sha256": "127f71fbc976e6b87d94350a62757d0c984fe285c6c01e7653c4062aede64637"
+    },
+    {
+      "path": "brand/david-yurman.html",
+      "sha256": "3da47c39c86ae5c07d01caaa595c7e9cd2264d24a243a5b47f8a8534d9d6d169"
+    },
+    {
+      "path": "brand/swarovski.html",
+      "sha256": "ad91b2cdc1e81b1fa404f3c2f91051ee0125a901ca2e22d8519cc217241849d3"
+    },
+    {
+      "path": "brand/fred.html",
+      "sha256": "c7694d0c19b5fca39382f70f00a779d2fb8f4a7f965c0a13cc7098fc202f6396"
+    },
+    {
+      "path": "brand/boucheron.html",
+      "sha256": "245d299bd721136a9e64f48121873a88683e03aa2a96a13f225fc5c0e737074d"
+    },
+    {
+      "path": "brand/pomellato.html",
+      "sha256": "a420eada3d3fb0d2615203c293279bedc8982affc4714b145a47bd3085e45096"
+    },
+    {
+      "path": "brand/adidas.html",
+      "sha256": "de2ec4ff5c6078f7ccbb1a73365d5ed672a188cec236d66b33430f5d11ee0363"
+    },
+    {
+      "path": "brand/versace.html",
+      "sha256": "169cac596b4f8d302a58fcae4622b2aaebc7ffb8509f9c4ce6729cf7dec4526c"
+    },
+    {
+      "path": "brand/fragment-design.html",
+      "sha256": "62d4d0856a839217955407f4bb1b1247f1ddfd056755824b317a34ebc0304219"
+    },
+    {
+      "path": "brand/hublot.html",
+      "sha256": "1c0b29d46c7fd7b54835641b4d57b62b04c7bafafe69ac9c34a19ce2a87b12bd"
+    },
+    {
+      "path": "brand/moynat.html",
+      "sha256": "7ec5dbb07b3078bb3e7dd7d7490b327e05b9aba823a4360ee4c451980bcb35bd"
+    },
+    {
+      "path": "brand/chrome-hearts.html",
+      "sha256": "f2085fd3417895dd23044b9bce4b8fbaf820638eea4d94f57a2546d6cbdc5ae3"
+    },
+    {
+      "path": "brand/diptyque.html",
+      "sha256": "eac018b150ad58a81297f0e3f09544fcd500d0db3dc12d8e108113b2da044556"
+    },
+    {
+      "path": "brand/le-labo.html",
+      "sha256": "968558d89dd623c63af5c35cdab460da8708c32039b59eaa208c916ba3b37480"
+    },
+    {
+      "path": "brand/byredo.html",
+      "sha256": "52670092b4f36c37a41d3d4b3e4a14742482f55ebabc7730d3a73cc933cd7eb4"
+    },
+    {
+      "path": "brand/maison-francis-kurkdjian.html",
+      "sha256": "890e75c76da792edb43cfa96b3db87010a269dc3780e92a8014aaab4ec4a17a4"
+    },
+    {
+      "path": "brand/jo-malone-london.html",
+      "sha256": "2f705f33415e472e02f1eb3806094e28721526a3c1b36e346aa4647f78f38cce"
+    },
+    {
+      "path": "brand/baccarat.html",
+      "sha256": "c9b29297b67103253b919606674cd68a379f00f83c2f8206fcd61fb254c9a2db"
+    },
+    {
+      "path": "item/birkin.html",
+      "sha256": "cc843bf9e33c3059d3afd1659e3a41edc7ddee3c73e3b5a1f8e7d071a4323882"
+    },
+    {
+      "path": "item/kelly.html",
+      "sha256": "43412549664eb3840df07ee4e618264b5193641ba64c3f32e5f38bfae3e1d1dc"
+    },
+    {
+      "path": "item/chanel-255.html",
+      "sha256": "649f46969f982b90d2c4c7ccf356d8773cd81506d5df7c6f57fe3e479c35e655"
+    },
+    {
+      "path": "item/classic-flap.html",
+      "sha256": "aa140f9e6820100a2fda2f7301a4519d63e0b35d77a0f4a028925c7218c9e6f5"
+    },
+    {
+      "path": "item/boy.html",
+      "sha256": "4907ba5abfd30ec0a1e28a16b0c1dfff0a6ce607b3cc6d6c2e5bfcb9c9007763"
+    },
+    {
+      "path": "item/speedy.html",
+      "sha256": "bc707dd05161504ed3726857707557ab37e21533a1c643fca73c092765fbe474"
+    },
+    {
+      "path": "item/lady-dior.html",
+      "sha256": "a01867dff9a984deb3d568148b7aa68b6423deaca8679acd1e54637639fe657c"
+    },
+    {
+      "path": "item/jackie.html",
+      "sha256": "5bbb3fc029dd2132c0a76fa8e23a4db167be5679735ccfdaaf0a09687bfc3a61"
+    },
+    {
+      "path": "item/galleria.html",
+      "sha256": "2b9419ce48ae19305f62d54c8a4e53031fe69ccd33b6f618be014c26bf16f35f"
+    },
+    {
+      "path": "item/jodie.html",
+      "sha256": "ed74bb79ea93b7c0a2fc8d19decf87a5bf2ec774cd40ccba8d4b643bcc67861d"
+    },
+    {
+      "path": "item/classic-box.html",
+      "sha256": "85018b639381636429fdba07ede1d10cc438641bb2fc842bc30e56e6cda66be7"
+    },
+    {
+      "path": "item/baguette.html",
+      "sha256": "d48d517f47d2e2bcae18fd8e235a41c98e66298deb7f129cbf3204663bbb9e54"
+    },
+    {
+      "path": "item/love.html",
+      "sha256": "f2e301013b3860aa83dbe8e13dd34d802df0e7cfef2aade682f5d3ee2565dafd"
+    },
+    {
+      "path": "item/juste-un-clou.html",
+      "sha256": "fda32396cf09c4c1263839e6bb4e86412d8f570e8c76f9f5d80c12b3d6105095"
+    },
+    {
+      "path": "item/trinity.html",
+      "sha256": "add231443b2a514f68df164fd84fb78d1fafcd995c7dbf84f2ccb1f5a34698b0"
+    },
+    {
+      "path": "item/tiffany-t.html",
+      "sha256": "4305d9ed03c40725c09b8ea9ae1b575a46326fd70e650531f86770e391c1e660"
+    },
+    {
+      "path": "item/tiffany-keys.html",
+      "sha256": "492078d9b930a1c7c0c09bd2303a0a8db13ff799e32c33f6bf1afc23a0b65670"
+    },
+    {
+      "path": "item/serpenti.html",
+      "sha256": "486d4bfffcc297ce31a36d2ac0a42fa8903247714664c0dbdfad1b4447bd1d24"
+    },
+    {
+      "path": "item/bzero1.html",
+      "sha256": "f3a5309eeec79a6fdaa522bf4f27f9359c7d6dc987a633277149d46cc69ccd1f"
+    },
+    {
+      "path": "item/alhambra.html",
+      "sha256": "f071718e0b984c93321f27d1afab5707b615599448266c20b3c3f71ad966e2b8"
+    },
+    {
+      "path": "item/coco-crush.html",
+      "sha256": "866b76673bc070aaa8b098a188ae43689bae2758daabd75afb28ebc5d897b328"
+    },
+    {
+      "path": "item/submariner.html",
+      "sha256": "981b70a7d0aa4033588cdbac4bbb47e061826bb0a5e2163140c73de2ccde7eb1"
+    },
+    {
+      "path": "item/speedmaster.html",
+      "sha256": "c85daed050a639ef6a8af6a01522053cf00974f1360e037da84a4c502473f94a"
+    },
+    {
+      "path": "item/tank.html",
+      "sha256": "3c4b0093896e4aa6e0ab50fc89736c9f8bb8a643c92bf8fd06203c48763f8692"
+    },
+    {
+      "path": "item/carre90.html",
+      "sha256": "56f9a9c7486a297397f68c98a4e11bf77bbb6ce85bb79066e13b968c596eb7f8"
+    },
+    {
+      "path": "item/no5.html",
+      "sha256": "3acf6c977324f97311a5b5b9eb4a772fa3169df8c638fcaced97cf9ce0cebd73"
+    },
+    {
+      "path": "item/horsebit-loafer.html",
+      "sha256": "51c96f5aa769790eea90b9d679f2b1469b4a4ccfac51f6b631235b65c47b2c73"
+    },
+    {
+      "path": "item/triomphe-sunglasses.html",
+      "sha256": "06419b96a3f730f7663fb0db9ea92096305fea5fc8d706fdcb158a00fd29d51b"
+    },
+    {
+      "path": "item/dior-small-lady-dior-black-us.html",
+      "sha256": "81c5eda49c652f47c982f4e2a4aaf836a00e3c87de321ce87711ebd74f627b15"
+    },
+    {
+      "path": "item/gucci-jackie-small-black-gg-us.html",
+      "sha256": "dd82bf775a163b03a60b9807b96433be5d9d684ebaec49f5c3303e61b7a66e01"
+    },
+    {
+      "path": "item/prada-galleria-small-black-leather-us.html",
+      "sha256": "f6ca02b20d686ead26cd7669f0f6884bd6d1324a6c0c825cfb70ae1ce57fd7c3"
+    },
+    {
+      "path": "item/fendi-baguette-tobacco-ff-us.html",
+      "sha256": "4c619c4f04c20001e2d8bb468dc8c89e7ea001b24dad9fea0bac8f445d262db6"
+    },
+    {
+      "path": "item/hermes-please-hold-line-90-blue-us.html",
+      "sha256": "69f1383383914ed0e6e76570966d0d96a9fdb107cbef1f14c9433ffd9a27502e"
+    },
+    {
+      "path": "item/dior-oblique-mitzah-navy-us.html",
+      "sha256": "9aafaab8ff1791a321c19877a46c300c8af4a9ee4cdbdfb8985137c63dd7bcc0"
+    },
+    {
+      "path": "item/gucci-flora-silk-carre-pink-us.html",
+      "sha256": "065eb9c9e3cb30281a1d1d1d3575153b059c50e948e4bc3ae217710529f001d0"
+    },
+    {
+      "path": "item/prada-triangle-silk-scarf-55-alabaster-us.html",
+      "sha256": "bb098ce61b0fa1552c3cb65ba90fe1edd0404d20f0f881cd97ceee243ab32270"
+    },
+    {
+      "path": "item/moynat-hotel-hobo-brown-ci3625-0760.html",
+      "sha256": "5825414a04333b92c75ed2c2ce0f9150c006b458758a5df54fc40fbf5dc40e85"
+    },
+    {
+      "path": "item/moynat-hotel-silk-scarf-70-multicolor-us.html",
+      "sha256": "e0a103f2711de141e0be2f5bc429085a054b37952e81c23693fc84664a298724"
+    },
+    {
+      "path": "item/cartier-love-pendant-yellow-gold-b7014200.html",
+      "sha256": "318dcbf969cdac80bb3b089f9db117d0916d860b8d871f9b61ab5a27587955cb"
+    },
+    {
+      "path": "item/tiffany-t-smile-small-yellow-gold-60011679.html",
+      "sha256": "ec3ee4e40053b9c0fe23a645adac9a794e0adbe7fc9bf8816c74a7143e9a8cbc"
+    },
+    {
+      "path": "item/bulgari-bzero1-necklace-white-gold-352815.html",
+      "sha256": "9551d53a88969207d54bde109899c9b85ccf91e42f447b3d8e7a78bf418c2d18"
+    },
+    {
+      "path": "item/chanel-coco-crush-necklace-small-beige-gold-j12306.html",
+      "sha256": "8d2ba7762ed747223d8d9b5ef6c1cae88a57869f8e3a9ec78bb76d697ab60b5e"
+    },
+    {
+      "path": "item/cartier-trinity-classic-ring-size53-b4234253.html",
+      "sha256": "bff257030ea6b4693704a7dec974c95bc3021d9acb1ece414b33291806601cfd"
+    },
+    {
+      "path": "item/tiffany-hardwear-small-link-medium-silver-60153085.html",
+      "sha256": "90e4679ced4fc6b8f4f2243574c7af08cd3358972bb4ae8e359217aed90c4e06"
+    },
+    {
+      "path": "item/bulgari-serpenti-viper-ring-rose-gold-45-46-362140.html",
+      "sha256": "994cc264c9e38513131489e1834d3f4ccbbb4952d00527b771b654821d84a880"
+    },
+    {
+      "path": "item/chanel-coco-crush-ring-mini-beige-gold-j11785.html",
+      "sha256": "0e3221460d1d60c837c1ece173306f9f997acdc29b6549d20ffd1e4a5e4dd93e"
+    },
+    {
+      "path": "item/cartier-tank-must-small-wsta0135.html",
+      "sha256": "e09fc67109c04f92f8986b0cd470ada1c9d571280b1241da80e617ca8cac8dd1"
+    },
+    {
+      "path": "item/cartier-santos-medium-wssa0029.html",
+      "sha256": "85da77b37d874fa640798bfc419ee206e6a643e50e235b40a8791586a2b9da38"
+    },
+    {
+      "path": "item/hermes-cape-cod-41-etoupe-w044350ww00.html",
+      "sha256": "4fe7eb2b0436cb7cebebd83fa93a77937ebf6027f0ec94b4cdd24149d7eca310"
+    },
+    {
+      "path": "item/hermes-heure-h-medium-etoupe-w404223ww00.html",
+      "sha256": "e39be0166731d9af470561aa457ae660a1d53f58fca013aa673c39bb16ba059d"
+    },
+    {
+      "path": "item/dior-jadore-edp-100ml-c099800246.html",
+      "sha256": "e9adbb7cf51ebe75a5796185a529f4b85df4bd4131b6bf88577f1d1a48a2107c"
+    },
+    {
+      "path": "item/gucci-bloom-edp-100ml-488830.html",
+      "sha256": "9e002dae445363ae7918870a92072965ca2607667dfb2c855369e479de2180ea"
+    },
+    {
+      "path": "item/prada-paradoxe-edp-90ml-1a1351.html",
+      "sha256": "fe58b1d4b944cd5507a40191001b25e7030a15bc4ff99dec0251d9c40502736e"
+    },
+    {
+      "path": "item/hermes-terre-edt-338oz-v107188v0.html",
+      "sha256": "83a3eee3f8acd500368fb1d859fb089cac3999c484ee3a2bd44c2e60780655d4"
+    },
+    {
+      "path": "item/hublot-tributo-white-gold-38-262-wx-6870-rx-mdm.html",
+      "sha256": "21058fe328d93b99c30c42eb418317b9fbac58b948b531670b6670d61a5ca919"
+    },
+    {
+      "path": "item/chrome-hearts-baby-fat-silver-jr-10417229988154.html",
+      "sha256": "0985e49fbdc32c2fb3a98508b5381610e1c82ef8c8e8df961d7be83a6c9be8fe"
+    },
+    {
+      "path": "item/chrome-hearts-dagger-silver-jr-15409514479930.html",
+      "sha256": "3d254575bdf895f8b1f123cf8d6f8369999c835ef9b7a9007bb1df5d55efacb1"
+    },
+    {
+      "path": "item/chrome-hearts-vine-dagger-dog-tag-silver-jr-10358159966522.html",
+      "sha256": "03be44849d7a85a56ab1249d2b0fee70957583c03c6d13345109e886a23d3948"
+    },
+    {
+      "path": "item/chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167.html",
+      "sha256": "9eb8c5ef2211920a2a02839e53a6b9efef88597b05dbc73f7cc56b7cc84787c7"
+    },
+    {
+      "path": "item/chrome-hearts-ch-forever-ring-us11-justin-reed-5263256526.html",
+      "sha256": "e6349f245ca0e9a9a476ece4e1e573c420433192a3618c80fc3f60e18ed6b007"
+    },
+    {
+      "path": "item/chrome-hearts-paper-chain-bracelet-7in-justin-reed-64684684.html",
+      "sha256": "de09e0e29d81f6322caa2df9da7ead9124a017eb9ea772ed472ae939e2bbcf16"
+    },
+    {
+      "path": "item/diptyque-tam-dao-edp-75ml-tamdaop75cv1.html",
+      "sha256": "2b90514b26a433e519efc25070c6228c90e7f8eb433189e5de6870b66f1b1d9a"
+    },
+    {
+      "path": "item/le-labo-santal-33-edp-100ml-100ps33100.html",
+      "sha256": "0f78e1439af599bdf5fd8e786ef964613c80c8149c53e5e643d0f32651c845f2"
+    },
+    {
+      "path": "item/byredo-bal-dafrique-edp-100ml-0065204863.html",
+      "sha256": "5a62a59f1649f983cdad43959595ebfc614807459d5e8adc8d827c4e3f2f937a"
+    },
+    {
+      "path": "item/mfk-baccarat-rouge-540-edp-70ml-ra12232.html",
+      "sha256": "314f582f2e79c6f6adf79e79720b46a9b7823ae062e86425ae42bb9ad6dc8dd5"
+    },
+    {
+      "path": "item/jo-malone-wood-sage-sea-salt-cologne-100ml-l41501.html",
+      "sha256": "36824ab786caa1823d5a595237ddb90e30106a363f90f28b6b1568992acb8cef"
+    },
+    {
+      "path": "mag/mag-01.html",
+      "sha256": "e509c9a4fad687c13aa80eef2c5442fe98c1d74b832e987297b318a6762ea65b"
+    },
+    {
+      "path": "mag/mag-02.html",
+      "sha256": "fa24f6f5f10ff042d625890fdd69fcfbd9845fa0afabdfb4d8783d3d0df804d3"
+    },
+    {
+      "path": "mag/mag-03.html",
+      "sha256": "6c3d9af20d5d8b5a22a0e79fd8171a66aa5a166042d8c42d824731b7a9a7ce2e"
+    },
+    {
+      "path": "mag/mag-04.html",
+      "sha256": "781851695e8a26dc8d3d207ce42a9a2214c68cf4270b3910bc608c93884ca2ad"
+    },
+    {
+      "path": "mag/mag-05.html",
+      "sha256": "10dc718943f66bf9b56a55b4894cd236edda11a9f8dce33bb9893e1f40a270d3"
+    },
+    {
+      "path": "mag/mag-06.html",
+      "sha256": "1620b3c8d9109e623c01f0b47ffebcb7de7dba1f66fb066322808bcac0e8f1c9"
+    },
+    {
+      "path": "mag/mag-07.html",
+      "sha256": "6c9d5666ee955ed8689fb9363bb80ec65260a1dab2eb85b5ef2c8c2879de8100"
+    },
+    {
+      "path": "mag/mag-08.html",
+      "sha256": "dca4796a0cd5c25a4322757318a04f127f4f14b34284d760ae41b5721babb294"
+    },
+    {
+      "path": "mag/mag-09.html",
+      "sha256": "147a17ab43e268982fa3487ae01a025db2e66d348326905961dbe2245096297b"
+    },
+    {
+      "path": "mag/mag-10.html",
+      "sha256": "ab297d7b577c627f17e96405cfc7d91ee7896b51bfef04039a235455ff5d6f09"
+    },
+    {
+      "path": "mag/mag-11.html",
+      "sha256": "2da2583e9929134e39f25f94a5c2170e8aae264e6c7bbbcad08277379f435c20"
+    },
+    {
+      "path": "mag/mag-12.html",
+      "sha256": "0a26e1b94b5e959de9d432e0ccec7e0e5c1ff7837cccaa9fdcd98a061f0fa0a5"
+    },
+    {
+      "path": "perfumery.html",
+      "sha256": "fbf7f396016191d358bc0c67a58c20906ff3a6ef422b2ffc0759fc2bb7cfaca5"
+    },
+    {
+      "path": "womens-style.html",
+      "sha256": "2c8a272cb618354a83cab15c9ff749adea6a24e7f73a6239af1a9ffe854e24c1"
+    },
+    {
+      "path": "style/mob-wife.html",
+      "sha256": "850af52153fb005276cd70e479420bb11699378bb7f2e0ad3a94e24f545f6802"
+    },
+    {
+      "path": "style/napoleon-core.html",
+      "sha256": "9b3e7de43a6f6e7da44da5136f510ace0a379e7acd2d866a218942ff7ae87d3d"
+    },
+    {
+      "path": "style/heiress.html",
+      "sha256": "10ce0068215a9925ab6959669d999b0b808c9f30d2418a5e820e3d4731e1ae6d"
+    },
+    {
+      "path": "bags-by-year.html",
+      "sha256": "cc6d7ef360483547cd484b1db787f6cafa875c2ee4a1adc5a25af13c5bb6f01f"
+    },
+    {
+      "path": "item/bag-2022-prada-re-edition-2000.html",
+      "sha256": "ac11ffafc444bae73803dd55f212211b5cf2b59ec16461557100b2f07c328804"
+    },
+    {
+      "path": "item/bag-2022-diesel-1dr.html",
+      "sha256": "67ba3693d0b3c69f28e3cf37a4a24239e4ef86fe2acd696b64aac857bcf2f8c9"
+    },
+    {
+      "path": "item/bag-2022-balenciaga-le-cagole-small.html",
+      "sha256": "f7be41596023d70a6b4b7626e1dd893d8e395c736e94e7d78b3f3ed32effc4d5"
+    },
+    {
+      "path": "item/bag-2022-miu-miu-wander.html",
+      "sha256": "18ee0397be413a913878dd3ebd3893e6e1ba1eb7c6555ce45bc1e61515b6b42c"
+    },
+    {
+      "path": "item/bag-2022-loewe-spirited-away-susuwatari-mini-puzzle.html",
+      "sha256": "912f08d0e22eb9fe3803074a9ea2c9d841856bd73c4167748ffca6a2bad4d29d"
+    },
+    {
+      "path": "item/bag-2022-gucci-adidas-large-duffle.html",
+      "sha256": "cf7db106c0575e176a1b04cbb230d0b57b3e3010d416a4551a47d51eba417818"
+    },
+    {
+      "path": "item/bag-2023-loewe-font-tote.html",
+      "sha256": "068b6d6255edf6981b4f9773e3bd48aabd83e8d3333d4408fcdba1f6384f39a8"
+    },
+    {
+      "path": "item/bag-2023-the-row-margaux-15.html",
+      "sha256": "60e53fe94252bd9ee21ecd881d64d65e522899324cbb8f7a98b77eb7444e515c"
+    },
+    {
+      "path": "item/bag-2023-bottega-andiamo-small.html",
+      "sha256": "332aa5460c0558d56fca7124aa6f59836eec44569461c3894fe937619db7da7c"
+    },
+    {
+      "path": "item/bag-2023-miu-miu-arcadie.html",
+      "sha256": "ff7f28370564da21fee3c4fbd72e31cd467cb5259435c459424c0e85d82a595a"
+    },
+    {
+      "path": "item/bag-2023-loewe-calcifer-mini-puzzle.html",
+      "sha256": "a91e0f3114c80242ad087e8b2d91654a085cf6e348623f7c3646e7e18e8dd2ee"
+    },
+    {
+      "path": "item/bag-2023-lv-yayoi-kusama-neverfull.html",
+      "sha256": "0d1ca0b9a7e99bbbaeabf0854b7b7d830522ead58611acbaa041591a21e42d89"
+    },
+    {
+      "path": "item/bag-2024-alaia-le-teckel-medium.html",
+      "sha256": "4523bf9d11871a8ab0f4935a4558e3775716963f30b3519ca6c876cbb2924b39"
+    },
+    {
+      "path": "item/bag-2024-miu-miu-arcadie-suede.html",
+      "sha256": "01fe385e9ad6d637a1ee8791889ff611f10ad6d875df7d648441f0ea4421052d"
+    },
+    {
+      "path": "item/bag-2024-balenciaga-rodeo-medium.html",
+      "sha256": "2284a9da8e44603171627e24bff4ede0d48e479d7395a87045da0386e0595d06"
+    },
+    {
+      "path": "item/bag-2024-loewe-puzzle-fold-medium.html",
+      "sha256": "beaa81b9d55c754783b991532381c0f53591bf60fb6ec103f93ae30e26a83369"
+    },
+    {
+      "path": "item/bag-2024-louis-vuitton-tyler-keepall25.html",
+      "sha256": "0fd583cb82eeb1892a5eb5a91184177f173b35cbc70c7f5f28d32bc810aeeee4"
+    },
+    {
+      "path": "item/bag-2024-fendi-frgmt-pokemon-beaded-baguette.html",
+      "sha256": "ceb564e56899ef4324aa74b60b4af593eaa8af94bd5388bdc247012215d951fe"
+    },
+    {
+      "path": "item/bag-2025-saint-laurent-gaby-vanity.html",
+      "sha256": "15d7a38db2e4b6302b363d0713f93a225c8378cbdad959a0e05bbb1219f10dac"
+    },
+    {
+      "path": "item/bag-2025-miu-miu-suede-pouch.html",
+      "sha256": "a299d13216b263cf49ee4717a80346bcb9ddecb4d8fdf11c708edce9d81784f5"
+    },
+    {
+      "path": "item/bag-2025-chloe-paddington-grained.html",
+      "sha256": "56b92fd762ea4de7c7ef551c833cef15de0f53dd9fe3927f636b9320b4b4d34e"
+    },
+    {
+      "path": "item/bag-2025-prada-dada-small.html",
+      "sha256": "c2076ce5c28ecac599e359deb408ed34345a951398a05a994c8430f4a17ad81c"
+    },
+    {
+      "path": "item/bag-2025-loewe-puzzle10-confetti.html",
+      "sha256": "ab8cbf7d572e7574d314479b63deea1a282ed9246d4716163890e56ed7f547be"
+    },
+    {
+      "path": "item/bag-2025-loewe-puzzle10-plumeria.html",
+      "sha256": "abf26d4e8975a15346eb14f7be6f4e457a8459ab27644bde7c5e06e9928c47b3"
+    },
+    {
+      "path": "item/bag-2026-chanel-maxi-flap-camel.html",
+      "sha256": "76d0a0b6d0e84e162cf33c53f2d3de35986c13c82deb0ddd04f5f3009a2f07ea"
+    },
+    {
+      "path": "item/bag-2026-prada-bonnie-medium-black.html",
+      "sha256": "34a85d8cd549beb37c697707895fbb401540cd505d19c889f37b53ea7afd2b19"
+    },
+    {
+      "path": "item/bag-2026-loewe-amazona180-large-black.html",
+      "sha256": "26a4f9eba55893b0d92d519c204a678e48a8f1f1d12a9c24eb3b38d817901c2f"
+    },
+    {
+      "path": "item/bag-2026-dior-toujours-hobo-small-black.html",
+      "sha256": "9d845eb6b4689aeadcda6adcbb20e93aa5113888b815261cbefc5233de722ea3"
+    },
+    {
+      "path": "item/bag-2026-lv-speedy20-monogram-origine-green.html",
+      "sha256": "d5073ffeacb1cc9ac1c6b6c0b08a44e0a2d58f6b334445233888c7f9a4a1576b"
+    },
+    {
+      "path": "item/bag-2026-loewe-amazona180-lazy-crab.html",
+      "sha256": "11af0add52eb64dd0caf9e27198a105f707e9c35a4e432e3f08888ecdce64054"
+    },
+    {
+      "path": "necklaces-by-year.html",
+      "sha256": "d08f09bef6344f121eb1e60a1323b6f9f4e1ccc46472ee354a2963af6e3fc680"
+    },
+    {
+      "path": "item/necklace-2022-cartier-love-pendant.html",
+      "sha256": "a5661f1d21ff4abb3d6b0f3e2cfe035a2579f27b4109deac984ffb26eda3ba57"
+    },
+    {
+      "path": "item/necklace-2022-tiffany-hardwear-necklace.html",
+      "sha256": "0bdc43c2875736d24c36878f56927bf8452504868019b62aa81370f4e6457db2"
+    },
+    {
+      "path": "item/necklace-2022-david-yurman-cable-linked.html",
+      "sha256": "a9cce35493e0db690f8076abc6989da1574e987ac6537c8256d48de1caf67fe3"
+    },
+    {
+      "path": "item/necklace-2022-vca-alhambra-mother-pearl.html",
+      "sha256": "88fd8cbc278fd7f6c47f90752ca2800191ca03c831d9b0deec0c45eb2976070c"
+    },
+    {
+      "path": "item/necklace-2022-adidas-gucci-gourmette.html",
+      "sha256": "e95ed616c49477d811d9da442c28841ea7e23bb5b95c7306d121e8dc44ff954d"
+    },
+    {
+      "path": "item/necklace-2022-fendace-chain-necklace.html",
+      "sha256": "692f86af01bab108401a08ddf45d5652ee95e9f1f39b54fca94c86ce6f533376"
+    },
+    {
+      "path": "item/necklace-2023-chanel-coco-crush-pendant.html",
+      "sha256": "68fa6f767d0bda4775355295b699c9878bc284a0218bd10245407823e8503b4e"
+    },
+    {
+      "path": "item/necklace-2023-tiffany-t-smile.html",
+      "sha256": "36561c74aca49e01193eaed5e4228369602a625b3b5b5bb0131e5923a91d2471"
+    },
+    {
+      "path": "item/necklace-2023-vca-alhambra-onyx.html",
+      "sha256": "522a56a481d864f74a84c4ff296d244a3ca7b89179541576f03de408eb45b974"
+    },
+    {
+      "path": "item/necklace-2023-tiffany-lock-rose-diamond.html",
+      "sha256": "5064de46667c10074258055d28016d31a6911401a396324e96e1c0a05049fba0"
+    },
+    {
+      "path": "item/necklace-2023-tiffany-rose-lock-pendant.html",
+      "sha256": "b6d6613759cc19de38e42c4cd1e97443cec9e645d583f190bd138ecbe5a0a4a6"
+    },
+    {
+      "path": "item/necklace-2023-tiffany-arsham-pokemon-pikachu.html",
+      "sha256": "8510ce10e5c46ed8e3fa4f79d0714b12e45f6c7870c9272b674ba23cf5e01625"
+    },
+    {
+      "path": "item/necklace-2024-tiffany-t-smile-small-yellow-gold-60011679.html",
+      "sha256": "7aa61abc3126792b1ca0cd928c78b7499173188ba3e3b3653666a6d8a58f1060"
+    },
+    {
+      "path": "item/necklace-2024-bulgari-bzero1-necklace-white-gold-352815.html",
+      "sha256": "42c289a14992ee9484ddf527be6c2a206952e9619b4c8a4560a32c6a60707474"
+    },
+    {
+      "path": "item/necklace-2024-chanel-coco-crush-necklace-small-beige-gold-j12306.html",
+      "sha256": "c1f3d07ac5cf13deccb5da96611721126d8fbf074a34fc9007e55353d2b8d45a"
+    },
+    {
+      "path": "item/necklace-2024-van-cleef-vintage-alhambra-mother-of-pearl.html",
+      "sha256": "3f860019db6ff0fc487a3f1a2cd2b7624f8572bc68b2c41709acb583ce6ff8f7"
+    },
+    {
+      "path": "item/necklace-2024-fendi-frgmt-pokemon-pokeball-necklace.html",
+      "sha256": "c0e140db769e498cfb330168d62c95dc11ee9d305a5a97b55f5ba94c6f3d644b"
+    },
+    {
+      "path": "item/necklace-2024-van-cleef-holiday-guilloche-rose-white-gold.html",
+      "sha256": "13ea7010abe25b3594ebb87d5cfdef438dff621aaf55072afcc40d47a7ad96ba"
+    },
+    {
+      "path": "item/necklace-2025-chanel-coco-crush-necklace-small-beige-gold-j12306.html",
+      "sha256": "ebf144ac19895e8ba15c4e2c2c7aaf21c3eaf403198c885e0697ef0bc79d04fd"
+    },
+    {
+      "path": "item/necklace-2025-tiffany-t-smile-small-yellow-gold-60011679.html",
+      "sha256": "fa3e93d66d646eb1450c02b64616dd3b61765c17b529e9bc38806b26db39eb4a"
+    },
+    {
+      "path": "item/necklace-2025-gucci-trademark-heart-silver.html",
+      "sha256": "29d6f48c08d67a1a45ab154d4b3a3cea86d95d0c61cb9e070a159f4ea9bbce8a"
+    },
+    {
+      "path": "item/necklace-2025-bulgari-divas-dream-mother-of-pearl-diamonds.html",
+      "sha256": "081d3898f2183498dcbf2c135126c92daf790a951f9ffdec6d1b25bd12ea4de9"
+    },
+    {
+      "path": "item/necklace-2025-louis-vuitton-murakami-superflat-necklace.html",
+      "sha256": "9aaee517ff71d351f639cb5dee1e996b831e6b70c38071b2b665b20b54c18c0c"
+    },
+    {
+      "path": "item/necklace-2025-swarovski-ariana-grande-heart-necklace.html",
+      "sha256": "8bae33c311546af3a8b93c0ef5655a53eaf4e16909ef13bc18c1208293d5d6ec"
+    },
+    {
+      "path": "item/necklace-2026-bulgari-serpenti-viper-yellow-gold.html",
+      "sha256": "0d22bc62a16c5c636aa4850db649aab69f4321048c01a928d9b290a469465f4f"
+    },
+    {
+      "path": "item/necklace-2026-fred-force10-rise-yellow-gold.html",
+      "sha256": "606f006fc656e4cd3e96801577e79e2c54d9502c2d23ececb12fef01b94e9d66"
+    },
+    {
+      "path": "item/necklace-2026-tiffany-hardwear-double-link-yellow-gold.html",
+      "sha256": "60a1536068ad5de567ee42d03ff3fc6e9f73ef224ba1b5a37fc36424828aba1c"
+    },
+    {
+      "path": "item/necklace-2026-tiffany-hardwear-medium-yellow-gold.html",
+      "sha256": "b259f861048e98d464d7fb016377db61357e189dd5d1f1a7f073825c38229fae"
+    },
+    {
+      "path": "item/necklace-2026-swarovski-ariana-dragonfly-pendant.html",
+      "sha256": "4b670cd0bb8b409a13a910d1c422657b0a7cede687a733f526a5a73efc06eb53"
+    },
+    {
+      "path": "item/necklace-2026-swarovski-ariana-dragonfly-y.html",
+      "sha256": "ec175d4e713d1a51e82dfcc14b7e71a23768765d32dd90beb99b30ff0406bb10"
+    },
+    {
+      "path": "jewelry-by-year.html",
+      "sha256": "439c50ed2ee991c50077f3aa2b4ff0d0a9e4070d8babfb31be7a61e0034ac6db"
+    },
+    {
+      "path": "item/jewelry-2022-tiffany-hardwear-bracelet.html",
+      "sha256": "1accfc053a3e74ad979b4adcd588113feccd6ee1df0d36abcc35e75df9f764ea"
+    },
+    {
+      "path": "item/jewelry-2022-david-yurman-classic-cable.html",
+      "sha256": "9796e4f45a0dd52b332eaffd0ab9b4f439643f655a95c111b6fa9c17477b1c88"
+    },
+    {
+      "path": "item/jewelry-2022-cartier-love-classic-bracelet.html",
+      "sha256": "f949859cc7e1f6e0d7b423f315c21b9d3a649f875a79b6296af811dcc3e4d768"
+    },
+    {
+      "path": "item/jewelry-2022-vca-alhambra-mother-pearl-bracelet.html",
+      "sha256": "d8850bedd08d57490532240e6aebf98a8826b30c4d344dcd50fad714ca3326fb"
+    },
+    {
+      "path": "item/jewelry-2022-fendace-hoop-earrings.html",
+      "sha256": "7868e34f3f40b256b4cfe006dc095fa462e2b45169fedf1d411737a51cbc94e8"
+    },
+    {
+      "path": "item/jewelry-2022-tiffany-arsham-lock-ensemble.html",
+      "sha256": "daac22e61ad41ad6ac1c40b15e8a8b3809fd38031cf834c21811e01fdf0b84c6"
+    },
+    {
+      "path": "item/jewelry-2023-chanel-coco-crush-ring.html",
+      "sha256": "5fe565044cd67e061769f4663b3f64c4f002106b44a875ecdd0951e6e7329a8b"
+    },
+    {
+      "path": "item/jewelry-2023-cartier-love-small-ring.html",
+      "sha256": "78ca172bff977252a39160678e43fb8ee217a276aa61e284d35ccb2c4208a55a"
+    },
+    {
+      "path": "item/jewelry-2023-cartier-juste-un-clou-small.html",
+      "sha256": "aa432752fd22d9c5e364a8172b1d47995b545d69e3ebc4b4374e176fe2fd63cd"
+    },
+    {
+      "path": "item/jewelry-2023-tiffany-lock-rose-bangle.html",
+      "sha256": "64240d2a886a8b3ba76dcdfcf74e3a6aee21963158fa70450a9c20bbcce63d41"
+    },
+    {
+      "path": "item/jewelry-2023-tiffany-rose-lock-bangle.html",
+      "sha256": "5968076de84ced0bad408cc7a7f2971c33721bf0a2ca946114a247dbd35740fc"
+    },
+    {
+      "path": "item/jewelry-2023-lv-kusama-pumpkin-bracelet.html",
+      "sha256": "81c8d83cb197b0b43e1cb367e77863be16d8c94e5cae4944d3908e5d009fe519"
+    },
+    {
+      "path": "item/jewelry-2024-cartier-trinity-classic-ring-size53-b4234253.html",
+      "sha256": "a2ec853ffe1bdedecc5c44494dd3ac97540ed14b1d23f9eae088ad5e5aad62c0"
+    },
+    {
+      "path": "item/jewelry-2024-tiffany-hardwear-small-link-medium-silver-60153085.html",
+      "sha256": "5d3fe48ed8409e6d175e911add5e4a50f6040062866c5c6a63b725bec25d2c18"
+    },
+    {
+      "path": "item/jewelry-2024-bulgari-serpenti-viper-ring-rose-gold-45-46-362140.html",
+      "sha256": "e2f879b14e199ad4a213b95a43d07d0a2eae6aa3df601174f849934e7561dc45"
+    },
+    {
+      "path": "item/jewelry-2024-chanel-coco-crush-ring-mini-beige-gold-j11785.html",
+      "sha256": "1832b0a570a19c81395026e926de7ff865a03b784d42f14069478125292d455a"
+    },
+    {
+      "path": "item/jewelry-2024-fendi-frgmt-ring-gold.html",
+      "sha256": "3e9878262f4b8012de9b764efa4f91c188bb2356344cf364879077c838d5750a"
+    },
+    {
+      "path": "item/jewelry-2024-fendi-frgmt-pokemon-earrings-gold.html",
+      "sha256": "f38b3d9d63f73cfd3ed6b52c53a374c81e360d9cc6c6bb621ebf7534b8392d17"
+    },
+    {
+      "path": "item/jewelry-2025-hermes-clic-clac-h-blanc-rose-gold.html",
+      "sha256": "5f670a65bc3a682a0514bdb01023dfa0aa8914b873e19f4471bfa4eeb703bcb3"
+    },
+    {
+      "path": "item/jewelry-2025-david-yurman-classic-cable-blue-topaz-diamonds.html",
+      "sha256": "5391d17674fdfcaceabe52d7d9bdb71ab1714d6f5dff8c97aa3a5b0cd6bc3bae"
+    },
+    {
+      "path": "item/jewelry-2025-van-cleef-vintage-alhambra-five-motifs-mother-of-pearl.html",
+      "sha256": "630a25e0b7309a595058c8123be8d3aafaf805541c8937e51747ff01cb557bc0"
+    },
+    {
+      "path": "item/jewelry-2025-cartier-love-small-yellow-gold-size17.html",
+      "sha256": "d174ada79779757b1ac9988de444854c767ba65d7af9de360fc1232e6f6ad927"
+    },
+    {
+      "path": "item/jewelry-2025-louis-vuitton-murakami-superflat-earrings.html",
+      "sha256": "fa50bc766387f6e3993d4147b007c238fcdb21109dcf687a098535ee3f81418a"
+    },
+    {
+      "path": "item/jewelry-2025-swarovski-ariana-grande-heart-bracelet.html",
+      "sha256": "bbad111461204900801eb0aaa392d02916481ead9e971f835fcbc3f24ef9ab44"
+    },
+    {
+      "path": "item/jewelry-2026-boucheron-quatre-classique-xs.html",
+      "sha256": "b6c35328207ed6aaccc2f976054ae5b111ee2cef7c7caebac6a3ea77992a5f81"
+    },
+    {
+      "path": "item/jewelry-2026-pomellato-together-triple-band.html",
+      "sha256": "ae182a67afad40a434f1bd7a6d9ead62e0a8273d8ee7432df611c24b68cdde4a"
+    },
+    {
+      "path": "item/jewelry-2026-tiffany-hardwear-medium-earrings-yellow-gold.html",
+      "sha256": "d6084b3cb80b6c266cda39c8d19e59ef854023b97344789840927fabd07605e1"
+    },
+    {
+      "path": "item/jewelry-2026-tiffany-hardwear-micro-yellow-gold.html",
+      "sha256": "47bc376d17cb82dc03334979a4177442bb31d3ff485da809a86ff007724e4299"
+    },
+    {
+      "path": "item/jewelry-2026-swarovski-ariana-dragonfly-bangle.html",
+      "sha256": "d5fbb88586399dfcd94f303c3b003eaf55ee1f7feae8d1f857709bfd37f8d345"
+    },
+    {
+      "path": "item/jewelry-2026-swarovski-ariana-dragonfly-earrings.html",
+      "sha256": "06d4ed8dbd23581b599af039a7a10aee05f4caa8d165b8880ed7cf2aa46aec86"
+    },
+    {
+      "path": "assets/css/main.css",
+      "sha256": "c0dfc3fb1452e8f5e50ce2eae7db634b624f711eecb486b9eefacb48204e7f46"
+    },
+    {
+      "path": "assets/js/main.js",
+      "sha256": "57effd484f7bb73005024fd63985f6edb0519fed645d9339262618084a10a3e9"
+    },
+    {
+      "path": "assets/js/render.js",
+      "sha256": "e006a8357d34e396b62170f09473b546f02c42d79d94a7c5de3d65f9119825bb"
+    },
+    {
+      "path": "assets/js/data.js",
+      "sha256": "d7313de35a0bec397304108fa39d65c197c6b081e10e13299a5e42a0b19e83a8"
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "c0d5e777268bbd57bcd8a324a9ade0ef524d6ded8295ac8f1d11fc85fd3efd1e"
+    },
+    {
+      "path": "assets/img/style-photography/zaid-black-studio-20261028-640.webp",
+      "sha256": "bd6ae070f5d8d494ec9a220d7b720075b8b47e38569c6804f693dbe72c031cfa"
+    },
+    {
+      "path": "assets/img/style-photography/zaid-black-studio-20261028-1280.webp",
+      "sha256": "104b1ee7dcc2befeceeca05349b4d092ef3a1c20900c51f109eeb3bb0bbbf50b"
+    },
+    {
+      "path": "assets/img/style-photography/zaid-black-studio-20261028.webp",
+      "sha256": "e4da84715afba0e65b92354f0746cb54302bf4c5ae2ee39464d6edb702253d5f"
+    },
+    {
+      "path": "assets/img/style-photography/luis-black-architecture-20261028-640.webp",
+      "sha256": "2e9886d680a710bc933d41cecf3e787f8fb16ac8bdfbdb47cce3cee3079d2104"
+    },
+    {
+      "path": "assets/img/style-photography/luis-black-architecture-20261028-1280.webp",
+      "sha256": "6ba0a2159d8f35b849aac0d4ab8f37591e741f36d2a86aa01ed60bf63dce4a75"
+    },
+    {
+      "path": "assets/img/style-photography/luis-black-architecture-20261028.webp",
+      "sha256": "8e5550699cca3debe02750287d30eeefad384ec5d64736482d276c098ff23051"
+    },
+    {
+      "path": "assets/img/style-photography/johann-pattern-shadows-20261028-640.webp",
+      "sha256": "fdf021e8f49aba7088113d326686343f1e48140d282f2ed165cd3e50fd2b8deb"
+    },
+    {
+      "path": "assets/img/style-photography/johann-pattern-shadows-20261028-1280.webp",
+      "sha256": "d989e46ce9ce8849980d54c7bbdcdf3f1fcbabb9226d57d54033c62a8f9e85a1"
+    },
+    {
+      "path": "assets/img/style-photography/johann-pattern-shadows-20261028.webp",
+      "sha256": "f1de47c432123c47cc8fa8dde0d9e7b4f0e9c03cd7509dfbda6f38b8c2b9c707"
+    },
+    {
+      "path": "assets/img/style-photography/tima-cinema-coat-20261028-640.webp",
+      "sha256": "0bdec73c39a81f1d9f805068ba5e769f1dd2b70334f4bee994aae69547f3393e"
+    },
+    {
+      "path": "assets/img/style-photography/tima-cinema-coat-20261028-1280.webp",
+      "sha256": "b29e3c541f6c734d60c8f06bab527a2300ea9ebd16edd6dc72c771e4d7b29120"
+    },
+    {
+      "path": "assets/img/style-photography/tima-cinema-coat-20261028.webp",
+      "sha256": "26877f2aed84d81b0034f75b4cfd4494da3ba871352c0ff75b5692877fcd6475"
+    },
+    {
+      "path": "assets/img/style-photography/nives-staircase-outfit-20261028-640.webp",
+      "sha256": "980ad8b79ad06aa31fa0b5d789245704d808a12f2bc840ab973ab6dac0753ebd"
+    },
+    {
+      "path": "assets/img/style-photography/nives-staircase-outfit-20261028-1280.webp",
+      "sha256": "2c9e984b234aa99be8701399444a5de2878c462b32080fcf0cf1bf8c18f1d4f6"
+    },
+    {
+      "path": "assets/img/style-photography/nives-staircase-outfit-20261028.webp",
+      "sha256": "c856d47173d6af18b851603cc6a0f61f725aea3e97702efb87341e904241ad4e"
+    },
+    {
+      "path": "assets/img/style-photography/andrea-black-dress-feathers-20261028-640.webp",
+      "sha256": "d1a4b8bf4518b3a473f1f77dca22aff5fe7a0f9891dc05f87239b221d3367805"
+    },
+    {
+      "path": "assets/img/style-photography/andrea-black-dress-feathers-20261028-1280.webp",
+      "sha256": "d4c6fb911c61ee5ac54f5c4da0b8a9a32a9061e41d66903e70398d6a997dd768"
+    },
+    {
+      "path": "assets/img/style-photography/andrea-black-dress-feathers-20261028.webp",
+      "sha256": "c955cf5b59668c0a08a6018d897ec1e537bedc341a8cef76fd7bfac3aac9f472"
+    },
+    {
+      "path": "assets/img/style-photography/andrea-white-rome-20261028-640.webp",
+      "sha256": "2fe5e2187ef343eb9d93c4fa3937c128c7b836068b0a3ca842ae944f272eca08"
+    },
+    {
+      "path": "assets/img/style-photography/andrea-white-rome-20261028-1280.webp",
+      "sha256": "e48f3abc55e6972b31e5bf9d66d97966c1c44037122636376797a9d228d6d081"
+    },
+    {
+      "path": "assets/img/style-photography/andrea-white-rome-20261028.webp",
+      "sha256": "40a9b8a88dffb35b7f6c11bec0b0c4db6c27ebb246e5dc1da548c459e761999c"
+    },
+    {
+      "path": "assets/img/style-photography/hannah-beige-studio-20261028-640.webp",
+      "sha256": "2f2f0e836a38449ca3877fbca47ae7b6ccbf4eec6e7d789ea1cf6741fd4b7ad3"
+    },
+    {
+      "path": "assets/img/style-photography/hannah-beige-studio-20261028-1280.webp",
+      "sha256": "3e1149447adfb8e781af5fd556f10e54a977f4cbb4dea02cff7c8e873c0945e6"
+    },
+    {
+      "path": "assets/img/style-photography/hannah-beige-studio-20261028.webp",
+      "sha256": "0632fd39a6024027901bc3b3c90b7c6393f3d65c130bfffc37e0918568200142"
+    },
+    {
+      "path": "assets/img/style-photography/david-cropped-gold-buttons-20261028-640.webp",
+      "sha256": "17c0b8f590cce2177c5ccd52d9d560307cb788c309812aedd458ca4e80b3746e"
+    },
+    {
+      "path": "assets/img/style-photography/david-cropped-gold-buttons-20261028-1280.webp",
+      "sha256": "d99d2d1c6a63fb3ab19f442e3020e15f076e5f8cbb738a9a78a3a76c22901a06"
+    },
+    {
+      "path": "assets/img/style-photography/david-cropped-gold-buttons-20261028.webp",
+      "sha256": "f104a98b5fa163cda06a09aa40c4884a632bc680e8a3e955bc988df74345db32"
+    },
+    {
+      "path": "assets/img/style-photography/kehinde-marine-buttons-20261028-640.webp",
+      "sha256": "aafdf4f62aaa3475945554606699c4cdd6edd12e22c9484aff7e3e96086eaf76"
+    },
+    {
+      "path": "assets/img/style-photography/kehinde-marine-buttons-20261028-1280.webp",
+      "sha256": "aacd88e13a596fd4e10a3b9d6f84ab5910a09f807780b04a361bac2aa9668809"
+    },
+    {
+      "path": "assets/img/style-photography/kehinde-marine-buttons-20261028.webp",
+      "sha256": "00e6a495f772d5fc1c21c0e9fccc19c351d726063a0289898601f83e15125b95"
+    },
+    {
+      "path": "assets/img/style-photography/arif-stone-pendant-20261028-640.webp",
+      "sha256": "37bd176d7c72b9851659bf12483727fdd9b05d765c16d70daec4cec27e8e475e"
+    },
+    {
+      "path": "assets/img/style-photography/arif-stone-pendant-20261028-1280.webp",
+      "sha256": "ebcb1de0f940d54390bee8a7c3562a1088cf2e58a5defd040c292e9651f85fd4"
+    },
+    {
+      "path": "assets/img/style-photography/arif-stone-pendant-20261028.webp",
+      "sha256": "58cc03eb9cf419f98986878049cabafbfb5547a3bd77c2ca2d5f1ddb1b3e75d8"
+    },
+    {
+      "path": "assets/img/style-photography/michael-white-lapel-necklace-20261028-640.webp",
+      "sha256": "e5837c9917781552662bbcd2259484305249104ac3830b3fab85461239aab367"
+    },
+    {
+      "path": "assets/img/style-photography/michael-white-lapel-necklace-20261028-1280.webp",
+      "sha256": "be4e24f71037c8601b44d95fd25b1d16fce333cb02df15bf3162f7072cda5b35"
+    },
+    {
+      "path": "assets/img/style-photography/michael-white-lapel-necklace-20261028.webp",
+      "sha256": "caee4758f64ba73067c6924a30850432c65fea949d7722fb15e12777d6055002"
+    },
+    {
+      "path": "assets/img/style-photography/shvets-white-sculpture-20261028-640.webp",
+      "sha256": "14c16123e8336229c3ce4e6ff18cc5273f63cde5e2e211634c4b72a8d86502ac"
+    },
+    {
+      "path": "assets/img/style-photography/shvets-white-sculpture-20261028-1280.webp",
+      "sha256": "2f24feb31788db29f1178b05c1fc074a72bedc325a644ab9b5563cd9c7dc6f76"
+    },
+    {
+      "path": "assets/img/style-photography/shvets-white-sculpture-20261028.webp",
+      "sha256": "b59e5a626a8d06aa3878420d36fb86b2b01b1c1e5396f8866ba67a96725c0053"
+    },
+    {
+      "path": "assets/img/style-photography/ronin-white-architecture-20261028-640.webp",
+      "sha256": "a5dc77284775dda8e4658a73405814d6309f56132094a43c60173c1293c49834"
+    },
+    {
+      "path": "assets/img/style-photography/ronin-white-architecture-20261028-1280.webp",
+      "sha256": "5c067dbcde832d21d669061d14b5a7a92efe87a040dbb0951fd286de0f2d1184"
+    },
+    {
+      "path": "assets/img/style-photography/ronin-white-architecture-20261028.webp",
+      "sha256": "3c000f23e2245ec1105f13e24dfe58c6ab7378f884d600123fc83f1a9f77dcb2"
+    },
+    {
+      "path": "assets/img/style-photography/klaudia-pale-rounded-jewelry-20261028-640.webp",
+      "sha256": "cf6470d97cfdc26b2c6d485bdbcbb8841e88f35e3fbfd0302275adfa7483567e"
+    },
+    {
+      "path": "assets/img/style-photography/klaudia-pale-rounded-jewelry-20261028-1280.webp",
+      "sha256": "a7409543652978405f7e4cf7b7cf6967f71c57d4936d6547aa535044ba2b92ee"
+    },
+    {
+      "path": "assets/img/style-photography/klaudia-pale-rounded-jewelry-20261028.webp",
+      "sha256": "bf5072f5cbcdc8a8b19aa0ec3daff1d664e0ce46fac306945a69bed727842cb3"
+    },
+    {
+      "path": "assets/img/style-photography/darkshade-pink-bow-20261028-640.webp",
+      "sha256": "4f025595feda3310258604b3ed3f4c84ba54383125ccf38acccf3b2e6514a94b"
+    },
+    {
+      "path": "assets/img/style-photography/darkshade-pink-bow-20261028-1280.webp",
+      "sha256": "b223deacf946e90650c99a4e109e27314c49ba39fc8cff0c153a8174ddd31d10"
+    },
+    {
+      "path": "assets/img/style-photography/darkshade-pink-bow-20261028.webp",
+      "sha256": "73509d8b63e4a97b19b09e9d2ace7ab39100c44a28b94dc5c503c6c744e5b7fd"
+    },
+    {
+      "path": "assets/img/style-photography/travel-textured-skirt-set-20261028-640.webp",
+      "sha256": "6cf73a3919b5eb28d31d85e9a88d3d246ce1a65c0568dd40c136fd16229f8bd9"
+    },
+    {
+      "path": "assets/img/style-photography/travel-textured-skirt-set-20261028-1280.webp",
+      "sha256": "2635e91b86f0dd212c9f2a556f1bc405d02c63d6416e72c6537e7e864d317b55"
+    },
+    {
+      "path": "assets/img/style-photography/travel-textured-skirt-set-20261028.webp",
+      "sha256": "7d4639f642e4e0b69a08ac6368b75e48dcf1d76c46cd4000933e3a7438e7c582"
+    },
+    {
+      "path": "assets/img/style-photography/cottonbro-pastel-skirt-set-20261028-640.webp",
+      "sha256": "72033dc192439e63be4c02a1fd98b98c5ad68128be10ce1397df29bbf0a01492"
+    },
+    {
+      "path": "assets/img/style-photography/cottonbro-pastel-skirt-set-20261028-1280.webp",
+      "sha256": "4ce91bf50a7869a302f3484b2360691171939fbf9e9665be4a288a86082a0bbc"
+    },
+    {
+      "path": "assets/img/style-photography/cottonbro-pastel-skirt-set-20261028.webp",
+      "sha256": "dd639b22da90f0fd328f965355bdbb2e69e0c3cca4db4a51a3c51d7a600ff8cf"
+    },
+    {
+      "path": "README.md",
+      "sha256": "d8ad4dc36f81fc2c8200f810c7f752f922c49336fce299969b723b85395dd396"
+    },
+    {
+      "path": "reports/code-check-validation.json",
+      "sha256": "a8207fb4b8b70b81618ed679cc5a3239f69e29d64d9af7ca0349204057ae4816"
+    },
+    {
+      "path": "reports/frontend-code-validation.json",
+      "sha256": "3b54c1b9e2c97101f9b52785d8a8f19b7e558d8a9bec47c4012cc0fa773606fc"
+    },
+    {
+      "path": "reports/style-photography-expansion-contact.jpg",
+      "sha256": "3fc1df13caa11111f3a278bd247f8284ec46bcdd94f8c85e5eea617796bf8d2f"
+    },
+    {
+      "path": "reports/style-photography-expansion-page-preview.png",
+      "sha256": "b0dccbc6dfb4914ee40ffc1047bb507d1431193839e083692ebfe7faeec5b1a1"
+    },
+    {
+      "path": "reports/style-photography-expansion-validation.json",
+      "sha256": "794ac6cc8626ea6f78d11cb1c76c09b80d3664878b66b55d22da8af2cad9baa4"
+    },
+    {
+      "path": "reports/自检报告.md",
+      "sha256": "915d19166d68f26f7d8aa79d739c9c0b1b82fe5e4a009fca925963d197ac98ca"
+    },
+    {
+      "path": "tools/research/style-photography-expansion-20261028.json",
+      "sha256": "2775fd1ec1d81f88cf203c311475f66a9a3a9951fa7d55b919cc651ee21daf63"
+    },
+    {
+      "path": "tools/test_frontend.cjs",
+      "sha256": "a29e1bbff8923f938c020e44ec72defaa71e93a08488b0eb03d774a01044abb8"
+    },
+    {
+      "path": "tools/womens_styles.json",
+      "sha256": "156a9cf35bc556a2f0be34d4d1f7ad67aeb4afccd9be6fc00d136c8f067bf2ec"
+    },
+    {
+      "path": "tools/womens_styles.py",
+      "sha256": "375edb9f2d09510bc96c0f20ff76431b322e3b05dd474396c014148167a134ba"
+    }
+  ],
+  "licensedPhotos": 18,
+  "photosPerStyle": 6,
+  "browserTabsOpened": 1,
+  "browserTabsRemaining": 0
+}
