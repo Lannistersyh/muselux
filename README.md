@@ -28,6 +28,8 @@
 
 2026-10-29 **包袋实物精选扩展至12款**：保留原有五款，增加Bottega Veneta Small Andiamo、Balenciaga Rodeo Medium、Alaïa Le Teckel Medium、The Row Soft Margaux 15、Miu Miu Wander、LOEWE Large Amazona 180及Louis Vuitton Speedy Bandoulière 20（Green Asnières）。新增七个英文详情页和14个品牌实物图展示资源，共1,779,902字节；每款含具体型号、材质尺寸、三条设计细节、搭配建议及USD价格。四款价格由当日官方美国页HTML/嵌入状态核对，三款保留单独标注的官方页面快照口径；The Row核验时售罄的状态在详情明确显示。页面顶部直接显示“12款实物精选”，品牌页、首页与搜索同步收录。现为234页HTML、40品牌、163单品/年度详情、330次产品图库展示。来源见 `tools/research/bag-edit-expansion-evidence.json`，验收见 `reports/bag-edit-expansion-validation.json`。
 
+包袋扩展内容提交 `e87567975dacceacc2c2c1d3fc66236487de7d2f` 已完成GitHub Pages构建，全部 **275个公开页面、图片及本轮变更文件** 与本地逐字节一致；发布证据见 `reports/bag-edit-expansion-deployment.json`。
+
 2026-10-29 **经典设计封面重做**：28个经典词条在首页、六品类页、相关品牌页及搜索中，统一改用各自已有来源记录的代表型号实物照片。LOVE展示螺钉手镯，Juste un Clou展示钉形手镯，Trinity展示三色环；封面以作品本身的轮廓、材质和光影为主体，采用留白、细字标与简洁细线版式。栏目改名为“经典设计档案”。28张照片文件各不相同，原始照片及详情图库保持；列表只调整显示比例，不重绘商品。全站227页、19项维护回归、111项前端断言和两次构建一致性通过，详细验收与设计参考见 `reports/classic-covers-validation.json`。
 
 内容提交 `087e06ad5617692b4ab324c6b1e15ac447d8dffd` 已完成GitHub Pages构建，全部 **274个公开页面、封面照片及本轮变更文件** 与本地逐字节一致，首轮请求全部通过；记录见 `reports/classic-covers-deployment-validation.json`。
