@@ -5,7 +5,7 @@
   "brands": 40,
   "searchableItems": 156,
   "pythonRegressionTests": 19,
-  "frontendAssertions": 110,
+  "frontendAssertions": 111,
   "method": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test",
   "sourceHashes": {
     "tools/apply_bag_yearbook.py": "688ba2e08e92a47d8d0050a883ae7153f635b15390dbb6c676f8c97da635d63f",
@@ -15,19 +15,20 @@
     "tools/bag_yearbook.py": "425e90771b930b190bb12da58fa9944c3c60d47ad31bbcb8036a447ebaf706d2",
     "tools/brand_catalog.py": "4a1685481b329ca30b2437b096bbbf6ecaf33a5a64986f99f667a93cc71d28ca",
     "tools/check_site.py": "165720ed89c9f25597b6165d9d76980de5b13e0d5bc9f4ca8af3b8a7271a7a01",
+    "tools/classic_covers.py": "a66d5f7220d0c93cb1526e2c74adacdfcaaf7280d4e2b24c72c7ea2184c4d517",
     "tools/draw_assets.py": "3e04f918e8fda83d4f9a5c740760325e47b649e69e419ee137e8352133cfac2d",
     "tools/draw_journal_covers.py": "24cd8f09856a9ef8a28eb17b40d6b46e2c1a3a37778d411b24edc88e5288bdfc",
-    "tools/generate.py": "01624ce5568b3824b8df091126df45f04b7a0f03e1d66f27f4098032be891e2d",
+    "tools/generate.py": "af2f7387bad439b3d443f6f479cc24ecb871fe1abe8d912ef5c52ae745ae13ce",
     "tools/perfumery.py": "db380bb44814ea8db91140c711f04c7837572dd4ee1701daedde23ab63deb5ac",
     "tools/product_gallery.py": "389142a56459be4826021baa4a4ff838bc8ead623012b5c7c6ba161a9b7af011",
     "tools/seed_content.py": "2755b15b5905247fc5b8400e236428a2d9e37fab667733209a559626bada2cc3",
     "tools/style_policy.py": "1cb32efc9b44a340203d519f17f7e1332a9b8aeee7dfea0c7e0eb1b5e3761a53",
     "tools/test_maintenance.py": "a69e60f2c61cbab90f53e47a952f000b0751ce53541f8b8d890f9f478a62212c",
-    "tools/validate.py": "fa7a2adea1a1bf02c6e72c1468cdb89ddf796055f41fb08b0558e031fae6fec3",
+    "tools/validate.py": "bd69b8f125fc1c134cb3344da702596c8f17e66bbf654db51feb38a73453c8d3",
     "tools/womens_styles.py": "375edb9f2d09510bc96c0f20ff76431b322e3b05dd474396c014148167a134ba",
-    "assets/js/render.js": "e006a8357d34e396b62170f09473b546f02c42d79d94a7c5de3d65f9119825bb",
+    "assets/js/render.js": "23c35718155516c7aee334d549a3c1a57b0f4280d7f423dc7421a925baf835b6",
     "assets/js/main.js": "57effd484f7bb73005024fd63985f6edb0519fed645d9339262618084a10a3e9",
-    "assets/js/data.js": "d7313de35a0bec397304108fa39d65c197c6b081e10e13299a5e42a0b19e83a8",
-    "tools/test_frontend.cjs": "a29e1bbff8923f938c020e44ec72defaa71e93a08488b0eb03d774a01044abb8"
+    "assets/js/data.js": "77fb3515398d90633e67d55312dd4424657a3a595cd1c8018c82f42529dfef71",
+    "tools/test_frontend.cjs": "927497bd67e1381a3efc2f90787a5ec5cf6250d27b8e039ba29929953f7b73ce"
   }
 }

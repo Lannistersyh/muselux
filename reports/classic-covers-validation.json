@@ -1,0 +1,930 @@
+{
+  "checkedAt": "2026-10-29",
+  "baseCommit": "3d83f9d81650355ff86563a1915787ab008e2b9d",
+  "passed": true,
+  "scope": "28 classic family covers, home and category/brand cards, search thumbnails and item sharing images",
+  "artDirection": {
+    "approach": "Existing source-backed representative product photographs; restrained typography, optical sizing, white space and fine rules; preserve original source files and full detail galleries.",
+    "references": [
+      {
+        "title": "Cartier Culture of Design — Mazarine campaign creator case study",
+        "url": "https://www.mazarine.com/en/projects/cartier-culture-design",
+        "takeaway": "Distinct icon shapes and proportions, material and still-life light; applied as editorial direction."
+      },
+      {
+        "title": "CHANEL — The Classic Handbag",
+        "url": "https://www.chanel.com/us/fashion/handbags/classic/",
+        "takeaway": "Make the design-specific silhouette and recognizable details legible."
+      }
+    ],
+    "noGeneratedProductImages": true,
+    "newProductPhotographsDownloaded": 0
+  },
+  "covers": [
+    {
+      "id": "birkin",
+      "path": "assets/img/views/bags-birkin-1.jpg",
+      "reference": "FASHIONPHILE listing 1821598 · Togo Birkin 30 Black · gold hardware · 2017",
+      "sha256": "9360fe858cb98c5b23980e11f2953379206abb6c2af40b81aee268ec2c1405df",
+      "width": 1500,
+      "height": 1500,
+      "scale": 1,
+      "fit": "contain",
+      "pageSource": "https://www.fashionphile.com/products/hermes-togo-birkin-30-black-1821598",
+      "credit": "© FASHIONPHILE, resale listing photograph",
+      "bytes": 259823,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "kelly",
+      "path": "assets/img/views/bags-kelly-1.jpg",
+      "reference": "FASHIONPHILE listing 1963927 · Epsom Kelly Sellier 28 Black · gold hardware · 2017",
+      "sha256": "78a5ad4109b7402f57ad11f0e4d082ba8f6f3e6d298179644fcb5a2ed8b69994",
+      "width": 1500,
+      "height": 1500,
+      "scale": 1,
+      "fit": "contain",
+      "pageSource": "https://www.fashionphile.com/products/hermes-epsom-kelly-sellier-28-black-1963927",
+      "credit": "© FASHIONPHILE, resale listing photograph",
+      "bytes": 269957,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "chanel-255",
+      "path": "assets/img/views/bags-chanel-255-1.jpg",
+      "reference": "A37586-Y04634-C3906",
+      "sha256": "5b7973444cb8288967470807caa21cc586a72a9f147892df2b9f7ab4ecf3e858",
+      "width": 1056,
+      "height": 1233,
+      "scale": 1,
+      "fit": "cover",
+      "pageSource": "https://www.chanel.cn/cn/fashion/p/A37586Y04634C3906/2-55-handbag-aged-calfskin-gold-tone-metal/",
+      "credit": "© CHANEL, official product imagery",
+      "bytes": 67342,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "classic-flap",
+      "path": "assets/img/views/bags-classic-flap-1.jpg",
+      "reference": "A01112-Y01295-94305",
+      "sha256": "9f37f1e568d362a16db0ec79f00ce43dabb1051dcedf24393c8de0225b344a17",
+      "width": 1056,
+      "height": 1233,
+      "scale": 1,
+      "fit": "cover",
+      "pageSource": "https://www.chanel.cn/cn/fashion/p/A01112Y0129594305/classic-11-12-handbag-lambskin-gold-tone-metal/",
+      "credit": "© CHANEL, official product imagery",
+      "bytes": 64045,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "boy",
+      "path": "assets/img/views/bags-boy-1.jpg",
+      "reference": "A67085-Y09953-94305",
+      "sha256": "3178e7eab5bfd73152761f86028cb5924c7e7562825ce69d39faed195ba7898c",
+      "width": 1056,
+      "height": 1233,
+      "scale": 1,
+      "fit": "cover",
+      "pageSource": "https://www.chanel.cn/cn/fashion/p/A67085Y0995394305/small-boy-chanel-handbag-calfskin-ruthenium-finish-metal/",
+      "credit": "© CHANEL, official product imagery",
+      "bytes": 66483,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "speedy",
+      "path": "assets/img/bag-years/2026-lv-speedy20-monogram-origine-green.png",
+      "reference": "M27530",
+      "sha256": "1d1071edcac161ae98bcbc17c4b027b942fad42711d88506ac9078cc92caa909",
+      "width": 750,
+      "height": 1000,
+      "scale": 1.4,
+      "fit": "contain",
+      "pageSource": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-20-autres-toiles-monogram-nvprod7270014v/M27530",
+      "credit": "Louis Vuitton product image, via The Nod",
+      "bytes": 107980,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "lady-dior",
+      "path": "assets/img/products/bags-dior-lady-dior-small-black.jpg",
+      "reference": "M0618ONGE_M900",
+      "sha256": "1d905a8faf6639f1488c55198f8abe7f67a95e9b4540ec757c9d76774d22f849",
+      "width": 1600,
+      "height": 2000,
+      "scale": 1.65,
+      "fit": "contain",
+      "pageSource": "https://www.dior.com/en_us/fashion/products/M0618ONGE_M900",
+      "credit": "© Dior, official product imagery",
+      "bytes": 104413,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "jackie",
+      "path": "assets/img/products/bags-gucci-jackie-small-black.jpg",
+      "reference": "867156 FAFV4 1000",
+      "sha256": "ec6d1c43006c5cb5f226bcbb6dc611f63f79d6c56690e62e2fcceb984e145995",
+      "width": 980,
+      "height": 980,
+      "scale": 1,
+      "fit": "contain",
+      "pageSource": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/gucci-jackie-small-shoulder-bag-p-867156FAFV41000",
+      "credit": "© Gucci, official product imagery",
+      "bytes": 91580,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "galleria",
+      "path": "assets/img/products/bags-prada-galleria-small-black.jpg",
+      "reference": "1BA896_2CYS_F0002_V_YO0",
+      "sha256": "ac04e01b31396d86c176703b6c5ed99d50ac951cad7919317b3f015325682c60",
+      "width": 1000,
+      "height": 1250,
+      "scale": 1.6,
+      "fit": "contain",
+      "pageSource": "https://www.prada.com/us/en/p/small-prada-galleria-leather-bag/1BA896_2CYS_F0002_V_YO0",
+      "credit": "© Prada, official product imagery",
+      "bytes": 52986,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "jodie",
+      "path": "assets/img/views/bags-jodie-1.jpg",
+      "reference": "651876VCPP58803",
+      "sha256": "175fac9b2090a47af45b838c48aeb374a49713c0a516d90240c3226907cdb654",
+      "width": 849,
+      "height": 1000,
+      "scale": 1,
+      "fit": "contain",
+      "pageSource": "https://www.bottegaveneta.com/en-us/mini-jodie-black-651876VCPP58803.html",
+      "credit": "© Bottega Veneta, official product imagery",
+      "bytes": 29688,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "classic-box",
+      "path": "assets/img/views/bags-classic-box-1.jpg",
+      "reference": "FASHIONPHILE listing 1961254 · Box calfskin Medium Classic Box Black · 2019",
+      "sha256": "a5e17906dbaead7d7adfc2748dbaf6a0e2dda7ccafb6134055af82c326f6841b",
+      "width": 1000,
+      "height": 1000,
+      "scale": 1.12,
+      "fit": "contain",
+      "pageSource": "https://www.fashionphile.com/products/celine-box-calfskin-medium-classic-box-flap-bag-black-1961254",
+      "credit": "© FASHIONPHILE, resale listing photograph",
+      "bytes": 41758,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "baguette",
+      "path": "assets/img/products/bags-fendi-baguette-tobacco.jpg",
+      "reference": "8BR600AFPMF1GL7",
+      "sha256": "2537a301b3b47656768ad4b9554590e6bcb5b463d041265ebaafe37e2454ea37",
+      "width": 1120,
+      "height": 1120,
+      "scale": 1,
+      "fit": "contain",
+      "pageSource": "https://www.fendi.com/us-en/woman/bags/baguette-tobacco-brown-ff-jacquard-fabric-bag-8br600afpmf1gl7",
+      "credit": "© Fendi, official product imagery",
+      "bytes": 96129,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "love",
+      "path": "assets/img/jewel-years/jewelry-2022-cartier-love-classic-bracelet.png",
+      "reference": "B6067517 model family",
+      "sha256": "3ef92b02f21ef7841ac7c5e4cae8a5da1690612c8bec48ac03ece3ffe5eb7404",
+      "width": 1000,
+      "height": 1000,
+      "scale": 1.08,
+      "fit": "contain",
+      "pageSource": "https://www.cartier.mx/b6067517-pulsera-love-1/p",
+      "credit": "© Cartier · official Mexico product photograph",
+      "bytes": 80897,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "juste-un-clou",
+      "path": "assets/img/jewel-years/jewelry-2023-cartier-juste-un-clou-small.jpg",
+      "reference": "B6062617 model family",
+      "sha256": "84d5ce306cf7d0bcd2a09f2ed0057cc6d4ba6a694c967fc7d96492d243e63556",
+      "width": 1000,
+      "height": 1000,
+      "scale": 0.9,
+      "fit": "contain",
+      "pageSource": "https://www.cartier.mx/b6062617-pulsera-juste-un-clou-mp/p",
+      "credit": "© Cartier · official Mexico product photograph",
+      "bytes": 56683,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "trinity",
+      "path": "assets/img/products/jewelry-cartier-trinity-classic-53-b4234253.jpg",
+      "reference": "B4234253 (family B4234200)",
+      "sha256": "5bd57d9a29c2ecfc928aa0960c7021cab54c7fe2ad816093fb0c576acd5931bf",
+      "width": 750,
+      "height": 750,
+      "scale": 1.25,
+      "fit": "cover",
+      "pageSource": "https://www.cartier.com/en-us/jewelry/rings/trinity/trinity-ring-classic-model-CRB4234253.html",
+      "credit": "© Cartier, official product imagery",
+      "bytes": 16699,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "tiffany-t",
+      "path": "assets/img/products/necklace-tiffany-t-smile-small-yellow-gold-60011679.webp",
+      "reference": "60011679",
+      "sha256": "5e3d2d8e8e8092641cf914aea48ea1f81ccb37c96b0639fe2a6057189e69247e",
+      "width": 2000,
+      "height": 2000,
+      "scale": 1,
+      "fit": "contain",
+      "pageSource": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-t-18k-yellow-gold-necklaces-pendants-60011679.html",
+      "credit": "© Tiffany & Co., official product imagery",
+      "bytes": 39486,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "tiffany-keys",
+      "path": "assets/img/views/necklace-tiffany-keys-front.webp",
+      "reference": "60010880",
+      "sha256": "8c71c700aeef038041a4038e1521a814e56d3a3c22d7b09ba883eaf1e92985f1",
+      "width": 1200,
+      "height": 1200,
+      "scale": 1,
+      "fit": "contain",
+      "pageSource": "https://www.tiffany.com/jewelry/keys/tiffany-keys-18k-white-gold-round-brilliant-diamonds-keys-60010880.html",
+      "credit": "Tiffany & Co. official product gallery",
+      "bytes": 14052,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "serpenti",
+      "path": "assets/img/jewel-years/necklace-2026-bulgari-serpenti-viper-yellow-gold.png",
+      "reference": "361342",
+      "sha256": "b8512f5f227df04094fe8c7b0c6084a91252710b0a036920fbef01c6fd88f74d",
+      "width": 1090,
+      "height": 851,
+      "scale": 1,
+      "fit": "contain",
+      "pageSource": "https://www.bulgari.com/en-us/product/361342",
+      "credit": "© Bvlgari",
+      "bytes": 41904,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "bzero1",
+      "path": "assets/img/views/jewelry-bzero1-335985-457393.png",
+      "reference": "335985",
+      "sha256": "357f989749172bd0c4e50fa1170f2470c5cbe27a1e324e66a00902f77589a840",
+      "width": 1000,
+      "height": 1000,
+      "scale": 1,
+      "fit": "contain",
+      "pageSource": "https://www.bulgari.com/en-int/jewellery/rings/b-zero1-ring-rose-gold-335985",
+      "credit": "Bvlgari",
+      "bytes": 69190,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "alhambra",
+      "path": "assets/img/jewel-years/necklace-2024-van-cleef-vintage-alhambra-mother-of-pearl.jpg",
+      "reference": "VCARA45900",
+      "sha256": "1e4cffbbd4c29bbae9812da3e1cf02c8afd7365f02bb21f9bafd1f5ba4665929",
+      "width": 1003,
+      "height": 1003,
+      "scale": 1,
+      "fit": "contain",
+      "pageSource": "https://www.fashionphile.com/products/van-cleef-arpels-18k-yellow-gold-mother-of-pearl-vintage-alhambra-pendant-necklace-1942217",
+      "credit": "© FASHIONPHILE, product photograph",
+      "bytes": 32808,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "coco-crush",
+      "path": "assets/img/products/jewelry-chanel-coco-crush-mini-beige-gold-j11785.jpg",
+      "reference": "J11785",
+      "sha256": "dc7b558f0d970c5a655cb637b9ef77011087872e2f081a21fe61e902b8964698",
+      "width": 1080,
+      "height": 1080,
+      "scale": 1.08,
+      "fit": "contain",
+      "pageSource": "https://www.chanel.com/us/fine-jewelry/p/J11785/coco-crush-ring/",
+      "credit": "© CHANEL, official product imagery",
+      "bytes": 43177,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "submariner",
+      "path": "assets/img/views/root-submariner-front.png",
+      "reference": "124060 / m124060-0001",
+      "sha256": "f8c9ec7987ae2f31acf7becbedcb23896bd41b61b2b2a06a3fc9242c55f673ff",
+      "width": 1200,
+      "height": 1786,
+      "scale": 1,
+      "fit": "contain",
+      "pageSource": "https://www.rolex.com/watches/submariner/m124060-0001",
+      "credit": "© Rolex",
+      "bytes": 219495,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "speedmaster",
+      "path": "assets/img/views/root-omega-front.jpg",
+      "reference": "310.30.42.50.01.002",
+      "sha256": "db88fd2037b7834d904e7243f8acda8df30e368eba9f082e0300baaba01a2ac1",
+      "width": 800,
+      "height": 800,
+      "scale": 1,
+      "fit": "contain",
+      "pageSource": "https://www.thewatchcompany.com/omega-speedmaster-310-30-42-50-01-002.html",
+      "credit": "© The Watch Company",
+      "bytes": 97548,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "tank",
+      "path": "assets/img/products/watches-cartier-tank-crwsta0135.jpg",
+      "reference": "WSTA0135",
+      "sha256": "f4ea72ecfde190dcdf51611f526cfd4f26eb682be00a20dca367de8dc2f70add",
+      "width": 750,
+      "height": 750,
+      "scale": 1,
+      "fit": "contain",
+      "pageSource": "https://www.cartier.com/en-us/watches/collections/tank/tank-must-de-cartier-watch-CRWSTA0135.html",
+      "credit": "© Cartier, official product imagery",
+      "bytes": 42346,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "carre90",
+      "path": "assets/img/products/scarves-hermes-please-hold-line-blue.jpg",
+      "reference": "H004187S 09",
+      "sha256": "43cc4369bb70973e1f690ce7a993c0d65aff4f9e8385db2e17cf1153dfca8242",
+      "width": 800,
+      "height": 800,
+      "scale": 1,
+      "fit": "contain",
+      "pageSource": "https://www.hermes.com/us/en/product/please-hold-the-line-scarf-90-H004187Sv09/",
+      "credit": "© Hermès, official product imagery",
+      "bytes": 239136,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "no5",
+      "path": "assets/img/views/root-n5-sasa-1.jpg",
+      "reference": "125530 · Sa Sa 100032802001",
+      "sha256": "2dd0686860f264831300151cec99f5caf48513e39e3dd7b43e02f44dde78f192",
+      "width": 800,
+      "height": 800,
+      "scale": 1,
+      "fit": "contain",
+      "pageSource": "https://www.sasa.com/products/100032802001",
+      "credit": "© Sa Sa / respective product image rights holders",
+      "bytes": 48933,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "horsebit-loafer",
+      "path": "assets/img/views/root-horsebit-front.jpg",
+      "reference": "307929 BLM00 1000",
+      "sha256": "6a5417d6ea5e915c8dcd85dae3a0e0260c8c2aefb81aaebd980804b1e9a6fa60",
+      "width": 980,
+      "height": 980,
+      "scale": 1,
+      "fit": "contain",
+      "pageSource": "https://www.gucci.com/us/en/pr/men/shoes-for-men/loafers-moccasins-for-men/mens-horsebit-1953-loafer-p-307929BLM001000",
+      "credit": "© Gucci",
+      "bytes": 32317,
+      "fullPixelDecode": true
+    },
+    {
+      "id": "triomphe-sunglasses",
+      "path": "assets/img/views/root-celine-1.jpg",
+      "reference": "4S194CPLB.38MN.U",
+      "sha256": "4eee725b1598e63d47512937a14c5b8dd84b7499dcb8e1d56f2d4f15f8c03ef1",
+      "width": 800,
+      "height": 1000,
+      "scale": 1,
+      "fit": "contain",
+      "pageSource": "https://www.celine.com/en-us/women/sunglasses/oval/triomphe-01-sunglasses-in-acetate-4S194CPLB.38MN.U.html",
+      "credit": "© CELINE",
+      "bytes": 12554,
+      "fullPixelDecode": true
+    }
+  ],
+  "uniquePhotographHashes": 28,
+  "preservation": {
+    "filesChecked": 422,
+    "changed": [],
+    "contentDataUnchanged": true,
+    "originalImageFilesUnchanged": true,
+    "priceDatesAndYearbookCutoffsUnchanged": true,
+    "existingStyleReferences": 18,
+    "existing4kFrames": 3
+  },
+  "codeGate": {
+    "passed": true,
+    "reproducibleBuild": true,
+    "pages": 227,
+    "brands": 40,
+    "searchableItems": 156,
+    "pythonRegressionTests": 19,
+    "frontendAssertions": 111
+  },
+  "runtimeJavaScriptBytes": 51099,
+  "browser": {
+    "records": [
+      {
+        "device": "desktop",
+        "cards": [
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "love",
+            "loaded": true,
+            "src": "../assets/img/jewel-years/jewelry-2022-cartier-love-classic-bracelet.png",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "juste-un-clou",
+            "loaded": true,
+            "src": "../assets/img/jewel-years/jewelry-2023-cartier-juste-un-clou-small.jpg",
+            "width": 378
+          },
+          {
+            "fit": "cover",
+            "height": 284,
+            "id": "trinity",
+            "loaded": true,
+            "src": "../assets/img/products/jewelry-cartier-trinity-classic-53-b4234253.jpg",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "bzero1",
+            "loaded": true,
+            "src": "../assets/img/views/jewelry-bzero1-335985-457393.png",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "coco-crush",
+            "loaded": true,
+            "src": "../assets/img/products/jewelry-chanel-coco-crush-mini-beige-gold-j11785.jpg",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "horsebit-loafer",
+            "loaded": true,
+            "src": "../assets/img/views/root-horsebit-front.jpg",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "triomphe-sunglasses",
+            "loaded": true,
+            "src": "../assets/img/views/root-celine-1.jpg",
+            "width": 378
+          }
+        ],
+        "documentWidth": 1280,
+        "page": "/cat/jewelry.html",
+        "width": 1280
+      },
+      {
+        "device": "desktop",
+        "cards": [
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "birkin",
+            "loaded": false,
+            "src": "../assets/img/views/bags-birkin-1.jpg",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "kelly",
+            "loaded": false,
+            "src": "../assets/img/views/bags-kelly-1.jpg",
+            "width": 378
+          },
+          {
+            "fit": "cover",
+            "height": 284,
+            "id": "chanel-255",
+            "loaded": false,
+            "src": "../assets/img/views/bags-chanel-255-1.jpg",
+            "width": 378
+          },
+          {
+            "fit": "cover",
+            "height": 284,
+            "id": "classic-flap",
+            "loaded": false,
+            "src": "../assets/img/views/bags-classic-flap-1.jpg",
+            "width": 378
+          },
+          {
+            "fit": "cover",
+            "height": 284,
+            "id": "boy",
+            "loaded": false,
+            "src": "../assets/img/views/bags-boy-1.jpg",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "speedy",
+            "loaded": false,
+            "src": "../assets/img/bag-years/2026-lv-speedy20-monogram-origine-green.png",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "lady-dior",
+            "loaded": false,
+            "src": "../assets/img/products/bags-dior-lady-dior-small-black.jpg",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "jackie",
+            "loaded": false,
+            "src": "../assets/img/products/bags-gucci-jackie-small-black.jpg",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "galleria",
+            "loaded": false,
+            "src": "../assets/img/products/bags-prada-galleria-small-black.jpg",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "jodie",
+            "loaded": false,
+            "src": "../assets/img/views/bags-jodie-1.jpg",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "classic-box",
+            "loaded": false,
+            "src": "../assets/img/views/bags-classic-box-1.jpg",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "baguette",
+            "loaded": false,
+            "src": "../assets/img/products/bags-fendi-baguette-tobacco.jpg",
+            "width": 378
+          }
+        ],
+        "documentWidth": 1280,
+        "page": "/cat/bags.html",
+        "width": 1280
+      },
+      {
+        "device": "desktop",
+        "cards": [
+          {
+            "fit": "contain",
+            "height": 210,
+            "id": "love",
+            "loaded": true,
+            "src": "../assets/img/jewel-years/jewelry-2022-cartier-love-classic-bracelet.png",
+            "width": 280
+          },
+          {
+            "fit": "contain",
+            "height": 210,
+            "id": "juste-un-clou",
+            "loaded": true,
+            "src": "../assets/img/jewel-years/jewelry-2023-cartier-juste-un-clou-small.jpg",
+            "width": 280
+          },
+          {
+            "fit": "cover",
+            "height": 210,
+            "id": "trinity",
+            "loaded": false,
+            "src": "../assets/img/products/jewelry-cartier-trinity-classic-53-b4234253.jpg",
+            "width": 280
+          },
+          {
+            "fit": "contain",
+            "height": 210,
+            "id": "tank",
+            "loaded": false,
+            "src": "../assets/img/products/watches-cartier-tank-crwsta0135.jpg",
+            "width": 280
+          }
+        ],
+        "documentWidth": 1280,
+        "page": "/brand/cartier.html",
+        "width": 1280
+      },
+      {
+        "device": "desktop",
+        "cards": [
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "birkin",
+            "loaded": true,
+            "src": "../assets/img/views/bags-birkin-1.jpg",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "kelly",
+            "loaded": true,
+            "src": "../assets/img/views/bags-kelly-1.jpg",
+            "width": 378
+          },
+          {
+            "fit": "cover",
+            "height": 284,
+            "id": "chanel-255",
+            "loaded": true,
+            "src": "../assets/img/views/bags-chanel-255-1.jpg",
+            "width": 378
+          },
+          {
+            "fit": "cover",
+            "height": 284,
+            "id": "classic-flap",
+            "loaded": true,
+            "src": "../assets/img/views/bags-classic-flap-1.jpg",
+            "width": 378
+          },
+          {
+            "fit": "cover",
+            "height": 284,
+            "id": "boy",
+            "loaded": true,
+            "src": "../assets/img/views/bags-boy-1.jpg",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "speedy",
+            "loaded": true,
+            "src": "../assets/img/bag-years/2026-lv-speedy20-monogram-origine-green.png",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "lady-dior",
+            "loaded": true,
+            "src": "../assets/img/products/bags-dior-lady-dior-small-black.jpg",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "jackie",
+            "loaded": true,
+            "src": "../assets/img/products/bags-gucci-jackie-small-black.jpg",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "galleria",
+            "loaded": true,
+            "src": "../assets/img/products/bags-prada-galleria-small-black.jpg",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "jodie",
+            "loaded": true,
+            "src": "../assets/img/views/bags-jodie-1.jpg",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "classic-box",
+            "loaded": true,
+            "src": "../assets/img/views/bags-classic-box-1.jpg",
+            "width": 378
+          },
+          {
+            "fit": "contain",
+            "height": 284,
+            "id": "baguette",
+            "loaded": true,
+            "src": "../assets/img/products/bags-fendi-baguette-tobacco.jpg",
+            "width": 378
+          }
+        ],
+        "documentWidth": 1280,
+        "page": "/cat/bags.html",
+        "width": 1280
+      },
+      {
+        "device": "mobile",
+        "classicCards": 7,
+        "documentWidth": 404,
+        "legacyCovers": 0,
+        "page": "/cat/jewelry.html",
+        "visibleCards": [
+          {
+            "id": "love",
+            "loaded": true,
+            "width": 360
+          }
+        ],
+        "width": 404
+      },
+      {
+        "device": "mobile",
+        "classicCards": 12,
+        "documentWidth": 404,
+        "legacyCovers": 0,
+        "page": "/cat/bags.html",
+        "visibleCards": [
+          {
+            "id": "birkin",
+            "loaded": true,
+            "width": 360
+          }
+        ],
+        "width": 404
+      },
+      {
+        "device": "mobile",
+        "classicCards": 4,
+        "documentWidth": 404,
+        "legacyCovers": 0,
+        "page": "/cat/necklace.html",
+        "visibleCards": [
+          {
+            "id": "tiffany-t",
+            "loaded": true,
+            "width": 360
+          }
+        ],
+        "width": 404
+      },
+      {
+        "device": "mobile",
+        "classicCards": 3,
+        "documentWidth": 404,
+        "legacyCovers": 0,
+        "page": "/cat/watches.html",
+        "visibleCards": [
+          {
+            "id": "submariner",
+            "loaded": true,
+            "width": 360
+          }
+        ],
+        "width": 404
+      },
+      {
+        "device": "mobile",
+        "classicCards": 1,
+        "documentWidth": 404,
+        "legacyCovers": 0,
+        "page": "/cat/scarves.html",
+        "visibleCards": [
+          {
+            "id": "carre90",
+            "loaded": true,
+            "width": 360
+          }
+        ],
+        "width": 404
+      },
+      {
+        "device": "mobile",
+        "classicCards": 1,
+        "documentWidth": 404,
+        "legacyCovers": 0,
+        "page": "/cat/fragrance.html",
+        "visibleCards": [
+          {
+            "id": "no5",
+            "loaded": true,
+            "width": 360
+          }
+        ],
+        "width": 404
+      },
+      {
+        "device": "mobile-home",
+        "cards": [
+          {
+            "fit": "contain",
+            "height": 195,
+            "id": "birkin",
+            "loaded": false,
+            "src": "assets/img/views/bags-birkin-1.jpg",
+            "width": 260
+          },
+          {
+            "fit": "contain",
+            "height": 195,
+            "id": "alhambra",
+            "loaded": false,
+            "src": "assets/img/jewel-years/necklace-2024-van-cleef-vintage-alhambra-mother-of-pearl.jpg",
+            "width": 260
+          },
+          {
+            "fit": "contain",
+            "height": 195,
+            "id": "tank",
+            "loaded": false,
+            "src": "assets/img/products/watches-cartier-tank-crwsta0135.jpg",
+            "width": 260
+          },
+          {
+            "fit": "cover",
+            "height": 195,
+            "id": "classic-flap",
+            "loaded": false,
+            "src": "assets/img/views/bags-classic-flap-1.jpg",
+            "width": 260
+          },
+          {
+            "fit": "contain",
+            "height": 195,
+            "id": "jodie",
+            "loaded": false,
+            "src": "assets/img/views/bags-jodie-1.jpg",
+            "width": 260
+          },
+          {
+            "fit": "contain",
+            "height": 195,
+            "id": "no5",
+            "loaded": true,
+            "src": "assets/img/views/root-n5-sasa-1.jpg",
+            "width": 260
+          }
+        ],
+        "documentWidth": 404,
+        "page": "/index.html",
+        "width": 404
+      }
+    ],
+    "search": {
+      "legacyThumbnail": false,
+      "page": "/search.html?type=item&q=Trinity&cat=all",
+      "results": "「Trinity」 · 找到 3 条内容",
+      "thumbnail": "assets/img/products/jewelry-cartier-trinity-classic-53-b4234253.jpg"
+    },
+    "errorLogs": [],
+    "loveLink": {
+      "page": "/item/love.html",
+      "heading": "LOVE",
+      "galleryViews": 2,
+      "firstImage": "../assets/img/jewel-years/jewelry-2022-cartier-love-classic-bracelet.png"
+    },
+    "tabBudget": {
+      "opened": 1,
+      "baselineUserTabs": 3,
+      "peakTotal": 4
+    },
+    "interpretation": "Desktop category/brand snapshots include lazy images outside the viewport; six mobile category anchor views confirm visible photos load and no document overflow. LOVE cover link and Trinity search result checked. Representative layout preview, not exhaustive browser compatibility testing.",
+    "temporaryTabsClosed": true,
+    "viewportReset": true,
+    "localPreviewServerStopped": true,
+    "finalTargetsCount": 3,
+    "ownedTabsRemaining": 0
+  },
+  "previewFiles": [
+    "reports/classic-covers-desktop-preview.png",
+    "reports/classic-covers-bags-preview.png",
+    "reports/classic-covers-mobile-preview.png",
+    "reports/classic-covers-curation.jpg"
+  ],
+  "graphflow": "No graphflow tools exposed in this session; used scoped repository anchors and verification scripts."
+}

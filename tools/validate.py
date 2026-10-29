@@ -8,6 +8,7 @@ from datetime import date
 from bag_yearbook import BOOKS,price_text,date_label
 from brand_catalog import enrich, brand_ids
 import product_gallery
+import classic_covers
 import perfumery
 import womens_styles
 from style_policy import PRICE_STATUSES, valid_category_counts, is_resale, validate_resale
@@ -17,6 +18,7 @@ D=json.loads((ROOT/'tools/content.json').read_text())
 CATALOG=enrich(D)
 BRANDS={b['id']:b for b in D['brands']}
 PRODUCTS={x['id']:x for x in CATALOG}
+CLASSIC_COVERS=classic_covers.selection(D,product_gallery.load())
 issues=[]
 def check(condition,message):
     if not condition: issues.append(message)
@@ -107,6 +109,23 @@ for f,doc in pages.items():
         if u.scheme or u.netloc or not u.fragment:continue
         target=(f.parent/unquote(u.path)).resolve() if u.path else f
         if target in pages:check(u.fragment in pages[target].ids,f'{f.relative_to(ROOT)}: missing anchor {ref}')
+
+# Covers must identify their own design through a verified gallery photograph.
+seen_covers=set()
+legacy_covers={(ROOT/'assets/img'/f'{key}.svg').resolve() for key in CLASSIC_COVERS}
+for file,doc in pages.items():
+    for ref in doc.refs:
+        url=urlsplit(ref)
+        if not url.scheme and not url.netloc and url.path:
+            check((file.parent/unquote(url.path)).resolve() not in legacy_covers,
+                  str(file.relative_to(ROOT))+': obsolete generic classic illustration')
+    for key,body in re.findall(r'<article\b[^>]*data-archive-id="([^"]+)"[^>]*>(.*?)</article>',file.read_text(),re.S):
+        check(key in CLASSIC_COVERS,str(file)+': unknown classic cover')
+        if key not in CLASSIC_COVERS:continue
+        image=CLASSIC_COVERS[key];seen_covers.add(key)
+        match=re.search(r'<img\b[^>]*src="([^"]+)"',body)
+        check(bool(match) and (file.parent/unquote(match[1])).resolve()==(ROOT/image['path']).resolve(),key+': wrong classic cover photograph')
+check(seen_covers==set(CLASSIC_COVERS),'Some classic designs have no photographic card')
 
 check(len(D['brands'])>=8,'Too few brands')
 check(len(D['items'])>=12,'Too few items')
@@ -314,6 +333,8 @@ try:
         actual=PRODUCTS[product_id]
         for field in ('brand','category','name','image','priceUSD','brandNames'):
             check(x.get(field)==actual.get(field),product_id+': stale runtime '+field)
+        expected_cover=CLASSIC_COVERS.get(product_id,{}).get('path')
+        check(x.get('archiveImage')==expected_cover,product_id+': stale classic search photograph')
 except (ValueError,AttributeError,KeyError,TypeError) as error:
     issues.append('Cannot verify offline search data: '+str(error))
 try:

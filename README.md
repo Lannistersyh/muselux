@@ -26,6 +26,8 @@
 - 三类年度栏目共有 90 个英文详情页；全站共 **156 个单品/年度详情页、227 页 HTML**。
 - The Style Edit 的 38 张本地首图照片约 3.12 MiB，年度包袋照片另存于 `assets/img/bag-years/`，新增项链与首饰的 60 张实物照片保存于 `assets/img/jewel-years/`；另有 42 个原创 SVG。照片逐款署名并保留原图来源，未声称获得开放图片许可；没有复制第三方文章。
 
+2026-10-29 **经典设计封面重做**：28个经典词条在首页、六品类页、相关品牌页及搜索中，统一改用各自已有来源记录的代表型号实物照片。LOVE展示螺钉手镯，Juste un Clou展示钉形手镯，Trinity展示三色环；封面以作品本身的轮廓、材质和光影为主体，采用留白、细字标与简洁细线版式。栏目改名为“经典设计档案”。28张照片文件各不相同，原始照片及详情图库保持；列表只调整显示比例，不重绘商品。全站227页、19项维护回归、111项前端断言和两次构建一致性通过，详细验收与设计参考见 `reports/classic-covers-validation.json`。
+
 2026-10-28 **穿搭灵感摄影参考扩展**：保留原有6张，新增12张Pexels实拍，Mob Wife、Napoleon Core、Polished Heiress现各 **6张，共18张**。分别增加墙影与动物纹外套、影院与楼梯造型、黑裙羽饰、黑金双排扣、领口珠饰、粉色蝴蝶结、纹理短裙套装和几何布景；保留完整构图与每图中英文原创解读、摄影师、原页和许可链接。新增原图短边至少2333像素，网页使用640/1280/2560宽度WebP，36个新增资源共17,468,606字节，可点图打开2560宽大图。
 
 本轮227页全站检查、19项维护回归、110项前端断言与两次构建一致性通过，54个摄影WebP全部完整解码和摘要核验；404像素总览及三个详情均无横向溢出，800/1280像素代表页面与新增图片大图入口已检查。既有6张摄影、三张4K截图、4组创作者入口、全部商品/年鉴数据及349个现有图片文件保持。记录见 `reports/style-photography-expansion-validation.json`，18图一览见 `reports/style-photography-expansion-contact.jpg`。
@@ -94,7 +96,7 @@ reports/        验收记录、页面清单、商品来源清单和预览截图
 ## 如何新增一条数据（三行指南）
 
 1. 在 `tools/content.json` 相应的 `brands`、`items` 或 `articles` 数组中复制一条对象，填写唯一 `id` 和正文；单品的 `brand` 必须对应品牌档案，品牌联名另填 `collaboratorBrands`。品牌的 `classicItems` 保留人工精选词条，全部款式关联由生成器自动计算。
-2. 将对应的封面保存到 `assets/img/`，文章填写 `cover`；实物单品填写 `image`、固有宽高、`imageSource`、`imageCredit` 与权利说明，经典词条的列表插画默认用 `<id>.svg`，详情实物图库维护于 `tools/research/product-views-*.json`；每条须提供具体代表型号及两张实物照片。
+2. 将对应的封面保存到 `assets/img/`，文章填写 `cover`；实物单品填写 `image`、固有宽高、`imageSource`、`imageCredit` 与权利说明。经典词条与其他商品的详情图库维护于 `tools/research/product-views-*.json`，每条须提供具体代表型号及两张实物照片；经典封面由 `tools/classic_covers.py` 选取该词条图库的第一张，须为短边至少700像素且与其他词条不重复的照片。显示比例在该模块调整，原图和详情图库保留完整画面。
 3. 在本目录运行 `python3 tools/generate.py`，再运行 `python3 tools/validate.py`，完成后双击 `index.html` 查看。
 
 ## 每日更新与代码核验
@@ -137,7 +139,7 @@ python3 tools/check_site.py
 
 SVG 表达的是概念、轮廓与阅读气氛，不代表产品实际外观，不能用于真伪判断。The Style Edit 的 33 张首图照片来自所列品牌的官方商品图片、集团新闻图及明确署名的转售商家实物图库，未经过生成式改绘；颜色、型号与图源一同记录于 `tools/research/` 和 `reports/product-sources.json`。年度照片的来源与权利记录分别见 `reports/bag-yearbook-sources.json` 和 `reports/jewel-yearbook-sources.json`。照片版权归品牌或相应权利人；公开可见和署名本身不等于开放许可，本站不宣称品牌授权或合作。后续替换请保留来源和权利依据。
 
-替换图片后保留宽高信息与描述性 alt；如改变文件名，请同步修改内容数据或生成模板。基础词典插画源脚本在 `tools/draw_assets.py`；12 张杂志封面由 `tools/draw_journal_covers.py` 独立维护。
+替换图片后保留宽高信息与描述性 alt；如改变文件名，请同步修改内容数据或生成模板。经典词条当前使用 `tools/classic_covers.py` 的实物封面；`tools/draw_assets.py` 仅保留旧版概念插画，不能用于恢复当前词条封面。12 张杂志封面由 `tools/draw_journal_covers.py` 独立维护。
 
 Oswald 和 Raleway 已本地保存，附 SIL Open Font License。中文标题优先使用 Noto Serif SC，未安装时回退到 macOS 宋体 / STSong / SimSun / serif；正文使用系统中文字体。无需连接 Google Fonts 服务。
 

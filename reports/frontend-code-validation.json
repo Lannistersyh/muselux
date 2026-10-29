@@ -1,16 +1,17 @@
 {
   "passed": true,
-  "checkedAt": "2026-10-28",
+  "checkedAt": "2026-10-29",
   "timezone": "Asia/Shanghai",
   "method": "Node VM executing actual generated HTML and data.js/render.js/main.js using a dependency-free minimal DOM fixture",
   "scope": "Behavior and offline URL checks only; no browser engine, layout, CSS or assistive-technology verification. No network calls.",
   "browserTabsOpened": 0,
   "browserTabsRemaining": 0,
-  "assertions": 110,
+  "assertions": 111,
   "checks": [
     "Decoded brand count matches canonical content",
     "Decoded product count includes all annual selections",
     "Decoded style guides match the video-grounded source",
+    "All classic designs use their own photographic search thumbnails offline",
     "Global search includes every brand, product and article",
     "First search page renders eight results",
     "Search lookup: 罗意威",
@@ -120,23 +121,23 @@
     "Desktop resize closes mobile menu"
   ],
   "sourceHashes": {
-    "assets/js/data.js": "d7313de35a0bec397304108fa39d65c197c6b081e10e13299a5e42a0b19e83a8",
-    "assets/js/render.js": "e006a8357d34e396b62170f09473b546f02c42d79d94a7c5de3d65f9119825bb",
+    "assets/js/data.js": "77fb3515398d90633e67d55312dd4424657a3a595cd1c8018c82f42529dfef71",
+    "assets/js/render.js": "23c35718155516c7aee334d549a3c1a57b0f4280d7f423dc7421a925baf835b6",
     "assets/js/main.js": "57effd484f7bb73005024fd63985f6edb0519fed645d9339262618084a10a3e9"
   },
   "contentHash": "3290d6b2741f31a9cf942280760fdadb504ab7615b7ebdf4058f49c5b2719c2f",
   "fixtureHashes": {
-    "search.html": "06022796b71c102d3e2ccc220ba0a1a4a09346e1e7a04e73c35fab0c6704f560",
-    "perfumery.html": "fbf7f396016191d358bc0c67a58c20906ff3a6ef422b2ffc0759fc2bb7cfaca5",
-    "womens-style.html": "2c8a272cb618354a83cab15c9ff749adea6a24e7f73a6239af1a9ffe854e24c1",
-    "style/mob-wife.html": "850af52153fb005276cd70e479420bb11699378bb7f2e0ad3a94e24f545f6802",
-    "style/napoleon-core.html": "9b3e7de43a6f6e7da44da5136f510ace0a379e7acd2d866a218942ff7ae87d3d",
-    "style/heiress.html": "10ce0068215a9925ab6959669d999b0b808c9f30d2418a5e820e3d4731e1ae6d",
-    "brands.html": "c9ec2d7a608b4e6d45e5eb24c629a03e2622cf067a301a4866a57fc1c8f8ed64",
-    "bags-by-year.html": "cc6d7ef360483547cd484b1db787f6cafa875c2ee4a1adc5a25af13c5bb6f01f",
-    "item/dior-small-lady-dior-black-us.html": "81c5eda49c652f47c982f4e2a4aaf836a00e3c87de321ce87711ebd74f627b15",
-    "item/bag-2022-prada-re-edition-2000.html": "ac11ffafc444bae73803dd55f212211b5cf2b59ec16461557100b2f07c328804",
-    "item/birkin.html": "cc843bf9e33c3059d3afd1659e3a41edc7ddee3c73e3b5a1f8e7d071a4323882",
-    "index.html": "4440a68a63205d00a51f0821600e0c216b7a1d63e213558c2d75fe9944e43f8c"
+    "search.html": "a51dea83eee06fe9897aa87f573de1c87308859a64aa86586588e9ad5773e010",
+    "perfumery.html": "bd6c737f8d69a3d1008bf898d9e595c6ca65bb977fe3b498b8b591daf22a82c0",
+    "womens-style.html": "b575c3c6aaf4aa9c967ff2e960e3bdce0bb192b5391346238aa41594c62b44ae",
+    "style/mob-wife.html": "0807235e709af265a07a654adb8632ccdbaf0df0fe24fbaf2f075ab281d430a9",
+    "style/napoleon-core.html": "9b02e3d6cfa949ee99e707c2881ad5bcad6e1eaa7383e61b7180fc053ebe8ff3",
+    "style/heiress.html": "210a7a96a38e490e47b0e50c8bc1a68a6edec89dab9b5990ca04bb1687973084",
+    "brands.html": "e421627bf5c63a30da17211b594d2cba51f876792d8054c2bf6d6a070342bfad",
+    "bags-by-year.html": "3ee5c1935ed6431c6110ddd27c481997f1412b21ec5ef4d3f7b0cc452003003b",
+    "item/dior-small-lady-dior-black-us.html": "da5c6e403e1b6dfc7fa78a4c7139a54e4190926a26de2c022f5fbaa7c150746f",
+    "item/bag-2022-prada-re-edition-2000.html": "b07501a484ec532bea0a3d3d5048e4983b03e7f82c9151db69d2807aa869485f",
+    "item/birkin.html": "38d1c58df90cc2faca69216fd796cf19d421f254126f0703274dc77d70eff767",
+    "index.html": "deec5562a25f93c62dee6bb7c10ea957588aa563b85d84efab26345550b52e3e"
   }
 }

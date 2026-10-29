@@ -166,6 +166,11 @@ async function run() {
   check(data.brands.length === content.brands.length, 'Decoded brand count matches canonical content');
   check(data.items.length === catalog.length, 'Decoded product count includes all annual selections');
   check(data.styles.length === styleConfig.styles.length, 'Decoded style guides match the video-grounded source');
+  const classics = data.items.filter(item => !item.styleEdit && !item.annualEdit);
+  check(classics.length === 28 && classics.every(item => {
+    const markup = site.window.MuseLuxRender.result({ kind: 'item', value: item });
+    return item.archiveImage && markup.includes(item.archiveImage) && !markup.includes('assets/img/' + item.id + '.svg');
+  }), 'All classic designs use their own photographic search thumbnails offline');
   check(site.get('#search-count').textContent === `找到 ${expectedRecords} 条内容`, 'Global search includes every brand, product and article');
   check(site.get('#search-results').querySelectorAll('a').length === Math.min(8, expectedRecords), 'First search page renders eight results');
   for (const query of ['罗意威', '缪缪', '施华洛世奇', 'FRGMT', '阿迪达斯', 'Birkin', '摩奈', '克罗心']) {

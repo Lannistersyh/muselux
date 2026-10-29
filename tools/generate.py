@@ -5,6 +5,7 @@ from urllib.parse import urlsplit
 import bag_yearbook
 import brand_catalog
 import product_gallery
+import classic_covers
 import perfumery
 import womens_styles
 from style_policy import is_resale, price_heading, card_price_label
@@ -14,6 +15,7 @@ SITE=json.loads((ROOT/'tools/site.json').read_text()) if (ROOT/'tools/site.json'
 SITE_URL=SITE.get('url','').rstrip('/')+'/' if SITE.get('url') else ''
 D=json.loads((ROOT/'tools/content.json').read_text())
 GALLERIES=product_gallery.load()
+CLASSIC_COVERS=classic_covers.selection(D,GALLERIES)
 CATALOG=brand_catalog.enrich(D)
 C={x['id']:x for x in D['categories']}
 B={x['id']:x for x in D['brands']}
@@ -63,7 +65,7 @@ def card(x,kind='article',prefix='',big=False):
     if x.get('annualEdit'):
         return bag_yearbook.card(x,prefix)
     b=B[x['brand']]
-    return f'''<article class="item-card reveal"><a href="{prefix}item/{x['id']}.html"><div class="item-image"><img src="{prefix}assets/img/{x['id']}.svg" width="720" height="480" loading="lazy" alt="{e(b['name']+' '+x['name']+' '+x['nameZh'])}的概念插画，非实物图"></div><div class="item-body"><span class="eyebrow">{e(b['name'])}</span><h3>{e(x['name'])}<span>{e(x['nameZh'])}</span></h3><p>{e(x['oneLiner'])}</p><span class="text-link">打开词条 <span>↗</span></span></div></a></article>'''
+    return classic_covers.card(x,b,CLASSIC_COVERS[x['id']],prefix)
 
 def usd(amount):
     return bag_yearbook.price_text({'priceUSD':amount})
@@ -157,7 +159,10 @@ def page(path,title,desc,content,pagekind='generic',pageid='',article=None,produ
         structured={'@context':'https://schema.org','@type':'Product','name':product['name'],'sku':product['reference'],'brand':{'@type':'Brand','name':product.get('brandName') or B[product['brand']]['name']},'description':product['oneLiner'],'image':SITE_URL+product['image'] if SITE_URL else '../'+product['image']}
     if canonical:
         structured['url']=canonical
-    preview_image=product['image'] if product else (next((x['image'] for x in D['items'] if x.get('styleEdit') and x['category']=='bags'),'assets/img/hero.svg') if pagekind=='home' else 'assets/img/hero.svg')
+    if product:preview_image=product['image']
+    elif pagekind=='item' and pageid in CLASSIC_COVERS:preview_image=CLASSIC_COVERS[pageid]['path']
+    elif pagekind=='home':preview_image=next((x['image'] for x in D['items'] if x.get('styleEdit') and x['category']=='bags'),'assets/img/hero.svg')
+    else:preview_image='assets/img/hero.svg'
     if pagekind in ('styles','style'):
         preview_image=(style or STYLE_ATLAS['config']['styles'][0])['frame']['path']
     if pagekind=='perfumery':
@@ -197,7 +202,7 @@ def home():
 <section class="category-section"><div class="container">{sectionhead('SIX WAYS TO WANDER','从一份好奇开始')}<div class="category-grid">{band}</div></div></section>
 <section class="container section brand-section">{sectionhead('THE HOUSES & THEIR STORIES','品牌图鉴',(f'浏览 {len(B)} 个品牌','brands.html'))}<p class="section-intro">每一个名字背后，都有一间值得走近的工坊。</p><div class="brand-wall" aria-label="品牌横向列表，可横向滚动">{wall}</div><div class="scroll-hint">向右探索更多品牌 <span>⟶</span></div></section>
 <section class="container section latest" id="journal">{sectionhead('NOTES ON BEAUTIFUL THINGS','慢读日常',('搜索文章','search.html?type=article'))}<div class="article-grid">{''.join(card(x) for x in D['articles'])}</div></section>
-<section class="dictionary-section"><div class="container">{sectionhead('A SMALL DICTIONARY OF ICONS','编辑精选 · 经典词典',('全部单品','search.html?type=item'))}<p class="section-intro">先记住一个细节，再打开一段故事。</p><div class="item-rail">{''.join(card(I[k],'item') for k in ['birkin','alhambra','tank','classic-flap','jodie','no5'])}</div></div></section>
+<section class="dictionary-section"><div class="container">{sectionhead('THE DESIGN ARCHIVE','编辑精选 · 经典设计',('全部单品','search.html?type=item'))}<p class="section-intro">从一款作品自己的形状，开始读它的故事。</p><div class="item-rail">{''.join(card(I[k],'item') for k in ['birkin','alhambra','tank','classic-flap','jodie','no5'])}</div></div></section>
 <section class="newsletter-section" id="newsletter"><div class="container newsletter-inner"><div><p class="eyebrow">LET’S KEEP A LITTLE INSPIRATION</p><h2>一封信，每月一封<span class="rose-dot">。</span></h2><p>把值得慢读的故事，留给一个有空的午后。</p></div><form class="newsletter-form"><label class="sr-only" for="newsletter-email">你的邮箱地址</label><div class="newsletter-input"><input id="newsletter-email" name="email" type="email" required placeholder="你的邮箱地址" autocomplete="email" maxlength="254"><button type="submit" aria-label="提交订阅演示">{icon('arrow')}</button></div><p class="newsletter-status" aria-live="polite">本地订阅演示 · 不保存邮箱，不发送邮件</p></form></div></section>'''
     page('index.html','品味 · 工艺 · 传奇',ABOUT,content,'home')
 
@@ -226,7 +231,7 @@ def otherpages():
 <p><a href="bags-by-year.html">The Bag Yearbook · 2022–2026</a> 每年收录四款热门精选和两款限量或限定设计。热门依据保留原始季度或报道时期，具体款式附当年来源；限定类型和实际发售年份分别标注。价格使用美元，并说明是当前美国参考价、有出处的历史报价或未公开价格。2026 年收录截止日分别显示在各年度栏目中。</p>
 <p>同样的年份规则也用于 <a href="necklaces-by-year.html">The Necklace Yearbook · 项链</a> 与 <a href="jewelry-by-year.html">The Jewelry Yearbook · 首饰</a>，两个栏目各收录 30 条年度记录。首饰页以戒指、手链和耳饰为主，项链单独浏览；当年的热门依据、实际限定发售年份、图中材质和美元价格口径均在详情页注明。</p>
 <h2>关于图片与权利</h2>
-<p>The Style Edit 的实物照片来自各品牌公开商品页，逐款标注品牌署名、商品链接与原图来源；版权归相应权利人，公开访问不代表图片获得开放许可。原创概念插画保留在经典词条和杂志文章中，均明确标注，不能用于鉴定。本站为独立的非商业内容项目，与所介绍品牌不存在授权或合作关系。</p>
+<p>The Style Edit 与经典设计档案采用有来源的实物照片，具体参考版本、型号、拍摄来源与署名见各款详情图库；品牌照片与转售商家照片分别注明，版权归相应权利人，公开访问不代表图片获得开放许可。原创专题插画用于杂志文章，均明确标注，不能用于鉴定。本站为独立的非商业内容项目，与所介绍品牌不存在授权或合作关系。</p>
 <h2>让阅读保持轻松</h2>
 <p>这里可以搜索、筛选和慢慢阅读。订阅区域是本地交互演示，不保存邮箱，也不真实发送邮件。离线时正文、插画与全部站内功能仍可使用；资料外链需要联网。</p>
 <blockquote>我们相信，了解一只包背后的工时与一间工坊的历史，会让拥有或仰望都变得更有滋味。</blockquote></article></div><section id="sources" class="sources-section">{sectionhead('READING & REFERENCES','继续阅读 · 资料来源')}<p class="section-intro">资料核验日期见对应品牌与单品页。外部页面由相应品牌或机构维护；编辑建议与原始历史资料分开理解。</p>
@@ -285,7 +290,7 @@ def detailpages():
         articles=[a for a in D['articles'] if a['category']==c['id']]
         items=[i for i in D['items'] if i['category']==c['id'] and not i.get('styleEdit')]
         extra='<p class="category-extension">也留一点目光给鞋履与墨镜，让日常造型更完整。生活配件一并收录在下方词典。</p>' if c['id']=='jewelry' else ''
-        content=f'''<div class="container">{crumbs([(c['nameZh'],None)],'../')}{headsection(c['nameEn']+' / THE CATEGORY',c['nameZh'],c['note'],str(len(items)+len(articles)).zfill(2))}<div class="category-summary"><span>{len(articles)} 篇慢读文章</span><span>{len(items)} 个经典词条</span><span>一种好奇，无限种入口</span></div>{bag_yearbook.teaser(D,"../",c["id"]) if c["id"] in bag_yearbook.BOOKS else ""}{perfumery.teaser(D,"../") if c["id"]=="fragrance" else ""}{style_edit("../",c)}{extra}<section class="category-editorials">{sectionhead('STORIES TO BEGIN WITH','从这里读起')}<div class="article-grid">{''.join(card(a,prefix='../') for a in articles)}</div></section><section class="section">{sectionhead('THE ILLUSTRATED ARCHIVE','经典单品词典 · 概念插画')}<div class="article-grid">{''.join(card(i,'item','../') for i in items)}</div></section><section class="related-brand-strip"><h2>继续走近这些品牌</h2>{''.join(f'<a href="../brand/{b["id"]}.html">{e(b["name"])} ↗</a>' for b in D['brands'] if c['id'] in b['categories'])}</section></div>'''
+        content=f'''<div class="container">{crumbs([(c['nameZh'],None)],'../')}{headsection(c['nameEn']+' / THE CATEGORY',c['nameZh'],c['note'],str(len(items)+len(articles)).zfill(2))}<div class="category-summary"><span>{len(articles)} 篇慢读文章</span><span>{len(items)} 个经典词条</span><span>一种好奇，无限种入口</span></div>{bag_yearbook.teaser(D,"../",c["id"]) if c["id"] in bag_yearbook.BOOKS else ""}{perfumery.teaser(D,"../") if c["id"]=="fragrance" else ""}{style_edit("../",c)}{extra}<section class="category-editorials">{sectionhead('STORIES TO BEGIN WITH','从这里读起')}<div class="article-grid">{''.join(card(a,prefix='../') for a in articles)}</div></section><section class="section classic-archive" id="classic-designs">{sectionhead('THE DESIGN ARCHIVE','经典设计档案')}<p class="section-intro">让每一款作品，用自己的轮廓说话。图示为系列的具体参考版本，型号与照片来源见各款详情。</p><div class="article-grid">{''.join(card(i,'item','../') for i in items)}</div></section><section class="related-brand-strip"><h2>继续走近这些品牌</h2>{''.join(f'<a href="../brand/{b["id"]}.html">{e(b["name"])} ↗</a>' for b in D['brands'] if c['id'] in b['categories'])}</section></div>'''
         page('cat/'+c['id']+'.html',c['nameZh']+'图鉴',c['note'],content,'category',c['id'])
     for b in D['brands']:
         brandpage(b)
@@ -324,6 +329,8 @@ def data_script():
     runtime={'categories':D['categories'],'styles':womens_styles.runtime(STYLE_ATLAS)}
     for key,keys in fields.items():
         runtime[key]=[{k:x[k] for k in keys if k in x} for x in D[key]]
+    for row in runtime['items']:
+        if row['id'] in CLASSIC_COVERS:row['archiveImage']=CLASSIC_COVERS[row['id']]['path']
     annual_fields=('id','brand','brandName','category','name','nameZh','oneLiner','reference','color','materials','annualEdit','year','selection','editionLabelEn','priceUSD','priceLabelEn','image','brandNames','collaboratorBrands')
     for x in bag_yearbook.entries(D):
         row={k:x[k] for k in annual_fields if k in x}
