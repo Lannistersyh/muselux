@@ -1,0 +1,138 @@
+{
+  "checkedAt": "2026-10-29",
+  "records": [
+    {
+      "id": "bottega-small-andiamo-black-766014vcpp11249",
+      "reference": "766014VCPP11249",
+      "images": [
+        {
+          "path": "assets/img/bag-edit/bottega-andiamo-2.webp",
+          "source": "https://bottega-veneta.dam.kering.com/asset/8c45b749-2d5e-443a-8615-5a7d175335e3/Medium/766014VCPP11249_C.jpg?v=2",
+          "pageSource": "https://www.bottegaveneta.com/en-us/small-andiamo-black-766014VCPP11249.html",
+          "credit": "© Bottega Veneta, official product imagery",
+          "alt": "Small Andiamo — Black Intrecciato Leather — top view",
+          "viewLabel": "Top view",
+          "width": 849,
+          "height": 1000,
+          "checkedAt": "2026-10-29",
+          "evidence": "Exact product code and colour matched to the brand gallery. Native photo fully decoded and visually compared with view 1; no mirroring or generated details.",
+          "sha256": "4e14dbf448a48108ecfd0b4437013fb340a7926f6ac4a279ab85f05af3a3ce4e"
+        }
+      ]
+    },
+    {
+      "id": "balenciaga-rodeo-medium-black-7897722aa4u1000",
+      "reference": "7897722AA4U1000",
+      "images": [
+        {
+          "path": "assets/img/bag-edit/balenciaga-rodeo-2.webp",
+          "source": "https://balenciaga.dam.kering.com/asset/e08848a6-cc51-4dc9-bdcc-26cf9da3b904/Medium/7897722AA4U1000_J.jpg?v=8",
+          "pageSource": "https://www.balenciaga.com/en-us/rodeo-handbag-medium-black-7897722AA4U1000.html?dwvar_7897722AA4U1000_color=1000",
+          "credit": "© Balenciaga, official product imagery",
+          "alt": "Rodeo Handbag Medium — Black, Aged-Silver Hardware — three-quarter view",
+          "viewLabel": "Three-quarter view",
+          "width": 1100,
+          "height": 1100,
+          "checkedAt": "2026-10-29",
+          "evidence": "Exact product code and colour matched to the brand gallery. Native photo fully decoded and visually compared with view 1; no mirroring or generated details.",
+          "sha256": "5aa614ed35e745cac3fc6a90447702cb1683290cd13799ba8ea60f105ea839c5"
+        }
+      ]
+    },
+    {
+      "id": "alaia-le-teckel-medium-black-aa1s06033i061999u",
+      "reference": "AA1S06033I061999U",
+      "images": [
+        {
+          "path": "assets/img/bag-edit/alaia-le-teckel-2.webp",
+          "source": "https://www.maison-alaia.com/dw/image/v2/BKHJ_PRD/on/demandware.static/-/Sites-alaia-master/default/dwc0b575f0/images/all-images/AA1S06033I061999/_Es3nQRBQ9uR3FCrL1uuxA_bc4b21ca.jpeg?sw=1250&sfrm=png&q=90",
+          "pageSource": "https://www.maison-alaia.com/en-us/product/shoulder-bags/le-teckel-medium-bag-in-calfskin-AA1S06033I061999U.html",
+          "credit": "© Alaïa, official product imagery",
+          "alt": "Le Teckel Medium Bag — Black Calfskin — three-quarter view",
+          "viewLabel": "Three-quarter view",
+          "width": 1250,
+          "height": 2222,
+          "checkedAt": "2026-10-29",
+          "evidence": "Exact product code and colour matched to the brand gallery. Native photo fully decoded and visually compared with view 1; no mirroring or generated details.",
+          "sha256": "39b7393f7d2b00e0c00523624c4f4710dc172f16d8b612367a77bbaa43dcd2c2"
+        }
+      ]
+    },
+    {
+      "id": "the-row-soft-margaux15-black-w1255l133blpl",
+      "reference": "W1255L133BLPL1SZ",
+      "images": [
+        {
+          "path": "assets/img/bag-edit/the-row-margaux-2.webp",
+          "source": "https://www.therow.com/cdn/shop/files/W1255L133BLPLR.jpg?v=1744226478",
+          "pageSource": "https://www.therow.com/products/soft-margaux-15-black",
+          "credit": "© The Row, official product imagery",
+          "alt": "Soft Margaux 15 — Black Grained Calfskin — three-quarter view",
+          "viewLabel": "Three-quarter view",
+          "width": 1707,
+          "height": 2560,
+          "checkedAt": "2026-10-29",
+          "evidence": "Exact product code and colour matched to the brand gallery. Native photo fully decoded and visually compared with view 1; no mirroring or generated details.",
+          "sha256": "7f228ae21a33cf4090e66ac9bde8be2e13a7d8614b44f1b4e9ee031befa07d3c"
+        }
+      ]
+    },
+    {
+      "id": "miu-miu-wander-black-5bc125-an88",
+      "reference": "5BC125_AN88_F0002_V_OOY",
+      "images": [
+        {
+          "path": "assets/img/bag-edit/miu-miu-wander-2.webp",
+          "source": "https://www.miumiu.com/content/dam/miumiubkg_products/5/5BC/5BC125/AN88F0002/5BC125_AN88_F0002_V_OOY_SLB.jpg",
+          "pageSource": "https://www.miumiu.com/us/en/p/wander-matelasse-nappa-leather-hobo-bag/5BC125_AN88_F0002_V_OOY",
+          "credit": "© Miu Miu, official product imagery",
+          "alt": "Wander Matelassé Nappa Leather Hobo Bag — Black — rear view",
+          "viewLabel": "Rear view",
+          "width": 2400,
+          "height": 2400,
+          "checkedAt": "2026-10-29",
+          "evidence": "Exact product code and colour matched to the brand gallery. Native photo fully decoded and visually compared with view 1; no mirroring or generated details.",
+          "sha256": "f90ec32055921137ce79c79dcfca7b1ea16082032393bc3462cc51b5a96143cf"
+        }
+      ]
+    },
+    {
+      "id": "loewe-amazona180-large-black-a039asrx02",
+      "reference": "A039ASRX02-1100",
+      "images": [
+        {
+          "path": "assets/img/bag-edit/loewe-amazona180-2.webp",
+          "source": "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw65eed71e/images_rd/A039ASRX02/A039ASRX02-1100/A039ASRX02_1100_1R.jpg?sw=1500&q=100",
+          "pageSource": "https://www.loewe.com/usa/en/women/bags/amazona/large-amazona-180-bag-in-soft-calfskin/A039ASRX02-1100.html",
+          "credit": "© LOEWE, official product imagery",
+          "alt": "Large Amazona 180 — Black Soft Calfskin — side view",
+          "viewLabel": "Side view",
+          "width": 1500,
+          "height": 2265,
+          "checkedAt": "2026-10-29",
+          "evidence": "Exact product code and colour matched to the brand gallery. Native photo fully decoded and visually compared with view 1; no mirroring or generated details.",
+          "sha256": "9feea14b0833798c8b79a15cdf793ed348c6b2bf1dbc7a3362da2fc498aebeac"
+        }
+      ]
+    },
+    {
+      "id": "louis-vuitton-speedy20-green-m27530",
+      "reference": "M27530",
+      "images": [
+        {
+          "path": "assets/img/bag-edit/louis-vuitton-speedy20-2.webp",
+          "source": "https://www.louisvuitton.cn/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-20--M27530_PM1_Side%20view.jpg",
+          "pageSource": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-20-autres-toiles-monogram-nvprod7270014v/M27530",
+          "credit": "© Louis Vuitton, official product imagery",
+          "alt": "Speedy Bandoulière 20 — Monogram Origine, Green Asnières — side view",
+          "viewLabel": "Side view",
+          "width": 2000,
+          "height": 2000,
+          "checkedAt": "2026-10-29",
+          "evidence": "Exact product code and colour matched to the brand gallery. Native photo fully decoded and visually compared with view 1; no mirroring or generated details.",
+          "sha256": "424a5915f1f793fc3a718b1ebffed23b3f0877967c9f87046672edb3b38c8c92"
+        }
+      ]
+    }
+  ]
+}

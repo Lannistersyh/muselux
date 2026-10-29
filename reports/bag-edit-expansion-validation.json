@@ -1,0 +1,478 @@
+{
+  "checkedAt": "2026-10-29",
+  "baseCommit": "ba1e480cd02d1fa152be34e082059c6edce22a07",
+  "passed": true,
+  "newStyleEditBags": 7,
+  "totalStyleEditBags": 12,
+  "styleEditTotal": 45,
+  "newImageFiles": 14,
+  "imageBytes": 1779902,
+  "nativeImageDimensions": {
+    "bottega-andiamo-1": [
+      849,
+      1000
+    ],
+    "bottega-andiamo-2": [
+      849,
+      1000
+    ],
+    "balenciaga-rodeo-1": [
+      1100,
+      1100
+    ],
+    "balenciaga-rodeo-2": [
+      1100,
+      1100
+    ],
+    "alaia-le-teckel-1": [
+      1250,
+      2222
+    ],
+    "alaia-le-teckel-2": [
+      1250,
+      2222
+    ],
+    "the-row-margaux-1": [
+      2000,
+      3000
+    ],
+    "the-row-margaux-2": [
+      2000,
+      3000
+    ],
+    "miu-miu-wander-1": [
+      2400,
+      2400
+    ],
+    "miu-miu-wander-2": [
+      2400,
+      2400
+    ],
+    "loewe-amazona180-1": [
+      1500,
+      2265
+    ],
+    "loewe-amazona180-2": [
+      1500,
+      2265
+    ],
+    "louis-vuitton-speedy20-1": [
+      2000,
+      2000
+    ],
+    "louis-vuitton-speedy20-2": [
+      2000,
+      2000
+    ]
+  },
+  "allImagesDecoded": true,
+  "distinctLocalImageHashes": 14,
+  "priceProvenance": {
+    "liveOfficialUS": 4,
+    "datedOfficialUSReaderSnapshots": 3,
+    "theRowSoldOutDisplayed": true,
+    "noCurrencyConversion": true
+  },
+  "preserved": {
+    "oldCoreProductObjects": 66,
+    "annualObjects": 90,
+    "existingImageAndResearchFiles": 419,
+    "changedPreservedFiles": [],
+    "brandHistoryAndMetadataUnchanged": true,
+    "womensStyleDataUnchanged": true,
+    "historicalQuotesAndCutoffsUnchanged": true
+  },
+  "site": {
+    "pages": 234,
+    "brands": 40,
+    "searchableItemPages": 163,
+    "productGalleries": 163,
+    "galleryViews": 330,
+    "runtimeJavaScriptBytes": 52159
+  },
+  "codeGate": {
+    "passed": true,
+    "reproducibleBuild": true,
+    "pages": 234,
+    "brands": 40,
+    "searchableItems": 163,
+    "pythonRegressionTests": 20,
+    "frontendAssertions": 111
+  },
+  "browser": {
+    "desktop": {
+      "cards": [
+        {
+          "height": 624,
+          "href": "../item/dior-small-lady-dior-black-us.html",
+          "loaded": true,
+          "name": "Small Lady Dior Bag — Black Cannage Lambskin",
+          "top": 482
+        },
+        {
+          "height": 624,
+          "href": "../item/gucci-jackie-small-black-gg-us.html",
+          "loaded": true,
+          "name": "Gucci Jackie Small Shoulder Bag — Black GG Canvas",
+          "top": 482
+        },
+        {
+          "height": 624,
+          "href": "../item/prada-galleria-small-black-leather-us.html",
+          "loaded": true,
+          "name": "Prada Galleria Small Leather Bag — Black",
+          "top": 482
+        },
+        {
+          "height": 624,
+          "href": "../item/fendi-baguette-tobacco-ff-us.html",
+          "loaded": true,
+          "name": "Baguette® — Tobacco Brown FF Jacquard Fabric Bag",
+          "top": 482
+        },
+        {
+          "height": 624,
+          "href": "../item/moynat-hotel-hobo-brown-ci3625-0760.html",
+          "loaded": true,
+          "name": "Hôtel Moynat Hobo Bag — Brown M Canvas",
+          "top": 1140
+        },
+        {
+          "height": 624,
+          "href": "../item/bottega-small-andiamo-black-766014vcpp11249.html",
+          "loaded": true,
+          "name": "Small Andiamo — Black Intrecciato Leather",
+          "top": 1140
+        },
+        {
+          "height": 624,
+          "href": "../item/balenciaga-rodeo-medium-black-7897722aa4u1000.html",
+          "loaded": true,
+          "name": "Rodeo Handbag Medium — Black, Aged-Silver Hardware",
+          "top": 1140
+        },
+        {
+          "height": 624,
+          "href": "../item/alaia-le-teckel-medium-black-aa1s06033i061999u.html",
+          "loaded": true,
+          "name": "Le Teckel Medium Bag — Black Calfskin",
+          "top": 1140
+        },
+        {
+          "height": 652,
+          "href": "../item/the-row-soft-margaux15-black-w1255l133blpl.html",
+          "loaded": true,
+          "name": "Soft Margaux 15 — Black Grained Calfskin",
+          "top": 1786
+        },
+        {
+          "height": 652,
+          "href": "../item/miu-miu-wander-black-5bc125-an88.html",
+          "loaded": true,
+          "name": "Wander Matelassé Nappa Leather Hobo Bag — Black",
+          "top": 1786
+        },
+        {
+          "height": 652,
+          "href": "../item/loewe-amazona180-large-black-a039asrx02.html",
+          "loaded": true,
+          "name": "Large Amazona 180 — Black Soft Calfskin",
+          "top": 1786
+        },
+        {
+          "height": 652,
+          "href": "../item/louis-vuitton-speedy20-green-m27530.html",
+          "loaded": true,
+          "name": "Speedy Bandoulière 20 — Monogram Origine, Green Asnières",
+          "top": 1786
+        }
+      ],
+      "columns": "303.5px 303.5px 303.5px 303.5px",
+      "count": 12,
+      "documentWidth": 1600,
+      "page": "/cat/bags.html",
+      "section": {
+        "height": 2289,
+        "width": 1280,
+        "x": 160,
+        "y": 928
+      },
+      "summary": "12 款实物精选4 篇慢读文章12 个经典词条一种好奇，无限种入口",
+      "width": 1600
+    },
+    "margaux": {
+      "availability": "The official U.S. page listed this black grained-calfskin variant at US$4,700 and marked it sold out when checked on 29 October 2026. This is a listed-price reference; confirm any later availability with The Row.",
+      "controls": [
+        {
+          "pressed": "true",
+          "text": "Original view"
+        },
+        {
+          "pressed": "false",
+          "text": "Three-quarter view"
+        }
+      ],
+      "heading": "Soft Margaux 15 — Black Grained Calfskin",
+      "page": "/item/the-row-soft-margaux15-black-w1255l133blpl.html",
+      "views": 2
+    },
+    "gallerySwitch": {
+      "selected": [
+        "Three-quarter view"
+      ],
+      "visibleImages": [
+        {
+          "loaded": true,
+          "src": "../assets/img/bag-edit/the-row-margaux-2.webp"
+        }
+      ]
+    },
+    "mobile": {
+      "cards": [
+        {
+          "height": 644,
+          "href": "../item/dior-small-lady-dior-black-us.html",
+          "loaded": true,
+          "name": "Small Lady Dior Bag — Black Cannage Lambskin",
+          "top": 535
+        },
+        {
+          "height": 627,
+          "href": "../item/gucci-jackie-small-black-gg-us.html",
+          "loaded": true,
+          "name": "Gucci Jackie Small Shoulder Bag — Black GG Canvas",
+          "top": 1215
+        },
+        {
+          "height": 603,
+          "href": "../item/prada-galleria-small-black-leather-us.html",
+          "loaded": true,
+          "name": "Prada Galleria Small Leather Bag — Black",
+          "top": 1866
+        },
+        {
+          "height": 644,
+          "href": "../item/fendi-baguette-tobacco-ff-us.html",
+          "loaded": true,
+          "name": "Baguette® — Tobacco Brown FF Jacquard Fabric Bag",
+          "top": 2493
+        },
+        {
+          "height": 603,
+          "href": "../item/moynat-hotel-hobo-brown-ci3625-0760.html",
+          "loaded": true,
+          "name": "Hôtel Moynat Hobo Bag — Brown M Canvas",
+          "top": 3161
+        },
+        {
+          "height": 644,
+          "href": "../item/bottega-small-andiamo-black-766014vcpp11249.html",
+          "loaded": false,
+          "name": "Small Andiamo — Black Intrecciato Leather",
+          "top": 3788
+        },
+        {
+          "height": 644,
+          "href": "../item/balenciaga-rodeo-medium-black-7897722aa4u1000.html",
+          "loaded": false,
+          "name": "Rodeo Handbag Medium — Black, Aged-Silver Hardware",
+          "top": 4455
+        },
+        {
+          "height": 603,
+          "href": "../item/alaia-le-teckel-medium-black-aa1s06033i061999u.html",
+          "loaded": false,
+          "name": "Le Teckel Medium Bag — Black Calfskin",
+          "top": 5123
+        },
+        {
+          "height": 627,
+          "href": "../item/the-row-soft-margaux15-black-w1255l133blpl.html",
+          "loaded": false,
+          "name": "Soft Margaux 15 — Black Grained Calfskin",
+          "top": 5750
+        },
+        {
+          "height": 627,
+          "href": "../item/miu-miu-wander-black-5bc125-an88.html",
+          "loaded": false,
+          "name": "Wander Matelassé Nappa Leather Hobo Bag — Black",
+          "top": 6401
+        },
+        {
+          "height": 603,
+          "href": "../item/loewe-amazona180-large-black-a039asrx02.html",
+          "loaded": false,
+          "name": "Large Amazona 180 — Black Soft Calfskin",
+          "top": 7053
+        },
+        {
+          "height": 702,
+          "href": "../item/louis-vuitton-speedy20-green-m27530.html",
+          "loaded": false,
+          "name": "Speedy Bandoulière 20 — Monogram Origine, Green Asnières",
+          "top": 7679
+        }
+      ],
+      "columns": "360px",
+      "count": 12,
+      "documentWidth": 404,
+      "page": "/cat/bags.html",
+      "section": {
+        "height": 8261,
+        "width": 360,
+        "x": 22,
+        "y": 1056
+      },
+      "summary": "12 款实物精选4 篇慢读文章12 个经典词条一种好奇，无限种入口",
+      "width": 404
+    },
+    "mobileLv": {
+      "documentWidth": 404,
+      "loaded": true,
+      "page": "/item/louis-vuitton-speedy20-green-m27530.html",
+      "priceContext": "Official page snapshot · reported crawled the previous day; reviewed 29 October 2026",
+      "views": 2,
+      "width": 404
+    },
+    "mobileGallerySwitch": {
+      "selected": "Side view",
+      "visible": [
+        {
+          "loaded": true,
+          "src": "../assets/img/bag-edit/louis-vuitton-speedy20-2.webp"
+        }
+      ]
+    },
+    "home": {
+      "bagCards": 12,
+      "documentWidth": 404,
+      "panelHidden": false,
+      "width": 404
+    },
+    "search": {
+      "count": "「W1255L133BLPL」 · 找到 2 条内容",
+      "documentWidth": 404,
+      "newDetailPresent": true,
+      "page": "/search.html?type=item&cat=bags&q=W1255L133BLPL",
+      "width": 404
+    },
+    "desktopFinal": {
+      "cards": [
+        {
+          "height": 624,
+          "href": "../item/dior-small-lady-dior-black-us.html",
+          "loaded": true,
+          "name": "Small Lady Dior Bag — Black Cannage Lambskin",
+          "top": -1418
+        },
+        {
+          "height": 624,
+          "href": "../item/gucci-jackie-small-black-gg-us.html",
+          "loaded": true,
+          "name": "Gucci Jackie Small Shoulder Bag — Black GG Canvas",
+          "top": -1418
+        },
+        {
+          "height": 624,
+          "href": "../item/prada-galleria-small-black-leather-us.html",
+          "loaded": true,
+          "name": "Prada Galleria Small Leather Bag — Black",
+          "top": -1418
+        },
+        {
+          "height": 624,
+          "href": "../item/fendi-baguette-tobacco-ff-us.html",
+          "loaded": true,
+          "name": "Baguette® — Tobacco Brown FF Jacquard Fabric Bag",
+          "top": -1418
+        },
+        {
+          "height": 624,
+          "href": "../item/moynat-hotel-hobo-brown-ci3625-0760.html",
+          "loaded": true,
+          "name": "Hôtel Moynat Hobo Bag — Brown M Canvas",
+          "top": -772
+        },
+        {
+          "height": 624,
+          "href": "../item/bottega-small-andiamo-black-766014vcpp11249.html",
+          "loaded": true,
+          "name": "Small Andiamo — Black Intrecciato Leather",
+          "top": -772
+        },
+        {
+          "height": 624,
+          "href": "../item/balenciaga-rodeo-medium-black-7897722aa4u1000.html",
+          "loaded": true,
+          "name": "Rodeo Handbag Medium — Black, Aged-Silver Hardware",
+          "top": -772
+        },
+        {
+          "height": 624,
+          "href": "../item/alaia-le-teckel-medium-black-aa1s06033i061999u.html",
+          "loaded": true,
+          "name": "Le Teckel Medium Bag — Black Calfskin",
+          "top": -772
+        },
+        {
+          "height": 652,
+          "href": "../item/the-row-soft-margaux15-black-w1255l133blpl.html",
+          "loaded": true,
+          "name": "Soft Margaux 15 — Black Grained Calfskin",
+          "top": -126
+        },
+        {
+          "height": 652,
+          "href": "../item/miu-miu-wander-black-5bc125-an88.html",
+          "loaded": true,
+          "name": "Wander Matelassé Nappa Leather Hobo Bag — Black",
+          "top": -126
+        },
+        {
+          "height": 652,
+          "href": "../item/loewe-amazona180-large-black-a039asrx02.html",
+          "loaded": true,
+          "name": "Large Amazona 180 — Black Soft Calfskin",
+          "top": -126
+        },
+        {
+          "height": 652,
+          "href": "../item/louis-vuitton-speedy20-green-m27530.html",
+          "loaded": true,
+          "name": "Speedy Bandoulière 20 — Monogram Origine, Green Asnières",
+          "top": -126
+        }
+      ],
+      "columns": "303.5px 303.5px 303.5px 303.5px",
+      "count": 12,
+      "documentWidth": 1600,
+      "page": "/cat/bags.html",
+      "section": {
+        "height": 2289,
+        "width": 1280,
+        "x": 160,
+        "y": 928
+      },
+      "summary": "12 款实物精选4 篇慢读文章12 个经典词条一种好奇，无限种入口",
+      "width": 1600
+    },
+    "errors": [],
+    "openedTabs": 1,
+    "baselineUserTabs": 3,
+    "peakTabs": 4,
+    "temporaryTabsRemaining": 0,
+    "finalTargetsCount": 3,
+    "viewportReset": true,
+    "previewServerStopped": true,
+    "method": "One IAB preview tab. Actual desktop four-column grid and 404px mobile checks, gallery switches, home and search. Browser full-page screenshot cropped to Style Edit after all rows had been viewed. The Row detail was visited directly after a locator click could not be completed by the automation tool."
+  },
+  "previewFiles": [
+    "reports/bag-edit-expansion-grid-preview.png",
+    "reports/bag-edit-expansion-desktop-preview.png",
+    "reports/bag-edit-expansion-mobile-preview.png",
+    "reports/bag-edit-expansion-detail-preview.png",
+    "reports/bag-edit-expansion-contact.jpg"
+  ],
+  "graphflow": "No graphflow tools exposed; scoped source reads and repository verification used."
+}

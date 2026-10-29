@@ -121,23 +121,23 @@
     "Desktop resize closes mobile menu"
   ],
   "sourceHashes": {
-    "assets/js/data.js": "77fb3515398d90633e67d55312dd4424657a3a595cd1c8018c82f42529dfef71",
+    "assets/js/data.js": "4d67a87079b79d91ab0df431932cd7b9ccdddb2f9a4ca5d2291810c68d489667",
     "assets/js/render.js": "23c35718155516c7aee334d549a3c1a57b0f4280d7f423dc7421a925baf835b6",
     "assets/js/main.js": "57effd484f7bb73005024fd63985f6edb0519fed645d9339262618084a10a3e9"
   },
-  "contentHash": "3290d6b2741f31a9cf942280760fdadb504ab7615b7ebdf4058f49c5b2719c2f",
+  "contentHash": "03c4e8b97714c05f435d17f0bb57eadb4a2a9441f5201327744d8db149ebb0ea",
   "fixtureHashes": {
-    "search.html": "a51dea83eee06fe9897aa87f573de1c87308859a64aa86586588e9ad5773e010",
-    "perfumery.html": "bd6c737f8d69a3d1008bf898d9e595c6ca65bb977fe3b498b8b591daf22a82c0",
-    "womens-style.html": "b575c3c6aaf4aa9c967ff2e960e3bdce0bb192b5391346238aa41594c62b44ae",
-    "style/mob-wife.html": "0807235e709af265a07a654adb8632ccdbaf0df0fe24fbaf2f075ab281d430a9",
-    "style/napoleon-core.html": "9b02e3d6cfa949ee99e707c2881ad5bcad6e1eaa7383e61b7180fc053ebe8ff3",
-    "style/heiress.html": "210a7a96a38e490e47b0e50c8bc1a68a6edec89dab9b5990ca04bb1687973084",
-    "brands.html": "e421627bf5c63a30da17211b594d2cba51f876792d8054c2bf6d6a070342bfad",
-    "bags-by-year.html": "3ee5c1935ed6431c6110ddd27c481997f1412b21ec5ef4d3f7b0cc452003003b",
-    "item/dior-small-lady-dior-black-us.html": "da5c6e403e1b6dfc7fa78a4c7139a54e4190926a26de2c022f5fbaa7c150746f",
-    "item/bag-2022-prada-re-edition-2000.html": "b07501a484ec532bea0a3d3d5048e4983b03e7f82c9151db69d2807aa869485f",
-    "item/birkin.html": "38d1c58df90cc2faca69216fd796cf19d421f254126f0703274dc77d70eff767",
-    "index.html": "deec5562a25f93c62dee6bb7c10ea957588aa563b85d84efab26345550b52e3e"
+    "search.html": "d869d956abd627e594a93d00bbc7cf5b35420bc7e96b8c5db0ee0307e853cae0",
+    "perfumery.html": "08920fe10b9be794a3360c7300288bc9f08626166a13d97af4ea1c8416eb1cc7",
+    "womens-style.html": "0f4cee760f74a34c0f2f4aa59de8cb944a172d862fdb13fd0f0143a720431517",
+    "style/mob-wife.html": "839059ee2b88dad7ac4ddd58b3d41d55b9c9a6a99ad0da79479b550b26feb6d7",
+    "style/napoleon-core.html": "23e53860a783d93bb25b9b485e4ac33d998627f27e8353fd6e53c088e950333d",
+    "style/heiress.html": "f22a201df2c795dcf1a30ce031cec8e944138f2f253ef569e73629b1b4c74cd6",
+    "brands.html": "1175065a4ab3c5a3e1277ed327e9b18a6e1c7e21fc111b3e1575afd8d6cfa2b5",
+    "bags-by-year.html": "db0667cf034cfe752e975d8a70d9af2c242b33ec394a25243796f850b2520d76",
+    "item/dior-small-lady-dior-black-us.html": "85a2af8db37f2b8360a8684826f135f1abce59700bf43bb288e1327abd23001d",
+    "item/bag-2022-prada-re-edition-2000.html": "ce9d95ce6c193bc2d4e400be154826703bece428e6d9f070185f5b76254e3f87",
+    "item/birkin.html": "a4aa7c7aad6cc9969486318353caff1f4ff5fbc7c486dfa0582184e0b84d2fa0",
+    "index.html": "e7b15e9d3e0e938382fcbfd14f9db7ae8b518da8175715b50f60b29b213399d1"
   }
 }

@@ -107,7 +107,7 @@ def productpage(x):
     seller=x['sellerName'] if resale else b['name']
     reference_label='Seller ref.' if resale else 'Ref.'
     price_subtitle='USD · specific listed example' if resale else 'Before tax · pictured reference only'
-    availability=x['availabilityEn'] if resale else 'Official source for the pictured variant. Confirm the latest price and availability with the brand.'
+    availability=x.get('availabilityEn') or 'Official source for the pictured variant. Confirm the latest price and availability with the brand.'
     source_label='Merchant listing & USD asking price' if resale else 'Official product & price source'
     attribution='Specifications and photographs follow the cited seller listing' if resale else 'Product specifications and imagery are credited to '+b['name']
     if resale:
@@ -289,8 +289,9 @@ def detailpages():
     for c in D['categories']:
         articles=[a for a in D['articles'] if a['category']==c['id']]
         items=[i for i in D['items'] if i['category']==c['id'] and not i.get('styleEdit')]
+        photographed=[i for i in D['items'] if i['category']==c['id'] and i.get('styleEdit')]
         extra='<p class="category-extension">也留一点目光给鞋履与墨镜，让日常造型更完整。生活配件一并收录在下方词典。</p>' if c['id']=='jewelry' else ''
-        content=f'''<div class="container">{crumbs([(c['nameZh'],None)],'../')}{headsection(c['nameEn']+' / THE CATEGORY',c['nameZh'],c['note'],str(len(items)+len(articles)).zfill(2))}<div class="category-summary"><span>{len(articles)} 篇慢读文章</span><span>{len(items)} 个经典词条</span><span>一种好奇，无限种入口</span></div>{bag_yearbook.teaser(D,"../",c["id"]) if c["id"] in bag_yearbook.BOOKS else ""}{perfumery.teaser(D,"../") if c["id"]=="fragrance" else ""}{style_edit("../",c)}{extra}<section class="category-editorials">{sectionhead('STORIES TO BEGIN WITH','从这里读起')}<div class="article-grid">{''.join(card(a,prefix='../') for a in articles)}</div></section><section class="section classic-archive" id="classic-designs">{sectionhead('THE DESIGN ARCHIVE','经典设计档案')}<p class="section-intro">让每一款作品，用自己的轮廓说话。图示为系列的具体参考版本，型号与照片来源见各款详情。</p><div class="article-grid">{''.join(card(i,'item','../') for i in items)}</div></section><section class="related-brand-strip"><h2>继续走近这些品牌</h2>{''.join(f'<a href="../brand/{b["id"]}.html">{e(b["name"])} ↗</a>' for b in D['brands'] if c['id'] in b['categories'])}</section></div>'''
+        content=f'''<div class="container">{crumbs([(c['nameZh'],None)],'../')}{headsection(c['nameEn']+' / THE CATEGORY',c['nameZh'],c['note'],str(len(items)+len(articles)+len(photographed)).zfill(2))}<div class="category-summary"><span>{len(photographed)} 款实物精选</span><span>{len(articles)} 篇慢读文章</span><span>{len(items)} 个经典词条</span><span>一种好奇，无限种入口</span></div>{bag_yearbook.teaser(D,"../",c["id"]) if c["id"] in bag_yearbook.BOOKS else ""}{perfumery.teaser(D,"../") if c["id"]=="fragrance" else ""}{style_edit("../",c)}{extra}<section class="category-editorials">{sectionhead('STORIES TO BEGIN WITH','从这里读起')}<div class="article-grid">{''.join(card(a,prefix='../') for a in articles)}</div></section><section class="section classic-archive" id="classic-designs">{sectionhead('THE DESIGN ARCHIVE','经典设计档案')}<p class="section-intro">让每一款作品，用自己的轮廓说话。图示为系列的具体参考版本，型号与照片来源见各款详情。</p><div class="article-grid">{''.join(card(i,'item','../') for i in items)}</div></section><section class="related-brand-strip"><h2>继续走近这些品牌</h2>{''.join(f'<a href="../brand/{b["id"]}.html">{e(b["name"])} ↗</a>' for b in D['brands'] if c['id'] in b['categories'])}</section></div>'''
         page('cat/'+c['id']+'.html',c['nameZh']+'图鉴',c['note'],content,'category',c['id'])
     for b in D['brands']:
         brandpage(b)

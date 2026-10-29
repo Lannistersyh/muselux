@@ -6,7 +6,7 @@
       "nameEn": "BAGS",
       "blurb": "从马鞍工坊，到日常相伴",
       "note": "读懂轮廓、皮革与一只包的来处。",
-      "editIntro": "Five distinct approaches to the everyday handbag, from sculpted quilting and compact leather to expressive travel-label canvas. Compare the exact photographed variants, their proportions and their U.S. retail references."
+      "editIntro": "Twelve distinct bag silhouettes, from compact shoulder shapes to roomy top handles. Compare the pictured materials, proportions and USD references."
     },
     {
       "id": "necklace",
@@ -213,6 +213,7 @@
       ],
       "source": "https://uk.louisvuitton.com/eng-gb/magazine/articles/heritage",
       "classicItems": [
+        "louis-vuitton-speedy20-green-m27530",
         "speedy"
       ]
     },
@@ -423,6 +424,7 @@
       ],
       "source": "https://www.kering.com/en/houses/fashion-and-leather-goods/bottega-veneta/",
       "classicItems": [
+        "bottega-small-andiamo-black-766014vcpp11249",
         "jodie"
       ]
     },
@@ -973,7 +975,9 @@
           "url": "https://www.balenciaga.com/en-us/crist%C3%B3bal-balenciaga"
         }
       ],
-      "classicItems": []
+      "classicItems": [
+        "balenciaga-rodeo-medium-black-7897722aa4u1000"
+      ]
     },
     {
       "id": "miu-miu",
@@ -1045,7 +1049,9 @@
           "url": "https://www.miumiu.com/eu/en/miumiu-club.html"
         }
       ],
-      "classicItems": []
+      "classicItems": [
+        "miu-miu-wander-black-5bc125-an88"
+      ]
     },
     {
       "id": "loewe",
@@ -1119,7 +1125,9 @@
           "url": "https://www.loewe.com/eur/en/pd/stories/welcome-to-loewe.html"
         }
       ],
-      "classicItems": []
+      "classicItems": [
+        "loewe-amazona180-large-black-a039asrx02"
+      ]
     },
     {
       "id": "the-row",
@@ -1203,7 +1211,9 @@
           "url": "https://cfda.com/annual-report-2025/"
         }
       ],
-      "classicItems": [],
+      "classicItems": [
+        "the-row-soft-margaux15-black-w1255l133blpl"
+      ],
       "historyNote": "成立年份采用 The Row 现行官网所列的 2005 年；CFDA 的 2021 年回顾使用 2006 年，相关资料存在这一口径差异。"
     },
     {
@@ -1256,7 +1266,9 @@
         "皮革与金属孔眼"
       ],
       "source": "https://www.richemont.com/our-maisons/alaia/",
-      "classicItems": [],
+      "classicItems": [
+        "alaia-le-teckel-medium-black-aa1s06033i061999u"
+      ],
       "sources": [
         {
           "label": "Richemont · Alaïa 品牌与工艺",
@@ -6113,6 +6125,395 @@
       "relatedArticles": [
         "mag-12"
       ]
+    },
+    {
+      "brand": "bottega-veneta",
+      "category": "bags",
+      "color": "Black with silver-finish hardware",
+      "sizes": [
+        "Small; 25 W × 20 H × 10 D cm"
+      ],
+      "materials": [
+        "Lambskin leather",
+        "Lambskin-bonded Intrecciato lining"
+      ],
+      "priceUSD": 4900,
+      "source": "https://www.bottegaveneta.com/en-us/small-andiamo-black-766014VCPP11249.html",
+      "id": "bottega-small-andiamo-black-766014vcpp11249",
+      "name": "Small Andiamo — Black Intrecciato Leather",
+      "nameZh": "葆蝶家小号 Andiamo 黑色编织手提包",
+      "reference": "766014VCPP11249",
+      "priceLabel": "U.S. retail listed-price reference, before tax; official page snapshot",
+      "checkedAt": "2026-10-29",
+      "priceEvidence": "The exact U.S. page reader showed US$4,900 beside product code 766014VCPP11249, black colour and silver-finish hardware.",
+      "priceStatus": "official-snapshot",
+      "image": "assets/img/bag-edit/bottega-andiamo-1.webp",
+      "imageSource": "https://bottega-veneta.dam.kering.com/asset/e5ce16e3-bcb7-4c39-a337-b2197c34c6ba/Medium/766014VCPP11249_A.jpg?v=2",
+      "imageCredit": "© Bottega Veneta, official product imagery",
+      "imageRightsNote": "Official product photograph for the specified reference; credit and source retained. No open reproduction licence is asserted.",
+      "imageWidth": 849,
+      "imageHeight": 1000,
+      "introEn": "The Small Andiamo gives a compact top-handle bag a softer rhythm through woven lambskin. Its silver-finish knot sits against black leather rather than a large printed emblem, while the sliding strap changes the way the bag sits on the body. The divided interior separates smaller belongings without making the exterior feel rigid. This is the choice in the edit for someone who enjoys tactile detail and a tidy daytime scale. The pictured reference uses silver-finish hardware; other colours and metal finishes should be checked as separate versions.",
+      "featuresEn": [
+        "Black lambskin Intrecciato with a silver-finish knot detail",
+        "Sliding crossbody strap and magnetic fastening",
+        "Divided interior with one zipped pocket and two open pockets"
+      ],
+      "stylingEn": "Pair the woven surface with a plain wool coat or a cotton shirt. Carry it by the top handle for a compact outline, then use the sliding strap when you want both hands free.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "verificationLimitations": [
+        "Official U.S. product-page reader reported crawled the same day when reviewed on 2026-10-29. Local HTML returned 403; price was not verified at checkout."
+      ],
+      "sourceSnapshotNote": "Official U.S. product-page reader reported crawled the same day when reviewed on 2026-10-29. Local HTML returned 403; price was not verified at checkout.",
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "The Small Andiamo gives a compact top-handle bag a softer rhythm through woven lambskin.",
+      "story": "The Small Andiamo gives a compact top-handle bag a softer rhythm through woven lambskin. Its silver-finish knot sits against black leather rather than a large printed emblem, while the sliding strap changes the way the bag sits on the body. The divided interior separates smaller belongings without making the exterior feel rigid. This is the choice in the edit for someone who enjoys tactile detail and a tidy daytime scale. The pictured reference uses silver-finish hardware; other colours and metal finishes should be checked as separate versions.",
+      "facts": [
+        "Black lambskin Intrecciato with a silver-finish knot detail",
+        "Sliding crossbody strap and magnetic fastening",
+        "Divided interior with one zipped pocket and two open pockets"
+      ],
+      "priceContextEn": "Official page snapshot · reported crawled the same day; reviewed 29 October 2026",
+      "priceRange": "US$4,900, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-01",
+        "mag-02",
+        "mag-06"
+      ]
+    },
+    {
+      "brand": "balenciaga",
+      "category": "bags",
+      "color": "Black with aged-silver hardware",
+      "sizes": [
+        "Medium · 35 × 23.5 × 11 cm"
+      ],
+      "materials": [
+        "Smooth calfskin",
+        "Nappa lambskin lining"
+      ],
+      "priceUSD": 4590,
+      "source": "https://www.balenciaga.com/en-us/rodeo-handbag-medium-black-7897722AA4U1000.html?dwvar_7897722AA4U1000_color=1000",
+      "id": "balenciaga-rodeo-medium-black-7897722aa4u1000",
+      "name": "Rodeo Handbag Medium — Black, Aged-Silver Hardware",
+      "nameZh": "巴黎世家中号 Rodeo 黑色翻盖手提包",
+      "reference": "7897722AA4U1000",
+      "priceLabel": "U.S. retail listed-price reference, before tax; official page snapshot",
+      "checkedAt": "2026-10-29",
+      "priceEvidence": "The exact U.S. page reader showed US$4,590 and product ID 7897722AA4U1000, with black smooth calfskin, aged-silver hardware and nappa lambskin lining.",
+      "priceStatus": "official-snapshot",
+      "image": "assets/img/bag-edit/balenciaga-rodeo-1.webp",
+      "imageSource": "https://balenciaga.dam.kering.com/asset/1f1765a7-ed74-45b9-85bd-7bd8d6bb3246/Medium/7897722AA4U1000_F.jpg?v=5",
+      "imageCredit": "© Balenciaga, official product imagery",
+      "imageRightsNote": "Official product photograph for the specified reference; credit and source retained. No open reproduction licence is asserted.",
+      "imageWidth": 1100,
+      "imageHeight": 1100,
+      "introEn": "The medium Rodeo introduces a deliberately relaxed outline to a top-handle format. Black calfskin folds around the front flap, and the aged-silver fastening adds a quieter metallic note than bright polished hardware. The removable shoulder strap offers another way to carry it, while side snaps and external pockets give the shape practical points of interest. Its appeal is the balance between an orderly handle and a body that looks less formal. Choose this version when a precise briefcase feels too strict but an unstructured tote feels too casual.",
+      "featuresEn": [
+        "Smooth black calfskin with nappa lambskin lining",
+        "Turn-lock fastening and aged-silver hardware",
+        "Removable shoulder strap, front pocket and two rear flat pockets"
+      ],
+      "stylingEn": "Let the soft flap sit beside straight denim, a simple T-shirt and a long coat. Keep other accessories restrained so the folded silhouette remains the main detail.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "verificationLimitations": [
+        "Official U.S. product-page reader reported crawled the same day when reviewed on 2026-10-29. Local HTML returned 403; stock and checkout were not verified."
+      ],
+      "sourceSnapshotNote": "Official U.S. product-page reader reported crawled the same day when reviewed on 2026-10-29. Local HTML returned 403; stock and checkout were not verified.",
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "The medium Rodeo introduces a deliberately relaxed outline to a top-handle format.",
+      "story": "The medium Rodeo introduces a deliberately relaxed outline to a top-handle format. Black calfskin folds around the front flap, and the aged-silver fastening adds a quieter metallic note than bright polished hardware. The removable shoulder strap offers another way to carry it, while side snaps and external pockets give the shape practical points of interest. Its appeal is the balance between an orderly handle and a body that looks less formal. Choose this version when a precise briefcase feels too strict but an unstructured tote feels too casual.",
+      "facts": [
+        "Smooth black calfskin with nappa lambskin lining",
+        "Turn-lock fastening and aged-silver hardware",
+        "Removable shoulder strap, front pocket and two rear flat pockets"
+      ],
+      "priceContextEn": "Official page snapshot · reported crawled the same day; reviewed 29 October 2026",
+      "priceRange": "US$4,590, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-01",
+        "mag-02",
+        "mag-06"
+      ]
+    },
+    {
+      "brand": "alaia",
+      "category": "bags",
+      "color": "Black",
+      "sizes": [
+        "Medium · 33 × 11 × 10 cm"
+      ],
+      "materials": [
+        "Smooth calfskin",
+        "Calfskin lining"
+      ],
+      "priceUSD": 3050,
+      "source": "https://www.maison-alaia.com/en-us/product/shoulder-bags/le-teckel-medium-bag-in-calfskin-AA1S06033I061999U.html",
+      "id": "alaia-le-teckel-medium-black-aa1s06033i061999u",
+      "name": "Le Teckel Medium Bag — Black Calfskin",
+      "nameZh": "阿莱亚中号 Le Teckel 黑色横长肩包",
+      "reference": "AA1S06033I061999U",
+      "priceLabel": "U.S. retail listed-price reference, before tax",
+      "checkedAt": "2026-10-29",
+      "priceEvidence": "Official U.S. HTML and ProductGroup variant offers identified reference AA1S06033I061999U and a USD price of 3050 on 2026-10-29.",
+      "priceStatus": "live",
+      "image": "assets/img/bag-edit/alaia-le-teckel-1.webp",
+      "imageSource": "https://www.maison-alaia.com/dw/image/v2/BKHJ_PRD/on/demandware.static/-/Sites-alaia-master/default/dw2095b59e/images/all-images/AA1S06033I061999/ZFTQoTLbRDC8yE73AIw9pQ_5649f8b5.jpeg?sw=1250&sfrm=png&q=90",
+      "imageCredit": "© Alaïa, official product imagery",
+      "imageRightsNote": "Official product photograph for the specified reference; credit and source retained. No open reproduction licence is asserted.",
+      "imageWidth": 1250,
+      "imageHeight": 2222,
+      "introEn": "Le Teckel stretches the shoulder bag into a long, narrow line. The smooth black calfskin and tubular handles keep the surface calm, allowing proportion to do most of the work. A double zip opens the low body, and a small removable mirror is kept inside. This medium version offers room for a phone, glasses and a wallet according to the house description. It is an expressive alternative to a square mini bag: compact in height, extended across the body, and especially clear against simple tailoring.",
+      "featuresEn": [
+        "Elongated smooth-calfskin body with calfskin lining",
+        "Tubular handles, double zip and removable interior mirror",
+        "Medium format: 33 × 11 × 10 cm; made in Italy"
+      ],
+      "stylingEn": "Wear it with a close-fitting knit or an unbroken column of colour. The horizontal shape adds a useful counterpoint to long trousers and a vertical coat.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "verificationLimitations": [],
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "Le Teckel stretches the shoulder bag into a long, narrow line.",
+      "story": "Le Teckel stretches the shoulder bag into a long, narrow line. The smooth black calfskin and tubular handles keep the surface calm, allowing proportion to do most of the work. A double zip opens the low body, and a small removable mirror is kept inside. This medium version offers room for a phone, glasses and a wallet according to the house description. It is an expressive alternative to a square mini bag: compact in height, extended across the body, and especially clear against simple tailoring.",
+      "facts": [
+        "Elongated smooth-calfskin body with calfskin lining",
+        "Tubular handles, double zip and removable interior mirror",
+        "Medium format: 33 × 11 × 10 cm; made in Italy"
+      ],
+      "priceContextEn": "Official U.S. product page · checked 29 October 2026",
+      "priceRange": "US$3,050, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-01",
+        "mag-02",
+        "mag-06"
+      ]
+    },
+    {
+      "brand": "the-row",
+      "category": "bags",
+      "color": "Black with palladium-plated hardware",
+      "sizes": [
+        "15; 15 W × 11 H × 9 D in"
+      ],
+      "materials": [
+        "100% calfskin leather",
+        "100% cotton herringbone lining"
+      ],
+      "priceUSD": 4700,
+      "source": "https://www.therow.com/products/soft-margaux-15-black",
+      "id": "the-row-soft-margaux15-black-w1255l133blpl",
+      "name": "Soft Margaux 15 — Black Grained Calfskin",
+      "nameZh": "The Row 黑色粒面小牛皮 Margaux 15 手提包",
+      "reference": "W1255L133BLPL1SZ",
+      "priceLabel": "U.S. retail listed-price reference, before tax",
+      "checkedAt": "2026-10-29",
+      "priceEvidence": "Official product JSON-LD matched SKU W1255L133BLPL1SZ, price 4700.0, currency USD and OutOfStock on 2026-10-29.",
+      "priceStatus": "live",
+      "image": "assets/img/bag-edit/the-row-margaux-1.webp",
+      "imageSource": "https://www.therow.com/cdn/shop/products/W1255L133BLPLF_a7456523-a46a-4be1-a7f0-349b38bd9f4f.jpg?v=1744226478",
+      "imageCredit": "© The Row, official product imagery",
+      "imageRightsNote": "Official product photograph for the specified reference; credit and source retained. No open reproduction licence is asserted.",
+      "imageWidth": 1707,
+      "imageHeight": 2560,
+      "introEn": "The Soft Margaux 15 brings a generous top-handle silhouette into the edit without relying on a large front logo. Matte grained calfskin gives the body texture, while belted side sections adjust its outline visually. Protective feet and an interior toggle are small practical details within a deliberately quiet design. The fifteen-inch format offers a different scale from the smaller shoulder bags here. Consider it for a restrained wardrobe of roomy coats and tailored separates, while checking the listed measurements against the things you normally carry.",
+      "featuresEn": [
+        "Matte grained calfskin with cotton herringbone lining",
+        "Belted side gussets, protective feet and an interior toggle closure",
+        "15 × 11 × 9 in; black variant with palladium-plated hardware"
+      ],
+      "stylingEn": "Use it to balance a long coat and wide trousers, keeping the palette tonal. Its broader proportions work best when the rest of the outfit also has a little ease.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "verificationLimitations": [],
+      "availabilityEn": "The official U.S. page listed this black grained-calfskin variant at US$4,700 and marked it sold out when checked on 29 October 2026. This is a listed-price reference; confirm any later availability with The Row.",
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "The Soft Margaux 15 brings a generous top-handle silhouette into the edit without relying on a large front logo.",
+      "story": "The Soft Margaux 15 brings a generous top-handle silhouette into the edit without relying on a large front logo. Matte grained calfskin gives the body texture, while belted side sections adjust its outline visually. Protective feet and an interior toggle are small practical details within a deliberately quiet design. The fifteen-inch format offers a different scale from the smaller shoulder bags here. Consider it for a restrained wardrobe of roomy coats and tailored separates, while checking the listed measurements against the things you normally carry.",
+      "facts": [
+        "Matte grained calfskin with cotton herringbone lining",
+        "Belted side gussets, protective feet and an interior toggle closure",
+        "15 × 11 × 9 in; black variant with palladium-plated hardware"
+      ],
+      "priceContextEn": "Official U.S. product page · checked 29 October 2026",
+      "priceRange": "US$4,700, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-01",
+        "mag-02",
+        "mag-06"
+      ]
+    },
+    {
+      "brand": "miu-miu",
+      "category": "bags",
+      "color": "Black with gold-tone hardware",
+      "sizes": [
+        "One size; 20 W × 17 H × 6 D cm"
+      ],
+      "materials": [
+        "Nappa lambskin",
+        "Cotton satin lining"
+      ],
+      "priceUSD": 2950,
+      "source": "https://www.miumiu.com/us/en/p/wander-matelasse-nappa-leather-hobo-bag/5BC125_AN88_F0002_V_OOY",
+      "id": "miu-miu-wander-black-5bc125-an88",
+      "name": "Wander Matelassé Nappa Leather Hobo Bag — Black",
+      "nameZh": "缪缪黑色 Matelassé 羊皮 Wander 腋下包",
+      "reference": "5BC125_AN88_F0002_V_OOY",
+      "priceLabel": "U.S. retail listed-price reference, before tax",
+      "checkedAt": "2026-10-29",
+      "priceEvidence": "Official U.S. HTML matched 5BC125_AN88_F0002_V_OOY, displayed $2,950 and supplied an offers.price value of 2950 with black colour and lambskin material on 2026-10-29.",
+      "priceStatus": "live",
+      "image": "assets/img/bag-edit/miu-miu-wander-1.webp",
+      "imageSource": "https://www.miumiu.com/content/dam/miumiubkg_products/5/5BC/5BC125/AN88F0002/5BC125_AN88_F0002_V_OOY_SLF.jpg",
+      "imageCredit": "© Miu Miu, official product imagery",
+      "imageRightsNote": "Official product photograph for the specified reference; credit and source retained. No open reproduction licence is asserted.",
+      "imageWidth": 2400,
+      "imageHeight": 2400,
+      "introEn": "Wander rounds the small hobo bag into a soft loop, with gathered matelassé leather giving the surface its depth. Black nappa lambskin keeps the texture prominent, while gold-tone lettering offers a small point of contrast. The curved handle makes the bag readable as a single rounded form. A longer leather strap gives it another carrying option, and the zipped body is sized for everyday small essentials. This reference is a good contrast to the sharper Lady Dior or Galleria shapes already in the edit, bringing a more playful, compact profile.",
+      "featuresEn": [
+        "Matelassé nappa lambskin with gold-tone lettering",
+        "Zip fastening, cotton satin lining and a 110 cm leather strap",
+        "20 × 17 × 6 cm; the house lists capacity for a phone and small wallet"
+      ],
+      "stylingEn": "Try it with a short cardigan, straight trousers or a simple slip dress. Let the leather texture provide interest and keep additional jewellery to a small number of pieces.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "verificationLimitations": [],
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "Wander rounds the small hobo bag into a soft loop, with gathered matelassé leather giving the surface its depth.",
+      "story": "Wander rounds the small hobo bag into a soft loop, with gathered matelassé leather giving the surface its depth. Black nappa lambskin keeps the texture prominent, while gold-tone lettering offers a small point of contrast. The curved handle makes the bag readable as a single rounded form. A longer leather strap gives it another carrying option, and the zipped body is sized for everyday small essentials. This reference is a good contrast to the sharper Lady Dior or Galleria shapes already in the edit, bringing a more playful, compact profile.",
+      "facts": [
+        "Matelassé nappa lambskin with gold-tone lettering",
+        "Zip fastening, cotton satin lining and a 110 cm leather strap",
+        "20 × 17 × 6 cm; the house lists capacity for a phone and small wallet"
+      ],
+      "priceContextEn": "Official U.S. product page · checked 29 October 2026",
+      "priceRange": "US$2,950, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-01",
+        "mag-02",
+        "mag-06"
+      ]
+    },
+    {
+      "brand": "loewe",
+      "category": "bags",
+      "color": "Black",
+      "sizes": [
+        "Large · 34.5 × 27 × 14 cm (W × H × D)"
+      ],
+      "materials": [
+        "Soft calfskin"
+      ],
+      "priceUSD": 5400,
+      "source": "https://www.loewe.com/usa/en/women/bags/amazona/large-amazona-180-bag-in-soft-calfskin/A039ASRX02-1100.html",
+      "id": "loewe-amazona180-large-black-a039asrx02",
+      "name": "Large Amazona 180 — Black Soft Calfskin",
+      "nameZh": "罗意威大号 Amazona 180 黑色软小牛皮手提包",
+      "reference": "A039ASRX02-1100",
+      "priceLabel": "U.S. retail listed-price reference, before tax",
+      "checkedAt": "2026-10-29",
+      "priceEvidence": "Official U.S. embedded product state matched A039ASRX02-1100, currency USD and price 5400 on 2026-10-29. Availability flags differed within the state, so no stock claim is made.",
+      "priceStatus": "live",
+      "image": "assets/img/bag-edit/loewe-amazona180-1.webp",
+      "imageSource": "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dwe91bfcbe/images_rd/A039ASRX02/A039ASRX02-1100/A039ASRX02_1100_1F.jpg?sw=1500&q=100",
+      "imageCredit": "© LOEWE, official product imagery",
+      "imageRightsNote": "Official product photograph for the specified reference; credit and source retained. No open reproduction licence is asserted.",
+      "imageWidth": 1500,
+      "imageHeight": 2265,
+      "introEn": "The large Amazona 180 gives the edit a spacious, relaxed option with a single rounded top handle. Soft calfskin allows the body to fold rather than hold a rigid box shape. Its open-looking arrangement is paired with a concealed fastening for the main compartment, so the visual ease is part of the design rather than a missing closure. Removable shoulder and crossbody straps broaden the carrying choices. In black, the emphasis falls on the contrast between the handle, the folded body and the warm interior visible in the photograph.",
+      "featuresEn": [
+        "Soft black calfskin in the large 34.5 × 27 × 14 cm format",
+        "Single toron top handle and a concealed main-compartment fastening",
+        "Removable shoulder and crossbody straps"
+      ],
+      "stylingEn": "Carry it with an oversized shirt, relaxed trousers and flat shoes. The fuller silhouette suits an easy daytime wardrobe and adds movement beside clean, straight seams.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "verificationLimitations": [],
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "The large Amazona 180 gives the edit a spacious, relaxed option with a single rounded top handle.",
+      "story": "The large Amazona 180 gives the edit a spacious, relaxed option with a single rounded top handle. Soft calfskin allows the body to fold rather than hold a rigid box shape. Its open-looking arrangement is paired with a concealed fastening for the main compartment, so the visual ease is part of the design rather than a missing closure. Removable shoulder and crossbody straps broaden the carrying choices. In black, the emphasis falls on the contrast between the handle, the folded body and the warm interior visible in the photograph.",
+      "facts": [
+        "Soft black calfskin in the large 34.5 × 27 × 14 cm format",
+        "Single toron top handle and a concealed main-compartment fastening",
+        "Removable shoulder and crossbody straps"
+      ],
+      "priceContextEn": "Official U.S. product page · checked 29 October 2026",
+      "priceRange": "US$5,400, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-01",
+        "mag-02",
+        "mag-06"
+      ]
+    },
+    {
+      "brand": "louis-vuitton",
+      "category": "bags",
+      "color": "Green Asnières (Monogram Origine Vert Asnière)",
+      "sizes": [
+        "20.5 × 13.5 × 12 cm (L × H × W)"
+      ],
+      "materials": [
+        "Monogram Origine coated canvas",
+        "Cowhide-leather trim",
+        "Striped textile lining"
+      ],
+      "priceUSD": 2850,
+      "source": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-20-autres-toiles-monogram-nvprod7270014v/M27530",
+      "id": "louis-vuitton-speedy20-green-m27530",
+      "name": "Speedy Bandoulière 20 — Monogram Origine, Green Asnières",
+      "nameZh": "路易威登 Monogram Origine 浅绿 Speedy 20 肩背包",
+      "reference": "M27530",
+      "priceLabel": "U.S. retail listed-price reference, before tax; official page snapshot",
+      "checkedAt": "2026-10-29",
+      "priceEvidence": "The exact official U.S. page reader displayed M27530, Green Asnières and $2,850.00. Official regional image assets were matched to that same M27530 reference; no foreign-currency price was used.",
+      "priceStatus": "official-snapshot",
+      "image": "assets/img/bag-edit/louis-vuitton-speedy20-1.webp",
+      "imageSource": "https://www.louisvuitton.cn/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-20--M27530_PM2_Front%20view.jpg",
+      "imageCredit": "© Louis Vuitton, official product imagery",
+      "imageRightsNote": "Official product photograph for the specified reference; credit and source retained. No open reproduction licence is asserted.",
+      "imageWidth": 2000,
+      "imageHeight": 2000,
+      "introEn": "This Speedy Bandoulière 20 adds a lighter colour to the bag edit through Green Asnières Monogram Origine canvas. The rounded body, paired handles and double zip keep the small travel-bag character clear. Cowhide trim, a gold-tone padlock and a removable anniversary address tag introduce contrasting details, while a striped textile lining sits inside. It offers a different mood from the black leather bags around it: recognisable pattern, compact proportions and a softer green palette. The price refers specifically to M27530, rather than to every Speedy size or material.",
+      "featuresEn": [
+        "Monogram Origine coated canvas with cowhide trim and striped lining",
+        "Double zip, gold-tone padlock and removable anniversary address tag",
+        "20.5 × 13.5 × 12 cm with removable adjustable strap and twin handles"
+      ],
+      "stylingEn": "Use the pale green as a single colour accent with cream, washed denim or a brown coat. Carry it by the handles for a neat shape or attach the strap for an easier daytime look.",
+      "born": "Contemporary collection",
+      "designer": "House design studio",
+      "verificationLimitations": [
+        "Official U.S. page reader reported crawled yesterday (28 October 2026) when reviewed on 2026-10-29. Local product and U.S. image requests returned 403; no checkout or stock verification is claimed."
+      ],
+      "parentItem": "speedy",
+      "sourceSnapshotNote": "Official U.S. page reader reported crawled yesterday (28 October 2026) when reviewed on 2026-10-29. Local product and U.S. image requests returned 403; no checkout or stock verification is claimed.",
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "This Speedy Bandoulière 20 adds a lighter colour to the bag edit through Green Asnières Monogram Origine canvas.",
+      "story": "This Speedy Bandoulière 20 adds a lighter colour to the bag edit through Green Asnières Monogram Origine canvas. The rounded body, paired handles and double zip keep the small travel-bag character clear. Cowhide trim, a gold-tone padlock and a removable anniversary address tag introduce contrasting details, while a striped textile lining sits inside. It offers a different mood from the black leather bags around it: recognisable pattern, compact proportions and a softer green palette. The price refers specifically to M27530, rather than to every Speedy size or material.",
+      "facts": [
+        "Monogram Origine coated canvas with cowhide trim and striped lining",
+        "Double zip, gold-tone padlock and removable anniversary address tag",
+        "20.5 × 13.5 × 12 cm with removable adjustable strap and twin handles"
+      ],
+      "priceContextEn": "Official page snapshot · reported crawled the previous day; reviewed 29 October 2026",
+      "priceRange": "US$2,850, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-01",
+        "mag-02",
+        "mag-06"
+      ]
     }
   ],
   "articles": [
@@ -6309,11 +6710,11 @@
     }
   ],
   "styleEdit": {
-    "checkedAt": "2026-10-27",
+    "checkedAt": "2026-10-29",
     "currency": "USD",
-    "products": 38,
+    "products": 45,
     "perCategory": {
-      "bags": 5,
+      "bags": 12,
       "scarves": 5,
       "necklace": 7,
       "jewelry": 7,
@@ -6347,7 +6748,10 @@
       "Historical annual selections and all earlier product price/review dates remain separate.",
       "The five-house column is an editorial starting point, not a sales ranking.",
       "MFK and Jo Malone prices use qualified official U.S. page reader snapshots; blocked direct pages do not imply discontinued products.",
-      "Baccarat is indexed as a historical creative partner, not as a sixth fragrance house in this column."
+      "Baccarat is indexed as a historical creative partner, not as a sixth fragrance house in this column.",
+      "New Style Edit references retain separate context from the existing 2022–2026 yearbook entries. Historical evidence, prices and cutoffs are not rewritten.",
+      "Four new price references were checked in official U.S. HTML or embedded product state. Three use individually qualified official U.S. page-reader snapshots; blocked access is not evidence of delisting.",
+      "The Row black Soft Margaux 15 was listed as sold out when checked; its USD amount is a listed-price reference."
     ]
   },
   "bagYears": [

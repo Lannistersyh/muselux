@@ -11,7 +11,7 @@ import json, re
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'tools/content.json'
-SOURCES=['bags-scarves.json','necklace-jewelry.json','watches-fragrance.json','chrome-hearts-products.json','perfumery-products.json']
+SOURCES=['bags-scarves.json','necklace-jewelry.json','watches-fragrance.json','chrome-hearts-products.json','perfumery-products.json','bag-edit-expansion.json']
 
 def checked_date(product):
     value=product.get('checkedAt','')
@@ -48,7 +48,7 @@ def main():
             limitations.extend(source.get(key,[]))
     categories={x['id'] for x in data['categories']}
     counts=Counter(x['category'] for x in products)
-    assert valid_category_counts(counts,categories),'Expected three to five photographed products per category; necklaces and jewelry allow up to eight; fragrance allows up to nine'
+    assert valid_category_counts(counts,categories),'Expected three to five photographed products per category; bags allow up to twelve; necklaces and jewelry allow up to eight; fragrance allows up to nine'
     assert len({x['id'] for x in products})==len(products), 'Duplicate product id'
     brands={x['id']:x for x in data['brands']}
     legacy=[x for x in data['items'] if not x.get('styleEdit')]
@@ -90,6 +90,6 @@ def main():
     DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
     manifest=[{k:x[k] for k in ('id','brand','reference','source','image','imageSource','imageCredit','imageRightsNote','priceUSD','priceStatus','priceContextEn','checkedAt')} for x in products]
     (ROOT/'reports/product-sources.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
-    print(f'Merged {len(products)} photographed products; 3–5 per category, up to 8 for jewelry and necklaces, 9 for fragrance; USD provenance labelled.')
+    print(f'Merged {len(products)} photographed products; 3–5 per category, up to 12 for bags, 8 for jewelry and necklaces, 9 for fragrance; USD provenance labelled.')
 
 if __name__=='__main__':main()

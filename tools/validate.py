@@ -202,7 +202,7 @@ for x in D['items']:
         check('<html lang="en">' in source,x['id']+': product page language missing')
 style_products=[x for x in D['items'] if x.get('styleEdit')]
 style_counts=Counter(x['category'] for x in style_products)
-check(valid_category_counts(style_counts,{c['id'] for c in D['categories']}),'Expected 3–5 photographed products per category; necklaces/jewelry allow up to 8, fragrance up to 9')
+check(valid_category_counts(style_counts,{c['id'] for c in D['categories']}),'Expected 3–5 photographed products per category; bags allow up to 12, necklaces/jewelry up to 8, fragrance up to 9')
 try:
     houses=perfumery.selection(D)
     hub=(ROOT/'perfumery.html').resolve()

@@ -114,6 +114,27 @@ class MaintenanceTests(unittest.TestCase):
         self.research(root,'chrome-hearts-products.json',overflow)
         with self.assertRaisesRegex(AssertionError,'up to eight'):self.run_merge(style,root)
 
+    def test_twelve_bag_edit_keeps_existing_records_and_rejects_thirteenth(self):
+        root=self.fixture()
+        original=json.loads((root/'tools/content.json').read_text())
+        self.run_merge(style,root)
+        merged=json.loads((root/'tools/content.json').read_text())
+        self.assertEqual(sum(x.get('styleEdit',False) and x['category']=='bags' for x in merged['items']),12)
+        by_id={x['id']:x for x in merged['items']}
+        for product in original['items']:
+            self.assertEqual(by_id[product['id']],product)
+        for key in ('bagYears','necklaceYears','jewelryYears'):
+            self.assertEqual(merged[key],original[key])
+        margaux=next(x for x in merged['items'] if x.get('styleEdit') and x['brand']=='the-row')
+        captured={}
+        with patch.object(generate,'page',lambda path,title,desc,content,*args,**kw:captured.update({path:content})):
+            generate.productpage(margaux)
+        self.assertIn(html.escape(margaux['availabilityEn']),captured['item/'+margaux['id']+'.html'])
+        def overflow(data):
+            clone=copy.deepcopy(data['products'][0]);clone['id']='thirteenth-bag';data['products'].append(clone)
+        self.research(root,'bag-edit-expansion.json',overflow)
+        with self.assertRaisesRegex(AssertionError,'up to twelve'):self.run_merge(style,root)
+
     def test_resale_asking_price_never_becomes_brand_retail(self):
         root=self.fixture();self.run_merge(style,root)
         merged=json.loads((root/'tools/content.json').read_text())

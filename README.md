@@ -16,15 +16,17 @@
 ## 内容与页面
 
 - **40 个品牌档案：36 个商品品牌 + 4 个合作/联名品牌**，覆盖全部单品。新增 LOEWE、Miu Miu、The Row、Diesel、Balenciaga、Alaïa、Saint Laurent、Chloé、David Yurman、Swarovski、FRED、Boucheron、Pomellato、Moynat、Chrome Hearts、Diptyque、Le Labo、Byredo、Maison Francis Kurkdjian、Jo Malone London；Baccarat为晶红香氛创作合作品牌，adidas、Versace、fragment design 单独标注为联名品牌。
-- 品牌页包含原创介绍、有来源的历史时间线、设计细节，以及按品类归集的全部本站款式。156 个单品详情与品牌页双向关联；9 条品牌合作/联名同时链接参与品牌。索引、品类筛选和搜索同步收录，品牌卡片数量由完整目录计算。
-- **The Style Edit：38 款实物图商品，项链与首饰各 7 款，包包、腕表、丝巾各 5 款，香水 9 款**。每款包含英文介绍、三条设计细节、搭配建议、具体型号或商家挂牌编号、材质尺寸、明确口径的美元参考价及商品/图片来源。首页支持按品类切换，各品类页优先显示本站实物精选，一般品类保留 3–5 个位置；本次银饰扩展后，项链与首饰支持 3–8 款，香水专题扩展至 9 款，保留原有款式。
+- 品牌页包含原创介绍、有来源的历史时间线、设计细节，以及按品类归集的全部本站款式。163 个单品详情与品牌页双向关联；9 条品牌合作/联名同时链接参与品牌。索引、品类筛选和搜索同步收录，品牌卡片数量由完整目录计算。
+- **The Style Edit：45 款实物图商品，包包 12 款，项链与首饰各 7 款，腕表与丝巾各 5 款，香水 9 款**。每款包含英文介绍、三条设计细节、搭配建议、具体型号或商家挂牌编号、材质尺寸、明确口径的美元参考价及商品/图片来源。首页支持按品类切换，各品类页优先显示本站实物精选，包袋扩展至12款，腕表和丝巾保留3–5个位置，项链与首饰支持3–8款，香水支持至9款；新增款保留原有内容。
 - **The Bag Yearbook：2022–2026，每年 4 款热门精选 + 2 款限量/限定款，共 30 条年度记录。** 包含实物图、英文设计与搭配介绍、当年入选依据、发行信息和有来源的美元价格。首页与包袋页提供入口，独立页面 `bags-by-year.html` 支持五年份切换和年份直达链接。
 - **The Necklace Yearbook / The Jewelry Yearbook：项链与首饰各 30 条年度记录，共新增 60 条。** 两个独立页面同样覆盖 2022–2026，每年各 4 款热门精选 + 2 款限量/限定联名；首饰以戒指、手链和耳饰为主。首页提供三类年鉴入口，品类页与站内搜索同步收录。
-- 另保留 28 个经典设计词条，共 **66 个核心单品页**；鞋履与墨镜作为生活配件扩展收录于首饰品类。未核实具体美元型号的经典词条直接提示向美国官方渠道询价，不做汇率猜算。
+- 另保留 28 个经典设计词条，共 **73 个核心单品页**；鞋履与墨镜作为生活配件扩展收录于首饰品类。未核实具体美元型号的经典词条直接提示向美国官方渠道询价，不做汇率猜算。
 - 12 篇原创杂志文章，每篇正文至少 800 个中文字；正文不依赖在线加载。
 - 6 个品类页：包包、项链、首饰、腕表、丝巾、香水。
-- 三类年度栏目共有 90 个英文详情页；全站共 **156 个单品/年度详情页、227 页 HTML**。
-- The Style Edit 的 38 张本地首图照片约 3.12 MiB，年度包袋照片另存于 `assets/img/bag-years/`，新增项链与首饰的 60 张实物照片保存于 `assets/img/jewel-years/`；另有 42 个原创 SVG。照片逐款署名并保留原图来源，未声称获得开放图片许可；没有复制第三方文章。
+- 三类年度栏目共有 90 个英文详情页；全站共 **163 个单品/年度详情页、234 页 HTML**。
+- The Style Edit 的45张本地首图照片约 4.02 MiB，新增包袋资源保存于 `assets/img/bag-edit/`，年度包袋照片另存于 `assets/img/bag-years/`，新增项链与首饰的 60 张实物照片保存于 `assets/img/jewel-years/`；另有 42 个原创 SVG。照片逐款署名并保留原图来源，未声称获得开放图片许可；没有复制第三方文章。
+
+2026-10-29 **包袋实物精选扩展至12款**：保留原有五款，增加Bottega Veneta Small Andiamo、Balenciaga Rodeo Medium、Alaïa Le Teckel Medium、The Row Soft Margaux 15、Miu Miu Wander、LOEWE Large Amazona 180及Louis Vuitton Speedy Bandoulière 20（Green Asnières）。新增七个英文详情页和14个品牌实物图展示资源，共1,779,902字节；每款含具体型号、材质尺寸、三条设计细节、搭配建议及USD价格。四款价格由当日官方美国页HTML/嵌入状态核对，三款保留单独标注的官方页面快照口径；The Row核验时售罄的状态在详情明确显示。页面顶部直接显示“12款实物精选”，品牌页、首页与搜索同步收录。现为234页HTML、40品牌、163单品/年度详情、330次产品图库展示。来源见 `tools/research/bag-edit-expansion-evidence.json`，验收见 `reports/bag-edit-expansion-validation.json`。
 
 2026-10-29 **经典设计封面重做**：28个经典词条在首页、六品类页、相关品牌页及搜索中，统一改用各自已有来源记录的代表型号实物照片。LOVE展示螺钉手镯，Juste un Clou展示钉形手镯，Trinity展示三色环；封面以作品本身的轮廓、材质和光影为主体，采用留白、细字标与简洁细线版式。栏目改名为“经典设计档案”。28张照片文件各不相同，原始照片及详情图库保持；列表只调整显示比例，不重绘商品。全站227页、19项维护回归、111项前端断言和两次构建一致性通过，详细验收与设计参考见 `reports/classic-covers-validation.json`。
 
@@ -113,6 +115,8 @@ reports/        验收记录、页面清单、商品来源清单和预览截图
 
 女性风格内容维护于 `tools/womens_styles.json`，由 `tools/womens_styles.py` 生成栏目与详情。视频来源及抽帧摘要在 `tools/research/womens-style-video-evidence.json`，品牌设计证据在 `womens-style-brand-evidence.json`。新指南不修改六品类与产品目录；推荐引用既有精确产品ID，换款或退休商品时同步调整引用。视频标签、可见细节、官方设计事实和编辑匹配理由分别保留，不能把系列文案合并成某一件衣服的全部特征，也不凭画面鉴定材质、价格或同款。
 
+包袋新增七款维护于 `tools/research/bag-edit-expansion.json`，第二视角在 `product-views-bag-edit.json`，原始尺寸、下载摘要、转换和价格证据在 `bag-edit-expansion-evidence.json`。这组是当前Style Edit选品，与同型号的历史年鉴记录分开维护；不得为更新现价而改写历史报价或年度截止日。包袋上限12，其余品类沿用现有边界。
+
 香氛品牌选品与栏目文案维护于 `tools/perfumery.json`，五款活跃商品源为 `tools/research/perfumery-products.json`，品牌源为 `brand-expansion-g.json`，图库源为 `product-views-perfumery.json`，原始图片摘要与来源记录见 `perfumery-evidence.json`。新增香氛仍属于 `fragrance`，不建立第七品类；香水总上限 9，栏目每期 3–5 家。Baccarat 通过 `collaboratorBrands` 关联，当前常规 EDP 不引用早期编号版本的限量身份。
 
 Chrome Hearts 活跃商品源为 `tools/research/chrome-hearts-products.json`，图库源为 `tools/research/product-views-chrome-hearts.json`；另两份 `chrome-hearts-necklaces.json` / `chrome-hearts-jewelry.json` 保留原始分组研究与导出记录，不直接用于日常合并。转售记录须包含 `sellerName`、`itemCondition`、`listingReference`、`priceAsOf`、`availabilityEn`，采用 `priceStatus: resale-ask`；商家挂牌编号不能写成制造商 SKU。`tools/style_policy.py` 统一价格类型与扩展数量范围，卡片、详情与搜索均保留转售口径。
@@ -139,7 +143,7 @@ python3 tools/check_site.py
 
 ## 图片与字体替换
 
-SVG 表达的是概念、轮廓与阅读气氛，不代表产品实际外观，不能用于真伪判断。The Style Edit 的 33 张首图照片来自所列品牌的官方商品图片、集团新闻图及明确署名的转售商家实物图库，未经过生成式改绘；颜色、型号与图源一同记录于 `tools/research/` 和 `reports/product-sources.json`。年度照片的来源与权利记录分别见 `reports/bag-yearbook-sources.json` 和 `reports/jewel-yearbook-sources.json`。照片版权归品牌或相应权利人；公开可见和署名本身不等于开放许可，本站不宣称品牌授权或合作。后续替换请保留来源和权利依据。
+SVG 表达的是概念、轮廓与阅读气氛，不代表产品实际外观，不能用于真伪判断。The Style Edit 的45张首图照片来自所列品牌的官方商品图片、集团新闻图及明确署名的转售商家实物图库，未经过生成式改绘；颜色、型号与图源一同记录于 `tools/research/` 和 `reports/product-sources.json`。年度照片的来源与权利记录分别见 `reports/bag-yearbook-sources.json` 和 `reports/jewel-yearbook-sources.json`。照片版权归品牌或相应权利人；公开可见和署名本身不等于开放许可，本站不宣称品牌授权或合作。后续替换请保留来源和权利依据。
 
 替换图片后保留宽高信息与描述性 alt；如改变文件名，请同步修改内容数据或生成模板。经典词条当前使用 `tools/classic_covers.py` 的实物封面；`tools/draw_assets.py` 仅保留旧版概念插画，不能用于恢复当前词条封面。12 张杂志封面由 `tools/draw_journal_covers.py` 独立维护。
 

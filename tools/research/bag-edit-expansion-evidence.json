@@ -1,0 +1,407 @@
+{
+  "checkedAt": "2026-10-29",
+  "records": [
+    {
+      "id": "bottega-small-andiamo-black-766014vcpp11249",
+      "existingYearbookReference": "bag-2023-bottega-andiamo-small",
+      "checkedAt": "2026-10-29",
+      "priceSource": "https://www.bottegaveneta.com/en-us/small-andiamo-black-766014VCPP11249.html",
+      "priceUSD": 4900,
+      "priceStatus": "official-snapshot",
+      "priceEvidence": "The exact U.S. page reader showed US$4,900 beside product code 766014VCPP11249, black colour and silver-finish hardware.",
+      "sourceSnapshotNote": "Official U.S. product-page reader reported crawled the same day when reviewed on 2026-10-29. Local HTML returned 403; price was not verified at checkout.",
+      "availabilityEn": null,
+      "images": [
+        {
+          "key": "bottega-andiamo",
+          "number": 1,
+          "source": "https://bottega-veneta.dam.kering.com/asset/e5ce16e3-bcb7-4c39-a337-b2197c34c6ba/Medium/766014VCPP11249_A.jpg?v=2",
+          "originalDimensions": [
+            849,
+            1000
+          ],
+          "originalFormat": "JPEG",
+          "originalBytes": 37119,
+          "originalSha256": "7804a5d527de0249a236f78894594e0169d4ce13f616608e7cb531223c565f3c",
+          "path": "assets/img/bag-edit/bottega-andiamo-1.webp",
+          "width": 849,
+          "height": 1000,
+          "bytes": 45818,
+          "sha256": "48d186b629d16bff8dbce50f2e54f9fc8629ec0fd7fee4307b85fe0a6624cb21",
+          "transform": "Full frame, EXIF orientation, maximum edge 2560 px without enlargement, WebP quality 92"
+        },
+        {
+          "key": "bottega-andiamo",
+          "number": 2,
+          "source": "https://bottega-veneta.dam.kering.com/asset/8c45b749-2d5e-443a-8615-5a7d175335e3/Medium/766014VCPP11249_C.jpg?v=2",
+          "originalDimensions": [
+            849,
+            1000
+          ],
+          "originalFormat": "JPEG",
+          "originalBytes": 42186,
+          "originalSha256": "6ba56d95a1f257176a507ec1157a8a5077da4b8a2c7145c8c3b4d5e4ac7d3e91",
+          "path": "assets/img/bag-edit/bottega-andiamo-2.webp",
+          "width": 849,
+          "height": 1000,
+          "bytes": 48786,
+          "sha256": "4e14dbf448a48108ecfd0b4437013fb340a7926f6ac4a279ab85f05af3a3ce4e",
+          "transform": "Full frame, EXIF orientation, maximum edge 2560 px without enlargement, WebP quality 92"
+        }
+      ]
+    },
+    {
+      "id": "balenciaga-rodeo-medium-black-7897722aa4u1000",
+      "existingYearbookReference": "bag-2024-balenciaga-rodeo-medium",
+      "checkedAt": "2026-10-29",
+      "priceSource": "https://www.balenciaga.com/en-us/rodeo-handbag-medium-black-7897722AA4U1000.html?dwvar_7897722AA4U1000_color=1000",
+      "priceUSD": 4590,
+      "priceStatus": "official-snapshot",
+      "priceEvidence": "The exact U.S. page reader showed US$4,590 and product ID 7897722AA4U1000, with black smooth calfskin, aged-silver hardware and nappa lambskin lining.",
+      "sourceSnapshotNote": "Official U.S. product-page reader reported crawled the same day when reviewed on 2026-10-29. Local HTML returned 403; stock and checkout were not verified.",
+      "availabilityEn": null,
+      "images": [
+        {
+          "key": "balenciaga-rodeo",
+          "number": 1,
+          "source": "https://balenciaga.dam.kering.com/asset/1f1765a7-ed74-45b9-85bd-7bd8d6bb3246/Medium/7897722AA4U1000_F.jpg?v=5",
+          "originalDimensions": [
+            1100,
+            1100
+          ],
+          "originalFormat": "JPEG",
+          "originalBytes": 38105,
+          "originalSha256": "2488357ddd296d28622ca15a73dfbb4e4a74ffe7ce131ed9de48f73abd1170fa",
+          "path": "assets/img/bag-edit/balenciaga-rodeo-1.webp",
+          "width": 1100,
+          "height": 1100,
+          "bytes": 36914,
+          "sha256": "90b2d69380f1efd1fee365a13c7e4b85470ef2f88f5fe971a341bc705354e29e",
+          "transform": "Full frame, EXIF orientation, maximum edge 2560 px without enlargement, WebP quality 92"
+        },
+        {
+          "key": "balenciaga-rodeo",
+          "number": 2,
+          "source": "https://balenciaga.dam.kering.com/asset/e08848a6-cc51-4dc9-bdcc-26cf9da3b904/Medium/7897722AA4U1000_J.jpg?v=8",
+          "originalDimensions": [
+            1100,
+            1100
+          ],
+          "originalFormat": "JPEG",
+          "originalBytes": 40071,
+          "originalSha256": "d5b27f8cb675aedc2786fc95e9c6b3fab15714251644882e492e34e8d1c20c90",
+          "path": "assets/img/bag-edit/balenciaga-rodeo-2.webp",
+          "width": 1100,
+          "height": 1100,
+          "bytes": 38122,
+          "sha256": "5aa614ed35e745cac3fc6a90447702cb1683290cd13799ba8ea60f105ea839c5",
+          "transform": "Full frame, EXIF orientation, maximum edge 2560 px without enlargement, WebP quality 92"
+        }
+      ]
+    },
+    {
+      "id": "alaia-le-teckel-medium-black-aa1s06033i061999u",
+      "existingYearbookReference": "bag-2024-alaia-le-teckel-medium",
+      "checkedAt": "2026-10-29",
+      "priceSource": "https://www.maison-alaia.com/en-us/product/shoulder-bags/le-teckel-medium-bag-in-calfskin-AA1S06033I061999U.html",
+      "priceUSD": 3050,
+      "priceStatus": "live",
+      "priceEvidence": "Official U.S. HTML and ProductGroup variant offers identified reference AA1S06033I061999U and a USD price of 3050 on 2026-10-29.",
+      "sourceSnapshotNote": null,
+      "availabilityEn": null,
+      "images": [
+        {
+          "key": "alaia-le-teckel",
+          "number": 1,
+          "source": "https://www.maison-alaia.com/dw/image/v2/BKHJ_PRD/on/demandware.static/-/Sites-alaia-master/default/dw2095b59e/images/all-images/AA1S06033I061999/ZFTQoTLbRDC8yE73AIw9pQ_5649f8b5.jpeg?sw=1250&sfrm=png&q=90",
+          "originalDimensions": [
+            1250,
+            2222
+          ],
+          "originalFormat": "JPEG",
+          "originalBytes": 82824,
+          "originalSha256": "35757d00f2d9cf1b91e427e8d606efdbbd19d5e896a43534e5bb0cee98bd3360",
+          "path": "assets/img/bag-edit/alaia-le-teckel-1.webp",
+          "width": 1250,
+          "height": 2222,
+          "bytes": 71966,
+          "sha256": "969378f2c785127f07fb1c5c092d93e7254475849b1c81165f4d3a3494285423",
+          "transform": "Full frame, EXIF orientation, maximum edge 2560 px without enlargement, WebP quality 92"
+        },
+        {
+          "key": "alaia-le-teckel",
+          "number": 2,
+          "source": "https://www.maison-alaia.com/dw/image/v2/BKHJ_PRD/on/demandware.static/-/Sites-alaia-master/default/dwc0b575f0/images/all-images/AA1S06033I061999/_Es3nQRBQ9uR3FCrL1uuxA_bc4b21ca.jpeg?sw=1250&sfrm=png&q=90",
+          "originalDimensions": [
+            1250,
+            2222
+          ],
+          "originalFormat": "JPEG",
+          "originalBytes": 77885,
+          "originalSha256": "a1f9f3eacbd15c7a4f9cfdaaa352b306bb28ae2a19ec4669aad63701059dde7a",
+          "path": "assets/img/bag-edit/alaia-le-teckel-2.webp",
+          "width": 1250,
+          "height": 2222,
+          "bytes": 59212,
+          "sha256": "39b7393f7d2b00e0c00523624c4f4710dc172f16d8b612367a77bbaa43dcd2c2",
+          "transform": "Full frame, EXIF orientation, maximum edge 2560 px without enlargement, WebP quality 92"
+        }
+      ]
+    },
+    {
+      "id": "the-row-soft-margaux15-black-w1255l133blpl",
+      "existingYearbookReference": "bag-2023-the-row-margaux-15",
+      "checkedAt": "2026-10-29",
+      "priceSource": "https://www.therow.com/products/soft-margaux-15-black",
+      "priceUSD": 4700,
+      "priceStatus": "live",
+      "priceEvidence": "Official product JSON-LD matched SKU W1255L133BLPL1SZ, price 4700.0, currency USD and OutOfStock on 2026-10-29.",
+      "sourceSnapshotNote": null,
+      "availabilityEn": "The official U.S. page listed this black grained-calfskin variant at US$4,700 and marked it sold out when checked on 29 October 2026. This is a listed-price reference; confirm any later availability with The Row.",
+      "images": [
+        {
+          "key": "the-row-margaux",
+          "number": 1,
+          "source": "https://www.therow.com/cdn/shop/products/W1255L133BLPLF_a7456523-a46a-4be1-a7f0-349b38bd9f4f.jpg?v=1744226478",
+          "originalDimensions": [
+            2000,
+            3000
+          ],
+          "originalFormat": "JPEG",
+          "originalBytes": 303498,
+          "originalSha256": "e586587704618b005d6604ea94b81a708b66f7d130f1212dc6b64469ac04f2eb",
+          "path": "assets/img/bag-edit/the-row-margaux-1.webp",
+          "width": 1707,
+          "height": 2560,
+          "bytes": 280666,
+          "sha256": "6a13bd7231ba9c2b89c9ffb9930f3a22d5594b398aed2035862b9542bcf2ef64",
+          "transform": "Full frame, EXIF orientation, maximum edge 2560 px without enlargement, WebP quality 92"
+        },
+        {
+          "key": "the-row-margaux",
+          "number": 2,
+          "source": "https://www.therow.com/cdn/shop/files/W1255L133BLPLR.jpg?v=1744226478",
+          "originalDimensions": [
+            2000,
+            3000
+          ],
+          "originalFormat": "JPEG",
+          "originalBytes": 223927,
+          "originalSha256": "af7e23b970da400ac61b8d34e95e32cd8261603039f9056a88cc17d309602ef4",
+          "path": "assets/img/bag-edit/the-row-margaux-2.webp",
+          "width": 1707,
+          "height": 2560,
+          "bytes": 196916,
+          "sha256": "7f228ae21a33cf4090e66ac9bde8be2e13a7d8614b44f1b4e9ee031befa07d3c",
+          "transform": "Full frame, EXIF orientation, maximum edge 2560 px without enlargement, WebP quality 92"
+        }
+      ]
+    },
+    {
+      "id": "miu-miu-wander-black-5bc125-an88",
+      "existingYearbookReference": "bag-2022-miu-miu-wander",
+      "checkedAt": "2026-10-29",
+      "priceSource": "https://www.miumiu.com/us/en/p/wander-matelasse-nappa-leather-hobo-bag/5BC125_AN88_F0002_V_OOY",
+      "priceUSD": 2950,
+      "priceStatus": "live",
+      "priceEvidence": "Official U.S. HTML matched 5BC125_AN88_F0002_V_OOY, displayed $2,950 and supplied an offers.price value of 2950 with black colour and lambskin material on 2026-10-29.",
+      "sourceSnapshotNote": null,
+      "availabilityEn": null,
+      "images": [
+        {
+          "key": "miu-miu-wander",
+          "number": 1,
+          "source": "https://www.miumiu.com/content/dam/miumiubkg_products/5/5BC/5BC125/AN88F0002/5BC125_AN88_F0002_V_OOY_SLF.jpg",
+          "originalDimensions": [
+            2400,
+            2400
+          ],
+          "originalFormat": "JPEG",
+          "originalBytes": 151609,
+          "originalSha256": "69d2c47a64a9c876a79ec17d6af68b8535f989b6aba638c3b4b25a838ecd3fdc",
+          "path": "assets/img/bag-edit/miu-miu-wander-1.webp",
+          "width": 2400,
+          "height": 2400,
+          "bytes": 121764,
+          "sha256": "3d434eae3a8f187ef8b9a5dec83e1a31d37aba8e4e5eed197c938c1ed7803f24",
+          "transform": "Full frame, EXIF orientation, maximum edge 2560 px without enlargement, WebP quality 92"
+        },
+        {
+          "key": "miu-miu-wander",
+          "number": 2,
+          "source": "https://www.miumiu.com/content/dam/miumiubkg_products/5/5BC/5BC125/AN88F0002/5BC125_AN88_F0002_V_OOY_SLB.jpg",
+          "originalDimensions": [
+            2400,
+            2400
+          ],
+          "originalFormat": "JPEG",
+          "originalBytes": 220576,
+          "originalSha256": "e8992e24b7c90c1c4743e345440f2620f29184094d0189ea7497a65828267e58",
+          "path": "assets/img/bag-edit/miu-miu-wander-2.webp",
+          "width": 2400,
+          "height": 2400,
+          "bytes": 156426,
+          "sha256": "f90ec32055921137ce79c79dcfca7b1ea16082032393bc3462cc51b5a96143cf",
+          "transform": "Full frame, EXIF orientation, maximum edge 2560 px without enlargement, WebP quality 92"
+        }
+      ]
+    },
+    {
+      "id": "loewe-amazona180-large-black-a039asrx02",
+      "existingYearbookReference": "bag-2026-loewe-amazona180-large-black",
+      "checkedAt": "2026-10-29",
+      "priceSource": "https://www.loewe.com/usa/en/women/bags/amazona/large-amazona-180-bag-in-soft-calfskin/A039ASRX02-1100.html",
+      "priceUSD": 5400,
+      "priceStatus": "live",
+      "priceEvidence": "Official U.S. embedded product state matched A039ASRX02-1100, currency USD and price 5400 on 2026-10-29. Availability flags differed within the state, so no stock claim is made.",
+      "sourceSnapshotNote": null,
+      "availabilityEn": null,
+      "images": [
+        {
+          "key": "loewe-amazona180",
+          "number": 1,
+          "source": "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dwe91bfcbe/images_rd/A039ASRX02/A039ASRX02-1100/A039ASRX02_1100_1F.jpg?sw=1500&q=100",
+          "originalDimensions": [
+            1500,
+            2265
+          ],
+          "originalFormat": "JPEG",
+          "originalBytes": 834518,
+          "originalSha256": "2a9cca0e94fa90f0a8394c99083277f193098077f834b3734bc9491eae557058",
+          "path": "assets/img/bag-edit/loewe-amazona180-1.webp",
+          "width": 1500,
+          "height": 2265,
+          "bytes": 141508,
+          "sha256": "727bba37df62091082c62f8a0c1514d5b671c70a20858292eca2965b7ac7c1fd",
+          "transform": "Full frame, EXIF orientation, maximum edge 2560 px without enlargement, WebP quality 92"
+        },
+        {
+          "key": "loewe-amazona180",
+          "number": 2,
+          "source": "https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dw65eed71e/images_rd/A039ASRX02/A039ASRX02-1100/A039ASRX02_1100_1R.jpg?sw=1500&q=100",
+          "originalDimensions": [
+            1500,
+            2265
+          ],
+          "originalFormat": "JPEG",
+          "originalBytes": 859790,
+          "originalSha256": "ed3f36243d63305b01b95e4cce5db6854e40d206c9a43869e2c758adabab7ade",
+          "path": "assets/img/bag-edit/loewe-amazona180-2.webp",
+          "width": 1500,
+          "height": 2265,
+          "bytes": 62772,
+          "sha256": "9feea14b0833798c8b79a15cdf793ed348c6b2bf1dbc7a3362da2fc498aebeac",
+          "transform": "Full frame, EXIF orientation, maximum edge 2560 px without enlargement, WebP quality 92"
+        }
+      ]
+    },
+    {
+      "id": "louis-vuitton-speedy20-green-m27530",
+      "existingYearbookReference": "bag-2026-lv-speedy20-monogram-origine-green",
+      "checkedAt": "2026-10-29",
+      "priceSource": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-20-autres-toiles-monogram-nvprod7270014v/M27530",
+      "priceUSD": 2850,
+      "priceStatus": "official-snapshot",
+      "priceEvidence": "The exact official U.S. page reader displayed M27530, Green Asnières and $2,850.00. Official regional image assets were matched to that same M27530 reference; no foreign-currency price was used.",
+      "sourceSnapshotNote": "Official U.S. page reader reported crawled yesterday (28 October 2026) when reviewed on 2026-10-29. Local product and U.S. image requests returned 403; no checkout or stock verification is claimed.",
+      "availabilityEn": null,
+      "images": [
+        {
+          "key": "louis-vuitton-speedy20",
+          "number": 1,
+          "source": "https://www.louisvuitton.cn/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-20--M27530_PM2_Front%20view.jpg",
+          "originalDimensions": [
+            2000,
+            2000
+          ],
+          "originalFormat": "PNG",
+          "originalBytes": 1471618,
+          "originalSha256": "a74927009f9c9424c1b1266526d2d9828d221280bea774d20bc66767b19fbb71",
+          "path": "assets/img/bag-edit/louis-vuitton-speedy20-1.webp",
+          "width": 2000,
+          "height": 2000,
+          "bytes": 247284,
+          "sha256": "83d32f4691c0712a2f625e411d79e1dd3a2fd96d951f40311e1df0259db70737",
+          "transform": "Full frame, EXIF orientation, maximum edge 2560 px without enlargement, WebP quality 92"
+        },
+        {
+          "key": "louis-vuitton-speedy20",
+          "number": 2,
+          "source": "https://www.louisvuitton.cn/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouliere-20--M27530_PM1_Side%20view.jpg",
+          "originalDimensions": [
+            2000,
+            2000
+          ],
+          "originalFormat": "PNG",
+          "originalBytes": 1593023,
+          "originalSha256": "01d9230b4a6aef07ace4a5526fbb061effdde24e26241d80faf7aaf57ce7553e",
+          "path": "assets/img/bag-edit/louis-vuitton-speedy20-2.webp",
+          "width": 2000,
+          "height": 2000,
+          "bytes": 271748,
+          "sha256": "424a5915f1f793fc3a718b1ebffed23b3f0877967c9f87046672edb3b38c8c92",
+          "transform": "Full frame, EXIF orientation, maximum edge 2560 px without enlargement, WebP quality 92"
+        }
+      ]
+    }
+  ],
+  "staticFetches": [
+    {
+      "id": "bag-2022-miu-miu-wander",
+      "source": "https://www.miumiu.com/us/en/p/wander-matelasse-nappa-leather-hobo-bag/5BC125_AN88_F0002_V_OOY",
+      "status": 200,
+      "finalURL": "https://www.miumiu.com/us/en/p/wander-matelasse-nappa-leather-hobo-bag/5BC125_AN88_F0002_V_OOY",
+      "bytes": 1585408,
+      "sha256": "bdd4f529fdb137bdd66ceea82ca6ab33f8d40eff721d1b3cb6ebb9e0aaacc504"
+    },
+    {
+      "id": "bag-2023-the-row-margaux-15",
+      "source": "https://www.therow.com/products/soft-margaux-15-black",
+      "status": 200,
+      "finalURL": "https://www.therow.com/products/soft-margaux-15-black",
+      "bytes": 773139,
+      "sha256": "208b949337cb908db75e27658aadf288164494b7be02850f275c88667c6fa268"
+    },
+    {
+      "id": "bag-2023-bottega-andiamo-small",
+      "source": "https://www.bottegaveneta.com/en-us/small-andiamo-black-766014VCPP11249.html",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "bag-2024-alaia-le-teckel-medium",
+      "source": "https://www.maison-alaia.com/en-us/product/shoulder-bags/le-teckel-medium-bag-in-calfskin-AA1S06033I061999U.html",
+      "status": 200,
+      "finalURL": "https://www.maison-alaia.com/en-us/product/shoulder-bags/le-teckel-medium-bag-in-calfskin-AA1S06033I061999U.html",
+      "bytes": 242702,
+      "sha256": "c289ef09c3ce1e6f95dc53f64a366f12f3caf0378a59b6aff90cd5b0b9f764d0"
+    },
+    {
+      "id": "bag-2024-balenciaga-rodeo-medium",
+      "source": "https://www.balenciaga.com/en-us/rodeo-handbag-medium-black-7897722AA4U1000.html?dwvar_7897722AA4U1000_color=1000",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "bag-2025-saint-laurent-gaby-vanity",
+      "source": "https://www.ysl.com/en-us/pr/gaby-vanity-in-lambskin-7667311EL071000.html?currentContextTags=&hasNativeHeader=true",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "bag-2026-loewe-amazona180-large-black",
+      "source": "https://www.loewe.com/usa/en/women/bags/amazona/large-amazona-180-bag-in-soft-calfskin/A039ASRX02-1100.html",
+      "status": 200,
+      "finalURL": "https://www.loewe.com/usa/en/women/bags/amazona/large-amazona-180-bag-in-soft-calfskin/A039ASRX02-1100.html",
+      "bytes": 793079,
+      "sha256": "f7efdc53b10a9014625b4132ff9b3210ab238abfe7065bf15de01fb02529afe5"
+    },
+    {
+      "id": "bag-2026-lv-speedy20-monogram-origine-green",
+      "source": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-20-autres-toiles-monogram-nvprod7270014v/M27530",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "mediaMethod": "Official native images downloaded, full pixel decode, complete-frame WebP export without enlargement; existing files preserved. U.S. Louis Vuitton media returned 403; established official regional image endpoint supplied the same M27530 reference."
+}
