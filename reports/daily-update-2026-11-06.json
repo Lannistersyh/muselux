@@ -42,5 +42,7 @@
   "browserTabsOpened": 0,
   "browserTabsRemainingOwned": 0,
   "uiVerification": "Existing static cards/search/gallery generation and actual JavaScript tests passed; no browser layout preview claimed.",
-  "releaseState": "Local validation passed; publication tracked separately."
+  "releaseState": "Content commit verified on GitHub Pages",
+  "contentCommit": "ffaf0e0b2bef854021b4931850d49ed4f5b44ff0",
+  "publicFilesMatched": 250
 }

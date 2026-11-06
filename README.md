@@ -28,6 +28,8 @@
 
 2026-11-06 **Symboles 双面奖章项链**：新增 CHANEL J13863 白色天然珍珠母贝、18K 黄金及钻石款，项链实物精选现为8款。美国官网快照显示 US$36,550；两张官方实拍分别展示正面与三分之四侧面，本地完整画面为2112及2400像素方图，共412,820字节，未放大或生成式改绘。英文介绍、材质和双面工艺随具体型号整理，未猜测链长，未标注为编号限量或限量联名；UAE官网的11月1日到店信息不作全球首次发售日期。原有163条单品和全部年度报价及截止日保持。全站现为235页、40品牌、164条详情、164个图库及332次图片展示；20项维护回归、111项前端断言、静态链接和两次构建一致性通过。来源见 `tools/research/chanel-symboles-2026-11-06-evidence.json`，验收见 `reports/daily-update-2026-11-06.json`。
 
+本轮内容提交 `ffaf0e0b2bef854021b4931850d49ed4f5b44ff0` 已通过 GitHub Pages 构建，全部 250 个公开页面、资源及本轮变更文件与本地逐字节一致；发布记录见 `reports/daily-deployment-2026-11-06.json`。
+
 2026-10-29 **包袋实物精选扩展至12款**：保留原有五款，增加Bottega Veneta Small Andiamo、Balenciaga Rodeo Medium、Alaïa Le Teckel Medium、The Row Soft Margaux 15、Miu Miu Wander、LOEWE Large Amazona 180及Louis Vuitton Speedy Bandoulière 20（Green Asnières）。新增七个英文详情页和14个品牌实物图展示资源，共1,779,902字节；每款含具体型号、材质尺寸、三条设计细节、搭配建议及USD价格。四款价格由当日官方美国页HTML/嵌入状态核对，三款保留单独标注的官方页面快照口径；The Row核验时售罄的状态在详情明确显示。页面顶部直接显示“12款实物精选”，品牌页、首页与搜索同步收录。现为234页HTML、40品牌、163单品/年度详情、330次产品图库展示。来源见 `tools/research/bag-edit-expansion-evidence.json`，验收见 `reports/bag-edit-expansion-validation.json`。
 
 包袋扩展内容提交 `e87567975dacceacc2c2c1d3fc66236487de7d2f` 已完成GitHub Pages构建，全部 **275个公开页面、图片及本轮变更文件** 与本地逐字节一致；发布证据见 `reports/bag-edit-expansion-deployment.json`。
@@ -173,7 +175,7 @@ The Style Edit 采用 **USD 并逐款标注价格口径**：原有 27 款为具�
 
 项链与首饰年度数据由 `tools/research/jewel-years-*.json` 维护，运行 `python3 tools/apply_jewel_yearbooks.py` 合并后，再运行生成器与校验器。合并过程保留原有核心商品、包袋年鉴及其他栏目，`reports/jewel-yearbook-sources.json` 汇总新增 60 条的来源与版本证据。当前美国商品参考价格可在 2026-10-20 复核；2026 年入选证据范围仍截至 2026-10-19，二者在详情页分别显示。
 
-`reports/bag-yearbook-sources.json` 保存 30 条年度记录的入选来源、价格依据与版本证明。新增品牌资料保存在 `tools/research/brand-expansion-*.json`，通过 `python3 tools/apply_brand_catalog.py` 合并；新增品牌须先合并档案，再合并相应实物款式。`tools/brand_catalog.py` 每次生成时重新关联核心单品与三类年鉴，自动更新数量、品类和中英文搜索别名；发现没有品牌档案的单品会停止生成，避免再次遗漏。此前 142 条记录及 150 条品牌关联的历史验收见 `reports/brand-catalog-validation.json`；当前 151 条记录及 159 条关联见 `reports/static-validation.json`。
+`reports/bag-yearbook-sources.json` 保存 30 条年度记录的入选来源、价格依据与版本证明。新增品牌资料保存在 `tools/research/brand-expansion-*.json`，通过 `python3 tools/apply_brand_catalog.py` 合并；新增品牌须先合并档案，再合并相应实物款式。`tools/brand_catalog.py` 每次生成时重新关联核心单品与三类年鉴，自动更新数量、品类和中英文搜索别名；发现没有品牌档案的单品会停止生成，避免再次遗漏。此前 142 条记录及 150 条品牌关联的历史验收见 `reports/brand-catalog-validation.json`；当前 164 条记录及 173 条关联见 `reports/static-validation.json`。
 
 The Row 的成立年份采用现行官网的 2005 年，并保留 CFDA 使用 2006 年的口径差异；Alaïa 区分母公司采用的 1964 年巴黎工作室起点与基金会所记的 1983 年品牌及巴黎首秀阶段，说明直接显示在品牌页。
 
