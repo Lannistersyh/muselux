@@ -157,6 +157,7 @@
       ],
       "source": "https://www.chanel.com/us/about-chanel/the-house-of-chanel/",
       "classicItems": [
+        "chanel-symboles-medal-mother-of-pearl-j13863",
         "chanel-coco-crush-ring-mini-beige-gold-j11785",
         "chanel-coco-crush-necklace-small-beige-gold-j12306",
         "chanel-255",
@@ -4687,6 +4688,71 @@
       ]
     },
     {
+      "id": "chanel-symboles-medal-mother-of-pearl-j13863",
+      "brand": "chanel",
+      "category": "necklace",
+      "name": "Symboles Medal — White Mother-of-Pearl, 18K Yellow Gold",
+      "nameZh": "香奈儿 Symboles 白色珍珠母贝双面奖章项链",
+      "parentItem": null,
+      "reference": "J13863",
+      "color": "18K yellow gold / natural white mother-of-pearl / diamonds",
+      "sizes": [
+        "Reversible medal design",
+        "Numeric medal dimensions and chain length not disclosed in the reviewed product text"
+      ],
+      "materials": [
+        "18K yellow gold",
+        "Natural untreated white mother-of-pearl",
+        "Diamonds"
+      ],
+      "priceUSD": 36550,
+      "priceLabel": "Official U.S. suggested retail reference, before tax",
+      "checkedAt": "2026-11-06",
+      "priceStatus": "official-snapshot",
+      "priceEvidence": "Exact official US product reader displays $36,550 beside reference J13863 and the white mother-of-pearl/18K yellow gold version; reviewed 6 November2026. No currency conversion.",
+      "sourceSnapshotNote": "Official US page snapshot reviewed on 2026-11-06; reader reported crawled the same day. Direct transaction price and inventory were not confirmed.",
+      "source": "https://www.chanel.com/us/fine-jewelry/p/J13863/symboles-medal/",
+      "image": "assets/img/products/necklace-chanel-symboles-j13863-front.webp",
+      "imageSource": "https://www.chanel.cn/images/t_one/q_auto:good,f_auto,fl_lossy,dpr_1.1/w_1920/symboles-medal-white-gold-mother-of-pearl-yellow-gold-packshot-default-j13863-9602768994334.jpg",
+      "imageCredit": "© CHANEL, official exact-reference product photography",
+      "imageRightsNote": "Official CHANEL product imagery from the exact J13863 regional product gallery. Copyright remains with CHANEL; public access and attribution do not establish an open reuse license or brand affiliation.",
+      "imageWidth": 2112,
+      "imageHeight": 2112,
+      "introEn": "Symboles brings four familiar CHANEL motifs into a single circular pendant: a camellia, the number five, a comet and a lion. Their gold outlines sit against white mother-of-pearl, with diamonds adding small points of light around the composition. Turn the medal over and a laser-engraved pattern reveals another face of the design. This reversible construction gives the necklace a changing visual character. The chain finishes continue the story through a small comet and a signature plaque, making the details worth examining beyond the pendant itself.",
+      "featuresEn": [
+        "A reversible medal in 18K yellow gold, natural untreated white mother-of-pearl and diamonds.",
+        "The front combines a comet, camellia, number 5 and lion; the reverse uses laser engraving.",
+        "Comet and handwritten-signature details finish the chain ends; numeric chain length is not stated in the reviewed page."
+      ],
+      "stylingEn": "Set the pale mother-of-pearl against a black knit or a simple open neckline. Let the circular pendant carry the composition, and repeat its warm metal tone with a small pair of earrings.",
+      "born": "Contemporary collection",
+      "designer": "CHANEL Fine Jewelry Creation Studio",
+      "imageAlt": "CHANEL Symboles J13863 yellow-gold medal with white mother-of-pearl, diamonds and four house symbols, front view.",
+      "imagePageURL": "https://www.chanel.cn/ae-en/fine-jewellery/p/J13863/symboles-medal/",
+      "imageMime": "image/webp",
+      "editorialNote": "Original MuseLux design commentary based on the official product description and photographs; no hands-on test implied.",
+      "productLimitations": [
+        "The official UAE page lists boutique availability from 1 November 2026; this is a regional availability statement, not an asserted first global release date.",
+        "The brand does not identify this model as a numbered or capped edition. It is not added to the annual limited selection.",
+        "The US product page describes 74 brilliant-cut diamonds totaling at least 1.03 carats, a separate 0.21-carat center diamond and a 0.10-carat reverse center diamond. Specifications may vary; consult the brand."
+      ],
+      "styleEdit": true,
+      "priceCurrency": "USD",
+      "oneLiner": "Symboles brings four familiar CHANEL motifs into a single circular pendant: a camellia, the number five, a comet and a lion.",
+      "story": "Symboles brings four familiar CHANEL motifs into a single circular pendant: a camellia, the number five, a comet and a lion. Their gold outlines sit against white mother-of-pearl, with diamonds adding small points of light around the composition. Turn the medal over and a laser-engraved pattern reveals another face of the design. This reversible construction gives the necklace a changing visual character. The chain finishes continue the story through a small comet and a signature plaque, making the details worth examining beyond the pendant itself.",
+      "facts": [
+        "A reversible medal in 18K yellow gold, natural untreated white mother-of-pearl and diamonds.",
+        "The front combines a comet, camellia, number 5 and lion; the reverse uses laser engraving.",
+        "Comet and handwritten-signature details finish the chain ends; numeric chain length is not stated in the reviewed page."
+      ],
+      "priceContextEn": "Official page snapshot · reported crawled the same day; reviewed 6 November 2026",
+      "priceRange": "US$36,550, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "relatedArticles": [
+        "mag-04",
+        "mag-11"
+      ]
+    },
+    {
       "id": "cartier-tank-must-small-wsta0135",
       "brand": "cartier",
       "category": "watches",
@@ -6710,13 +6776,13 @@
     }
   ],
   "styleEdit": {
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-11-06",
     "currency": "USD",
-    "products": 45,
+    "products": 46,
     "perCategory": {
       "bags": 12,
       "scarves": 5,
-      "necklace": 7,
+      "necklace": 8,
       "jewelry": 7,
       "watches": 5,
       "fragrance": 9
@@ -6728,11 +6794,11 @@
       "Official brand photographs remain copyrighted. Credits and source links are retained; no stock-photo, Creative Commons or other reproduction license is claimed.",
       "Louis Vuitton candidates were not included because their observed product-image URLs returned access screens in the local request. No retries or browser escalation were used.",
       "Browser tabs opened for this subtask: 0.",
-      "Prices are U.S. retail references before tax, checked or retrieved on 2026-10-19, and are not purchase quotes or availability guarantees. No currency conversions were used.",
+      "The initial eight records retain their 2026-10-19 price evidence. Symboles J13863 has a separate official US snapshot reviewed on 2026-11-06. Every quote keeps its own date and is not a checkout or stock guarantee.",
       "The Bvlgari Serpenti Viper price is from an official snapshot labelled crawled 3 months ago; a fresh transaction-time price was not verified.",
       "The Chanel U.S. pages verify material and small/mini model scales but do not expose a numeric necklace length or a selected ring circumference. Those values have not been invented.",
       "Bvlgari B.zero1 chain positions and pendant height come from a same-reference official international page, separate from the U.S. price source.",
-      "All eight files are official product media. The two Chanel JPEGs are static product-video posters and the Serpenti Viper image is an official on-model photograph. Product appearances were not edited.",
+      "The initial eight product-media files remain unchanged. Symboles adds two distinct exact-reference CHANEL photographs, showing the front and an angled view, exported full-frame to WebP without enlargement.",
       "No image reuse license or brand affiliation is claimed. Public product-page access and credit do not themselves grant publication rights. Rights clearance for a public site remains unresolved.",
       "Van Cleef & Arpels was considered, but its readable U.S. product page did not expose the selected product price, so no VCA price was invented.",
       "Checked on 2026-10-19. Cartier, Dior, Gucci and Prada prices were read from live official U.S. product HTML; three Hermès prices rely on official-page snapshots with the crawl recency stated per item. No prices were converted from another currency.",

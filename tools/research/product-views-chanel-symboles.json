@@ -1,0 +1,24 @@
+{
+  "records": [
+    {
+      "id": "chanel-symboles-medal-mother-of-pearl-j13863",
+      "reference": "J13863",
+      "images": [
+        {
+          "path": "assets/img/views/necklace-chanel-symboles-j13863-angle.webp",
+          "source": "https://www.chanel.cn/images//t_zoomjewelry2/f_auto//symboles-medal-white-gold-mother-of-pearl-yellow-gold-packshot-face-trois-quart-j13863-9594206257182.jpg",
+          "pageSource": "https://www.chanel.cn/ae-en/fine-jewellery/p/J13863/symboles-medal/",
+          "credit": "© CHANEL, official exact-reference product photography",
+          "alt": "CHANEL Symboles J13863 white mother-of-pearl medal in yellow gold — distinct three-quarter angled view.",
+          "viewLabel": "Three-quarter angle",
+          "width": 2400,
+          "height": 2400,
+          "checkedAt": "2026-11-06",
+          "sha256": "9228b8b4abf5555637d6cd67d891414eae78175885af44994fd0cbd5517d0a19",
+          "originalSha256": "c2d98936fc41ed067e3271f3c0ac8474c0683b52a2655b48624910b02f60b289",
+          "evidence": "Exact J13863 image URL extracted from the official regional product HTML; physically different camera angle, visually inspected beside front image. Not a crop or mirrored copy."
+        }
+      ]
+    }
+  ]
+}

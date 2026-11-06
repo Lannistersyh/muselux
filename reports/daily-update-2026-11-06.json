@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "checkedAt": "2026-11-06",
+  "reviewTimezone": "America/Los_Angeles",
+  "focus": "Watches; priority resolution of the pending CHANEL necklace imagery",
+  "change": "Added CHANEL Symboles J13863 mother-of-pearl medal as the eighth photographed necklace, with official US$36,550 snapshot and two distinct official photographs.",
+  "product": "chanel-symboles-medal-mother-of-pearl-j13863",
+  "gate": {
+    "passed": true,
+    "reproducibleBuild": true,
+    "pages": 235,
+    "brands": 40,
+    "searchableItems": 164,
+    "pythonRegressionTests": 20,
+    "frontendAssertions": 111,
+    "method": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test"
+  },
+  "preservation": {
+    "priorCoreItems": 73,
+    "priorAnnualEntries": 90,
+    "priorImagesUnchanged": 399,
+    "allYearbookDataAndCutoffsUnchanged": true,
+    "existingPricesAndDatesUnchanged": true
+  },
+  "media": {
+    "frontPixels": [
+      2112,
+      2112
+    ],
+    "anglePixels": [
+      2400,
+      2400
+    ],
+    "newWebPBytes": 412820,
+    "fullFrame": true,
+    "enlarged": false,
+    "generativeChanges": false,
+    "visualComparison": "Downloaded native front and three-quarter views inspected together. Same exact white mother-of-pearl J13863 variant, different camera angles."
+  },
+  "existingBrandCatalog": "CHANEL brand archive automatically includes the new product and links back. No new brand or numbered/limited edition claim.",
+  "priceBasis": "Official US page reader, reported crawled same day; no checkout confirmation or currency conversion. AED prices on media-source regional page excluded.",
+  "browserTabsOpened": 0,
+  "browserTabsRemainingOwned": 0,
+  "uiVerification": "Existing static cards/search/gallery generation and actual JavaScript tests passed; no browser layout preview claimed.",
+  "releaseState": "Local validation passed; publication tracked separately."
+}

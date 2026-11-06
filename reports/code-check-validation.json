@@ -1,9 +1,9 @@
 {
   "passed": true,
   "reproducibleBuild": true,
-  "pages": 234,
+  "pages": 235,
   "brands": 40,
-  "searchableItems": 163,
+  "searchableItems": 164,
   "pythonRegressionTests": 20,
   "frontendAssertions": 111,
   "method": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test",
@@ -28,7 +28,7 @@
     "tools/womens_styles.py": "375edb9f2d09510bc96c0f20ff76431b322e3b05dd474396c014148167a134ba",
     "assets/js/render.js": "23c35718155516c7aee334d549a3c1a57b0f4280d7f423dc7421a925baf835b6",
     "assets/js/main.js": "57effd484f7bb73005024fd63985f6edb0519fed645d9339262618084a10a3e9",
-    "assets/js/data.js": "4d67a87079b79d91ab0df431932cd7b9ccdddb2f9a4ca5d2291810c68d489667",
+    "assets/js/data.js": "f7b2e082f3c4ad3f4465fd5dda3858e13724589c8b478056c32df07366071c3a",
     "tools/test_frontend.cjs": "927497bd67e1381a3efc2f90787a5ec5cf6250d27b8e039ba29929953f7b73ce"
   }
 }

@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-11-06",
+  "product": "chanel-symboles-medal-mother-of-pearl-j13863",
+  "priceUSD": 36550,
+  "priceSource": "https://www.chanel.com/us/fine-jewelry/p/J13863/symboles-medal/",
+  "priceMethod": "Official US product-page reader, crawled same day; source snapshot, not checkout. UAE AED prices excluded.",
+  "imagePageSource": "https://www.chanel.cn/ae-en/fine-jewellery/p/J13863/symboles-medal/",
+  "imageMethod": "Static HTTPS official regional HTML; exact J13863 gallery URLs, native decode and visual comparison; no browser tabs.",
+  "images": [
+    {
+      "source": "https://www.chanel.cn/images/t_one/q_auto:good,f_auto,fl_lossy,dpr_1.1/w_1920/symboles-medal-white-gold-mother-of-pearl-yellow-gold-packshot-default-j13863-9602768994334.jpg",
+      "status": 200,
+      "dimensions": [
+        2112,
+        2112
+      ],
+      "format": "PNG",
+      "path": "assets/img/products/necklace-chanel-symboles-j13863-front.webp",
+      "bytes": 328534,
+      "sha256": "cbeef872e3119eeaf1a6e97bd9a6ab65f302b66f9608c18438a395c76e620286",
+      "width": 2112,
+      "height": 2112,
+      "originalSha256": "f2e443de3cfa100709cc915f5eeb20a58d7e667fd7ea6a9c8f2fed23d2bb5b5d",
+      "localBytes": 193020,
+      "transform": "Full frame, EXIF orientation, maximum edge2400 without enlargement, WebP quality92; no generative changes."
+    },
+    {
+      "source": "https://www.chanel.cn/images//t_zoomjewelry2/f_auto//symboles-medal-white-gold-mother-of-pearl-yellow-gold-packshot-face-trois-quart-j13863-9594206257182.jpg",
+      "status": 200,
+      "dimensions": [
+        3080,
+        3080
+      ],
+      "format": "PNG",
+      "path": "assets/img/views/necklace-chanel-symboles-j13863-angle.webp",
+      "bytes": 1607020,
+      "sha256": "9228b8b4abf5555637d6cd67d891414eae78175885af44994fd0cbd5517d0a19",
+      "width": 2400,
+      "height": 2400,
+      "originalSha256": "c2d98936fc41ed067e3271f3c0ac8474c0683b52a2655b48624910b02f60b289",
+      "localBytes": 219800,
+      "transform": "Full frame, EXIF orientation, maximum edge2400 without enlargement, WebP quality92; no generative changes."
+    }
+  ],
+  "verifiedDetails": [
+    "Reversible18K yellow gold medal",
+    "Natural untreated white mother-of-pearl, diamonds",
+    "Comet, camellia, number5 and lion on front; laser-engraved reverse",
+    "UAE boutique availability1November2026, no global launch-date claim"
+  ],
+  "limitations": [
+    "The official UAE page lists boutique availability from 1 November 2026; this is a regional availability statement, not an asserted first global release date.",
+    "The brand does not identify this model as a numbered or capped edition. It is not added to the annual limited selection.",
+    "The US product page describes 74 brilliant-cut diamonds totaling at least 1.03 carats, a separate 0.21-carat center diamond and a 0.10-carat reverse center diamond. Specifications may vary; consult the brand."
+  ],
+  "regionalHtmlSha256": "05c9b21d4d2bac174b11b9bfe2b78cae1a90b45adea37b4dea72e33fdfb4f61f"
+}
