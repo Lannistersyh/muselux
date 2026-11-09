@@ -215,6 +215,13 @@ try:
             check(doc is not None and target in doc.refs,brand['id']+': perfumery missing '+target)
         check(price_text(product) in source,product['id']+': perfumery price absent')
         check(product['priceContextEn'] in source,product['id']+': perfumery price date/provenance absent')
+    check(doc is not None and 'lipstick-prices' in doc.ids,'Missing compact lipstick price guide')
+    for entry,brand in perfumery.lipstick_selection(D):
+        check('brand/'+brand['id']+'.html' in doc.refs,brand['id']+': lipstick guide brand link missing')
+        for offer in [entry]+([entry['refill']] if entry.get('refill') else []):
+            check(offer['source'] in doc.refs,offer['reference']+': lipstick source missing')
+            check(price_text(offer) in source,offer['reference']+': lipstick price missing')
+            check(offer['checkedAt'] in source,offer['reference']+': lipstick date missing')
     for path,document in pages.items():
         prefix='../' if path.parent!=ROOT else ''
         check(prefix+'perfumery.html' in document.refs,str(path.relative_to(ROOT))+': perfumery navigation missing')

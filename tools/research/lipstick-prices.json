@@ -1,0 +1,95 @@
+{
+  "scope": "Five brand examples for consumer price literacy, not a market average, time series, inventory or investment/value ranking.",
+  "entries": [
+    {
+      "brand": "dior",
+      "series": "Rouge Dior",
+      "sample": "743 Rouge Zinnia · satin",
+      "noteZh": "可替换膏芯的正装口红",
+      "reference": "C035500743",
+      "priceUSD": 50,
+      "source": "https://www.dior.com/en_us/beauty/products/rouge-dior-C035500743.html",
+      "method": "Official U.S. product reader, reported crawled today; selected743 satin and $50. Sold-out/waitlist text is not a checkout quote.",
+      "kind": "full-size",
+      "currency": "USD",
+      "priceStatus": "official-snapshot",
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "brand": "gucci",
+      "series": "Rouge à Lèvres Mat",
+      "sample": "509 Rosso Ancora",
+      "noteZh": "常规版哑光口红",
+      "reference": "8050879PL129509",
+      "priceUSD": 50,
+      "source": "https://www.gucci.com/us/en/pr/beauty/beauty-makeup/509-gucci-rosso-ancora-rouge-a-levres-mat-lipstick-p-8050879PL129509",
+      "method": "Official U.S. product reader, reported crawled today; standard805087 reference and $50, distinct from limited874312 packaging.",
+      "kind": "full-size",
+      "currency": "USD",
+      "priceStatus": "official-snapshot",
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "brand": "prada",
+      "series": "Monochrome Soft Matte",
+      "sample": "B106 Caramel",
+      "noteZh": "可替换膏芯的正装口红",
+      "reference": "1A2002_2IAF_FB106_P_OOO",
+      "priceUSD": 50,
+      "source": "https://www.prada.com/us/en/p/prada-monochrome-soft-matte-lipstick/1A2002_2IAF_FB106_P_OOO",
+      "method": "Original official U.S. HTML JSON-LD: exact SKU, USD50.00; current origin fetched after reader returned an old cache.",
+      "refill": {
+        "reference": "1A2002_2IAF_FB106_R_OOO",
+        "priceUSD": 40,
+        "source": "https://www.prada.com/us/en/p/prada-monochrome-soft-matte-lipstick-refill/1A2002_2IAF_FB106_R_OOO",
+        "method": "Original official U.S. HTML JSON-LD: matching B106 refill exact SKU, USD40.00.",
+        "kind": "refill",
+        "currency": "USD",
+        "priceStatus": "official-snapshot",
+        "checkedAt": "2026-11-08"
+      },
+      "kind": "full-size",
+      "currency": "USD",
+      "priceStatus": "official-snapshot",
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "brand": "chanel",
+      "series": "ROUGE ALLURE",
+      "sample": "212 Caractère",
+      "noteZh": "缎光口红正装",
+      "reference": "160212",
+      "priceUSD": 53,
+      "source": "https://www.chanel.com/us/makeup/p/160212/rouge-allure-luminous-intense-lip-colour/",
+      "method": "Official U.S. product reader, reported crawled today; ref160212, $53,0.12oz.",
+      "kind": "full-size",
+      "currency": "USD",
+      "priceStatus": "official-snapshot",
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "brand": "hermes",
+      "series": "Rouge Hermès Matte",
+      "sample": "23 Beige Doblis",
+      "noteZh": "可替换膏芯的正装口红",
+      "reference": "V60001MV023",
+      "priceUSD": 86,
+      "source": "https://www.hermes.com/us/en/product/matte-lipstick-beige-doblis-V60001MV023/",
+      "method": "Official U.S. product reader, reported crawled today; V60001MV023,$86,0.12oz.",
+      "refill": {
+        "reference": "V60005MV023",
+        "priceUSD": 56,
+        "source": "https://www.hermes.com/us/en/product/matte-lipstick-refill-beige-doblis-V60005MV023/",
+        "method": "Official U.S. exact product reader, reported crawled2days earlier; category reader today also names same Beige Doblis refill at$56. Compatibility stated for Rouge Hermes tube.",
+        "kind": "refill",
+        "currency": "USD",
+        "priceStatus": "official-snapshot",
+        "checkedAt": "2026-11-08"
+      },
+      "kind": "full-size",
+      "currency": "USD",
+      "priceStatus": "official-snapshot",
+      "checkedAt": "2026-11-08"
+    }
+  ]
+}

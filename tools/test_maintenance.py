@@ -227,6 +227,25 @@ class MaintenanceTests(unittest.TestCase):
         target.write_text(json.dumps(config))
         with self.assertRaisesRegex(ValueError,'photographed fragrances'):perfumery.selection(data,root)
 
+    def test_lipstick_prices_keep_refills_and_currencies_distinct(self):
+        root=self.fixture()
+        path=root/'tools/research/lipstick-prices.json'
+        original=json.loads((ROOT/'tools/research/lipstick-prices.json').read_text())
+        path.write_text(json.dumps(original))
+        data=json.loads((root/'tools/content.json').read_text())
+        self.assertEqual(len(perfumery.lipstick_selection(data,root)),5)
+        for field,value in [('kind','refill'),('currency','EUR')]:
+            changed=copy.deepcopy(original)
+            changed['entries'][0][field]=value
+            path.write_text(json.dumps(changed))
+            with self.assertRaisesRegex(ValueError,'format and USD'):
+                perfumery.lipstick_selection(data,root)
+        changed=copy.deepcopy(original)
+        next(e['refill'] for e in changed['entries'] if e.get('refill'))['kind']='full-size'
+        path.write_text(json.dumps(changed))
+        with self.assertRaisesRegex(ValueError,'format and USD'):
+            perfumery.lipstick_selection(data,root)
+
     def test_only_retired_generated_pages_are_removed(self):
         temporary=tempfile.TemporaryDirectory(prefix='muselux-retirement-');self.addCleanup(temporary.cleanup)
         root=Path(temporary.name);(root/'item').mkdir()
