@@ -1,0 +1,101 @@
+{
+  "checkedAt": "2026-11-08",
+  "images": [
+    {
+      "brand": "dior",
+      "reference": "C035500743",
+      "sourcePage": "https://www.heinemann-shop.com/en/global/dior/dior-rouge-dior-satin-lipstick-n-743-rouge-zinnia/p/000000000001612649/",
+      "source": "https://www.heinemann-shop.com/medias/527Wx527H-null?context=bWFzdGVyfGltYWdlc3wzNzEyOHxpbWFnZS9qcGVnfGFEaGhMMmczWXk4eE1qQXdPRGN3TlRJMk1UVTVPQzgxTWpkWGVEVXlOMGhmYm5Wc2JBfDcxZjMyNDk1YjA1OGI5NWFjMzk1OWU4ZTg2NzQ4NjcxMWI1NzcyNjNiMDY1OTM0OWUzNGU3NGJlNmI5NDRhYjA&v=1744483139517",
+      "originalDimensions": [
+        395,
+        527
+      ],
+      "originalBytes": 37128,
+      "originalSha256": "aecc5ab1236595323e39038b766bc8a2355a0db58fac87b9721ae14f3b869e3c",
+      "path": "assets/img/beauty/lipstick-dior-c035500743.webp",
+      "width": 395,
+      "height": 527,
+      "localBytes": 9716,
+      "sha256": "de2e0e0d45a6d3ff41bc6219dd469ef7432b0959b36992c80981d6d657135874",
+      "transform": "EXIF orientation; complete supplied frame; maximum edge1600 without enlargement; WebP quality92; transparency retained. CHANEL uses official product-page rendered packshot crop. No generative changes."
+    },
+    {
+      "brand": "gucci",
+      "reference": "8050879PL129509",
+      "sourcePage": "https://www.harrods.com/en-us/p/gucci-rouge-a-levres-matte-lipstick-000000000007644385",
+      "source": "https://hrd-live.cdn.scayle.cloud/images/2dcded1cdcffb80fae635c635a2e1dec.jpg?bg=ffffff&brightness=1&height=1230&quality=75&width=922",
+      "originalDimensions": [
+        922,
+        1048
+      ],
+      "originalBytes": 63006,
+      "originalSha256": "f620424c8a5acfcdbb29b555e1b51506962c0a4f0573bb800bf57745d303721b",
+      "path": "assets/img/beauty/lipstick-gucci-8050879pl129509.webp",
+      "width": 922,
+      "height": 1048,
+      "localBytes": 39684,
+      "sha256": "584f891ba77a08a636c522d6a4e9f0a8ea6a7786e733873d66ddcad8416ced53",
+      "transform": "EXIF orientation; complete supplied frame; maximum edge1600 without enlargement; WebP quality92; transparency retained. CHANEL uses official product-page rendered packshot crop. No generative changes."
+    },
+    {
+      "brand": "prada",
+      "reference": "1A2002_2IAF_FB106_P_OOO",
+      "sourcePage": "https://www.prada.com/us/en/p/prada-monochrome-soft-matte-lipstick/1A2002_2IAF_FB106_P_OOO",
+      "source": "https://www.prada.com/content/dam/pradabkg_products/1/1A2/1A2002/2IAFFB106/1A2002_2IAF_FB106_P_OOO_SLF.jpg",
+      "originalDimensions": [
+        2400,
+        3000
+      ],
+      "originalBytes": 44793,
+      "originalSha256": "19474dd7a3d0f4d3e188c255c12b44891196ba94e79ab7aa2e3b04db298b09db",
+      "path": "assets/img/beauty/lipstick-prada-1a2002_2iaf_fb106_p_ooo.webp",
+      "width": 1280,
+      "height": 1600,
+      "localBytes": 18870,
+      "sha256": "ff4361aa2ff20747703c4c4f9acad336470d972d5c7b1e94b850783804d47089",
+      "transform": "EXIF orientation; complete supplied frame; maximum edge1600 without enlargement; WebP quality92; transparency retained. CHANEL uses official product-page rendered packshot crop. No generative changes."
+    },
+    {
+      "brand": "chanel",
+      "reference": "160212",
+      "sourcePage": "https://www.chanel.cn/ae-en/makeup/p/160212/rouge-allure-luminous-intense-lip-colour/",
+      "source": "https://www.chanel.cn/images/t_one/w_0.38,h_0.38,c_crop/q_auto:good,f_autoplus,fl_lossy,dpr_1.1/w_1020/rouge-allure-luminous-intense-lip-colour-212-caractere-0-12oz--packshot-default-160212-9568270417950.jpg",
+      "originalDimensions": [
+        1122,
+        1122
+      ],
+      "originalBytes": 85629,
+      "originalSha256": "89541e4a155288ccfedcee1dcb9aa0abe61ab4b5a9a98ad76d816868a0124392",
+      "path": "assets/img/beauty/lipstick-chanel-160212.webp",
+      "width": 1122,
+      "height": 1122,
+      "localBytes": 41328,
+      "sha256": "c8fe18da43c80c7a521ea0a2a09389e0d260a99b2715750d0c80cc47c16ebff8",
+      "transform": "EXIF orientation; complete supplied frame; maximum edge1600 without enlargement; WebP quality92; transparency retained. CHANEL uses official product-page rendered packshot crop. No generative changes."
+    },
+    {
+      "brand": "hermes",
+      "reference": "V60001MV023",
+      "sourcePage": "https://www.hermes.com/us/en/product/matte-lipstick-beige-doblis-V60001MV023/",
+      "source": "https://assets.hermes.com/is/image/hermesproduct/60001MV023_front_wm_101?wid=1200&hei=1600",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "originalBytes": 41512,
+      "originalSha256": "cc258e8a44e1c5db8ac50a07f79fdf6947e152f8d9769799d5fd67ee2e1dde68",
+      "path": "assets/img/beauty/lipstick-hermes-v60001mv023.webp",
+      "width": 1200,
+      "height": 1600,
+      "localBytes": 28156,
+      "sha256": "22d608d846f0a11c7f431099757cbbb37db293eb817f2c00d38621cfca3fd456",
+      "transform": "EXIF orientation; complete supplied frame; maximum edge1600 without enlargement; WebP quality92; transparency retained. CHANEL uses official product-page rendered packshot crop. No generative changes."
+    }
+  ],
+  "scope": "Five exact-reference photographs for the small lipstick price note; original price dates and amounts preserved.",
+  "notes": [
+    "CHANEL regional image source verifies160212 only; no currency conversion.",
+    "Dior and Gucci original photo downloads blocked/timed out; exact-shade retailer photographs used and credited. Brand U.S. sources remain the price sources.",
+    "Dior527px-high source retained without enlargement; larger viewing does not add detail."
+  ]
+}

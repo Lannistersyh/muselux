@@ -109,9 +109,11 @@ reports/        验收记录、页面清单、商品来源清单和预览截图
 2. 将对应的封面保存到 `assets/img/`，文章填写 `cover`；实物单品填写 `image`、固有宽高、`imageSource`、`imageCredit` 与权利说明。经典词条与其他商品的详情图库维护于 `tools/research/product-views-*.json`，每条须提供具体代表型号及两张实物照片；经典封面由 `tools/classic_covers.py` 选取该词条图库的第一张，须为短边至少700像素且与其他词条不重复的照片。显示比例在该模块调整，原图和详情图库保留完整画面。
 3. 在本目录运行 `python3 tools/generate.py`，再运行 `python3 tools/validate.py`，完成后双击 `index.html` 查看。
 
-2026-11-08 将导航「香氛品牌」扩为 **香氛与美妆 / Perfumery & Beauty**，保留原网址与五家香氛主体，在页面底部增加小型「口红，先看价格」速览。仅选五个品牌的正装消费样本：Dior Rouge Dior US$50、Gucci Rouge à Lèvres Mat US$50、Prada Monochrome Soft Matte US$50、CHANEL ROUGE ALLURE US$53、Hermès Rouge Hermès Matte US$86；对应 Prada / Hermès 膏芯分别 US$40 / US$56。均为未含税的美国官网参考快照，逐项提供来源与复核日期；样本跨度不表示全市场均价或品牌全线价格范围。补充装、套装与正装分别说明，未建立口红单品图库或第七商品品类，原有商品、照片、年度档案及其日期保持原样。手机宽度采用纵向价格行；本轮验证为静态检查和 Node 前端行为验证。
+2026-11-08 将导航「香氛品牌」扩为 **香氛与美妆 / Perfumery & Beauty**，保留原网址与五家香氛主体，在页面底部增加小型「口红，先看价格」速览。仅选五个品牌的正装消费样本：Dior Rouge Dior US$50、Gucci Rouge à Lèvres Mat US$50、Prada Monochrome Soft Matte US$50、CHANEL ROUGE ALLURE US$53、Hermès Rouge Hermès Matte US$86；对应 Prada / Hermès 膏芯分别 US$40 / US$56。均为未含税的美国官网参考快照，逐项提供来源与复核日期；样本跨度不表示全市场均价或品牌全线价格范围。补充装、套装与正装分别说明，未建立口红单品图库或第七商品品类，原有商品、照片、年度档案及其日期保持原样。手机宽度采用纵向布局；本轮验证为静态检查和 Node 前端行为验证。
 
 本轮通过 **21 项维护回归、111 项前端行为断言、235 页静态检查及两次构建一致性**。内容提交 `8cde34b6a1e109f70f45bfc015695ff4ac06be6f` 的 244 个变更公开文件已逐字节核对一致，验收记录见 `reports/lipstick-price-guide-2026-11-08.json`。
+
+2026-11-08 为口红速览补齐 **5 张对应款式的实物图**，改为紧凑的款式价格卡片：Dior 743 Rouge Zinnia、Gucci 509 Rosso Ancora、Prada B106 Caramel、CHANEL 212 Caractère、Hermès 23 Beige Doblis。每张卡片可查看外壳、膏体、简短款式说明及原有美元报价，图片可点击放大。CHANEL、Prada、Hermès 使用官方图，Dior 与 Gucci 官网图访问受限，分别采用 Heinemann、Harrods 的同色号商品图并标注来源；价格来源仍为美国品牌官网。五图合计137,754字节，保留完整下载画面、透明度，不作生成式改图或本地放大；Dior原图395×527，其余短边至少922像素。部分官方图留白较多，以网页图片窗口居中展示，点击可看完整图。数据源新增图片、原始宽高、图片核验日期和署名；下载摘要与型号证据在 `tools/research/lipstick-photos-2026-11-08.json`。原有价格、复核日期、商品目录与年度档案保持不变。
 
 口红参考资料维护于 `tools/research/lipstick-prices.json`，每品牌最多一个正装样本及其对应膏芯，保留精确参考编号、美国官方来源、USD、包装类型、价格口径和实际复核日期；由 `tools/perfumery.py` 生成。后续香水轮换维护时可顺带复核，遇到地区跳转或反爬保留原价与日期。原品牌图鉴可直接进入，口红样本不计入香水九款上限，也不混入香水年鉴。
 

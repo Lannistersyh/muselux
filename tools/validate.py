@@ -216,8 +216,18 @@ try:
         check(price_text(product) in source,product['id']+': perfumery price absent')
         check(product['priceContextEn'] in source,product['id']+': perfumery price date/provenance absent')
     check(doc is not None and 'lipstick-prices' in doc.ids,'Missing compact lipstick price guide')
+    lip_photos=json.loads((ROOT/'tools/research/lipstick-photos-2026-11-08.json').read_text())['images']
+    check(len({p['sha256'] for p in lip_photos})==len(lip_photos),'Lipstick photographs must be distinct')
+    lip_photo_by_brand={p['brand']:p for p in lip_photos}
     for entry,brand in perfumery.lipstick_selection(D):
         check('brand/'+brand['id']+'.html' in doc.refs,brand['id']+': lipstick guide brand link missing')
+        check(entry['image'] in doc.refs,brand['id']+': lipstick photograph missing')
+        check(image_size(ROOT/entry['image'])==(entry['imageWidth'],entry['imageHeight']),brand['id']+': lipstick photograph dimensions differ')
+        check(entry['imageSourcePage'] in doc.refs,brand['id']+': lipstick photo credit missing')
+        check(entry['descriptionZh'] in source,brand['id']+': lipstick style description missing')
+        photo=lip_photo_by_brand[brand['id']]
+        check(photo['reference']==entry['reference'] and photo['path']==entry['image'],brand['id']+': lipstick photo reference mismatch')
+        check(hashlib.sha256((ROOT/entry['image']).read_bytes()).hexdigest()==photo['sha256'],brand['id']+': lipstick photograph digest differs')
         for offer in [entry]+([entry['refill']] if entry.get('refill') else []):
             check(offer['source'] in doc.refs,offer['reference']+': lipstick source missing')
             check(price_text(offer) in source,offer['reference']+': lipstick price missing')

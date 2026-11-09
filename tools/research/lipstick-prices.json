@@ -13,7 +13,17 @@
       "kind": "full-size",
       "currency": "USD",
       "priceStatus": "official-snapshot",
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "descriptionZh": "黑银拼色管身，CD 标识突出；这一支是缎光版本。",
+      "image": "assets/img/beauty/lipstick-dior-c035500743.webp",
+      "imageWidth": 395,
+      "imageHeight": 527,
+      "imageSource": "https://www.heinemann-shop.com/medias/527Wx527H-null?context=bWFzdGVyfGltYWdlc3wzNzEyOHxpbWFnZS9qcGVnfGFEaGhMMmczWXk4eE1qQXdPRGN3TlRJMk1UVTVPQzgxTWpkWGVEVXlOMGhmYm5Wc2JBfDcxZjMyNDk1YjA1OGI5NWFjMzk1OWU4ZTg2NzQ4NjcxMWI1NzcyNjNiMDY1OTM0OWUzNGU3NGJlNmI5NDRhYjA&v=1744483139517",
+      "imageSourcePage": "https://www.heinemann-shop.com/en/global/dior/dior-rouge-dior-satin-lipstick-n-743-rouge-zinnia/p/000000000001612649/",
+      "imageCredit": "Dior · Heinemann 商品图",
+      "imageCheckedAt": "2026-11-08",
+      "imageRights": "Product photograph reproduced for editorial identification; rights remain with the original holder. Source credited and linked.",
+      "imageAlt": "Rouge Dior 743 Rouge Zinnia · satin — open lipstick and case"
     },
     {
       "brand": "gucci",
@@ -27,7 +37,17 @@
       "kind": "full-size",
       "currency": "USD",
       "priceStatus": "official-snapshot",
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "descriptionZh": "金色管身配深红色管盖，纵向纹理更有复古感；哑光妆效。",
+      "image": "assets/img/beauty/lipstick-gucci-8050879pl129509.webp",
+      "imageWidth": 922,
+      "imageHeight": 1048,
+      "imageSource": "https://hrd-live.cdn.scayle.cloud/images/2dcded1cdcffb80fae635c635a2e1dec.jpg?bg=ffffff&brightness=1&height=1230&quality=75&width=922",
+      "imageSourcePage": "https://www.harrods.com/en-us/p/gucci-rouge-a-levres-matte-lipstick-000000000007644385",
+      "imageCredit": "Gucci · Harrods 商品图",
+      "imageCheckedAt": "2026-11-08",
+      "imageRights": "Product photograph reproduced for editorial identification; rights remain with the original holder. Source credited and linked.",
+      "imageAlt": "Rouge à Lèvres Mat 509 Rosso Ancora — open lipstick and case"
     },
     {
       "brand": "prada",
@@ -51,7 +71,17 @@
       "kind": "full-size",
       "currency": "USD",
       "priceStatus": "official-snapshot",
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "descriptionZh": "银色外壳与三角切面膏体，整体偏简洁的几何感；柔雾妆效。",
+      "image": "assets/img/beauty/lipstick-prada-1a2002_2iaf_fb106_p_ooo.webp",
+      "imageWidth": 1280,
+      "imageHeight": 1600,
+      "imageSource": "https://www.prada.com/content/dam/pradabkg_products/1/1A2/1A2002/2IAFFB106/1A2002_2IAF_FB106_P_OOO_SLF.jpg",
+      "imageSourcePage": "https://www.prada.com/us/en/p/prada-monochrome-soft-matte-lipstick/1A2002_2IAF_FB106_P_OOO",
+      "imageCredit": "Prada 官方图",
+      "imageCheckedAt": "2026-11-08",
+      "imageRights": "Product photograph reproduced for editorial identification; rights remain with the original holder. Source credited and linked.",
+      "imageAlt": "Monochrome Soft Matte B106 Caramel — lipstick and silver-tone case"
     },
     {
       "brand": "chanel",
@@ -65,7 +95,17 @@
       "kind": "full-size",
       "currency": "USD",
       "priceStatus": "official-snapshot",
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "descriptionZh": "黑色方管配金色内管，212 Caractère 是栗棕色缎光版本。",
+      "image": "assets/img/beauty/lipstick-chanel-160212.webp",
+      "imageWidth": 1122,
+      "imageHeight": 1122,
+      "imageSource": "https://www.chanel.cn/images/t_one/w_0.38,h_0.38,c_crop/q_auto:good,f_autoplus,fl_lossy,dpr_1.1/w_1020/rouge-allure-luminous-intense-lip-colour-212-caractere-0-12oz--packshot-default-160212-9568270417950.jpg",
+      "imageSourcePage": "https://www.chanel.cn/ae-en/makeup/p/160212/rouge-allure-luminous-intense-lip-colour/",
+      "imageCredit": "CHANEL 官方图",
+      "imageCheckedAt": "2026-11-08",
+      "imageRights": "Product photograph reproduced for editorial identification; rights remain with the original holder. Source credited and linked.",
+      "imageAlt": "ROUGE ALLURE 212 Caractère — open lipstick and case"
     },
     {
       "brand": "hermes",
@@ -89,7 +129,17 @@
       "kind": "full-size",
       "currency": "USD",
       "priceStatus": "official-snapshot",
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "descriptionZh": "黑、白、金色拼接外壳，23 Beige Doblis 是哑光版本。",
+      "image": "assets/img/beauty/lipstick-hermes-v60001mv023.webp",
+      "imageWidth": 1200,
+      "imageHeight": 1600,
+      "imageSource": "https://assets.hermes.com/is/image/hermesproduct/60001MV023_front_wm_101?wid=1200&hei=1600",
+      "imageSourcePage": "https://www.hermes.com/us/en/product/matte-lipstick-beige-doblis-V60001MV023/",
+      "imageCredit": "Hermès 官方图",
+      "imageCheckedAt": "2026-11-08",
+      "imageRights": "Product photograph reproduced for editorial identification; rights remain with the original holder. Source credited and linked.",
+      "imageAlt": "Rouge Hermès Matte 23 Beige Doblis — open lipstick and case"
     }
   ]
 }
