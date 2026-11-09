@@ -127,17 +127,17 @@
   },
   "contentHash": "9e15f39a311890010a7fb710e5dc0668c43ada074b3106a52ff681dec0d977d7",
   "fixtureHashes": {
-    "search.html": "1547d5c52d0466b711e2a034bf5e32ac4d25d7fbc1bc3be3bf570a8163ee91b1",
-    "perfumery.html": "068dc290036a2e754e6eb9a74d55a52e2144ab4ea72fddf6ad6fda13370b7f20",
-    "womens-style.html": "1825ca7a93dccdca177b28a519ab8e3a90a6f9a7a00a4fa8087808da4811ba6c",
-    "style/mob-wife.html": "277c051af1cb72266d9ba6e875ffbd6b8b1224b15aea05b716c75236b36fd5b8",
-    "style/napoleon-core.html": "e6e981168f3837954a8c72eb342146f1a1106e3633382969d1734c65292dc464",
-    "style/heiress.html": "562d0d5234ca5221f517e081511da530ef4afb94abce2041109c69ce5c02bb71",
-    "brands.html": "0e7f2310159a5d07ee80673abb0d4ca38be590c8aad540f7c1075a727b5d88b4",
-    "bags-by-year.html": "b2f3f46ad38c51fde7e915417f24125bbd0b7ac3b954783b3995d2800a9c2c9b",
-    "item/dior-small-lady-dior-black-us.html": "76def9e9cdce301b7644e55940832ace60f5b0af4608333c883a799eec0e91e7",
-    "item/bag-2022-prada-re-edition-2000.html": "01757779f5e49f5c03820d94665094392c84bcf10e5a73b3cb23e270e95be94a",
-    "item/birkin.html": "5f70ba9fe32e05e5b09339dfe858e0924167be98c4810fde240f90cff5654861",
-    "index.html": "422c7cb741e59fcc68e5c3178b775e08307afcc6ab628aad104aa5e647a61efa"
+    "search.html": "eb6cea096714e5c73be6b847b98677e9ba0fec7db0eff691838ef1b31ece3b0d",
+    "perfumery.html": "47e172ea89c546ac8ea3111ff33bc410ce741697c2f3b35722547d692199da07",
+    "womens-style.html": "aa7cdc4579ac42c640e4e584e0d2ae8a9d62eab3c29d80fd88b1ccf115512546",
+    "style/mob-wife.html": "1088f2bae01ce008a9db0d00f8b46ad291e187845724579006efaf5b2b12b4f5",
+    "style/napoleon-core.html": "c65b6ad571d3baa7677eccd6e4e33020590211e6c024b72c163805bce51beada",
+    "style/heiress.html": "46bb2c0bcafd3a11d77f10edb72cbfb35f425ca262b98b0b5d236385f4855a4b",
+    "brands.html": "8f7f703fb3986bd9a277b8b3bdfb89da3ef500056048d6c97dac026a9b5c06a2",
+    "bags-by-year.html": "1a02e3020a5a4ee61455041ea6d5c9b1c900323edf267006c3f8f3891ca6780e",
+    "item/dior-small-lady-dior-black-us.html": "6976f108f994be681e51e19c0e8d92eda0985400b5ebad9562a1dcce5c357075",
+    "item/bag-2022-prada-re-edition-2000.html": "80c8440367b563f238288fbd94fd26b47b942090f80669bcfe786749b5a7ad52",
+    "item/birkin.html": "25a53bd7973da82ff47362f1cce294eb1593c002136b6b744cc3679e6225f32b",
+    "index.html": "e5559740352f654df790c44c79ae04be55067b5075ef1c6b1f387fcca1d15a1c"
   }
 }

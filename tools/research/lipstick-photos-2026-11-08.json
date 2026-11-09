@@ -17,7 +17,8 @@
       "height": 527,
       "localBytes": 9716,
       "sha256": "de2e0e0d45a6d3ff41bc6219dd469ef7432b0959b36992c80981d6d657135874",
-      "transform": "EXIF orientation; complete supplied frame; maximum edge1600 without enlargement; WebP quality92; transparency retained. CHANEL uses official product-page rendered packshot crop. No generative changes."
+      "transform": "EXIF orientation; complete supplied frame; maximum edge1600 without enlargement; WebP quality92; transparency retained. CHANEL uses official product-page rendered packshot crop. No generative changes.",
+      "id": "dior"
     },
     {
       "brand": "gucci",
@@ -35,7 +36,8 @@
       "height": 1048,
       "localBytes": 39684,
       "sha256": "584f891ba77a08a636c522d6a4e9f0a8ea6a7786e733873d66ddcad8416ced53",
-      "transform": "EXIF orientation; complete supplied frame; maximum edge1600 without enlargement; WebP quality92; transparency retained. CHANEL uses official product-page rendered packshot crop. No generative changes."
+      "transform": "EXIF orientation; complete supplied frame; maximum edge1600 without enlargement; WebP quality92; transparency retained. CHANEL uses official product-page rendered packshot crop. No generative changes.",
+      "id": "gucci"
     },
     {
       "brand": "prada",
@@ -53,7 +55,8 @@
       "height": 1600,
       "localBytes": 18870,
       "sha256": "ff4361aa2ff20747703c4c4f9acad336470d972d5c7b1e94b850783804d47089",
-      "transform": "EXIF orientation; complete supplied frame; maximum edge1600 without enlargement; WebP quality92; transparency retained. CHANEL uses official product-page rendered packshot crop. No generative changes."
+      "transform": "EXIF orientation; complete supplied frame; maximum edge1600 without enlargement; WebP quality92; transparency retained. CHANEL uses official product-page rendered packshot crop. No generative changes.",
+      "id": "prada"
     },
     {
       "brand": "chanel",
@@ -71,7 +74,8 @@
       "height": 1122,
       "localBytes": 41328,
       "sha256": "c8fe18da43c80c7a521ea0a2a09389e0d260a99b2715750d0c80cc47c16ebff8",
-      "transform": "EXIF orientation; complete supplied frame; maximum edge1600 without enlargement; WebP quality92; transparency retained. CHANEL uses official product-page rendered packshot crop. No generative changes."
+      "transform": "EXIF orientation; complete supplied frame; maximum edge1600 without enlargement; WebP quality92; transparency retained. CHANEL uses official product-page rendered packshot crop. No generative changes.",
+      "id": "chanel"
     },
     {
       "brand": "hermes",
@@ -89,13 +93,300 @@
       "height": 1600,
       "localBytes": 28156,
       "sha256": "22d608d846f0a11c7f431099757cbbb37db293eb817f2c00d38621cfca3fd456",
-      "transform": "EXIF orientation; complete supplied frame; maximum edge1600 without enlargement; WebP quality92; transparency retained. CHANEL uses official product-page rendered packshot crop. No generative changes."
+      "transform": "EXIF orientation; complete supplied frame; maximum edge1600 without enlargement; WebP quality92; transparency retained. CHANEL uses official product-page rendered packshot crop. No generative changes.",
+      "id": "hermes"
+    },
+    {
+      "id": "prada-b107",
+      "brand": "prada",
+      "reference": "1A2002_2IAF_FB107_P_OOO",
+      "sourcePage": "https://www.prada.com/us/en/p/prada-monochrome-soft-matte-lipstick/1A2002_2IAF_FB107_P_OOO",
+      "source": "https://www.prada.com/content/dam/pradabkg_products/1/1A2/1A2002/2IAFFB107/1A2002_2IAF_FB107_P_OOO_SLF.jpg",
+      "originalDimensions": [
+        2400,
+        3000
+      ],
+      "originalBytes": 44729,
+      "originalSha256": "d1087699a1cc07335ad5d2ce907c1c66c8bee2d6d3d2aa86d8ab253db70df07a",
+      "path": "assets/img/beauty/lipstick-prada-1a2002_2iaf_fb107_p_ooo.webp",
+      "width": 1280,
+      "height": 1600,
+      "localBytes": 18716,
+      "sha256": "69a9b24a89f92f2219749bc94f15cc4ad15235b0228f5b8f9623d0975bedfbea",
+      "transform": "EXIF orientation, complete supplied frame, maximum edge1600 without enlargement, WebP quality92, transparency retained, no generative edits."
+    },
+    {
+      "id": "prada-hyper",
+      "brand": "prada",
+      "reference": "1A2001_2IAE_FB013_P_OOO",
+      "sourcePage": "https://www.prada.com/us/en/p/prada-monochrome-hyper-matte-lipstick/1A2001_2IAE_FB013_P_OOO",
+      "source": "https://www.prada.com/content/dam/pradabkg_products/1/1A2/1A2001/2IAEFB013/1A2001_2IAE_FB013_P_OOO_SLF.jpg",
+      "originalDimensions": [
+        2400,
+        3000
+      ],
+      "originalBytes": 48828,
+      "originalSha256": "c3fe93af505548e8dd8cf5364ceb85c5bfab65f60aac7f1b74e706a6d7069d61",
+      "path": "assets/img/beauty/lipstick-prada-1a2001_2iae_fb013_p_ooo.webp",
+      "width": 1280,
+      "height": 1600,
+      "localBytes": 19018,
+      "sha256": "43b36957769140449a50d0fa37342a694b51f443a85e3e2a656c13d8626b7bde",
+      "transform": "EXIF orientation, complete supplied frame, maximum edge1600 without enlargement, WebP quality92, transparency retained, no generative edits."
+    },
+    {
+      "id": "prada-b158",
+      "brand": "prada",
+      "reference": "1A2002_2IAF_FB158_P_OOO",
+      "sourcePage": "https://www.prada.com/us/en/p/prada-monochrome-soft-matte-lipstick/1A2002_2IAF_FB158_P_OOO",
+      "source": "https://www.prada.com/content/dam/pradabkg_products/1/1A2/1A2002/2IAFFB158/1A2002_2IAF_FB158_P_OOO_SLF.jpg",
+      "originalDimensions": [
+        2400,
+        3000
+      ],
+      "originalBytes": 46895,
+      "originalSha256": "da27474ba07b2a60052a24c81d5287e65c906a107c9cc91257524413e1c24a2a",
+      "path": "assets/img/beauty/lipstick-prada-1a2002_2iaf_fb158_p_ooo.webp",
+      "width": 1280,
+      "height": 1600,
+      "localBytes": 17226,
+      "sha256": "d9f6731d76b23794a7285e5297a3d384cf66f0c08522a15481dad012a34cb873",
+      "transform": "EXIF orientation, complete supplied frame, maximum edge1600 without enlargement, WebP quality92, transparency retained, no generative edits."
+    },
+    {
+      "id": "dior999",
+      "brand": "dior",
+      "reference": "C035600999",
+      "sourcePage": "https://www.heinemann-shop.com/en/global/dior/dior-rouge-dior-velvet-lipstick-n-999-dior-rouge/p/000000000001612660/",
+      "source": "https://www.heinemann-shop.com/medias/527Wx527H-null?context=bWFzdGVyfGltYWdlc3wzNzQxMHxpbWFnZS9qcGVnfGFEZGxMMmhtWVM4eE1qQXdPRGN3Tmpnek5EUTJNaTgxTWpkWGVEVXlOMGhmYm5Wc2JBfDc5MjMxYTY3MDBlNjI3ZWNkMWM3NTJiNzM5ODRiODliZjY4M2JlYzA2MWNhMmJhZTBlMmUzM2Q0ZGNiYTE2YTY&v=1744483229376",
+      "originalDimensions": [
+        395,
+        527
+      ],
+      "originalBytes": 37410,
+      "originalSha256": "3ea8b5156105dc7aaafcb06c00e70aad5210e4f5a2e5757e7226a7a4356cc143",
+      "path": "assets/img/beauty/lipstick-dior-c035600999.webp",
+      "width": 395,
+      "height": 527,
+      "localBytes": 9948,
+      "sha256": "6334b17ad29098ff876dd02ffc676c998251cb44ea41a35f348371de51bfe876",
+      "transform": "EXIF orientation, complete supplied frame, maximum edge1600 without enlargement, WebP quality92, transparency retained, no generative edits."
+    },
+    {
+      "id": "dior720",
+      "brand": "dior",
+      "reference": "C035500720",
+      "sourcePage": "https://www.heinemann-shop.com/en/global/dior/dior-rouge-dior-satin-lipstick-n-720-icone/p/000000000001612648/",
+      "source": "https://www.heinemann-shop.com/medias/527Wx527H-null?context=bWFzdGVyfGltYWdlc3wzNjkxMnxpbWFnZS9qcGVnfGFEWXlMMmczTlM4eE1qQXdPRGN3TlRBek1qSXlNaTgxTWpkWGVEVXlOMGhmYm5Wc2JBfDA5ZjFkN2Q2NWJjZDdjNmUzNDBjYzkzNWEyZTBkMmZjNmYxNmY3NWM3N2Y5ODE1NTk5ODc3MWEyZTgwY2U4OWQ&v=1744483124103",
+      "originalDimensions": [
+        395,
+        527
+      ],
+      "originalBytes": 36912,
+      "originalSha256": "3944e94b0969a202dcd439611a9a5de9b4046158515e524af0990522267295af",
+      "path": "assets/img/beauty/lipstick-dior-c035500720.webp",
+      "width": 395,
+      "height": 527,
+      "localBytes": 9588,
+      "sha256": "726601428b93b33af75a3fc6ddaab1809f123116f6f34f9ac58c385b8599b4b0",
+      "transform": "EXIF orientation, complete supplied frame, maximum edge1600 without enlargement, WebP quality92, transparency retained, no generative edits."
+    },
+    {
+      "id": "dior100",
+      "brand": "dior",
+      "reference": "C035500100",
+      "sourcePage": "https://www.heinemann-shop.com/en/global/dior/dior-rouge-dior-satin-lipstick-n-100-nude-look/p/000000000001612640/",
+      "source": "https://www.heinemann-shop.com/medias/527Wx527H-null?context=bWFzdGVyfGltYWdlc3wzMDUyNXxpbWFnZS9qcGVnfGFHWXlMMmhrTVM4eE1qQXdPRGN3TVRFMk5UVTVPQzgxTWpkWGVEVXlOMGhmYm5Wc2JBfGRjYmM2ZjhjMzA2MDM0ZmI2YTI0YjZiYWFiMzdmYjgzYWU0OTAxM2NjYzhkNzc4Njk2MjU5NjU4NTY5ODUzZTM&v=1744482867341",
+      "originalDimensions": [
+        395,
+        527
+      ],
+      "originalBytes": 30525,
+      "originalSha256": "094d4c4e566b9726954235692ffb504942f869c203ed82529db3eb418a7f27f6",
+      "path": "assets/img/beauty/lipstick-dior-c035500100.webp",
+      "width": 395,
+      "height": 527,
+      "localBytes": 9586,
+      "sha256": "cdabf929c6738f1d1c61a0c538b682bdc3c68334f2cc9e3a419c6be6148d9da6",
+      "transform": "EXIF orientation, complete supplied frame, maximum edge1600 without enlargement, WebP quality92, transparency retained, no generative edits."
+    },
+    {
+      "id": "hermes18",
+      "brand": "hermes",
+      "reference": "V60001SV018",
+      "sourcePage": "https://www.hermes.com/us/en/product/satin-lipstick-rose-encens-V60001SV018/",
+      "source": "https://assets.hermes.com/is/image/hermesproduct/60001SV018_front_wm_101?wid=1200&hei=1600",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "originalBytes": 39622,
+      "originalSha256": "dbeca05319531b03319d560a982256daf1862262fed71057c03769dec9cb2917",
+      "path": "assets/img/beauty/lipstick-hermes-v60001sv018.webp",
+      "width": 1200,
+      "height": 1600,
+      "localBytes": 25606,
+      "sha256": "6c2f4c68c9a39462d5ec53522de50c37017c5e76888483ce666026704fed6ce4",
+      "transform": "EXIF orientation, complete supplied frame, maximum edge1600 without enlargement, WebP quality92, transparency retained, no generative edits."
+    },
+    {
+      "id": "hermes12",
+      "brand": "hermes",
+      "reference": "V60267TV012",
+      "sourcePage": "https://www.hermes.com/us/en/product/silky-lipstick-shine-beige-midi-V60267TV012/",
+      "source": "https://assets.hermes.com/is/image/hermesproduct/60267TV012_front_wm_101?wid=1200&hei=1600",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "originalBytes": 35883,
+      "originalSha256": "0ae4f4e61c1d7c041952cd35a73d406d7f60c38254f8c6a6316e14fcc7f239a8",
+      "path": "assets/img/beauty/lipstick-hermes-v60267tv012.webp",
+      "width": 1200,
+      "height": 1600,
+      "localBytes": 22752,
+      "sha256": "677e5d5dd171dca9cd6b819d1b3dea20be9320f3346f9408b7642bc0a02ebd21",
+      "transform": "EXIF orientation, complete supplied frame, maximum edge1600 without enlargement, WebP quality92, transparency retained, no generative edits."
+    },
+    {
+      "id": "hermes40",
+      "brand": "hermes",
+      "reference": "V60001SV040",
+      "sourcePage": "https://www.hermes.com/us/en/product/satin-lipstick-rose-lipstick-V60001SV040/",
+      "source": "https://assets.hermes.com/is/image/hermesproduct/60001SV040_front_wm_101?wid=1200&hei=1600",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "originalBytes": 39511,
+      "originalSha256": "e657a5849fb7439c2a6d3660dd54ce084dd12d8155b475c6c38bc9966c804733",
+      "path": "assets/img/beauty/lipstick-hermes-v60001sv040.webp",
+      "width": 1200,
+      "height": 1600,
+      "localBytes": 26226,
+      "sha256": "c0b99635bca76287e1036c6e8777f6402d1a89330793d753be5735c29cf9c512",
+      "transform": "EXIF orientation, complete supplied frame, maximum edge1600 without enlargement, WebP quality92, transparency retained, no generative edits."
+    },
+    {
+      "id": "gucci410",
+      "brand": "gucci",
+      "reference": "5861699PLP89410",
+      "sourcePage": "https://www.harrods.com/en-us/p/gucci-rouge-a-levres-voile-sheer-lipstick-000000000006893222",
+      "source": "https://hrd-live.cdn.scayle.cloud/images/03881d9ba175919678b2726f2706f60a.jpg?bg=ffffff&brightness=1&height=1230&quality=75&width=922",
+      "originalDimensions": [
+        922,
+        1048
+      ],
+      "originalBytes": 39564,
+      "originalSha256": "923506ee256722c30d4b27d6d2c3a1142713173ab45c91b235886d0335462b7f",
+      "path": "assets/img/beauty/lipstick-gucci-5861699plp89410.webp",
+      "width": 922,
+      "height": 1048,
+      "localBytes": 33084,
+      "sha256": "28f4fde6cc21f5a12b25222d0e6e4f5d107174e8e1954c7ad0f729817d99db31",
+      "transform": "EXIF orientation, complete supplied frame, maximum edge1600 without enlargement, WebP quality92, transparency retained, no generative edits."
+    },
+    {
+      "id": "gucci220",
+      "brand": "gucci",
+      "reference": "5861689PLP79220",
+      "sourcePage": "https://www.cultbeauty.co.uk/p/gucci-beauty-rouge-a-levres-satin-lipstick-3.5g-various-shades/17307749/?variation=17307834",
+      "source": "https://static.thcdn.com/productimg/original/17307834-2825267096735238.jpg",
+      "originalDimensions": [
+        2000,
+        2000
+      ],
+      "originalBytes": 189445,
+      "originalSha256": "f3b3a08af7d202beb509ca7852797f9ed262191a71efd22390b4e03ac5569077",
+      "path": "assets/img/beauty/lipstick-gucci-5861689plp79220.webp",
+      "width": 1600,
+      "height": 1600,
+      "localBytes": 117384,
+      "sha256": "17e0f51f8cdfa889fb2a17f854d6a7a104bd303ea356709ec7f7388e5cdfa777",
+      "transform": "EXIF orientation, complete supplied frame, maximum edge1600 without enlargement, WebP quality92, transparency retained, no generative edits."
+    },
+    {
+      "id": "byredo-redolence",
+      "brand": "byredo",
+      "reference": "0065212517",
+      "sourcePage": "https://www.byredo.com/us_en/p/lipstick-satin?sku=0065212517",
+      "source": "https://www.byredo.com/cdn-cgi/image/format=auto,quality=70/https://www.byredo.com/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/b/y/byr_ecom_25_makeup_lipstick_satin_redolence_2800x2800_01.jpg",
+      "originalDimensions": [
+        2800,
+        2800
+      ],
+      "originalBytes": 108075,
+      "originalSha256": "37ee8ac13eb9025498a97081924600382e0e47a25c5dbe9e776afc68d77482b8",
+      "path": "assets/img/beauty/lipstick-byredo-0065212517.webp",
+      "width": 1600,
+      "height": 1600,
+      "localBytes": 34310,
+      "sha256": "c817d50c6e5cf88c31e15c981e68ddd8125b6b5249bdfa8e5f014e0a6fdbcb17",
+      "transform": "EXIF orientation, complete supplied frame, maximum edge1600 without enlargement, WebP quality92, transparency retained, no generative edits."
+    },
+    {
+      "id": "byredo-earth",
+      "brand": "byredo",
+      "reference": "0065212509",
+      "sourcePage": "https://www.byredo.com/us_en/p/lipstick-satin?sku=0065212509",
+      "source": "https://www.byredo.com/cdn-cgi/image/format=auto,quality=70/https://www.byredo.com/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/b/y/byr_ecom_25_makeup_lipstick_satin_earth_dust_2800x2800_01.jpg",
+      "originalDimensions": [
+        2800,
+        2800
+      ],
+      "originalBytes": 98337,
+      "originalSha256": "f7a57670db4445bfa9e8a42dc310b289ef59cfb9608f2ea098601470c55f4920",
+      "path": "assets/img/beauty/lipstick-byredo-0065212509.webp",
+      "width": 1600,
+      "height": 1600,
+      "localBytes": 31140,
+      "sha256": "a585e412591d93a3757affba196d47d7ed721348dd22c68a3c90b0f64a6a4f01",
+      "transform": "EXIF orientation, complete supplied frame, maximum edge1600 without enlargement, WebP quality92, transparency retained, no generative edits."
+    },
+    {
+      "id": "byredo-septembre",
+      "brand": "byredo",
+      "reference": "0065212595",
+      "sourcePage": "https://www.byredo.com/us_en/p/lipstick-link?sku=0065212595",
+      "source": "https://www.byredo.com/cdn-cgi/image/format=auto,quality=70/https://www.byredo.com/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/b/y/byr_ecom_25_makeup_lipstick_matte_septembre_2800x2800_01.jpg",
+      "originalDimensions": [
+        2800,
+        2800
+      ],
+      "originalBytes": 106271,
+      "originalSha256": "304a39911c9b9b5c606c73e1008ccdc2acf4d332ddd3d5f6d91ca75aaeb12b2c",
+      "path": "assets/img/beauty/lipstick-byredo-0065212595.webp",
+      "width": 1600,
+      "height": 1600,
+      "localBytes": 34290,
+      "sha256": "7222197bce674448a109aeecbf2d074425bd27ae9a116ee5edd37a949d082295",
+      "transform": "EXIF orientation, complete supplied frame, maximum edge1600 without enlargement, WebP quality92, transparency retained, no generative edits."
+    },
+    {
+      "id": "ysl-nm",
+      "brand": "saint-laurent",
+      "reference": "3614273945370",
+      "sourcePage": "https://www.yslbeautyus.com/makeup/lip/lipstick/rouge-pur-couture-caring-satin-lipstick/3614273945370.html",
+      "source": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw8c17fb43/RPC%20Reno/RESIZED/3614273945370.webp?q=90&sfrm=jpg&sh=1200&sm=cut&sw=1200",
+      "originalDimensions": [
+        1200,
+        1200
+      ],
+      "originalBytes": 27444,
+      "originalSha256": "7a85f41a51134f927dba8eea4fae09023cdc812c762e05c8ee02bb57ff1e6274",
+      "path": "assets/img/beauty/lipstick-saint-laurent-3614273945370.webp",
+      "width": 1200,
+      "height": 1200,
+      "localBytes": 27756,
+      "sha256": "95b342c53dfdec77ba3d5cac9fc5e9ddd7768a9bf478cc75129368320ada62e6",
+      "transform": "EXIF orientation, complete supplied frame, maximum edge1600 without enlargement, WebP quality92, transparency retained, no generative edits."
     }
   ],
-  "scope": "Five exact-reference photographs for the small lipstick price note; original price dates and amounts preserved.",
+  "scope": "Twenty distinct exact-reference photographs for the full-size lipstick price edit; original five photo files and full-size quotes preserved.",
   "notes": [
     "CHANEL regional image source verifies160212 only; no currency conversion.",
     "Dior and Gucci original photo downloads blocked/timed out; exact-shade retailer photographs used and credited. Brand U.S. sources remain the price sources.",
-    "Dior527px-high source retained without enlargement; larger viewing does not add detail."
+    "Dior527px-high source retained without enlargement; larger viewing does not add detail.",
+    "Expanded to20 full-size references on2026-11-08; all refill quotations removed from active data at user request. New Byredo and YSL Beaute examples use existing brand archives."
   ]
 }

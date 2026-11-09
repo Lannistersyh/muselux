@@ -227,23 +227,29 @@ class MaintenanceTests(unittest.TestCase):
         target.write_text(json.dumps(config))
         with self.assertRaisesRegex(ValueError,'photographed fragrances'):perfumery.selection(data,root)
 
-    def test_lipstick_prices_keep_refills_and_currencies_distinct(self):
+    def test_lipstick_prices_require_twenty_unique_full_size_examples(self):
         root=self.fixture()
         path=root/'tools/research/lipstick-prices.json'
         original=json.loads((ROOT/'tools/research/lipstick-prices.json').read_text())
         path.write_text(json.dumps(original))
         data=json.loads((root/'tools/content.json').read_text())
-        self.assertEqual(len(perfumery.lipstick_selection(data,root)),5)
-        for field,value in [('kind','refill'),('currency','EUR')]:
+        self.assertEqual(len(perfumery.lipstick_selection(data,root)),20)
+        for field,value in [('kind','refill'),('currency','EUR'),('refill',{})]:
             changed=copy.deepcopy(original)
             changed['entries'][0][field]=value
             path.write_text(json.dumps(changed))
-            with self.assertRaisesRegex(ValueError,'format and USD'):
+            with self.assertRaisesRegex(ValueError,'full-size format and USD'):
                 perfumery.lipstick_selection(data,root)
         changed=copy.deepcopy(original)
-        next(e['refill'] for e in changed['entries'] if e.get('refill'))['kind']='full-size'
+        changed['entries'].pop()
         path.write_text(json.dumps(changed))
-        with self.assertRaisesRegex(ValueError,'format and USD'):
+        with self.assertRaisesRegex(ValueError,'twenty'):
+            perfumery.lipstick_selection(data,root)
+        changed=copy.deepcopy(original)
+        changed['entries'][1]['reference']=changed['entries'][0]['reference']
+        changed['entries'][1]['brand']=changed['entries'][0]['brand']
+        path.write_text(json.dumps(changed))
+        with self.assertRaisesRegex(ValueError,'unique'):
             perfumery.lipstick_selection(data,root)
 
     def test_only_retired_generated_pages_are_removed(self):
