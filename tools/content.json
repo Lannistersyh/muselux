@@ -2775,6 +2775,314 @@
       "classicItems": [],
       "checkedAt": "2026-10-27",
       "historyNote": "这里只关联已收录的MFK常规香水。2014年二百五十只编号版本的历史不构成当前70ml常规版本的限量或水晶材质证明。"
+    },
+    {
+      "id": "guerlain",
+      "name": "Guerlain",
+      "nameZh": "娇兰",
+      "country": "法国",
+      "founded": 1828,
+      "foundingNote": "1828年Pierre-François-Pascal Guerlain在巴黎rue de Rivoli开设首店；口红及镜盒设计属于此后逐步展开的美妆历史。",
+      "categories": [],
+      "role": "beauty",
+      "aliases": [
+        "GUERLAIN",
+        "娇兰"
+      ],
+      "tagline": "把香气与容器，都做成可以珍藏的物件",
+      "intro": "娇兰的故事始于巴黎的一间香水店，后来逐渐延伸到护肤与彩妆。蜂纹瓶、倒心形瓶盖与双面镜盒，让容器本身也成为记忆的一部分。它的口红历史可以追溯到十九世纪，可替换膏芯与随身使用的巧思很早便已出现。到了现代，镜盒又加入不同的装饰与个性化选择，把日常补妆变成一次小小的开盒动作。认识这个品牌，可以从香气读起，也可以先观察一支口红的曲线、镜面与握持方式，感受实用物件如何承载装饰艺术的想象。",
+      "timeline": [
+        {
+          "year": 1828,
+          "event": "Pierre-François-Pascal Guerlain在巴黎rue de Rivoli开设首店。",
+          "source": "https://www.guerlain.com/uk/en-uk/c/history.html",
+          "evidence": "官网历史将1828年巴黎首店列为品牌起点。"
+        },
+        {
+          "year": 1853,
+          "event": "为欧仁妮皇后创作Eau de Cologne Impériale，蜂纹瓶成为品牌标记。",
+          "source": "https://www.lvmh.com/en/our-maisons/perfumes-cosmetics/guerlain",
+          "evidence": "LVMH品牌页将皇室婚礼、香水与1853年直接关联。"
+        },
+        {
+          "year": 1870,
+          "event": "Aimé Guerlain推出Ne m’oubliez pas，采用可替换管装与按钮结构。",
+          "source": "https://www.guerlain.com/us/en-us/c/creators.html",
+          "evidence": "官网创作者档案将1870年Ne m’oubliez pas记为可替换口红的早期设计。"
+        },
+        {
+          "year": 1889,
+          "event": "Jicky问世，将天然与合成香气结合。",
+          "source": "https://www.guerlain.com/us/en-us/c/creators.html",
+          "evidence": "官网创作者档案列出Aimé Guerlain、Jicky与1889年。"
+        },
+        {
+          "year": 1925,
+          "event": "Jacques Guerlain创作Shalimar。",
+          "source": "https://www.lvmh.com/en/our-maisons/perfumes-cosmetics/guerlain",
+          "evidence": "LVMH品牌页明确记载Shalimar由Jacques Guerlain于1925年创作。"
+        },
+        {
+          "year": 2009,
+          "event": "珠宝设计师Lorenz Bäumer为Rouge G设计带双面镜的口红容器。",
+          "source": "https://www.guerlain.com/uk/en-uk/c/history.html",
+          "evidence": "官网历史的2009年章节将设计师、Rouge G和内置双镜结构关联。"
+        }
+      ],
+      "signatures": [
+        "蜂纹瓶与装饰瓶盖",
+        "香水、护肤与彩妆并行",
+        "Rouge G双面镜盒",
+        "可替换容器与个性化装饰"
+      ],
+      "source": "https://www.guerlain.com/uk/en-uk/c/history.html",
+      "sources": [
+        {
+          "label": "Guerlain — 官方品牌历史与口红容器",
+          "url": "https://www.guerlain.com/uk/en-uk/c/history.html"
+        },
+        {
+          "label": "Guerlain — 创作者档案",
+          "url": "https://www.guerlain.com/us/en-us/c/creators.html"
+        },
+        {
+          "label": "LVMH — Guerlain品牌档案",
+          "url": "https://www.lvmh.com/en/our-maisons/perfumes-cosmetics/guerlain"
+        }
+      ],
+      "classicItems": [],
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "tom-ford",
+      "name": "Tom Ford",
+      "nameZh": "汤姆·福特",
+      "country": "美国",
+      "founded": 2005,
+      "foundingNote": "母公司品牌档案以2005年为同名品牌创立年；2006年Black Orchid香水与2011年彩妆拓展分别记录，不把这些年份混作品牌起点。",
+      "categories": [],
+      "role": "beauty",
+      "aliases": [
+        "TOM FORD",
+        "汤姆·福特"
+      ],
+      "tagline": "把鲜明轮廓，收进日常的奢华物件",
+      "intro": "汤姆·福特的同名品牌把时装、眼镜、香水与彩妆放在同一个审美世界里，强调利落轮廓、感官表达与精致细节。香水先展开了这个世界的气味想象，之后口红与完整彩妆系列又把色彩带入日常。观察它的美妆产品，除了妆效，也可以留意外壳比例、标识位置和开启时的动作；这些小尺度的设计，与服装讲究的线条形成呼应。认识这个品牌适合从一个具体物件开始，再回到它的时装与香气语言，比较同一种风格如何在不同材质之间转换。",
+      "timeline": [
+        {
+          "year": 2005,
+          "event": "Tom Ford创立同名品牌，并与雅诗兰黛集团展开美妆合作。",
+          "source": "https://www.elcompanies.com/en/our-brands/tom-ford",
+          "evidence": "母公司现行品牌档案写明Founded in2005；集团历史亦在2005年记载美妆合作。"
+        },
+        {
+          "year": 2006,
+          "event": "首款香水Black Orchid于11月推出。",
+          "source": "https://media.elcompanies.com/files/e/estee-lauder-companies/global/investors/earnings-and-financials/annual-reports/ele-ar-07.pdf",
+          "evidence": "母公司2007年报TOM FORD BEAUTY章节明确写首款香水于2006年11月推出。"
+        },
+        {
+          "year": 2010,
+          "event": "品牌推出女装系列。",
+          "source": "https://www.elcompanies.com/en/our-brands/tom-ford",
+          "evidence": "母公司品牌时间线将女装首发列于2010年。"
+        },
+        {
+          "year": 2011,
+          "event": "以Private Blend Lip Color系列进入彩妆色彩品类。",
+          "source": "https://media.elcompanies.com/files/e/estee-lauder-companies/global/investors/earnings-and-financials/annual-reports/ele-ar-12.pdf",
+          "evidence": "母公司2012年报第88页品牌介绍将Lip Color Collection与2011年关联。"
+        },
+        {
+          "year": 2023,
+          "event": "雅诗兰黛集团完成对TOM FORD品牌及知识产权的收购。",
+          "source": "https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2023/04-28-2023-171511000",
+          "evidence": "2023年4月28日官方完成公告确认交易交割及品牌知识产权所有权。"
+        },
+        {
+          "year": 2024,
+          "event": "Haider Ackermann获任品牌创意总监。",
+          "source": "https://www.elcompanies.com/en/our-brands/tom-ford",
+          "evidence": "母公司现行品牌时间线明确标注2024年及该任命。"
+        }
+      ],
+      "signatures": [
+        "利落轮廓与精致比例",
+        "时装、眼镜与美妆的共同审美",
+        "香水与彩妆的感官表达",
+        "鲜明品牌标识"
+      ],
+      "source": "https://www.elcompanies.com/en/our-brands/tom-ford",
+      "sources": [
+        {
+          "label": "The Estée Lauder Companies — TOM FORD品牌档案",
+          "url": "https://www.elcompanies.com/en/our-brands/tom-ford"
+        },
+        {
+          "label": "ELC — 2007年报中的首款香水",
+          "url": "https://media.elcompanies.com/files/e/estee-lauder-companies/global/investors/earnings-and-financials/annual-reports/ele-ar-07.pdf"
+        },
+        {
+          "label": "ELC — 2012年报中的2011年彩妆",
+          "url": "https://media.elcompanies.com/files/e/estee-lauder-companies/global/investors/earnings-and-financials/annual-reports/ele-ar-12.pdf"
+        },
+        {
+          "label": "ELC — 2023年收购完成公告",
+          "url": "https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2023/04-28-2023-171511000"
+        }
+      ],
+      "classicItems": [],
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "valentino",
+      "name": "Valentino",
+      "nameZh": "华伦天奴",
+      "country": "意大利",
+      "founded": 1960,
+      "foundingNote": "官网区分1959年罗马首间Atelier与1960年Maison正式成立；2018年美妆许可协议、2021年彩妆系列另列。",
+      "categories": [],
+      "role": "beauty",
+      "aliases": [
+        "VALENTINO",
+        "华伦天奴"
+      ],
+      "tagline": "让高级定制的色彩，走进随身的美妆物件",
+      "intro": "华伦天奴从罗马的高级定制世界走来，服装中的色彩与戏剧感，也延伸到香水和彩妆。白色系列、巴黎秀场与鲜明的红色，共同构成了这个品牌不同侧面的记忆。美妆是一条较晚展开的线索：品牌通过许可合作发展香氛与化妆品，再把时装中的表达带到随身物件之中。欣赏它的口红，可以先看外壳的轮廓、装饰与标识，再把具体色号放回包装背景中比较；一件小物也能呈现高级定制强调的存在感，成为理解品牌设计语言的入口。",
+      "timeline": [
+        {
+          "year": 1960,
+          "event": "Valentino Garavani与Giancarlo Giammetti正式创立Maison Valentino。",
+          "source": "https://www.valentino.com/en-gr/v-universe/maison/history",
+          "evidence": "官网历史1960年The founding章节列出两位共同创始人；另将首间Atelier列于1959年。"
+        },
+        {
+          "year": 1962,
+          "event": "在佛罗伦萨Palazzo Pitti的Sala Bianca展示高级定制系列。",
+          "source": "https://www.valentino.com/en-gr/v-universe/maison/history",
+          "evidence": "官网1962年Pitti Immagine章节明确记载地点和展示。"
+        },
+        {
+          "year": 1968,
+          "event": "推出后来被称为White Collection的高级定制系列。",
+          "source": "https://www.valentino.com/en-gr/v-universe/maison/history",
+          "evidence": "官网1968年章节将一月的高级定制系列与White Collection名称关联。"
+        },
+        {
+          "year": 1978,
+          "event": "推出首款名为Valentino的香水。",
+          "source": "https://www.valentino.com/en-gr/v-universe/maison/history",
+          "evidence": "官网1978年The First parfum章节记载首款香水及巴黎发布活动。"
+        },
+        {
+          "year": 2018,
+          "event": "与欧莱雅签署香水及高端美妆的全球长期许可协议。",
+          "source": "https://www.loreal-finance.com/eng/news-release/loreal-and-valentino-announce-worldwide-license-agreement-fine-fragrances-and-luxury",
+          "evidence": "2018年5月28日官方公告确认签约，并写明协议拟于2019年1月1日生效。"
+        },
+        {
+          "year": 2021,
+          "event": "推出Valentino Beauty彩妆系列，包括可替换口红等产品。",
+          "source": "https://www.makeup.com/product-and-reviews/all-products-and-reviews/valentino-beauty-collection-launch",
+          "evidence": "欧莱雅旗下Makeup.com于2021年7月1日发布的首发介绍列出Rosso Valentino口红及其他彩妆。"
+        }
+      ],
+      "signatures": [
+        "罗马高级定制的起点",
+        "鲜明色彩与装饰表达",
+        "时装语言延伸到香水与彩妆",
+        "口红外壳作为随身配件"
+      ],
+      "source": "https://www.valentino.com/en-gr/v-universe/maison/history",
+      "sources": [
+        {
+          "label": "Valentino — 官方品牌历史",
+          "url": "https://www.valentino.com/en-gr/v-universe/maison/history"
+        },
+        {
+          "label": "L’Oréal — 2018年全球美妆许可公告",
+          "url": "https://www.loreal-finance.com/eng/news-release/loreal-and-valentino-announce-worldwide-license-agreement-fine-fragrances-and-luxury"
+        },
+        {
+          "label": "Makeup.com by L’Oréal — 2021年彩妆首发",
+          "url": "https://www.makeup.com/product-and-reviews/all-products-and-reviews/valentino-beauty-collection-launch"
+        }
+      ],
+      "classicItems": [],
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "christian-louboutin",
+      "name": "Christian Louboutin",
+      "nameZh": "克里斯提·鲁布托",
+      "country": "法国",
+      "founded": 1991,
+      "foundingNote": "1991年巴黎首店为鞋履Maison起点；红底设计记于1992年，Christian Louboutin Beauty由2014年的指甲油展开，不能把美妆起点等同于品牌成立。",
+      "categories": [],
+      "role": "beauty",
+      "aliases": [
+        "CHRISTIAN LOUBOUTIN",
+        "克里斯提·鲁布托"
+      ],
+      "tagline": "让一抹红色，从鞋底走进美妆的舞台",
+      "intro": "克里斯提·鲁布托的故事与巴黎、舞台和旅行紧密相连。鲜红鞋底让鞋履在行走之间留下辨识度，随后手袋、男士系列与美妆也陆续展开。美妆最初由一瓶红色指甲油进入品牌世界，把鞋底的光泽与色彩转成手中的物件。欣赏它的容器，可以留意雕塑般的轮廓、装饰细节和红色的使用方式；包装并不只是收纳，也参与塑造整体的戏剧感。认识这个品牌时，从鞋履回看美妆，再比较两者的线条与姿态，往往能发现同一种舞台想象。",
+      "timeline": [
+        {
+          "year": 1991,
+          "event": "在巴黎Galerie Véro-Dodat开设第一间精品店。",
+          "source": "https://apac.christianlouboutin.com/au_en/la-maison-christian-louboutin.html",
+          "evidence": "官网Maison时间线的1991年章节明确记载首店与地址。"
+        },
+        {
+          "year": 1992,
+          "event": "以鲜红指甲油涂抹鞋底，形成品牌标志性的红底设计。",
+          "source": "https://apac.christianlouboutin.com/au_en/la-maison-christian-louboutin.html",
+          "evidence": "官网1992年The Red sole章节记载红色指甲油与鞋底设计。"
+        },
+        {
+          "year": 2003,
+          "event": "推出品牌首款手袋。",
+          "source": "https://apac.christianlouboutin.com/au_en/la-maison-christian-louboutin.html",
+          "evidence": "官网2003年Accessories in perfect symbiosis章节记载first handbag。"
+        },
+        {
+          "year": 2009,
+          "event": "展开男士系列，与歌手Mika的交流成为相关创作线索。",
+          "source": "https://apac.christianlouboutin.com/au_en/la-maison-christian-louboutin.html",
+          "evidence": "官网2009年章节将Mika的交流与男士系列诞生关联。"
+        },
+        {
+          "year": 2014,
+          "event": "以红色指甲油开启Christian Louboutin Beauty。",
+          "source": "https://apac.christianlouboutin.com/au_en/la-maison-christian-louboutin.html",
+          "evidence": "官网2014年章节将红色指甲油作为美妆线起点。"
+        },
+        {
+          "year": 2018,
+          "event": "与Puig宣布长期美妆许可协议。",
+          "source": "https://www.puig.com/en/history/",
+          "evidence": "Puig官方历史2018年节点记载Christian Louboutin长期许可协议。"
+        }
+      ],
+      "signatures": [
+        "标志性红底与红色细节",
+        "巴黎、歌舞舞台与旅行灵感",
+        "雕塑感的线条与装饰",
+        "从鞋履延伸到美妆容器"
+      ],
+      "source": "https://apac.christianlouboutin.com/au_en/la-maison-christian-louboutin.html",
+      "sources": [
+        {
+          "label": "Christian Louboutin — 官方Maison历史",
+          "url": "https://apac.christianlouboutin.com/au_en/la-maison-christian-louboutin.html"
+        },
+        {
+          "label": "Puig — 官方集团历史及2018年许可",
+          "url": "https://www.puig.com/en/history/"
+        }
+      ],
+      "classicItems": [],
+      "checkedAt": "2026-11-08"
     }
   ],
   "items": [

@@ -17,6 +17,7 @@ D=json.loads((ROOT/'tools/content.json').read_text())
 GALLERIES=product_gallery.load()
 CLASSIC_COVERS=classic_covers.selection(D,GALLERIES)
 CATALOG=brand_catalog.enrich(D)
+LIPSTICKS=perfumery.annotate_lipstick_brands(D)
 C={x['id']:x for x in D['categories']}
 B={x['id']:x for x in D['brands']}
 I={x['id']:x for x in D['items']}
@@ -121,7 +122,9 @@ def productpage(x):
 
 def brandcard(b,prefix=''):
     label='联名品牌 · ' if b.get('role')=='collaborator' else ''
-    return f'''<a class="brand-card reveal" href="{prefix}brand/{b['id']}.html"><span class="eyebrow">{e(b['country'])} · EST. {b['founded']}</span><h3>{e(b['name'])}</h3><span class="brand-zh">{b['nameZh']}</span><p>{b['tagline']}</p><span class="brand-card-bottom">{label}本站收录 {b['itemCount']} 项 <span>↗</span></span></a>'''
+    coverage=f'本站收录 {b["itemCount"]} 项' if b['itemCount'] else ''
+    if b['lipstickCount']:coverage+=(' · ' if coverage else '')+f'口红包装 {b["lipstickCount"]} 款'
+    return f'''<a class="brand-card reveal" href="{prefix}brand/{b['id']}.html"><span class="eyebrow">{e(b['country'])} · EST. {b['founded']}</span><h3>{e(b['name'])}</h3><span class="brand-zh">{b['nameZh']}</span><p>{b['tagline']}</p><span class="brand-card-bottom">{label}{coverage} <span>↗</span></span></a>'''
 
 def crumbs(parts,prefix):
     return '<nav class="breadcrumbs" aria-label="面包屑"><a href="'+prefix+'index.html">首页</a>'+''.join(' <span>/</span> '+(f'<a href="{url}">{e(label)}</a>' if url else f'<span aria-current="page">{e(label)}</span>') for label,url in parts)+'</nav>'
@@ -259,6 +262,10 @@ def brandpage(b):
 <a class="text-link" href="../cat/{c['id']}.html">探索{c['nameZh']}栏目 ↗</a></div>
 <div class="product-grid">{''.join(card(x,'item','../') for x in items)}</div></section>''')
     categories=''.join(f'<a href="#catalog-{c["id"]}">{c["nameZh"]} ↗</a>' for c in D['categories'] if any(x['category']==c['id'] for x in catalog))
+    lip_links=perfumery.brand_lipstick_links(LIPSTICKS,b['id'],usd)
+    if b['lipstickCount']:categories+='<a href="#catalog-lipstick">口红 · 包装 ↗</a>'
+    coverage=f'<a href="#catalog">本站收录 <strong>{b["itemCount"]}</strong> 项 ↓</a>' if catalog else ''
+    if b['lipstickCount']:coverage+=f'<a href="#catalog-lipstick">口红包装 <strong>{b["lipstickCount"]}</strong> 款 ↓</a>'
     partner=b.get('role')=='collaborator'
     main_names=list(dict.fromkeys(B[x['brand']]['name'] for x in catalog if x['brand']!=b['id']))
     role_note=f'<p class="brand-role-note">联名品牌 · 本站收录与 {e("、".join(main_names))} 合作的款式，单品页分别链接参与品牌。</p>' if partner else ''
@@ -269,17 +276,19 @@ def brandpage(b):
     for t in b['timeline']:
         citation=f' <a href="{e(t["source"])}" target="_blank" rel="noopener" aria-label="{t["year"]} 年资料来源">↗</a>' if t.get('source') else ''
         timeline.append(f'<li><span>{t["year"]}</span><p>{e(t["event"])}{citation}</p></li>')
+    catalog_section=f'''<section class="section brand-catalog" id="catalog">{sectionhead('IN THE MUSELUX CATALOG','本站收录 · 从款式继续认识它')}
+<p class="section-intro">{b['itemCount']} 项收录：{catalog_note}。{'年度卡片保留入选年份和美元价格口径。' if any(x.get('annualEdit') for x in catalog) else ''}</p>{''.join(groups)}</section>''' if catalog else ''
     content=f'''<div class="container">{crumbs([('品牌图鉴','../brands.html'),(b['name'],None)],'../')}
 <section class="brand-opening"><div><p class="eyebrow">{'COLLABORATION PARTNER' if partner else 'THE HOUSE'} / {e(b['country'])} / EST. {b['founded']}</p>
 <h1>{e(b['name'])}</h1><p class="brand-subtitle">{e(b['nameZh'])} <span>—</span> {e(b['tagline'])}</p></div>
 <span class="brand-year">{b['founded']}</span></section>{role_note}
-<div class="brand-index-summary"><a href="#catalog">本站收录 <strong>{b['itemCount']}</strong> 项 ↓</a><nav aria-label="本站品牌款式品类">{categories}</nav></div>
+<div class="brand-index-summary">{coverage}<nav aria-label="本站品牌款式品类">{categories}</nav></div>
 <div class="brand-intro"><p>{e(b['intro'])}</p><div class="signature-box"><span class="eyebrow">A LANGUAGE OF ITS OWN</span>
 <h2>一眼识得的细节</h2><div>{''.join(f'<span>{e(s)}</span>' for s in b['signatures'])}</div></div></div>
 <section class="timeline-section">{sectionhead('A FEW CHAPTERS IN TIME','时间留下的几个节点')}
 <ol class="timeline">{''.join(timeline)}</ol>{history_note}<div class="brand-history-sources">{source_links}</div></section>
-<section class="section brand-catalog" id="catalog">{sectionhead('IN THE MUSELUX CATALOG','本站收录 · 从款式继续认识它')}
-<p class="section-intro">{b['itemCount']} 项收录：{catalog_note}。{'年度卡片保留入选年份和美元价格口径。' if any(x.get('annualEdit') for x in catalog) else ''}</p>{''.join(groups)}</section>
+{catalog_section}{lip_links}
+
 {womens_styles.brand_links(STYLE_ATLAS,b['id'])}<section class="section">{sectionhead('KEEP READING','从相关品类，继续慢读')}
 <div class="article-grid">{''.join(card(a,prefix='../') for a in related)}</div></section></div>'''
     page('brand/'+b['id']+'.html',b['name']+' '+b['nameZh'],b['tagline']+'。阅读品牌历史、设计细节与本站收录款式。',content,'brand',b['id'])
@@ -326,7 +335,7 @@ def detailpages():
 def data_script():
     # Long stories and research records already live in static HTML. Only ship
     # fields used by browser filtering/search, keeping mobile memory use small.
-    fields={'brands':('id','name','nameZh','country','founded','categories','tagline','itemCount','role','aliases'),'items':('id','brand','category','name','nameZh','oneLiner','reference','color','materials','styleEdit','priceUSD','priceStatus','image','brandNames','collaboratorBrands'),'articles':('id','category','title','excerpt','cover')}
+    fields={'brands':('id','name','nameZh','country','founded','categories','tagline','itemCount','lipstickCount','role','aliases'),'items':('id','brand','category','name','nameZh','oneLiner','reference','color','materials','styleEdit','priceUSD','priceStatus','image','brandNames','collaboratorBrands'),'articles':('id','category','title','excerpt','cover')}
     runtime={'categories':D['categories'],'styles':womens_styles.runtime(STYLE_ATLAS)}
     for key,keys in fields.items():
         runtime[key]=[{k:x[k] for k in keys if k in x} for x in D[key]]

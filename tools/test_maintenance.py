@@ -251,6 +251,20 @@ class MaintenanceTests(unittest.TestCase):
         path.write_text(json.dumps(changed))
         with self.assertRaisesRegex(ValueError,'unique'):
             perfumery.lipstick_selection(data,root)
+        changed=copy.deepcopy(original)
+        changed['entries'][1]['packagingId']=changed['entries'][0]['packagingId']
+        path.write_text(json.dumps(changed))
+        with self.assertRaisesRegex(ValueError,'container designs'):
+            perfumery.lipstick_selection(data,root)
+        changed=copy.deepcopy(original)
+        next(e for e in changed['entries'] if e.get('fullSizeComponents'))['priceUSD']+=1
+        path.write_text(json.dumps(changed))
+        with self.assertRaisesRegex(ValueError,'include its case and colour'):
+            perfumery.lipstick_selection(data,root)
+        path.write_text(json.dumps(original))
+        perfumery.annotate_lipstick_brands(data)
+        self.assertEqual(sum(b['lipstickCount'] for b in data['brands']),20)
+        self.assertTrue(all(b['lipstickCount'] for b in data['brands'] if b.get('role')=='beauty'))
 
     def test_only_retired_generated_pages_are_removed(self):
         temporary=tempfile.TemporaryDirectory(prefix='muselux-retirement-');self.addCleanup(temporary.cleanup)

@@ -33,7 +33,7 @@ def teaser(data, prefix=''):
 
 
 def lipstick_selection(data, root=ROOT):
-    """Twenty unique, sourced full-size lipstick examples; no refill quotes."""
+    """One card per distinct container design; shade variants stay in one card."""
     from datetime import date
     from urllib.parse import urlsplit
     import re
@@ -42,7 +42,9 @@ def lipstick_selection(data, root=ROOT):
     brands = {b['id']: b for b in data['brands']}
     if config.get('targetCount') != 20 or len(entries) != 20:
         raise ValueError('Lipstick edit needs twenty full-size examples')
-    seen_ids, seen_refs = set(), set()
+    if config.get('selectionPolicy') != 'one-card-per-container':
+        raise ValueError('Lipstick edit needs the container selection policy')
+    seen_ids, seen_refs, seen_cases = set(), set(), set()
     for entry in entries:
         if entry['brand'] not in brands:
             raise ValueError('Lipstick prices need existing brand archives')
@@ -51,16 +53,40 @@ def lipstick_selection(data, root=ROOT):
             raise ValueError('Lipstick IDs and brand references must be unique')
         seen_ids.add(entry['id'])
         seen_refs.add(identity)
+        case = entry.get('packagingId', '')
+        if not re.fullmatch(r'[a-z0-9-]+', case) or case in seen_cases or not entry.get('packagingTitleZh') or not entry.get('packagingSource'):
+            raise ValueError('Lipstick container designs must be unique and sourced')
+        seen_cases.add(case)
         if entry.get('kind') != 'full-size' or entry.get('currency') != 'USD' or 'refill' in entry:
             raise ValueError('Lipstick prices require full-size format and USD, without refill quotes')
         if entry.get('priceStatus') != 'official-snapshot' or not entry.get('reference') or not entry.get('method'):
             raise ValueError('Lipstick quote needs a specific sourced reference')
         if type(entry.get('priceUSD')) not in (int, float) or not 0 < entry['priceUSD'] < 1000:
             raise ValueError('Invalid lipstick price')
-        date.fromisoformat(entry['checkedAt'])
-        if urlsplit(entry['source']).scheme != 'https':
-            raise ValueError('Lipstick quote needs a source URL')
+        components = entry.get('fullSizeComponents', [])
+        if components and (len(components) != 2 or sum(p['priceUSD'] for p in components) != entry['priceUSD'] or not entry.get('priceBasisZh')):
+            raise ValueError('Complete lipstick price must include its case and colour')
+        for offer in [entry] + components:
+            date.fromisoformat(offer['checkedAt'])
+            if urlsplit(offer['source']).scheme != 'https':
+                raise ValueError('Lipstick quote needs a source URL')
     return [(entry, brands[entry['brand']]) for entry in entries]
+
+
+def annotate_lipstick_brands(data):
+    """Separate beauty-note coverage from the core and annual catalog counts."""
+    selected = lipstick_selection(data)
+    for brand in data['brands']:
+        brand['lipstickCount'] = sum(e['brand'] == brand['id'] for e, _ in selected)
+    return selected
+
+
+def brand_lipstick_links(selected, brand_id, price_text):
+    entries = [e for e, _ in selected if e['brand'] == brand_id]
+    if not entries:
+        return ''
+    links = ''.join(f'<li><a href="../perfumery.html#lipstick-{e["id"]}"><span lang="en">{escape(e["series"])}</span> · {escape(e["packagingTitleZh"])} ↗</a><span>{price_text(e["priceUSD"])}</span></li>' for e in entries)
+    return f'<section class="section brand-lipsticks" id="catalog-lipstick"><p class="eyebrow">LIPSTICK / THE CONTAINER EDIT</p><h2>口红 · 包装设计</h2><p class="section-intro">本站收录 {len(entries)} 款容器设计；同壳色号合并展示。正装价格为所列版本的美国官网美元参考，未含税。</p><ul>{links}</ul></section>'
 
 
 def lipstick_guide(data, price_text):
@@ -70,10 +96,15 @@ def lipstick_guide(data, price_text):
     for entry, brand in selected:
         label = entry.get('brandLabel', brand['name'])
         first_by_brand.setdefault(entry['brand'], (entry['id'], label))
-        photograph = f'''<figure><a class="lipstick-photo lipstick-photo-{entry['brand']}" href="{escape(entry['image'])}" target="_blank" rel="noopener noreferrer" aria-label="放大查看 {escape(label)} {escape(entry['sample'])} 实物图"><img src="{escape(entry['image'])}" width="{entry['imageWidth']}" height="{entry['imageHeight']}" alt="{escape(entry['imageAlt'])}" loading="lazy" decoding="async"></a><figcaption><a href="{escape(entry['imageSourcePage'], quote=True)}" target="_blank" rel="noopener noreferrer">{escape(entry['imageCredit'])} ↗</a></figcaption></figure>'''
-        cards.append(f'''<article class="lipstick-card" id="lipstick-{entry['id']}">{photograph}<div class="lipstick-card-copy"><h3><a href="brand/{brand['id']}.html">{escape(label)} ↗</a></h3><p class="lipstick-series" lang="en">{escape(entry['series'])}</p><p class="lipstick-shade" lang="en">{escape(entry['sample'])}</p><p class="lipstick-description">{escape(entry['descriptionZh'])}</p><dl class="lipstick-offers"><div><dt>正装 · USD</dt><dd><a href="{escape(entry['source'], quote=True)}" target="_blank" rel="noopener noreferrer">{price_text(entry['priceUSD'])} ↗</a><small><time datetime="{entry['checkedAt']}">{entry['checkedAt']}</time> 复核</small></dd></div></dl></div></article>''')
+        photograph = f'''<figure><a class="lipstick-photo lipstick-photo-{entry['brand']}" href="{escape(entry['image'])}" target="_blank" rel="noopener noreferrer" aria-label="放大查看 {escape(label)} {escape(entry['series'])} 容器实物图"><img src="{escape(entry['image'])}" width="{entry['imageWidth']}" height="{entry['imageHeight']}" alt="{escape(entry['imageAlt'])}" loading="lazy" decoding="async"></a><figcaption><a href="{escape(entry['imageSourcePage'], quote=True)}" target="_blank" rel="noopener noreferrer">{escape(entry['imageCredit'])} ↗</a></figcaption></figure>'''
+        alternatives = ''
+        if entry.get('colourAlternatives'):
+            alternatives = '<details class="lipstick-colours"><summary>同壳其他版本 · 合并查看</summary><p lang="en">'+escape(' / '.join(entry['colourAlternatives']))+'</p></details>'
+        anchors = ''.join(f'<span id="lipstick-{escape(i)}" class="lipstick-merged-anchor"></span>' for i in entry.get('mergedIds', []))
+        basis = f'<small>{escape(entry["priceBasisZh"])}</small>' if entry.get('priceBasisZh') else ''
+        cards.append(f'''<article class="lipstick-card" id="lipstick-{entry['id']}">{anchors}{photograph}<div class="lipstick-card-copy"><h3><a href="brand/{brand['id']}.html">{escape(label)} ↗</a></h3><p class="lipstick-series" lang="en">{escape(entry['series'])}</p><h4 class="lipstick-case-title">{escape(entry['packagingTitleZh'])}</h4><p class="lipstick-description">{escape(entry['descriptionZh'])}</p><p class="lipstick-shade">图示参考：<span lang="en">{escape(entry['sample'])}</span></p>{alternatives}<dl class="lipstick-offers"><div><dt>正装 · USD</dt><dd><a href="{escape(entry['source'], quote=True)}" target="_blank" rel="noopener noreferrer">{price_text(entry['priceUSD'])} ↗</a>{basis}<small><time datetime="{entry['checkedAt']}">{entry['checkedAt']}</time> 复核</small></dd></div></dl></div></article>''')
     shortcuts = ''.join(f'<a href="#lipstick-{identity}">{escape(label)} <span>{sum(e["brand"]==brand_id for e, _ in selected)}</span></a>' for brand_id, (identity, label) in first_by_brand.items())
-    return f'''<section class="lipstick-market" id="lipstick-prices" aria-labelledby="lipstick-prices-title"><header><p class="eyebrow rose-text">BEAUTY NOTES / 20 LIPSTICKS AT A GLANCE</p><h2 id="lipstick-prices-title">口红，一眼看懂款式与价格</h2><p>{len(first_by_brand)} 个品牌，{len(selected)} 款具体正装，直观看包装、膏体与消费价格。本组选取的官网参考价为 <strong>{price_text(min(prices))}–{price_text(max(prices))}</strong>，仅代表这组样本。图片可点击放大，展示色以实物为准。</p><p class="lipstick-price-caption">仅列正装价格 · 美国官网参考 · USD · 未含税</p><nav class="lipstick-shortcuts" aria-label="跳至口红品牌">{shortcuts}</nav></header><div class="lipstick-card-grid">{''.join(cards)}</div><div class="lipstick-reading"><p><strong>先确认规格。</strong>每张卡片只记录所列系列、色号与包装版本的正装报价。比较时先确认是同一件商品，再看价格差。</p><p><strong>再看折扣与套装。</strong>比较同一系列、规格和包装的税后实付价；套装要逐件核对容量，赠品和迷你装不按正装支数计算。</p><p><strong>把价格当预算线索。</strong>这些是逐项注明日期的官网快照；价格差本身不能说明妆效或适合程度。样本色号与图片对应，点击价格可查看官方页面。</p></div></section>'''
+    return f'''<section class="lipstick-market" id="lipstick-prices" aria-labelledby="lipstick-prices-title"><header><p class="eyebrow rose-text">BEAUTY NOTES / THE LIPSTICK CONTAINER EDIT</p><h2 id="lipstick-prices-title">口红，先看外壳与价格</h2><p>从 {len(first_by_brand)} 个品牌选出 {len(selected)} 种包装设计：看管身轮廓、表面细节与容器结构。同一外壳的不同色号合并展示，每张卡片只用一张代表图。本组选款正装参考价为 <strong>{price_text(min(prices))}–{price_text(max(prices))}</strong>；图片可点击放大。</p><p class="lipstick-price-caption">仅列正装价格 · 美国官网参考 · USD · 未含税</p><nav class="lipstick-shortcuts" aria-label="跳至口红品牌">{shortcuts}</nav></header><div class="lipstick-card-grid">{''.join(cards)}</div><div class="lipstick-reading"><p><strong>先看容器。</strong>把花卉外壳、雕花金管、双镜盒与铆钉管放在一起比较。相同外壳的其他色号只作文字补充，图中色号用于辨认所示版本。</p><p><strong>再看完整正装价格。</strong>价格对应所列包装。需要自选外壳与膏体的产品，会注明完整组合的价格口径；套装、迷你装和单独外壳不作为一整支口红比较。</p><p><strong>把价格当预算线索。</strong>这些是逐项注明日期的官网参考；价格差本身不能说明妆效或适合程度。点击价格查看来源，展示颜色以实物为准。</p></div></section>'''
 
 
 def render(data, page, price_text, review_span):
@@ -88,4 +119,4 @@ def render(data, page, price_text, review_span):
         image = f'<a class="perfumery-photograph" href="item/{product["id"]}.html"><img src="{escape(product["image"])}" width="{product["imageWidth"]}" height="{product["imageHeight"]}" alt="{escape(brand["name"]+" "+product["name"]+" — "+product["color"])}" {loading}><span>{escape(product["imageCredit"])}</span></a>'
         rows.append(f'''<article class="perfumery-house" id="house-{brand['id']}">{image}<div class="perfumery-house-copy"><p class="eyebrow rose-text">{index:02} / {escape(brand['country'])} / EST. {brand['founded']}</p><h2>{escape(brand['name'])}</h2><p class="perfumery-house-zh">{escape(brand['nameZh'])} · {escape(brand['tagline'])}</p><p>{escape(entry['introZh'])}</p><a class="text-link" href="brand/{brand['id']}.html">品牌故事与时间线 ↗</a><div class="perfumery-bottle" lang="en"><p class="eyebrow">A FIRST ENCOUNTER</p><h3><a href="item/{product['id']}.html">{escape(product['name'])} ↗</a></h3><p>{escape(' · '.join(product['sizes']))}</p><p class="perfumery-scent">{escape(entry['scentEn'])}</p><p>{escape(product['oneLiner'])}</p><p class="perfumery-price">{price_text(product['priceUSD'])} <span>USD · before tax</span></p><p class="perfumery-price-context">{escape(product['priceContextEn'])}</p><a class="text-link" href="item/{product['id']}.html">Photographs & design notes ↗</a></div></div></article>''')
     content = f'''<div class="container perfumery-page"><nav class="breadcrumbs" aria-label="面包屑"><a href="index.html">首页</a><span>/</span><span aria-current="page">{TITLE_ZH}</span></nav><header class="perfumery-opening"><p class="eyebrow rose-text">PERFUMERY &amp; BEAUTY / VOL. 01</p><h1>把气味，读成一个名字<span class="rose-dot">。</span></h1><p class="perfumery-english" lang="en">{count_en} houses. {count_en} ways to leave an impression.</p><p>香水、香氛与居家气味，是这些品牌的重要表达。先读品牌故事，再从一款代表作认识它的气味语言；木质、花香、琥珀与清新气息，各有不同的入口。另附一份简洁的口红价格速览。</p><nav class="perfumery-shortcuts" aria-label="跳至本页板块">{shortcuts}</nav></header><div class="perfumery-houses">{''.join(rows)}</div><aside class="perfumery-reading"><p class="eyebrow">BEFORE YOU CHOOSE</p><h2>先试闻，再决定</h2><p>这里是编辑选集。每款价格只对应所列容量与浓度，美元价格未含税；同名作品的 Eau de Parfum、Extrait 与 Cologne 需分别确认。香调词描述气味印象，不是完整配方，也不能保证在每个人皮肤上的留香表现。</p><p lang="en">Official U.S. sources reviewed {escape(review_span([p for _, _, p in selected]))}. Confirm the current price and availability with the brand. Each detail page credits its original photographs.</p><a class="text-link" href="cat/fragrance.html">继续读香水经典与其他款式 ↗</a></aside>{lipstick_guide(data, price_text)}</div>'''
-    page('perfumery.html', TITLE_EN, f'走进 {count} 家香氛品牌，阅读代表香水与美元价格；附20款口红的实物图片、款式说明与正装美元价格。', content, 'perfumery')
+    page('perfumery.html', TITLE_EN, f'走进 {count} 家香氛品牌，阅读代表香水与美元价格；附20种口红包装的实物图片、容器说明与正装美元价格。', content, 'perfumery')

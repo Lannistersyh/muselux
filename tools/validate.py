@@ -16,6 +16,7 @@ from style_policy import PRICE_STATUSES, valid_category_counts, is_resale, valid
 ROOT=Path(__file__).resolve().parents[1]
 D=json.loads((ROOT/'tools/content.json').read_text())
 CATALOG=enrich(D)
+LIPSTICKS=perfumery.annotate_lipstick_brands(D)
 BRANDS={b['id']:b for b in D['brands']}
 PRODUCTS={x['id']:x for x in CATALOG}
 CLASSIC_COVERS=classic_covers.selection(D,product_gallery.load())
@@ -135,7 +136,7 @@ article_counts={}
 for b in D['brands']:
     check(150<=cjk(b['intro'])<=200,b['id']+': intro outside 150–200 CJK characters')
     check(len(b['timeline'])>=6,b['id']+': fewer than six timeline nodes')
-    check(b['itemCount']>=1,b['id']+': no linked catalog item')
+    check(b['itemCount']>=1 or (b.get('role')=='beauty' and b['lipstickCount']>=1),b['id']+': no linked catalog item or sourced beauty note')
     check(len(b['itemIds'])==len(set(b['itemIds'])),b['id']+': duplicate catalog association')
     for product_id in b['classicItems']:
         check(product_id in PRODUCTS and PRODUCTS[product_id]['brand']==b['id'],b['id']+': incorrect classic association '+product_id)
@@ -145,7 +146,11 @@ for b in D['brands']:
         linked={Path(urlsplit(ref).path).stem for ref in doc.refs if urlsplit(ref).path.startswith('../item/')}
         check(linked==set(b['itemIds']),b['id']+': brand page omits or misattributes catalog products')
         source=target.read_text()
-        check(f'本站收录 <strong>{b["itemCount"]}</strong> 项' in source,b['id']+': wrong catalog count')
+        if b['itemCount']:check(f'本站收录 <strong>{b["itemCount"]}</strong> 项' in source,b['id']+': wrong catalog count')
+        if b['lipstickCount']:
+            check('catalog-lipstick' in doc.ids,b['id']+': lipstick section missing')
+            for lipstick,_ in LIPSTICKS:
+                if lipstick['brand']==b['id']:check('../perfumery.html#lipstick-'+lipstick['id'] in doc.refs,b['id']+': lipstick link missing')
         for category in {PRODUCTS[k]['category'] for k in b['itemIds']}:
             check(category in b['categories'],b['id']+': represented category absent')
             check('catalog-'+category in doc.ids,b['id']+': category catalog section absent')
@@ -216,7 +221,8 @@ try:
         check(price_text(product) in source,product['id']+': perfumery price absent')
         check(product['priceContextEn'] in source,product['id']+': perfumery price date/provenance absent')
     check(doc is not None and 'lipstick-prices' in doc.ids,'Missing compact lipstick price guide')
-    lip_photos=json.loads((ROOT/'tools/research/lipstick-photos-2026-11-08.json').read_text())['images']
+    lip_config=json.loads((ROOT/'tools/research/lipstick-prices.json').read_text())
+    lip_photos=json.loads((ROOT/lip_config['photoEvidence']).read_text())['images']
     check(len(lip_photos)==20 and len({p['id'] for p in lip_photos})==20,'Expected twenty uniquely identified lipstick photograph records')
     check(len({p['sha256'] for p in lip_photos})==len(lip_photos),'Lipstick photographs must be distinct')
     lip_photo_by_id={p['id']:p for p in lip_photos}
@@ -348,7 +354,7 @@ try:
     atlas=womens_styles.load(D)
     check(runtime.get('styles')==womens_styles.runtime(atlas),'Runtime style guide index differs from its source')
     for brand_id,b in runtime_brands.items():
-        check(b['itemCount']==BRANDS[brand_id]['itemCount'],brand_id+': runtime brand count mismatch')
+        check(b['itemCount']==BRANDS[brand_id]['itemCount'] and b.get('lipstickCount')==BRANDS[brand_id]['lipstickCount'],brand_id+': runtime brand count mismatch')
     for product_id,x in runtime_items.items():
         actual=PRODUCTS[product_id]
         for field in ('brand','category','name','image','priceUSD','brandNames'):
