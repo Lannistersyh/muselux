@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-26",
+  "checkedAt": "2026-11-11",
   "categoryNotes": {
     "necklace": "From quiet gold lines to Gothic silver pendants, compare the material, proportion and exact format of each pictured example. Brand retail references and resale asking prices are individually labelled.",
     "jewelry": "Interlocking circles, quilted gold and sculptural silver meet the hand and wrist. Compare these selected rings and bracelets through exact sizes, materials, condition notes and clearly identified price sources."
@@ -323,7 +323,7 @@
       "materials": [
         "Sterling silver (seller description)"
       ],
-      "priceUSD": 2950,
+      "priceUSD": 2800,
       "source": "https://www.fashionphile.com/products/chrome-hearts-sterling-silver-cemetery-cross-ring-65-11-1962167",
       "introEn": "The Cemetery Cross ring turns a repeating motif into a broad silver surface. Raised crosses meet across the band, their bright edges set against dark recesses that make the pattern readable from a distance. It has enough visual presence to anchor the hand on its own, while the repeated shapes reward a closer look. This particular resale example is listed in sterling silver, in US size 11, with a seller-measured width of 20 millimeters. Its scale makes proportion the central consideration: the ring becomes a visible part of the silhouette.",
       "featuresEn": [
@@ -333,13 +333,13 @@
       ],
       "stylingEn": "Let the wide band sit beside a plain shirt cuff or a dark knit sleeve, where its outline stays clear. Begin with one statement ring on the hand; a slim bracelet can add another silver note without crowding the fingers.",
       "imageAlt": "Chrome Hearts Cemetery Cross ring in sterling silver, with raised cross motifs and dark recesses, US size 11.",
-      "priceEvidence": "Direct product HTML structured data and the exact listing Shopify product JSON both identify item 1962167 and a USD 2,950 asking price. Product JSON reports price 295000 in USD cents and available=true. This is a seller resale ask, not an official Chrome Hearts retail price.",
+      "priceEvidence": "FASHIONPHILE US product-page snapshot reviewed on 11 November 2026 identifies item1962167 with a USD2,800 resale asking price and a struck-through USD2,950 comparison price. It states Excellent condition, faint scratches and Add to Bag. The direct product JSON request returned429 and was not retried; no live checkout quote is asserted. This is the merchant resale ask for one pre-owned piece, not an official Chrome Hearts retail price.",
       "id": "chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167",
       "priceStatus": "resale-ask",
       "priceLabel": "Seller resale asking price (USD)",
-      "priceAsOf": "2026-10-26",
-      "checkedAt": "2026-10-26",
-      "availabilityEn": "Seller listed this exact piece as available when checked on 26 October 2026; availability may change.",
+      "priceAsOf": "2026-11-11",
+      "checkedAt": "2026-11-11",
+      "availabilityEn": "The merchant page snapshot reviewed on 11 November 2026 displays Add to Bag for this exact piece. Confirm the current price and availability with the seller.",
       "editorialLabelZh": "克罗心经典银饰精选",
       "image": "assets/img/products/chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167.webp",
       "imageSource": "https://cdn.shopify.com/s/files/1/0894/3186/7695/files/0270c09aa633a9cafbdf7b5d452fcb80.jpg?v=1791569364",
@@ -356,7 +356,7 @@
         "sha256": "aaf537d2e545f5c86a5bf59e170fce71bd141df6a80da6b41df28cc654899079",
         "processing": "Downloaded original JPEG; applied EXIF orientation if present; retained the full frame; downscaled proportionally to at most 1200 px on the longest side using Lanczos; encoded WebP quality 88, method 6. No crop, reflection, compositing, retouching, or generated angle."
       },
-      "sourceSnapshotNote": "Direct static HTML and the exact listing Shopify product JSON were retrieved on 26 October 2026. Prices are resale asking prices for these individual pieces. Listing identifiers are merchant references, not manufacturer model numbers. No product weight, gemstone specification, release date, official MSRP, sales ranking or quantity claim is inferred.",
+      "sourceSnapshotNote": "FASHIONPHILE US listing reader snapshot reviewed on 11 November 2026: USD2,800 current resale ask versus USD2,950 comparison price, item1962167. Original sourceSnapshots hashes refer to the direct HTML and product JSON retrieved on 26 October 2026; that USD2,950 observation is retained in priceHistory. A current direct JSON request was rate-limited and not retried. No live checkout, official brand MSRP, release date or limited-edition claim is inferred.",
       "sourceSnapshots": {
         "HTML": {
           "sha256": "129eb808eb6a0bcebf9a29543884f49c6c7aedff69d0f7ebb20904c470f71624",
@@ -371,7 +371,19 @@
       "born": "Classic motif; debut date not verified",
       "designer": "Chrome Hearts",
       "referenceType": "Merchant listing reference, not a manufacturer SKU",
-      "selectionNote": "Recognizable silver-design editorial selection; not a sales ranking or limited-edition claim."
+      "selectionNote": "Recognizable silver-design editorial selection; not a sales ranking or limited-edition claim.",
+      "priceHistory": [
+        {
+          "priceUSD": 2950,
+          "priceStatus": "resale-ask",
+          "priceAsOf": "2026-10-26",
+          "checkedAt": "2026-10-26",
+          "source": "https://www.fashionphile.com/products/chrome-hearts-sterling-silver-cemetery-cross-ring-65-11-1962167",
+          "availabilityEn": "Seller listed this exact piece as available when checked on 26 October 2026; availability may change.",
+          "priceEvidence": "Direct product HTML structured data and the exact listing Shopify product JSON both identify item 1962167 and a USD 2,950 asking price. Product JSON reports price 295000 in USD cents and available=true. This is a seller resale ask, not an official Chrome Hearts retail price."
+        }
+      ],
+      "latestPriceEvidence": "tools/research/price-review-2026-11-11.json"
     },
     {
       "brand": "chrome-hearts",

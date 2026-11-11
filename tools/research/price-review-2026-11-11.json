@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-11",
+  "productId": "chrome-hearts-cemetery-cross-ring-us11-fashionphile-1962167",
+  "merchant": "FASHIONPHILE",
+  "listingReference": "1962167",
+  "source": "https://www.fashionphile.com/products/chrome-hearts-sterling-silver-cemetery-cross-ring-65-11-1962167",
+  "method": "Merchant US listing reader snapshot; latest retrieval reported crawled today. Exact item identity, current price, comparison price and condition are visible together.",
+  "previous": {
+    "priceUSD": 2950,
+    "priceStatus": "resale-ask",
+    "priceAsOf": "2026-10-26",
+    "checkedAt": "2026-10-26",
+    "source": "https://www.fashionphile.com/products/chrome-hearts-sterling-silver-cemetery-cross-ring-65-11-1962167",
+    "availabilityEn": "Seller listed this exact piece as available when checked on 26 October 2026; availability may change.",
+    "priceEvidence": "Direct product HTML structured data and the exact listing Shopify product JSON both identify item 1962167 and a USD 2,950 asking price. Product JSON reports price 295000 in USD cents and available=true. This is a seller resale ask, not an official Chrome Hearts retail price."
+  },
+  "observed": {
+    "priceUSD": 2800,
+    "comparisonPriceUSD": 2950,
+    "currency": "USD",
+    "condition": "Excellent",
+    "conditionDetail": "Faint scratches",
+    "availabilityCue": "Add to Bag"
+  },
+  "snapshotReceipt": {
+    "sha256": "26dae3f0a290902ab28b77519db2d78e0b601422c63db08143f4b651661cf2ad",
+    "scope": "Complete reader response stored outside repository; concise facts and source link retained here."
+  },
+  "directJSON": {
+    "url": "https://www.fashionphile.com/products/chrome-hearts-sterling-silver-cemetery-cross-ring-65-11-1962167.js",
+    "status": 429,
+    "error": "HTTPError"
+  },
+  "priceStatus": "resale-ask",
+  "limitations": [
+    "Not an official Chrome Hearts retail price.",
+    "No direct JSON confirmation or checkout quote; source snapshot and actual review date are identified.",
+    "No delisting or availability inference is made from rate limiting."
+  ],
+  "preservation": "All other product prices/review dates, all image bytes and 2022–2026 annual entries/cutoffs remain unchanged."
+}
