@@ -17,6 +17,7 @@ ROOT=Path(__file__).resolve().parents[1]
 D=json.loads((ROOT/'tools/content.json').read_text())
 CATALOG=enrich(D)
 LIPSTICKS=perfumery.annotate_lipstick_brands(D)
+LIP_BALMS=perfumery.lip_balms.annotate_brands(D)
 BRANDS={b['id']:b for b in D['brands']}
 PRODUCTS={x['id']:x for x in CATALOG}
 CLASSIC_COVERS=classic_covers.selection(D,product_gallery.load())
@@ -151,6 +152,10 @@ for b in D['brands']:
             check('catalog-lipstick' in doc.ids,b['id']+': lipstick section missing')
             for lipstick,_ in LIPSTICKS:
                 if lipstick['brand']==b['id']:check('../perfumery.html#lipstick-'+lipstick['id'] in doc.refs,b['id']+': lipstick link missing')
+        if b['lipBalmCount']:
+            check('catalog-lip-balm' in doc.ids,b['id']+': lip care section missing')
+            for balm,_ in LIP_BALMS:
+                if balm['brand']==b['id']:check('../perfumery.html#lip-balm-'+balm['id'] in doc.refs,b['id']+': lip care link missing')
         for category in {PRODUCTS[k]['category'] for k in b['itemIds']}:
             check(category in b['categories'],b['id']+': represented category absent')
             check('catalog-'+category in doc.ids,b['id']+': category catalog section absent')
@@ -221,6 +226,23 @@ try:
         check(price_text(product) in source,product['id']+': perfumery price absent')
         check(product['priceContextEn'] in source,product['id']+': perfumery price date/provenance absent')
     check(doc is not None and 'lipstick-prices' in doc.ids,'Missing compact lipstick price guide')
+    check(doc is not None and 'lip-care' in doc.ids,'Missing clear lip care guide')
+    balm_config=json.loads((ROOT/'tools/research/lip-balms.json').read_text())
+    balm_photos=json.loads((ROOT/balm_config['photoEvidence']).read_text())['images']
+    check(len(balm_photos)==len(LIP_BALMS) and len({p['id'] for p in balm_photos})==len(LIP_BALMS),'Lip care photo ledger count differs')
+    check(len({p['sha256'] for p in balm_photos})==len(balm_photos),'Lip care photographs must be distinct')
+    balm_photo_by_id={p['id']:p for p in balm_photos}
+    check(source.count('class="lipstick-card lip-balm-card"')==len(LIP_BALMS),'Lip care card count differs')
+    for entry,brand in LIP_BALMS:
+        check('lip-balm-'+entry['id'] in doc.ids,entry['id']+': lip care anchor missing')
+        for target in (entry['image'],entry['source'],entry['imageSourcePage'],'brand/'+brand['id']+'.html'):
+            check(target in doc.refs,entry['id']+': lip care link missing '+target)
+        check(image_size(ROOT/entry['image'])==(entry['imageWidth'],entry['imageHeight']),entry['id']+': lip care image dimensions differ')
+        photo=balm_photo_by_id[entry['id']]
+        check(photo['reference']==entry['reference'] and photo['path']==entry['image'],entry['id']+': lip care photo identity differs')
+        check(hashlib.sha256((ROOT/entry['image']).read_bytes()).hexdigest()==photo['sha256'],entry['id']+': lip care photo digest differs')
+        for value in (entry['descriptionZh'],entry['introEn'],entry['finishZh'],entry['availabilityZh'],entry['checkedAt'],price_text(entry)):
+            check(html.escape(value) in source,entry['id']+': lip care description/price/provenance missing')
     lip_config=json.loads((ROOT/'tools/research/lipstick-prices.json').read_text())
     lip_photos=json.loads((ROOT/lip_config['photoEvidence']).read_text())['images']
     check(len(lip_photos)==20 and len({p['id'] for p in lip_photos})==20,'Expected twenty uniquely identified lipstick photograph records')
@@ -354,7 +376,7 @@ try:
     atlas=womens_styles.load(D)
     check(runtime.get('styles')==womens_styles.runtime(atlas),'Runtime style guide index differs from its source')
     for brand_id,b in runtime_brands.items():
-        check(b['itemCount']==BRANDS[brand_id]['itemCount'] and b.get('lipstickCount')==BRANDS[brand_id]['lipstickCount'],brand_id+': runtime brand count mismatch')
+        check(b['itemCount']==BRANDS[brand_id]['itemCount'] and b.get('lipstickCount')==BRANDS[brand_id]['lipstickCount'] and b.get('lipBalmCount')==BRANDS[brand_id]['lipBalmCount'],brand_id+': runtime brand count mismatch')
     for product_id,x in runtime_items.items():
         actual=PRODUCTS[product_id]
         for field in ('brand','category','name','image','priceUSD','brandNames'):

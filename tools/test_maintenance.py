@@ -227,6 +227,30 @@ class MaintenanceTests(unittest.TestCase):
         target.write_text(json.dumps(config))
         with self.assertRaisesRegex(ValueError,'photographed fragrances'):perfumery.selection(data,root)
 
+    def test_clear_lip_care_rejects_shade_and_refill_substitutions(self):
+        root=self.fixture()
+        path=root/'tools/research/lip-balms.json'
+        original=json.loads((ROOT/'tools/research/lip-balms.json').read_text())
+        data=json.loads((root/'tools/content.json').read_text())
+        path.write_text(json.dumps(original))
+        selected=perfumery.lip_balms.selection(data,root)
+        self.assertEqual(len(selected),3)
+        for field,value,message in [('kind','refill','full-size USD'),('currency','EUR','full-size USD'),('tint','pink','clear, unisex'),('audience','men-only','clear, unisex'),('brand','unknown','existing brand archive')]:
+            changed=copy.deepcopy(original)
+            changed['entries'][0][field]=value
+            path.write_text(json.dumps(changed))
+            with self.assertRaisesRegex(ValueError,message):
+                perfumery.lip_balms.selection(data,root)
+        changed=copy.deepcopy(original)
+        changed['entries'][1].update(brand=changed['entries'][0]['brand'],packagingId=changed['entries'][0]['packagingId'])
+        path.write_text(json.dumps(changed))
+        with self.assertRaisesRegex(ValueError,'container variants must be merged'):
+            perfumery.lip_balms.selection(data,root)
+        for entry,brand in selected:
+            links=perfumery.lip_balms.brand_links(selected,brand['id'],generate.usd)
+            self.assertIn('../perfumery.html#lip-balm-'+entry['id'],links)
+            self.assertNotIn('../perfumery.html#lip-balm-'+next(e['id'] for e,b in selected if b['id']!=brand['id']),links)
+
     def test_lipstick_prices_require_twenty_unique_full_size_examples(self):
         root=self.fixture()
         path=root/'tools/research/lipstick-prices.json'

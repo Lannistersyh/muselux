@@ -7,6 +7,7 @@ import brand_catalog
 import product_gallery
 import classic_covers
 import perfumery
+import lip_balms
 import womens_styles
 from style_policy import is_resale, price_heading, card_price_label
 from datetime import date
@@ -18,6 +19,7 @@ GALLERIES=product_gallery.load()
 CLASSIC_COVERS=classic_covers.selection(D,GALLERIES)
 CATALOG=brand_catalog.enrich(D)
 LIPSTICKS=perfumery.annotate_lipstick_brands(D)
+LIP_BALMS=lip_balms.annotate_brands(D)
 C={x['id']:x for x in D['categories']}
 B={x['id']:x for x in D['brands']}
 I={x['id']:x for x in D['items']}
@@ -124,6 +126,7 @@ def brandcard(b,prefix=''):
     label='联名品牌 · ' if b.get('role')=='collaborator' else ''
     coverage=f'本站收录 {b["itemCount"]} 项' if b['itemCount'] else ''
     if b['lipstickCount']:coverage+=(' · ' if coverage else '')+f'口红包装 {b["lipstickCount"]} 款'
+    if b['lipBalmCount']:coverage+=(' · ' if coverage else '')+f'润唇膏 {b["lipBalmCount"]} 款'
     return f'''<a class="brand-card reveal" href="{prefix}brand/{b['id']}.html"><span class="eyebrow">{e(b['country'])} · EST. {b['founded']}</span><h3>{e(b['name'])}</h3><span class="brand-zh">{b['nameZh']}</span><p>{b['tagline']}</p><span class="brand-card-bottom">{label}{coverage} <span>↗</span></span></a>'''
 
 def crumbs(parts,prefix):
@@ -262,10 +265,12 @@ def brandpage(b):
 <a class="text-link" href="../cat/{c['id']}.html">探索{c['nameZh']}栏目 ↗</a></div>
 <div class="product-grid">{''.join(card(x,'item','../') for x in items)}</div></section>''')
     categories=''.join(f'<a href="#catalog-{c["id"]}">{c["nameZh"]} ↗</a>' for c in D['categories'] if any(x['category']==c['id'] for x in catalog))
-    lip_links=perfumery.brand_lipstick_links(LIPSTICKS,b['id'],usd)
+    lip_links=perfumery.brand_lipstick_links(LIPSTICKS,b['id'],usd)+lip_balms.brand_links(LIP_BALMS,b['id'],usd)
+    if b['lipBalmCount']:categories+='<a href="#catalog-lip-balm">润唇膏 ↗</a>'
     if b['lipstickCount']:categories+='<a href="#catalog-lipstick">口红 · 包装 ↗</a>'
     coverage=f'<a href="#catalog">本站收录 <strong>{b["itemCount"]}</strong> 项 ↓</a>' if catalog else ''
     if b['lipstickCount']:coverage+=f'<a href="#catalog-lipstick">口红包装 <strong>{b["lipstickCount"]}</strong> 款 ↓</a>'
+    if b['lipBalmCount']:coverage+=f'<a href="#catalog-lip-balm">润唇膏 <strong>{b["lipBalmCount"]}</strong> 款 ↓</a>'
     partner=b.get('role')=='collaborator'
     main_names=list(dict.fromkeys(B[x['brand']]['name'] for x in catalog if x['brand']!=b['id']))
     role_note=f'<p class="brand-role-note">联名品牌 · 本站收录与 {e("、".join(main_names))} 合作的款式，单品页分别链接参与品牌。</p>' if partner else ''
@@ -335,7 +340,7 @@ def detailpages():
 def data_script():
     # Long stories and research records already live in static HTML. Only ship
     # fields used by browser filtering/search, keeping mobile memory use small.
-    fields={'brands':('id','name','nameZh','country','founded','categories','tagline','itemCount','lipstickCount','role','aliases'),'items':('id','brand','category','name','nameZh','oneLiner','reference','color','materials','styleEdit','priceUSD','priceStatus','image','brandNames','collaboratorBrands'),'articles':('id','category','title','excerpt','cover')}
+    fields={'brands':('id','name','nameZh','country','founded','categories','tagline','itemCount','lipstickCount','lipBalmCount','role','aliases'),'items':('id','brand','category','name','nameZh','oneLiner','reference','color','materials','styleEdit','priceUSD','priceStatus','image','brandNames','collaboratorBrands'),'articles':('id','category','title','excerpt','cover')}
     runtime={'categories':D['categories'],'styles':womens_styles.runtime(STYLE_ATLAS)}
     for key,keys in fields.items():
         runtime[key]=[{k:x[k] for k in keys if k in x} for x in D[key]]

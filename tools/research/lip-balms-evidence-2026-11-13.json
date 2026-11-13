@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-11-13",
+  "clientTimezone": "America/Los_Angeles",
+  "priceBasis": "Official US product-page snapshots, USD, before tax, complete full-size tube. Not checkout or market-average prices.",
+  "images": [
+    {
+      "id": "hermes-lip-care-balm",
+      "source": "https://assets.hermes.com/is/image/hermesproduct/60854BV000_front_wm_101?$product_default_bg$=&wid=1600&hei=2133",
+      "sourcePage": "https://www.hermes.com/us/en/product/lip-care-balm-V60854BV000/",
+      "path": "assets/img/beauty/balm-hermes-lip-care-balm.webp",
+      "originalDimensions": [
+        1600,
+        2133
+      ],
+      "originalBytes": 85506,
+      "originalSha256": "8d7d7b0f44a00b4092157df33ca366ff4850d3dfc729610abf224bc003a8f2ba",
+      "width": 1200,
+      "height": 1600,
+      "bytes": 27358,
+      "sha256": "fb62b75e9e25b3e41351e6e4ec3df99e76519aa8b7981169aca6c341776aedf7",
+      "transform": "EXIF orientation, complete supplied frame, maximum edge 1600 without enlargement, WebP quality 92. No generative editing.",
+      "brand": "hermes",
+      "reference": "V60854BV000",
+      "visualIdentityChecked": true
+    },
+    {
+      "id": "prada-u000",
+      "source": "https://www.prada-beauty.com/dw/image/v2/AAFM_PRD/on/demandware.static/-/Sites-prada-master-catalog/default/dw09417afc/images/pdp/Makeup%20-%20Packshots%20-%202027/Lips/MPL01635%20-%20BALM/Prada_Balm_U000_Universal_3614273855761.webp?q=90&sfrm=jpg&sh=1600&sm=cut&sw=1600",
+      "sourcePage": "https://www.prada-beauty.com/makeup/lip-balm/prada-balm/3614273855761.html",
+      "path": "assets/img/beauty/balm-prada-u000.webp",
+      "originalDimensions": [
+        1600,
+        1600
+      ],
+      "originalBytes": 40682,
+      "originalSha256": "a2248300d307c919eb67fc4996ed46fbf79a6ce86a7a87f1a006be4657566df8",
+      "width": 1600,
+      "height": 1600,
+      "bytes": 41510,
+      "sha256": "df9742e62dbc90f13b27b8e004718074cc6606fffbc1e0588be169021be897a9",
+      "transform": "EXIF orientation, complete supplied frame, maximum edge 1600 without enlargement, WebP quality 92. No generative editing.",
+      "brand": "prada",
+      "reference": "3614273855761",
+      "visualIdentityChecked": true
+    },
+    {
+      "id": "gucci-joslyn-clair",
+      "source": "https://images.bloomingdalesassets.com/is/image/BLM/products/5/optimized/14194705_fpx.tif?wid=1600&qlt=90",
+      "sourcePage": "https://www.bloomingdales.com/shop/product/gucci-baume-a-levres-lip-balm?ID=4040857",
+      "path": "assets/img/beauty/balm-gucci-joslyn-clair.webp",
+      "originalDimensions": [
+        1600,
+        1500
+      ],
+      "originalBytes": 99478,
+      "originalSha256": "3e1262cf1ad74ef94dd12c10a3f0ede43d111adeabe11b4fa2d9bcc3e16c150f",
+      "width": 1600,
+      "height": 1500,
+      "bytes": 48510,
+      "sha256": "e4f4ea2a608af648241b13f71bd9bc549aca15fafd902bcb3e80f10fddda74da",
+      "transform": "EXIF orientation, complete supplied frame, maximum edge 1600 without enlargement, WebP quality 92. No generative editing.",
+      "brand": "gucci",
+      "reference": "5861709PLP99001",
+      "visualIdentityChecked": true
+    }
+  ],
+  "excludedCandidates": [
+    {
+      "name": "BOY DE CHANEL Lip Balm",
+      "reason": "US page reader failed; no usable official US price found. Not treated as discontinued and not added with an inferred quote."
+    },
+    {
+      "name": "Dior Addict Lip Glow 000 Universal Clear",
+      "reason": "Could not establish the exact selected clear variant with a reliable US price and matching image in this pass; other shade quotes were not substituted."
+    }
+  ],
+  "sourceReceipts": "Reader response receipts retained locally in /tmp/muselux-lip-balms-20261113; publication includes concise source methods and URLs."
+}

@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-11-13",
+  "clientTimezone": "America/Los_Angeles",
+  "purpose": "Add clear, unisex everyday lip balms for male readers within Perfumery & Beauty.",
+  "url": "https://lannistersyh.github.io/muselux/perfumery.html#lip-care",
+  "products": [
+    {
+      "id": "hermes-lip-care-balm",
+      "brand": "hermes",
+      "reference": "V60854BV000",
+      "priceUSD": 86,
+      "tint": "clear",
+      "audience": "unisex",
+      "source": "https://www.hermes.com/us/en/product/lip-care-balm-V60854BV000/"
+    },
+    {
+      "id": "prada-u000",
+      "brand": "prada",
+      "reference": "3614273855761",
+      "priceUSD": 50,
+      "tint": "clear",
+      "audience": "unisex",
+      "source": "https://www.prada-beauty.com/makeup/lip-balm/prada-balm/3614273855761.html"
+    },
+    {
+      "id": "gucci-joslyn-clair",
+      "brand": "gucci",
+      "reference": "5861709PLP99001",
+      "priceUSD": 50,
+      "tint": "clear",
+      "audience": "unisex",
+      "source": "https://www.gucci.com/us/en/pr/beauty/beauty-makeup/1-joslyn-clair-baume-a-levres-lip-balm-p-5861709PLP99001"
+    }
+  ],
+  "priceBasis": "Full-size tube with container, official US snapshot, USD, before tax. Prada U000 was out of stock at review.",
+  "sourceEvidence": "tools/research/lip-balms-evidence-2026-11-13.json",
+  "photos": {
+    "count": 3,
+    "distinctDigests": 3,
+    "totalLocalBytes": 117378,
+    "identityAndPackagingVisuallyChecked": true,
+    "nativeSourceMinimumEdge": 1500,
+    "generativeEditing": false
+  },
+  "brandArchiveLinks": [
+    "brand/hermes.html#catalog-lip-balm",
+    "brand/prada.html#catalog-lip-balm",
+    "brand/gucci.html#catalog-lip-balm"
+  ],
+  "codeGate": {
+    "passed": true,
+    "reproducibleBuild": true,
+    "pages": 239,
+    "brands": 44,
+    "searchableItems": 164,
+    "pythonRegressionTests": 22,
+    "frontendAssertions": 111,
+    "method": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test"
+  },
+  "preservation": {
+    "baseline": "01db79fdeb83e8c21e1c735bca6b48310f03ff37",
+    "existingSourceAndImageFilesByteIdentical": 477,
+    "coreCatalogAndAnnualRecordsChanged": false,
+    "twentyLipstickContainersChanged": false,
+    "existingReviewDatesChanged": false
+  },
+  "verificationMethod": "Actual generated HTML link/anchor/image/price checks, image decoding and SHA256, targeted rejection of tinted/refill substitutions and wrong-brand links, Python regression, Node frontend assertions, two reproducible builds.",
+  "responsiveLayout": "Three columns on desktop, one column at max-width768px, complete image displayed with object-fit:contain. CSS reviewed; browser layout was not retested.",
+  "browserTabsOpened": 0,
+  "browserLayoutTest": false
+}

@@ -4,7 +4,7 @@
   "pages": 239,
   "brands": 44,
   "searchableItems": 164,
-  "pythonRegressionTests": 21,
+  "pythonRegressionTests": 22,
   "frontendAssertions": 111,
   "method": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test",
   "sourceHashes": {
@@ -18,17 +18,18 @@
     "tools/classic_covers.py": "a66d5f7220d0c93cb1526e2c74adacdfcaaf7280d4e2b24c72c7ea2184c4d517",
     "tools/draw_assets.py": "3e04f918e8fda83d4f9a5c740760325e47b649e69e419ee137e8352133cfac2d",
     "tools/draw_journal_covers.py": "24cd8f09856a9ef8a28eb17b40d6b46e2c1a3a37778d411b24edc88e5288bdfc",
-    "tools/generate.py": "7bdc982342f84b6b63f1ca6cd1e11619c85291b715aa66db90988ae3e30ebaab",
-    "tools/perfumery.py": "09a66ac5e420dbf2dce42c81380d5935b02cc9fa90db3fb8f094812e78ae372a",
+    "tools/generate.py": "e8c2c5be334fb8c85346d4ba79c9b87854718f9cddb085e6641e015179f6bd07",
+    "tools/lip_balms.py": "50e894b62c9a0b86b7c57601fcc5d91318bec347661df9a8d0bc626300d45a5b",
+    "tools/perfumery.py": "4afa85dc60be1d4102252d6a0d05462a3b3cbdd4f0f15601def0473ff5d6ddc9",
     "tools/product_gallery.py": "389142a56459be4826021baa4a4ff838bc8ead623012b5c7c6ba161a9b7af011",
     "tools/seed_content.py": "2755b15b5905247fc5b8400e236428a2d9e37fab667733209a559626bada2cc3",
     "tools/style_policy.py": "13223f173e1a5bc92d3e1f0a385ab9af7af6530f3e6cc0dc63f3330ade61e0e8",
-    "tools/test_maintenance.py": "76578e4d0622d75e2c0561ba33582c6da52b4c3f1698431f142cd18f13194875",
-    "tools/validate.py": "146f44480cc7dd5d47f675512f38e95664557d940aea977133508e0b81aee583",
+    "tools/test_maintenance.py": "59504160aba225479c4245ad6327d2278663b558d2ec44161eb0c022b26e14e1",
+    "tools/validate.py": "b4da978bb68b28396d0f0451b62a92125a60d2a5b4a1929d8b31b2a0457a7d3c",
     "tools/womens_styles.py": "375edb9f2d09510bc96c0f20ff76431b322e3b05dd474396c014148167a134ba",
     "assets/js/render.js": "6b737148cc37d62a5bec9b23eb2d098be448c359671bee5961b75b744e8fb7ba",
     "assets/js/main.js": "57effd484f7bb73005024fd63985f6edb0519fed645d9339262618084a10a3e9",
-    "assets/js/data.js": "6a47f1c52d4830e8d38c7dc91335db98f145836e5eec7c26ffab6d13140005bf",
+    "assets/js/data.js": "dbeebaee95a35146527c8adfe63a3bb44f03a55dff42131e7dd0844cd49c4caf",
     "tools/test_frontend.cjs": "927497bd67e1381a3efc2f90787a5ec5cf6250d27b8e039ba29929953f7b73ce"
   }
 }
