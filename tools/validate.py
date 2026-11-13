@@ -10,6 +10,7 @@ from brand_catalog import enrich, brand_ids
 import product_gallery
 import classic_covers
 import perfumery
+import color_balms
 import womens_styles
 from style_policy import PRICE_STATUSES, valid_category_counts, is_resale, validate_resale
 
@@ -18,6 +19,7 @@ D=json.loads((ROOT/'tools/content.json').read_text())
 CATALOG=enrich(D)
 LIPSTICKS=perfumery.annotate_lipstick_brands(D)
 LIP_BALMS=perfumery.lip_balms.annotate_brands(D)
+COLOR_BALMS=color_balms.annotate_brands(D)
 BRANDS={b['id']:b for b in D['brands']}
 PRODUCTS={x['id']:x for x in CATALOG}
 CLASSIC_COVERS=classic_covers.selection(D,product_gallery.load())
@@ -156,6 +158,10 @@ for b in D['brands']:
             check('catalog-lip-balm' in doc.ids,b['id']+': lip care section missing')
             for balm,_ in LIP_BALMS:
                 if balm['brand']==b['id']:check('../perfumery.html#lip-balm-'+balm['id'] in doc.refs,b['id']+': lip care link missing')
+        if b['colorBalmCount']:
+            check('catalog-color-balm' in doc.ids,b['id']+': color-adaptive balm section missing')
+            for balm,_ in COLOR_BALMS:
+                if balm['brand']==b['id']:check('../perfumery.html#color-balm-'+balm['id'] in doc.refs,b['id']+': color-adaptive balm link missing')
         for category in {PRODUCTS[k]['category'] for k in b['itemIds']}:
             check(category in b['categories'],b['id']+': represented category absent')
             check('catalog-'+category in doc.ids,b['id']+': category catalog section absent')
@@ -227,6 +233,28 @@ try:
         check(product['priceContextEn'] in source,product['id']+': perfumery price date/provenance absent')
     check(doc is not None and 'lipstick-prices' in doc.ids,'Missing compact lipstick price guide')
     check(doc is not None and 'lip-care' in doc.ids,'Missing clear lip care guide')
+    check(doc is not None and 'color-changing-balms' in doc.ids,'Missing color-adaptive balm guide')
+    color_config=json.loads((ROOT/'tools/research/color-changing-balms.json').read_text())
+    color_photos=json.loads((ROOT/color_config['photoEvidence']).read_text())['images']
+    photographed=[e for e,_ in COLOR_BALMS if not e.get('sharedContainerWith')]
+    check(len(color_photos)==len(photographed) and len({p['id'] for p in color_photos})==len(photographed),'Color-adaptive balm photo count differs')
+    check(len({p['sha256'] for p in color_photos})==len(color_photos),'Color-adaptive balm photographs must be distinct')
+    color_photo_by_id={p['id']:p for p in color_photos}
+    check(source.count('class="lipstick-card color-balm-card"')==len(COLOR_BALMS),'Color-adaptive balm card count differs')
+    for entry,brand in COLOR_BALMS:
+        check('color-balm-'+entry['id'] in doc.ids,entry['id']+': color-adaptive balm anchor missing')
+        for target in (entry['source'],entry['mechanismSource'],'brand/'+brand['id']+'.html'):
+            check(target in doc.refs,entry['id']+': color-adaptive balm source/brand link missing')
+        if entry.get('sharedContainerWith'):
+            check('#lip-balm-'+entry['sharedContainerWith'] in doc.refs,entry['id']+': shared-container link missing')
+        else:
+            for target in (entry['image'],entry['imageSourcePage']):check(target in doc.refs,entry['id']+': color-adaptive balm photo link missing')
+            check(image_size(ROOT/entry['image'])==(entry['imageWidth'],entry['imageHeight']),entry['id']+': color-adaptive balm image dimensions differ')
+            photo=color_photo_by_id[entry['id']]
+            check(photo['reference']==entry['reference'] and photo['path']==entry['image'],entry['id']+': color-adaptive balm photo identity differs')
+            check(hashlib.sha256((ROOT/entry['image']).read_bytes()).hexdigest()==photo['sha256'],entry['id']+': color-adaptive balm photo digest differs')
+        for value in (entry['descriptionZh'],entry['introEn'],entry['finishZh'],entry['mechanismZh'],entry['availabilityZh'],entry['checkedAt'],price_text(entry)):
+            check(html.escape(value) in source,entry['id']+': color-adaptive balm description/price/provenance missing')
     balm_config=json.loads((ROOT/'tools/research/lip-balms.json').read_text())
     balm_photos=json.loads((ROOT/balm_config['photoEvidence']).read_text())['images']
     check(len(balm_photos)==len(LIP_BALMS) and len({p['id'] for p in balm_photos})==len(LIP_BALMS),'Lip care photo ledger count differs')
@@ -376,7 +404,7 @@ try:
     atlas=womens_styles.load(D)
     check(runtime.get('styles')==womens_styles.runtime(atlas),'Runtime style guide index differs from its source')
     for brand_id,b in runtime_brands.items():
-        check(b['itemCount']==BRANDS[brand_id]['itemCount'] and b.get('lipstickCount')==BRANDS[brand_id]['lipstickCount'] and b.get('lipBalmCount')==BRANDS[brand_id]['lipBalmCount'],brand_id+': runtime brand count mismatch')
+        check(b['itemCount']==BRANDS[brand_id]['itemCount'] and b.get('lipstickCount')==BRANDS[brand_id]['lipstickCount'] and b.get('lipBalmCount')==BRANDS[brand_id]['lipBalmCount'] and b.get('colorBalmCount')==BRANDS[brand_id]['colorBalmCount'],brand_id+': runtime brand count mismatch')
     for product_id,x in runtime_items.items():
         actual=PRODUCTS[product_id]
         for field in ('brand','category','name','image','priceUSD','brandNames'):

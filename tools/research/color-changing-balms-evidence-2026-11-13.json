@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-11-13",
+  "clientTimezone": "America/Los_Angeles",
+  "mechanismPolicy": "Attribute pH-adaptive descriptions to the specific brand/version. No claim of actual temperature sensing, universal dye identity, or diagnostic pH measurement. Ordinary tinted balms are not included solely because they have color.",
+  "images": [
+    {
+      "id": "dior-lip-glow-001",
+      "source": "https://images.bloomingdalesassets.com/is/image/BLM/products/6/optimized/14353286_fpx.tif?wid=1600&qlt=90",
+      "sourcePage": "https://www.bloomingdales.com/shop/product/dior-dior-addict-lip-glow-balm?ID=5413723&sizes=LIPS_TYPE%21%21Lip+Balms+%26+Treatments",
+      "path": "assets/img/beauty/balm-dior-lip-glow-001.webp",
+      "originalDimensions": [
+        1600,
+        1500
+      ],
+      "originalBytes": 110556,
+      "originalSha256": "1a1614e1a3594f73c61692a62be75aca45e742f9bf762f74bb09d93084132edd",
+      "width": 1600,
+      "height": 1500,
+      "bytes": 59300,
+      "sha256": "59496fa2a8ebc1c5bb68136d44c4c1e92e84e06fa38c36f30022a78474d45c2b",
+      "transform": "Complete supplied product frame, EXIF orientation, maximum edge1600 without enlargement, WebP quality92. No generative editing.",
+      "brand": "dior",
+      "reference": "C045700001",
+      "visualIdentityChecked": true
+    },
+    {
+      "id": "tom-ford-soleil-lip-blush",
+      "source": "https://images.bloomingdalesassets.com/is/image/BLM/products/0/optimized/12107990_fpx.tif?wid=1600&qlt=90",
+      "sourcePage": "https://www.bloomingdales.com/shop/product/tom-ford-soleil-lip-blush?ID=4333179",
+      "path": "assets/img/beauty/balm-tom-ford-soleil-lip-blush.webp",
+      "originalDimensions": [
+        1600,
+        1500
+      ],
+      "originalBytes": 78980,
+      "originalSha256": "05d7fe772f4a83e1f65769f129a8dfe0a5305ea29229a56c8df8bb1ca9157023",
+      "width": 1600,
+      "height": 1500,
+      "bytes": 40458,
+      "sha256": "15af8cbaacd168ec83e616ae3ba6a8733f85a5609968a703e44055427db173e2",
+      "transform": "Complete supplied product frame, EXIF orientation, maximum edge1600 without enlargement, WebP quality92. No generative editing.",
+      "brand": "tom-ford",
+      "reference": "TCF501 / Z09 / variant 52128415416533",
+      "visualIdentityChecked": true
+    }
+  ],
+  "sharedContainer": {
+    "id": "prada-astral-pink",
+    "with": "prada-u000",
+    "policy": "One existing case photograph. No new image and no claim that U000 picture depicts U001."
+  },
+  "networkBackoff": [
+    {
+      "host": "www.tomfordbeauty.com",
+      "scope": "Direct requests",
+      "observed": "2026-11-13",
+      "status": 429,
+      "doNotRequestBefore": "2026-11-20",
+      "action": "Stopped immediately; no direct endpoint or image retry after429."
+    }
+  ],
+  "priceSourceLimit": "Tom Ford USD64 is an official indexed snapshot crawled4days earlier, cross-checked at Sephora US; not a live checkout confirmation. Dior and Prada refreshed reader snapshots reported crawled today.",
+  "sourceMethods": [
+    {
+      "id": "dior-lip-glow-001",
+      "method": "Official Dior US exact C045700001 snapshot reviewed2026-11-13, crawled today: 001 Pink selected, USD42, Size3.2g. Official description explicitly states pH-activated Color Reviver technology. Not the 000 clear shade, oil, mini or refill.",
+      "source": "https://www.dior.com/en_us/beauty/products/dior-addict-lip-glow-C045700001.html"
+    },
+    {
+      "id": "tom-ford-soleil-lip-blush",
+      "method": "Official US exact product variant52128415416533 snapshot reviewed2026-11-13, reader reported crawled4days earlier: USD64, 3.0g, Z09 Soleil; explicit Works with PH balance and clear-to-pink description. Sephora US sku2573418 cross-check shows same USD64 and3g. Official product JSON request returned429 and was not retried. Clutch-size USD35 and older collection USD62 not used.",
+      "source": "https://www.tomfordbeauty.com/products/soleil-lip-blush?variant=52128415416533"
+    },
+    {
+      "id": "prada-astral-pink",
+      "method": "Exact official US SKU3614274171099 snapshot reviewed2026-11-13; refreshed find result crawled today: U001 ASTRAL PINK and Standard selected, USD50. Description explicitly says pH-activated rosy glow; FAQ restricts adaptive claim to U001/U003. Refill USD40 excluded. Existing U000 photo is linked only to identify shared case, not represented as an image of U001.",
+      "source": "https://www.prada-beauty.com/makeup/lips/prada-balm/3614274171099.html?geo=false"
+    }
+  ]
+}

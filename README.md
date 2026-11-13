@@ -11,6 +11,8 @@
 
 润唇膏内容提交 `8ceb70ae62476cbd064cfe16e1cdb383fb76f8d3` 已通过GitHub Pages构建，255个公开页面、资源与本次变更文件均与本地逐字节一致。发布验收见 `reports/lip-balms-deployment.json`。
 
+2026-11-13 补充 **变色润唇**：Dior Addict Lip Glow 001 Pink（US$42）、Tom Ford Soleil Lip Blush 3g（US$64）及Prada Balm U001 Astral Pink（US$50）。三款均有品牌官网明确的pH自适应显色说明；Dior与Tom Ford增加两张实物图，Prada U001与已有U000银色方管合并展示外壳，避免按色号重复放图。三家品牌图鉴同步关联具体版本。正装报价保留页面快照口径，Tom Ford为4天前抓取的官网快照并有美国零售商交叉核对；原有无色润唇膏、20种口红包装、核心/年度数据与历史报价保持。23项维护回归、111项前端断言、239页静态检查和两次构建一致性通过；来源见 `tools/research/color-changing-balms.json`，验收见 `reports/color-changing-balms-validation.json`。
+
 ## 打开方式
 
 直接双击本目录的 **index.html**，使用当前版本的 Chrome、Edge 或 Safari 打开。无需安装软件包、启动服务器或运行构建命令。也可以将整个目录复制到另一台电脑后打开。

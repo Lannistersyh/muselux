@@ -227,6 +227,27 @@ class MaintenanceTests(unittest.TestCase):
         target.write_text(json.dumps(config))
         with self.assertRaisesRegex(ValueError,'photographed fragrances'):perfumery.selection(data,root)
 
+    def test_color_adaptive_balms_require_evidence_and_merge_shared_cases(self):
+        root=self.fixture()
+        path=root/'tools/research/color-changing-balms.json'
+        original=json.loads((ROOT/'tools/research/color-changing-balms.json').read_text())
+        shutil.copyfile(ROOT/'tools/research/lip-balms.json',root/'tools/research/lip-balms.json')
+        data=json.loads((root/'tools/content.json').read_text())
+        path.write_text(json.dumps(original))
+        selected=perfumery.color_balms.selection(data,root)
+        self.assertEqual(len(selected),3)
+        self.assertEqual(sum(not e.get('sharedContainerWith') for e,b in selected),2)
+        for field,value,message in [('kind','refill','full-size USD'),('mechanism','temperature-sensing','sourced mechanism'),('mechanismSource','http://example.com','HTTPS sources')]:
+            changed=copy.deepcopy(original);changed['entries'][0][field]=value;path.write_text(json.dumps(changed))
+            with self.assertRaisesRegex(ValueError,message):perfumery.color_balms.selection(data,root)
+        for change in ({'sharedContainerWith':'hermes-lip-care-balm'},{'image':'duplicate.webp'}):
+            changed=copy.deepcopy(original);next(e for e in changed['entries'] if e.get('sharedContainerWith')).update(change);path.write_text(json.dumps(changed))
+            with self.assertRaisesRegex(ValueError,'Same-container shades'):perfumery.color_balms.selection(data,root)
+        for entry,brand in selected:
+            links=perfumery.color_balms.brand_links(selected,brand['id'],generate.usd)
+            self.assertIn('../perfumery.html#color-balm-'+entry['id'],links)
+            self.assertNotIn('../perfumery.html#color-balm-'+next(e['id'] for e,b in selected if b['id']!=brand['id']),links)
+
     def test_clear_lip_care_rejects_shade_and_refill_substitutions(self):
         root=self.fixture()
         path=root/'tools/research/lip-balms.json'

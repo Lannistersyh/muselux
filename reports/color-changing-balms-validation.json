@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-11-13",
+  "clientTimezone": "America/Los_Angeles",
+  "purpose": "Add luxury color-adaptive solid lip balms, with explicit official pH descriptions and no duplicate same-case image.",
+  "url": "https://lannistersyh.github.io/muselux/perfumery.html#color-changing-balms",
+  "products": [
+    {
+      "id": "dior-lip-glow-001",
+      "brand": "dior",
+      "reference": "C045700001",
+      "priceUSD": 42,
+      "source": "https://www.dior.com/en_us/beauty/products/dior-addict-lip-glow-C045700001.html",
+      "mechanismSource": "https://www.dior.com/en_us/beauty/products/dior-addict-lip-glow-C045700001.html",
+      "sharedContainerWith": null
+    },
+    {
+      "id": "tom-ford-soleil-lip-blush",
+      "brand": "tom-ford",
+      "reference": "TCF501 / Z09 / variant 52128415416533",
+      "priceUSD": 64,
+      "source": "https://www.tomfordbeauty.com/products/soleil-lip-blush?variant=52128415416533",
+      "mechanismSource": "https://www.tomfordbeauty.com/products/soleil-lip-blush?variant=52128415416533",
+      "sharedContainerWith": null
+    },
+    {
+      "id": "prada-astral-pink",
+      "brand": "prada",
+      "reference": "3614274171099",
+      "priceUSD": 50,
+      "source": "https://www.prada-beauty.com/makeup/lips/prada-balm/3614274171099.html?geo=false",
+      "mechanismSource": "https://www.prada-beauty.com/makeup/lips/prada-balm/3614274171099.html?geo=false",
+      "sharedContainerWith": "prada-u000"
+    }
+  ],
+  "priceBasis": "Official US product-page snapshots, full-size with container, USD, before tax. Tom Ford snapshot crawled4days earlier, not live checkout.",
+  "sourceEvidence": "tools/research/color-changing-balms-evidence-2026-11-13.json",
+  "photos": {
+    "newPhotographs": 2,
+    "distinctDigests": 2,
+    "totalLocalBytes": 99758,
+    "identityAndPackagingVisuallyChecked": true,
+    "nativeSourceMinimumEdge": 1500,
+    "generativeEditing": false,
+    "mergedContainer": "Prada U001 links existing U000 case photograph; no new image and no substitution of shade."
+  },
+  "brandArchiveLinks": [
+    "brand/dior.html#catalog-color-balm",
+    "brand/tom-ford.html#catalog-color-balm",
+    "brand/prada.html#catalog-color-balm"
+  ],
+  "codeGate": {
+    "passed": true,
+    "reproducibleBuild": true,
+    "pages": 239,
+    "brands": 44,
+    "searchableItems": 164,
+    "pythonRegressionTests": 23,
+    "frontendAssertions": 111,
+    "method": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test"
+  },
+  "preservation": {
+    "baseline": "9e40e6818ac124c0dd00115bc7b7e495154936c7",
+    "existingSourceAndImageFilesByteIdentical": 482,
+    "coreAndAnnualRecordsChanged": false,
+    "existingClearLipBalmsChanged": false,
+    "twentyLipstickContainersChanged": false,
+    "existingReviewDatesChanged": false
+  },
+  "verificationMethod": "Actual generated HTML link/anchor/price checks, SHA256 and image decoding, explicit rejection of unsourced mechanism claims and incorrect shared cases, Python regression, Node frontend assertions and two reproducible builds.",
+  "responsiveLayout": "Uses existing three-column lip-care grid and mobile single-column rules; two photographed cards plus one shared-case text card. CSS reviewed; no new browser layout test.",
+  "browserTabsOpened": 0,
+  "browserLayoutTest": false,
+  "networkBackoff": [
+    {
+      "host": "www.tomfordbeauty.com",
+      "scope": "Direct requests",
+      "observed": "2026-11-13",
+      "status": 429,
+      "doNotRequestBefore": "2026-11-20",
+      "action": "Stopped immediately; no direct endpoint or image retry after429."
+    }
+  ]
+}
