@@ -63,7 +63,9 @@ class Document(HTMLParser):
     def handle_starttag(self,tag,attrs):
         a=dict(attrs)
         if tag=='script' and a.get('type')=='application/ld+json':self.json_buffer=''
-        if a.get('id'):self.ids.add(a['id'])
+        if a.get('id'):
+            check(a['id'] not in self.ids, 'Duplicate HTML ID: '+a['id'])
+            self.ids.add(a['id'])
         if tag=='h1':self.h1+=1
         if tag=='title':self.titles+=1
         if tag=='footer':self.footer+=1

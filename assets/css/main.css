@@ -136,3 +136,23 @@
 @media print{.style-photo-grid,.style-photo-grid-pair,.style-creator-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.style-photo-study,.style-creator-card{break-inside:avoid}.style-original-link{display:none}}
 
 .lipstick-case-title{font-size:15px;line-height:1.6;margin:0 0 10px;font-weight:500}.lipstick-colours{font-size:11px;line-height:1.8;color:var(--ink-soft);margin:0 0 16px}.lipstick-colours summary{cursor:pointer;color:var(--rose-deep)}.lipstick-colours p{margin:7px 0}.lipstick-merged-anchor{scroll-margin-top:120px}.brand-lipsticks ul{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 30px}.brand-lipsticks li{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid var(--line);font-size:14px}.brand-index-summary{flex-wrap:wrap;gap:16px}.brand-lipsticks li>span{white-space:nowrap;color:var(--rose-deep)}@media(max-width:767px){.brand-lipsticks ul{grid-template-columns:1fr}}
+
+/* Collection hierarchy and four beauty reading routes. */
+.collection-trail{display:flex;flex-wrap:wrap;gap:10px 25px;padding-top:24px;font-size:12px;color:var(--ink-soft)}
+.collection-trail a{padding:8px 0;border-bottom:1px solid var(--line)}
+.collection-trail a[aria-current]{color:var(--rose-deep);border-color:var(--rose-deep)}
+.collection-preview{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px}
+.beauty-directory{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin:0 0 58px}
+.beauty-directory>a{position:relative;display:flex;flex-direction:column;gap:13px;padding:25px 22px 32px;border:1px solid var(--line);background:var(--bg-card);min-width:0;transition:border-color .2s}
+.beauty-directory>a:hover,.beauty-directory>a:focus-visible{border-color:var(--rose-deep)}
+.beauty-directory .eyebrow{font-size:9px;color:var(--rose-deep);overflow-wrap:anywhere}
+.beauty-directory strong{font:400 23px/1.5 var(--serif)}
+.beauty-directory span:not(.eyebrow){font-size:12px;line-height:1.8;color:var(--ink-soft);padding-right:12px}
+.beauty-directory b{position:absolute;bottom:13px;right:15px;font-size:18px;font-weight:400;color:var(--rose-deep)}
+.beauty-fragrances{scroll-margin-top:125px}.beauty-fragrances>header{border-top:1px solid var(--line);padding-top:30px}
+.beauty-fragrances>header h2{font-size:30px;font-weight:400;margin:12px 0}
+.perfumery-page>.lipstick-market{border-top:1px solid var(--line);padding-top:30px}
+@media(max-width:991px){.beauty-directory{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}}
+@media(max-width:768px){.collection-preview{grid-template-columns:1fr}.collection-trail{gap:8px 18px;font-size:11px}.beauty-directory{margin-bottom:35px}.beauty-directory>a{padding:20px 16px 30px}.beauty-directory strong{font-size:21px}.beauty-fragrances{scroll-margin-top:100px}.beauty-fragrances>header h2{font-size:26px}}
+@media(max-width:380px){.beauty-directory{grid-template-columns:1fr}}
+@media print{.beauty-directory,.collection-trail{display:none}}

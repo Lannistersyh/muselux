@@ -7,6 +7,7 @@ import brand_catalog
 import product_gallery
 import classic_covers
 import perfumery
+import navigation
 import lip_balms
 import color_balms
 import womens_styles
@@ -156,9 +157,11 @@ def page(path,title,desc,content,pagekind='generic',pageid='',article=None,produ
     if pagekind=='404' and SITE_URL:
         fallback_base='<script>(function(){if(location.protocol!=="file:"&&location.hostname==='+json.dumps(urlsplit(SITE_URL).hostname)+'){var b=document.createElement("base");b.href='+json.dumps(SITE_URL)+';document.head.appendChild(b)}})();</script><meta name="robots" content="noindex">'
     annual_category=product['category'] if product and product.get('annualEdit') else pageid if pagekind=='yearbook' else None
-    nav=''.join(f'<a class="{"active" if pageid==c["id"] or annual_category==c["id"] else ""}" href="{prefix}cat/{c["id"]}.html">{c["nameZh"]}</a>' for c in D['categories'])
+    active_category = (product or article or I.get(pageid) or {}).get('category', annual_category or (pageid if pagekind=='category' else ''))
+    nav = navigation.primary(D['categories'], active_category, prefix, pagekind=='jewelry-hub')
+    collection_trail = navigation.jewelry_trail(active_category, prefix)
     structured={'@context':'https://schema.org','@type':'Organization','name':'MuseLux','description':ABOUT}
-    if pagekind in ('yearbook','perfumery','styles'):
+    if pagekind in ('yearbook','perfumery','styles','jewelry-hub'):
         structured={'@context':'https://schema.org','@type':'CollectionPage','name':title,'description':desc,'inLanguage':'en' if pagekind=='yearbook' else 'zh-CN'}
     if article:
         structured={'@context':'https://schema.org','@type':'Article','headline':article['title'],'datePublished':article['date'],'dateModified':article.get('updatedAt',article['date']),'inLanguage':'zh-CN','author':{'@type':'Organization','name':'MuseLux 编辑部'},'publisher':{'@type':'Organization','name':'MuseLux'},'description':article['excerpt']}
@@ -183,7 +186,7 @@ def page(path,title,desc,content,pagekind='generic',pageid='',article=None,produ
     urls={'css':asset_url(prefix,'assets/css/main.css'),**{name:asset_url(prefix,'assets/js/'+name) for name in ('data.js','render.js','main.js')}}
     out=f'''<!doctype html>
 <html lang="{'en' if product or pagekind=='yearbook' else 'zh-CN'}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#faf8f5"><title>{e(title)}｜MuseLux</title><meta name="description" content="{e(desc[:110])}"><meta property="og:title" content="{e(title)}｜MuseLux"><meta property="og:description" content="{e(desc[:110])}"><meta property="og:type" content="{'article' if article or style else 'website'}"><meta property="og:image" content="{e(og_image)}">{hosting_meta}{fallback_base}<link rel="icon" href="{prefix}assets/img/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="{urls['css']}"><script type="application/ld+json">{json_script(structured)}</script><script src="{urls['data.js']}" defer></script><script src="{urls['render.js']}" defer></script><script src="{urls['main.js']}" defer></script></head>
-<body data-page="{pagekind}" data-id="{pageid}" data-root="{prefix}"><a class="skip-link" href="#main">跳至正文</a><div class="topline"><div class="container"><span>AN INDEPENDENT JOURNAL OF BEAUTIFUL THINGS</span><span>VOL. 01 — OCTOBER 2026</span></div></div><header class="site-header" lang="zh-CN"><div class="container header-inner"><a class="logo-link" href="{prefix}index.html">{LOGO}</a><nav id="main-nav" class="main-nav" aria-label="主导航">{nav}<a class="nav-womens-style {'active' if current in ('styles','style') else ''}" href="{prefix}womens-style.html">{e(STYLE_ATLAS['config']['title'])}</a><a class="nav-perfumery {'active' if current=='perfumery' else ''}" href="{prefix}perfumery.html">{perfumery.TITLE_ZH}</a><a class="nav-brand {'active' if current in ['brands','brand'] else ''}" href="{prefix}brands.html">品牌图鉴</a><a class="nav-about" href="{prefix}about.html">关于</a></nav><div class="header-actions"><a class="search-link" href="{prefix}search.html" aria-label="搜索品牌、单品、穿搭与文章">{icon('search')}</a><button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="打开导航菜单">{icon('menu')}</button></div></div><div class="reading-progress" aria-hidden="true"></div></header><main id="main">{content}{womens_styles.product_links(STYLE_ATLAS,product["id"],prefix) if product else ""}</main>{footer}<button class="back-top" aria-label="返回顶部" type="button">{icon('up')}</button><noscript><p class="noscript-note">全部文章可直接阅读；搜索、筛选与订阅演示需要启用 JavaScript。</p></noscript></body></html>'''
+<body data-page="{pagekind}" data-id="{pageid}" data-root="{prefix}"><a class="skip-link" href="#main">跳至正文</a><div class="topline"><div class="container"><span>AN INDEPENDENT JOURNAL OF BEAUTIFUL THINGS</span><span>VOL. 01 — OCTOBER 2026</span></div></div><header class="site-header" lang="zh-CN"><div class="container header-inner"><a class="logo-link" href="{prefix}index.html">{LOGO}</a><nav id="main-nav" class="main-nav" aria-label="主导航">{nav}<a class="nav-womens-style {'active' if current in ('styles','style') else ''}" href="{prefix}womens-style.html">{e(STYLE_ATLAS['config']['title'])}</a><a class="nav-perfumery {'active' if current=='perfumery' else ''}" href="{prefix}perfumery.html">{perfumery.TITLE_ZH}</a><a class="nav-brand {'active' if current in ['brands','brand'] else ''}" href="{prefix}brands.html">品牌图鉴</a><a class="nav-about {'active' if current=='about' else ''}" href="{prefix}about.html">关于</a></nav><div class="header-actions"><a class="search-link" href="{prefix}search.html" aria-label="搜索品牌、单品、穿搭与文章">{icon('search')}</a><button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="打开导航菜单">{icon('menu')}</button></div></div><div class="reading-progress" aria-hidden="true"></div></header><main id="main">{collection_trail}{content}{womens_styles.product_links(STYLE_ATLAS,product["id"],prefix) if product else ""}</main>{footer}<button class="back-top" aria-label="返回顶部" type="button">{icon('up')}</button><noscript><p class="noscript-note">全部文章可直接阅读；搜索、筛选与订阅演示需要启用 JavaScript。</p></noscript></body></html>'''
     if pagekind=='404':
         # Error documents can be served at arbitrary nested URLs. Build resource
         # URLs after the base is set, so the speculative preload scanner cannot
@@ -382,6 +385,7 @@ if __name__=='__main__':
     manifest=ROOT/'reports/page-manifest.json'
     previous=json.loads(manifest.read_text()) if manifest.exists() else []
     data_script();home();otherpages();detailpages()
+    navigation.render_jewelry(D,page,stylecard)
     perfumery.render(D,page,usd,review_span)
     womens_styles.render(STYLE_ATLAS,page)
     for category in bag_yearbook.BOOKS:bag_yearbook.render(D,page,B,category)

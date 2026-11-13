@@ -38,6 +38,20 @@ class MaintenanceTests(unittest.TestCase):
         data=json.loads(path.read_text());mutate(data)
         path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
 
+    def test_collection_navigation_groups_jewelry_and_preserves_routes(self):
+        import navigation
+        data=json.loads((ROOT/'tools/content.json').read_text())
+        for active in ('necklace','jewelry'):
+            nav=navigation.primary(data['categories'],active,'../')
+            self.assertEqual(nav.count('href="../jewelry.html"'),1)
+            self.assertNotIn('href="../cat/necklace.html"',nav)
+            self.assertEqual(nav.count('class="active"'),1)
+            trail=navigation.jewelry_trail(active,'../')
+            self.assertIn('../cat/necklace.html',trail)
+            self.assertIn('../cat/jewelry.html',trail)
+        self.assertEqual(navigation.jewelry_trail('bags','../'),'')
+        self.assertIn('href="../cat/bags.html"',navigation.primary(data['categories'],'bags','../'))
+
     def test_source_review_dates_survive_all_mergers(self):
         root=self.fixture();expected={}
         for name in style.SOURCES+list(bags.SOURCES)+list(jewels.SOURCES):

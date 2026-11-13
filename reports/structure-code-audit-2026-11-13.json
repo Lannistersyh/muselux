@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-13",
+  "passed": true,
+  "scope": "All Python and runtime JavaScript syntax; generation, data merge contracts, navigation, search/filter/gallery interactions, local links and anchors, asset integrity and reproducible build. No live browser layout or external product price review.",
+  "changes": [
+    "Group necklaces and other jewelry under jewelry.html, preserve category/detail/yearbook URLs",
+    "Four beauty reading routes with stable product anchors",
+    "Preserve clear and color-adaptive balm counts after brand filtering",
+    "Correct category highlighting on product and article pages",
+    "Escape complete search labels and reject duplicate HTML IDs"
+  ],
+  "gate": {
+    "passed": true,
+    "reproducibleBuild": true,
+    "pages": 240,
+    "brands": 44,
+    "searchableItems": 164,
+    "pythonRegressionTests": 24,
+    "frontendAssertions": 128,
+    "method": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test"
+  },
+  "sourceHashes": {
+    "tools/apply_bag_yearbook.py": "688ba2e08e92a47d8d0050a883ae7153f635b15390dbb6c676f8c97da635d63f",
+    "tools/apply_brand_catalog.py": "3b3a87f92ba45ab32783ce733c2a4f09a80c96c68f192186668cbb47a1ee8733",
+    "tools/apply_jewel_yearbooks.py": "ee6592400a710b63cba3005fbca1d3041df815399babbffc2d279d658a80c9b4",
+    "tools/apply_style_edit.py": "2360d156bb53deb3f849acd19f50fc3cffbf1ae843561ff5e456e16555aa68b5",
+    "tools/bag_yearbook.py": "425e90771b930b190bb12da58fa9944c3c60d47ad31bbcb8036a447ebaf706d2",
+    "tools/brand_catalog.py": "4a1685481b329ca30b2437b096bbbf6ecaf33a5a64986f99f667a93cc71d28ca",
+    "tools/check_site.py": "165720ed89c9f25597b6165d9d76980de5b13e0d5bc9f4ca8af3b8a7271a7a01",
+    "tools/classic_covers.py": "a66d5f7220d0c93cb1526e2c74adacdfcaaf7280d4e2b24c72c7ea2184c4d517",
+    "tools/color_balms.py": "af8f093e0d11e89856a8b494042a6d8832153cd3f05b421847270bd67d1636d7",
+    "tools/draw_assets.py": "3e04f918e8fda83d4f9a5c740760325e47b649e69e419ee137e8352133cfac2d",
+    "tools/draw_journal_covers.py": "24cd8f09856a9ef8a28eb17b40d6b46e2c1a3a37778d411b24edc88e5288bdfc",
+    "tools/generate.py": "6fe5c82f7587e9b89497c6f8dc4154b7eaed555bd5b224bb685ab986202c9364",
+    "tools/lip_balms.py": "50e894b62c9a0b86b7c57601fcc5d91318bec347661df9a8d0bc626300d45a5b",
+    "tools/navigation.py": "809afb2d3d83338a6105b1506952a23bd34392f000d9787cce869e8c127a67e6",
+    "tools/perfumery.py": "6b99b330e52b863bce9b1f0c97243c360e41ce9a58e72e5cba6578e1eb67e259",
+    "tools/product_gallery.py": "389142a56459be4826021baa4a4ff838bc8ead623012b5c7c6ba161a9b7af011",
+    "tools/seed_content.py": "2755b15b5905247fc5b8400e236428a2d9e37fab667733209a559626bada2cc3",
+    "tools/style_policy.py": "13223f173e1a5bc92d3e1f0a385ab9af7af6530f3e6cc0dc63f3330ade61e0e8",
+    "tools/test_maintenance.py": "fd81a31f616e288d0cc1f9c7578588242ef0693d1e9582f0c0593ed2995f4070",
+    "tools/validate.py": "c16fde8672c6a8aac3d4a70cf4b98b7e3bc5b87cf0057485395ac1e7cbf85350",
+    "tools/womens_styles.py": "375edb9f2d09510bc96c0f20ff76431b322e3b05dd474396c014148167a134ba",
+    "assets/js/render.js": "f26a3430dcb621c108f66457a3d17272d682959d4d544896338a9a642c0066dd",
+    "assets/js/main.js": "57effd484f7bb73005024fd63985f6edb0519fed645d9339262618084a10a3e9",
+    "assets/js/data.js": "a427c13037b10169d3d5fe2602e0cfd310a8ce31885e66328d69eb9becf39fbf",
+    "tools/test_frontend.cjs": "a85164f7bfd43c459cf2d7799284306471c64f7945b5f3f0b002babbdad7323b"
+  },
+  "extraChecks": {
+    "passed": true,
+    "rasterImagesDecoded": 395,
+    "preservedSourceAndImageFiles": 488,
+    "allProductEvidenceDatesAndPricesUnchanged": true
+  },
+  "browserTabsOpened": 0
+}

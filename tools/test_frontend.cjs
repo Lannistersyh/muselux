@@ -249,6 +249,12 @@ async function run() {
     check(site.get('#brand-count').textContent === '1 个品牌', 'Brand lookup: ' + query);
     check(!site.get('#brand-results').innerHTML.includes('undefined'), 'Brand card has complete fields: ' + query);
   }
+  site.get('#brand-query').value = 'Prada';
+  site.get('#brand-query').events.input();
+  check(site.get('#brand-results').innerHTML.includes('润唇膏 1 款') && site.get('#brand-results').innerHTML.includes('变色润唇 1 款'), 'Filtering preserves clear and color-adaptive balm coverage');
+  const renderer = site.window.MuseLuxRender;
+  const hostile = renderer.result({kind:'item', value:{name:'Example', id:'example', annualEdit:true, brandName:'Brand', year:2026, priceUSD:42, yearbookTitle:'<img src=x onerror=alert(1)>', priceLabelEn:'<b>snapshot</b>'}});
+  check(hostile.includes('&lt;img src=x onerror=alert(1)&gt;') && hostile.includes('&lt;b&gt;snapshot&lt;/b&gt;'), 'Search escapes annual labels without double-escaping price provenance');
   site.get('#brand-query').value = '';
   site.get('#brand-category').value = 'necklace';
   site.get('#brand-category').events.change();
@@ -292,6 +298,17 @@ async function run() {
     check(gallery.querySelector('[data-gallery-status]').textContent.startsWith('View ' + views.length + ' of ' + views.length), 'Gallery announces active view: ' + id);
   }
 
+  site = await fixture('jewelry.html');
+  check(site.get('#collection-necklace') && site.get('#collection-jewelry'), 'Jewelry hub exposes both existing collections');
+  check(site.document.querySelectorAll('.product-card').length === 6, 'Jewelry hub previews six existing photographed products');
+  for (const route of ['cat/necklace.html', 'cat/jewelry.html', 'necklaces-by-year.html', 'item/'+catalog.find(x => x.styleEdit && x.category === 'jewelry').id+'.html']) {
+    site = await fixture(route);
+    check(site.get('#main-nav').querySelectorAll('a').some(a => a.getAttribute('href').endsWith('jewelry.html') && a.classList.contains('active')), 'Jewelry navigation remains active on ' + route);
+    check(Boolean(site.get('.collection-trail')), 'Jewelry subdivisions remain accessible on ' + route);
+  }
+  site = await fixture('perfumery.html');
+  check(site.get('.beauty-directory').querySelectorAll('a').length === 4, 'Beauty directory exposes four reading routes');
+  for (const id of ['fragrance-houses','lip-care','color-changing-balms','lipstick-prices']) check(Boolean(site.get('#'+id)), 'Beauty route retains its stable anchor: '+id);
   site = await fixture('index.html');
   const menu = site.get('.menu-toggle');
   const nav = site.get('#main-nav');
