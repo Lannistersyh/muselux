@@ -4327,10 +4327,10 @@
       "materials": [
         "Silk twill"
       ],
-      "priceUSD": 350,
+      "priceUSD": 360,
       "priceLabel": "U.S. retail reference, before tax",
-      "checkedAt": "2026-10-19",
-      "priceEvidence": "Direct official U.S. HTML for selected reference 1FF004_2DTP_F0V4C contained Display and Offer values of 350, formatted $350.00; the page displayed $350.",
+      "checkedAt": "2026-11-19",
+      "priceEvidence": "Direct official U.S. product HTML retrieved on 19 November 2026 contains Product JSON-LD for SKU 1FF004_2DTP_F0V4C, color Alabaster White/White, with Offer price 360.00 and priceCurrency USD. The page-reader snapshot also shows $360 for this exact product. The direct Offer is OutOfStock and the visible page says sold out online; this is a listed retail reference, not a checkout quote or stock guarantee. The previous $350 observation from 19 October 2026 is retained in priceHistory.",
       "priceStatus": "live",
       "source": "https://www.prada.com/us/en/p/printed-silk-twill-scarf-55/1FF004_2DTP_F0V4C",
       "image": "assets/img/products/scarves-prada-triangle-alabaster.jpg",
@@ -4350,8 +4350,19 @@
       "designer": "House design studio",
       "verificationLimitations": [
         "The official color name is retained verbatim; the supplied official photograph appears softly pink and white on screen.",
-        "The product page included a sold-out-online message; the price is a retail reference and does not imply current stock."
+        "The official U.S. product page marked this exact reference sold out online when checked on 19 November 2026. The price is a listed retail reference and does not imply current stock."
       ],
+      "priceHistory": [
+        {
+          "priceUSD": 350,
+          "checkedAt": "2026-10-19",
+          "priceStatus": "live",
+          "source": "https://www.prada.com/us/en/p/printed-silk-twill-scarf-55/1FF004_2DTP_F0V4C",
+          "priceEvidence": "Direct official U.S. HTML for selected reference 1FF004_2DTP_F0V4C contained Display and Offer values of 350, formatted $350.00; the page displayed $350.",
+          "priceAsOf": "2026-10-19"
+        }
+      ],
+      "priceAsOf": "2026-11-19",
       "styleEdit": true,
       "priceCurrency": "USD",
       "oneLiner": "Prada’s triangle becomes an all-over geometric rhythm on this compact silk twill square.",
@@ -4361,8 +4372,8 @@
         "Compact 55 × 55 cm square",
         "Silk twill; official color reference F0V4C"
       ],
-      "priceContextEn": "Official U.S. product page · checked 19 October 2026",
-      "priceRange": "US$350, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
+      "priceContextEn": "Official U.S. product page · checked 19 November 2026",
+      "priceRange": "US$360, pictured variant, before tax. 仅供参考，请以品牌官方渠道为准。",
       "relatedArticles": [
         "mag-07"
       ]
@@ -6009,6 +6020,18 @@
       "designer": "Chrome Hearts",
       "referenceType": "Merchant listing reference, not a manufacturer SKU",
       "selectionNote": "Recognizable silver-design editorial selection; not a sales ranking or limited-edition claim.",
+      "priceHistory": [
+        {
+          "priceUSD": 2950,
+          "priceStatus": "resale-ask",
+          "priceAsOf": "2026-10-26",
+          "checkedAt": "2026-10-26",
+          "source": "https://www.fashionphile.com/products/chrome-hearts-sterling-silver-cemetery-cross-ring-65-11-1962167",
+          "availabilityEn": "Seller listed this exact piece as available when checked on 26 October 2026; availability may change.",
+          "priceEvidence": "Direct product HTML structured data and the exact listing Shopify product JSON both identify item 1962167 and a USD 2,950 asking price. Product JSON reports price 295000 in USD cents and available=true. This is a seller resale ask, not an official Chrome Hearts retail price."
+        }
+      ],
+      "latestPriceEvidence": "tools/research/price-review-2026-11-11.json",
       "styleEdit": true,
       "priceCurrency": "USD",
       "oneLiner": "The Cemetery Cross ring turns a repeating motif into a broad silver surface.",
@@ -6024,19 +6047,7 @@
         "mag-03",
         "mag-05",
         "mag-10"
-      ],
-      "priceHistory": [
-        {
-          "priceUSD": 2950,
-          "priceStatus": "resale-ask",
-          "priceAsOf": "2026-10-26",
-          "checkedAt": "2026-10-26",
-          "source": "https://www.fashionphile.com/products/chrome-hearts-sterling-silver-cemetery-cross-ring-65-11-1962167",
-          "availabilityEn": "Seller listed this exact piece as available when checked on 26 October 2026; availability may change.",
-          "priceEvidence": "Direct product HTML structured data and the exact listing Shopify product JSON both identify item 1962167 and a USD 2,950 asking price. Product JSON reports price 295000 in USD cents and available=true. This is a seller resale ask, not an official Chrome Hearts retail price."
-        }
-      ],
-      "latestPriceEvidence": "tools/research/price-review-2026-11-11.json"
+      ]
     },
     {
       "brand": "chrome-hearts",
@@ -7096,7 +7107,7 @@
     }
   ],
   "styleEdit": {
-    "checkedAt": "2026-11-11",
+    "checkedAt": "2026-11-19",
     "currency": "USD",
     "products": 46,
     "perCategory": {

@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-11-19",
+  "productId": "prada-triangle-silk-scarf-55-alabaster-us",
+  "brand": "Prada",
+  "reference": "1FF004_2DTP_F0V4C",
+  "source": "https://www.prada.com/us/en/p/printed-silk-twill-scarf-55/1FF004_2DTP_F0V4C",
+  "method": "Direct official U.S. HTML and exact Product JSON-LD; independently corroborated by the official product-page reader.",
+  "previous": {
+    "priceUSD": 350,
+    "checkedAt": "2026-10-19",
+    "priceStatus": "live",
+    "source": "https://www.prada.com/us/en/p/printed-silk-twill-scarf-55/1FF004_2DTP_F0V4C",
+    "priceEvidence": "Direct official U.S. HTML for selected reference 1FF004_2DTP_F0V4C contained Display and Offer values of 350, formatted $350.00; the page displayed $350.",
+    "priceAsOf": "2026-10-19"
+  },
+  "observed": {
+    "priceUSD": 360,
+    "currency": "USD",
+    "color": "Alabaster White/White",
+    "size": "TU / 55 x 55 cm",
+    "availability": "OutOfStock; sold out online"
+  },
+  "directHTML": {
+    "status": 200,
+    "url": "https://www.prada.com/us/en/p/printed-silk-twill-scarf-55/1FF004_2DTP_F0V4C",
+    "sha256": "7bfa46984e5bd06b1085769be9a003aa22f55aa14fe0291d4cdeb7ff79f6b6e3"
+  },
+  "readerSnapshot": {
+    "reportedCrawled": "6 days before review",
+    "priceUSD": 360,
+    "source": "https://www.prada.com/us/en/p/printed-silk-twill-scarf-55/1FF004_2DTP_F0V4C",
+    "sha256": "440c4ade17f93d90c85f735626e47204e61899fb746e679fd58d1494a5d1321f"
+  },
+  "sourceImage": {
+    "status": 200,
+    "sha256": "3b95ffafd48fba13222c6202954a4349d931cb6e9eb1f9c0ae6b7f3bb3ffb3c1",
+    "meanRGBDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "localImageUnchanged": true
+  },
+  "priceStatus": "live",
+  "limitations": [
+    "Listed U.S. retail price before tax; no checkout or stock guarantee.",
+    "The exact date on which the brand changed the price is not established; 19 November 2026 is the observation date."
+  ],
+  "preservation": "All other product records and source dates, existing image bytes, brand histories, 2022-2025 archives and all annual cutoffs remain unchanged."
+}

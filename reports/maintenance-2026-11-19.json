@@ -1,0 +1,175 @@
+{
+  "automationId": "muselux",
+  "checkedAt": "2026-11-19",
+  "clientTimezone": "America/Los_Angeles",
+  "focus": "scarves",
+  "update": {
+    "productId": "prada-triangle-silk-scarf-55-alabaster-us",
+    "reference": "1FF004_2DTP_F0V4C",
+    "previousUSD": 350,
+    "currentUSD": 360,
+    "priceStatus": "live",
+    "source": "https://www.prada.com/us/en/p/printed-silk-twill-scarf-55/1FF004_2DTP_F0V4C",
+    "evidence": "tools/research/price-review-2026-11-19.json",
+    "history": "The original 19 October 2026 USD350 observation remains in priceHistory. Current page marks this reference sold out online."
+  },
+  "sourceReview": {
+    "reviewedClientDate": "2026-11-19",
+    "heartbeat": "2026-11-19T16:57:35.748Z",
+    "focus": "scarves",
+    "changedQuote": {
+      "id": "prada-triangle-silk-scarf-55-alabaster-us",
+      "reference": "1FF004_2DTP_F0V4C",
+      "previousPriceUSD": 350,
+      "observedPriceUSD": 360,
+      "source": "https://www.prada.com/us/en/p/printed-silk-twill-scarf-55/1FF004_2DTP_F0V4C",
+      "method": "Direct official U.S. HTML and exact Product JSON-LD; independently corroborated by the official product-page reader.",
+      "historyPreserved": true
+    },
+    "unchangedQuotes": [
+      {
+        "id": "dior-small-lady-dior-black-us",
+        "priceUSD": 6200,
+        "method": "Exact official U.S. product-page reader snapshot; source date retained"
+      },
+      {
+        "id": "tiffany-t-smile-small-yellow-gold-60011679",
+        "priceUSD": 1400,
+        "method": "Exact official U.S. product-page reader snapshot; source date retained"
+      },
+      {
+        "id": "tiffany-hardwear-small-link-medium-silver-60153085",
+        "priceUSD": 1600,
+        "method": "Exact official U.S. product-page reader snapshot; source date retained"
+      },
+      {
+        "id": "hermes-cape-cod-41-etoupe-w044350ww00",
+        "priceUSD": 4150,
+        "method": "Exact official U.S. product-page reader snapshot; source date retained"
+      },
+      {
+        "id": "dior-oblique-mitzah-navy-us",
+        "priceUSD": 250,
+        "method": "Exact official U.S. product-page reader snapshot; source date retained"
+      },
+      {
+        "id": "mfk-baccarat-rouge-540-edp-70ml-ra12232",
+        "priceUSD": 360,
+        "method": "Exact official U.S. product-page reader snapshot; source date retained"
+      }
+    ],
+    "deferred": [
+      {
+        "id": "hermes-please-hold-line-90-blue-us",
+        "source": "https://www.hermes.com/us/en/product/please-hold-the-line-scarf-90-H004187Sv09/",
+        "retainedUSD": 660,
+        "reason": "Exact U.S. reader open returned404. Search retained an official two-month-old USD660 snapshot, which is not fresh price or delisting evidence."
+      },
+      {
+        "id": "gucci-flora-silk-carre-pink-us",
+        "source": "https://www.gucci.com/us/en/pr/women/accessories-for-women/silks-and-scarves-for-women/square-scarves-for-women/printed-flora-silk-twill-carre-p-6025853G0019772",
+        "retainedUSD": 540,
+        "reason": "U.S. product reader redirected to category; direct product HTML and separate media-host image each timed out once. No inferred delisting, replacement price or date change."
+      },
+      {
+        "id": "moynat-hotel-silk-scarf-70-multicolor-us",
+        "source": "https://www.moynat.com/en-us/products/scarf-hotel-moynat",
+        "retainedUSD": 400,
+        "reason": "Reader inaccessible; direct product request returned429 and was stopped. Image request deferred; no alternative endpoint or stock inference."
+      }
+    ],
+    "discovery": [
+      {
+        "source": "https://www.lvmh.com/fr/les-actualites-lvmh/hotel-moynat-revisite-lheritage-du-voyage",
+        "observation": "Official October23 article describes the Hotel Moynat collaboration and a planned November second chapter. It is not evidence of a new U.S. exact scarf quote or numbered edition; no annual cutoff change."
+      }
+    ],
+    "networkBackoff": [
+      {
+        "host": "www.moynat.com",
+        "reason": "429 on2026-11-19; no retries, alternate endpoints or image request",
+        "doNotRecheckBefore": "2026-11-26"
+      },
+      {
+        "host": "www.gucci.com and media.gucci.com",
+        "reason": "One product timeout and one separate image timeout on2026-11-19; retain local image and price",
+        "doNotRecheckBefore": "2026-11-22"
+      }
+    ],
+    "conclusion": "Publish only the exact Prada official U.S. reference price change and fields actually verified for that reference."
+  },
+  "preservation": {
+    "baselineCommit": "769f694313ca3727a321fe654e5049cca9a5a120",
+    "allOtherProductRecordsUnchanged": true,
+    "allYearbooksAndCutoffsUnchanged": true,
+    "allBrandHistoriesUnchanged": true,
+    "allExistingImageBytesUnchanged": true,
+    "existingImageFiles": 437,
+    "originalQuotePreserved": true,
+    "changedProductIds": [
+      "prada-triangle-silk-scarf-55-alabaster-us"
+    ],
+    "preExistingFrontendReport": "Initial bytes backed up and will be restored after publishing the fresh validation report.",
+    "preExistingFrontendReportSHA256": "dda84a944dd81dc20c0771c3aead5d31cb1dd9b2033b40210d0cf796416d3a9f"
+  },
+  "codeGate": {
+    "passed": true,
+    "reproducibleBuild": true,
+    "pages": 240,
+    "brands": 44,
+    "searchableItems": 164,
+    "pythonRegressionTests": 24,
+    "frontendAssertions": 128,
+    "method": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test"
+  },
+  "frontendReceiptDateContext": {
+    "checkedAt": "2026-11-20",
+    "timezone": "Asia/Shanghai",
+    "explanation": "Frontend receipt follows its own stated timezone; product dates use the client date2026-11-19."
+  },
+  "sourceImageCheck": [
+    {
+      "id": "hermes-please-hold-line-90-blue-us",
+      "status": 200,
+      "meanDifference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "needsReview": false,
+      "sourceHash": "43cc4369bb70973e1f690ce7a993c0d65aff4f9e8385db2e17cf1153dfca8242"
+    },
+    {
+      "id": "dior-oblique-mitzah-navy-us",
+      "status": 200,
+      "meanDifference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "needsReview": false,
+      "sourceHash": "fe84fbbed58a3f3b91346578380eb2ce5db9ded4966f9c0c7e853477b7582b56"
+    },
+    {
+      "id": "gucci-flora-silk-carre-pink-us",
+      "error": "TimeoutError: The read operation timed out"
+    },
+    {
+      "id": "prada-triangle-silk-scarf-55-alabaster-us",
+      "status": 200,
+      "meanDifference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "needsReview": false,
+      "sourceHash": "3b95ffafd48fba13222c6202954a4349d931cb6e9eb1f9c0ae6b7f3bb3ffb3c1"
+    },
+    {
+      "id": "moynat-hotel-silk-scarf-70-multicolor-us",
+      "status": "deferred-known-host-failure"
+    }
+  ],
+  "browserTabsOpened": 0,
+  "publicationStatus": "Not attempted yet; required local gates passed."
+}

@@ -321,10 +321,10 @@
       "materials": [
         "Silk twill"
       ],
-      "priceUSD": 350,
+      "priceUSD": 360,
       "priceLabel": "U.S. retail reference, before tax",
-      "checkedAt": "2026-10-19",
-      "priceEvidence": "Direct official U.S. HTML for selected reference 1FF004_2DTP_F0V4C contained Display and Offer values of 350, formatted $350.00; the page displayed $350.",
+      "checkedAt": "2026-11-19",
+      "priceEvidence": "Direct official U.S. product HTML retrieved on 19 November 2026 contains Product JSON-LD for SKU 1FF004_2DTP_F0V4C, color Alabaster White/White, with Offer price 360.00 and priceCurrency USD. The page-reader snapshot also shows $360 for this exact product. The direct Offer is OutOfStock and the visible page says sold out online; this is a listed retail reference, not a checkout quote or stock guarantee. The previous $350 observation from 19 October 2026 is retained in priceHistory.",
       "priceStatus": "live",
       "source": "https://www.prada.com/us/en/p/printed-silk-twill-scarf-55/1FF004_2DTP_F0V4C",
       "image": "assets/img/products/scarves-prada-triangle-alabaster.jpg",
@@ -344,8 +344,19 @@
       "designer": "House design studio",
       "verificationLimitations": [
         "The official color name is retained verbatim; the supplied official photograph appears softly pink and white on screen.",
-        "The product page included a sold-out-online message; the price is a retail reference and does not imply current stock."
-      ]
+        "The official U.S. product page marked this exact reference sold out online when checked on 19 November 2026. The price is a listed retail reference and does not imply current stock."
+      ],
+      "priceHistory": [
+        {
+          "priceUSD": 350,
+          "checkedAt": "2026-10-19",
+          "priceStatus": "live",
+          "source": "https://www.prada.com/us/en/p/printed-silk-twill-scarf-55/1FF004_2DTP_F0V4C",
+          "priceEvidence": "Direct official U.S. HTML for selected reference 1FF004_2DTP_F0V4C contained Display and Offer values of 350, formatted $350.00; the page displayed $350.",
+          "priceAsOf": "2026-10-19"
+        }
+      ],
+      "priceAsOf": "2026-11-19"
     },
     {
       "id": "moynat-hotel-hobo-brown-ci3625-0760",
