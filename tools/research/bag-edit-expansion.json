@@ -171,15 +171,15 @@
         "Nappa lambskin",
         "Cotton satin lining"
       ],
-      "priceUSD": 2950,
+      "priceUSD": 3070,
       "source": "https://www.miumiu.com/us/en/p/wander-matelasse-nappa-leather-hobo-bag/5BC125_AN88_F0002_V_OOY",
       "id": "miu-miu-wander-black-5bc125-an88",
       "name": "Wander Matelassé Nappa Leather Hobo Bag — Black",
       "nameZh": "缪缪黑色 Matelassé 羊皮 Wander 腋下包",
       "reference": "5BC125_AN88_F0002_V_OOY",
       "priceLabel": "U.S. retail listed-price reference, before tax",
-      "checkedAt": "2026-10-29",
-      "priceEvidence": "Official U.S. HTML matched 5BC125_AN88_F0002_V_OOY, displayed $2,950 and supplied an offers.price value of 2950 with black colour and lambskin material on 2026-10-29.",
+      "checkedAt": "2026-11-21",
+      "priceEvidence": "Direct official U.S. HTML retrieved on 21 November 2026 contains Product JSON-LD for exact SKU 5BC125_AN88_F0002_V_OOY, color Black, with an Offer price of 3070 and priceCurrency USD. The official product-page reader also displays $3,070 for that exact product code. This is the U.S. listed retail reference before tax, not a checkout or stock guarantee. The earlier $2,950 observation from 29 October 2026 is retained in priceHistory.",
       "priceStatus": "live",
       "image": "assets/img/bag-edit/miu-miu-wander-1.webp",
       "imageSource": "https://www.miumiu.com/content/dam/miumiubkg_products/5/5BC/5BC125/AN88F0002/5BC125_AN88_F0002_V_OOY_SLF.jpg",
@@ -196,7 +196,18 @@
       "stylingEn": "Try it with a short cardigan, straight trousers or a simple slip dress. Let the leather texture provide interest and keep additional jewellery to a small number of pieces.",
       "born": "Contemporary collection",
       "designer": "House design studio",
-      "verificationLimitations": []
+      "verificationLimitations": [],
+      "priceHistory": [
+        {
+          "priceUSD": 2950,
+          "checkedAt": "2026-10-29",
+          "priceStatus": "live",
+          "source": "https://www.miumiu.com/us/en/p/wander-matelasse-nappa-leather-hobo-bag/5BC125_AN88_F0002_V_OOY",
+          "priceEvidence": "Official U.S. HTML matched 5BC125_AN88_F0002_V_OOY, displayed $2,950 and supplied an offers.price value of 2950 with black colour and lambskin material on 2026-10-29.",
+          "priceAsOf": "2026-10-29"
+        }
+      ],
+      "priceAsOf": "2026-11-21"
     },
     {
       "brand": "loewe",

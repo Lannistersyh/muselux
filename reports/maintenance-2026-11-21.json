@@ -1,0 +1,298 @@
+{
+  "automationId": "muselux",
+  "checkedAt": "2026-11-21",
+  "clientTimezone": "America/Los_Angeles",
+  "focus": "bags",
+  "update": {
+    "productId": "miu-miu-wander-black-5bc125-an88",
+    "reference": "5BC125_AN88_F0002_V_OOY",
+    "previousUSD": 2950,
+    "currentUSD": 3070,
+    "priceStatus": "live",
+    "source": "https://www.miumiu.com/us/en/p/wander-matelasse-nappa-leather-hobo-bag/5BC125_AN88_F0002_V_OOY",
+    "evidence": "tools/research/price-review-2026-11-21.json",
+    "history": "Original29October2026 USD2950 observation retained in priceHistory."
+  },
+  "sourceReview": {
+    "reviewedClientDate": "2026-11-21",
+    "heartbeat": "2026-11-21T16:57:07.027Z",
+    "focus": "bags",
+    "changedQuote": {
+      "id": "miu-miu-wander-black-5bc125-an88",
+      "reference": "5BC125_AN88_F0002_V_OOY",
+      "previousPriceUSD": 2950,
+      "observedPriceUSD": 3070,
+      "source": "https://www.miumiu.com/us/en/p/wander-matelasse-nappa-leather-hobo-bag/5BC125_AN88_F0002_V_OOY",
+      "method": "Direct official U.S. HTML exact black Product JSON-LD, USD3070; official page reader independently agrees.",
+      "historyPreserved": true
+    },
+    "unchangedQuotes": [
+      {
+        "id": "dior-small-lady-dior-black-us",
+        "priceUSD": 6200,
+        "source": "https://www.dior.com/en_us/fashion/products/M0618ONGE_M900",
+        "method": "Exact official U.S. product reader; source review date preserved. Fendi redirects to its exact-SKU shoulder/crossbody product path; Tiffany details retain medium wrist /7.5in despite an inconsistent UI selector."
+      },
+      {
+        "id": "fendi-baguette-tobacco-ff-us",
+        "priceUSD": 3900,
+        "source": "https://www.fendi.com/us-en/woman/bags/baguette-tobacco-brown-ff-jacquard-fabric-bag-8br600afpmf1gl7",
+        "method": "Exact official U.S. product reader; source review date preserved. Fendi redirects to its exact-SKU shoulder/crossbody product path; Tiffany details retain medium wrist /7.5in despite an inconsistent UI selector."
+      },
+      {
+        "id": "balenciaga-rodeo-medium-black-7897722aa4u1000",
+        "priceUSD": 4590,
+        "source": "https://www.balenciaga.com/en-us/rodeo-handbag-medium-black-7897722AA4U1000.html?dwvar_7897722AA4U1000_color=1000",
+        "method": "Exact official U.S. product reader; source review date preserved. Fendi redirects to its exact-SKU shoulder/crossbody product path; Tiffany details retain medium wrist /7.5in despite an inconsistent UI selector."
+      },
+      {
+        "id": "alaia-le-teckel-medium-black-aa1s06033i061999u",
+        "priceUSD": 3050,
+        "source": "https://www.maison-alaia.com/en-us/product/shoulder-bags/le-teckel-medium-bag-in-calfskin-AA1S06033I061999U.html",
+        "method": "Exact official U.S. product reader; source review date preserved. Fendi redirects to its exact-SKU shoulder/crossbody product path; Tiffany details retain medium wrist /7.5in despite an inconsistent UI selector."
+      },
+      {
+        "id": "the-row-soft-margaux15-black-w1255l133blpl",
+        "priceUSD": 4700,
+        "source": "https://www.therow.com/products/soft-margaux-15-black",
+        "method": "Exact official U.S. product reader; source review date preserved. Fendi redirects to its exact-SKU shoulder/crossbody product path; Tiffany details retain medium wrist /7.5in despite an inconsistent UI selector."
+      },
+      {
+        "id": "tiffany-t-smile-small-yellow-gold-60011679",
+        "priceUSD": 1400,
+        "source": "https://www.tiffany.com/jewelry/necklaces-pendants/tiffany-t-18k-yellow-gold-necklaces-pendants-60011679.html",
+        "method": "Exact official U.S. product reader; source review date preserved. Fendi redirects to its exact-SKU shoulder/crossbody product path; Tiffany details retain medium wrist /7.5in despite an inconsistent UI selector."
+      },
+      {
+        "id": "tiffany-hardwear-small-link-medium-silver-60153085",
+        "priceUSD": 1600,
+        "source": "https://www.tiffany.com/jewelry/bracelets/tiffany-hardwear-sterling-silver-bracelets-60153085.html",
+        "method": "Exact official U.S. product reader; source review date preserved. Fendi redirects to its exact-SKU shoulder/crossbody product path; Tiffany details retain medium wrist /7.5in despite an inconsistent UI selector."
+      },
+      {
+        "id": "hermes-cape-cod-41-etoupe-w044350ww00",
+        "priceUSD": 4150,
+        "source": "https://www.hermes.com/us/en/product/cape-cod-watch-41mm-W044350WW00/",
+        "method": "Exact official U.S. product reader; source review date preserved. Fendi redirects to its exact-SKU shoulder/crossbody product path; Tiffany details retain medium wrist /7.5in despite an inconsistent UI selector."
+      },
+      {
+        "id": "dior-oblique-mitzah-navy-us",
+        "priceUSD": 250,
+        "source": "https://www.dior.com/en_us/fashion/products/15DOB106I600_C541",
+        "method": "Exact official U.S. product reader; source review date preserved. Fendi redirects to its exact-SKU shoulder/crossbody product path; Tiffany details retain medium wrist /7.5in despite an inconsistent UI selector."
+      },
+      {
+        "id": "mfk-baccarat-rouge-540-edp-70ml-ra12232",
+        "priceUSD": 360,
+        "source": "https://www.franciskurkdjian.com/us-en/p/baccarat-rouge-540-eau-de-parfum-RA12232.html",
+        "method": "Exact official U.S. product reader; source review date preserved. Fendi redirects to its exact-SKU shoulder/crossbody product path; Tiffany details retain medium wrist /7.5in despite an inconsistent UI selector."
+      }
+    ],
+    "deferred": [
+      {
+        "id": "gucci-jackie-small-black-gg-us",
+        "source": "https://www.gucci.com/us/en/pr/women/handbags/shoulder-bags-for-women/gucci-jackie-small-shoulder-bag-p-867156FAFV41000",
+        "retainedUSD": 1490,
+        "reason": "Gucci product and image hosts deferred through22November after prior timeouts; no new request."
+      },
+      {
+        "id": "moynat-hotel-hobo-brown-ci3625-0760",
+        "source": "https://www.moynat.com/en-us/collections/hotel-moynat-collection/products/hobo-bag-hotel-moynat",
+        "retainedUSD": 2550,
+        "reason": "Moynat429 backoff through26November; no product or photo request."
+      },
+      {
+        "id": "prada-galleria-small-black-leather-us",
+        "source": "https://www.prada.com/us/en/p/small-prada-galleria-leather-bag/1BA896_2CYS_F0002_V_YO0",
+        "retainedUSD": 5100,
+        "reason": "Reader redirected to homepage; official search retains an older USD5100 snapshot. No fresh exact price or delisting evidence."
+      },
+      {
+        "id": "bottega-small-andiamo-black-766014vcpp11249",
+        "source": "https://www.bottegaveneta.com/en-us/small-andiamo-black-766014VCPP11249.html",
+        "retainedUSD": 4900,
+        "reason": "Reader hides price; one direct product HTML request returned403 and was stopped."
+      },
+      {
+        "id": "loewe-amazona180-large-black-a039asrx02",
+        "source": "https://www.loewe.com/usa/en/women/bags/amazona/large-amazona-180-bag-in-soft-calfskin/A039ASRX02-1100.html",
+        "retainedUSD": 5400,
+        "reason": "Reader and one successfully retrieved origin HTML do not expose a usable exact U.S. price. No inferred quote or date update."
+      },
+      {
+        "id": "louis-vuitton-speedy20-green-m27530",
+        "source": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-20-autres-toiles-monogram-nvprod7270014v/M27530",
+        "retainedUSD": 2850,
+        "reason": "Exact old U.S. product URL returned410. Search did not yield usable current official U.S. evidence. Retained USD2850 observation and photo; no delisting inference."
+      }
+    ],
+    "discovery": [
+      {
+        "scope": "Bag collaboration discovery",
+        "observation": "Search leads for Louis Vuitton/Keith Haring and LOEWE/Tim Burton did not establish new exact U.S. product quotes or qualified new annual entries. Secondary report dates, future Cruise2027 launches and collaboration language were not treated as numbered/explicit limited evidence for the retained catalog."
+      }
+    ],
+    "networkBackoff": [
+      {
+        "host": "www.bottegaveneta.com direct product HTML",
+        "reason": "403 on21November; no alternate endpoint or browser retry",
+        "doNotRecheckBefore": "2026-11-28"
+      },
+      {
+        "host": "www.prada.com exact Galleria source",
+        "reason": "Homepage redirect without new exact current evidence",
+        "doNotRecheckBefore": "2026-11-28"
+      },
+      {
+        "host": "us.louisvuitton.com exact M27530 source",
+        "reason": "410 without adequate current primary price evidence",
+        "doNotRecheckBefore": "2026-11-28"
+      }
+    ],
+    "conclusion": "Publish only the supported exact black Miu Miu Wander U.S. listed-price change. Preserve all other products, source dates, photos and annual cutoffs."
+  },
+  "preservation": {
+    "baselineCommit": "0c0d6b79df7e537984b098d62cdbde065c274ebf",
+    "allOtherProductRecordsUnchanged": true,
+    "allYearbooksAndCutoffsUnchanged": true,
+    "allBrandHistoriesUnchanged": true,
+    "allExistingImageBytesUnchanged": true,
+    "existingImageFiles": 437,
+    "originalQuotePreserved": true,
+    "changedProductIds": [
+      "miu-miu-wander-black-5bc125-an88"
+    ],
+    "preExistingFrontendReport": "Initial local report bytes backed up outside Git and restored after publishing fresh validation evidence.",
+    "preExistingFrontendReportSHA256": "dda84a944dd81dc20c0771c3aead5d31cb1dd9b2033b40210d0cf796416d3a9f"
+  },
+  "codeGate": {
+    "passed": true,
+    "reproducibleBuild": true,
+    "pages": 240,
+    "brands": 44,
+    "searchableItems": 164,
+    "pythonRegressionTests": 24,
+    "frontendAssertions": 128,
+    "method": "Python regression tests, actual JavaScript in Node VM with DOM stubs, syntax, exact manifest/runtime/asset checks; no browser layout test"
+  },
+  "frontendReceiptDateContext": {
+    "checkedAt": "2026-11-22",
+    "timezone": "Asia/Shanghai",
+    "explanation": "Frontend receipt uses its stated timezone; product review date follows client date2026-11-21."
+  },
+  "sourceImageCheck": [
+    {
+      "id": "dior-small-lady-dior-black-us",
+      "status": 200,
+      "meanDifference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "needsReview": false,
+      "sourceHash": "1d905a8faf6639f1488c55198f8abe7f67a95e9b4540ec757c9d76774d22f849"
+    },
+    {
+      "id": "gucci-jackie-small-black-gg-us",
+      "status": "deferred-known-host-failure"
+    },
+    {
+      "id": "prada-galleria-small-black-leather-us",
+      "status": 200,
+      "meanDifference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "needsReview": false,
+      "sourceHash": "ac04e01b31396d86c176703b6c5ed99d50ac951cad7919317b3f015325682c60"
+    },
+    {
+      "id": "fendi-baguette-tobacco-ff-us",
+      "status": "deferred-known-host-failure"
+    },
+    {
+      "id": "moynat-hotel-hobo-brown-ci3625-0760",
+      "status": "deferred-known-host-failure"
+    },
+    {
+      "id": "bottega-small-andiamo-black-766014vcpp11249",
+      "status": 200,
+      "meanDifference": [
+        0.25396728515625,
+        0.40252685546875,
+        0.7943115234375
+      ],
+      "needsReview": false,
+      "sourceHash": "7804a5d527de0249a236f78894594e0169d4ce13f616608e7cb531223c565f3c"
+    },
+    {
+      "id": "balenciaga-rodeo-medium-black-7897722aa4u1000",
+      "status": 200,
+      "meanDifference": [
+        0.0809326171875,
+        0.841552734375,
+        0.07366943359375
+      ],
+      "needsReview": false,
+      "sourceHash": "2488357ddd296d28622ca15a73dfbb4e4a74ffe7ce131ed9de48f73abd1170fa"
+    },
+    {
+      "id": "alaia-le-teckel-medium-black-aa1s06033i061999u",
+      "status": 200,
+      "meanDifference": [
+        0.0302734375,
+        0.02783203125,
+        0.02935791015625
+      ],
+      "needsReview": false,
+      "sourceHash": "8e842ffd7d6a495faf43a4fa7b12e5d352547c92e4374afce1155d43adacfeb0"
+    },
+    {
+      "id": "the-row-soft-margaux15-black-w1255l133blpl",
+      "status": 200,
+      "meanDifference": [
+        0.22003173828125,
+        0.79095458984375,
+        0.16558837890625
+      ],
+      "needsReview": false,
+      "sourceHash": "e586587704618b005d6604ea94b81a708b66f7d130f1212dc6b64469ac04f2eb"
+    },
+    {
+      "id": "miu-miu-wander-black-5bc125-an88",
+      "status": 200,
+      "meanDifference": [
+        0.65325927734375,
+        0.3255615234375,
+        0.7244873046875
+      ],
+      "needsReview": false,
+      "sourceHash": "69d2c47a64a9c876a79ec17d6af68b8535f989b6aba638c3b4b25a838ecd3fdc"
+    },
+    {
+      "id": "loewe-amazona180-large-black-a039asrx02",
+      "status": 200,
+      "meanDifference": [
+        0.3111572265625,
+        0.30908203125,
+        0.3172607421875
+      ],
+      "needsReview": false,
+      "sourceHash": "2a9cca0e94fa90f0a8394c99083277f193098077f834b3734bc9491eae557058"
+    },
+    {
+      "id": "louis-vuitton-speedy20-green-m27530",
+      "status": 200,
+      "meanDifference": [
+        0.06744384765625,
+        0.05194091796875,
+        0.08197021484375
+      ],
+      "needsReview": false,
+      "sourceHash": "a74927009f9c9424c1b1266526d2d9828d221280bea774d20bc66767b19fbb71"
+    }
+  ],
+  "browserTabsOpened": 0,
+  "publicationStatus": "Not attempted yet; required local gates passed."
+}

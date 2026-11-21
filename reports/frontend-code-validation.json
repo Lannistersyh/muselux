@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checkedAt": "2026-11-20",
+  "checkedAt": "2026-11-22",
   "timezone": "Asia/Shanghai",
   "method": "Node VM executing actual generated HTML and data.js/render.js/main.js using a dependency-free minimal DOM fixture",
   "scope": "Behavior and offline URL checks only; no browser engine, layout, CSS or assistive-technology verification. No network calls.",
@@ -138,28 +138,28 @@
     "Desktop resize closes mobile menu"
   ],
   "sourceHashes": {
-    "assets/js/data.js": "c37601651d6233d20fe6d2d5598f361cf6087325bdb933873d9b1e69e6312e9b",
+    "assets/js/data.js": "b36d8a3d7fbf9aad230ebfa92b528b561e1aac33c6b294d8ce297daede8011b7",
     "assets/js/render.js": "f26a3430dcb621c108f66457a3d17272d682959d4d544896338a9a642c0066dd",
     "assets/js/main.js": "57effd484f7bb73005024fd63985f6edb0519fed645d9339262618084a10a3e9"
   },
-  "contentHash": "ebe6cf68a33e825f05058d6bc94e80b8891ffb5f3366f7651077f232043f4d00",
+  "contentHash": "0b6296eed33d0b647d30b5b6bd538582527f4878c328b834dc0f4e2cfc662336",
   "fixtureHashes": {
-    "search.html": "75ac2c92b663a2e14777f0b2eb7f5037f102dc2d01a311ea064b2965e382fcc7",
-    "perfumery.html": "67ccf92eafdaa5107ca286337aa082712b2f69e79867b1b6fb9c6b607b305325",
-    "womens-style.html": "ab9fb46f5e448a870097869b47db3e42204f60e6ceba48d229745f8632b19122",
-    "style/mob-wife.html": "cec0ec3bc5b6fc8f6266393e7af8588d044f2d2e5fecae7306cff283808fa3fe",
-    "style/napoleon-core.html": "a100f28c33a98b672d8c2e0a157669cc838d5107fefc9867e9a75d0ab9639dd6",
-    "style/heiress.html": "4540ec215b6e40670f471048aa2c5bc0f373249932124bf817fddcb9affe4d4b",
-    "brands.html": "308cfe51c0c3a46f0cf544c3d13861c8334e3f5820c950e7fd467425a5625c0f",
-    "bags-by-year.html": "245f20fa76bb2bef315930774f10c1bc9785af99c330226a52f1384650ac1ef5",
-    "item/dior-small-lady-dior-black-us.html": "d5a8870f28bdfbabfb14954212e8429a58be8ad696f66121531616b9c2883c27",
-    "item/bag-2022-prada-re-edition-2000.html": "127ca58f98406a45f07df71696e169ad713ec7eb116df8af81cc421f8b840c56",
-    "item/birkin.html": "25217b0c143313cc760afe46ff1687615c64e83d6c4b5ad5985ff0be7d9fd1f5",
-    "jewelry.html": "e558fb1b01791e0edd5a926f4c00904b51811156e54b89fb71166257244459c5",
-    "cat/necklace.html": "1a4d85ec44ed114b3cbfdfae1127303d96bc0620364691c811751c9be27fed5e",
-    "cat/jewelry.html": "d531b31eeff5fa3c14cec4f3becca2b6ead73423235ff9bad7cb9c26ff21828a",
-    "necklaces-by-year.html": "da53ce76e7ed75e111aba45287c8c84aa223626cfdd935314ea3f5e83484b6a3",
-    "item/cartier-trinity-classic-ring-size53-b4234253.html": "cbe190971b224427944bac3e0654be32c29038dc8178159b1a5aac19ab928e58",
-    "index.html": "712493203c3bd677e9ce420fbebf8d65844b44e1ff10bf915827e4d9da7e6f77"
+    "search.html": "e4cecad2e41330868ad07b50f5e6390ced21af4247fddde30bb1a6e0e6837ff2",
+    "perfumery.html": "532cd08fd1f95e8151e57d8b923a3df07a59b328de3fb3e4a3e2b93abfc62125",
+    "womens-style.html": "a328544f53f4ce8c17447893038b743585fa74f446bdf736b2ca654e7dbc5db3",
+    "style/mob-wife.html": "841b0fe63efda973b3ba8d1ae302b043b3414b233eb3a7d8466b6a915a355954",
+    "style/napoleon-core.html": "02b1a10f60b15578ee0ec255ecf39d3cf5e7ac4ca049760e9aad1f6a251d893b",
+    "style/heiress.html": "1b58267bb95cbc0321e2f12ade417284e9c1cd0a03fe17f72db47190e72f03d1",
+    "brands.html": "c2ce01440ae6c1ff576b4ab1083d85af1a5478ac2b59b08920eec6de142731e2",
+    "bags-by-year.html": "ef8cd781e7a5a6a03807f443466f09e3d324ac774f23844ac20b50b2ace65976",
+    "item/dior-small-lady-dior-black-us.html": "3d9fa06c351663f2ef0807c6bdd8c70c772a0beaabc74b5f9d915f8a443f4cd6",
+    "item/bag-2022-prada-re-edition-2000.html": "2b0e26dbc649a2f5a0005cbe06e3cdb7de47ae104052655ae5b081fb966984a6",
+    "item/birkin.html": "2cc93c9c05cf1a120f875d983817c89938b74085ec43e223d75820f6c01410e0",
+    "jewelry.html": "8c48e6881e018c7d3b20718ae4b2a2650a6ec63943c9ea48287a675e84e0c92d",
+    "cat/necklace.html": "6b6cb9b7d093158ddbb224010fa3f06a4a05aa424785300b93b433fba0ec422b",
+    "cat/jewelry.html": "af3117015c888a4bb75bcf7b6d79e0949cf684d43f8647bce53f957d23367289",
+    "necklaces-by-year.html": "0cc245c262fed5bd69d9ea1005f9d38882bffc7be788fdcd1284e91830f3873a",
+    "item/cartier-trinity-classic-ring-size53-b4234253.html": "2297d022e1406cb263cd367780f162a6d1b8d2325bceb399bd03b3f987a6317f",
+    "index.html": "546637136ba29a73c17207291854696262564d83ebb174b7d3b9647e54c5e25a"
   }
 }

@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-11-21",
+  "productId": "miu-miu-wander-black-5bc125-an88",
+  "brand": "Miu Miu",
+  "reference": "5BC125_AN88_F0002_V_OOY",
+  "source": "https://www.miumiu.com/us/en/p/wander-matelasse-nappa-leather-hobo-bag/5BC125_AN88_F0002_V_OOY",
+  "method": "Direct official U.S. HTML and exact Product JSON-LD; corroborated by the official product-page reader.",
+  "previous": {
+    "priceUSD": 2950,
+    "checkedAt": "2026-10-29",
+    "priceStatus": "live",
+    "source": "https://www.miumiu.com/us/en/p/wander-matelasse-nappa-leather-hobo-bag/5BC125_AN88_F0002_V_OOY",
+    "priceEvidence": "Official U.S. HTML matched 5BC125_AN88_F0002_V_OOY, displayed $2,950 and supplied an offers.price value of 2950 with black colour and lambskin material on 2026-10-29.",
+    "priceAsOf": "2026-10-29"
+  },
+  "observed": {
+    "priceUSD": 3070,
+    "currency": "USD",
+    "color": "Black",
+    "sku": "5BC125_AN88_F0002_V_OOY"
+  },
+  "directHTML": {
+    "status": 200,
+    "url": "https://www.miumiu.com/us/en/p/wander-matelasse-nappa-leather-hobo-bag/5BC125_AN88_F0002_V_OOY",
+    "sha256": "e1a6608231faa1088a47d10fdbf762676778c43c8563d305d672553e444590ed"
+  },
+  "readerSnapshot": {
+    "reportedCrawled": "same day",
+    "priceUSD": 3070,
+    "source": "https://www.miumiu.com/us/en/p/wander-matelasse-nappa-leather-hobo-bag/5BC125_AN88_F0002_V_OOY",
+    "completeResponseSHA256": "d55bda97dac9574a46f06412ede8da8a1520115a0e224989ec92c499a654b275"
+  },
+  "sourceImage": {
+    "source": "https://www.miumiu.com/content/dam/miumiubkg_products/5/5BC/5BC125/AN88F0002/5BC125_AN88_F0002_V_OOY_SLF.jpg",
+    "sha256": "69d2c47a64a9c876a79ec17d6af68b8535f989b6aba638c3b4b25a838ecd3fdc",
+    "meanRGBDifference": [
+      0.65325927734375,
+      0.3255615234375,
+      0.7244873046875
+    ],
+    "localImageUnchanged": true
+  },
+  "priceStatus": "live",
+  "limitations": [
+    "Listed U.S. retail price before tax; no checkout or stock guarantee.",
+    "The actual date the brand changed its price is unknown; 21 November 2026 is the observation date."
+  ],
+  "preservation": "All other product records/source dates, all existing local image bytes, brand histories, historical prices and annual cutoffs remain unchanged."
+}
